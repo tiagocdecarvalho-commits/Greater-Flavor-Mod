@@ -1,0 +1,13 @@
+ff_hai_setup_title;Faith and Frontier: Historical AI Configuration;;;;;;;;;;;;;x
+ff_hai_setup_desc;Choose the course of the campaign. Historical mode directs supported AI decisions toward their documented paths, with dated diplomacy, colonial agreements and Balkan developments. Existing treaties, wars and territorial conditions still matter. Your choices and explicit railroading settings take precedence. Normal mode retains the current GFM and submod behavior.;;;;;;;;;;;;;x
+ff_hai_historical;Enable Hyper-Realistic Historical AI.;;;;;;;;;;;;;x
+ff_hai_normal;Use Normal GFM AI.;;;;;;;;;;;;;x
+ff_historical_ai_enabled;Historical AI preferences are enabled;;;;;;;;;;;;;x
+ff_historical_ai_mode_selected;Historical AI configuration is complete;;;;;;;;;;;;;x
+ff_hai_bulgaria_title;The Independence of Bulgaria;;;;;;;;;;;;;x
+ff_hai_bulgaria_desc;The union with Eastern Rumelia has strengthened the principality, but Ottoman suzerainty still limits its standing abroad. The government seeks recognition as an independent kingdom through a diplomatic settlement with Constantinople.;;;;;;;;;;;;;x
+ff_hai_bulgaria_request;Seek recognition of our independence.;;;;;;;;;;;;;x
+ff_hai_recognition_title;Bulgarian Sovereignty;;;;;;;;;;;;;x
+ff_hai_recognition_desc;Sofia seeks to end the remaining bond of suzerainty. Recognition would acknowledge the government already administering Bulgaria and Eastern Rumelia, without settling the other contested frontiers of the Balkans.;;;;;;;;;;;;;x
+ff_hai_recognize;Recognize the independent Bulgarian state.;;;;;;;;;;;;;x
+ff_hai_defer;Leave the question unresolved.;;;;;;;;;;;;;x

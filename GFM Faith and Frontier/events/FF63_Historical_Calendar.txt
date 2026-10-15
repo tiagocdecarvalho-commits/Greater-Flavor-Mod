@@ -1,0 +1,36 @@
+country_event = { id = 9784950 title = "FF63_CLOCK_TITLE" desc = "FF63_CLOCK_DESC" is_triggered_only = yes
+ option = { name = "FF63_CLOCK_OK" ai_chance = { factor = 100 } set_global_flag = ff63_due_1877
+ TRN = { random_owned = { limit = { owner = {  tag = TRN year = 1877 OR = { has_global_flag = ff63_due_1877 AND = { year = 1877 month = 4 } year = 1878 } is_vassal = no NOT = { exists = BTV } NOT = { war_with = ENG } ENG = { exists = yes } NOT = { has_country_flag = ff63_proclamation_resolved }  } } owner = { country_event = 9784900 } } }
+ } }
+country_event = {
+ id = 9784951 title = "FF63_CLOCK_TITLE" desc = "FF63_CLOCK_DESC" is_triggered_only = yes
+ option = { name = "FF63_CLOCK_OK" ai_chance = { factor = 100 } set_global_flag = ff63_due_1880 }
+}
+country_event = { id = 9784952 title = "FF63_CLOCK_TITLE" desc = "FF63_CLOCK_DESC" is_triggered_only = yes
+ option = { name = "FF63_CLOCK_OK" ai_chance = { factor = 100 } set_global_flag = ff63_due_zulu_war
+ ENG = { random_owned = { limit = { owner = {  tag = ENG year = 1879 OR = { has_global_flag = ff63_due_zulu_war year = 1880 } war = no OR = { owns = 4003 owns = 2087 SAF = { exists = yes vassal_of = ENG } } ZUL = { exists = yes is_vassal = no war = no  } NOT = { has_global_flag = zulu_war }  } } owner = { country_event = 98250 } } }
+ } }
+country_event = { id = 9784953 title = "FF63_CLOCK_TITLE" desc = "FF63_CLOCK_DESC" is_triggered_only = yes
+ option = { name = "FF63_CLOCK_OK" ai_chance = { factor = 100 } set_global_flag = ff63_due_partition
+ ZUL = { random_owned = { limit = { owner = {  tag = ZUL vassal_of = ENG year = 1879 OR = { has_global_flag = ff63_due_partition year = 1880 } NOT = { has_country_flag = ff63_zulu_partition }  } } owner = { country_event = 9784910 } } }
+ } }
+country_event = { id = 9784954 title = "FF63_CLOCK_TITLE" desc = "FF63_CLOCK_DESC" is_triggered_only = yes
+ option = { name = "FF63_CLOCK_OK" ai_chance = { factor = 100 } set_global_flag = ff63_due_restoration
+ ZUL = { random_owned = { limit = { owner = {  tag = ZUL year = 1883 OR = { has_global_flag = ff63_due_restoration year = 1884 } vassal_of = ENG has_country_flag = ff63_zulu_partition NOT = { has_country_flag = ff63_cetshwayo_restored }  } } owner = { country_event = 9784911 } } }
+ } }
+country_event = { id = 9784955 title = "FF63_CLOCK_TITLE" desc = "FF63_CLOCK_DESC" is_triggered_only = yes
+ option = { name = "FF63_CLOCK_OK" ai_chance = { factor = 100 } set_global_flag = ff63_due_annex_zulu
+ ENG = { random_owned = { limit = { owner = {  tag = ENG year = 1887 OR = { has_global_flag = ff63_due_annex_zulu year = 1888 } NOT = { TRN = { has_country_flag = ff68_limited_settlement_applied } TRN = { has_country_flag = ff67_full_cape_victory } SAF = { has_country_flag = ff67_south_african_republic } ENG = { has_country_flag = ff67_british_republic } } ZUL = { exists = yes war = no OR = { is_vassal = no vassal_of = ENG } } NOT = { war_with = TRN } NOT = { has_global_flag = ff63_zulu_annexed }  } } owner = { country_event = 9784912 } } }
+ } }
+country_event = { id = 9784956 title = "FF63_CLOCK_TITLE" desc = "FF63_CLOCK_DESC" is_triggered_only = yes
+ option = { name = "FF63_CLOCK_OK" ai_chance = { factor = 100 } set_global_flag = ff63_due_nrb
+ TRN = { random_owned = { limit = { owner = {  NOT = { has_country_flag = ff63_popup_9784920 } tag = TRN NOT = { TRN = { has_country_flag = ff68_limited_settlement_applied } TRN = { has_country_flag = ff67_full_cape_victory } SAF = { has_country_flag = ff67_south_african_republic } ENG = { has_country_flag = ff67_british_republic } } year = 1884 OR = { has_global_flag = ff63_due_nrb year = 1885 } is_vassal = no war = no ZUL = { exists = yes owns = 3942 war = no } NOT = { exists = NRB } NOT = { has_global_flag = ff63_nrb_resolved }  } } owner = { country_event = 9784920 } } }
+ } }
+country_event = { id = 9784957 title = "FF63_CLOCK_TITLE" desc = "FF63_CLOCK_DESC" is_triggered_only = yes
+ option = { name = "FF63_CLOCK_OK" ai_chance = { factor = 100 } set_global_flag = ff63_due_nrb_join
+ NRB = { random_owned = { limit = { owner = {  NOT = { has_country_flag = ff63_popup_9784921 } tag = NRB year = 1888 OR = { has_global_flag = ff63_due_nrb_join year = 1889 } war = no TRN = { exists = yes is_vassal = no war = no } NOT = { has_global_flag = ff63_nrb_incorporated }  } } owner = { country_event = 9784921 } } }
+ } }
+country_event = { id = 9784958 title = "FF63_CLOCK_TITLE" desc = "FF63_CLOCK_DESC" is_triggered_only = yes
+ option = { name = "FF63_CLOCK_OK" ai_chance = { factor = 100 } set_global_flag = ff63_due_london
+ TRN = { random_owned = { limit = { owner = {  tag = TRN year = 1884 OR = { has_global_flag = ff63_due_london year = 1885 } is_vassal = no NOT = { war_with = ENG } has_country_flag = ff63_first_war_settled NOT = { has_country_flag = ff63_london_convention }  } } owner = { country_event = 9784933 } } }
+ } }

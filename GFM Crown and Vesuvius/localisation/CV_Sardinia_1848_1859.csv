@@ -1,0 +1,107 @@
+cvs2_siccardi;The Siccardi Laws;;;;;;;;;;;;;x
+cvs2_parliamentary_cabinet;The Parliamentary Centre;;;;;;;;;;;;;x
+cvs2_rail_works;Works on the Apennine Railway;;;;;;;;;;;;;x
+cvs2_rail_network;The Turin-Genoa Connection;;;;;;;;;;;;;x
+cvs2_reserve_training;La Marmora's Reserve Training;;;;;;;;;;;;;x
+cvs2_naval_training;The Genoese Naval School;;;;;;;;;;;;;x
+cvs2_trade_treaties;Piedmontese Commercial Treaties;;;;;;;;;;;;;x
+cvs2_national_society;Societa Nazionale Italiana;;;;;;;;;;;;;x
+cvs2_expedition_logistics;The Expeditionary Commissariat;;;;;;;;;;;;;x
+cvs2_alpine_volunteers;The Alpine Volunteers;;;;;;;;;;;;;x
+cvs2_statuto_title;The Statuto Albertino;;;;;;;;;;;;;x
+cvs2_statuto_desc;Petitions and public demonstrations press Charles Albert to grant a charter. The proposed Statuto preserves the crown and its appointed Senate while admitting an elected Chamber through a restricted property franchise.;;;;;;;;;;;;;x
+cvs2_statuto_grant;Grant the charter.;;;;;;;;;;;;;x
+cvs2_statuto_refuse;Maintain the royal prerogative.;;;;;;;;;;;;;x
+cvs2_emancipation_title;Citizens Before the Law;;;;;;;;;;;;;x
+cvs2_emancipation_desc;The new constitutional order raises the position of Waldensians and Jews. Ministers propose removing civil disabilities, allowing the crown's non-Catholic subjects to enter public life without renouncing their faith.;;;;;;;;;;;;;x
+cvs2_emancipation_yes;Remove the civil disabilities.;;;;;;;;;;;;;x
+cvs2_emancipation_no;Retain the existing restrictions.;;;;;;;;;;;;;x
+cvs2_first_war_title;The Lombard Appeal;;;;;;;;;;;;;x
+cvs2_first_war_desc;Unrest in Austrian Italy has opened a dangerous opportunity. Charles Albert can take the field for Lombardy, but his ministers cannot promise that patriotic enthusiasm will overcome the Habsburg army.;;;;;;;;;;;;;x
+cvs2_first_war_yes;Cross the Ticino for Lombardy.;;;;;;;;;;;;;x
+cvs2_first_war_no;Keep the army behind the frontier.;;;;;;;;;;;;;x
+cvs2_novara_title;The Crown After Defeat;;;;;;;;;;;;;x
+cvs2_novara_desc;Defeat has broken Charles Albert's position. He yields the crown to Victor Emmanuel. The new king must negotiate from weakness while deciding whether the Statuto will survive the military catastrophe.;;;;;;;;;;;;;x
+cvs2_novara_keep;Preserve the Statuto.;;;;;;;;;;;;;x
+cvs2_novara_reaction;Restrict the constitutional experiment.;;;;;;;;;;;;;x
+cvs2_dazeglio_title;A Cabinet of Reconstruction;;;;;;;;;;;;;x
+cvs2_dazeglio_desc;Massimo d'Azeglio offers a moderate cabinet committed to the charter. Its task is to reconcile the monarchy and Chamber, restore credit and rebuild the administration amid the disappointments of the revolutionary years.;;;;;;;;;;;;;x
+cvs2_dazeglio_yes;Entrust reconstruction to the moderates.;;;;;;;;;;;;;x
+cvs2_dazeglio_no;Retain a court ministry.;;;;;;;;;;;;;x
+cvs2_siccardi_title;The Siccardi Laws;;;;;;;;;;;;;x
+cvs2_siccardi_desc;Giuseppe Siccardi proposes ending separate ecclesiastical jurisdiction and the privilege of sanctuary. A common civil law would strengthen the state, but the bishops and Rome contest the measure.;;;;;;;;;;;;;x
+cvs2_siccardi_yes;Pass the laws.;;;;;;;;;;;;;x
+cvs2_siccardi_no;Seek an agreement with the bishops.;;;;;;;;;;;;;x
+cvs2_connubio_title;The Connubio;;;;;;;;;;;;;x
+cvs2_connubio_desc;Cavour and Rattazzi propose an understanding between the parliamentary centres. Their alliance could sustain reform against both clerical reaction and republican opposition, while making the cabinet more dependent on the Chamber.;;;;;;;;;;;;;x
+cvs2_connubio_yes;Build the parliamentary centre.;;;;;;;;;;;;;x
+cvs2_connubio_no;Keep the factions apart.;;;;;;;;;;;;;x
+cvs2_cavour_title;Cavour at the Head of Government;;;;;;;;;;;;;x
+cvs2_cavour_desc;The king calls Cavour to form a ministry. Commercial treaties, railway construction and a stronger place in European diplomacy now belong to a single programme, dependent on parliamentary support and the treasury's means.;;;;;;;;;;;;;x
+cvs2_cavour_yes;Commission Cavour to form the government.;;;;;;;;;;;;;x
+cvs2_cavour_no;Choose another moderate ministry.;;;;;;;;;;;;;x
+cvs2_rail_title;Complete the Turin-Genoa Railway;;;;;;;;;;;;;x
+cvs2_rail_desc;Finance the remaining connection through the Apennines. The undertaking requires sustained construction before the commercial route can enter service.;;;;;;;;;;;;;x
+cvs2_rail_open_title;The Railway Reaches Genoa;;;;;;;;;;;;;x
+cvs2_rail_open_desc;The funded Apennine works are complete. Turin and Genoa can now exchange passengers and goods along the connected route, bringing the capital closer to the kingdom's principal port.;;;;;;;;;;;;;x
+cvs2_rail_open_ack;Open the completed connection.;;;;;;;;;;;;;x
+cvs2_army_title;Finance La Marmora's Army Reforms;;;;;;;;;;;;;x
+cvs2_army_desc;Improve reserve training, military administration and the preparation of the field army. The reform strengthens the existing forces and their supporting institutions.;;;;;;;;;;;;;x
+cvs2_navy_title;Strengthen the Genoese Naval Establishment;;;;;;;;;;;;;x
+cvs2_navy_desc;Train crews and officers for a navy increasingly dependent on steam, engineering and reliable coastal establishments. The programme supports the fleet that the kingdom can afford to maintain.;;;;;;;;;;;;;x
+cvs2_trade_title;Negotiate Cavour's Commercial Treaties;;;;;;;;;;;;;x
+cvs2_trade_desc;Pursue closer commercial relations with France and Britain. The ministry seeks cheaper industrial inputs and broader markets while accepting opposition from protected interests.;;;;;;;;;;;;;x
+cvs2_crimea_title;Equip the Sardinian Expeditionary Corps;;;;;;;;;;;;;x
+cvs2_crimea_desc;Support the expedition against Russia with a dedicated commissariat and medical arrangements. Service beside the western powers may give Piedmont a hearing when peace is negotiated.;;;;;;;;;;;;;x
+cvs2_crimea_service_title;Service on the Black Sea;;;;;;;;;;;;;x
+cvs2_crimea_service_desc;The expedition is serving in the war against Russia. Dispatches describe the difficulties of supply and disease as well as military service. Piedmont's ministers hope that this commitment will be remembered at the peace table.;;;;;;;;;;;;;x
+cvs2_crimea_service_ack;Support the men in the field.;;;;;;;;;;;;;x
+cvs2_paris_title;The Italian Question at Paris;;;;;;;;;;;;;x
+cvs2_paris_desc;Peace with Russia has opened a diplomatic opportunity. Cavour raises the condition of Italy before the western powers. Sympathy does not constitute an alliance, but Piedmont has secured a place in the discussion.;;;;;;;;;;;;;x
+cvs2_paris_ack;Present the Italian question.;;;;;;;;;;;;;x
+cvs2_society_title;The Societa Nazionale Italiana;;;;;;;;;;;;;x
+cvs2_society_desc;The National Society seeks to unite patriots around independence and the Savoy monarchy. Moderates and former democrats may cooperate, but their agreement leaves difficult questions about the shape of a united Italy.;;;;;;;;;;;;;x
+cvs2_society_yes;Permit cooperation with the national movement.;;;;;;;;;;;;;x
+cvs2_society_no;Keep the movement at arm's length.;;;;;;;;;;;;;x
+cvs2_french_pact_title;The Meeting at Plombieres;;;;;;;;;;;;;x
+cvs2_french_pact_desc;Piedmont asks for French support against Austria. An understanding would prepare cooperation in a future crisis. the frontier question of Nice and Savoy remains tied to a successful settlement.;;;;;;;;;;;;;x
+cvs2_french_pact_yes;Agree to prepare a defensive understanding.;;;;;;;;;;;;;x
+cvs2_french_pact_no;Decline the proposed understanding.;;;;;;;;;;;;;x
+cvs2_pact_reply_yes_title;France Accepts the Understanding;;;;;;;;;;;;;x
+cvs2_pact_reply_yes_desc;Paris has accepted the proposed understanding. Diplomatic preparations can continue, but French aid still depends on the alliance surviving the coming crisis. No province has changed hands.;;;;;;;;;;;;;x
+cvs2_pact_reply_yes_ack;Prepare for the coming negotiations.;;;;;;;;;;;;;x
+cvs2_pact_reply_no_title;France Declines the Understanding;;;;;;;;;;;;;x
+cvs2_pact_reply_no_desc;Paris has declined the proposed understanding. Piedmont must reconsider its diplomacy. the ministry has received a definite refusal.;;;;;;;;;;;;;x
+cvs2_pact_reply_no_ack;Record the French refusal.;;;;;;;;;;;;;x
+cvs2_crisis_title;Bring the Italian Question Before Austria;;;;;;;;;;;;;x
+cvs2_crisis_desc;Continue preparations with France and place the Italian question before Vienna. Austria may issue an ultimatum or choose negotiation. the outcome is not settled by the meeting at Plombieres.;;;;;;;;;;;;;x
+cvs2_ultimatum_title;The Piedmontese Crisis;;;;;;;;;;;;;x
+cvs2_ultimatum_desc;Piedmont's preparations and French connection threaten Austrian Italy. Vienna can demand Sardinian demobilisation, risking a war, or accept negotiations without conceding territory.;;;;;;;;;;;;;x
+cvs2_ultimatum_send;Demand Piedmontese demobilisation.;;;;;;;;;;;;;x
+cvs2_ultimatum_talk;Seek a diplomatic conference.;;;;;;;;;;;;;x
+cvs2_reject_ultimatum_title;Austria Demands Demobilisation;;;;;;;;;;;;;x
+cvs2_reject_ultimatum_desc;Vienna demands that Piedmont stand down its preparations. Refusal will bring war with Austria as the aggressor. France is allied to Piedmont, but the conduct of the campaign belongs to the armies and their governments.;;;;;;;;;;;;;x
+cvs2_reject_ultimatum_yes;Reject the ultimatum.;;;;;;;;;;;;;x
+cvs2_reject_ultimatum_no;Stand down and preserve the peace.;;;;;;;;;;;;;x
+cvs2_conference_title;Vienna Chooses Negotiation;;;;;;;;;;;;;x
+cvs2_conference_desc;Austria has chosen talks instead of an ultimatum. The immediate crisis has passed without a territorial settlement. Piedmont retains its diplomatic understanding with France.;;;;;;;;;;;;;x
+cvs2_conference_ack;Continue the diplomatic work.;;;;;;;;;;;;;x
+cvs2_volunteers_title;Volunteers for the Alpine Front;;;;;;;;;;;;;x
+cvs2_volunteers_desc;The war has brought volunteers to the national cause. Their enthusiasm must be supported by officers, supplies and coordination with the regular army.;;;;;;;;;;;;;x
+cvs2_volunteers_ack;Coordinate the volunteers with the army.;;;;;;;;;;;;;x
+cvs2_limited_peace_title;A Limited Settlement in Lombardy;;;;;;;;;;;;;x
+cvs2_limited_peace_desc;The war has ended with Lombardy in Piedmontese hands while Austria retains Venetia. The limited result disappoints Cavour, who leaves the ministry. The future of central Italy and the French frontier remains unresolved.;;;;;;;;;;;;;x
+cvs2_limited_peace_ack;Accept the result and reconsider the ministry.;;;;;;;;;;;;;x
+cvs2_unsettled_peace_title;The War Leaves Italy Unsettled;;;;;;;;;;;;;x
+cvs2_unsettled_peace_desc;The campaign has ended without the Lombard settlement envisaged by the ministry. The cabinet must reckon with the actual peace terms before considering any further step toward Italian unity.;;;;;;;;;;;;;x
+cvs2_unsettled_peace_ack;Review the position after the war.;;;;;;;;;;;;;x
+cvs2_crimean_question_title;The Crimean Commitment;;;;;;;;;;;;;x
+cvs2_crimean_question_desc;Britain and France are fighting Russia beside the Ottoman Empire. Cavour proposes taking the field alongside the western powers, seeking a diplomatic hearing for Piedmont. The commitment exposes the kingdom to a real war without promising territory.;;;;;;;;;;;;;x
+cvs2_crimean_question_yes;Enter the conflict beside the western powers.;;;;;;;;;;;;;x
+cvs2_crimean_question_no;Keep Piedmont out of the eastern war.;;;;;;;;;;;;;x
+cvs2_pact_lapsed_title;The Negotiations Cannot Continue;;;;;;;;;;;;;x
+cvs2_pact_lapsed_desc;The diplomatic situation has changed since the request was sent. The proposed understanding cannot be concluded under the present conditions. The ministry records the negotiations as closed.;;;;;;;;;;;;;x
+cvs2_pact_lapsed_ack;Close the negotiations.;;;;;;;;;;;;;x
+cvs2_crisis_lapsed_title;The Austrian Crisis Has Changed;;;;;;;;;;;;;x
+cvs2_crisis_lapsed_desc;Events have overtaken the exchange with Vienna. The ministry closes the pending ultimatum: it will not start a second war or override a new truce, alliance or settlement.;;;;;;;;;;;;;x
+cvs2_crisis_lapsed_ack;Close the pending exchange.;;;;;;;;;;;;;x

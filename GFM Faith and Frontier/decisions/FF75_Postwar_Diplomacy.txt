@@ -1,0 +1,13 @@
+political_decisions = {
+ ff75_demand_griqua = { picture = claim_transvaal
+ potential = { OR = { tag = TRN tag = SAF } is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } GKW = { exists = yes } NOT = { has_country_flag = ff75_griqua_issued } }
+ allow = { war = no GKW = { exists = yes war = no OR = { is_vassal = no vassal_of = THIS } } }
+ effect = { set_country_flag = ff75_griqua_issued set_country_flag = ff75_griqua_pending GKW = { clr_country_flag = ff75_griqua_answer country_event = { id = 9785100 days = 1 } } } ai_will_do = { factor = 0.25 }
+ }
+ ff75_demand_basotho = { picture = claim_transvaal
+ potential = { OR = { tag = TRN tag = SAF } is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } BSH = { exists = yes } NOT = { has_country_flag = ff75_basotho_issued } }
+ allow = { war = no BSH = { exists = yes war = no OR = { is_vassal = no vassal_of = THIS } } }
+ effect = { set_country_flag = ff75_basotho_issued set_country_flag = ff75_basotho_pending BSH = { clr_country_flag = ff75_basotho_answer country_event = { id = 9785110 days = 1 } } } ai_will_do = { factor = 0.25 }
+ }
+ff75_endow_victory_memorial = { picture = claim_transvaal potential = { OR = { tag = TRN tag = SAF } is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_modifier = ff63_republic_restored } NOT = { has_country_flag = ff75_victory_memorial } } allow = { war = no money = 3000 } effect = { money = -3000 set_country_flag = ff75_victory_memorial prestige = 5 add_country_modifier = { name = ff75_civic_remembrance duration = 1825 } } ai_will_do = { factor = 0.5 } }
+}

@@ -1,0 +1,628 @@
+political_decisions = {
+	ff82_vereeniging = {
+		picture = treaty_signing
+		potential = {
+			tag = ENG
+			TRN = {
+				exists = yes
+				has_country_flag = ff82_war_started
+			}
+			war_with = TRN
+			has_global_flag = ff82_second_war_active
+			NOT = {
+				has_country_flag = ff82_peace_executed
+			}
+		}
+		allow = {
+			OR = {
+				has_global_flag = ff82_conference_due
+				AND = {
+					year = 1902
+					month = 5
+				}
+				year = 1903
+			}
+			2105 = {
+				controlled_by = ENG
+			}
+			TRN = {
+				national_provinces_occupied = 0.75
+			}
+			OR = {
+				ORA = {
+					exists = no
+				}
+				AND = {
+					ORA = {
+						has_country_flag = ff82_orange_participant
+						national_provinces_occupied = 0.75
+					}
+					2101 = {
+						controlled_by = ENG
+					}
+				}
+				ORA = {
+					NOT = {
+						has_country_flag = ff82_orange_participant
+					}
+				}
+			}
+		}
+		effect = {
+			ENG = {
+				set_country_flag = ff82_british_peace_pending
+				country_event = {
+					id = 9785226
+					days = 1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff82_united_republics = {
+		picture = treaty_signing
+		potential = {
+			tag = TRN
+			war_with = ENG
+			has_country_flag = ff82_war_started
+			has_global_flag = ff82_second_war_active
+			NOT = {
+				has_country_flag = ff82_peace_executed
+			}
+			has_country_flag = ff82_historical_war
+		}
+		allow = {
+			OR = {
+				has_global_flag = ff82_conference_due
+				AND = {
+					year = 1902
+					month = 5
+				}
+				year = 1903
+			}
+			2105 = {
+				controlled_by = TRN
+			}
+			ENG = {
+				any_owned_province = {
+					region = ZUL_2113
+				}
+				NOT = {
+					any_owned_province = {
+						region = ZUL_2113
+						NOT = {
+							controlled_by = TRN
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			TRN = {
+				set_country_flag = ff82_boer_peace_pending
+				country_event = {
+					id = 9785224
+					days = 1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff82_kaap_conference = {
+		picture = treaty_signing
+		potential = {
+			tag = TRN
+			war_with = ENG
+			has_country_flag = ff82_war_started
+			has_global_flag = ff82_second_war_active
+			NOT = {
+				has_country_flag = ff82_peace_executed
+			}
+			has_country_flag = ff82_coastal_war
+		}
+		allow = {
+			OR = {
+				has_global_flag = ff82_conference_due
+				AND = {
+					year = 1902
+					month = 5
+				}
+				year = 1903
+			}
+			2105 = {
+				controlled_by = TRN
+			}
+			ENG = {
+				any_owned_province = {
+					OR = {
+						region = ENG_2083
+						region = ENG_2087
+						region = ENG_2092
+						region = ENG_2096
+					}
+				}
+				NOT = {
+					any_owned_province = {
+						OR = {
+							region = ENG_2083
+							region = ENG_2087
+							region = ENG_2092
+							region = ENG_2096
+						}
+						NOT = {
+							controlled_by = TRN
+						}
+					}
+				}
+			}
+			NOT = {
+				2083 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2084 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2085 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2086 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2087 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2088 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2089 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2090 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2091 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2092 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2093 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2094 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2095 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2096 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2097 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2098 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2099 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2100 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				2558 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				3563 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				3895 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				3901 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				3903 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4001 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4002 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4003 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4010 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4011 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4012 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4013 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4014 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4015 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4016 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4017 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4018 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4019 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4022 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+			NOT = {
+				4023 = {
+					owner = {
+						vassal_of = ENG
+					}
+					NOT = {
+						controlled_by = TRN
+					}
+				}
+			}
+		}
+		effect = {
+			TRN = {
+				set_country_flag = ff82_boer_peace_pending
+				country_event = {
+					id = 9785225
+					days = 1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff82_griqualand_east_trn = {
+		picture = treaty_signing
+		potential = {
+			tag = TRN
+			has_country_flag = ff82_second_cape_victory
+			GKE = {
+				exists = yes
+			}
+			NOT = {
+				has_country_flag = ff82_gke_issued
+			}
+		}
+		allow = {
+			war = no
+			GKE = {
+				war = no
+				OR = {
+					is_vassal = no
+					vassal_of = TRN
+				}
+			}
+		}
+		effect = {
+			set_country_flag = ff82_gke_issued
+			set_country_flag = ff82_gke_pending
+			GKE = {
+				country_event = {
+					id = 9785232
+					days = 1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff82_griqualand_east_saf = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			has_country_flag = ff82_second_cape_victory
+			GKE = {
+				exists = yes
+			}
+			NOT = {
+				has_country_flag = ff82_gke_issued
+			}
+		}
+		allow = {
+			war = no
+			GKE = {
+				war = no
+				OR = {
+					is_vassal = no
+					vassal_of = SAF
+				}
+			}
+		}
+		effect = {
+			set_country_flag = ff82_gke_issued
+			set_country_flag = ff82_gke_pending
+			GKE = {
+				country_event = {
+					id = 9785232
+					days = 1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,32 @@
+# The earlier patch marked a treaty complete even when independent TSN was skipped.
+# Use a fresh completion flag so those saves can still receive their agreed territory.
+country_event = {
+ id = 9784982 title = "FF70_MABHUDU_TITLE" desc = "FF70_MABHUDU_DESC" picture = "boer_war"
+ trigger = {
+  tag = TRN year = 1877 NOT = { year = 1885 } is_vassal = no
+  has_country_flag = ff63_coastal_war has_country_flag = ff63_first_war_settled
+  NOT = { has_country_flag = ff67_full_cape_victory }
+  NOT = { has_country_flag = ff70_mabhudu_integrated }
+  TSN = { exists = yes }
+ }
+ mean_time_to_happen = { days = 1 }
+ option = { name = "FF70_MABHUDU_OPT0" ai_chance = { factor = 100 }
+  random_owned = { limit = { owner = {
+   tag = TRN is_vassal = no has_country_flag = ff63_coastal_war has_country_flag = ff63_first_war_settled
+   NOT = { has_country_flag = ff67_full_cape_victory }
+   NOT = { has_country_flag = ff70_mabhudu_integrated } TSN = { exists = yes }
+  } } owner = {
+   TSN = {
+    any_owned = { add_core = TRN add_core = SAF }
+    random_owned = { limit = { owner = { ai = no } } owner = { change_tag_no_core_switch = TRN } }
+    end_war = TRN
+   }
+   end_war = TSN
+   ZUL = { release_vassal = TSN }
+   ENG = { release_vassal = TSN }
+   release_vassal = TSN
+   inherit = TSN
+   set_country_flag = ff70_mabhudu_integrated
+  } }
+ }
+}

@@ -1,0 +1,2276 @@
+political_decisions = {
+	ff92_national_congress = {
+		picture = form_south_africa
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			OR = {
+				government = ff84_union_republic
+				government = ff84_constitutional_duchies
+			}
+			NOT = {
+				has_country_flag = ff92_national_mandate
+			}
+		}
+		allow = {
+			year = 1865
+			war = no
+			owns = 2101
+			owns = 2105
+			money = 5000
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							OR = {
+								government = ff84_union_republic
+								government = ff84_constitutional_duchies
+							}
+							NOT = {
+								has_country_flag = ff92_national_mandate
+							}
+							year = 1865
+							war = no
+							owns = 2101
+							owns = 2105
+							money = 5000
+						}
+					}
+					owner = {
+						money = -5000
+						set_country_flag = ff92_national_mandate
+						country_event = {
+							id = 9785500
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff92_southern_convention = {
+		picture = form_south_africa
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			OR = {
+				government = ff84_union_republic
+				government = ff84_constitutional_duchies
+			}
+			has_country_flag = ff92_national_mandate
+			ENG = {
+				exists = yes
+				is_vassal = no
+				any_owned_province = {
+					OR = {
+						region = ENG_2083
+						region = ENG_2087
+						region = ENG_2092
+						region = ENG_2096
+						region = ZUL_2113
+					}
+				}
+			}
+			NOT = {
+				has_country_flag = ff92_british_approached
+			}
+		}
+		allow = {
+			year = 1870
+			war = no
+			money = 5000
+			ENG = {
+				war = no
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							OR = {
+								government = ff84_union_republic
+								government = ff84_constitutional_duchies
+							}
+							has_country_flag = ff92_national_mandate
+							ENG = {
+								exists = yes
+								is_vassal = no
+								any_owned_province = {
+									OR = {
+										region = ENG_2083
+										region = ENG_2087
+										region = ENG_2092
+										region = ENG_2096
+										region = ZUL_2113
+									}
+								}
+							}
+							NOT = {
+								has_country_flag = ff92_british_approached
+							}
+							year = 1870
+							war = no
+							money = 5000
+							ENG = {
+								war = no
+							}
+						}
+					}
+					owner = {
+						money = -5000
+						set_country_flag = ff92_british_approached
+						set_country_flag = ff92_british_pending
+						add_country_modifier = {
+							name = ff92_delegation_abroad
+							duration = 90
+						}
+						ENG = {
+							country_event = {
+								id = 9785501
+								days = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff92_recall_southern_envoys = {
+		picture = form_south_africa
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			OR = {
+				government = ff84_union_republic
+				government = ff84_constitutional_duchies
+			}
+			has_country_flag = ff92_british_pending
+		}
+		allow = {
+			NOT = {
+				has_country_modifier = ff92_delegation_abroad
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							OR = {
+								government = ff84_union_republic
+								government = ff84_constitutional_duchies
+							}
+							has_country_flag = ff92_british_pending
+							NOT = {
+								has_country_modifier = ff92_delegation_abroad
+							}
+						}
+					}
+					owner = {
+						clr_country_flag = ff92_british_pending
+						set_country_flag = ff92_british_refused
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff92_southern_campaign = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			OR = {
+				government = ff84_union_republic
+				government = ff84_constitutional_duchies
+			}
+			has_country_flag = ff92_national_mandate
+			has_country_flag = ff92_british_refused
+			ENG = {
+				exists = yes
+				is_vassal = no
+				any_owned_province = {
+					OR = {
+						region = ENG_2083
+						region = ENG_2087
+						region = ENG_2092
+						region = ENG_2096
+						region = ZUL_2113
+					}
+				}
+			}
+			NOT = {
+				has_country_flag = ff92_settlement_complete
+			}
+		}
+		allow = {
+			year = 1875
+			war = no
+			money = 20000
+			NOT = {
+				truce_with = ENG
+			}
+			NOT = {
+				has_country_modifier = ff92_campaign_recovery
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							OR = {
+								government = ff84_union_republic
+								government = ff84_constitutional_duchies
+							}
+							has_country_flag = ff92_national_mandate
+							has_country_flag = ff92_british_refused
+							ENG = {
+								exists = yes
+								is_vassal = no
+								any_owned_province = {
+									OR = {
+										region = ENG_2083
+										region = ENG_2087
+										region = ENG_2092
+										region = ENG_2096
+										region = ZUL_2113
+									}
+								}
+							}
+							NOT = {
+								has_country_flag = ff92_settlement_complete
+							}
+							year = 1875
+							war = no
+							money = 20000
+							NOT = {
+								truce_with = ENG
+							}
+							NOT = {
+								has_country_modifier = ff92_campaign_recovery
+							}
+						}
+					}
+					owner = {
+						money = -20000
+						badboy = 8
+						set_country_flag = ff92_southern_war
+						leave_alliance = ENG
+						ENG = {
+							leave_alliance = VLK
+						}
+						VLK = {
+							war = {
+								target = ENG
+								attacker_goal = {
+									casus_belli = ff92_southern_settlement
+								}
+								defender_goal = {
+									casus_belli = status_quo
+								}
+								call_ally = no
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff92_enforce_southern_settlement = {
+		picture = treaty_signing
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			OR = {
+				government = ff84_union_republic
+				government = ff84_constitutional_duchies
+			}
+			has_country_flag = ff92_southern_war
+			NOT = {
+				has_country_flag = ff92_settlement_complete
+			}
+		}
+		allow = {
+			war_with = ENG
+			4003 = {
+				controlled_by = VLK
+			}
+			2111 = {
+				controlled_by = VLK
+			}
+			NOT = {
+				2083 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2084 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2085 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2086 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2087 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2088 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2089 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2090 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2091 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2092 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2093 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2094 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2095 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2096 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2097 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2098 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2099 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2100 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2111 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2112 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2113 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				2558 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				3563 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				3895 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				3897 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				3899 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				3900 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				3901 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				3902 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				3903 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				3942 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				3943 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4001 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4002 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4003 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4004 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4010 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4011 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4012 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4013 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4014 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4015 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4016 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4017 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4018 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4019 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4021 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4022 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4023 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+			NOT = {
+				4024 = {
+					owner = {
+						OR = {
+							tag = ENG
+							vassal_of = ENG
+						}
+					}
+					NOT = {
+						controlled_by = VLK
+					}
+				}
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							OR = {
+								government = ff84_union_republic
+								government = ff84_constitutional_duchies
+							}
+							has_country_flag = ff92_southern_war
+							NOT = {
+								has_country_flag = ff92_settlement_complete
+							}
+							war_with = ENG
+							4003 = {
+								controlled_by = VLK
+							}
+							2111 = {
+								controlled_by = VLK
+							}
+							NOT = {
+								2083 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2084 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2085 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2086 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2087 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2088 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2089 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2090 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2091 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2092 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2093 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2094 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2095 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2096 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2097 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2098 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2099 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2100 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2111 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2112 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2113 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								2558 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								3563 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								3895 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								3897 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								3899 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								3900 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								3901 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								3902 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								3903 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								3942 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								3943 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4001 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4002 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4003 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4004 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4010 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4011 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4012 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4013 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4014 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4015 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4016 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4017 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4018 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4019 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4021 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4022 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4023 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+							NOT = {
+								4024 = {
+									owner = {
+										OR = {
+											tag = ENG
+											vassal_of = ENG
+										}
+									}
+									NOT = {
+										controlled_by = VLK
+									}
+								}
+							}
+						}
+					}
+					owner = {
+						set_country_flag = ff92_settlement_pending
+						add_country_modifier = {
+							name = ff92_treaty_delivery
+							duration = 14
+						}
+						end_war = ENG
+						country_event = {
+							id = 9785503
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff92_form_duchy = {
+		picture = form_south_africa
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			OR = {
+				government = ff84_union_republic
+				government = ff84_constitutional_duchies
+			}
+			government = ff84_constitutional_duchies
+			has_country_flag = ff92_national_mandate
+			NOT = {
+				has_country_flag = ff92_south_africa_formed
+			}
+		}
+		allow = {
+			war = no
+			year = 1870
+			money = 10000
+			owns = 4003
+			owns = 2096
+			owns = 2111
+			owns = 4004
+			owns = 2101
+			owns = 2105
+			SAF = {
+				exists = no
+			}
+			NOT = {
+				has_country_flag = ff92_british_pending
+			}
+			NOT = {
+				has_country_flag = ff89_invitation_pending
+			}
+			has_country_flag = ff89_duke_crowned
+			NOT = {
+				has_country_flag = ff84_accounts_funded
+			}
+			NOT = {
+				has_country_flag = ff84_basotho_pending
+			}
+			NOT = {
+				has_country_flag = ff84_commandos_funded
+			}
+			NOT = {
+				has_country_flag = ff84_courts_funded
+			}
+			NOT = {
+				has_country_flag = ff84_dutch_pending
+			}
+			NOT = {
+				has_country_flag = ff84_health_funded
+			}
+			NOT = {
+				has_country_flag = ff84_portugal_pending
+			}
+			NOT = {
+				has_country_flag = ff84_rail_funded
+			}
+			NOT = {
+				has_country_flag = ff84_recognition_pending
+			}
+			NOT = {
+				has_country_flag = ff84_schools_funded
+			}
+			NOT = {
+				has_country_flag = ff84_union_peace_pending
+			}
+			NOT = {
+				has_country_flag = ff87_basotho_pending
+			}
+			NOT = {
+				has_country_flag = ff87_gaza_pending
+			}
+			NOT = {
+				has_country_flag = ff87_griqua_east_pending
+			}
+			NOT = {
+				has_country_flag = ff87_griqua_west_pending
+			}
+			NOT = {
+				has_country_flag = ff87_kholokoe_pending
+			}
+			NOT = {
+				has_country_flag = ff87_lydenburg_pending
+			}
+			NOT = {
+				has_country_flag = ff87_shangaan_pending
+			}
+			NOT = {
+				has_country_flag = ff87_swazi_pending
+			}
+			NOT = {
+				has_country_flag = ff87_transvaal_pending
+			}
+			NOT = {
+				has_country_flag = ff87_zoutpansberg_pending
+			}
+			NOT = {
+				has_country_flag = ff87_zulu_pending
+			}
+			NOT = {
+				has_country_flag = ff89_belgian_pending
+			}
+			NOT = {
+				has_country_flag = ff89_british_pending
+			}
+			NOT = {
+				has_country_flag = ff89_coronation_funded
+			}
+			NOT = {
+				has_country_flag = ff89_hohenzollern_pending
+			}
+			NOT = {
+				has_country_flag = ff89_invitation_pending
+			}
+			NOT = {
+				has_country_flag = ff89_orange_pending
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							OR = {
+								government = ff84_union_republic
+								government = ff84_constitutional_duchies
+							}
+							government = ff84_constitutional_duchies
+							has_country_flag = ff92_national_mandate
+							NOT = {
+								has_country_flag = ff92_south_africa_formed
+							}
+							war = no
+							year = 1870
+							money = 10000
+							owns = 4003
+							owns = 2096
+							owns = 2111
+							owns = 4004
+							owns = 2101
+							owns = 2105
+							SAF = {
+								exists = no
+							}
+							NOT = {
+								has_country_flag = ff92_british_pending
+							}
+							NOT = {
+								has_country_flag = ff89_invitation_pending
+							}
+							has_country_flag = ff89_duke_crowned
+							NOT = {
+								has_country_flag = ff84_accounts_funded
+							}
+							NOT = {
+								has_country_flag = ff84_basotho_pending
+							}
+							NOT = {
+								has_country_flag = ff84_commandos_funded
+							}
+							NOT = {
+								has_country_flag = ff84_courts_funded
+							}
+							NOT = {
+								has_country_flag = ff84_dutch_pending
+							}
+							NOT = {
+								has_country_flag = ff84_health_funded
+							}
+							NOT = {
+								has_country_flag = ff84_portugal_pending
+							}
+							NOT = {
+								has_country_flag = ff84_rail_funded
+							}
+							NOT = {
+								has_country_flag = ff84_recognition_pending
+							}
+							NOT = {
+								has_country_flag = ff84_schools_funded
+							}
+							NOT = {
+								has_country_flag = ff84_union_peace_pending
+							}
+							NOT = {
+								has_country_flag = ff87_basotho_pending
+							}
+							NOT = {
+								has_country_flag = ff87_gaza_pending
+							}
+							NOT = {
+								has_country_flag = ff87_griqua_east_pending
+							}
+							NOT = {
+								has_country_flag = ff87_griqua_west_pending
+							}
+							NOT = {
+								has_country_flag = ff87_kholokoe_pending
+							}
+							NOT = {
+								has_country_flag = ff87_lydenburg_pending
+							}
+							NOT = {
+								has_country_flag = ff87_shangaan_pending
+							}
+							NOT = {
+								has_country_flag = ff87_swazi_pending
+							}
+							NOT = {
+								has_country_flag = ff87_transvaal_pending
+							}
+							NOT = {
+								has_country_flag = ff87_zoutpansberg_pending
+							}
+							NOT = {
+								has_country_flag = ff87_zulu_pending
+							}
+							NOT = {
+								has_country_flag = ff89_belgian_pending
+							}
+							NOT = {
+								has_country_flag = ff89_british_pending
+							}
+							NOT = {
+								has_country_flag = ff89_coronation_funded
+							}
+							NOT = {
+								has_country_flag = ff89_hohenzollern_pending
+							}
+							NOT = {
+								has_country_flag = ff89_invitation_pending
+							}
+							NOT = {
+								has_country_flag = ff89_orange_pending
+							}
+						}
+					}
+					owner = {
+						money = -10000
+						set_country_flag = ff92_south_africa_formed
+						set_country_flag = ff92_duchy_foundation
+						any_owned = {
+							limit = {
+								is_core = VLK
+							}
+							add_core = SAF
+							remove_core = VLK
+						}
+						change_tag = SAF
+						SAF = {
+							government = ff84_constitutional_duchies
+							primary_culture = boer
+							remove_accepted_culture = british
+							any_owned = {
+								limit = {
+									OR = {
+										region = ENG_2083
+										region = ENG_2087
+										region = ENG_2092
+										region = ENG_2096
+										region = ZUL_2113
+										region = ORA_2103
+										region = TRN_2108
+									}
+								}
+								add_core = SAF
+								remove_core = VLK
+								remove_core = POT
+								remove_core = ORA
+								remove_core = WBG
+								remove_core = TRN
+							}
+							prestige = 20
+							add_country_modifier = {
+								name = ff92_national_administration
+								duration = 1825
+							}
+							country_event = {
+								id = 9785504
+								days = 1
+							}
+							country_event = {
+								id = 9785506
+								days = 3
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff92_form_republic = {
+		picture = form_south_africa
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			OR = {
+				government = ff84_union_republic
+				government = ff84_constitutional_duchies
+			}
+			government = ff84_union_republic
+			has_country_flag = ff92_national_mandate
+			NOT = {
+				has_country_flag = ff92_south_africa_formed
+			}
+		}
+		allow = {
+			war = no
+			year = 1870
+			money = 10000
+			owns = 4003
+			owns = 2096
+			owns = 2111
+			owns = 4004
+			owns = 2101
+			owns = 2105
+			SAF = {
+				exists = no
+			}
+			NOT = {
+				has_country_flag = ff92_british_pending
+			}
+			NOT = {
+				has_country_flag = ff89_invitation_pending
+			}
+			NOT = {
+				has_country_flag = ff84_accounts_funded
+			}
+			NOT = {
+				has_country_flag = ff84_basotho_pending
+			}
+			NOT = {
+				has_country_flag = ff84_commandos_funded
+			}
+			NOT = {
+				has_country_flag = ff84_courts_funded
+			}
+			NOT = {
+				has_country_flag = ff84_dutch_pending
+			}
+			NOT = {
+				has_country_flag = ff84_health_funded
+			}
+			NOT = {
+				has_country_flag = ff84_portugal_pending
+			}
+			NOT = {
+				has_country_flag = ff84_rail_funded
+			}
+			NOT = {
+				has_country_flag = ff84_recognition_pending
+			}
+			NOT = {
+				has_country_flag = ff84_schools_funded
+			}
+			NOT = {
+				has_country_flag = ff84_union_peace_pending
+			}
+			NOT = {
+				has_country_flag = ff87_basotho_pending
+			}
+			NOT = {
+				has_country_flag = ff87_gaza_pending
+			}
+			NOT = {
+				has_country_flag = ff87_griqua_east_pending
+			}
+			NOT = {
+				has_country_flag = ff87_griqua_west_pending
+			}
+			NOT = {
+				has_country_flag = ff87_kholokoe_pending
+			}
+			NOT = {
+				has_country_flag = ff87_lydenburg_pending
+			}
+			NOT = {
+				has_country_flag = ff87_shangaan_pending
+			}
+			NOT = {
+				has_country_flag = ff87_swazi_pending
+			}
+			NOT = {
+				has_country_flag = ff87_transvaal_pending
+			}
+			NOT = {
+				has_country_flag = ff87_zoutpansberg_pending
+			}
+			NOT = {
+				has_country_flag = ff87_zulu_pending
+			}
+			NOT = {
+				has_country_flag = ff89_belgian_pending
+			}
+			NOT = {
+				has_country_flag = ff89_british_pending
+			}
+			NOT = {
+				has_country_flag = ff89_coronation_funded
+			}
+			NOT = {
+				has_country_flag = ff89_hohenzollern_pending
+			}
+			NOT = {
+				has_country_flag = ff89_invitation_pending
+			}
+			NOT = {
+				has_country_flag = ff89_orange_pending
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							OR = {
+								government = ff84_union_republic
+								government = ff84_constitutional_duchies
+							}
+							government = ff84_union_republic
+							has_country_flag = ff92_national_mandate
+							NOT = {
+								has_country_flag = ff92_south_africa_formed
+							}
+							war = no
+							year = 1870
+							money = 10000
+							owns = 4003
+							owns = 2096
+							owns = 2111
+							owns = 4004
+							owns = 2101
+							owns = 2105
+							SAF = {
+								exists = no
+							}
+							NOT = {
+								has_country_flag = ff92_british_pending
+							}
+							NOT = {
+								has_country_flag = ff89_invitation_pending
+							}
+							NOT = {
+								has_country_flag = ff84_accounts_funded
+							}
+							NOT = {
+								has_country_flag = ff84_basotho_pending
+							}
+							NOT = {
+								has_country_flag = ff84_commandos_funded
+							}
+							NOT = {
+								has_country_flag = ff84_courts_funded
+							}
+							NOT = {
+								has_country_flag = ff84_dutch_pending
+							}
+							NOT = {
+								has_country_flag = ff84_health_funded
+							}
+							NOT = {
+								has_country_flag = ff84_portugal_pending
+							}
+							NOT = {
+								has_country_flag = ff84_rail_funded
+							}
+							NOT = {
+								has_country_flag = ff84_recognition_pending
+							}
+							NOT = {
+								has_country_flag = ff84_schools_funded
+							}
+							NOT = {
+								has_country_flag = ff84_union_peace_pending
+							}
+							NOT = {
+								has_country_flag = ff87_basotho_pending
+							}
+							NOT = {
+								has_country_flag = ff87_gaza_pending
+							}
+							NOT = {
+								has_country_flag = ff87_griqua_east_pending
+							}
+							NOT = {
+								has_country_flag = ff87_griqua_west_pending
+							}
+							NOT = {
+								has_country_flag = ff87_kholokoe_pending
+							}
+							NOT = {
+								has_country_flag = ff87_lydenburg_pending
+							}
+							NOT = {
+								has_country_flag = ff87_shangaan_pending
+							}
+							NOT = {
+								has_country_flag = ff87_swazi_pending
+							}
+							NOT = {
+								has_country_flag = ff87_transvaal_pending
+							}
+							NOT = {
+								has_country_flag = ff87_zoutpansberg_pending
+							}
+							NOT = {
+								has_country_flag = ff87_zulu_pending
+							}
+							NOT = {
+								has_country_flag = ff89_belgian_pending
+							}
+							NOT = {
+								has_country_flag = ff89_british_pending
+							}
+							NOT = {
+								has_country_flag = ff89_coronation_funded
+							}
+							NOT = {
+								has_country_flag = ff89_hohenzollern_pending
+							}
+							NOT = {
+								has_country_flag = ff89_invitation_pending
+							}
+							NOT = {
+								has_country_flag = ff89_orange_pending
+							}
+						}
+					}
+					owner = {
+						money = -10000
+						set_country_flag = ff92_south_africa_formed
+						set_country_flag = ff92_republic_foundation
+						any_owned = {
+							limit = {
+								is_core = VLK
+							}
+							add_core = SAF
+							remove_core = VLK
+						}
+						change_tag = SAF
+						SAF = {
+							government = ff84_union_republic
+							primary_culture = boer
+							remove_accepted_culture = british
+							any_owned = {
+								limit = {
+									OR = {
+										region = ENG_2083
+										region = ENG_2087
+										region = ENG_2092
+										region = ENG_2096
+										region = ZUL_2113
+										region = ORA_2103
+										region = TRN_2108
+									}
+								}
+								add_core = SAF
+								remove_core = VLK
+								remove_core = POT
+								remove_core = ORA
+								remove_core = WBG
+								remove_core = TRN
+							}
+							prestige = 20
+							add_country_modifier = {
+								name = ff92_national_administration
+								duration = 1825
+							}
+							country_event = {
+								id = 9785505
+								days = 1
+							}
+							country_event = {
+								id = 9785506
+								days = 3
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

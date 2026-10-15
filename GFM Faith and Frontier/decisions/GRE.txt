@@ -1,0 +1,222 @@
+political_decisions = {
+    megali_idea = {
+		picture = megali_idea
+        potential = {
+            tag = GRE
+			OR = {
+				ai = no
+				AND = {
+					war = no
+					nationalism_n_imperialism = 1
+					owns = 832
+					owns = 805
+					owns = 823
+					owns = 844
+					owns = 843
+					owns = 846
+				}
+			}
+            NOT = { has_country_flag = greece_has_got_a_brand_new_bag }
+        }
+
+        allow = {
+            nationalism_n_imperialism = 1
+            owns = 832
+            owns = 805
+            owns = 823
+            owns = 844
+            owns = 843
+            owns = 846
+            war = no
+        }
+
+        effect = {
+            prestige = 10
+            badboy = 15
+            TUR_860 = {
+                add_core = GRE
+                remove_core = ANT
+            }
+            TUR_863 = {
+                add_core = GRE
+                remove_core = ANT
+            }
+            TUR_869 = {
+                add_core = GRE
+                remove_core = ANT
+            }
+            881 = {
+                add_core = GRE
+                remove_core = ANT
+            }
+            880 = {
+                add_core = GRE
+                remove_core = ANT
+            }
+            set_country_flag = greece_has_got_a_brand_new_bag
+        }
+    }
+
+    unite_with_greece = {
+		picture = unite_with_greece
+        potential = {
+			primary_culture = greek
+			exists = GRE
+			OR = { ai = yes GRE = { ai = yes } }
+			OR = {
+				tag = SAM
+				ai = no
+				is_vassal = no
+			}
+			OR = {
+				AND = {
+					tag = SAM
+					GRE = {
+						OR = {
+							owns = 844 #Aegean
+							owns = 846 #Aegean
+							owns = 848 #Crete
+							owns = 860 #Istanbul
+						}
+					}
+					NOT = { government = prov_gov_liberal }
+				}
+				NOT = { tag = SAM }
+			}
+			NOT = {
+				has_global_flag = sw_set
+				tag = GRE
+				has_country_flag = unite_with_greece
+				has_country_flag = Alex_claimed
+			}
+        }
+
+        allow = {
+            war = no
+            OR = {
+                part_of_sphere = no
+                sphere_owner = { is_sphere_leader_of = GRE }
+				tag = SAM
+            }
+            GRE = {
+                war = no
+                OR = {
+					is_vassal = no
+					GRE = { overlord = { is_sphere_leader_of = THIS } }
+				}
+            }
+			OR = {
+				neighbour = GRE
+				tag = SAM
+				tag = CRE
+				tag = CYP
+				ai = no
+			}
+        }
+
+        effect = {
+            set_country_flag = unite_with_greece
+			all_core = { add_core = GRE }
+            random_country = {
+                limit = {
+                    tag = GRE
+                    THIS = { ai = yes }
+                }
+                THIS = {
+                    remove_accepted_culture = north_italian #technically should be converted to MC but since it's just Corfiots there who cares
+                    remove_accepted_culture = british
+                }
+                inherit = THIS
+            }
+            random_country = {
+                limit = {
+                    tag = GRE
+                    is_vassal = yes
+                    THIS = { ai = no }
+                }
+                GRE = { 
+					overlord = {
+						create_vassal = THIS
+						create_alliance = THIS
+					}
+				}
+				THIS = {
+					inherit = GRE
+					random_owned = {
+                        limit = { owner = { owns = 834 } }
+                        owner = { capital = 834 }
+                    }
+					change_tag = GRE
+                    remove_accepted_culture = turkish
+                    remove_accepted_culture = north_italian
+                    remove_accepted_culture = british
+					remove_accepted_culture = georgian
+                }
+            }
+            random_country = {
+                limit = {
+                    tag = GRE
+                    is_vassal = no
+                    THIS = { ai = no }
+                }
+                annex_to = THIS
+				THIS = {
+					change_tag = GRE
+                    remove_accepted_culture = turkish
+                    remove_accepted_culture = north_italian
+                    remove_accepted_culture = british
+					remove_accepted_culture = georgian
+					random_owned = {
+                        limit = { owner = { owns = 834 } }
+                        owner = { capital = 834 }
+                    }
+				}
+            }
+        }
+		ai_will_do = { factor = 1 }
+    }
+	
+	claim_rumelia = {
+		picture = stamp_north_epirus
+		potential = {
+			tag = GRE
+			OR = {
+				invention = dark_continent
+				has_country_flag = greece_has_got_a_brand_new_bag
+			}
+			rank = 16
+			NOT = { has_country_flag = greek_rumelia }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			mass_politics = 1
+			rank = 10
+			BUL = {
+				OR = {
+					exists = no
+					relation = { who = THIS value = -150 }
+				}
+			}
+			war_policy = jingoism
+			all_core = { owned_by = THIS }
+		}
+		
+		effect = {
+			set_country_flag = greek_rumelia
+			badboy = 7.5
+			prestige = 5
+			TUR_809 = { add_core = GRE }
+			3302 = { add_core = GRE }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 0.7
+			}
+		}
+	}
+
+}

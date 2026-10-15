@@ -1,0 +1,57 @@
+cvbg_bloc_ack;Recognise the German communities in provincial institutions.;;;;;;;;;;;;;x
+cvbg_bloc_title;German Communities in Provincial Public Life;;;;;;;;;;;;;x
+cvbg_bloc_desc;The German programme gives the provincial institutions a common responsibility towards German communities from the Baltic provinces and the German lands. Their public standing does not decide the position of Estonian, Latvian or Russian inhabitants. A restriction of those communities' rights requires a separate settlement before the estates.;;;;;;;;;;;;;x
+cvbg_define_rights_title;Settle the Public Rights of the Provincial Communities;;;;;;;;;;;;;x
+cvbg_define_rights_desc;Put the language and citizenship settlement before the estates. German institutions may retain a bilingual provincial charter or reserve public recognition to the German communities, at the cost of opposition from their neighbours.;;;;;;;;;;;;;x
+cvbg_rights_exclusive;Reserve public recognition to the German communities.;;;;;;;;;;;;;x
+cvbg_rights_bilingual;Preserve a bilingual charter and regional public rights.;;;;;;;;;;;;;x
+cvbg_rights_postpone;Leave the existing settlement in force.;;;;;;;;;;;;;x
+cvbg_rights_title;The Provincial Charter and the German Public;;;;;;;;;;;;;x
+cvbg_rights_desc;Estate deputies propose reserving public recognition to the Baltic Germans and the German communities arriving from abroad. Estonian, Latvian and Russian representatives warn that such a charter will exclude the people whose work sustains the province. The alternative retains German institutions while admitting those neighbours to public life. A restrictive settlement can later be reversed through a renewed bilingual charter.;;;;;;;;;;;;;x
+cvbg_restore_charter_title;Renew the Bilingual Provincial Charter;;;;;;;;;;;;;x
+cvbg_restore_charter_desc;Invite the excluded regional communities back into provincial public life. A renewed charter retains the German institutions while recognising Estonian, Latvian and Russian inhabitants, estate patrons will resist the surrender of their exclusive privileges.;;;;;;;;;;;;;x
+cvbg_charter_ratify;Ratify the renewed bilingual charter.;;;;;;;;;;;;;x
+cvbg_charter_decline;Retain the existing settlement.;;;;;;;;;;;;;x
+cvbg_charter_title;A Renewed Charter for the Provincial Communities;;;;;;;;;;;;;x
+cvbg_charter_desc;The restrictive settlement has sharpened the divide between the German institutions and their regional neighbours. Deputies propose restoring the public rights of Estonian, Latvian and Russian inhabitants. The charter will not dissolve the German institutions, but it will end their exclusive claim to provincial recognition. Patrons accustomed to that privilege will oppose the settlement.;;;;;;;;;;;;;x
+cvbg_native_ack;Close the former institutional programme.;;;;;;;;;;;;;x
+cvbg_native_public_title;A New Provincial Public Settlement;;;;;;;;;;;;;x
+cvbg_native_public_desc;The former German institutional programme no longer defines this government. Its separate charter disputes pass into history, and the national administration resumes responsibility for public life under its own settlement.;;;;;;;;;;;;;x
+cvbg_german_bloc;German bloc;;;;;;;;;;;;;x
+cvbg_restricted_rights;Restricted rights;;;;;;;;;;;;;x
+cvbg_bilingual_charter;Bilingual charter;;;;;;;;;;;;;x
+cvbg_rights_decided;Rights decided;;;;;;;;;;;;;x
+cvbg_rights_pending;Rights pending;;;;;;;;;;;;;x
+cvbg_charter_pending;Charter pending;;;;;;;;;;;;;x
+cvbg_charter_restored;Charter restored;;;;;;;;;;;;;x
+cvbg_EST_conservative;Estländische Ritterschaft;;;;;;;;;;;;;x
+cvbg_EST_conservative_2;Deutsch-Baltischer Bauernbund;;;;;;;;;;;;;x
+cvbg_EST_liberal;Deutsche Fortschrittspartei;;;;;;;;;;;;;x
+cvbg_EST_reactionary;Estländische Adelspartei;;;;;;;;;;;;;x
+cvbg_EST_reactionary_2;Deutsch-Baltische Heimatpartei;;;;;;;;;;;;;x
+cvbg_EST_radical;Deutsche Freisinnige Vereinigung;;;;;;;;;;;;;x
+cvbg_EST_socialist;Baltischer Arbeiterverein;;;;;;;;;;;;;x
+cvbg_EST_socialist_2;Deutsch-Baltische Sozialdemokraten;;;;;;;;;;;;;x
+cvbg_EST_communist;Kommunistische Partei des Baltikums;;;;;;;;;;;;;x
+cvbg_EST_fascist;Deutsche Nationale Sammlung;;;;;;;;;;;;;x
+cvbg_LIV_conservative;Kurländische Ritterschaft;;;;;;;;;;;;;x
+cvbg_LIV_conservative_2;Deutsch-Baltischer Landbund;;;;;;;;;;;;;x
+cvbg_LIV_liberal;Kurländische Fortschrittspartei;;;;;;;;;;;;;x
+cvbg_LIV_liberal_2;Deutsch-Baltische Liberale Vereinigung;;;;;;;;;;;;;x
+cvbg_LIV_reactionary;Kurländische Adelspartei;;;;;;;;;;;;;x
+cvbg_LIV_reactionary_2;Deutsch-Baltische Heimatpartei;;;;;;;;;;;;;x
+cvbg_LIV_radical;Freisinnige Volkspartei;;;;;;;;;;;;;x
+cvbg_LIV_socialist;Deutsche Arbeiterpartei;;;;;;;;;;;;;x
+cvbg_LIV_socialist_2;Deutsch-Baltische Sozialdemokraten;;;;;;;;;;;;;x
+cvbg_LIV_communist;Kurländische Kommunistische Partei;;;;;;;;;;;;;x
+cvbg_LIV_fascist;Deutsch-Baltische Nationale Sammlung;;;;;;;;;;;;;x
+cvbg_UBD_conservative;Vereinigte Baltische Landtage;;;;;;;;;;;;;x
+cvbg_UBD_conservative_2;Deutsch-Baltischer Landbund;;;;;;;;;;;;;x
+cvbg_UBD_liberal;Deutsche Fortschrittspartei;;;;;;;;;;;;;x
+cvbg_UBD_liberal_2;Baltische Liberale Vereinigung;;;;;;;;;;;;;x
+cvbg_UBD_reactionary;Deutsch-Baltische Adelspartei;;;;;;;;;;;;;x
+cvbg_UBD_radicals;Freisinnige Volkspartei;;;;;;;;;;;;;x
+cvbg_UBD_socialist;Baltischer Arbeiterbund;;;;;;;;;;;;;x
+cvbg_UBD_socialist_2;Deutsch-Baltische Sozialdemokratische Partei;;;;;;;;;;;;;x
+cvbg_UBD_communist;Kommunistische Partei des Baltikums;;;;;;;;;;;;;x
+cvbg_UBD_fascist;Deutsch-Baltische Nationale Sammlung;;;;;;;;;;;;;x

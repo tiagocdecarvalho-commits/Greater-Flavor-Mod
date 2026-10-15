@@ -1,0 +1,11 @@
+cvai_campaign_title;The Expedition to Sicily;;;;;;;;;;;;;x
+cvai_campaign_desc;News of preparations for an expedition reaches Turin. The ministers cannot openly order a revolutionary army abroad, yet Garibaldi's volunteers draw support from the same national movement that has enlarged the kingdom. In Sicily, opponents of Bourbon rule look to the volunteers and to Piedmont for a settlement of the Italian question.;;;;;;;;;;;;;x
+cvai_campaign_ack;Keep the national movement under the crown's direction.;;;;;;;;;;;;;x
+cvai_collapse_title;The Fall of Bourbon Authority;;;;;;;;;;;;;x
+cvai_collapse_desc;The royal government can no longer settle the question of succession to its own authority. Provincial committees and officers seek guarantees from Turin. The remaining ministers dispute whether resistance can preserve the kingdom. Delegates call for annexation under the Savoyard crown, joining the southern provinces to the national movement.;;;;;;;;;;;;;x
+cvai_collapse_ack;Refer the southern settlement to Turin.;;;;;;;;;;;;;x
+cvai_conference_title;The Southern Plebiscites;;;;;;;;;;;;;x
+cvai_conference_desc;Delegates from the southern provinces ask the king to accept their union with his dominions. The transfer must carry the civil administration, public accounts and military establishments with it. Accepting the settlement brings the Bourbon kingdom to an end and opens the proclamation of an Italian kingdom under the House of Savoy.;;;;;;;;;;;;;x
+cvai_conference_ack;Accept the union and proclaim the Italian kingdom.;;;;;;;;;;;;;x
+cvai_plebiscite_pending;Delegates for the Southern Plebiscites;;;;;;;;;;;;;x
+cvai_plebiscite_pending_desc;Delegates are taking the southern settlement to Turin. The present ownership and diplomatic situation must still permit its ratification.;;;;;;;;;;;;;x

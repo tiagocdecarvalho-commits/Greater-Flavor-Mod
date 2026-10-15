@@ -1,0 +1,5518 @@
+country_event = {
+	id = 9785298
+	title = "FF87_9785298_TITLE"
+	desc = "FF87_9785298_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_INTEGRATION"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						NOT = {
+							has_country_flag = ff87_policy
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_policy
+					set_country_flag = ff87_incorporation
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_ASSOCIATION"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						NOT = {
+							has_country_flag = ff87_policy
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_policy
+					set_country_flag = ff87_association
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785299
+	title = "FF87_9785299_TITLE"
+	desc = "FF87_9785299_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_griqua_west_ACCEPT"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_west_pending
+						GKW = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_incorporation
+					}
+				}
+				owner = {
+					GKW = {
+						any_owned = {
+							set_province_flag = ff87_griqua_west_land
+						}
+					}
+					GKW = {
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						inherit = GKW
+					}
+					VLK = {
+						badboy = 3
+						set_country_flag = ff87_griqua_west_won
+						set_country_flag = ff87_griqua_west_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_griqua_west_pending
+						clr_country_flag = ff87_griqua_west_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_griqua_west_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785302
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_west_pending
+						GKW = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_association
+					}
+				}
+				owner = {
+					GKW = {
+						any_owned = {
+							set_province_flag = ff87_griqua_west_land
+						}
+					}
+					VLK = {
+						create_vassal = GKW
+						badboy = 1
+						set_country_flag = ff87_griqua_west_won
+						set_country_flag = ff87_griqua_west_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_griqua_west_pending
+						clr_country_flag = ff87_griqua_west_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_griqua_west_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785302
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_griqua_west_REFUSE"
+		ai_chance = {
+			factor = 65
+		}
+		GKW = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = GKW
+						VLK = {
+							has_country_flag = ff87_griqua_west_pending
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						country_event = {
+							id = 9785300
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785300
+	title = "FF87_9785300_TITLE"
+	desc = "FF87_9785300_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_griqua_west_WAR"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_west_pending
+						GKW = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+					}
+				}
+				owner = {
+					badboy = 8
+					set_country_flag = ff87_griqua_west_war
+					GKW = {
+						any_owned = {
+							set_province_flag = ff87_griqua_west_land
+						}
+					}
+					VLK = {
+						leave_alliance = GKW
+					}
+					GKW = {
+						leave_alliance = VLK
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_griqua_west_pending
+									GKW = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_incorporation
+								}
+							}
+							owner = {
+								war = {
+									target = GKW
+									attacker_goal = {
+										casus_belli = ff87_griqua_west_settlement
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_griqua_west_pending
+									GKW = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_association
+								}
+							}
+							owner = {
+								war = {
+									target = GKW
+									attacker_goal = {
+										casus_belli = ff87_griqua_west_protection
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_griqua_west_WITHDRAW"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_west_pending
+						NOT = {
+							has_country_flag = ff87_griqua_west_done
+						}
+					}
+				}
+				owner = {
+					money = 700
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_griqua_west_pending
+					clr_country_flag = ff87_griqua_west_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_griqua_west_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785301
+	title = "FF87_9785301_TITLE"
+	desc = "FF87_9785301_DESC"
+	picture = "pioneer_wagons"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		is_vassal = no
+		war = no
+		NOT = {
+			has_country_flag = ff87_griqua_west_report
+		}
+		OR = {
+			has_country_flag = ff87_griqua_west_won
+			AND = {
+				has_country_flag = ff87_griqua_west_pending
+				OR = {
+					has_country_flag = ff87_griqua_west_peace_pending
+					AND = {
+						has_country_flag = ff87_griqua_west_war
+						truce_with = GKW
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff87_griqua_west_report
+	}
+	option = {
+		name = "FF87_griqua_west_RECORD"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_west_pending
+						NOT = {
+							has_country_flag = ff87_griqua_west_done
+						}
+						OR = {
+							has_country_flag = ff87_griqua_west_won
+							has_country_flag = ff87_griqua_west_peace_pending
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_griqua_west_won
+					set_country_flag = ff87_griqua_west_done
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_griqua_west_pending
+					clr_country_flag = ff87_griqua_west_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_griqua_west_integration_wait
+						duration = 1825
+					}
+					prestige = 3
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_west_pending
+						NOT = {
+							has_country_flag = ff87_griqua_west_done
+						}
+						NOT = {
+							OR = {
+								has_country_flag = ff87_griqua_west_won
+								has_country_flag = ff87_griqua_west_peace_pending
+							}
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_griqua_west_pending
+					clr_country_flag = ff87_griqua_west_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_griqua_west_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785302
+	title = "FF87_9785302_TITLE"
+	desc = "FF87_9785302_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_griqua_west_SIGNED"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_west_won
+					}
+				}
+				owner = {
+					set_country_flag = ff87_griqua_west_report
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785303
+	title = "FF87_9785303_TITLE"
+	desc = "FF87_9785303_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_kholokoe_ACCEPT"
+		ai_chance = {
+			factor = 25
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_kholokoe_pending
+						KHO = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_incorporation
+					}
+				}
+				owner = {
+					KHO = {
+						any_owned = {
+							set_province_flag = ff87_kholokoe_land
+						}
+					}
+					KHO = {
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						inherit = KHO
+					}
+					VLK = {
+						badboy = 3
+						set_country_flag = ff87_kholokoe_won
+						set_country_flag = ff87_kholokoe_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_kholokoe_pending
+						clr_country_flag = ff87_kholokoe_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_kholokoe_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785306
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_kholokoe_pending
+						KHO = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_association
+					}
+				}
+				owner = {
+					KHO = {
+						any_owned = {
+							set_province_flag = ff87_kholokoe_land
+						}
+					}
+					VLK = {
+						create_vassal = KHO
+						badboy = 1
+						set_country_flag = ff87_kholokoe_won
+						set_country_flag = ff87_kholokoe_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_kholokoe_pending
+						clr_country_flag = ff87_kholokoe_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_kholokoe_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785306
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_kholokoe_REFUSE"
+		ai_chance = {
+			factor = 75
+		}
+		KHO = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = KHO
+						VLK = {
+							has_country_flag = ff87_kholokoe_pending
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						country_event = {
+							id = 9785304
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785304
+	title = "FF87_9785304_TITLE"
+	desc = "FF87_9785304_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_kholokoe_WAR"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_kholokoe_pending
+						KHO = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+					}
+				}
+				owner = {
+					badboy = 8
+					set_country_flag = ff87_kholokoe_war
+					KHO = {
+						any_owned = {
+							set_province_flag = ff87_kholokoe_land
+						}
+					}
+					VLK = {
+						leave_alliance = KHO
+					}
+					KHO = {
+						leave_alliance = VLK
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_kholokoe_pending
+									KHO = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_incorporation
+								}
+							}
+							owner = {
+								war = {
+									target = KHO
+									attacker_goal = {
+										casus_belli = ff87_kholokoe_settlement
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_kholokoe_pending
+									KHO = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_association
+								}
+							}
+							owner = {
+								war = {
+									target = KHO
+									attacker_goal = {
+										casus_belli = ff87_kholokoe_protection
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_kholokoe_WITHDRAW"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_kholokoe_pending
+						NOT = {
+							has_country_flag = ff87_kholokoe_done
+						}
+					}
+				}
+				owner = {
+					money = 450
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_kholokoe_pending
+					clr_country_flag = ff87_kholokoe_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_kholokoe_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785305
+	title = "FF87_9785305_TITLE"
+	desc = "FF87_9785305_DESC"
+	picture = "pioneer_wagons"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		is_vassal = no
+		war = no
+		NOT = {
+			has_country_flag = ff87_kholokoe_report
+		}
+		OR = {
+			has_country_flag = ff87_kholokoe_won
+			AND = {
+				has_country_flag = ff87_kholokoe_pending
+				OR = {
+					has_country_flag = ff87_kholokoe_peace_pending
+					AND = {
+						has_country_flag = ff87_kholokoe_war
+						truce_with = KHO
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff87_kholokoe_report
+	}
+	option = {
+		name = "FF87_kholokoe_RECORD"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_kholokoe_pending
+						NOT = {
+							has_country_flag = ff87_kholokoe_done
+						}
+						OR = {
+							has_country_flag = ff87_kholokoe_won
+							has_country_flag = ff87_kholokoe_peace_pending
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_kholokoe_won
+					set_country_flag = ff87_kholokoe_done
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_kholokoe_pending
+					clr_country_flag = ff87_kholokoe_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_kholokoe_integration_wait
+						duration = 1825
+					}
+					prestige = 3
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_kholokoe_pending
+						NOT = {
+							has_country_flag = ff87_kholokoe_done
+						}
+						NOT = {
+							OR = {
+								has_country_flag = ff87_kholokoe_won
+								has_country_flag = ff87_kholokoe_peace_pending
+							}
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_kholokoe_pending
+					clr_country_flag = ff87_kholokoe_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_kholokoe_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785306
+	title = "FF87_9785306_TITLE"
+	desc = "FF87_9785306_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_kholokoe_SIGNED"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_kholokoe_won
+					}
+				}
+				owner = {
+					set_country_flag = ff87_kholokoe_report
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785307
+	title = "FF87_9785307_TITLE"
+	desc = "FF87_9785307_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_transvaal_ACCEPT"
+		ai_chance = {
+			factor = 70
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_transvaal_pending
+						TRN = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_incorporation
+					}
+				}
+				owner = {
+					TRN = {
+						any_owned = {
+							set_province_flag = ff87_transvaal_land
+						}
+					}
+					TRN = {
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						inherit = TRN
+					}
+					VLK = {
+						badboy = 3
+						set_country_flag = ff87_transvaal_won
+						set_country_flag = ff87_transvaal_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_transvaal_pending
+						clr_country_flag = ff87_transvaal_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_transvaal_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785310
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_transvaal_pending
+						TRN = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_association
+					}
+				}
+				owner = {
+					TRN = {
+						any_owned = {
+							set_province_flag = ff87_transvaal_land
+						}
+					}
+					VLK = {
+						create_vassal = TRN
+						badboy = 1
+						set_country_flag = ff87_transvaal_won
+						set_country_flag = ff87_transvaal_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_transvaal_pending
+						clr_country_flag = ff87_transvaal_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_transvaal_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785310
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_transvaal_REFUSE"
+		ai_chance = {
+			factor = 30
+		}
+		TRN = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = TRN
+						VLK = {
+							has_country_flag = ff87_transvaal_pending
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						country_event = {
+							id = 9785308
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785308
+	title = "FF87_9785308_TITLE"
+	desc = "FF87_9785308_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_transvaal_WAR"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_transvaal_pending
+						TRN = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+					}
+				}
+				owner = {
+					badboy = 5
+					set_country_flag = ff87_transvaal_war
+					TRN = {
+						any_owned = {
+							set_province_flag = ff87_transvaal_land
+						}
+					}
+					VLK = {
+						leave_alliance = TRN
+					}
+					TRN = {
+						leave_alliance = VLK
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_transvaal_pending
+									TRN = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_incorporation
+								}
+							}
+							owner = {
+								war = {
+									target = TRN
+									attacker_goal = {
+										casus_belli = ff87_transvaal_settlement
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_transvaal_pending
+									TRN = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_association
+								}
+							}
+							owner = {
+								war = {
+									target = TRN
+									attacker_goal = {
+										casus_belli = ff87_transvaal_protection
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_transvaal_WITHDRAW"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_transvaal_pending
+						NOT = {
+							has_country_flag = ff87_transvaal_done
+						}
+					}
+				}
+				owner = {
+					money = 1100
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_transvaal_pending
+					clr_country_flag = ff87_transvaal_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_transvaal_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785309
+	title = "FF87_9785309_TITLE"
+	desc = "FF87_9785309_DESC"
+	picture = "pioneer_wagons"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		is_vassal = no
+		war = no
+		NOT = {
+			has_country_flag = ff87_transvaal_report
+		}
+		OR = {
+			has_country_flag = ff87_transvaal_won
+			AND = {
+				has_country_flag = ff87_transvaal_pending
+				OR = {
+					has_country_flag = ff87_transvaal_peace_pending
+					AND = {
+						has_country_flag = ff87_transvaal_war
+						truce_with = TRN
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff87_transvaal_report
+	}
+	option = {
+		name = "FF87_transvaal_RECORD"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_transvaal_pending
+						NOT = {
+							has_country_flag = ff87_transvaal_done
+						}
+						OR = {
+							has_country_flag = ff87_transvaal_won
+							has_country_flag = ff87_transvaal_peace_pending
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_transvaal_won
+					set_country_flag = ff87_transvaal_done
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_transvaal_pending
+					clr_country_flag = ff87_transvaal_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_transvaal_integration_wait
+						duration = 1825
+					}
+					prestige = 3
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_transvaal_pending
+						NOT = {
+							has_country_flag = ff87_transvaal_done
+						}
+						NOT = {
+							OR = {
+								has_country_flag = ff87_transvaal_won
+								has_country_flag = ff87_transvaal_peace_pending
+							}
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_transvaal_pending
+					clr_country_flag = ff87_transvaal_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_transvaal_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785310
+	title = "FF87_9785310_TITLE"
+	desc = "FF87_9785310_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_transvaal_SIGNED"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_transvaal_won
+					}
+				}
+				owner = {
+					set_country_flag = ff87_transvaal_report
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785311
+	title = "FF87_9785311_TITLE"
+	desc = "FF87_9785311_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_lydenburg_ACCEPT"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_lydenburg_pending
+						LYD = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_incorporation
+					}
+				}
+				owner = {
+					LYD = {
+						any_owned = {
+							set_province_flag = ff87_lydenburg_land
+						}
+					}
+					LYD = {
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						inherit = LYD
+					}
+					VLK = {
+						badboy = 3
+						set_country_flag = ff87_lydenburg_won
+						set_country_flag = ff87_lydenburg_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_lydenburg_pending
+						clr_country_flag = ff87_lydenburg_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_lydenburg_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785314
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_lydenburg_pending
+						LYD = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_association
+					}
+				}
+				owner = {
+					LYD = {
+						any_owned = {
+							set_province_flag = ff87_lydenburg_land
+						}
+					}
+					VLK = {
+						create_vassal = LYD
+						badboy = 1
+						set_country_flag = ff87_lydenburg_won
+						set_country_flag = ff87_lydenburg_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_lydenburg_pending
+						clr_country_flag = ff87_lydenburg_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_lydenburg_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785314
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_lydenburg_REFUSE"
+		ai_chance = {
+			factor = 35
+		}
+		LYD = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = LYD
+						VLK = {
+							has_country_flag = ff87_lydenburg_pending
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						country_event = {
+							id = 9785312
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785312
+	title = "FF87_9785312_TITLE"
+	desc = "FF87_9785312_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_lydenburg_WAR"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_lydenburg_pending
+						LYD = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+					}
+				}
+				owner = {
+					badboy = 5
+					set_country_flag = ff87_lydenburg_war
+					LYD = {
+						any_owned = {
+							set_province_flag = ff87_lydenburg_land
+						}
+					}
+					VLK = {
+						leave_alliance = LYD
+					}
+					LYD = {
+						leave_alliance = VLK
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_lydenburg_pending
+									LYD = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_incorporation
+								}
+							}
+							owner = {
+								war = {
+									target = LYD
+									attacker_goal = {
+										casus_belli = ff87_lydenburg_settlement
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_lydenburg_pending
+									LYD = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_association
+								}
+							}
+							owner = {
+								war = {
+									target = LYD
+									attacker_goal = {
+										casus_belli = ff87_lydenburg_protection
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_lydenburg_WITHDRAW"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_lydenburg_pending
+						NOT = {
+							has_country_flag = ff87_lydenburg_done
+						}
+					}
+				}
+				owner = {
+					money = 650
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_lydenburg_pending
+					clr_country_flag = ff87_lydenburg_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_lydenburg_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785313
+	title = "FF87_9785313_TITLE"
+	desc = "FF87_9785313_DESC"
+	picture = "pioneer_wagons"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		is_vassal = no
+		war = no
+		NOT = {
+			has_country_flag = ff87_lydenburg_report
+		}
+		OR = {
+			has_country_flag = ff87_lydenburg_won
+			AND = {
+				has_country_flag = ff87_lydenburg_pending
+				OR = {
+					has_country_flag = ff87_lydenburg_peace_pending
+					AND = {
+						has_country_flag = ff87_lydenburg_war
+						truce_with = LYD
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff87_lydenburg_report
+	}
+	option = {
+		name = "FF87_lydenburg_RECORD"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_lydenburg_pending
+						NOT = {
+							has_country_flag = ff87_lydenburg_done
+						}
+						OR = {
+							has_country_flag = ff87_lydenburg_won
+							has_country_flag = ff87_lydenburg_peace_pending
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_lydenburg_won
+					set_country_flag = ff87_lydenburg_done
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_lydenburg_pending
+					clr_country_flag = ff87_lydenburg_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_lydenburg_integration_wait
+						duration = 1825
+					}
+					prestige = 3
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_lydenburg_pending
+						NOT = {
+							has_country_flag = ff87_lydenburg_done
+						}
+						NOT = {
+							OR = {
+								has_country_flag = ff87_lydenburg_won
+								has_country_flag = ff87_lydenburg_peace_pending
+							}
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_lydenburg_pending
+					clr_country_flag = ff87_lydenburg_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_lydenburg_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785314
+	title = "FF87_9785314_TITLE"
+	desc = "FF87_9785314_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_lydenburg_SIGNED"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_lydenburg_won
+					}
+				}
+				owner = {
+					set_country_flag = ff87_lydenburg_report
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785315
+	title = "FF87_9785315_TITLE"
+	desc = "FF87_9785315_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_zoutpansberg_ACCEPT"
+		ai_chance = {
+			factor = 55
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zoutpansberg_pending
+						ZPB = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_incorporation
+					}
+				}
+				owner = {
+					ZPB = {
+						any_owned = {
+							set_province_flag = ff87_zoutpansberg_land
+						}
+					}
+					ZPB = {
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						inherit = ZPB
+					}
+					VLK = {
+						badboy = 3
+						set_country_flag = ff87_zoutpansberg_won
+						set_country_flag = ff87_zoutpansberg_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_zoutpansberg_pending
+						clr_country_flag = ff87_zoutpansberg_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_zoutpansberg_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785318
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zoutpansberg_pending
+						ZPB = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_association
+					}
+				}
+				owner = {
+					ZPB = {
+						any_owned = {
+							set_province_flag = ff87_zoutpansberg_land
+						}
+					}
+					VLK = {
+						create_vassal = ZPB
+						badboy = 1
+						set_country_flag = ff87_zoutpansberg_won
+						set_country_flag = ff87_zoutpansberg_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_zoutpansberg_pending
+						clr_country_flag = ff87_zoutpansberg_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_zoutpansberg_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785318
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_zoutpansberg_REFUSE"
+		ai_chance = {
+			factor = 45
+		}
+		ZPB = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = ZPB
+						VLK = {
+							has_country_flag = ff87_zoutpansberg_pending
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						country_event = {
+							id = 9785316
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785316
+	title = "FF87_9785316_TITLE"
+	desc = "FF87_9785316_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_zoutpansberg_WAR"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zoutpansberg_pending
+						ZPB = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+					}
+				}
+				owner = {
+					badboy = 5
+					set_country_flag = ff87_zoutpansberg_war
+					ZPB = {
+						any_owned = {
+							set_province_flag = ff87_zoutpansberg_land
+						}
+					}
+					VLK = {
+						leave_alliance = ZPB
+					}
+					ZPB = {
+						leave_alliance = VLK
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_zoutpansberg_pending
+									ZPB = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_incorporation
+								}
+							}
+							owner = {
+								war = {
+									target = ZPB
+									attacker_goal = {
+										casus_belli = ff87_zoutpansberg_settlement
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_zoutpansberg_pending
+									ZPB = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_association
+								}
+							}
+							owner = {
+								war = {
+									target = ZPB
+									attacker_goal = {
+										casus_belli = ff87_zoutpansberg_protection
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_zoutpansberg_WITHDRAW"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zoutpansberg_pending
+						NOT = {
+							has_country_flag = ff87_zoutpansberg_done
+						}
+					}
+				}
+				owner = {
+					money = 850
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_zoutpansberg_pending
+					clr_country_flag = ff87_zoutpansberg_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_zoutpansberg_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785317
+	title = "FF87_9785317_TITLE"
+	desc = "FF87_9785317_DESC"
+	picture = "pioneer_wagons"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		is_vassal = no
+		war = no
+		NOT = {
+			has_country_flag = ff87_zoutpansberg_report
+		}
+		OR = {
+			has_country_flag = ff87_zoutpansberg_won
+			AND = {
+				has_country_flag = ff87_zoutpansberg_pending
+				OR = {
+					has_country_flag = ff87_zoutpansberg_peace_pending
+					AND = {
+						has_country_flag = ff87_zoutpansberg_war
+						truce_with = ZPB
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff87_zoutpansberg_report
+	}
+	option = {
+		name = "FF87_zoutpansberg_RECORD"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zoutpansberg_pending
+						NOT = {
+							has_country_flag = ff87_zoutpansberg_done
+						}
+						OR = {
+							has_country_flag = ff87_zoutpansberg_won
+							has_country_flag = ff87_zoutpansberg_peace_pending
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_zoutpansberg_won
+					set_country_flag = ff87_zoutpansberg_done
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_zoutpansberg_pending
+					clr_country_flag = ff87_zoutpansberg_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_zoutpansberg_integration_wait
+						duration = 1825
+					}
+					prestige = 3
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zoutpansberg_pending
+						NOT = {
+							has_country_flag = ff87_zoutpansberg_done
+						}
+						NOT = {
+							OR = {
+								has_country_flag = ff87_zoutpansberg_won
+								has_country_flag = ff87_zoutpansberg_peace_pending
+							}
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_zoutpansberg_pending
+					clr_country_flag = ff87_zoutpansberg_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_zoutpansberg_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785318
+	title = "FF87_9785318_TITLE"
+	desc = "FF87_9785318_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_zoutpansberg_SIGNED"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zoutpansberg_won
+					}
+				}
+				owner = {
+					set_country_flag = ff87_zoutpansberg_report
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785319
+	title = "FF87_9785319_TITLE"
+	desc = "FF87_9785319_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_griqua_east_ACCEPT"
+		ai_chance = {
+			factor = 30
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_east_pending
+						GKE = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_incorporation
+					}
+				}
+				owner = {
+					GKE = {
+						any_owned = {
+							set_province_flag = ff87_griqua_east_land
+						}
+					}
+					GKE = {
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						inherit = GKE
+					}
+					VLK = {
+						badboy = 3
+						set_country_flag = ff87_griqua_east_won
+						set_country_flag = ff87_griqua_east_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_griqua_east_pending
+						clr_country_flag = ff87_griqua_east_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_griqua_east_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785322
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_east_pending
+						GKE = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_association
+					}
+				}
+				owner = {
+					GKE = {
+						any_owned = {
+							set_province_flag = ff87_griqua_east_land
+						}
+					}
+					VLK = {
+						create_vassal = GKE
+						badboy = 1
+						set_country_flag = ff87_griqua_east_won
+						set_country_flag = ff87_griqua_east_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_griqua_east_pending
+						clr_country_flag = ff87_griqua_east_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_griqua_east_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785322
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_griqua_east_REFUSE"
+		ai_chance = {
+			factor = 70
+		}
+		GKE = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = GKE
+						VLK = {
+							has_country_flag = ff87_griqua_east_pending
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						country_event = {
+							id = 9785320
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785320
+	title = "FF87_9785320_TITLE"
+	desc = "FF87_9785320_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_griqua_east_WAR"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_east_pending
+						GKE = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+					}
+				}
+				owner = {
+					badboy = 8
+					set_country_flag = ff87_griqua_east_war
+					GKE = {
+						any_owned = {
+							set_province_flag = ff87_griqua_east_land
+						}
+					}
+					VLK = {
+						leave_alliance = GKE
+					}
+					GKE = {
+						leave_alliance = VLK
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_griqua_east_pending
+									GKE = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_incorporation
+								}
+							}
+							owner = {
+								war = {
+									target = GKE
+									attacker_goal = {
+										casus_belli = ff87_griqua_east_settlement
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_griqua_east_pending
+									GKE = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_association
+								}
+							}
+							owner = {
+								war = {
+									target = GKE
+									attacker_goal = {
+										casus_belli = ff87_griqua_east_protection
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_griqua_east_WITHDRAW"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_east_pending
+						NOT = {
+							has_country_flag = ff87_griqua_east_done
+						}
+					}
+				}
+				owner = {
+					money = 900
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_griqua_east_pending
+					clr_country_flag = ff87_griqua_east_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_griqua_east_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785321
+	title = "FF87_9785321_TITLE"
+	desc = "FF87_9785321_DESC"
+	picture = "pioneer_wagons"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		is_vassal = no
+		war = no
+		NOT = {
+			has_country_flag = ff87_griqua_east_report
+		}
+		OR = {
+			has_country_flag = ff87_griqua_east_won
+			AND = {
+				has_country_flag = ff87_griqua_east_pending
+				OR = {
+					has_country_flag = ff87_griqua_east_peace_pending
+					AND = {
+						has_country_flag = ff87_griqua_east_war
+						truce_with = GKE
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff87_griqua_east_report
+	}
+	option = {
+		name = "FF87_griqua_east_RECORD"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_east_pending
+						NOT = {
+							has_country_flag = ff87_griqua_east_done
+						}
+						OR = {
+							has_country_flag = ff87_griqua_east_won
+							has_country_flag = ff87_griqua_east_peace_pending
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_griqua_east_won
+					set_country_flag = ff87_griqua_east_done
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_griqua_east_pending
+					clr_country_flag = ff87_griqua_east_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_griqua_east_integration_wait
+						duration = 1825
+					}
+					prestige = 3
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_east_pending
+						NOT = {
+							has_country_flag = ff87_griqua_east_done
+						}
+						NOT = {
+							OR = {
+								has_country_flag = ff87_griqua_east_won
+								has_country_flag = ff87_griqua_east_peace_pending
+							}
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_griqua_east_pending
+					clr_country_flag = ff87_griqua_east_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_griqua_east_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785322
+	title = "FF87_9785322_TITLE"
+	desc = "FF87_9785322_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_griqua_east_SIGNED"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_east_won
+					}
+				}
+				owner = {
+					set_country_flag = ff87_griqua_east_report
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785323
+	title = "FF87_9785323_TITLE"
+	desc = "FF87_9785323_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_basotho_ACCEPT"
+		ai_chance = {
+			factor = 15
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_basotho_pending
+						BSH = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_incorporation
+					}
+				}
+				owner = {
+					BSH = {
+						any_owned = {
+							set_province_flag = ff87_basotho_land
+						}
+					}
+					BSH = {
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						inherit = BSH
+					}
+					VLK = {
+						badboy = 3
+						set_country_flag = ff87_basotho_won
+						set_country_flag = ff87_basotho_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_basotho_pending
+						clr_country_flag = ff87_basotho_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_basotho_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785326
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_basotho_pending
+						BSH = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_association
+					}
+				}
+				owner = {
+					BSH = {
+						any_owned = {
+							set_province_flag = ff87_basotho_land
+						}
+					}
+					VLK = {
+						create_vassal = BSH
+						badboy = 1
+						set_country_flag = ff87_basotho_won
+						set_country_flag = ff87_basotho_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_basotho_pending
+						clr_country_flag = ff87_basotho_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_basotho_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785326
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_basotho_REFUSE"
+		ai_chance = {
+			factor = 85
+		}
+		BSH = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = BSH
+						VLK = {
+							has_country_flag = ff87_basotho_pending
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						country_event = {
+							id = 9785324
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785324
+	title = "FF87_9785324_TITLE"
+	desc = "FF87_9785324_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_basotho_WAR"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_basotho_pending
+						BSH = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+					}
+				}
+				owner = {
+					badboy = 8
+					set_country_flag = ff87_basotho_war
+					BSH = {
+						any_owned = {
+							set_province_flag = ff87_basotho_land
+						}
+					}
+					VLK = {
+						leave_alliance = BSH
+					}
+					BSH = {
+						leave_alliance = VLK
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_basotho_pending
+									BSH = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_incorporation
+								}
+							}
+							owner = {
+								war = {
+									target = BSH
+									attacker_goal = {
+										casus_belli = ff87_basotho_settlement
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_basotho_pending
+									BSH = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_association
+								}
+							}
+							owner = {
+								war = {
+									target = BSH
+									attacker_goal = {
+										casus_belli = ff87_basotho_protection
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_basotho_WITHDRAW"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_basotho_pending
+						NOT = {
+							has_country_flag = ff87_basotho_done
+						}
+					}
+				}
+				owner = {
+					money = 1750
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_basotho_pending
+					clr_country_flag = ff87_basotho_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_basotho_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785325
+	title = "FF87_9785325_TITLE"
+	desc = "FF87_9785325_DESC"
+	picture = "pioneer_wagons"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		is_vassal = no
+		war = no
+		NOT = {
+			has_country_flag = ff87_basotho_report
+		}
+		OR = {
+			has_country_flag = ff87_basotho_won
+			AND = {
+				has_country_flag = ff87_basotho_pending
+				OR = {
+					has_country_flag = ff87_basotho_peace_pending
+					AND = {
+						has_country_flag = ff87_basotho_war
+						truce_with = BSH
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff87_basotho_report
+	}
+	option = {
+		name = "FF87_basotho_RECORD"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_basotho_pending
+						NOT = {
+							has_country_flag = ff87_basotho_done
+						}
+						OR = {
+							has_country_flag = ff87_basotho_won
+							has_country_flag = ff87_basotho_peace_pending
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_basotho_won
+					set_country_flag = ff87_basotho_done
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_basotho_pending
+					clr_country_flag = ff87_basotho_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_basotho_integration_wait
+						duration = 1825
+					}
+					prestige = 3
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_basotho_pending
+						NOT = {
+							has_country_flag = ff87_basotho_done
+						}
+						NOT = {
+							OR = {
+								has_country_flag = ff87_basotho_won
+								has_country_flag = ff87_basotho_peace_pending
+							}
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_basotho_pending
+					clr_country_flag = ff87_basotho_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_basotho_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785326
+	title = "FF87_9785326_TITLE"
+	desc = "FF87_9785326_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_basotho_SIGNED"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_basotho_won
+					}
+				}
+				owner = {
+					set_country_flag = ff87_basotho_report
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785327
+	title = "FF87_9785327_TITLE"
+	desc = "FF87_9785327_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_swazi_ACCEPT"
+		ai_chance = {
+			factor = 20
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_swazi_pending
+						SUA = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_incorporation
+					}
+				}
+				owner = {
+					SUA = {
+						any_owned = {
+							set_province_flag = ff87_swazi_land
+						}
+					}
+					SUA = {
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						inherit = SUA
+					}
+					VLK = {
+						badboy = 3
+						set_country_flag = ff87_swazi_won
+						set_country_flag = ff87_swazi_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_swazi_pending
+						clr_country_flag = ff87_swazi_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_swazi_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785330
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_swazi_pending
+						SUA = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_association
+					}
+				}
+				owner = {
+					SUA = {
+						any_owned = {
+							set_province_flag = ff87_swazi_land
+						}
+					}
+					VLK = {
+						create_vassal = SUA
+						badboy = 1
+						set_country_flag = ff87_swazi_won
+						set_country_flag = ff87_swazi_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_swazi_pending
+						clr_country_flag = ff87_swazi_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_swazi_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785330
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_swazi_REFUSE"
+		ai_chance = {
+			factor = 80
+		}
+		SUA = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SUA
+						VLK = {
+							has_country_flag = ff87_swazi_pending
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						country_event = {
+							id = 9785328
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785328
+	title = "FF87_9785328_TITLE"
+	desc = "FF87_9785328_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_swazi_WAR"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_swazi_pending
+						SUA = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+					}
+				}
+				owner = {
+					badboy = 8
+					set_country_flag = ff87_swazi_war
+					SUA = {
+						any_owned = {
+							set_province_flag = ff87_swazi_land
+						}
+					}
+					VLK = {
+						leave_alliance = SUA
+					}
+					SUA = {
+						leave_alliance = VLK
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_swazi_pending
+									SUA = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_incorporation
+								}
+							}
+							owner = {
+								war = {
+									target = SUA
+									attacker_goal = {
+										casus_belli = ff87_swazi_settlement
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_swazi_pending
+									SUA = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_association
+								}
+							}
+							owner = {
+								war = {
+									target = SUA
+									attacker_goal = {
+										casus_belli = ff87_swazi_protection
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_swazi_WITHDRAW"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_swazi_pending
+						NOT = {
+							has_country_flag = ff87_swazi_done
+						}
+					}
+				}
+				owner = {
+					money = 1200
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_swazi_pending
+					clr_country_flag = ff87_swazi_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_swazi_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785329
+	title = "FF87_9785329_TITLE"
+	desc = "FF87_9785329_DESC"
+	picture = "pioneer_wagons"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		is_vassal = no
+		war = no
+		NOT = {
+			has_country_flag = ff87_swazi_report
+		}
+		OR = {
+			has_country_flag = ff87_swazi_won
+			AND = {
+				has_country_flag = ff87_swazi_pending
+				OR = {
+					has_country_flag = ff87_swazi_peace_pending
+					AND = {
+						has_country_flag = ff87_swazi_war
+						truce_with = SUA
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff87_swazi_report
+	}
+	option = {
+		name = "FF87_swazi_RECORD"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_swazi_pending
+						NOT = {
+							has_country_flag = ff87_swazi_done
+						}
+						OR = {
+							has_country_flag = ff87_swazi_won
+							has_country_flag = ff87_swazi_peace_pending
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_swazi_won
+					set_country_flag = ff87_swazi_done
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_swazi_pending
+					clr_country_flag = ff87_swazi_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_swazi_integration_wait
+						duration = 1825
+					}
+					prestige = 3
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_swazi_pending
+						NOT = {
+							has_country_flag = ff87_swazi_done
+						}
+						NOT = {
+							OR = {
+								has_country_flag = ff87_swazi_won
+								has_country_flag = ff87_swazi_peace_pending
+							}
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_swazi_pending
+					clr_country_flag = ff87_swazi_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_swazi_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785330
+	title = "FF87_9785330_TITLE"
+	desc = "FF87_9785330_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_swazi_SIGNED"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_swazi_won
+					}
+				}
+				owner = {
+					set_country_flag = ff87_swazi_report
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785331
+	title = "FF87_9785331_TITLE"
+	desc = "FF87_9785331_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_zulu_ACCEPT"
+		ai_chance = {
+			factor = 10
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zulu_pending
+						ZUL = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_incorporation
+					}
+				}
+				owner = {
+					ZUL = {
+						any_owned = {
+							set_province_flag = ff87_zulu_land
+						}
+					}
+					ZUL = {
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						inherit = ZUL
+					}
+					VLK = {
+						badboy = 3
+						set_country_flag = ff87_zulu_won
+						set_country_flag = ff87_zulu_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_zulu_pending
+						clr_country_flag = ff87_zulu_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_zulu_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785334
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zulu_pending
+						ZUL = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+						has_country_flag = ff87_association
+					}
+				}
+				owner = {
+					ZUL = {
+						any_owned = {
+							set_province_flag = ff87_zulu_land
+						}
+					}
+					VLK = {
+						create_vassal = ZUL
+						badboy = 1
+						set_country_flag = ff87_zulu_won
+						set_country_flag = ff87_zulu_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_zulu_pending
+						clr_country_flag = ff87_zulu_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_zulu_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785334
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_zulu_REFUSE"
+		ai_chance = {
+			factor = 90
+		}
+		ZUL = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = ZUL
+						VLK = {
+							has_country_flag = ff87_zulu_pending
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						country_event = {
+							id = 9785332
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785332
+	title = "FF87_9785332_TITLE"
+	desc = "FF87_9785332_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_zulu_WAR"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zulu_pending
+						ZUL = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+						}
+						war = no
+					}
+				}
+				owner = {
+					badboy = 8
+					set_country_flag = ff87_zulu_war
+					ZUL = {
+						any_owned = {
+							set_province_flag = ff87_zulu_land
+						}
+					}
+					VLK = {
+						leave_alliance = ZUL
+					}
+					ZUL = {
+						leave_alliance = VLK
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_zulu_pending
+									ZUL = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_incorporation
+								}
+							}
+							owner = {
+								war = {
+									target = ZUL
+									attacker_goal = {
+										casus_belli = ff87_zulu_settlement
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_zulu_pending
+									ZUL = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+									}
+									war = no
+									has_country_flag = ff87_association
+								}
+							}
+							owner = {
+								war = {
+									target = ZUL
+									attacker_goal = {
+										casus_belli = ff87_zulu_protection
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_zulu_WITHDRAW"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zulu_pending
+						NOT = {
+							has_country_flag = ff87_zulu_done
+						}
+					}
+				}
+				owner = {
+					money = 2100
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_zulu_pending
+					clr_country_flag = ff87_zulu_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_zulu_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785333
+	title = "FF87_9785333_TITLE"
+	desc = "FF87_9785333_DESC"
+	picture = "pioneer_wagons"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		is_vassal = no
+		war = no
+		NOT = {
+			has_country_flag = ff87_zulu_report
+		}
+		OR = {
+			has_country_flag = ff87_zulu_won
+			AND = {
+				has_country_flag = ff87_zulu_pending
+				OR = {
+					has_country_flag = ff87_zulu_peace_pending
+					AND = {
+						has_country_flag = ff87_zulu_war
+						truce_with = ZUL
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff87_zulu_report
+	}
+	option = {
+		name = "FF87_zulu_RECORD"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zulu_pending
+						NOT = {
+							has_country_flag = ff87_zulu_done
+						}
+						OR = {
+							has_country_flag = ff87_zulu_won
+							has_country_flag = ff87_zulu_peace_pending
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_zulu_won
+					set_country_flag = ff87_zulu_done
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_zulu_pending
+					clr_country_flag = ff87_zulu_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_zulu_integration_wait
+						duration = 1825
+					}
+					prestige = 3
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zulu_pending
+						NOT = {
+							has_country_flag = ff87_zulu_done
+						}
+						NOT = {
+							OR = {
+								has_country_flag = ff87_zulu_won
+								has_country_flag = ff87_zulu_peace_pending
+							}
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_zulu_pending
+					clr_country_flag = ff87_zulu_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_zulu_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785334
+	title = "FF87_9785334_TITLE"
+	desc = "FF87_9785334_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_zulu_SIGNED"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zulu_won
+					}
+				}
+				owner = {
+					set_country_flag = ff87_zulu_report
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785335
+	title = "FF87_9785335_TITLE"
+	desc = "FF87_9785335_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_gaza_ACCEPT"
+		ai_chance = {
+			factor = 20
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_gaza_pending
+						GAZ = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+							any_owned_province = {
+								OR = {
+									province_id = 3713
+									province_id = 3650
+									province_id = 2050
+									province_id = 2049
+								}
+							}
+						}
+						war = no
+					}
+				}
+				owner = {
+					GAZ = {
+						any_owned = {
+							limit = {
+								OR = {
+									province_id = 3713
+									province_id = 3650
+									province_id = 2050
+									province_id = 2049
+								}
+							}
+							set_province_flag = ff87_gaza_land
+						}
+					}
+					GAZ = {
+						any_owned = {
+							limit = {
+								OR = {
+									province_id = 3713
+									province_id = 3650
+									province_id = 2050
+									province_id = 2049
+								}
+							}
+							secede_province = VLK
+						}
+					}
+					VLK = {
+						badboy = 3
+						set_country_flag = ff87_gaza_won
+						set_country_flag = ff87_gaza_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_gaza_pending
+						clr_country_flag = ff87_gaza_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_gaza_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785338
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_gaza_REFUSE"
+		ai_chance = {
+			factor = 80
+		}
+		GAZ = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = GAZ
+						VLK = {
+							has_country_flag = ff87_gaza_pending
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						country_event = {
+							id = 9785336
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785336
+	title = "FF87_9785336_TITLE"
+	desc = "FF87_9785336_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_gaza_WAR"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_gaza_pending
+						GAZ = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+							any_owned_province = {
+								OR = {
+									province_id = 3713
+									province_id = 3650
+									province_id = 2050
+									province_id = 2049
+								}
+							}
+						}
+						war = no
+					}
+				}
+				owner = {
+					badboy = 8
+					set_country_flag = ff87_gaza_war
+					GAZ = {
+						any_owned = {
+							limit = {
+								OR = {
+									province_id = 3713
+									province_id = 3650
+									province_id = 2050
+									province_id = 2049
+								}
+							}
+							set_province_flag = ff87_gaza_land
+						}
+					}
+					VLK = {
+						leave_alliance = GAZ
+					}
+					GAZ = {
+						leave_alliance = VLK
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_gaza_pending
+									GAZ = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+										any_owned_province = {
+											OR = {
+												province_id = 3713
+												province_id = 3650
+												province_id = 2050
+												province_id = 2049
+											}
+										}
+									}
+									war = no
+								}
+							}
+							owner = {
+								war = {
+									target = GAZ
+									attacker_goal = {
+										casus_belli = ff87_gaza_settlement
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_gaza_WITHDRAW"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_gaza_pending
+						NOT = {
+							has_country_flag = ff87_gaza_done
+						}
+					}
+				}
+				owner = {
+					money = 1900
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_gaza_pending
+					clr_country_flag = ff87_gaza_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_gaza_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785337
+	title = "FF87_9785337_TITLE"
+	desc = "FF87_9785337_DESC"
+	picture = "pioneer_wagons"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		is_vassal = no
+		war = no
+		NOT = {
+			has_country_flag = ff87_gaza_report
+		}
+		OR = {
+			has_country_flag = ff87_gaza_won
+			AND = {
+				has_country_flag = ff87_gaza_pending
+				OR = {
+					has_country_flag = ff87_gaza_peace_pending
+					AND = {
+						has_country_flag = ff87_gaza_war
+						truce_with = GAZ
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff87_gaza_report
+	}
+	option = {
+		name = "FF87_gaza_RECORD"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_gaza_pending
+						NOT = {
+							has_country_flag = ff87_gaza_done
+						}
+						OR = {
+							has_country_flag = ff87_gaza_won
+							has_country_flag = ff87_gaza_peace_pending
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_gaza_won
+					set_country_flag = ff87_gaza_done
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_gaza_pending
+					clr_country_flag = ff87_gaza_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_gaza_integration_wait
+						duration = 1825
+					}
+					prestige = 3
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_gaza_pending
+						NOT = {
+							has_country_flag = ff87_gaza_done
+						}
+						NOT = {
+							OR = {
+								has_country_flag = ff87_gaza_won
+								has_country_flag = ff87_gaza_peace_pending
+							}
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_gaza_pending
+					clr_country_flag = ff87_gaza_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_gaza_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785338
+	title = "FF87_9785338_TITLE"
+	desc = "FF87_9785338_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_gaza_SIGNED"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_gaza_won
+					}
+				}
+				owner = {
+					set_country_flag = ff87_gaza_report
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785339
+	title = "FF87_9785339_TITLE"
+	desc = "FF87_9785339_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_shangaan_ACCEPT"
+		ai_chance = {
+			factor = 20
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_shangaan_pending
+						SRN = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+							any_owned_province = {
+								OR = {
+									province_id = 3713
+									province_id = 3650
+									province_id = 2050
+									province_id = 2049
+								}
+							}
+						}
+						war = no
+					}
+				}
+				owner = {
+					SRN = {
+						any_owned = {
+							limit = {
+								OR = {
+									province_id = 3713
+									province_id = 3650
+									province_id = 2050
+									province_id = 2049
+								}
+							}
+							set_province_flag = ff87_shangaan_land
+						}
+					}
+					SRN = {
+						any_owned = {
+							limit = {
+								OR = {
+									province_id = 3713
+									province_id = 3650
+									province_id = 2050
+									province_id = 2049
+								}
+							}
+							secede_province = VLK
+						}
+					}
+					VLK = {
+						badboy = 3
+						set_country_flag = ff87_shangaan_won
+						set_country_flag = ff87_shangaan_done
+						clr_country_flag = ff87_mission_active
+						clr_country_flag = ff87_shangaan_pending
+						clr_country_flag = ff87_shangaan_war
+						remove_country_modifier = ff87_mission_wait
+						add_country_modifier = {
+							name = ff87_shangaan_integration_wait
+							duration = 1825
+						}
+						prestige = 3
+						country_event = {
+							id = 9785342
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_shangaan_REFUSE"
+		ai_chance = {
+			factor = 80
+		}
+		SRN = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SRN
+						VLK = {
+							has_country_flag = ff87_shangaan_pending
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						country_event = {
+							id = 9785340
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785340
+	title = "FF87_9785340_TITLE"
+	desc = "FF87_9785340_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_shangaan_WAR"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_shangaan_pending
+						SRN = {
+							exists = yes
+							is_vassal = no
+							war = no
+							NOT = {
+								in_sphere = ENG
+							}
+							any_owned_province = {
+								OR = {
+									province_id = 3713
+									province_id = 3650
+									province_id = 2050
+									province_id = 2049
+								}
+							}
+						}
+						war = no
+					}
+				}
+				owner = {
+					badboy = 8
+					set_country_flag = ff87_shangaan_war
+					SRN = {
+						any_owned = {
+							limit = {
+								OR = {
+									province_id = 3713
+									province_id = 3650
+									province_id = 2050
+									province_id = 2049
+								}
+							}
+							set_province_flag = ff87_shangaan_land
+						}
+					}
+					VLK = {
+						leave_alliance = SRN
+					}
+					SRN = {
+						leave_alliance = VLK
+					}
+					VLK = {
+						random_owned = {
+							limit = {
+								owner = {
+									tag = VLK
+									has_country_flag = ff84_union_path
+									is_vassal = no
+									has_country_flag = ff87_shangaan_pending
+									SRN = {
+										exists = yes
+										is_vassal = no
+										war = no
+										NOT = {
+											in_sphere = ENG
+										}
+										any_owned_province = {
+											OR = {
+												province_id = 3713
+												province_id = 3650
+												province_id = 2050
+												province_id = 2049
+											}
+										}
+									}
+									war = no
+								}
+							}
+							owner = {
+								war = {
+									target = SRN
+									attacker_goal = {
+										casus_belli = ff87_shangaan_settlement
+									}
+									defender_goal = {
+										casus_belli = status_quo
+									}
+									call_ally = no
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_shangaan_WITHDRAW"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_shangaan_pending
+						NOT = {
+							has_country_flag = ff87_shangaan_done
+						}
+					}
+				}
+				owner = {
+					money = 2300
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_shangaan_pending
+					clr_country_flag = ff87_shangaan_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_shangaan_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785341
+	title = "FF87_9785341_TITLE"
+	desc = "FF87_9785341_DESC"
+	picture = "pioneer_wagons"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		is_vassal = no
+		war = no
+		NOT = {
+			has_country_flag = ff87_shangaan_report
+		}
+		OR = {
+			has_country_flag = ff87_shangaan_won
+			AND = {
+				has_country_flag = ff87_shangaan_pending
+				OR = {
+					has_country_flag = ff87_shangaan_peace_pending
+					AND = {
+						has_country_flag = ff87_shangaan_war
+						truce_with = SRN
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff87_shangaan_report
+	}
+	option = {
+		name = "FF87_shangaan_RECORD"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_shangaan_pending
+						NOT = {
+							has_country_flag = ff87_shangaan_done
+						}
+						OR = {
+							has_country_flag = ff87_shangaan_won
+							has_country_flag = ff87_shangaan_peace_pending
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_shangaan_won
+					set_country_flag = ff87_shangaan_done
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_shangaan_pending
+					clr_country_flag = ff87_shangaan_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_shangaan_integration_wait
+						duration = 1825
+					}
+					prestige = 3
+				}
+			}
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_shangaan_pending
+						NOT = {
+							has_country_flag = ff87_shangaan_done
+						}
+						NOT = {
+							OR = {
+								has_country_flag = ff87_shangaan_won
+								has_country_flag = ff87_shangaan_peace_pending
+							}
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff87_mission_active
+					clr_country_flag = ff87_shangaan_pending
+					clr_country_flag = ff87_shangaan_war
+					remove_country_modifier = ff87_mission_wait
+					add_country_modifier = {
+						name = ff87_shangaan_retry
+						duration = 1095
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785342
+	title = "FF87_9785342_TITLE"
+	desc = "FF87_9785342_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_shangaan_SIGNED"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_shangaan_won
+					}
+				}
+				owner = {
+					set_country_flag = ff87_shangaan_report
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785388
+	title = "FF87_9785388_TITLE"
+	desc = "FF87_9785388_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_ACCESS_griqua_west"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_west_pending
+						is_our_vassal = GKW
+					}
+				}
+				owner = {
+					GKW = {
+						any_owned = {
+							set_province_flag = ff87_griqua_west_land
+						}
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						release_vassal = GKW
+						inherit = GKW
+						set_country_flag = ff87_griqua_west_won
+						set_country_flag = ff87_griqua_west_done
+						clr_country_flag = ff87_griqua_west_pending
+						clr_country_flag = ff87_mission_active
+						add_country_modifier = {
+							name = ff87_griqua_west_integration_wait
+							duration = 1825
+						}
+						country_event = {
+							id = 9785302
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_REMAIN_griqua_west"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_west_pending
+						is_our_vassal = GKW
+					}
+				}
+				owner = {
+					money = 700
+					clr_country_flag = ff87_griqua_west_pending
+					clr_country_flag = ff87_mission_active
+					set_country_flag = ff87_griqua_west_done
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785389
+	title = "FF87_9785389_TITLE"
+	desc = "FF87_9785389_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_ACCESS_kholokoe"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_kholokoe_pending
+						is_our_vassal = KHO
+					}
+				}
+				owner = {
+					KHO = {
+						any_owned = {
+							set_province_flag = ff87_kholokoe_land
+						}
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						release_vassal = KHO
+						inherit = KHO
+						set_country_flag = ff87_kholokoe_won
+						set_country_flag = ff87_kholokoe_done
+						clr_country_flag = ff87_kholokoe_pending
+						clr_country_flag = ff87_mission_active
+						add_country_modifier = {
+							name = ff87_kholokoe_integration_wait
+							duration = 1825
+						}
+						country_event = {
+							id = 9785306
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_REMAIN_kholokoe"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_kholokoe_pending
+						is_our_vassal = KHO
+					}
+				}
+				owner = {
+					money = 450
+					clr_country_flag = ff87_kholokoe_pending
+					clr_country_flag = ff87_mission_active
+					set_country_flag = ff87_kholokoe_done
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785390
+	title = "FF87_9785390_TITLE"
+	desc = "FF87_9785390_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_ACCESS_transvaal"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_transvaal_pending
+						is_our_vassal = TRN
+					}
+				}
+				owner = {
+					TRN = {
+						any_owned = {
+							set_province_flag = ff87_transvaal_land
+						}
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						release_vassal = TRN
+						inherit = TRN
+						set_country_flag = ff87_transvaal_won
+						set_country_flag = ff87_transvaal_done
+						clr_country_flag = ff87_transvaal_pending
+						clr_country_flag = ff87_mission_active
+						add_country_modifier = {
+							name = ff87_transvaal_integration_wait
+							duration = 1825
+						}
+						country_event = {
+							id = 9785310
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_REMAIN_transvaal"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_transvaal_pending
+						is_our_vassal = TRN
+					}
+				}
+				owner = {
+					money = 1100
+					clr_country_flag = ff87_transvaal_pending
+					clr_country_flag = ff87_mission_active
+					set_country_flag = ff87_transvaal_done
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785391
+	title = "FF87_9785391_TITLE"
+	desc = "FF87_9785391_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_ACCESS_lydenburg"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_lydenburg_pending
+						is_our_vassal = LYD
+					}
+				}
+				owner = {
+					LYD = {
+						any_owned = {
+							set_province_flag = ff87_lydenburg_land
+						}
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						release_vassal = LYD
+						inherit = LYD
+						set_country_flag = ff87_lydenburg_won
+						set_country_flag = ff87_lydenburg_done
+						clr_country_flag = ff87_lydenburg_pending
+						clr_country_flag = ff87_mission_active
+						add_country_modifier = {
+							name = ff87_lydenburg_integration_wait
+							duration = 1825
+						}
+						country_event = {
+							id = 9785314
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_REMAIN_lydenburg"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_lydenburg_pending
+						is_our_vassal = LYD
+					}
+				}
+				owner = {
+					money = 650
+					clr_country_flag = ff87_lydenburg_pending
+					clr_country_flag = ff87_mission_active
+					set_country_flag = ff87_lydenburg_done
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785392
+	title = "FF87_9785392_TITLE"
+	desc = "FF87_9785392_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_ACCESS_zoutpansberg"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zoutpansberg_pending
+						is_our_vassal = ZPB
+					}
+				}
+				owner = {
+					ZPB = {
+						any_owned = {
+							set_province_flag = ff87_zoutpansberg_land
+						}
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						release_vassal = ZPB
+						inherit = ZPB
+						set_country_flag = ff87_zoutpansberg_won
+						set_country_flag = ff87_zoutpansberg_done
+						clr_country_flag = ff87_zoutpansberg_pending
+						clr_country_flag = ff87_mission_active
+						add_country_modifier = {
+							name = ff87_zoutpansberg_integration_wait
+							duration = 1825
+						}
+						country_event = {
+							id = 9785318
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_REMAIN_zoutpansberg"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zoutpansberg_pending
+						is_our_vassal = ZPB
+					}
+				}
+				owner = {
+					money = 850
+					clr_country_flag = ff87_zoutpansberg_pending
+					clr_country_flag = ff87_mission_active
+					set_country_flag = ff87_zoutpansberg_done
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785393
+	title = "FF87_9785393_TITLE"
+	desc = "FF87_9785393_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_ACCESS_griqua_east"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_east_pending
+						is_our_vassal = GKE
+					}
+				}
+				owner = {
+					GKE = {
+						any_owned = {
+							set_province_flag = ff87_griqua_east_land
+						}
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						release_vassal = GKE
+						inherit = GKE
+						set_country_flag = ff87_griqua_east_won
+						set_country_flag = ff87_griqua_east_done
+						clr_country_flag = ff87_griqua_east_pending
+						clr_country_flag = ff87_mission_active
+						add_country_modifier = {
+							name = ff87_griqua_east_integration_wait
+							duration = 1825
+						}
+						country_event = {
+							id = 9785322
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_REMAIN_griqua_east"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_griqua_east_pending
+						is_our_vassal = GKE
+					}
+				}
+				owner = {
+					money = 900
+					clr_country_flag = ff87_griqua_east_pending
+					clr_country_flag = ff87_mission_active
+					set_country_flag = ff87_griqua_east_done
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785394
+	title = "FF87_9785394_TITLE"
+	desc = "FF87_9785394_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_ACCESS_basotho"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_basotho_pending
+						is_our_vassal = BSH
+					}
+				}
+				owner = {
+					BSH = {
+						any_owned = {
+							set_province_flag = ff87_basotho_land
+						}
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						release_vassal = BSH
+						inherit = BSH
+						set_country_flag = ff87_basotho_won
+						set_country_flag = ff87_basotho_done
+						clr_country_flag = ff87_basotho_pending
+						clr_country_flag = ff87_mission_active
+						add_country_modifier = {
+							name = ff87_basotho_integration_wait
+							duration = 1825
+						}
+						country_event = {
+							id = 9785326
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_REMAIN_basotho"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_basotho_pending
+						is_our_vassal = BSH
+					}
+				}
+				owner = {
+					money = 1750
+					clr_country_flag = ff87_basotho_pending
+					clr_country_flag = ff87_mission_active
+					set_country_flag = ff87_basotho_done
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785395
+	title = "FF87_9785395_TITLE"
+	desc = "FF87_9785395_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_ACCESS_swazi"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_swazi_pending
+						is_our_vassal = SUA
+					}
+				}
+				owner = {
+					SUA = {
+						any_owned = {
+							set_province_flag = ff87_swazi_land
+						}
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						release_vassal = SUA
+						inherit = SUA
+						set_country_flag = ff87_swazi_won
+						set_country_flag = ff87_swazi_done
+						clr_country_flag = ff87_swazi_pending
+						clr_country_flag = ff87_mission_active
+						add_country_modifier = {
+							name = ff87_swazi_integration_wait
+							duration = 1825
+						}
+						country_event = {
+							id = 9785330
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_REMAIN_swazi"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_swazi_pending
+						is_our_vassal = SUA
+					}
+				}
+				owner = {
+					money = 1200
+					clr_country_flag = ff87_swazi_pending
+					clr_country_flag = ff87_mission_active
+					set_country_flag = ff87_swazi_done
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785396
+	title = "FF87_9785396_TITLE"
+	desc = "FF87_9785396_DESC"
+	picture = "pioneer_wagons"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF87_ACCESS_zulu"
+		ai_chance = {
+			factor = 65
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zulu_pending
+						is_our_vassal = ZUL
+					}
+				}
+				owner = {
+					ZUL = {
+						any_owned = {
+							set_province_flag = ff87_zulu_land
+						}
+						random_owned = {
+							limit = {
+								owner = {
+									ai = no
+								}
+							}
+							owner = {
+								change_tag_no_core_switch = VLK
+							}
+						}
+					}
+					VLK = {
+						release_vassal = ZUL
+						inherit = ZUL
+						set_country_flag = ff87_zulu_won
+						set_country_flag = ff87_zulu_done
+						clr_country_flag = ff87_zulu_pending
+						clr_country_flag = ff87_mission_active
+						add_country_modifier = {
+							name = ff87_zulu_integration_wait
+							duration = 1825
+						}
+						country_event = {
+							id = 9785334
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF87_REMAIN_zulu"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						is_vassal = no
+						has_country_flag = ff87_zulu_pending
+						is_our_vassal = ZUL
+					}
+				}
+				owner = {
+					money = 2100
+					clr_country_flag = ff87_zulu_pending
+					clr_country_flag = ff87_mission_active
+					set_country_flag = ff87_zulu_done
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785400
+	title = "FF87_9785400_TITLE"
+	desc = "FF87_9785400_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_9785400_OPT"
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						has_country_flag = ff87_republic_congress
+						NOT = {
+							has_country_flag = ff87_republic_congress_done
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_republic_congress_done
+					add_country_modifier = {
+						name = ff87_burgher_frontier_congress
+						duration = 3650
+					}
+					prestige = 2
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785401
+	title = "FF87_9785401_TITLE"
+	desc = "FF87_9785401_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	option = {
+		name = "FF87_9785401_OPT"
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						has_country_flag = ff87_ducal_council
+						NOT = {
+							has_country_flag = ff87_ducal_council_done
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff87_ducal_council_done
+					add_country_modifier = {
+						name = ff87_ducal_frontier_council
+						duration = 3650
+					}
+					prestige = 2
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+cvb_credit_funded_a;Support estate associations and agricultural improvements.;;;;;;;;;;;;;x
+cvb_credit_funded_b;Back village purchase credit and secure farm holdings.;;;;;;;;;;;;;x
+cvb_credit_funded_postpone;Postpone the programme and return its appropriation.;;;;;;;;;;;;;x
+cvb_credit_funded_title;A Provincial Credit Association;;;;;;;;;;;;;x
+cvb_credit_funded_desc;The estates have reserved an appropriation for agricultural credit. Landowners favour loans administered through their estate associations. Village delegates instead ask for purchase credit that will help tenants become secure farmers. The Landtag must choose the institutions that will handle the reserve.;;;;;;;;;;;;;x
+cvb_tenure_funded_a;Register purchases and establish secure farm titles.;;;;;;;;;;;;;x
+cvb_tenure_funded_b;Settle disputed holdings and finance working farms.;;;;;;;;;;;;;x
+cvb_tenure_funded_postpone;Postpone the programme and return its appropriation.;;;;;;;;;;;;;x
+cvb_tenure_funded_title;The Provincial Farm Survey;;;;;;;;;;;;;x
+cvb_tenure_funded_desc;The survey commission can register purchases under secure titles or concentrate its work on settling disputes and financing improvements to existing holdings. Village delegates seek protection against arbitrary claims, estate patrons want the commission to preserve working agreements. The reserved appropriation can support either settlement.;;;;;;;;;;;;;x
+cvb_ports_funded_a;Build permanent quays and commercial warehouses.;;;;;;;;;;;;;x
+cvb_ports_funded_b;Connect rural storehouses with the harbour programme.;;;;;;;;;;;;;x
+cvb_ports_funded_postpone;Postpone the programme and return its appropriation.;;;;;;;;;;;;;x
+cvb_ports_funded_title;Works for the Baltic Commercial Ports;;;;;;;;;;;;;x
+cvb_ports_funded_desc;Port merchants place plans for permanent quays and warehouses before the Landtag. Rural producers ask for storehouses and credit along the routes that carry their goods to the coast. The reserved grant can concentrate on lasting port works or join a smaller harbour programme to agricultural improvements.;;;;;;;;;;;;;x
+cvb_parish_funded_a;Endow the established parish schools and their teachers.;;;;;;;;;;;;;x
+cvb_parish_funded_b;Endow parish teaching and vernacular books together.;;;;;;;;;;;;;x
+cvb_parish_funded_postpone;Postpone the programme and return its appropriation.;;;;;;;;;;;;;x
+cvb_parish_funded_title;An Endowment for the Parish Schools;;;;;;;;;;;;;x
+cvb_parish_funded_desc;The pastors propose a dependable endowment for the established parish schools. Village representatives ask the same schools to provide more instruction and books in the languages spoken by their pupils. Broader access will help parish families but bring the language question before patrons accustomed to directing instruction.;;;;;;;;;;;;;x
+cvb_diet_funded_a;Admit elected town and rural deputies to the chamber.;;;;;;;;;;;;;x
+cvb_diet_funded_b;Establish consultative committees under the existing franchise.;;;;;;;;;;;;;x
+cvb_diet_funded_postpone;Postpone the programme and return its appropriation.;;;;;;;;;;;;;x
+cvb_diet_funded_title;Town and Country Before the Landtag;;;;;;;;;;;;;x
+cvb_diet_funded_desc;The provincial diet has reserved funds to admit a wider public to its work. Towns and communes seek elected deputies with a voice in the chamber. Conservative patrons prefer standing committees that consult those communities while retaining the existing franchise. Both proposals strengthen administration, but only the first rewrites representation.;;;;;;;;;;;;;x
+cvb_german_schools_funded_a;Concentrate the endowment on German teaching and chairs.;;;;;;;;;;;;;x
+cvb_german_schools_funded_b;Join German chairs to vernacular provincial studentships.;;;;;;;;;;;;;x
+cvb_german_schools_funded_postpone;Postpone the programme and return its appropriation.;;;;;;;;;;;;;x
+cvb_german_schools_funded_title;German Instruction and Provincial Studentships;;;;;;;;;;;;;x
+cvb_german_schools_funded_desc;The endowment can concentrate teachers and technical chairs in the German institutions that connect the province with German scholarship. Another proposal joins those chairs to studentships for Estonian and Latvian pupils. The latter shares instruction more widely but asks established patrons to accept a broader provincial public.;;;;;;;;;;;;;x
+cvb_institutions_est_funded_a;Endow the German guilds and established civic offices.;;;;;;;;;;;;;x
+cvb_institutions_est_funded_b;Direct the civic reserve towards open commercial employment.;;;;;;;;;;;;;x
+cvb_institutions_est_funded_postpone;Postpone the programme and return its appropriation.;;;;;;;;;;;;;x
+cvb_institutions_est_funded_title;The Reval Civic Endowment;;;;;;;;;;;;;x
+cvb_institutions_est_funded_desc;Reval's patrons seek an endowment for the German guilds and civic offices. Merchants propose that the reserve instead support the port and provide commercial employment beyond the circle of established guild families. The former honours the town's institutions, the latter strengthens its commerce while challenging the patrons' exclusive influence.;;;;;;;;;;;;;x
+cvb_institutions_ubd_funded_a;Endow the established German chairs and their patrons.;;;;;;;;;;;;;x
+cvb_institutions_ubd_funded_b;Link provincial studentships with accessible parish instruction.;;;;;;;;;;;;;x
+cvb_institutions_ubd_funded_postpone;Postpone the programme and return its appropriation.;;;;;;;;;;;;;x
+cvb_institutions_ubd_funded_title;Chairs and Studentships at Dorpat;;;;;;;;;;;;;x
+cvb_institutions_ubd_funded_desc;The estates can endow the established German chairs and their provincial patrons or widen access through studentships tied to parish instruction. The chairs strengthen Dorpat's standing, broader schooling admits more Estonian and Latvian families to the institutions through which the province governs itself.;;;;;;;;;;;;;x
+cvb_institutions_lat_funded_a;Restore the estate commission and its established institutions.;;;;;;;;;;;;;x
+cvb_institutions_lat_funded_b;Make secure tenant purchases the commission's principal duty.;;;;;;;;;;;;;x
+cvb_institutions_lat_funded_postpone;Postpone the programme and return its appropriation.;;;;;;;;;;;;;x
+cvb_institutions_lat_funded_title;The Couronian Estate Commission;;;;;;;;;;;;;x
+cvb_institutions_lat_funded_desc;The Couronian estates seek a commission to preserve their institutions and record commercial agreements. Tenant delegates ask it to concentrate on secure purchases and disputed farm titles. The reserve can sustain the established estate body or make access to land its principal duty, at the cost of opposition from its patrons.;;;;;;;;;;;;;x
+cvb_landwehr_funded_a;Organise an officer-led council and dependable supply depots.;;;;;;;;;;;;;x
+cvb_landwehr_funded_b;Share the council with town and parish militia boards.;;;;;;;;;;;;;x
+cvb_landwehr_funded_postpone;Postpone the programme and return its appropriation.;;;;;;;;;;;;;x
+cvb_landwehr_funded_title;The Provincial Defence Council;;;;;;;;;;;;;x
+cvb_landwehr_funded_desc;The Landtag has reserved funds for depots, recruiting offices and coordinated supply. Estate delegates favour a council directed by appointed officers. Town and parish representatives ask to share responsibility through district militia boards. Either plan prepares the province for defence, the broader council also commits the estates to share political authority.;;;;;;;;;;;;;x
+cvb_restore_funding_postpone;Postpone restoration and return its appropriation.;;;;;;;;;;;;;x
+cvb_funding_withdrawn_title;The Provincial Appropriation Is Withdrawn;;;;;;;;;;;;;x
+cvb_funding_withdrawn_desc;The treasury cannot support the proposed appropriation, or the conditions under which a project was approved have changed. The office withdraws the proposal. A reserved project grant is returned, and the estates can reconsider it when the province is ready.;;;;;;;;;;;;;x
+cvb_funding_withdrawn_ack;Resume the ordinary business of the estates.;;;;;;;;;;;;;x

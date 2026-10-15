@@ -1,0 +1,91 @@
+Carlist Overseas — historical source art
+Images illustrate an alternate-history campaign; original works do not document those alternate events.
+Each image is cropped/downscaled and encoded as DDS. Cached source images remain in work/source_art/Carlist_Overseas/originals.
+
+cvcs_carlos — Infante Carlos María Isidro
+Creator: Vicente López Portaña (1772–1850); date: first third of the nineteenth century
+Source: https://commons.wikimedia.org/wiki/File:Carlos_Mar%C3%ADa_Isidro_de_Borb%C3%B3n.png
+License: Public domain (Commons file page) — https://creativecommons.org/publicdomain/mark/1.0/
+Use: Carlist court
+Changes: centered crop and downscale to 521x203 event or 256x256 decision DDS (DXT1); no generative edit
+
+
+cvcs_cortes — The Oath of the Cortes of Cádiz
+Creator: José Casado del Alisal (1832–1886); date: 1862
+Source: https://commons.wikimedia.org/wiki/File:El_juramento_de_las_Cortes_de_C%C3%A1diz_en_1810.jpg
+License: Public domain (Commons file page) — https://creativecommons.org/publicdomain/mark/1.0/
+Use: Spanish representative institutions; not a Carlist assembly
+Changes: centered crop and downscale to 521x203 event or 256x256 decision DDS (DXT1); no generative edit
+
+
+cvcs_tetuan — The Battle of Tetouan
+Creator: Marià Fortuny (1838–1874); date: 1862–1864, depicting the campaign of 1860
+Source: https://commons.wikimedia.org/wiki/File:Mari%C3%A0_Fortuny_-_The_Battle_of_Tetouan_-_Google_Art_Project.jpg
+License: Public domain (Commons file page) — https://creativecommons.org/publicdomain/mark/1.0/
+Use: Moroccan campaign
+Changes: centered crop and downscale to 521x203 event or 256x256 decision DDS (DXT1); no generative edit
+
+
+cvcs_inquisition — The Inquisition Tribunal
+Creator: Francisco de Goya (1746–1828); date: 1812–1814
+Source: https://commons.wikimedia.org/wiki/File:Francisco_de_Goya_-_Escena_de_Inquisici%C3%B3n_-_Google_Art_Project.jpg
+License: Public domain (Commons file page) — https://creativecommons.org/publicdomain/mark/1.0/
+Use: Religious courts and their opposition
+Changes: centered crop and downscale to 521x203 event or 256x256 decision DDS (DXT1); no generative edit
+
+
+cvcs_church — Interior of the Church of Sant Josep
+Creator: Marià Fortuny (1838–1874); date: nineteenth century
+Source: https://commons.wikimedia.org/wiki/File:Mari%C3%A0_Fortuny_-_Interior_of_the_Church_of_Sant_Josep_-_Google_Art_Project.jpg
+License: Public domain (Commons file page) — https://creativecommons.org/publicdomain/mark/1.0/
+Use: Church institutions; this depicts a Spanish church
+Changes: centered crop and downscale to 521x203 event or 256x256 decision DDS (DXT1); no generative edit
+
+
+cvcs_sultan — The Sultan of Morocco and His Entourage
+Creator: Eugène Delacroix (1798–1863); date: 1845
+Source: https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Ferdinand_Victor_Delacroix_044.jpg
+License: Public domain (Commons file page) — https://creativecommons.org/publicdomain/mark/1.0/
+Use: Moroccan diplomacy and local authority
+Changes: centered crop and downscale to 521x203 event or 256x256 decision DDS (DXT1); no generative edit
+
+
+cvcs_tetuan_house — Our House in Tetouan
+Creator: Marià Fortuny (1838–1874); date: 1860
+Source: https://commons.wikimedia.org/wiki/File:Mari%C3%A0_Fortuny_-_Nuestra_casa_en_Tetu%C3%A1n_(Our_house_in_Tetouan)_-_Google_Art_Project.jpg
+License: Public domain (Commons file page) — https://creativecommons.org/publicdomain/mark/1.0/
+Use: Moroccan urban administration
+Changes: centered crop and downscale to 521x203 event or 256x256 decision DDS (DXT1); no generative edit
+
+
+cvcs_manila_bridge — Vista del Puente de Manila
+Creator: José Honorato Lozano (died 1885); date: 1847
+Source: https://commons.wikimedia.org/wiki/File:Vista_del_Puente_de_Manila_(1847).png
+License: Public domain (Commons file page) — https://creativecommons.org/publicdomain/mark/1.0/
+Use: Philippine transport and civil infrastructure
+Changes: centered crop and downscale to 521x203 event or 256x256 decision DDS (DXT1); no generative edit
+
+
+cvcs_governor — Gobernadorcillo de Naturales
+Creator: José Honorato Lozano (died 1885); date: 1847
+Source: https://commons.wikimedia.org/wiki/File:Gobernadorcillo_de_Naturales_by_Jos%C3%A9_Honorato_Lozano.jpg
+License: Public domain (Commons file page) — https://creativecommons.org/publicdomain/mark/1.0/
+Use: Philippine local councils and administration
+Changes: centered crop and downscale to 521x203 event or 256x256 decision DDS (DXT1); no generative edit
+
+
+cvcs_cundiman — El Cundiman
+Creator: José Honorato Lozano (died 1885); date: 1847
+Source: https://commons.wikimedia.org/wiki/File:El_Cundiman_by_Jos%C3%A9_Honorato_Lozano.jpg
+License: Public domain (Commons file page) — https://creativecommons.org/publicdomain/mark/1.0/
+Use: Philippine civic culture
+Changes: centered crop and downscale to 521x203 event or 256x256 decision DDS (DXT1); no generative edit
+
+
+cvcs_manila_city — Scenes of Manila in Letras y Figuras
+Creator: José Honorato Lozano (died 1885); digital reproduction by EyeTrick; date: nineteenth century; digital file 2024
+Source: https://commons.wikimedia.org/wiki/File:Letras_y_Figuras_-_Scenes_of_Manila_Forming_the_Name_%22William_P._Peirce%22.jpg
+License: CC BY 4.0 (EyeTrick digital reproduction) — https://creativecommons.org/licenses/by/4.0/
+Use: Manila civic life
+Changes: centered crop and downscale to 521x203 event or 256x256 decision DDS (DXT1); no generative edit
+Asset aliases: cvcs_manila

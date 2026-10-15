@@ -1,0 +1,1 @@
+country_event = { id = 9799520 title = ff_hai_brothers_date_title desc = ff_hai_brothers_date_desc is_triggered_only = yes option = { name = ff_hai_brothers_date_option random_owned = { limit = { owner = { year = 1866 OR = { year = 1867 month = 5 } } } owner = { set_global_flag = ff_hai_brothers_historical_date } } } }

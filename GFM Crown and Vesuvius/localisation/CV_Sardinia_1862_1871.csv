@@ -1,0 +1,251 @@
+cvs4_southern_disorder;Disorder in the Southern Provinces;;;;;;;;;;;;;x
+cvs4_emergency_policing;Emergency Military Jurisdiction;;;;;;;;;;;;;x
+cvs4_civil_reconciliation;Civil Reconciliation Programme;;;;;;;;;;;;;x
+cvs4_local_commissions;Provincial Commissions;;;;;;;;;;;;;x
+cvs4_volunteer_restraint;The Crown and the Volunteers;;;;;;;;;;;;;x
+cvs4_convention_wait;Negotiations with France;;;;;;;;;;;;;x
+cvs4_convention_term;The September Convention;;;;;;;;;;;;;x
+cvs4_turin_dislocation;The Loss of the Court and Ministries;;;;;;;;;;;;;x
+cvs4_capital_removal;The Transfer of the Ministries;;;;;;;;;;;;;x
+cvs4_code_works;Preparing the Common Civil Code;;;;;;;;;;;;;x
+cvs4_civil_code;The Unified Civil Code;;;;;;;;;;;;;x
+cvs4_war_credit;Corso Forzoso;;;;;;;;;;;;;x
+cvs4_campaign_supply;The Venetian Campaign Commissariat;;;;;;;;;;;;;x
+cvs4_naval_reform_works;Reform of Naval Command;;;;;;;;;;;;;x
+cvs4_naval_staff;The Naval Staff and Gunnery Service;;;;;;;;;;;;;x
+cvs4_palermo_emergency;Declare emergency administration.;;;;;;;;;;;;;x
+cvs4_sicilian_relief;Relief for Palermo;;;;;;;;;;;;;x
+cvs4_milling_tax;The Milling Tax;;;;;;;;;;;;;x
+cvs4_direct_assessment;Direct Assessment of Property;;;;;;;;;;;;;x
+cvs4_assab_survey;Sapeto's Commercial Survey;;;;;;;;;;;;;x
+cvs4_rubattino_contract;Rubattino's Assab Venture;;;;;;;;;;;;;x
+cvs4_roman_administration;The Administration of Rome;;;;;;;;;;;;;x
+cvs4_roman_question;The Unresolved Roman Question;;;;;;;;;;;;;x
+cvs4_primary_school_works;Municipal School Programme;;;;;;;;;;;;;x
+cvs4_primary_schools;A Wider Primary School Network;;;;;;;;;;;;;x
+cvs4_chapter_active;The Savoy First-Decade Programme;;;;;;;;;;;;;x
+cvs4_southern_civil;Civil administration in the South;;;;;;;;;;;;;x
+cvs4_pica_law;Authorize exceptional jurisdiction.;;;;;;;;;;;;;x
+cvs4_convention_requested;A convention proposed to France;;;;;;;;;;;;;x
+cvs4_convention_pending;Awaiting the French response;;;;;;;;;;;;;x
+cvs4_convention_accepted;France accepted the convention;;;;;;;;;;;;;x
+cvs4_convention_refused;France declined the convention;;;;;;;;;;;;;x
+cvs4_convention_lapsed;The negotiations have lapsed;;;;;;;;;;;;;x
+cvs4_convention_active;The Roman non-intervention pledge;;;;;;;;;;;;;x
+cvs4_convention_released;The Roman pledge has ended;;;;;;;;;;;;;x
+cvs4_volunteers_tolerated;Volunteer agitation tolerated;;;;;;;;;;;;;x
+cvs4_war_participation;Participation in the war against Austria;;;;;;;;;;;;;x
+cvs4_milling_enacted;Milling tax legislation;;;;;;;;;;;;;x
+cvs4_direct_enacted;Direct assessment legislation;;;;;;;;;;;;;x
+cvs4_assab_commercial;An Assab commercial contract;;;;;;;;;;;;;x
+cvs4_assab_disputed;Assab access disputed;;;;;;;;;;;;;x
+cvs4_guarantees_offered;Unilateral guarantees to the Holy See;;;;;;;;;;;;;x
+cvs4_french_withdrawal;France ended its protective commitment;;;;;;;;;;;;;x
+cvs4_french_retention;France retained its protective commitment;;;;;;;;;;;;;x
+cvs4_roman_claim_authorized;A Roman campaign claim authorized;;;;;;;;;;;;;x
+cvs4_south_title;Governing the Southern Provinces;;;;;;;;;;;;;x
+cvs4_south_desc;Reports from the former Bourbon mainland describe armed bands, legitimist networks and resistance to conscription and taxation. Agrarian grievances and local rivalries overlap with political opposition. The cabinet must choose how to establish royal authority without treating every dispute as the same rebellion.;;;;;;;;;;;;;x
+cvs4_south_done;Governing the Southern Provinces: concluded;;;;;;;;;;;;;x
+cvs4_south_seen;Governing the Southern Provinces: presented;;;;;;;;;;;;;x
+cvs4_south_army;Strengthen the military districts.;;;;;;;;;;;;;x
+cvs4_south_civil;Entrust grievances to provincial commissions.;;;;;;;;;;;;;x
+cvs4_pica_title;The Pica Law;;;;;;;;;;;;;x
+cvs4_pica_desc;The emergency in the South has prompted a proposal for military jurisdiction and exceptional police powers in designated districts. Supporters promise to disrupt armed networks; opponents warn that arbitrary arrests and collective suspicion will deepen hostility. Civil reconciliation remains an alternative.;;;;;;;;;;;;;x
+cvs4_pica_done;The Pica Law: concluded;;;;;;;;;;;;;x
+cvs4_pica_seen;The Pica Law: presented;;;;;;;;;;;;;x
+cvs4_pica_civil;Retain ordinary jurisdiction and local commissions.;;;;;;;;;;;;;x
+cvs4_emergency_end_title;The End of the Southern Emergency Legislation;;;;;;;;;;;;;x
+cvs4_emergency_end_desc;The exceptional legislative period is drawing to a close. Armed opposition has not made every southern grievance identical, and the return to ordinary administration cannot by itself resolve land disputes, poverty or distrust of officials.;;;;;;;;;;;;;x
+cvs4_emergency_end_done;The End of the Southern Emergency Legislation: concluded;;;;;;;;;;;;;x
+cvs4_emergency_end_seen;The End of the Southern Emergency Legislation: presented;;;;;;;;;;;;;x
+cvs4_emergency_end_end;Return responsibility to ordinary institutions.;;;;;;;;;;;;;x
+cvs4_aspromonte_title;Roma o Morte: The Crown and the Volunteers;;;;;;;;;;;;;x
+cvs4_aspromonte_desc;Volunteer agitation in Calabria threatens to carry the Roman question beyond the cabinet's control. The Papal government still holds Rome and France remains a powerful protector. Ministers must decide whether to stop an unauthorized expedition or tolerate preparations that could provoke a diplomatic crisis.;;;;;;;;;;;;;x
+cvs4_aspromonte_done;Roma o Morte: The Crown and the Volunteers: concluded;;;;;;;;;;;;;x
+cvs4_aspromonte_seen;Roma o Morte: The Crown and the Volunteers: presented;;;;;;;;;;;;;x
+cvs4_aspromonte_stop;Order the volunteers disarmed.;;;;;;;;;;;;;x
+cvs4_aspromonte_tolerate;Tolerate the patriotic committees.;;;;;;;;;;;;;x
+cvs4_convention_title;Negotiate a Convention on Rome;;;;;;;;;;;;;x
+cvs4_convention_desc;Offer France a pledge to respect and defend the remaining Papal territory in return for withdrawal of its expeditionary presence. The proposed understanding includes removing the capital from Turin to Florence. Paris must accept before the arrangement can proceed.;;;;;;;;;;;;;x
+cvs4_convention_taken;Negotiate a Convention on Rome: enacted;;;;;;;;;;;;;x
+cvs4_french_reply_title;An Italian Proposal on Rome;;;;;;;;;;;;;x
+cvs4_french_reply_desc;The Italian cabinet proposes a convention over the remaining Papal territory and offers to transfer its capital to Florence. Acceptance would commit France to withdraw its expeditionary presence while Italy undertakes not to attack the Pope and to defend his territory.;;;;;;;;;;;;;x
+cvs4_french_reply_done;An Italian Proposal on Rome: concluded;;;;;;;;;;;;;x
+cvs4_french_reply_seen;An Italian Proposal on Rome: presented;;;;;;;;;;;;;x
+cvs4_french_reply_accept;Accept the convention.;;;;;;;;;;;;;x
+cvs4_french_reply_refuse;Maintain our present position.;;;;;;;;;;;;;x
+cvs4_convention_yes_title;France Accepts the Convention;;;;;;;;;;;;;x
+cvs4_convention_yes_desc;Paris has accepted the proposed understanding on Rome. Italy has undertaken to respect the remaining Papal territory, and the transfer of the ministries to Florence must now be prepared. The agreement addresses military protection; it does not resolve the Pope's objection to Italian unity.;;;;;;;;;;;;;x
+cvs4_convention_yes_done;France Accepts the Convention: concluded;;;;;;;;;;;;;x
+cvs4_convention_yes_seen;France Accepts the Convention: presented;;;;;;;;;;;;;x
+cvs4_convention_yes_ack;Prepare the transfer to Florence.;;;;;;;;;;;;;x
+cvs4_convention_no_title;France Declines the Convention;;;;;;;;;;;;;x
+cvs4_convention_no_desc;Paris has declined the proposed understanding. There is no agreed French withdrawal and no obligation arising from these negotiations to move the ministries. The Roman question remains open.;;;;;;;;;;;;;x
+cvs4_convention_no_done;France Declines the Convention: concluded;;;;;;;;;;;;;x
+cvs4_convention_no_seen;France Declines the Convention: presented;;;;;;;;;;;;;x
+cvs4_convention_no_ack;Maintain diplomatic contact.;;;;;;;;;;;;;x
+cvs4_convention_timeout_title;The Roman Negotiations Have Lapsed;;;;;;;;;;;;;x
+cvs4_convention_timeout_desc;The negotiations with France have ended without a binding settlement. Changes in the diplomatic situation or the failure to secure a timely response have left the proposed exchange of undertakings unratified.;;;;;;;;;;;;;x
+cvs4_convention_timeout_done;The Roman Negotiations Have Lapsed: concluded;;;;;;;;;;;;;x
+cvs4_convention_timeout_seen;The Roman Negotiations Have Lapsed: presented;;;;;;;;;;;;;x
+cvs4_convention_timeout_ack;Close the negotiations.;;;;;;;;;;;;;x
+cvs4_florence_title;Transfer the Capital to Florence;;;;;;;;;;;;;x
+cvs4_florence_desc;Prepare Florence to receive the court, parliament and central ministries under the convention with France. Turin faces the loss of employment and influence associated with the capital, while the receiving city must accommodate the national administration.;;;;;;;;;;;;;x
+cvs4_florence_taken;Transfer the Capital to Florence: enacted;;;;;;;;;;;;;x
+cvs4_turin_title;Turin and the Departure of the Ministries;;;;;;;;;;;;;x
+cvs4_turin_desc;The decision to remove the ministries has provoked anger in Turin. Trades dependent on the court face disruption, while critics condemn the manner in which the agreement was reached. The cabinet must answer demands for an inquiry and assistance to the city.;;;;;;;;;;;;;x
+cvs4_turin_done;Turin and the Departure of the Ministries: concluded;;;;;;;;;;;;;x
+cvs4_turin_seen;Turin and the Departure of the Ministries: presented;;;;;;;;;;;;;x
+cvs4_turin_inquiry;Permit an inquiry and municipal relief.;;;;;;;;;;;;;x
+cvs4_turin_order;Defend the authority of the cabinet.;;;;;;;;;;;;;x
+cvs4_convention_review_title;Reviewing the Roman Convention;;;;;;;;;;;;;x
+cvs4_convention_review_desc;The agreed period for French withdrawal has elapsed. Parliament must decide whether to uphold the pledge over Papal territory or openly renounce it. Even a withdrawal does not prevent France from intervening again if its government chooses to defend the Pope.;;;;;;;;;;;;;x
+cvs4_convention_review_done;Reviewing the Roman Convention: concluded;;;;;;;;;;;;;x
+cvs4_convention_review_seen;Reviewing the Roman Convention: presented;;;;;;;;;;;;;x
+cvs4_convention_review_keep;Uphold the pledge.;;;;;;;;;;;;;x
+cvs4_convention_review_renounce;Renounce the pledge openly.;;;;;;;;;;;;;x
+cvs4_convention_end_title;The Convention Loses Its Basis;;;;;;;;;;;;;x
+cvs4_convention_end_desc;The conditions on which the Roman convention rested have changed. The cabinet can no longer administer the old undertaking as though the military and territorial situation were unchanged.;;;;;;;;;;;;;x
+cvs4_convention_end_done;The Convention Loses Its Basis: concluded;;;;;;;;;;;;;x
+cvs4_convention_end_seen;The Convention Loses Its Basis: presented;;;;;;;;;;;;;x
+cvs4_convention_end_ack;Record the end of the undertaking.;;;;;;;;;;;;;x
+cvs4_code_title;Enact a Common Civil Code;;;;;;;;;;;;;x
+cvs4_code_desc;Replace the inherited civil systems with common rules for property, contracts and family law. This programme concerns civil administration; the distinct Tuscan criminal settlement is not abolished by it.;;;;;;;;;;;;;x
+cvs4_code_taken;Enact a Common Civil Code: enacted;;;;;;;;;;;;;x
+cvs4_code_open_title;The Civil Code Enters into Force;;;;;;;;;;;;;x
+cvs4_code_open_desc;The common civil code is ready for administration across the kingdom. Courts and officials now share a legal framework, though uniform legislation does not eliminate the practical differences between local institutions.;;;;;;;;;;;;;x
+cvs4_code_open_done;The Civil Code Enters into Force: concluded;;;;;;;;;;;;;x
+cvs4_code_open_seen;The Civil Code Enters into Force: presented;;;;;;;;;;;;;x
+cvs4_code_open_ack;Apply the common code.;;;;;;;;;;;;;x
+cvs4_prussia_title;The Alliance with Prussia;;;;;;;;;;;;;x
+cvs4_prussia_desc;The alliance with Prussia has committed Italy to a war against Austria over Venetia. Diplomatic cooperation may divide Austrian strength, but the army must still conduct its campaign and the final settlement remains uncertain.;;;;;;;;;;;;;x
+cvs4_prussia_done;The Alliance with Prussia: concluded;;;;;;;;;;;;;x
+cvs4_prussia_seen;The Alliance with Prussia: presented;;;;;;;;;;;;;x
+cvs4_prussia_ack;Coordinate the campaign.;;;;;;;;;;;;;x
+cvs4_war_credit_title;Corso Forzoso;;;;;;;;;;;;;x
+cvs4_war_credit_desc;War expenditure and pressure on reserves have brought the question of compulsory paper circulation before the cabinet. Suspending convertibility would ease the immediate financing strain, but savers and households would bear uncertainty over the value of money. The kingdom still has several banks of issue.;;;;;;;;;;;;;x
+cvs4_war_credit_done;Corso Forzoso: concluded;;;;;;;;;;;;;x
+cvs4_war_credit_seen;Corso Forzoso: presented;;;;;;;;;;;;;x
+cvs4_war_credit_suspend;Suspend convertibility for the emergency.;;;;;;;;;;;;;x
+cvs4_war_credit_discipline;Rely on stricter expenditure controls.;;;;;;;;;;;;;x
+cvs4_venetian_supply_title;Fund the Venetian Campaign Commissariat;;;;;;;;;;;;;x
+cvs4_venetian_supply_desc;Provide a common supply service for the campaign against Austria. The undertaking supports operations; possession of Venetia will depend on the war and the peace settlement.;;;;;;;;;;;;;x
+cvs4_venetian_supply_taken;Fund the Venetian Campaign Commissariat: enacted;;;;;;;;;;;;;x
+cvs4_venetia_title;Venetia Under the Italian Crown;;;;;;;;;;;;;x
+cvs4_venetia_desc;Venice and its mainland districts have passed under Italian sovereignty. The task now is to reconcile their administration with the kingdom and to give the settlement a public constitutional expression. Acquisition of the territory does not settle every claim along the Alpine frontier.;;;;;;;;;;;;;x
+cvs4_venetia_done;Venetia Under the Italian Crown: concluded;;;;;;;;;;;;;x
+cvs4_venetia_seen;Venetia Under the Italian Crown: presented;;;;;;;;;;;;;x
+cvs4_venetia_ratify;Ratify the union and establish civil authority.;;;;;;;;;;;;;x
+cvs4_war_review_title;Reviewing the Austrian Campaign;;;;;;;;;;;;;x
+cvs4_war_review_desc;Peace has brought the campaign before parliament. Separate commands, supply arrangements and relations between the army and fleet require examination. The inquiry must assess the forces actually employed, without mistaking diplomatic gains for proof that every institution worked well.;;;;;;;;;;;;;x
+cvs4_war_review_done;Reviewing the Austrian Campaign: concluded;;;;;;;;;;;;;x
+cvs4_war_review_seen;Reviewing the Austrian Campaign: presented;;;;;;;;;;;;;x
+cvs4_war_review_inquiry;Authorize a professional inquiry.;;;;;;;;;;;;;x
+cvs4_war_review_court;Leave the review to the royal command.;;;;;;;;;;;;;x
+cvs4_naval_staff_title;Reform Naval Command and Gunnery;;;;;;;;;;;;;x
+cvs4_naval_staff_desc;Establish common staff procedures, tactical instruction and gunnery training across the fleet. The navy inherited different service traditions; a new organization must be supported by sustained training rather than ceremonial unity alone.;;;;;;;;;;;;;x
+cvs4_naval_staff_taken;Reform Naval Command and Gunnery: enacted;;;;;;;;;;;;;x
+cvs4_naval_staff_open_title;The Naval Reform Programme Reports;;;;;;;;;;;;;x
+cvs4_naval_staff_open_desc;The funded programme has completed its first cycle of staff instruction and gunnery training. Common procedures now support the fleet, while actual readiness continues to depend on crews, ships and the naval budget.;;;;;;;;;;;;;x
+cvs4_naval_staff_open_done;The Naval Reform Programme Reports: concluded;;;;;;;;;;;;;x
+cvs4_naval_staff_open_seen;The Naval Reform Programme Reports: presented;;;;;;;;;;;;;x
+cvs4_naval_staff_open_ack;Adopt the common procedures.;;;;;;;;;;;;;x
+cvs4_palermo_title;Palermo: The Crisis of September;;;;;;;;;;;;;x
+cvs4_palermo_desc;Reports from Palermo describe unrest drawing on poverty, hostility to conscription and taxation, and resentment of central authority. Republicans, clerical interests and Bourbon sympathizers do not share one programme. The ministry must decide between emergency policing and a negotiated municipal response.;;;;;;;;;;;;;x
+cvs4_palermo_done;Palermo: The Crisis of September: concluded;;;;;;;;;;;;;x
+cvs4_palermo_seen;Palermo: The Crisis of September: presented;;;;;;;;;;;;;x
+cvs4_palermo_relief;Seek a municipal settlement.;;;;;;;;;;;;;x
+cvs4_mentana_title;The Volunteer Challenge Returns;;;;;;;;;;;;;x
+cvs4_mentana_desc;A new movement to advance on Rome is gathering support. The Papal state survives, and France retains the ability to intervene. The cabinet can restrain the volunteers or tolerate agitation at the cost of its diplomatic assurances. The fate of any actual campaign will be decided on the ground.;;;;;;;;;;;;;x
+cvs4_mentana_done;The Volunteer Challenge Returns: concluded;;;;;;;;;;;;;x
+cvs4_mentana_seen;The Volunteer Challenge Returns: presented;;;;;;;;;;;;;x
+cvs4_mentana_restrain;Enforce control over the frontier.;;;;;;;;;;;;;x
+cvs4_mentana_tolerate;Let the patriotic committees organize.;;;;;;;;;;;;;x
+cvs4_tax_debate_title;The Tax on Milling;;;;;;;;;;;;;x
+cvs4_tax_debate_desc;The treasury seeks dependable revenue to meet the obligations of the new kingdom. A duty collected at the mill would reach the consumption of basic grain products and provoke opposition among poorer households. A more direct assessment of property would place the dispute elsewhere and yield less immediately.;;;;;;;;;;;;;x
+cvs4_tax_debate_done;The Tax on Milling: concluded;;;;;;;;;;;;;x
+cvs4_tax_debate_seen;The Tax on Milling: presented;;;;;;;;;;;;;x
+cvs4_tax_debate_mill;Enact the milling duty.;;;;;;;;;;;;;x
+cvs4_tax_debate_property;Pursue direct property assessments.;;;;;;;;;;;;;x
+cvs4_tax_collection_title;The New Assessments Enter into Force;;;;;;;;;;;;;x
+cvs4_tax_collection_desc;The new fiscal legislation is entering administration. Collectors must enforce it through local institutions, where objections to the distribution of the burden can become a broader dispute with the state.;;;;;;;;;;;;;x
+cvs4_tax_collection_done;The New Assessments Enter into Force: concluded;;;;;;;;;;;;;x
+cvs4_tax_collection_seen;The New Assessments Enter into Force: presented;;;;;;;;;;;;;x
+cvs4_tax_collection_enforce;Apply the legislation.;;;;;;;;;;;;;x
+cvs4_tax_repeal_title;Repeal the Milling Duty;;;;;;;;;;;;;x
+cvs4_tax_repeal_desc;Withdraw the duty on milling and relinquish its revenue. The decision can ease the burden on basic consumption, but leaves the cabinet to meet its obligations through the ordinary budget.;;;;;;;;;;;;;x
+cvs4_tax_repeal_taken;Repeal the Milling Duty: enacted;;;;;;;;;;;;;x
+cvs4_schools_title;Support Municipal Primary Schools;;;;;;;;;;;;;x
+cvs4_schools_desc;Provide support for municipal schools and teacher preparation in the united kingdom. A wider network requires local staff and sustained finance; literacy will improve through education rather than by decree.;;;;;;;;;;;;;x
+cvs4_schools_taken;Support Municipal Primary Schools: enacted;;;;;;;;;;;;;x
+cvs4_schools_open_title;The Municipal School Programme Reports;;;;;;;;;;;;;x
+cvs4_schools_open_desc;The funded programme has expanded the capacity of municipalities to maintain primary instruction. Recruitment and attendance remain uneven, but the state can now support education through a broader network.;;;;;;;;;;;;;x
+cvs4_schools_open_done;The Municipal School Programme Reports: concluded;;;;;;;;;;;;;x
+cvs4_schools_open_seen;The Municipal School Programme Reports: presented;;;;;;;;;;;;;x
+cvs4_schools_open_ack;Maintain the school network.;;;;;;;;;;;;;x
+cvs4_assab_title;Support Sapeto's Red Sea Survey;;;;;;;;;;;;;x
+cvs4_assab_desc;Back an exploratory commercial mission for Rubattino near Assab. A private coaling contract might serve shipping through Suez, but negotiations with local authorities and competing claims must precede any permanent establishment.;;;;;;;;;;;;;x
+cvs4_assab_taken;Support Sapeto's Red Sea Survey: enacted;;;;;;;;;;;;;x
+cvs4_assab_reply_title;Rubattino Seeks a Commercial Establishment;;;;;;;;;;;;;x
+cvs4_assab_reply_desc;Representatives of an Italian shipping company seek a private establishment near Assab. A contract would concern commercial access and local property; it would not transfer sovereignty over the surrounding province to the Italian state.;;;;;;;;;;;;;x
+cvs4_assab_reply_done;Rubattino Seeks a Commercial Establishment: concluded;;;;;;;;;;;;;x
+cvs4_assab_reply_seen;Rubattino Seeks a Commercial Establishment: presented;;;;;;;;;;;;;x
+cvs4_assab_reply_yes;Permit a private commercial contract.;;;;;;;;;;;;;x
+cvs4_assab_reply_no;Reject the proposed establishment.;;;;;;;;;;;;;x
+cvs4_assab_contract_title;A Private Contract at Assab;;;;;;;;;;;;;x
+cvs4_assab_contract_desc;Rubattino's agents report agreement for a private commercial establishment near Assab. The undertaking remains vulnerable to rival jurisdictional claims and insecure access. Its existence does not make Assab a colony of the Italian state.;;;;;;;;;;;;;x
+cvs4_assab_contract_done;A Private Contract at Assab: concluded;;;;;;;;;;;;;x
+cvs4_assab_contract_seen;A Private Contract at Assab: presented;;;;;;;;;;;;;x
+cvs4_assab_contract_ack;Keep the venture on a commercial footing.;;;;;;;;;;;;;x
+cvs4_assab_failed_title;The Assab Venture Faces Obstruction;;;;;;;;;;;;;x
+cvs4_assab_failed_desc;The proposed commercial establishment has met obstruction or failed to obtain an effective agreement. The government must distinguish a private company's ambitions from rights it can actually enforce.;;;;;;;;;;;;;x
+cvs4_assab_failed_done;The Assab Venture Faces Obstruction: concluded;;;;;;;;;;;;;x
+cvs4_assab_failed_seen;The Assab Venture Faces Obstruction: presented;;;;;;;;;;;;;x
+cvs4_assab_failed_ack;Record the failure of the proposal.;;;;;;;;;;;;;x
+cvs4_assab_review_title;Assab and the Limits of Private Expansion;;;;;;;;;;;;;x
+cvs4_assab_review_desc;The commercial venture has not provided a secure basis for state authority in the Red Sea. Rival claims and the cost of maintaining access remain obstacles. A future government would need a distinct agreement before assuming sovereignty.;;;;;;;;;;;;;x
+cvs4_assab_review_done;Assab and the Limits of Private Expansion: concluded;;;;;;;;;;;;;x
+cvs4_assab_review_seen;Assab and the Limits of Private Expansion: presented;;;;;;;;;;;;;x
+cvs4_assab_review_ack;Leave sovereignty unresolved.;;;;;;;;;;;;;x
+cvs4_rome_open_title;An Opening in the Roman Question;;;;;;;;;;;;;x
+cvs4_rome_open_desc;France's diminished ability to protect the Papal state has reopened the Roman question. Ministers can prepare a claim to the remaining Papal territory or continue diplomacy. Neither course itself determines possession of Rome.;;;;;;;;;;;;;x
+cvs4_rome_open_done;An Opening in the Roman Question: concluded;;;;;;;;;;;;;x
+cvs4_rome_open_seen;An Opening in the Roman Question: presented;;;;;;;;;;;;;x
+cvs4_rome_open_claim;Prepare the claim to Rome.;;;;;;;;;;;;;x
+cvs4_rome_open_wait;Continue diplomatic efforts.;;;;;;;;;;;;;x
+cvs4_rome_campaign_title;Authorize the Roman Campaign;;;;;;;;;;;;;x
+cvs4_rome_campaign_desc;Authorize the army to enter the remaining Papal territory after France's protective position has weakened. Rome must be secured through the campaign and its settlement. Other powers remain free to respond through their alliances.;;;;;;;;;;;;;x
+cvs4_rome_campaign_taken;Authorize the Roman Campaign: enacted;;;;;;;;;;;;;x
+cvs4_rome_settlement_title;Rome Under Italian Administration;;;;;;;;;;;;;x
+cvs4_rome_settlement_desc;Rome is now under Italian sovereignty and the fighting has ended. The civil administration must establish its authority while the Pope contests the loss of temporal power. Public ratification can confirm the national settlement without resolving the religious dispute.;;;;;;;;;;;;;x
+cvs4_rome_settlement_done;Rome Under Italian Administration: concluded;;;;;;;;;;;;;x
+cvs4_rome_settlement_seen;Rome Under Italian Administration: presented;;;;;;;;;;;;;x
+cvs4_rome_settlement_ratify;Ratify the union and establish civil authority.;;;;;;;;;;;;;x
+cvs4_rome_capital_title;Establish the Capital at Rome;;;;;;;;;;;;;x
+cvs4_rome_capital_desc;Transfer parliament, the court and central ministries to Rome. Preparing offices and accommodating the national administration requires a separate undertaking from the settlement of the Pope's legal position.;;;;;;;;;;;;;x
+cvs4_rome_capital_taken;Establish the Capital at Rome: enacted;;;;;;;;;;;;;x
+cvs4_guarantees_title;Enact the Law of Guarantees;;;;;;;;;;;;;x
+cvs4_guarantees_desc;Offer statutory guarantees for the Pope's person, spiritual functions and diplomatic relations. This is a unilateral Italian law, not a concordat: the Holy See may continue to reject the loss of temporal sovereignty.;;;;;;;;;;;;;x
+cvs4_guarantees_taken;Enact the Law of Guarantees: enacted;;;;;;;;;;;;;x
+cvs4_guarantees_reply_title;The Holy See Rejects a Unilateral Settlement;;;;;;;;;;;;;x
+cvs4_guarantees_reply_desc;The Holy See rejects the view that Italian legislation can settle its claim to temporal sovereignty. The guarantees remain the law of the kingdom, but the Roman Question continues. The Pope's religious authority does not depend on possessing a government represented on the political map.;;;;;;;;;;;;;x
+cvs4_guarantees_reply_done;The Holy See Rejects a Unilateral Settlement: concluded;;;;;;;;;;;;;x
+cvs4_guarantees_reply_seen;The Holy See Rejects a Unilateral Settlement: presented;;;;;;;;;;;;;x
+cvs4_guarantees_reply_ack;Maintain the guarantees despite the dispute.;;;;;;;;;;;;;x
+cvs4_withdrawal_reply_title;The Convention and French Protection of Rome;;;;;;;;;;;;;x
+cvs4_withdrawal_reply_desc;Italy has transferred its capital to Florence and the agreed interval has elapsed. France must now decide whether to end its formal military and diplomatic protection of the remaining Papal state or retain it despite the undertaking.;;;;;;;;;;;;;x
+cvs4_withdrawal_reply_done;The Convention and French Protection of Rome: concluded;;;;;;;;;;;;;x
+cvs4_withdrawal_reply_seen;The Convention and French Protection of Rome: presented;;;;;;;;;;;;;x
+cvs4_withdrawal_reply_honour;End the protective commitment.;;;;;;;;;;;;;x
+cvs4_withdrawal_reply_retain;Retain protection of the Pope.;;;;;;;;;;;;;x
+cvs4_withdrawal_report_title;France Ends Its Protective Commitment;;;;;;;;;;;;;x
+cvs4_withdrawal_report_desc;France has ended its formal alliance and access arrangements with the Papal government and relinquished its sphere claim where applicable. Italy remains bound by its own non-intervention pledge. A future French government can still choose to intervene again.;;;;;;;;;;;;;x
+cvs4_withdrawal_report_done;France Ends Its Protective Commitment: concluded;;;;;;;;;;;;;x
+cvs4_withdrawal_report_seen;France Ends Its Protective Commitment: presented;;;;;;;;;;;;;x
+cvs4_withdrawal_report_ack;Maintain the convention.;;;;;;;;;;;;;x
+cvs4_retention_report_title;France Retains Protection of the Pope;;;;;;;;;;;;;x
+cvs4_retention_report_desc;France has declined to end its protective commitment despite the convention and the transfer to Florence. The cabinet can continue to seek compliance or renounce its own undertaking. Renunciation does not itself secure Rome.;;;;;;;;;;;;;x
+cvs4_retention_report_done;France Retains Protection of the Pope: concluded;;;;;;;;;;;;;x
+cvs4_retention_report_seen;France Retains Protection of the Pope: presented;;;;;;;;;;;;;x
+cvs4_retention_report_press;Continue to press for compliance.;;;;;;;;;;;;;x
+cvs4_retention_report_end;Renounce the unfulfilled arrangement.;;;;;;;;;;;;;x

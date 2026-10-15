@@ -1,0 +1,35 @@
+# Ratify territorial clauses only after the accepted Boer peace.
+# Do not trust old completion flags or a surviving TSN tag as proof of delivery.
+country_event = {
+ id = 9784989 title = "FF72_TREATY_TITLE" desc = "FF72_TREATY_DESC" picture = "boer_war"
+ fire_only_once = yes
+ trigger = { tag = TRN is_vassal = no has_country_flag = ff63_coastal_war has_country_flag = ff63_first_war_settled NOT = { has_country_flag = ff67_full_cape_victory } OR = { has_country_flag = ff68_limited_settlement_applied has_country_modifier = ff63_republic_restored } year = 1877 NOT = { year = 1885 }
+  NOT = { war_with = ENG } NOT = { has_country_flag = ff72_treaty_territory_delivered } NOT = { has_country_flag = ff74_treaty_popup_shown } NOT = { has_country_flag = ff74_treaty_acknowledged }
+ }
+ mean_time_to_happen = { days = 1 }
+ immediate = { set_country_flag = ff74_treaty_popup_shown }
+ option = { name = "FF72_TREATY_OPT0" ai_chance = { factor = 100 }
+  random_owned = { limit = { owner = { tag = TRN is_vassal = no has_country_flag = ff63_coastal_war has_country_flag = ff63_first_war_settled NOT = { has_country_flag = ff67_full_cape_victory } OR = { has_country_flag = ff68_limited_settlement_applied has_country_modifier = ff63_republic_restored } year = 1877 NOT = { year = 1885 }
+   NOT = { war_with = ENG } NOT = { has_country_flag = ff72_treaty_territory_delivered } NOT = { has_country_flag = ff74_treaty_acknowledged }
+  } } owner = {
+TRN = {
+ TSN = { any_owned = { add_core = TRN add_core = SAF }
+  random_owned = { limit = { owner = { ai = no } } owner = { change_tag_no_core_switch = TRN } }
+  end_war = TRN
+ }
+ ZUL = { release_vassal = TSN } ENG = { release_vassal = TSN }
+ TRN = { end_war = TSN release_vassal = TSN inherit = TSN }
+ ENG = { any_owned = { limit = { OR = { province_id = 3897 province_id = 2113 province_id = 3942 province_id = 3943 province_id = 3902 province_id = 4004 province_id = 3900 province_id = 2111 province_id = 2112 province_id = 4021 province_id = 3919 } } add_core = TRN add_core = SAF secede_province = TRN } }
+ ZUL = { random_owned = { limit = { owner = { OR = { vassal_of = ENG has_country_flag = ff63_imperial_alignment } } } owner = { any_owned = { limit = { OR = { province_id = 3897 province_id = 2113 province_id = 3942 province_id = 3943 province_id = 3902 province_id = 4004 province_id = 3900 province_id = 2111 province_id = 2112 province_id = 4021 province_id = 3919 } } add_core = TRN add_core = SAF secede_province = TRN } } } }
+ SAF = { random_owned = { limit = { owner = { vassal_of = ENG } } owner = { any_owned = { limit = { OR = { province_id = 3897 province_id = 2113 province_id = 3942 province_id = 3943 province_id = 3902 province_id = 4004 province_id = 3900 province_id = 2111 province_id = 2112 province_id = 4021 province_id = 3919 } } add_core = TRN add_core = SAF secede_province = TRN } } } }
+ any_owned = { limit = { OR = { province_id = 3897 province_id = 2113 province_id = 3942 province_id = 3943 province_id = 3902 province_id = 4004 province_id = 3900 province_id = 2111 province_id = 2112 province_id = 4021 province_id = 3919 } } add_core = TRN add_core = SAF }
+ ENG = { release_vassal = ZUL }
+ set_country_flag = ff68_limited_settlement_applied
+ set_country_flag = ff70_mabhudu_integrated
+ set_country_flag = ff72_treaty_territory_delivered
+}
+  } }
+  # Acknowledgement belongs to the event recipient, independently of transfers.
+  set_country_flag = ff74_treaty_acknowledged
+ }
+}

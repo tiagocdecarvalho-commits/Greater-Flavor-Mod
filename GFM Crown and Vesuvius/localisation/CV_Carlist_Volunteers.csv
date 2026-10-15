@@ -1,0 +1,11 @@
+cvb_volunteers_title;Carlist Veterans Answer the Bourbon Call;;;;;;;;;;;;;x
+cvb_volunteers_desc;Carlist veterans have offered their services through the Bourbon legitimist networks. Among them is José Borjès, an officer experienced in the Spanish civil wars. With the royal government still established in Naples, his cadres can join local loyalist recruits and draw equipment from the kingdom's depots. Their attachment to the Catholic faith and the hereditary crown makes them natural allies of our absolutist programme. The ministry must decide whether to receive Borjès and incorporate the volunteers into the regular army.;;;;;;;;;;;;;x
+cvb_volunteers_accept;Commission Borjès and muster the volunteers in Naples.;;;;;;;;;;;;;x
+cvb_volunteers_decline;Thank the veterans, but decline their service.;;;;;;;;;;;;;x
+cvb_volunteers_seen;The Carlist volunteer offer has been presented;;;;;;;;;;;;;x
+cvb_borjes_resolved;The offer of Borjès and the Carlist volunteers has been settled;;;;;;;;;;;;;x
+cvb_borjes_recruited;Borjès and the Carlist volunteers have entered royal service;;;;;;;;;;;;;x
+cvb_volunteers_cancelled;The Carlist volunteer mission has closed;;;;;;;;;;;;;x
+cvb_volunteers_closed_title;The Carlist Volunteer Mission Closes;;;;;;;;;;;;;x
+cvb_volunteers_closed_desc;The arrangements for receiving Borjès can no longer proceed. The original season has passed, Naples is no longer secure, or the government no longer meets the conditions under which the veterans offered their service. No volunteer corps has been mustered and no commission has been granted.;;;;;;;;;;;;;x
+cvb_volunteers_closed_ack;Close the correspondence with the veteran officers.;;;;;;;;;;;;;x

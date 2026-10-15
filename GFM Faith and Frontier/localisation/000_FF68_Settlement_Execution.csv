@@ -1,0 +1,6 @@
+FF68_RATIFY_TITLE;Ratification of the Boer Settlement;;;;;;;;;;;;;x
+FF68_RATIFY_DESC;The terms agreed with the South African Republic must now bind the imperial forces as well as the colonial administration. Orders are issued to cease hostilities and close the campaign. The limited frontier settlement leaves the British monarchy and its remaining Cape possessions intact;Only a separately enforced Cape capitulation carries the wider consequences of that conference.;;;;;;;;;;;;x
+FF68_RATIFY_OPT0;Ratify the agreement and cease hostilities.;;;;;;;;;;;;;x
+FF68_IMPLEMENT_TITLE;Completing the Frontier Settlement;;;;;;;;;;;;;x
+FF68_IMPLEMENT_DESC;The frontier treaty has been accepted, but its implementation remains incomplete. Mabhudu, administered as a dependency of the Zulu kingdom, must be included in the agreed territorial settlement. Its surviving lands will enter the republic with recognition of our claims, while the imperial authorities are instructed to close the war. This completes the existing agreement and makes no new demand on the British Cape.;;;;;;;;;;;;;x
+FF68_IMPLEMENT_OPT0;Integrate the dependency and implement the peace.;;;;;;;;;;;;;x

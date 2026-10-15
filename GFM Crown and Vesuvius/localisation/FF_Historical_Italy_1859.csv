@@ -1,0 +1,26 @@
+FF_HAI_SECOND_ITALIAN_WAR;Second Italian War of Independence;;;;;;;;;;;;;x
+ff_hai_1859_demobilisation;Demand Piedmontese Demobilisation;;;;;;;;;;;;;x
+ff_hai_1859_demobilisation_desc;Compel Sardinia-Piedmont to disarm and pay reparations to Austria.;;;;;;;;;;;;;x
+ff_hai_1859_lombardy;Liberate Lombardy for Sardinia-Piedmont;;;;;;;;;;;;;x
+ff_hai_1859_lombardy_desc;Secure the Austrian-held Lombard territory around Milan for Sardinia-Piedmont.;;;;;;;;;;;;;x
+ff_hai_1859_demobilisation_short;Piedmontese Disarmament and Reparations;;;;;;;;;;;;;x
+ff_hai_1859_lombardy_short;Cede Lombardy to Sardinia-Piedmont;;;;;;;;;;;;;x
+NORMAL_FF_HAI_SECOND_ITALIAN_WAR;Second Italian War of Independence;;;;;;;;;;;;;x
+NORMAL_FF_HAI_SECOND_ITALIAN_WAR_NO_ORDER;Second Italian War of Independence;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_SECOND_ITALIAN_WAR;Second Italian War of Independence;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_SECOND_ITALIAN_WAR_NO_ORDER;Second Italian War of Independence;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_SECOND_ITALIAN_WAR;Second Italian War of Independence;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_SECOND_ITALIAN_WAR_NO_ORDER;Second Italian War of Independence;;;;;;;;;;;;;x
+FF_HAI_SECOND_ITALIAN_WAR_NO_ORDER;Second Italian War of Independence;;;;;;;;;;;;;x
+ff_hai_1859_pact_title;The Franco-Sardinian Alliance;;;;;;;;;;;;;x
+ff_hai_1859_pact_desc;France and Sardinia-Piedmont conclude their defensive agreement. Napoleon III promises support if Austria attacks Piedmont, the future of Nice and Savoy remains tied to the Italian settlement.;;;;;;;;;;;;;x
+ff_hai_1859_pact_option;Conclude the defensive alliance.;;;;;;;;;;;;;x
+ff_hai_1859_ultimatum_title;The Austrian Ultimatum;;;;;;;;;;;;;x
+ff_hai_1859_ultimatum_desc;On 23 April 1859, Vienna demands the demobilisation of the Piedmontese army and the dismissal of its volunteers. The demand brings the Italian question to the brink of war.;;;;;;;;;;;;;x
+ff_hai_1859_ultimatum_option;Deliver the ultimatum.;;;;;;;;;;;;;x
+ff_hai_1859_rejection_title;Piedmont Rejects the Ultimatum;;;;;;;;;;;;;x
+ff_hai_1859_rejection_desc;Cavour rejects the Austrian demand. Piedmont maintains its preparations and relies on the defensive understanding with France.;;;;;;;;;;;;;x
+ff_hai_1859_rejection_option;Refuse to disarm.;;;;;;;;;;;;;x
+ff_hai_1859_war_title;The Second Italian War of Independence;;;;;;;;;;;;;x
+ff_hai_1859_war_desc;Austrian troops cross into Piedmont on 29 April 1859. France stands with Sardinia-Piedmont. The allied cause is the liberation of Lombardy, Austria seeks Piedmontese demobilisation. The German states remain outside the Italian campaign.;;;;;;;;;;;;;x
+ff_hai_1859_war_option;The Italian campaign begins.;;;;;;;;;;;;;x

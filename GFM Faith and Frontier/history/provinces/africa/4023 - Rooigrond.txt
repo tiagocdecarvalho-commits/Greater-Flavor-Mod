@@ -1,0 +1,10 @@
+trade_goods = cattle
+terrain = semidesert
+life_rating = 10
+colonial = 1
+
+# Faith and Frontier 3: Goshen
+1883.1.1 = { add_core = GOS }
+
+# Faith and Frontier 3: United States of Stellaland
+1883.1.1 = { add_core = UST }

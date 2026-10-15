@@ -1,0 +1,18 @@
+country_event = {
+ id = 9782700
+ title = "FFV6_BARBER_RUSH_TITLE"
+ desc = "FFV6_BARBER_RUSH_DESC"
+ picture = "ffv5_gold_republic"
+ trigger = { year = 1884 NOT = { year = 1890 } owns = 4007 4007 = { NOT = { trade_goods = precious_metal } } }
+ mean_time_to_happen = { months = 4 }
+ option = { name = "FFV6_BARBER_RUSH_OPT" prestige = 1 4007 = { trade_goods = precious_metal any_pop = { consciousness = 0.2 } } }
+}
+country_event = {
+ id = 9782701
+ title = "FFV6_PMB_CAPITAL_TITLE"
+ desc = "FFV6_PMB_CAPITAL_DESC"
+ picture = "ffv5_natalia_volksraad"
+ trigger = { tag = NAL owns = 4004 NOT = { capital = 4004 } }
+ mean_time_to_happen = { days = 10 }
+ option = { name = "FFV6_PMB_CAPITAL_OPT" capital = 4004 prestige = 1 4004 = { any_pop = { consciousness = 0.1 } } }
+}

@@ -1,0 +1,300 @@
+cvm_savoy_annex_ack;Promulgate the annexation and national settlement.;;;;;;;;;;;;;x
+cvm_savoy_annex_title;The Savoyard Crown Surrenders Its Kingdom;;;;;;;;;;;;;x
+cvm_savoy_annex_desc;The instruments of peace have reached the southern court. Savoy has yielded the Italian initiative, and the articles bind its remaining kingdom to incorporation under the victorious crown. Officials must take charge of the provincial accounts, garrisons and public offices, while the inhabitants learn to whom their petitions and taxes will now be addressed. The island and mainland possessions still governed by Sardinia-Piedmont pass under the same settlement. Savoy and Nice, wherever already ceded to France, lie beyond these instruments. Their place in the national question remains a matter for the diplomats rather than the clerks carrying out this peace.;;;;;;;;;;;;;x
+cvm_demand_savoy_title;Demand Savoy and Nice from France;;;;;;;;;;;;;x
+cvm_savoy_yes;Accept the territorial articles.;;;;;;;;;;;;;x
+cvm_savoy_no;Reject the claim.;;;;;;;;;;;;;x
+cvm_claim_savoy;Italian Settlement of Savoy and Nice;;;;;;;;;;;;;x
+cvm_claim_savoy_short;Italian Settlement of Savoy and Nice;;;;;;;;;;;;;x
+cvm_claim_savoy_desc;Enforce the named territorial and protective articles after victory. Territories belonging to other states are excluded.;;;;;;;;;;;;;x
+cvm_claim_savoy_setup;The defeated government must implement the territorial and protective articles described by this settlement.;;;;;;;;;;;;;x
+cvm_claim_savoy_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Italian Settlement of Savoy and Nice;;;;;;;;;;;;;x
+cvm_savoy_settled_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_savoy_settled_title;The Settlement of Savoy and Nice;;;;;;;;;;;;;x
+cvm_savoy_settled_desc;The French and Italian representatives have completed the territorial instruments. Officials must deliver the districts covered by the agreement, reconcile the public accounts and instruct the local offices upon their new allegiance. The ministry will receive petitions from inhabitants whose affairs were settled under a different government, and it must decide how the state's institutions shall be introduced among them. The frontier question has acquired an answer in the treaty. Its acceptance in the transferred districts will depend upon the care with which the first orders, appointments and judgments are made.;;;;;;;;;;;;;x
+cvm_savoy_rejected_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_savoy_rejected_title;France Refuses the Proposal;;;;;;;;;;;;;x
+cvm_savoy_rejected_desc;The ambassador in Paris has received a refusal. The French ministry will not surrender the lands claimed in the Italian memorial, and our representative has been instructed to preserve the correspondence for the cabinet. The ministers must now determine whether to leave the matter with the diplomats or prepare a campaign to enforce the claim. Their decision will depend upon the state of the fleet and the engagements already binding the crown. For the present the French answer stands, and the territorial instruments remain unsigned.;;;;;;;;;;;;;x
+cvm_savoy_closed_ack;Recall the mission.;;;;;;;;;;;;;x
+cvm_savoy_closed_title;The Mediterranean Mission Cannot Proceed;;;;;;;;;;;;;x
+cvm_savoy_closed_desc;Ownership, foreign protection or our government has changed before an answer could be implemented. The mission closes without a territorial transfer or a war. A fresh proposal may be prepared if the required conditions return.;;;;;;;;;;;;;x
+cvm_demand_corsica_title;Demand Corsica from France;;;;;;;;;;;;;x
+cvm_corsica_yes;Accept the territorial articles.;;;;;;;;;;;;;x
+cvm_corsica_no;Reject the claim.;;;;;;;;;;;;;x
+cvm_claim_corsica;Italian Settlement of Corsica;;;;;;;;;;;;;x
+cvm_claim_corsica_short;Italian Settlement of Corsica;;;;;;;;;;;;;x
+cvm_claim_corsica_desc;Enforce the named territorial and protective articles after victory. Territories belonging to other states are excluded.;;;;;;;;;;;;;x
+cvm_claim_corsica_setup;The defeated government must implement the territorial and protective articles described by this settlement.;;;;;;;;;;;;;x
+cvm_claim_corsica_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Italian Settlement of Corsica;;;;;;;;;;;;;x
+cvm_corsica_settled_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_corsica_settled_title;The Settlement of Corsica;;;;;;;;;;;;;x
+cvm_corsica_settled_desc;The Corsican instruments have been put into effect, and Italian officials are preparing to assume the charge of the island. The first instructions concern the ports, public accounts and the continuation of local business while the new authority is established. The ministry will have to hear the inhabitants' petitions and acquaint itself with offices that have served another government. A territorial agreement has settled the dispute between the cabinets, but the island's place within the Italian state must now be worked out through the conduct of its administration. The crown's representatives have been charged to make that transition with care.;;;;;;;;;;;;;x
+cvm_corsica_rejected_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_corsica_rejected_title;France Refuses the Proposal;;;;;;;;;;;;;x
+cvm_corsica_rejected_desc;Paris has rejected the proposal concerning Corsica. The French cabinet maintains its sovereignty over the island and declines the transfer sought by our ambassador. Advocates of a naval campaign will press their case anew, while other ministers will consider the crown's alliances, treaties and preparations before giving them an answer. The refusal has brought the negotiations to a close upon their present terms. If the government intends to pursue the island further, it must take a separate decision to commit its forces.;;;;;;;;;;;;;x
+cvm_corsica_closed_ack;Recall the mission.;;;;;;;;;;;;;x
+cvm_corsica_closed_title;The Mediterranean Mission Cannot Proceed;;;;;;;;;;;;;x
+cvm_corsica_closed_desc;Ownership, foreign protection or our government has changed before an answer could be implemented. The mission closes without a territorial transfer or a war. A fresh proposal may be prepared if the required conditions return.;;;;;;;;;;;;;x
+cvm_propose_tunis_title;Propose an Italian Settlement in Tunisia;;;;;;;;;;;;;x
+cvm_propose_tunis_desc;Merchants and shipping interests press the ministry to secure its position in Tunis. Send a proposal for Italian protection to the government entitled to answer it, whether the Porte or an independent local ruler. The envoys must respect French possession and protection, while making clear the military and diplomatic authority sought by the crown.;;;;;;;;;;;;;x
+cvm_tunis_offer;Offer administration under reserved Ottoman suzerainty.;;;;;;;;;;;;;x
+cvm_tunis_reject;Reject the Italian demand.;;;;;;;;;;;;;x
+cvm_tunis_ottoman_title;The Italian Proposal for Tunisia;;;;;;;;;;;;;x
+cvm_tunis_ottoman_desc;The Italian envoy has placed the affairs of Tunis before the Porte. Merchants seek security for their trade, and the southern government proposes that Italian troops and officials undertake the protection of a local administration. Ottoman ministers are asked to distinguish the exercise of authority from the title under which it is exercised. They may offer an arrangement reserving the Sultan's legal claims while recognising Italian administration in the possessions and dependency that Constantinople can lawfully commit. Rejecting the demand would maintain the present claim to authority, but leave the question to further pressure from the Italian cabinet.;;;;;;;;;;;;;x
+cvm_tunis_compromise_yes;Accept the protected administration and reserved Ottoman title.;;;;;;;;;;;;;x
+cvm_tunis_compromise_no;Reject the reservation and prepare to enforce our claim.;;;;;;;;;;;;;x
+cvm_tunis_compromise_title;The Ottoman Compromise in Tunisia;;;;;;;;;;;;;x
+cvm_tunis_compromise_desc;Our envoy reports that the Porte will admit an Italian protected administration in the Tunisian settlement, provided the Sultan's legal claims are reserved in the instruments. The local government would conduct its affairs under Italian protection, with our troops and diplomacy giving substance to that authority. Some ministers regard the reservation as a form worth accepting to secure the practical result. Others fear that an unsettled title will furnish Constantinople with grounds to reopen the question whenever circumstances favour it. The crown may accept the offered arrangement, or refuse it and prepare a separate campaign to enforce the claim.;;;;;;;;;;;;;x
+cvm_tunis_local_yes;Accept the Italian protectorate.;;;;;;;;;;;;;x
+cvm_tunis_local_no;Retain our independence.;;;;;;;;;;;;;x
+cvm_tunis_local_title;Italian Protection for Tunisia;;;;;;;;;;;;;x
+cvm_tunis_local_desc;The Italian representative has been received by the ministers in Tunis. He offers protection for the government and security for its foreign dealings, but asks that Italian military and diplomatic authority be recognised in return. The cabinet must consider the strength behind the offer as well as its assurances. Acceptance would preserve a local administration under an Italian overlord, while limiting the independence with which its rulers could deal abroad. Refusal would retain that independence for the present and place greater weight upon their ability to resist the next demand. The decision concerns their own state, rather than districts still governed by Constantinople.;;;;;;;;;;;;;x
+cvm_tunis_ottoman_treaty;Italian Tunisia Settlement;;;;;;;;;;;;;x
+cvm_tunis_ottoman_treaty_short;Italian Tunisia Settlement;;;;;;;;;;;;;x
+cvm_tunis_ottoman_treaty_desc;Enforce the named territorial and protective articles after victory. Territories belonging to other states are excluded.;;;;;;;;;;;;;x
+cvm_tunis_ottoman_treaty_setup;The defeated government must implement the territorial and protective articles described by this settlement.;;;;;;;;;;;;;x
+cvm_tunis_ottoman_treaty_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Italian Tunisia Settlement;;;;;;;;;;;;;x
+cvm_tunis_local_treaty;Italian Tunisia Protectorate;;;;;;;;;;;;;x
+cvm_tunis_local_treaty_short;Italian Tunisia Protectorate;;;;;;;;;;;;;x
+cvm_tunis_local_treaty_desc;Enforce the named territorial and protective articles after victory. Territories belonging to other states are excluded.;;;;;;;;;;;;;x
+cvm_tunis_local_treaty_setup;The defeated government must implement the territorial and protective articles described by this settlement.;;;;;;;;;;;;;x
+cvm_tunis_local_treaty_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Italian Tunisia Protectorate;;;;;;;;;;;;;x
+cvm_enforce_tunis_ottoman_title;Enforce the Tunisia Settlement against the Ottoman Empire;;;;;;;;;;;;;x
+cvm_enforce_tunis_ottoman_desc;Begin a war for the named settlement. Ottoman victory terms affect only the specified provinces and local dependency. An independent government can be compelled to accept Italian protection. Foreign possessions remain outside the articles.;;;;;;;;;;;;;x
+cvm_enforce_tunis_local_title;Enforce the Tunisia Settlement against the Local Government;;;;;;;;;;;;;x
+cvm_enforce_tunis_local_desc;Begin a war for the named settlement. Ottoman victory terms affect only the specified provinces and local dependency. An independent government can be compelled to accept Italian protection. Foreign possessions remain outside the articles.;;;;;;;;;;;;;x
+cvm_tunis_settled_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_tunis_settled_title;The Italian Settlement in Tunisia;;;;;;;;;;;;;x
+cvm_tunis_settled_desc;The instruments concerning Tunis have been put into effect. The ministry must now appoint its representatives and establish a regular correspondence with the authorities responsible for the ports, revenues and hearing of disputes. Merchants who pressed for protection will expect their petitions to receive attention, while local officials must discover how their old charges fit within the new agreement. Where Ottoman legal rights have been reserved, they remain written into the treaty. The envoys have secured an Italian position in the districts covered by the articles. Its reputation will now depend upon the conduct of the men sent to sustain it.;;;;;;;;;;;;;x
+cvm_tunis_rejected_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_tunis_rejected_title;The Government of Tunisia Refuses the Proposal;;;;;;;;;;;;;x
+cvm_tunis_rejected_desc;Our representative reports that the proposed Tunisian settlement has been refused. The authority receiving the memorial will not consent to the protection and administration sought by the Italian government. The cabinet must consider whether further diplomacy can serve its purpose or whether the refusal warrants a campaign. Merchants who pressed the original petition will expect an answer, but their grievances alone cannot settle the state's military engagements. The ministers may now prepare to enforce the claim, or leave it unused while they attend to other affairs.;;;;;;;;;;;;;x
+cvm_tunis_offer_lapsed_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_tunis_offer_lapsed_title;The Tunisia Offer Cannot Be Implemented;;;;;;;;;;;;;x
+cvm_tunis_offer_lapsed_desc;The proposed administration cannot be established because ownership, foreign protection or the government changed before signature. No territorial transfer or protectorate has been imposed.;;;;;;;;;;;;;x
+cvm_tunis_closed_ack;Recall the mission.;;;;;;;;;;;;;x
+cvm_tunis_closed_title;The Mediterranean Mission Cannot Proceed;;;;;;;;;;;;;x
+cvm_tunis_closed_desc;Ownership, foreign protection or our government has changed before an answer could be implemented. The mission closes without a territorial transfer or a war. A fresh proposal may be prepared if the required conditions return.;;;;;;;;;;;;;x
+cvm_remaining_tunis_title;Settle the Remaining Ottoman Districts in Tunisia;;;;;;;;;;;;;x
+cvm_remaining_tunis_desc;The local settlement has left districts of the region under direct Ottoman rule. Begin a separate war for those remaining districts. The articles exclude independent local governments and foreign possessions.;;;;;;;;;;;;;x
+cvm_administer_tunis_title;Establish the Tunisia Administration;;;;;;;;;;;;;x
+cvm_administer_tunis_desc;Give the Tunisian administration a settled course of customs inspection, judicial correspondence and public works. Where the protected government remains, its offices will conduct local business under Italian supervision. The ministry must appoint servants capable of examining its accounts and observing the obligations entered into by the envoys.;;;;;;;;;;;;;x
+cvm_tunis_administration_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_tunis_administration_title;The Tunisia Administration Opens;;;;;;;;;;;;;x
+cvm_tunis_administration_desc;The new offices in Tunis have begun to receive returns from the ports and local authorities. Customs accounts must be reconciled, disputes referred to the proper courts, and public works examined before they are approved. Italian inspectors find that an agreement concluded by envoys leaves many questions to those who must administer it. They have been instructed to work through the local offices wherever the protected government remains, and to respect the obligations recorded in the treaty. The first reports now reach the ministry, giving it a clearer view of the servants, accounts and improvements upon which its authority will depend.;;;;;;;;;;;;;x
+cvm_propose_libya_title;Propose an Italian Settlement in Libya;;;;;;;;;;;;;x
+cvm_propose_libya_desc;The cabinet has received proposals concerning the ports and government of Tripolitania and Cyrenaica. Open negotiations for an Italian protected administration, addressing Constantinople where Ottoman authority remains and the local government where it is independent. The envoys may bring back a compromise upon sovereignty or a refusal that requires a further decision from the crown.;;;;;;;;;;;;;x
+cvm_libya_offer;Offer administration under reserved Ottoman suzerainty.;;;;;;;;;;;;;x
+cvm_libya_reject;Reject the Italian demand.;;;;;;;;;;;;;x
+cvm_libya_ottoman_title;The Italian Proposal for Libya;;;;;;;;;;;;;x
+cvm_libya_ottoman_desc;The Italian envoy has presented a demand concerning Tripolitania and Cyrenaica. The Porte is pressed to admit Italian troops and administration in the Libyan possessions covered by the proposal. Its ministers seek a form that would preserve the Sultan's legal title while placing the practical charge of government in other hands. They can offer a protected local dominion under Italian authority, with Ottoman claims reserved in the agreement. Such an instrument would concede much of what the Italian cabinet seeks, though its language would stop short of surrendering sovereignty outright. Refusal would leave the present claims intact and the danger of an Italian campaign unresolved.;;;;;;;;;;;;;x
+cvm_libya_compromise_yes;Accept the protected administration and reserved Ottoman title.;;;;;;;;;;;;;x
+cvm_libya_compromise_no;Reject the reservation and prepare to enforce our claim.;;;;;;;;;;;;;x
+cvm_libya_compromise_title;The Ottoman Compromise in Libya;;;;;;;;;;;;;x
+cvm_libya_compromise_desc;The dispatch from Constantinople sets out a compromise: Italian troops and administration are to be recognised, while the Sultan's de-jure title remains reserved. Tripolitania would become a protected dominion under our authority. The ministers who favour acceptance see an opportunity to establish the garrisons and offices without first carrying the dispute through a war. Their opponents ask whether a dominion governed in Italy's name should remain burdened by an Ottoman claim. The crown must decide whether the practical possession is sufficient, or whether to reject the reservation and seek a more complete settlement by a separate campaign.;;;;;;;;;;;;;x
+cvm_libya_local_yes;Accept the Italian protectorate.;;;;;;;;;;;;;x
+cvm_libya_local_no;Retain our independence.;;;;;;;;;;;;;x
+cvm_libya_local_title;Italian Protection for Libya;;;;;;;;;;;;;x
+cvm_libya_local_desc;The authorities in Tripoli have received an Italian proposal for protection. It promises support for the local government, but would place its military and foreign affairs beneath Italian authority. Officials must weigh the continuation of their own institutions against the independence they would surrender. The merchants and provincial notables will also have their interests in the answer, for a new protecting power will bring new officers, contracts and petitions. Accepting establishes an Italian dependency in the territory this government actually holds. Refusal leaves it independent and makes the next encounter with the Italian representatives a less accommodating one.;;;;;;;;;;;;;x
+cvm_libya_ottoman_treaty;Italian Libya Settlement;;;;;;;;;;;;;x
+cvm_libya_ottoman_treaty_short;Italian Libya Settlement;;;;;;;;;;;;;x
+cvm_libya_ottoman_treaty_desc;Enforce the named territorial and protective articles after victory. Territories belonging to other states are excluded.;;;;;;;;;;;;;x
+cvm_libya_ottoman_treaty_setup;The defeated government must implement the territorial and protective articles described by this settlement.;;;;;;;;;;;;;x
+cvm_libya_ottoman_treaty_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Italian Libya Settlement;;;;;;;;;;;;;x
+cvm_libya_local_treaty;Italian Libya Protectorate;;;;;;;;;;;;;x
+cvm_libya_local_treaty_short;Italian Libya Protectorate;;;;;;;;;;;;;x
+cvm_libya_local_treaty_desc;Enforce the named territorial and protective articles after victory. Territories belonging to other states are excluded.;;;;;;;;;;;;;x
+cvm_libya_local_treaty_setup;The defeated government must implement the territorial and protective articles described by this settlement.;;;;;;;;;;;;;x
+cvm_libya_local_treaty_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Italian Libya Protectorate;;;;;;;;;;;;;x
+cvm_enforce_libya_ottoman_title;Enforce the Libya Settlement against the Ottoman Empire;;;;;;;;;;;;;x
+cvm_enforce_libya_ottoman_desc;Begin a war for the named settlement. Ottoman victory terms affect only the specified provinces and local dependency. An independent government can be compelled to accept Italian protection. Foreign possessions remain outside the articles.;;;;;;;;;;;;;x
+cvm_enforce_libya_local_title;Enforce the Libya Settlement against the Local Government;;;;;;;;;;;;;x
+cvm_enforce_libya_local_desc;Begin a war for the named settlement. Ottoman victory terms affect only the specified provinces and local dependency. An independent government can be compelled to accept Italian protection. Foreign possessions remain outside the articles.;;;;;;;;;;;;;x
+cvm_libya_settled_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_libya_settled_title;The Italian Settlement in Libya;;;;;;;;;;;;;x
+cvm_libya_settled_desc;The Libyan instruments have reached the ministry, and the officials charged with their execution are preparing their instructions. The agreement has given Italian authority a footing in the districts it covers, through possession or a protected administration according to the articles accepted. The ports will require accounts and stores, and the local authorities an explanation of where their petitions are to be heard. Any Ottoman title reserved by the compromise remains recorded in the treaty of the protected dominion. The cabinet's attention must now turn from the correspondence of the envoys to the less celebrated business of governing the country entrusted to its servants.;;;;;;;;;;;;;x
+cvm_libya_rejected_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_libya_rejected_title;The Government of Libya Refuses the Proposal;;;;;;;;;;;;;x
+cvm_libya_rejected_desc;The dispatch from our representative records a refusal of the Libyan proposal. The government addressed will not grant the terms sought by the crown, and the projected instruments have been returned without agreement. The ministry must weigh the advice of the naval and military officers against its other engagements before authorising a campaign. Those who sought an Italian establishment upon this coast will urge that the demand be maintained. The diplomats have brought the cabinet an answer, and it is now for the sovereign's government to decide what shall follow it.;;;;;;;;;;;;;x
+cvm_libya_offer_lapsed_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_libya_offer_lapsed_title;The Libya Offer Cannot Be Implemented;;;;;;;;;;;;;x
+cvm_libya_offer_lapsed_desc;The proposed administration cannot be established because ownership, foreign protection or the government changed before signature. No territorial transfer or protectorate has been imposed.;;;;;;;;;;;;;x
+cvm_libya_closed_ack;Recall the mission.;;;;;;;;;;;;;x
+cvm_libya_closed_title;The Mediterranean Mission Cannot Proceed;;;;;;;;;;;;;x
+cvm_libya_closed_desc;Ownership, foreign protection or our government has changed before an answer could be implemented. The mission closes without a territorial transfer or a war. A fresh proposal may be prepared if the required conditions return.;;;;;;;;;;;;;x
+cvm_remaining_libya_title;Settle the Remaining Ottoman Districts in Libya;;;;;;;;;;;;;x
+cvm_remaining_libya_desc;The local settlement has left districts of the region under direct Ottoman rule. Begin a separate war for those remaining districts. The articles exclude independent local governments and foreign possessions.;;;;;;;;;;;;;x
+cvm_administer_libya_title;Establish the Libya Administration;;;;;;;;;;;;;x
+cvm_administer_libya_desc;The charge of government cannot rest upon a treaty and the presence of troops alone. Organise inspected port accounts, local courts and the examination of public works in the Libyan administration. Officials must carry the ministry's instructions beyond the principal ports while observing the obligations of any surviving protected dominion.;;;;;;;;;;;;;x
+cvm_libya_administration_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_libya_administration_title;The Libya Administration Opens;;;;;;;;;;;;;x
+cvm_libya_administration_desc;The port offices and provincial authorities have begun to send their returns through the new administration. The ministers require dependable customs accounts, an orderly hearing of disputes and an examination of proposed public works. Governors and inspectors cannot conduct the country as if every obligation were settled by the first treaty: local offices must be staffed, correspondence answered and the authority of the agreement explained beyond the principal ports. Where the protected dominion remains, its servants will carry much of this work under Italian supervision. The undertaking will be judged as much by their conduct as by the proclamations which established it.;;;;;;;;;;;;;x
+cvm_propose_albania_title;Propose an Italian Settlement in Albania;;;;;;;;;;;;;x
+cvm_propose_albania_desc;The affairs of the opposite Adriatic shore occupy an increasing place in the ministry's correspondence. Propose a protected Albanian administration with Italian military and diplomatic authority. Ottoman possessions must be discussed with the Porte, while an independent Albanian government will answer for itself. The proposed protection cannot override an existing French possession or dependency.;;;;;;;;;;;;;x
+cvm_albania_offer;Offer administration under reserved Ottoman suzerainty.;;;;;;;;;;;;;x
+cvm_albania_reject;Reject the Italian demand.;;;;;;;;;;;;;x
+cvm_albania_ottoman_title;The Italian Proposal for Albania;;;;;;;;;;;;;x
+cvm_albania_ottoman_desc;The Italian ambassador has brought an Albanian proposal before the Porte. His government seeks a protected local administration and authority to support it with Italian troops. Ottoman ministers must consider what such an arrangement would mean for the Sultan's remaining possessions and dependencies along the Adriatic. They may reserve the legal claims of the Porte while consenting to Italian administration, or reject the demand and retain the present authority. Only affairs that Constantinople can lawfully commit are before the cabinet. An independent Albanian government must answer for its own sovereignty, and other foreign possessions are beyond the ambassador's proposed articles.;;;;;;;;;;;;;x
+cvm_albania_compromise_yes;Accept the protected administration and reserved Ottoman title.;;;;;;;;;;;;;x
+cvm_albania_compromise_no;Reject the reservation and prepare to enforce our claim.;;;;;;;;;;;;;x
+cvm_albania_compromise_title;The Ottoman Compromise in Albania;;;;;;;;;;;;;x
+cvm_albania_compromise_desc;Constantinople has offered an Albanian arrangement which reserves the Sultan's legal claims while recognising Italian troops and a protected administration. Our ministers see a chance to establish authority across the Adriatic without first embarking upon a war. They must also consider whether the reservation will become a continuing source of dispute between the cabinets. Acceptance would place the local government under Italian protection with the Ottoman title recorded in its treaty. Refusal would leave the proposed instruments unsigned and allow the crown to prepare a separate campaign for a settlement upon its own terms.;;;;;;;;;;;;;x
+cvm_albania_local_yes;Accept the Italian protectorate.;;;;;;;;;;;;;x
+cvm_albania_local_no;Retain our independence.;;;;;;;;;;;;;x
+cvm_albania_local_title;Italian Protection for Albania;;;;;;;;;;;;;x
+cvm_albania_local_desc;The Italian representative has delivered the proposed articles of protection to the Albanian government. They provide for the continuation of local institutions beneath Italian military and diplomatic authority. The ministers must judge whether such protection offers the security their state needs, or places its future too firmly in the hands of a court across the Adriatic. Accepting would establish the Protettorato d'Albania and bind its foreign dealings to the Italian government. Refusal preserves independence and obliges the government to consider how it will meet any further demand. The articles concern its own territory and do not dispose of neighbouring Ottoman districts.;;;;;;;;;;;;;x
+cvm_albania_ottoman_treaty;Italian Albania Settlement;;;;;;;;;;;;;x
+cvm_albania_ottoman_treaty_short;Italian Albania Settlement;;;;;;;;;;;;;x
+cvm_albania_ottoman_treaty_desc;Enforce the named territorial and protective articles after victory. Territories belonging to other states are excluded.;;;;;;;;;;;;;x
+cvm_albania_ottoman_treaty_setup;The defeated government must implement the territorial and protective articles described by this settlement.;;;;;;;;;;;;;x
+cvm_albania_ottoman_treaty_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Italian Albania Settlement;;;;;;;;;;;;;x
+cvm_albania_local_treaty;Italian Albania Protectorate;;;;;;;;;;;;;x
+cvm_albania_local_treaty_short;Italian Albania Protectorate;;;;;;;;;;;;;x
+cvm_albania_local_treaty_desc;Enforce the named territorial and protective articles after victory. Territories belonging to other states are excluded.;;;;;;;;;;;;;x
+cvm_albania_local_treaty_setup;The defeated government must implement the territorial and protective articles described by this settlement.;;;;;;;;;;;;;x
+cvm_albania_local_treaty_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Italian Albania Protectorate;;;;;;;;;;;;;x
+cvm_enforce_albania_ottoman_title;Enforce the Albania Settlement against the Ottoman Empire;;;;;;;;;;;;;x
+cvm_enforce_albania_ottoman_desc;Begin a war for the named settlement. Ottoman victory terms affect only the specified provinces and local dependency. An independent government can be compelled to accept Italian protection. Foreign possessions remain outside the articles.;;;;;;;;;;;;;x
+cvm_enforce_albania_local_title;Enforce the Albania Settlement against the Local Government;;;;;;;;;;;;;x
+cvm_enforce_albania_local_desc;Begin a war for the named settlement. Ottoman victory terms affect only the specified provinces and local dependency. An independent government can be compelled to accept Italian protection. Foreign possessions remain outside the articles.;;;;;;;;;;;;;x
+cvm_albania_settled_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_albania_settled_title;The Italian Settlement in Albania;;;;;;;;;;;;;x
+cvm_albania_settled_desc;The Albanian articles have established a protected government under Italian authority. Its ministers retain the charge of local institutions, while military and diplomatic affairs are bound to the protecting crown across the Adriatic. The first correspondence concerns appointments, customs and the responsibilities of the representatives who are to supervise the agreement. Local officials will judge how closely the assurances made by the envoys are observed in ordinary business. Where the Ottoman settlement reserved legal claims, those reservations remain in the instruments. The protectorate must now give practical form to an authority that has hitherto been discussed chiefly between courts.;;;;;;;;;;;;;x
+cvm_albania_rejected_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_albania_rejected_title;Negotiations over Albania Have Failed;;;;;;;;;;;;;x
+cvm_albania_rejected_desc;The government administering the disputed Albanian districts has declined the Italian proposal. Where those districts remain Ottoman, the answer comes from Constantinople, not from an Albanian cabinet. Ministers must now decide whether to enforce the claim by arms. This refusal concerns the diplomatic proposal alone. If the Albanian Settlement is subsequently accepted as a term of peace, its articles impose Italian protection without another negotiation.;;;;;;;;;;;;;x
+cvm_albania_offer_lapsed_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_albania_offer_lapsed_title;The Albania Offer Cannot Be Implemented;;;;;;;;;;;;;x
+cvm_albania_offer_lapsed_desc;The proposed administration cannot be established because ownership, foreign protection or the government changed before signature. No territorial transfer or protectorate has been imposed.;;;;;;;;;;;;;x
+cvm_albania_closed_ack;Recall the mission.;;;;;;;;;;;;;x
+cvm_albania_closed_title;The Mediterranean Mission Cannot Proceed;;;;;;;;;;;;;x
+cvm_albania_closed_desc;Ownership, foreign protection or our government has changed before an answer could be implemented. The mission closes without a territorial transfer or a war. A fresh proposal may be prepared if the required conditions return.;;;;;;;;;;;;;x
+cvm_remaining_albania_title;Settle the Remaining Ottoman Districts in Albania;;;;;;;;;;;;;x
+cvm_remaining_albania_desc;The local settlement has left districts of the region under direct Ottoman rule. Begin a separate war for those remaining districts. The articles exclude independent local governments and foreign possessions.;;;;;;;;;;;;;x
+cvm_administer_albania_title;Establish the Albania Administration;;;;;;;;;;;;;x
+cvm_administer_albania_desc;Establish a regular course of accounts and correspondence between the Albanian offices and their Italian supervisors. Customs inspections, local courts and public works require continuing attention, while the protected government's institutions retain their place in ordinary administration. The ministry must give its representatives a clearer charge than the general assurances of the treaty.;;;;;;;;;;;;;x
+cvm_albania_administration_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_albania_administration_title;The Albania Administration Opens;;;;;;;;;;;;;x
+cvm_albania_administration_desc;The protected administration has begun to assemble its customs returns, judicial correspondence and proposals for public works. Italian representatives are instructed to supervise the treaty obligations through the local offices rather than leave every disputed affair to a garrison commander. The ministers across the Adriatic require accounts they can examine and officials who can answer for their charge. Local authorities, in turn, must know where their petitions will be heard. The arrangement now enters the less conspicuous business upon which its reputation will rest: appointments, records, payments and the ordinary hearing of grievances.;;;;;;;;;;;;;x
+cvm_integrate_libya_title;Integrate the Libyan Protectorates;;;;;;;;;;;;;x
+cvm_integrate_libya_desc;Incorporate the Libyan provinces administered by our protectorate. Transfer only its Libyan territory and end the separate protectorate arrangement. Other possessions of that government remain outside this decision.;;;;;;;;;;;;;x
+cvm_libya_annexed_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_libya_annexed_title;The Libyan Provinces Enter the Italian State;;;;;;;;;;;;;x
+cvm_libya_annexed_desc;The articles of incorporation have been put into effect in the Libyan districts covered by the settlement. Their officials must now render accounts to the Italian administration and acquaint the local authorities with the offices to which petitions and disputes are to be sent. The ministries have inherited the ordinary business of government as well as the result won by their diplomats and commanders. Ports, courts and provincial correspondence require servants able to carry out their charge beyond the arrival of the first proclamation. The instruments cover the named Libyan lands, leaving any unrelated possessions of the former protected governments outside the transfer.;;;;;;;;;;;;;x
+cvm_libya_cyr;Italian Protection of Cyrenaica;;;;;;;;;;;;;x
+cvm_libya_cyr_short;Italian Protection of Cyrenaica;;;;;;;;;;;;;x
+cvm_libya_cyr_desc;Enforce the named territorial and protective articles after victory. Territories belonging to other states are excluded.;;;;;;;;;;;;;x
+cvm_libya_cyr_setup;The defeated government must implement the territorial and protective articles described by this settlement.;;;;;;;;;;;;;x
+cvm_libya_cyr_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Italian Protection of Cyrenaica;;;;;;;;;;;;;x
+cvm_extend_cyr_title;Extend Italian Protection to Cyrenaica;;;;;;;;;;;;;x
+cvm_extend_cyr_desc;The Libyan settlement has left an independent local government outside Italian protection. Begin a separate war to impose a protectorate. Only that government is the target, and direct integration remains a later decision.;;;;;;;;;;;;;x
+cvm_cyr_protected_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_cyr_protected_title;Italian Protection in Cyrenaica;;;;;;;;;;;;;x
+cvm_cyr_protected_desc;The local government has accepted the enforced protectorate. Its Libyan provinces may now be incorporated through the Libyan integration decision, while unrelated possessions remain excluded.;;;;;;;;;;;;;x
+cvm_libya_lby;Italian Protection of Independent Libya;;;;;;;;;;;;;x
+cvm_libya_lby_short;Italian Protection of Independent Libya;;;;;;;;;;;;;x
+cvm_libya_lby_desc;Enforce the named territorial and protective articles after victory. Territories belonging to other states are excluded.;;;;;;;;;;;;;x
+cvm_libya_lby_setup;The defeated government must implement the territorial and protective articles described by this settlement.;;;;;;;;;;;;;x
+cvm_libya_lby_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Italian Protection of Independent Libya;;;;;;;;;;;;;x
+cvm_extend_lby_title;Extend Italian Protection to Independent Libya;;;;;;;;;;;;;x
+cvm_extend_lby_desc;The Libyan settlement has left an independent local government outside Italian protection. Begin a separate war to impose a protectorate. Only that government is the target, and direct integration remains a later decision.;;;;;;;;;;;;;x
+cvm_lby_protected_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_lby_protected_title;Italian Protection in Independent Libya;;;;;;;;;;;;;x
+cvm_lby_protected_desc;The local government has accepted the enforced protectorate. Its Libyan provinces may now be incorporated through the Libyan integration decision, while unrelated possessions remain excluded.;;;;;;;;;;;;;x
+cvm_dodecanese;Italian Dodecanese Settlement;;;;;;;;;;;;;x
+cvm_dodecanese_short;Italian Dodecanese Settlement;;;;;;;;;;;;;x
+cvm_dodecanese_desc;The Libyan settlement has left the Dodecanese under Ottoman rule. Begin a separate naval war to enforce their transfer. The treaty covers the Dodecanese alone and excludes Crete and the other Aegean islands.;;;;;;;;;;;;;x
+cvm_dodecanese_setup;The defeated government must implement the territorial and protective articles described by this settlement.;;;;;;;;;;;;;x
+cvm_dodecanese_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Italian Dodecanese Settlement;;;;;;;;;;;;;x
+cvm_dodecanese_title;Enforce the Dodecanese Naval Settlement;;;;;;;;;;;;;x
+cvm_dodecanese_settled_ack;Record the settlement and instruct our ministers.;;;;;;;;;;;;;x
+cvm_dodecanese_settled_title;The Dodecanese Settlement;;;;;;;;;;;;;x
+cvm_dodecanese_settled_desc;The Dodecanese have passed to Italian naval administration. Crete and the other Aegean islands are outside the treaty.;;;;;;;;;;;;;x
+cvm_ottoman_title;Reserved Ottoman Suzerainty;;;;;;;;;;;;;x
+cvm_ottoman_title_desc;The treaty recognises Italian troops and administration while reserving Ottoman de-jure claims. This legal reservation does not change the identity of the administering overlord.;;;;;;;;;;;;;x
+cvm_mediterranean_accounts;Mediterranean Administrative Offices;;;;;;;;;;;;;x
+cvm_mediterranean_accounts_desc;Inspected accounts and local offices support the Mediterranean administrations while placing continuing obligations on the treasury.;;;;;;;;;;;;;x
+cvm_tripolitanian_dominion;Italian Protected Dominion;;;;;;;;;;;;;x
+cvm_albanian_protectorate;Italian Protectorate;;;;;;;;;;;;;x
+TRI_cvm_tripolitanian_dominion;Dominion of Tripolitania;;;;;;;;;;;;;x
+TRI_cvm_tripolitanian_dominion_ADJ;Tripolitanian;;;;;;;;;;;;;x
+ALB_cvm_albanian_protectorate;Protettorato d'Albania;;;;;;;;;;;;;x
+ALB_cvm_albanian_protectorate_ADJ;Albanian;;;;;;;;;;;;;x
+cva_absolute;Absolute Italian mandate;;;;;;;;;;;;;x
+cva_absolute_ready;Royal institutions established;;;;;;;;;;;;;x
+cva_constitutional;Constitutional Italian mandate;;;;;;;;;;;;;x
+cva_constitutional_ready;Common statute established;;;;;;;;;;;;;x
+cva_federal;Federal Italian mandate;;;;;;;;;;;;;x
+cva_federal_ready;Federal articles established;;;;;;;;;;;;;x
+cva_bourbon_origin;Italy united by the Bourbon crown;;;;;;;;;;;;;x
+cva_rome_guarantees;Religious guarantees for Rome;;;;;;;;;;;;;x
+cvm_savoy_annex_pending;Savoy annex pending;;;;;;;;;;;;;x
+cvm_savoy_treaty;Savoy treaty;;;;;;;;;;;;;x
+cvm_savoy_annexed;Savoy annexed;;;;;;;;;;;;;x
+cvm_savoy_sent;Savoy sent;;;;;;;;;;;;;x
+cvm_savoy_answered;Savoy answered;;;;;;;;;;;;;x
+cvm_savoy_settled;Savoy settled;;;;;;;;;;;;;x
+cvm_savoy_rejected;Savoy rejected;;;;;;;;;;;;;x
+cvm_savoy_settled_seen;Savoy settled seen;;;;;;;;;;;;;x
+cvm_savoy_rejected_seen;Savoy rejected seen;;;;;;;;;;;;;x
+cvm_corsica_sent;Corsica sent;;;;;;;;;;;;;x
+cvm_corsica_answered;Corsica answered;;;;;;;;;;;;;x
+cvm_corsica_settled;Corsica settled;;;;;;;;;;;;;x
+cvm_corsica_rejected;Corsica rejected;;;;;;;;;;;;;x
+cvm_corsica_settled_seen;Corsica settled seen;;;;;;;;;;;;;x
+cvm_corsica_rejected_seen;Corsica rejected seen;;;;;;;;;;;;;x
+cvm_tunis_sent;Tunis sent;;;;;;;;;;;;;x
+cvm_tunis_answered;Tunis answered;;;;;;;;;;;;;x
+cvm_tunis_compromise;Tunis compromise;;;;;;;;;;;;;x
+cvm_tunis_rejected;Tunis rejected;;;;;;;;;;;;;x
+cvm_tunis_compromise_answered;Tunis compromise answered;;;;;;;;;;;;;x
+cvm_tunis_settled;Tunis settled;;;;;;;;;;;;;x
+cvm_tunis_protected;Tunis protected;;;;;;;;;;;;;x
+cvm_tunis_offer_lapsed;Tunis offer lapsed;;;;;;;;;;;;;x
+cvm_tunis_settled_seen;Tunis settled seen;;;;;;;;;;;;;x
+cvm_tunis_rejected_seen;Tunis rejected seen;;;;;;;;;;;;;x
+cvm_tunis_offer_lapsed_seen;Tunis offer lapsed seen;;;;;;;;;;;;;x
+cvm_tunis_administration;Tunis administration;;;;;;;;;;;;;x
+cvm_tunis_administration_seen;Tunis administration seen;;;;;;;;;;;;;x
+cvm_libya_sent;Libya sent;;;;;;;;;;;;;x
+cvm_libya_answered;Libya answered;;;;;;;;;;;;;x
+cvm_libya_compromise;Libya compromise;;;;;;;;;;;;;x
+cvm_libya_rejected;Libya rejected;;;;;;;;;;;;;x
+cvm_libya_compromise_answered;Libya compromise answered;;;;;;;;;;;;;x
+cvm_libya_settled;Libya settled;;;;;;;;;;;;;x
+cvm_libya_protected;Libya protected;;;;;;;;;;;;;x
+cvm_libya_offer_lapsed;Libya offer lapsed;;;;;;;;;;;;;x
+cvm_libya_settled_seen;Libya settled seen;;;;;;;;;;;;;x
+cvm_libya_rejected_seen;Libya rejected seen;;;;;;;;;;;;;x
+cvm_libya_offer_lapsed_seen;Libya offer lapsed seen;;;;;;;;;;;;;x
+cvm_libya_administration;Libya administration;;;;;;;;;;;;;x
+cvm_libya_administration_seen;Libya administration seen;;;;;;;;;;;;;x
+cvm_albania_sent;Albania sent;;;;;;;;;;;;;x
+cvm_albania_answered;Albania answered;;;;;;;;;;;;;x
+cvm_albania_compromise;Albania compromise;;;;;;;;;;;;;x
+cvm_albania_rejected;Albania rejected;;;;;;;;;;;;;x
+cvm_albania_compromise_answered;Albania compromise answered;;;;;;;;;;;;;x
+cvm_albania_settled;Albania settled;;;;;;;;;;;;;x
+cvm_albania_protected;Albania protected;;;;;;;;;;;;;x
+cvm_albania_offer_lapsed;Albania offer lapsed;;;;;;;;;;;;;x
+cvm_albania_settled_seen;Albania settled seen;;;;;;;;;;;;;x
+cvm_albania_rejected_seen;Albania rejected seen;;;;;;;;;;;;;x
+cvm_albania_offer_lapsed_seen;Albania offer lapsed seen;;;;;;;;;;;;;x
+cvm_albania_administration;Albania administration;;;;;;;;;;;;;x
+cvm_albania_administration_seen;Albania administration seen;;;;;;;;;;;;;x
+cvm_libya_annexed;Libya annexed;;;;;;;;;;;;;x
+cvm_libya_annexed_seen;Libya annexed seen;;;;;;;;;;;;;x
+cvm_cyr_protected;Cyr protected;;;;;;;;;;;;;x
+cvm_cyr_protected_seen;Cyr protected seen;;;;;;;;;;;;;x
+cvm_lby_protected;Lby protected;;;;;;;;;;;;;x
+cvm_lby_protected_seen;Lby protected seen;;;;;;;;;;;;;x
+cvm_dodecanese_settled;Dodecanese settled;;;;;;;;;;;;;x
+cvm_dodecanese_settled_seen;Dodecanese settled seen;;;;;;;;;;;;;x
+cvm_savoy_war_started;Savoy war started;;;;;;;;;;;;;x
+cvm_corsica_war_started;Corsica war started;;;;;;;;;;;;;x
+cvm_tunis_war_started;Tunis war started;;;;;;;;;;;;;x
+cvm_tunis_remaining_started;Tunis remaining started;;;;;;;;;;;;;x
+cvm_libya_war_started;Libya war started;;;;;;;;;;;;;x
+cvm_libya_remaining_started;Libya remaining started;;;;;;;;;;;;;x
+cvm_albania_war_started;Albania war started;;;;;;;;;;;;;x
+cvm_albania_remaining_started;Albania remaining started;;;;;;;;;;;;;x

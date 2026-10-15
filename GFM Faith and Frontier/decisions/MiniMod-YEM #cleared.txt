@@ -1,0 +1,129 @@
+political_decisions = {
+    become_yemen_nye = {
+        picture = become_yemen
+        potential = {
+			ai = no
+            tag = NYE
+        }
+        allow = {
+            owns = 1173
+            owns = 3863
+            owns = 1178
+            owns = 3692
+            owns = 3860
+            owns = 3864
+            owns = 1176
+            owns = 3866
+            owns = 3867
+			owns = 3572
+            owns = 1175
+            owns = 3865
+            YEM = { exists = no }
+            war = no
+        }
+        effect = {
+            change_tag = YEM
+            capital = 1178
+			random_owned = {
+				limit = {
+					owner = {
+						3993 = { is_core = YEM }
+					}
+				}
+				owner = {
+					3993 = {
+						set_country_flag = yesthousand3993
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						3273 = { is_core = YEM }
+					}
+				}
+				owner = {
+					set_country_flag = yesthousand3273
+				}
+			}
+            YEM_1412 = {
+                add_core = YEM
+            }
+            YEM_1173 = {
+                add_core = YEM
+            }
+			3273 = { remove_core = YEM }
+			3993 = { remove_core = YEM }
+			random_owned = {
+				limit = {
+					owner = {
+						OR = {
+							3993 = { is_core = OMA }
+							3993 = { is_core = NEJ }
+							3994 = { is_core = OMA }
+							3994 = { is_core = NEJ }
+							has_country_flag = yesthousand3993
+						}
+					}
+				}
+				owner = {
+					3993 = {
+						add_core = YEM
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						OR = {
+							1172 = { is_core = OMA }
+							1172 = { is_core = NEJ }
+							3273 = { is_core = OMA }
+							3273 = { is_core = NEJ }
+							has_country_flag = yesthousand3273
+						}
+					}
+				}
+				owner = {
+					3273 = {
+						add_core = YEM
+					}
+				}
+			}
+			3859 = {
+                add_core = YEM
+            }
+			1180 = {
+                add_core = YEM
+			}
+            YEM_1178 = {
+                add_core = YEM
+            }
+            1161 = {
+                add_core = YEM
+            }
+			1152 = {
+                add_core = YEM
+            }
+			1155 = {
+                add_core = YEM
+            }
+			3991 = {
+                add_core = YEM
+            }
+			3992 = {
+                add_core = YEM
+            }
+			3858 = {
+                add_core = YEM
+            }
+			3859 = {
+                add_core = YEM
+            }
+            primary_culture = mashriqi
+            add_accepted_culture = bedouin
+            prestige = 10
+            set_country_flag = become_yemen_nye
+        }
+    }
+}

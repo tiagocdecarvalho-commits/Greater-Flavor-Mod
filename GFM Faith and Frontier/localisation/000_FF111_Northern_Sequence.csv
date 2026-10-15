@@ -1,0 +1,6 @@
+FF3_ESTABLISH_UTR_TITLE;The Utrecht Republic Is Proclaimed;;;;;;;;;;;;;x
+FF3_ESTABLISH_UTR_DESC;Settlers along the Buffalo River have established their own raad. The agreement with Mpande gives the Utrecht community a basis for administering its farms, although neighbouring governments have yet to recognise its position. The republic now conducts its affairs separately and will later seek an arrangement with Lydenburg.;;;;;;;;;;;;;x
+FF111_UTRECHT_ACK;Record the foundation of the Utrecht republic.;;;;;;;;;;;;;x
+FF50_UTR_TITLE;Lydenburg Joins Utrecht;;;;;;;;;;;;;x
+FF50_UTR_DESC;The eastern burgher communities have agreed to conduct their common affairs through the Utrecht republic. The Lydenburg raad brings its districts into the united administration, while negotiations with the South African Republic continue. Local officers retain responsibility for their farms and settlements under the common government.;;;;;;;;;;;;;x
+FF50_UTR_ACCEPT;Unite the eastern districts under Utrecht.;;;;;;;;;;;;;x

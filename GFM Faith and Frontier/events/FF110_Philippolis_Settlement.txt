@@ -1,0 +1,102 @@
+# Historical claim deferral and consensual compensation after AI conquest.
+country_event = {
+ id = 9786800 title = "FF110_CLAIM_TITLE" desc = "FF110_CLAIM_DESC"
+ picture = "treaty" trigger = { tag = ORA ai = yes NOT = { year = 1861 } war = no
+ZOU = { owns = 2103 controls = 2103 war = no }
+2103 = { is_core = ORA }
+NOT = { has_global_flag = ff43_philippolis_settled }
+NOT = { has_country_flag = ff43_philippolis_pending }
+NOT = { has_country_flag = ff110_claim_deferred } }
+ mean_time_to_happen = { days = 1 }
+ option = { name = "FF110_DEFER" ai_chance = { factor = 100 }
+  2103 = { remove_core = ORA } set_country_flag = ff110_claim_deferred
+ }
+}
+country_event = {
+ id = 9786801 title = "FF110_OFFER_TITLE" desc = "FF110_OFFER_DESC"
+ picture = "treaty" trigger = { tag = ORA ai = yes year = 1861 war = no is_vassal = no
+owns = 2103 controls = 2103 money = 400
+ZOU = { exists = yes ai = yes war = no is_vassal = no
+OR = { owns = 2094 owns = 4010 } }
+NOT = { exists = GKW }
+NOT = { has_global_flag = ff43_philippolis_settled }
+NOT = { has_country_flag = ff43_philippolis_offered }
+NOT = { has_country_flag = ff43_philippolis_pending }
+NOT = { has_country_flag = ff43_philippolis_refused }
+NOT = { has_country_flag = ff62_philippolis_paid_400 }
+NOT = { has_country_flag = ff110_rights_closed }
+NOT = { has_country_flag = ff110_rights_pending } }
+ mean_time_to_happen = { days = 1 }
+ option = { name = "FF110_OFFER" ai_chance = { factor = 100 }
+  treasury = -400 set_country_flag = ff110_rights_pending
+  set_country_flag = ff110_rights_paid
+ }
+ option = { name = "FF110_RETAIN" ai_chance = { factor = 0 }
+  set_country_flag = ff110_rights_closed
+ }
+}
+country_event = {
+ id = 9786802 title = "FF110_COUNCIL_TITLE" desc = "FF110_COUNCIL_DESC"
+ picture = "pioneer_wagons" trigger = { tag = ZOU ai = yes war = no is_vassal = no year = 1861
+OR = { owns = 2094 owns = 4010 }
+NOT = { exists = GKW }
+NOT = { has_global_flag = ff43_philippolis_settled }
+ORA = { ai = yes owns = 2103 controls = 2103 war = no is_vassal = no
+has_country_flag = ff110_rights_pending has_country_flag = ff110_rights_paid
+NOT = { has_country_flag = ff110_rights_closed } } }
+ mean_time_to_happen = { days = 1 }
+ option = { name = "FF110_ACCEPT" ai_chance = { factor = 100 }
+  treasury = 400
+set_global_flag = ff43_philippolis_settled
+set_global_flag = ff97_griqua_sequence
+# A compensation agreement following conquest is not the ordinary sale.
+set_global_flag = ff62_philippolis_reported
+set_country_flag = ff110_council_consented
+ORA = {
+ clr_country_flag = ff110_rights_paid clr_country_flag = ff110_rights_pending
+ set_country_flag = ff110_rights_closed set_country_flag = ff110_rights_settled
+ set_country_flag = ff43_philippolis_acquired
+}
+2103 = { add_core = ORA remove_core = ZOU }
+any_owned = {
+ limit = { OR = { province_id = 2094 province_id = 4010 } }
+ add_core = GKW remove_core = ZOU secede_province = GKW
+}
+GKW = {
+ primary_culture = afro_dutch add_accepted_culture = boer
+ add_accepted_culture = khoisan civilized = yes
+}
+ }
+ option = { name = "FF110_REFUSE" ai_chance = { factor = 0 }
+  ORA = { treasury = 400 clr_country_flag = ff110_rights_paid
+clr_country_flag = ff110_rights_pending set_country_flag = ff110_rights_closed
+set_country_flag = ff110_rights_refused }
+ }
+}
+country_event = {
+ id = 9786803 title = "FF110_CLOSED_TITLE" desc = "FF110_CLOSED_DESC"
+ picture = "treaty" trigger = { tag = ORA has_country_flag = ff110_rights_pending
+has_country_flag = ff110_rights_paid
+NOT = { has_country_flag = ff110_rights_closed } NOT = { ZOU = { tag = ZOU ai = yes war = no is_vassal = no year = 1861
+OR = { owns = 2094 owns = 4010 }
+NOT = { exists = GKW }
+NOT = { has_global_flag = ff43_philippolis_settled }
+ORA = { ai = yes owns = 2103 controls = 2103 war = no is_vassal = no
+has_country_flag = ff110_rights_pending has_country_flag = ff110_rights_paid
+NOT = { has_country_flag = ff110_rights_closed } } } } }
+ mean_time_to_happen = { days = 1 }
+ option = { name = "FF110_CLOSE" ai_chance = { factor = 100 }
+  treasury = 400 clr_country_flag = ff110_rights_paid
+clr_country_flag = ff110_rights_pending set_country_flag = ff110_rights_closed
+set_country_flag = ff110_rights_refused
+ }
+}
+country_event = {
+ id = 9786804 title = "FF110_REPORT_TITLE" desc = "FF110_REPORT_DESC"
+ picture = "ffv4_griqua_east" major = yes
+ trigger = { tag = ORA has_country_flag = ff110_rights_settled
+ NOT = { has_country_flag = ff110_rights_reported } }
+ mean_time_to_happen = { days = 1 }
+ immediate = { set_country_flag = ff110_rights_reported }
+ option = { name = "FF110_RECORD" ai_chance = { factor = 100 } }
+}

@@ -1,0 +1,45 @@
+FF48_CLOCK_OK;Continue.;;;;;;;;;;;;;x
+FF48_9784400_TITLE;South African historical calendar;;;;;;;;;;;;;x
+FF48_9784400_DESC;Internal AI calendar initialization.;;;;;;;;;;;;;x
+FF48_9784401_TITLE;South African historical calendar;;;;;;;;;;;;;x
+FF48_9784401_DESC;Internal daily calendar dispatch.;;;;;;;;;;;;;x
+FF48_9784402_TITLE;The end of the cross-Vaal union;;;;;;;;;;;;;x
+FF48_9784402_DESC;Internal proclamation dispatch.;;;;;;;;;;;;;x
+FF48_BREAKUP_TITLE;3 February 1848: The Union Dissolves;;;;;;;;;;;;;x
+FF48_BREAKUP_DESC;Harry Smith has proclaimed British sovereignty between the Orange and Vaal rivers. Winburg-Potchefstroom has ceased to exist: the northern government continues as Potchefstroom, while the southern districts form the Orange River Sovereignty. Accept the loss, or resist the southern settlement. If you are playing the union, a following event lets you remain in Potchefstroom or continue as the Sovereignty.;;;;;;;;;;;;;x
+FF48_ACCEPT;Accept the loss of the southern districts.;;;;;;;;;;;;;x
+FF48_FIGHT;Fight for the Orange and Winburg districts!;;;;;;;;;;;;;x
+FF48_STAY_POT;Continue as Potchefstroom.;;;;;;;;;;;;;x
+FF48_PLAY_ORS;Play as the Orange River Sovereignty.;;;;;;;;;;;;;x
+FF48_9784403_TITLE;Choose your successor country;;;;;;;;;;;;;x
+FF48_9784403_DESC;The cross-Vaal union is over. Its two successor governments now exist separately. Continue leading Potchefstroom north of the Vaal, or take charge of the Orange River Sovereignty. This changes which country you play. It does not move either country's territory.;;;;;;;;;;;;;x
+FF48_CALL_BRITAIN;Call on Britain.;;;;;;;;;;;;;x
+FF48_9784404_TITLE;British intervention in the Sovereignty;;;;;;;;;;;;;x
+FF48_9784404_DESC;Potchefstroom has challenged the settlement. British support is military while the war continues. The Sovereignty will not be made a puppet in the middle of this conflict.;;;;;;;;;;;;;x
+FF48_ACCEPT_PROTECTION;Accept British protection.;;;;;;;;;;;;;x
+FF48_RESIST_BRITAIN;Resist British sovereignty.;;;;;;;;;;;;;x
+FF48_9784405_TITLE;3 February 1848: The Orange River Sovereignty;;;;;;;;;;;;;x
+FF48_9784405_DESC;British sovereignty has been proclaimed over the Orange and Winburg districts. With no surviving cross-Vaal union to divide, the southern government must decide whether to accept British protection or resist it.;;;;;;;;;;;;;x
+FF48_9784406_TITLE;Settlement after the Orange conflict;;;;;;;;;;;;;x
+FF48_9784406_DESC;Internal postwar settlement, no ownership transfer or forced peace.;;;;;;;;;;;;;x
+FF48_9784410_TITLE;The Klip River question;;;;;;;;;;;;;x
+FF48_9784410_DESC;Internal Klip River dispatch.;;;;;;;;;;;;;x
+FF48_9784411_TITLE;The end of the Klip River Republic;;;;;;;;;;;;;x
+FF48_9784411_DESC;Internal final 1847 cleanup.;;;;;;;;;;;;;x
+FF48_KLR_ACCEPT;Accept British control of the Klip River districts.;;;;;;;;;;;;;x
+FF48_KLR_DEFEND;Defend the settlers and confront Britain!;;;;;;;;;;;;;x
+FF48_9784412_TITLE;Britain rejects the Klip River Republic;;;;;;;;;;;;;x
+FF48_9784412_DESC;Britain refuses to recognise the Klip River Republic. We can accept its incorporation into British Natal, or defend the settlers by bringing their districts under our own protection and confronting Britain. The tiny republic will cease to exist as a separate state in either case.;;;;;;;;;;;;;x
+FF48_9784414_TITLE;The Derdepoort assembly;;;;;;;;;;;;;x
+FF48_9784414_DESC;Internal northern assembly dispatch.;;;;;;;;;;;;;x
+FF48_9784415_TITLE;The Sand River Convention;;;;;;;;;;;;;x
+FF48_9784415_DESC;Internal recognition dispatch.;;;;;;;;;;;;;x
+FF48_9784416_TITLE;The Bloemfontein Convention;;;;;;;;;;;;;x
+FF48_9784416_DESC;Internal Orange River Convention dispatch.;;;;;;;;;;;;;x
+FF48_9784417_TITLE;The Orange Free State;;;;;;;;;;;;;x
+FF48_9784417_DESC;With British sovereignty at an end, the Orange districts adopt an independent republican government.;;;;;;;;;;;;;x
+FF48_FREE_STATE;An independent Orange Free State.;;;;;;;;;;;;;x
+ff48_dimawe_border;Cede BaMangwato Transvaal;;;;;;;;;;;;;
+ff48_dimawe_border_desc;Demand only BaMangwato Transvaal (2074). Mochudi and all other districts remain with the defender.;;;;;;;;;;;;;
+FF48_DIMAWE_WAR_NAME;$ORDER$$FIRST$-$SECOND$ Dimawe Border War;;;;;;;;;;;;;
+FF48_DIMAWE_DEMAND;Demand BaMangwato Transvaal by force. Mochudi is not part of our claim.;;;;;;;;;;;;;

@@ -1,0 +1,9 @@
+owner = SUA
+controller = SUA
+add_core = SUA
+trade_goods = iron
+life_rating = 35
+terrain = forest_hills
+
+# Faith and Frontier 3: Klein Vrystaat
+1886.1.1 = { add_core = KVS }

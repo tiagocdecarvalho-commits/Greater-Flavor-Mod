@@ -1,0 +1,62 @@
+political_decisions = {
+    ff_dec_community_schools = {
+        potential = { government = theocracy NOT = { has_country_flag = ff_built_community_schools }  }
+        allow = { war = no money = 10000 education_spending = 0.5 }
+        effect = { money = -10000 set_country_flag = ff_built_community_schools add_country_modifier = { name = ff_community_schools duration = -1 } }
+        ai_will_do = { factor = 1 }
+    }
+    ff_dec_afrikaans_schools = {
+        potential = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } NOT = { has_country_flag = ff_built_afrikaans_schools }  }
+        allow = { war = no money = 10000 year = 1875 education_spending = 0.5 }
+        effect = { money = -10000 set_country_flag = ff_built_afrikaans_schools add_country_modifier = { name = ff_afrikaans_schools duration = -1 } }
+        ai_will_do = { factor = 1 }
+    }
+    ff_dec_cooperatives = {
+        potential = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } NOT = { has_country_flag = ff_built_cooperatives }  }
+        allow = { war = no money = 5000 year = 1840 }
+        effect = { money = -5000 set_country_flag = ff_built_cooperatives add_country_modifier = { name = ff_cooperatives duration = 3650 } }
+        ai_will_do = { factor = 1 }
+    }
+    ff_dec_welcome = {
+        potential = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } NOT = { has_country_flag = ff_built_welcome }  }
+        allow = { war = no money = 4000 year = 1850 border_policy = open_borders }
+        effect = { money = -4000 set_country_flag = ff_built_welcome add_country_modifier = { name = ff_welcome duration = 1825 } }
+        ai_will_do = { factor = 1 }
+    }
+    ff_dec_veterinary = {
+        potential = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } NOT = { has_country_flag = ff_built_veterinary }  }
+        allow = { war = no money = 5000 year = 1890 medicine = 1 }
+        effect = { money = -5000 set_country_flag = ff_built_veterinary add_country_modifier = { name = ff_veterinary duration = 1825 } }
+        ai_will_do = { factor = 1 }
+    }
+    ff_dec_public_health = {
+        potential = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } NOT = { has_country_flag = ff_built_public_health }  }
+        allow = { war = no money = 12000 year = 1880 medicine = 1 }
+        effect = { money = -12000 set_country_flag = ff_built_public_health add_country_modifier = { name = ff_public_health duration = -1 } }
+        ai_will_do = { factor = 1 }
+    }
+    ff_dec_mine_safety = {
+        potential = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } NOT = { has_country_flag = ff_built_mine_safety }  }
+        allow = { war = no money = 4500 year = 1880 any_owned_province = { trade_goods = precious_metal } }
+        effect = { money = -4500 set_country_flag = ff_built_mine_safety add_country_modifier = { name = ff_mine_safety duration = -1 } }
+        ai_will_do = { factor = 1 }
+    }
+    ff_dec_skills = {
+        potential = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } NOT = { has_country_flag = ff_built_skills }  }
+        allow = { war = no money = 5000 year = 1880 }
+        effect = { money = -5000 set_country_flag = ff_built_skills add_country_modifier = { name = ff_skills duration = 3650 } }
+        ai_will_do = { factor = 1 }
+    }
+    ff_dec_libraries = {
+        potential = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } NOT = { has_country_flag = ff_built_libraries }  }
+        allow = { war = no money = 10000 year = 1860 }
+        effect = { money = -10000 set_country_flag = ff_built_libraries add_country_modifier = { name = ff_libraries duration = -1 } }
+        ai_will_do = { factor = 1 }
+    }
+    ff_dec_civic_compact = {
+        potential = { OR = { NOT = { OR = { tag = TRN tag = SAF } } has_country_flag = ff84_union_path has_country_flag = ff68_limited_settlement_applied has_country_flag = ff82_boer_victory AND = { tag = SAF has_country_flag = ff67_full_cape_victory } }  OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } NOT = { has_country_flag = ff_built_civic_compact }  }
+        allow = { war = no money = 10000 year = 1880 slavery = no_slavery citizens_rights = all_voting_pops vote_franschise = universal_voting plurality = 30 }
+        effect = { money = -10000 set_country_flag = ff_built_civic_compact add_country_modifier = { name = ff_civic_compact duration = -1 } any_owned = { limit = { has_pop_culture = afro_dutch } owner = { add_accepted_culture = afro_dutch } } any_owned = { limit = { has_pop_culture = khoisan } owner = { add_accepted_culture = khoisan } } any_owned = { limit = { has_pop_culture = xhosa } owner = { add_accepted_culture = xhosa } } any_owned = { limit = { has_pop_culture = zulu } owner = { add_accepted_culture = zulu } } any_owned = { limit = { has_pop_culture = sotho } owner = { add_accepted_culture = sotho } } any_owned = { limit = { has_pop_culture = tswana } owner = { add_accepted_culture = tswana } } any_owned = { limit = { has_pop_culture = tamil } owner = { add_accepted_culture = tamil } } any_owned = { limit = { has_pop_culture = gujarati } owner = { add_accepted_culture = gujarati } } }
+        ai_will_do = { factor = 1 }
+    }
+}

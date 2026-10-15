@@ -1,0 +1,131 @@
+political_decisions = {
+
+    form_greater_netherlands = {
+        picture = become_belgium
+        potential = {
+            tag = NET
+            has_country_flag = signed_treaty_of_london
+            OR = {
+                is_greater_power = yes
+                government = fascist_dictatorship
+            }
+            NOT = { has_country_flag = form_greater_netherlands }
+        }
+
+        allow = {
+            prestige = 100
+            war = no
+            nationalism_n_imperialism = 1
+            FLA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            war = no
+                        }
+                        owner = {
+                            vassal_of = THIS
+                            war = no
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            set_country_flag = form_greater_netherlands
+            prestige = 20
+            badboy = 5
+            BEL_387 = { add_core = NET }
+            381 = { add_core = NET }
+            add_accepted_culture = flemish
+            random_country = {
+                limit = {
+                    tag = FLA
+                    exists = yes
+                    ai = yes
+                }
+                THIS = { inherit = FLA }
+            }
+            random_country = {
+                limit = {
+                    tag = BEL
+                    exists = yes
+                    ai = yes
+                    OR = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
+                }
+                THIS = {
+                    inherit = BEL
+                    release_vassal = WLL
+                    create_alliance = WLL
+                    diplomatic_influence = {
+                        who = WLL
+                        value = 300
+                    }
+                }
+                BEL = {
+                    all_core = {
+                        remove_core = BEL
+                    }
+                }
+            }
+            random_owned = {
+                limit = { province_id = 397 }
+                owner = {
+                    release_vassal = LUX
+                    create_alliance = LUX
+                    diplomatic_influence = {
+                        who = LUX
+                        value = 300
+                    }
+                }
+            }
+        }
+    }
+	
+	#embrace_francofonie moved to MC
+
+    etna_expedition = {
+        picture = piracy
+        potential = {
+            year = 1850
+            owns = 1453
+            1454 = { empty = yes }
+            1560 = { empty = yes }
+            NOT = { has_global_flag = etna_expedition }
+        }
+
+        allow = {
+            war = no
+            invention = prophylaxis_against_malaria
+            money = 5000
+        }
+
+        effect = {
+            treasury = -5000
+            set_global_flag = etna_expedition
+            random_list = {
+                60 = {
+                    country_event = 211488
+                }
+                30 = {
+                    country_event = 211475
+                }
+                10 = {
+                    country_event = 211474
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                NOT = { year = 1858 }
+            }
+        }
+    }
+}

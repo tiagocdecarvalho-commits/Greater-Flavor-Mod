@@ -1,0 +1,6 @@
+cvd_rome_accepted;Papal Diplomatic Cooperation;;;;;;;;;;;;;x
+cvd_rome_accepted_desc;Envoys in Rome and Naples coordinate the alliance. Papal sovereignty remains intact. Further Italian leadership still requires its own negotiations and institutions.;;;;;;;;;;;;;x
+cvd_rome_accepted_ack;Put the alliance to diplomatic use.;;;;;;;;;;;;;x
+cvd_rome_refused;The Roman Mission Rebuffed;;;;;;;;;;;;;x
+cvd_rome_refused_desc;Rome has declined the alliance. The unsuccessful mission temporarily weakens the standing of our envoys. The kingdom can continue its Italian policy through other partners.;;;;;;;;;;;;;x
+cvd_rome_refused_ack;Recall the delegation and seek other partners.;;;;;;;;;;;;;x

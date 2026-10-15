@@ -1,0 +1,1 @@
+country_event = { id = 9860052 title = "cv_programme_complete_title" desc = "cv_programme_complete_desc" picture = "cvi_calore" is_triggered_only = yes immediate = {  } option = { name = "cv_programme_complete_a" ai_chance = { factor = 80 } } }

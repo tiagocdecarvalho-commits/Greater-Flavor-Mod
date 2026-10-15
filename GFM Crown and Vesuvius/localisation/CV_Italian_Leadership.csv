@@ -1,0 +1,75 @@
+#CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;x
+cvl_chapter_window;The Naples Leadership Initiative;;;;;;;;;;;;;x
+cvl_chapter_window_desc;The court is pursuing a time-limited initiative to establish an agreed Italian leadership.;;;;;;;;;;;;;x
+cvl_preparations;Depots for the Northern Campaign;;;;;;;;;;;;;x
+cvl_preparations_desc;Inspections, supply reserves and transport contracts improve readiness while occupying revenue officials.;;;;;;;;;;;;;x
+cvl_challenge_window;The Earlier Dispute with Piedmont;;;;;;;;;;;;;x
+cvl_challenge_window_desc;Piedmont has rejected our claim to leadership. This temporary ultimatum permits a war for recognition, leaving the Savoyard state independent. Its expiry does not prevent the full Brothers' War from March 1860.;;;;;;;;;;;;;x
+cvl_recovery;A Leadership Bid Exhausted;;;;;;;;;;;;;x
+cvl_recovery_desc;The court must restore confidence after failing to secure an Italian settlement.;;;;;;;;;;;;;x
+cvl_federal_compact;The Italian Congress Compact;;;;;;;;;;;;;x
+cvl_federal_compact_desc;Common diplomatic business is discussed through a congress whose participating courts retain their institutions.;;;;;;;;;;;;;x
+cvl_dynastic_compact;The Bourbon Diplomatic Primacy;;;;;;;;;;;;;x
+cvl_dynastic_compact_desc;Recognition strengthens royal diplomacy and military coordination, while the court bears the expense of its expanded commitments.;;;;;;;;;;;;;x
+cvl_national_compact;The Constitutional Leadership Compact;;;;;;;;;;;;;x
+cvl_national_compact_desc;Published ministerial commitments give the southern constitutional programme greater administrative credibility.;;;;;;;;;;;;;x
+cvl_convene_title;Convene an Italian Leadership Congress;;;;;;;;;;;;;x
+cvl_convene_desc;Invite Piedmont to discuss a southern initiative for Italian leadership. Our established political programme will determine the settlement we offer. Agreement recognises diplomatic leadership without annexing the other Italian states. Rejection can lead to further negotiations backed by military preparation.;;;;;;;;;;;;;x
+cvl_prepare_title;Prepare the Northern Supply Depots;;;;;;;;;;;;;x
+cvl_prepare_desc;Piedmont has rejected the congress. Inspect the army, organize supply depots and contract transport before returning to the negotiating table. These preparations support a limited campaign for recognition, but they provide neither access through neutral states nor an automatic victory.;;;;;;;;;;;;;x
+cvl_challenge_title;Present the Leadership Ultimatum;;;;;;;;;;;;;x
+cvl_challenge_desc;Ask Piedmont to recognise the southern initiative under the pressure of our preparations. Its government may concede or refuse. Refusal grants a leadership casus belli, which must be used through ordinary diplomacy. Allies, truces, military access and the terms of peace still matter.;;;;;;;;;;;;;x
+cvl_settlement_title;Ratify the Italian Leadership Settlement;;;;;;;;;;;;;x
+cvl_settlement_desc;Ratify the congress compact, dynastic primacy or constitutional programme agreed when the initiative began. Piedmont recognises our leadership and remains independent. The full Brothers' War opens from March 1860. Its victory can compel incorporation into the national union.;;;;;;;;;;;;;x
+cvl_invitation_refuse;Piedmont will retain its own initiative.;;;;;;;;;;;;;x
+cvl_invitation_accept;Recognise the southern diplomatic initiative.;;;;;;;;;;;;;x
+cvl_invitation_title;A Congress Proposed by Naples;;;;;;;;;;;;;x
+cvl_invitation_desc;The southern court proposes a congress to recognise its initiative in Italian affairs. Its envoys offer diplomatic leadership under the political programme already established in Naples. Acceptance would leave our territory and institutions intact, but place the initiative with our rival. Refusal preserves our own claim and may sharpen the competition.;;;;;;;;;;;;;x
+cvl_agreement_ack;Prepare the articles of settlement.;;;;;;;;;;;;;x
+cvl_agreement_title;Piedmont Recognises the Initiative;;;;;;;;;;;;;x
+cvl_agreement_desc;The government in Turin has accepted southern diplomatic leadership. Recognition is an opening for a settlement, not a transfer of provinces or a promise that every Italian court will follow. Ministers can now prepare ratification under the programme with which the congress began.;;;;;;;;;;;;;x
+cvl_refusal_continue;Keep the initiative open and examine our preparations.;;;;;;;;;;;;;x
+cvl_refusal_withdraw;Close the proposal and preserve the peace.;;;;;;;;;;;;;x
+cvl_refusal_title;The Congress Has Been Refused;;;;;;;;;;;;;x
+cvl_refusal_desc;Piedmont will not concede the Italian initiative. Our ministers can close the proposal without fighting or inspect the army and prepare another approach backed by force. A confrontation would compete with the wider struggle against foreign influence and may divide the Italian courts further.;;;;;;;;;;;;;x
+cvl_ult_refuse;Reject the claim to leadership.;;;;;;;;;;;;;x
+cvl_ult_concede;Concede diplomatic primacy and negotiate the settlement.;;;;;;;;;;;;;x
+cvl_ultimatum_title;The Southern Leadership Ultimatum;;;;;;;;;;;;;x
+cvl_ultimatum_desc;Naples has renewed its claim with military preparations behind it. Recognition would preserve Piedmontese government and territory while conceding the diplomatic initiative. Refusal would allow the southern crown to seek recognition by war. No army moves merely because this dispatch has arrived.;;;;;;;;;;;;;x
+cvl_ult_failed_ack;The choice of war now rests with the crown.;;;;;;;;;;;;;x
+cvl_ult_failed_title;The Ultimatum Is Rejected;;;;;;;;;;;;;x
+cvl_ult_failed_desc;Piedmont has rejected the demand. The court may now pursue a limited leadership war through ordinary diplomacy. Recognition must be included in the peace settlement: a white peace, an unrelated concession or occupation alone will not establish our primacy. The claim lapses if it is left unused.;;;;;;;;;;;;;x
+cvl_war_report_ack;Keep the campaign directed toward its political objective.;;;;;;;;;;;;;x
+cvl_war_report_title;The Italian Leadership War;;;;;;;;;;;;;x
+cvl_war_report_desc;The contest with Piedmont has entered the field. Our depots can support the army, but commanders must secure their own routes through the peninsula or by sea. Ministers insist that recognition be written into the peace: military success without that settlement leaves the leadership question unresolved.;;;;;;;;;;;;;x
+cvl_inconclusive_ack;Close the initiative and restore confidence.;;;;;;;;;;;;;x
+cvl_inconclusive_title;Peace Without Recognition;;;;;;;;;;;;;x
+cvl_inconclusive_desc;The fighting with Piedmont has ended without an accepted leadership settlement. Whatever other terms were agreed, the southern claim has not been recognised through this initiative. Ministers close the extraordinary preparations and turn to restoring the kingdom's diplomatic standing.;;;;;;;;;;;;;x
+cvl_closed_ack;Close the earlier congress proposal.;;;;;;;;;;;;;x
+cvl_closed_notice_title;The Congress Has Lost Its Mandate;;;;;;;;;;;;;x
+cvl_closed_notice_desc;The southern government no longer meets the political terms under which the congress was opened. The crown, its chosen programme and its seat at Naples were the basis of that initiative. Ministers close this earlier proposal to Piedmont. The separate Brothers' War and papal settlement remain governed by their own conditions.;;;;;;;;;;;;;x
+cvl_congress_expired_ack;Close the expired congress proposal.;;;;;;;;;;;;;x
+cvl_congress_expired_title;The Earlier Leadership Congress Has Expired;;;;;;;;;;;;;x
+cvl_congress_expired_desc;The appointed diplomatic window for the earlier congress with Piedmont has ended before a political compact was ratified. Ministers close that proposal and its extraordinary preparations. This does not undo a papal settlement or end the separate struggle for Italian leadership through the Brothers' War.;;;;;;;;;;;;;x
+cvl_claim_expired_ack;Close the unused ultimatum.;;;;;;;;;;;;;x
+cvl_claim_expired_title;The Leadership Ultimatum Has Expired;;;;;;;;;;;;;x
+cvl_claim_expired_desc;The opportunity to enforce the earlier ultimatum to Piedmont has passed without recognition. Its claim to a limited leadership war has expired, and ministers close the congress initiative. The separate Brothers' War and any papal settlement remain governed by their own conditions.;;;;;;;;;;;;;x
+cvl_rival_changed_ack;Close the obsolete congress proposal.;;;;;;;;;;;;;x
+cvl_rival_changed_title;The Congress Has Lost Its Counterpart;;;;;;;;;;;;;x
+cvl_rival_changed_desc;The earlier congress assumed an independent Piedmontese monarchy and an Italy still divided between rival courts. That diplomatic situation has changed, so its original articles can no longer be concluded. Ministers close the congress proposal without reversing territorial settlements already reached.;;;;;;;;;;;;;x
+cvl_settle_federal_ack;Ratify the congress compact.;;;;;;;;;;;;;x
+cvl_settle_federal_title;The Italian Congress Compact;;;;;;;;;;;;;x
+cvl_settle_federal_desc;The compact recognises Naples as the convening court for common Italian business. Participating rulers retain their governments, while envoys agree to consult on diplomacy and communications. This is the federal programme's first external institution, not the annexation of Piedmont or the surrender of every local authority.;;;;;;;;;;;;;x
+cvl_settle_absolute_ack;Ratify the royal diplomatic settlement.;;;;;;;;;;;;;x
+cvl_settle_absolute_title;The Recognition of Bourbon Primacy;;;;;;;;;;;;;x
+cvl_settle_absolute_desc;The settlement recognises the Bourbon crown's diplomatic primacy. Royal envoys and military representatives coordinate through the court, which retains responsibility for appointments and policy. Piedmont remains a separate kingdom. Liberal critics see the agreement as an extension of dynastic power rather than a national constitution.;;;;;;;;;;;;;x
+cvl_settle_constitutional_ack;Ratify the ministerial commitments.;;;;;;;;;;;;;x
+cvl_settle_constitutional_title;The Constitutional Leadership Settlement;;;;;;;;;;;;;x
+cvl_settle_constitutional_desc;Ministers publish the commitments on which the southern claim rests and submit their administration to the kingdom's constitutional institutions. Piedmont recognises that initiative while retaining its territory. Naples will pursue a centralized Italian kingdom through the existing unification process, under the constitutional programme already chosen.;;;;;;;;;;;;;x
+cvl_turin_settlement_ack;Instruct our envoys to work within the settlement.;;;;;;;;;;;;;x
+cvl_turin_settlement_title;The Settlement with Naples;;;;;;;;;;;;;x
+cvl_turin_settlement_desc;Naples has ratified the settlement recognising its Italian initiative. Piedmont retains its own territory and government. Relations between the courts can now recover, even as each watches how the southern programme develops and how the other Italian states respond.;;;;;;;;;;;;;x
+cvl_leadership;Recognise Southern Italian Leadership;;;;;;;;;;;;;x
+cvl_leadership_desc;Compel Piedmont to recognise the southern Italian initiative. Enforce this recognition as a peace term, then ratify the political compact. This earlier leadership war preserves Piedmontese sovereignty. Incorporation belongs to the later Brothers' War.;;;;;;;;;;;;;x
+cvl_leadership_short;Recognise Southern Leadership;;;;;;;;;;;;;x
+CVL_LEADERSHIP_WAR_NAME;The Italian Leadership War;;;;;;;;;;;;;x

@@ -1,0 +1,30 @@
+# Independent, short-lived British dispatch clock. No dependence on the old GP clock flag.
+country_event = {
+ id = 9784961 title = "FF63_CLOCK_TITLE" desc = "FF63_CLOCK_DESC"
+ trigger = { tag = ENG ai = yes TRN = { exists = yes NOT = { has_country_flag = ff63_proclamation_resolved } } year = 1876 NOT = { year = 1878 } NOT = { has_country_flag = ff66_proclamation_clock_started } }
+ mean_time_to_happen = { days = 1 }
+ option = { name = "FF63_CLOCK_OK" ai_chance = { factor = 100 }
+  set_country_flag = ff66_proclamation_clock_started
+  country_event = { id = 9784962 days = 1 }
+ }
+}
+country_event = {
+ id = 9784962 title = "FF63_CLOCK_TITLE" desc = "FF63_CLOCK_DESC"
+ allow_multiple_instances = yes is_triggered_only = yes
+ option = { name = "FF63_CLOCK_OK" ai_chance = { factor = 100 }
+  # The initialized daily clock sees the first day of April and dispatches April 12.
+  random_owned = { limit = { owner = { tag = ENG TRN = { exists = yes NOT = { has_country_flag = ff63_proclamation_resolved } } year = 1877 month = 3 NOT = { month = 4 } NOT = { year = 1878 } NOT = { has_country_flag = ff66_proclamation_date_queued } NOT = { has_country_flag = ff63_proclamation_resolved } } } owner = {
+   set_country_flag = ff66_proclamation_date_queued set_global_flag = ff63_queued_1877
+   country_event = { id = 9784950 days = 11 }
+  } }
+  random_owned = { limit = { owner = { tag = ENG TRN = { exists = yes NOT = { has_country_flag = ff63_proclamation_resolved } } NOT = { year = 1878 } NOT = { has_country_flag = ff66_proclamation_date_queued } NOT = { has_country_flag = ff63_proclamation_resolved } } } owner = { country_event = { id = 9784963 days = 1 } } }
+ }
+}
+# Alternate event IDs keep each successive dispatch out of its own pending instance.
+country_event = {
+ id = 9784963 title = "FF63_CLOCK_TITLE" desc = "FF63_CLOCK_DESC"
+ allow_multiple_instances = yes is_triggered_only = yes
+ option = { name = "FF63_CLOCK_OK" ai_chance = { factor = 100 }
+  country_event = 9784962
+ }
+}

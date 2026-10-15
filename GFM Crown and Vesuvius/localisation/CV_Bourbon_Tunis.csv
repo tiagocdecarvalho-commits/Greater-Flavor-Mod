@@ -1,0 +1,72 @@
+cvbc_tunis_purchase_title;Purchase the Tunisian Protectorate;;;;;;;;;;;;;x
+cvbc_tunis_purchase_desc;The ports facing Sicily belong to the kingdom's natural commercial horizon. Propose a compensated transfer of Ottoman authority over Tunis: Italian protection for the Bey's administration, secure harbours for our fleet and a treaty recognised at Constantinople. Payment is reserved until the Ottoman government answers. A refusal returns it and leaves ministers the choice of enforcing the claim.;;;;;;;;;;;;;x
+cvbc_tunis_porte_accept;Accept the compensated treaty.;;;;;;;;;;;;;x
+cvbc_tunis_porte_refuse;Retain our authority over Tunis.;;;;;;;;;;;;;x
+cvbc_tunis_porte_reply_title;An Italian Purchase Proposal for Tunis;;;;;;;;;;;;;x
+cvbc_tunis_porte_reply_desc;The Bourbon cabinet proposes compensation for the transfer of Ottoman authority over Tunis. Accepting places the local administration under Italian protection while recording the Porte's reserved legal title. Rejecting preserves our present authority, but the Italian fleet may return bearing an ultimatum. The court must weigh immediate relief against the precedent of yielding another Mediterranean dependency.;;;;;;;;;;;;;x
+cvbc_tunis_purchase_complete_ack;Record the articles and instruct our ministers.;;;;;;;;;;;;;x
+cvbc_tunis_purchase_complete_title;The Tunisian Convention Is Ratified;;;;;;;;;;;;;x
+cvbc_tunis_purchase_complete_desc;Constantinople has accepted the compensated convention. The Bey's administration now stands under Italian protection, with Ottoman legal reservations entered in the treaty record. Italian officers take responsibility for defence and the ministry opens the work of integrating customs, courts and communications. Across the channel, Tunis is no longer merely a destination for our merchants: it is an obligation assumed by the Italian crown.;;;;;;;;;;;;;x
+cvbc_tunis_purchase_refused_ack;Record the articles and instruct our ministers.;;;;;;;;;;;;;x
+cvbc_tunis_purchase_refused_title;Constantinople Refuses the Tunisian Convention;;;;;;;;;;;;;x
+cvbc_tunis_purchase_refused_desc;The Porte refuses to transfer its authority over Tunis. The reserved payment has been returned, and no protectorate has been created by this exchange of notes. The cabinet may abandon the project or bring a specific demand before the fleet. Should an Italian victory impose the Tunisian articles at peace, their implementation will no longer depend on another government accepting the original proposal.;;;;;;;;;;;;;x
+cvbc_tunis_purchase_closed_ack;Record the articles and instruct our ministers.;;;;;;;;;;;;;x
+cvbc_tunis_purchase_closed_title;The Tunisian Purchase Cannot Be Concluded;;;;;;;;;;;;;x
+cvbc_tunis_purchase_closed_desc;The government or ownership required by the Tunisian proposal has changed before signature. Ministers close this correspondence and return the reserved payment. No foreign possession has passed to Italy, and no war has begun under these unsigned articles.;;;;;;;;;;;;;x
+cvbc_tunis_legacy_correspondence_ack;Record the articles and instruct our ministers.;;;;;;;;;;;;;x
+cvbc_tunis_legacy_correspondence_title;The Tunisian Mission Receives Revised Instructions;;;;;;;;;;;;;x
+cvbc_tunis_legacy_correspondence_desc;The cabinet has revised the pending Tunisian proposal into a compensated convention with Constantinople. The mission continues under its existing financial authority. No second payment is demanded, and the old unanswered correspondence will not produce a rival settlement.;;;;;;;;;;;;;x
+cvbc_tunis_enforce_title;Enforce the Tunisian Convention;;;;;;;;;;;;;x
+cvbc_tunis_enforce_desc;Send the fleet to enforce the rejected Tunisian articles. The war concerns the Ottoman districts of Tunis and the local dependency, rather than the whole Ottoman Empire. Acceptance of this named term at peace establishes the Italian protectorate automatically, the defeated court cannot refer those signed articles back to an unanswered proposal.;;;;;;;;;;;;;x
+cvbc_tunis_remaining_title;Complete the Tunisian Territorial Articles;;;;;;;;;;;;;x
+cvbc_tunis_remaining_desc;The protected Tunisian administration still faces Ottoman districts inside its own regional frontier. Enforce a separate territorial article for those remaining districts. Foreign possessions and the Ottoman Empire beyond Tunis remain outside the settlement.;;;;;;;;;;;;;x
+cvbc_tunis_peace_award_ack;Record the articles and instruct our ministers.;;;;;;;;;;;;;x
+cvbc_tunis_peace_award_title;The Tunisian Peace Articles Take Effect;;;;;;;;;;;;;x
+cvbc_tunis_peace_award_desc;The Ottoman government has accepted the Tunisian articles as a term of peace. The surviving Ottoman districts enter the Bey's administration, whose defence and foreign relations now pass under Italian protection. These are imposed articles, not another invitation to negotiate. The kingdom assumes its position across the Sicilian channel through a signed peace: officials change command, harbours receive Italian supervision and the work of provincial integration begins.;;;;;;;;;;;;;x
+cvbc_tunis_peace_empty_ack;Record the articles and instruct our ministers.;;;;;;;;;;;;;x
+cvbc_tunis_peace_empty_title;The Tunisian Peace Articles Have No Remaining Recipient;;;;;;;;;;;;;x
+cvbc_tunis_peace_empty_desc;The signed Tunisian articles can no longer transfer a district: neither Constantinople nor a surviving Tunisian administration holds land covered by the settlement. Ministers close this award without declaring a protectorate established. Territories now governed by other states cannot be annexed under an Ottoman signature.;;;;;;;;;;;;;x
+cvbc_tunis_transition_started_ack;Record the articles and instruct our ministers.;;;;;;;;;;;;;x
+cvbc_tunis_transition_started_title;The Tunisian Administrative Transition Begins;;;;;;;;;;;;;x
+cvbc_tunis_transition_started_desc;Protection alone does not turn Tunis into an Italian province. The crown commissions a sustained period of administration: secure accounts, courts able to hear property disputes and regular communication across the channel. The Bey's government remains a dependency while these institutions are established. Incorporation will become a separate choice after the transition has run its course under uninterrupted Italian protection.;;;;;;;;;;;;;x
+cvbc_tunis_transition_broken_ack;Record the articles and instruct our ministers.;;;;;;;;;;;;;x
+cvbc_tunis_transition_broken_title;The Tunisian Administrative Transition Is Interrupted;;;;;;;;;;;;;x
+cvbc_tunis_transition_broken_desc;The political or protective relationship supporting the Tunisian transition has ended. The old transition cannot establish a right to incorporate a government outside the Bourbon crown's protection. If the required relationship is restored, the administrative period must begin again.;;;;;;;;;;;;;x
+cvbc_tunis_transition_complete_ack;Record the articles and instruct our ministers.;;;;;;;;;;;;;x
+cvbc_tunis_transition_complete_title;Tunis Is Ready for Provincial Incorporation;;;;;;;;;;;;;x
+cvbc_tunis_transition_complete_desc;The period of protected administration has concluded. Ministers place the accounts, local offices and terms of the Tunisian convention before the crown. Italy may now replace the separate protectorate with direct provincial government, provided its administration remains peaceful and the named districts are secure. The decision concerns Tunis itself, leaving the dependency's other possessions outside the act.;;;;;;;;;;;;;x
+cvbc_tunis_integrate_title;Incorporate the Tunisian Protectorate;;;;;;;;;;;;;x
+cvbc_tunis_integrate_desc;Promulgate an act bringing the protected Tunisian districts into the kingdom as directly administered provinces. The completed transition authorises incorporation of Tunis itself, unrelated possessions of its government remain under their existing administration. A civil charter can subsequently establish the province's place within our Italian institutions.;;;;;;;;;;;;;x
+cvbc_tunis_incorporated_ack;Record the articles and instruct our ministers.;;;;;;;;;;;;;x
+cvbc_tunis_incorporated_title;Tunis Enters the Italian Kingdom;;;;;;;;;;;;;x
+cvbc_tunis_incorporated_desc;The act of incorporation has replaced Italian protection with direct provincial authority in Tunis. The ministry receives the local offices and prepares the civil charter through which courts, municipal institutions and property rights will enter the kingdom's chosen settlement. The crown now bears the responsibilities of government across the channel, rather than supervising them through a separate dependency.;;;;;;;;;;;;;x
+cvbc_tunis_local_treaty_record_ack;Record the articles and instruct our ministers.;;;;;;;;;;;;;x
+cvbc_tunis_local_treaty_record_title;The Tunisian Protectorate Is Recorded;;;;;;;;;;;;;x
+cvbc_tunis_local_treaty_record_desc;The independent Tunisian government now stands under Italian protection following the accepted peace. Its administration retains local responsibility while the kingdom assumes defence and foreign relations. The ministry records that actual relationship and begins the same administrative transition required of a protectorate established by diplomacy.;;;;;;;;;;;;;x
+cvbc_tunis_ottoman_settlement;Italian Tunisian Protectorate Settlement;;;;;;;;;;;;;x
+cvbc_tunis_ottoman_settlement_short;Tunisian Protectorate;;;;;;;;;;;;;x
+cvbc_tunis_ottoman_settlement_desc;An accepted peace term establishes Italian protection over Tunis and transfers the Ottoman districts covered by its articles. Foreign-owned provinces are excluded.;;;;;;;;;;;;;x
+cvbc_tunis_ottoman_settlement_setup;The accepted settlement binds the Tunisian administration to Italian protection without a second diplomatic proposal.;;;;;;;;;;;;;x
+cvbc_tunis_ottoman_settlement_war;The War for the Tunisian Convention;;;;;;;;;;;;;x
+cvbc_tunis_administrative_transition;Transizione Amministrativa di Tunisi;;;;;;;;;;;;;x
+cvbc_tunis_administrative_transition_desc;The protectorate is preparing its offices, communications and courts for possible incorporation into the Italian kingdom.;;;;;;;;;;;;;x
+cvbc_tunis_proposal_pending;Proposal pending;;;;;;;;;;;;;x
+cvbc_tunis_proposal_done;Proposal done;;;;;;;;;;;;;x
+cvbc_tunis_proposal_presented;Proposal presented;;;;;;;;;;;;;x
+cvbc_tunis_escrow;Escrow;;;;;;;;;;;;;x
+cvbc_tunis_proposal_accepted;Proposal accepted;;;;;;;;;;;;;x
+cvbc_tunis_proposal_rejected;Proposal rejected;;;;;;;;;;;;;x
+cvbc_tunis_acceptance_seen;Acceptance seen;;;;;;;;;;;;;x
+cvbc_tunis_refusal_seen;Refusal seen;;;;;;;;;;;;;x
+cvbc_tunis_proposal_closed;Proposal closed;;;;;;;;;;;;;x
+cvbc_tunis_peace_pending;Peace pending;;;;;;;;;;;;;x
+cvbc_tunis_peace_done;Peace done;;;;;;;;;;;;;x
+cvbc_tunis_peace_without_land;Peace without land;;;;;;;;;;;;;x
+cvbc_tunis_clock_started;Clock started;;;;;;;;;;;;;x
+cvbc_tunis_annexed;Annexed;;;;;;;;;;;;;x
+cvbc_tunis_integration_ready;Integration ready;;;;;;;;;;;;;x
+cvbc_tunis_annexed_seen;Annexed seen;;;;;;;;;;;;;x
+cvbc_tunis_local_peace_pending;Local peace pending;;;;;;;;;;;;;x
+cvbc_tunis_local_peace_done;Local peace done;;;;;;;;;;;;;x
+cvbc_tunis_war_started;War started;;;;;;;;;;;;;x
+cvbc_tunis_remaining_started;Remaining started;;;;;;;;;;;;;x

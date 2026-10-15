@@ -1,0 +1,355 @@
+country_event = {
+    id = 9901200
+    title = "cvi_mc_union_title"
+    desc = "cvi_mc_union_desc"
+    picture = "cvt_imperial"
+    trigger = {
+        tag = TIE
+        OR = {
+            NOT = {
+                OR = {
+                    primary_culture = north_italian
+                    accepted_culture = north_italian
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = galloitalian
+                    accepted_culture = galloitalian
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = corsican
+                    accepted_culture = corsican
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = south_italian
+                    accepted_culture = south_italian
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = sicilianu
+                    accepted_culture = sicilianu
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = sard
+                    accepted_culture = sard
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = corfiot
+                    accepted_culture = corfiot
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = dalmatian
+                    accepted_culture = dalmatian
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = venetian
+                    accepted_culture = venetian
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = tuscan
+                    accepted_culture = tuscan
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = neapolitan
+                    accepted_culture = neapolitan
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = mediano
+                    accepted_culture = mediano
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = maltese
+                    accepted_culture = maltese
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = friulian
+                    accepted_culture = friulian
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = ladin
+                    accepted_culture = ladin
+                }
+            }
+            NOT = {
+                OR = {
+                    primary_culture = romansh
+                    accepted_culture = romansh
+                }
+            }
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    immediate = {
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = north_italian
+                            accepted_culture = north_italian
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = north_italian
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = galloitalian
+                            accepted_culture = galloitalian
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = galloitalian
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = corsican
+                            accepted_culture = corsican
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = corsican
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = south_italian
+                            accepted_culture = south_italian
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = south_italian
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = sicilianu
+                            accepted_culture = sicilianu
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = sicilianu
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = sard
+                            accepted_culture = sard
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = sard
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = corfiot
+                            accepted_culture = corfiot
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = corfiot
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = dalmatian
+                            accepted_culture = dalmatian
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = dalmatian
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = venetian
+                            accepted_culture = venetian
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = venetian
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = tuscan
+                            accepted_culture = tuscan
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = tuscan
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = neapolitan
+                            accepted_culture = neapolitan
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = neapolitan
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = mediano
+                            accepted_culture = mediano
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = mediano
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = maltese
+                            accepted_culture = maltese
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = maltese
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = friulian
+                            accepted_culture = friulian
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = friulian
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = ladin
+                            accepted_culture = ladin
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = ladin
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            primary_culture = romansh
+                            accepted_culture = romansh
+                        }
+                    }
+                }
+            }
+            owner = {
+                add_accepted_culture = romansh
+            }
+        }
+    }
+    option = {
+        name = "cvi_mc_union_option"
+    }
+}

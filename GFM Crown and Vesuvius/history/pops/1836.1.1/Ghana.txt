@@ -1,0 +1,1470 @@
+#Gold Coast Region (268000)
+#uncolonized in 1836
+#Accra (132000/33000 POPS) #Danish Tradepost in 1836
+1907 = {
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 650
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 325
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 1325
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 350
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 10350
+    }
+
+    aristocrats = {
+        culture = ewe
+        religion = fetishist
+        size = 250
+    }
+
+    clergymen = {
+        culture = ewe
+        religion = fetishist
+        size = 100
+    }
+
+    artisans = {
+        culture = ewe
+        religion = fetishist
+        size = 200
+    }
+
+    soldiers = {
+        culture = ewe
+        religion = fetishist
+        size = 1350
+    }
+
+    farmers = {
+        culture = ewe
+        religion = fetishist
+        size = 19450
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 2000
+    }
+}
+#Cape Coast (48000/12000 POPS) #British Tradepost in 1836
+1908 = {
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 225
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 125
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 600
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 125
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 8925
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 2000
+    }
+}
+#Sekondi (88000/22000 POPS) #Dutch Tradepost in 1836
+1909 = {
+    aristocrats = {
+        culture = dutch
+        religion = reformed
+        size = 50
+    }
+
+    bureaucrats = {
+        culture = dutch
+        religion = reformed
+        size = 20
+    }
+
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 425
+    }
+
+    bureaucrats = {
+        culture = akan
+        religion = fetishist
+        size = 100
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 225
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 1100
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 225
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 16025
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 4000
+    }
+}
+#Asante Region (2404000)
+#under the rule of Ashanti in 1836
+#Kumasi (1108000/277000 POPS)
+1910 = {
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 1250
+    }
+
+    bureaucrats = {
+        culture = akan
+        religion = fetishist
+        size = 170
+    }
+
+    officers = {
+        culture = akan
+        religion = fetishist
+        size = 95
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 715
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 1940
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 3100
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 48775
+    }
+
+    slaves = {
+        culture = ewe
+        religion = fetishist
+        size = 10500
+    }
+}
+3956 = {
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 400
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 200
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 800
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 1100
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 29000
+    }
+
+    farmers = {
+        culture = akan
+        religion = sunni
+        size = 3775
+    }
+
+    slaves = {
+        culture = gur
+        religion = fetishist
+        size = 1500
+    }
+
+    slaves = {
+        culture = ewe
+        religion = fetishist
+        size = 2500
+    }
+}
+3763 = {
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 4250
+    }
+
+    bureaucrats = {
+        culture = akan
+        religion = fetishist
+        size = 250
+    }
+
+    officers = {
+        culture = akan
+        religion = fetishist
+        size = 120
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 1000
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 2000
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 3000
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 47400
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 12000
+    }
+}
+#Kintampo (520000/130000 POPS)
+1911 = {
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 2540
+    }
+
+    bureaucrats = {
+        culture = akan
+        religion = fetishist
+        size = 510
+    }
+	
+    officers = {
+        culture = akan
+        religion = fetishist
+        size = 300
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 1310
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 5250
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 3100
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 40400
+    }
+
+    slaves = {
+        culture = senufo
+        religion = fetishist
+        size = 2549
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 11951
+    }
+}
+3893 = {
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 300
+    }
+
+    bureaucrats = {
+        culture = akan
+        religion = fetishist
+        size = 110
+    }
+	
+    officers = {
+        culture = akan
+        religion = fetishist
+        size = 45
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 200
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 300
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 3100
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 29000
+    }
+
+    farmers = {
+        culture = akan
+        religion = sunni
+        size = 2000
+    }
+
+    slaves = {
+        culture = senufo
+        religion = fetishist
+        size = 1000
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 2000
+    }
+
+    slaves = {
+        culture = gur
+        religion = fetishist
+        size = 2000
+    }
+}
+3889 = {
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 1300
+    }
+
+    bureaucrats = {
+        culture = akan
+        religion = fetishist
+        size = 80
+    }
+	
+    officers = {
+        culture = akan
+        religion = fetishist
+        size = 35
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 200
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 500
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 1100
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 34000
+    }
+
+    farmers = {
+        culture = ewe
+        religion = fetishist
+        size = 4000
+    }
+
+    slaves = {
+        culture = ewe
+        religion = fetishist
+        size = 8000
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 8000
+    }
+}
+3955 = {
+    aristocrats = {
+        culture = ewe
+        religion = fetishist
+        size = 300
+    }
+
+    clergymen = {
+        culture = ewe
+        religion = fetishist
+        size = 200
+    }
+
+    artisans = {
+        culture = ewe
+        religion = fetishist
+        size = 300
+    }
+
+    soldiers = {
+        culture = ewe
+        religion = fetishist
+        size = 100
+    }
+
+    farmers = {
+        culture = ewe
+        religion = fetishist
+        size = 6000
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 1000
+    }
+}
+3888 = {
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 1300
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 200
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 500
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 3100
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 32000
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 8000
+    }
+
+    slaves = {
+        culture = ewe
+        religion = fetishist
+        size = 1000
+    }
+}
+3887 = {
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 1300
+    }
+
+    bureaucrats = {
+        culture = akan
+        religion = fetishist
+        size = 110
+    }
+	
+    officers = {
+        culture = akan
+        religion = fetishist
+        size = 50
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 200
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 500
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 1100
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 42000
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 17000
+    }
+}
+#Wa (564000/141000 POPS)
+1912 = {
+    aristocrats = {
+        culture = gur
+        religion = fetishist
+        size = 350
+    }
+
+    clergymen = {
+        culture = gur
+        religion = fetishist
+        size = 125
+    }
+
+    artisans = {
+        culture = gur
+        religion = fetishist
+        size = 1100
+    }
+
+    soldiers = {
+        culture = gur
+        religion = fetishist
+        size = 100
+    }
+
+    farmers = {
+        culture = gur
+        religion = fetishist
+        size = 2000
+    }
+
+    farmers = {
+        culture = gur
+        religion = sunni
+        size = 2000
+    }
+
+    slaves = {
+        culture = gur
+        religion = fetishist
+        size = 3300
+    }
+
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 500
+    }
+
+    aristocrats = {
+        culture = akan
+        religion = sunni
+        size = 640
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 200
+    }
+
+    clergymen = {
+        culture = akan
+        religion = sunni
+        size = 415
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 1600
+    }
+
+    artisans = {
+        culture = akan
+        religion = sunni
+        size = 375
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 1025
+    }
+
+    soldiers = {
+        culture = akan
+        religion = sunni
+        size = 105
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 14000
+    }
+
+    farmers = {
+        culture = akan
+        religion = sunni
+        size = 4060
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 3060
+    }
+
+    farmers = {
+        culture = bambara
+        religion = sunni
+        size = 2500
+    }
+}
+3891 = {
+    aristocrats = {
+        culture = gur
+        religion = sunni
+        size = 200
+    }
+
+    bureaucrats = {
+        culture = gur
+        religion = sunni
+        size = 15
+    }
+	
+    officers = {
+        culture = gur
+        religion = sunni
+        size = 7
+    }
+
+    bureaucrats = {
+        culture = gur
+        religion = fetishist
+        size = 15
+    }
+	
+    officers = {
+        culture = gur
+        religion = fetishist
+        size = 5
+    }
+
+    clergymen = {
+        culture = gur
+        religion = sunni
+        size = 100
+    }
+
+    artisans = {
+        culture = gur
+        religion = sunni
+        size = 200
+    }
+
+    soldiers = {
+        culture = gur
+        religion = sunni
+        size = 100
+    }
+
+    farmers = {
+        culture = gur
+        religion = fetishist
+        size = 5000
+    }
+
+    farmers = {
+        culture = gur
+        religion = sunni
+        size = 7400
+    }
+
+    slaves = {
+        culture = gur
+        religion = fetishist
+        size = 4000
+    }
+
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 1100
+    }
+
+    aristocrats = {
+        culture = akan
+        religion = sunni
+        size = 1100
+    }
+
+    bureaucrats = {
+        culture = gur
+        religion = fetishist
+        size = 120
+    }
+
+    bureaucrats = {
+        culture = gur
+        religion = sunni
+        size = 60
+    }
+	
+    officers = {
+        culture = gur
+        religion = fetishist
+        size = 50
+    }
+	
+    officers = {
+        culture = gur
+        religion = sunni
+        size = 25
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 600
+    }
+
+    clergymen = {
+        culture = akan
+        religion = sunni
+        size = 500
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 1400
+    }
+
+    artisans = {
+        culture = akan
+        religion = sunni
+        size = 800
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 1100
+    }
+
+    soldiers = {
+        culture = akan
+        religion = sunni
+        size = 1100
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 30000
+    }
+
+    farmers = {
+        culture = akan
+        religion = sunni
+        size = 14000
+    }
+
+    slaves = {
+        culture = ewe
+        religion = fetishist
+        size = 6760
+    }
+}
+3765 = {
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 200
+    }
+
+    bureaucrats = {
+        culture = akan
+        religion = fetishist
+        size = 35
+    }
+	
+    officers = {
+        culture = akan
+        religion = fetishist
+        size = 15
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 100
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 200
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 100
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 7800
+    }
+	
+    aristocrats = {
+        culture = akan
+        religion = sunni
+        size = 100
+    }
+
+    clergymen = {
+        culture = akan
+        religion = sunni
+        size = 50
+    }
+
+    artisans = {
+        culture = akan
+        religion = sunni
+        size = 100
+    }
+
+    soldiers = {
+        culture = akan
+        religion = sunni
+        size = 50
+    }
+
+    farmers = {
+        culture = akan
+        religion = sunni
+        size = 300
+    }
+
+    aristocrats = {
+        culture = gur
+        religion = fetishist
+        size = 500
+    }
+
+    bureaucrats = {
+        culture = gur
+        religion = fetishist
+        size = 80
+    }
+	
+    officers = {
+        culture = gur
+        religion = fetishist
+        size = 30
+    }
+
+    clergymen = {
+        culture = gur
+        religion = fetishist
+        size = 300
+    }
+
+    artisans = {
+        culture = gur
+        religion = fetishist
+        size = 600
+    }
+
+    soldiers = {
+        culture = gur
+        religion = fetishist
+        size = 1000
+    }
+
+    farmers = {
+        culture = gur
+        religion = fetishist
+        size = 28000
+    }
+
+    aristocrats = {
+        culture = gur
+        religion = sunni
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = gur
+        religion = sunni
+        size = 5
+    }
+	
+    officers = {
+        culture = gur
+        religion = sunni
+        size = 5
+    }
+
+    clergymen = {
+        culture = gur
+        religion = sunni
+        size = 50
+    }
+
+    artisans = {
+        culture = gur
+        religion = sunni
+        size = 100
+    }
+
+    soldiers = {
+        culture = gur
+        religion = sunni
+        size = 50
+    }
+
+    farmers = {
+        culture = gur
+        religion = sunni
+        size = 1300
+    }
+
+    slaves = {
+        culture = gur
+        religion = fetishist
+        size = 10000
+    }
+}
+#Tamale (212000/53000 POPS)
+1913 = {
+    aristocrats = {
+        culture = gur
+        religion = sunni
+        size = 400
+    }
+	
+    aristocrats = {
+        culture = gur
+        religion = fetishist
+        size = 500
+    }
+
+    bureaucrats = {
+        culture = gur
+        religion = sunni
+        size = 35
+    }
+
+    bureaucrats = {
+        culture = gur
+        religion = fetishist
+        size = 80
+    }
+	
+    officers = {
+        culture = gur
+        religion = sunni
+        size = 15
+    }
+	
+    officers = {
+        culture = gur
+        religion = fetishist
+        size = 35
+    }
+	
+    clergymen = {
+        culture = gur
+        religion = sunni
+        size = 300
+    }
+
+    clergymen = {
+        culture = gur
+        religion = fetishist
+        size = 225
+    }
+
+    artisans = {
+        culture = gur
+        religion = sunni
+        size = 1300
+    }
+
+    artisans = {
+        culture = gur
+        religion = fetishist
+        size = 1065
+    }
+
+    soldiers = {
+        culture = gur
+        religion = sunni
+        size = 1110
+    }
+
+    soldiers = {
+        culture = gur
+        religion = fetishist
+        size = 1110
+    }
+
+    farmers = {
+        culture = gur
+        religion = sunni
+        size = 16000
+    }
+
+    farmers = {
+        culture = gur
+        religion = fetishist
+        size = 29000
+    }
+
+    slaves = {
+        culture = gur
+        religion = fetishist
+        size = 4605
+    }
+
+    farmers = {
+        culture = akan
+        religion = sunni
+        size = 1000
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 4000
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 3500
+    }
+}
+#Togo Region (548000) #see Togo.txt for balance of region
+#uncolonized in 1836
+#Ho (420000/105000 POPS)
+1915 = {
+    aristocrats = {
+        culture = ewe
+        religion = fetishist
+        size = 790
+    }
+
+    clergymen = {
+        culture = ewe
+        religion = fetishist
+        size = 440
+    }
+
+    artisans = {
+        culture = ewe
+        religion = fetishist
+        size = 750
+    }
+
+    soldiers = {
+        culture = ewe
+        religion = fetishist
+        size = 440
+    }
+
+    farmers = {
+        culture = ewe
+        religion = fetishist
+        size = 12600
+    }
+
+    slaves = {
+        culture = ewe
+        religion = fetishist
+        size = 2000
+    }
+
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 200
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 100
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 200
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 1100
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 19000
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 5080
+    }
+
+    slaves = {
+        culture = gur
+        religion = fetishist
+        size = 2500
+    }
+}
+3845 = {
+    aristocrats = {
+        culture = akan
+        religion = fetishist
+        size = 300
+    }
+
+    aristocrats = {
+        culture = akan
+        religion = sunni
+        size = 300
+    }
+
+    bureaucrats = {
+        culture = akan
+        religion = sunni
+        size = 30
+    }
+
+    bureaucrats = {
+        culture = akan
+        religion = fetishist
+        size = 125
+    }
+	
+    officers = {
+        culture = akan
+        religion = sunni
+        size = 15
+    }
+	
+    officers = {
+        culture = akan
+        religion = fetishist
+        size = 60
+    }
+
+    clergymen = {
+        culture = akan
+        religion = fetishist
+        size = 170
+    }
+
+    clergymen = {
+        culture = akan
+        religion = sunni
+        size = 130
+    }
+
+    artisans = {
+        culture = akan
+        religion = fetishist
+        size = 340
+    }
+
+    artisans = {
+        culture = akan
+        religion = sunni
+        size = 320
+    }
+
+    soldiers = {
+        culture = akan
+        religion = fetishist
+        size = 2190
+    }
+
+    soldiers = {
+        culture = akan
+        religion = sunni
+        size = 250
+    }
+
+    farmers = {
+        culture = akan
+        religion = fetishist
+        size = 11840
+    }
+
+    farmers = {
+        culture = akan
+        religion = sunni
+        size = 1370
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 3500
+    }
+
+    farmers = {
+        culture = gur
+        religion = fetishist
+        size = 1860
+    }
+
+    farmers = {
+        culture = gur
+        religion = sunni
+        size = 410
+    }
+
+    slaves = {
+        culture = gur
+        religion = fetishist
+        size = 1140
+    }
+}
+#under the rule of Ashanti in 1836
+#Yendi (128000/32000 POPS)
+1916 = {
+    aristocrats = {
+        culture = gur
+        religion = sunni
+        size = 240
+    }
+
+    aristocrats = {
+        culture = gur
+        religion = fetishist
+        size = 200
+    }
+
+    bureaucrats = {
+        culture = gur
+        religion = sunni
+        size = 15
+    }
+
+    bureaucrats = {
+        culture = gur
+        religion = fetishist
+        size = 45
+    }
+	
+    officers = {
+        culture = gur
+        religion = sunni
+        size = 10
+    }
+	
+    officers = {
+        culture = gur
+        religion = fetishist
+        size = 20
+    }
+
+    clergymen = {
+        culture = gur
+        religion = fetishist
+        size = 100
+    }
+
+    clergymen = {
+        culture = gur
+        religion = sunni
+        size = 165
+    }
+
+    artisans = {
+        culture = gur
+        religion = fetishist
+        size = 100
+    }
+
+    artisans = {
+        culture = gur
+        religion = sunni
+        size = 215
+    }
+
+    soldiers = {
+        culture = gur
+        religion = fetishist
+        size = 1140
+    }
+
+    soldiers = {
+        culture = gur
+        religion = sunni
+        size = 140
+    }
+
+    farmers = {
+        culture = gur
+        religion = sunni
+        size = 4190
+    }
+
+    farmers = {
+        culture = gur
+        religion = fetishist
+        size = 20900
+    }
+
+    slaves = {
+        culture = gur
+        religion = fetishist
+        size = 2100
+    }
+
+    slaves = {
+        culture = akan
+        religion = fetishist
+        size = 1750
+    }
+
+    slaves = {
+        culture = ewe
+        religion = fetishist
+        size = 800
+    }
+
+}

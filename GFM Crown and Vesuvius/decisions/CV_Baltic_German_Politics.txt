@@ -1,0 +1,174 @@
+political_decisions = {
+    cvbg_define_rights = {
+        picture = cvb_assembly
+        potential = {
+            has_country_flag = cvb_pack
+            OR = {
+                tag = EST
+                tag = UBD
+                tag = LAT
+            }
+            primary_culture = baltic_german
+            NOT = {
+                has_country_flag = cvb_native
+            }
+            OR = {
+                has_country_flag = cvb_german
+                government = cvb_ducal_absolute
+                government = cvb_ducal_semi
+                government = cvb_ducal_constitutional
+                government = cvb_united_duchy
+                government = cvb_united_duchy_absolute
+                government = cvb_united_duchy_constitutional
+                government = cvb_livonian_kingdom
+                government = cvb_livonian_kingdom_absolute
+                government = cvb_livonian_kingdom_constitutional
+            }
+            ai = no
+            NOT = {
+                has_country_flag = cvbg_rights_decided
+            }
+            NOT = {
+                has_country_flag = cvbg_rights_pending
+            }
+        }
+        allow = {
+            war = no
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        primary_culture = baltic_german
+                        NOT = {
+                            has_country_flag = cvb_native
+                        }
+                        OR = {
+                            has_country_flag = cvb_german
+                            government = cvb_ducal_absolute
+                            government = cvb_ducal_semi
+                            government = cvb_ducal_constitutional
+                            government = cvb_united_duchy
+                            government = cvb_united_duchy_absolute
+                            government = cvb_united_duchy_constitutional
+                            government = cvb_livonian_kingdom
+                            government = cvb_livonian_kingdom_absolute
+                            government = cvb_livonian_kingdom_constitutional
+                        }
+                        ai = no
+                        NOT = {
+                            has_country_flag = cvbg_rights_decided
+                        }
+                        NOT = {
+                            has_country_flag = cvbg_rights_pending
+                        }
+                        war = no
+                    }
+                }
+                owner = {
+                    set_country_flag = cvbg_rights_pending
+                    country_event = {
+                        id = 9880801
+                        days = 1
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cvbg_restore_charter = {
+        picture = cvb_assembly
+        potential = {
+            has_country_flag = cvb_pack
+            OR = {
+                tag = EST
+                tag = UBD
+                tag = LAT
+            }
+            primary_culture = baltic_german
+            NOT = {
+                has_country_flag = cvb_native
+            }
+            OR = {
+                has_country_flag = cvb_german
+                government = cvb_ducal_absolute
+                government = cvb_ducal_semi
+                government = cvb_ducal_constitutional
+                government = cvb_united_duchy
+                government = cvb_united_duchy_absolute
+                government = cvb_united_duchy_constitutional
+                government = cvb_livonian_kingdom
+                government = cvb_livonian_kingdom_absolute
+                government = cvb_livonian_kingdom_constitutional
+            }
+            ai = no
+            has_country_flag = cvbg_restricted_rights
+            NOT = {
+                has_country_flag = cvbg_charter_restored
+            }
+            NOT = {
+                has_country_flag = cvbg_charter_pending
+            }
+        }
+        allow = {
+            war = no
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        primary_culture = baltic_german
+                        NOT = {
+                            has_country_flag = cvb_native
+                        }
+                        OR = {
+                            has_country_flag = cvb_german
+                            government = cvb_ducal_absolute
+                            government = cvb_ducal_semi
+                            government = cvb_ducal_constitutional
+                            government = cvb_united_duchy
+                            government = cvb_united_duchy_absolute
+                            government = cvb_united_duchy_constitutional
+                            government = cvb_livonian_kingdom
+                            government = cvb_livonian_kingdom_absolute
+                            government = cvb_livonian_kingdom_constitutional
+                        }
+                        ai = no
+                        has_country_flag = cvbg_restricted_rights
+                        NOT = {
+                            has_country_flag = cvbg_charter_restored
+                        }
+                        NOT = {
+                            has_country_flag = cvbg_charter_pending
+                        }
+                        war = no
+                    }
+                }
+                owner = {
+                    set_country_flag = cvbg_charter_pending
+                    country_event = {
+                        id = 9880802
+                        days = 1
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

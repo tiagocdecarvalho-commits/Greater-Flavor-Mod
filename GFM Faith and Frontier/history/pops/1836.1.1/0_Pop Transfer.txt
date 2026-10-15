@@ -1,0 +1,3495 @@
+#THE GREAT TREK
+3098 = {
+    aristocrats = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    bureaucrats = {
+        culture = boer
+        religion = reformed
+        size = 300
+    }
+
+    officers = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    clergymen = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    artisans = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    soldiers = {
+        culture = boer
+        religion = reformed
+        size = 1800
+    }
+
+    farmers = {
+        culture = boer
+        religion = reformed
+        size = 2850
+    }
+}
+3099 = {
+    aristocrats = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    clergymen = {
+        culture = boer
+        religion = reformed
+        size = 300
+    }
+
+    artisans = {
+        culture = boer
+        religion = reformed
+        size = 225
+    }
+
+    soldiers = {
+        culture = boer
+        religion = reformed
+        size = 638
+    }
+
+    farmers = {
+        culture = boer
+        religion = sunni
+        size = 188
+    }
+}
+2919 = {
+    aristocrats = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    officers = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    bureaucrats = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    clergymen = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    artisans = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    soldiers = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    farmers = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+}
+2918 = {
+    clergymen = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    artisans = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    soldiers = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    farmers = {
+        culture = boer
+        religion = reformed
+        size = 375
+    }
+}
+2917 = {
+    clergymen = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    artisans = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    soldiers = {
+        culture = boer
+        religion = reformed
+        size = 450
+    }
+
+    farmers = {
+        culture = boer
+        religion = reformed
+        size = 630
+    }
+}
+2916 = {
+    artisans = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    clergymen = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    soldiers = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    farmers = {
+        culture = boer
+        religion = reformed
+        size = 300
+    }
+}
+2915 = {
+    artisans = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    soldiers = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    clergymen = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    farmers = {
+        culture = boer
+        religion = reformed
+        size = 1500
+    }
+}
+2914 = {
+    artisans = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    clergymen = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    soldiers = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    farmers = {
+        culture = boer
+        religion = reformed
+        size = 450
+    }
+}
+2913 = {
+    aristocrats = {
+        culture = boer
+        religion = reformed
+        size = 30
+    }
+
+    clergymen = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    artisans = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    soldiers = {
+        culture = boer
+        religion = reformed
+        size = 788
+    }
+
+    farmers = {
+        culture = boer
+        religion = reformed
+        size = 975
+    }
+}
+2912 = {
+    artisans = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    clergymen = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    soldiers = {
+        culture = boer
+        religion = reformed
+        size = 600
+    }
+
+    farmers = {
+        culture = boer
+        religion = reformed
+        size = 1800
+    }
+}
+2911 = {
+    farmers = {
+        culture = boer
+        religion = reformed
+        size = 3600
+    }
+
+    soldiers = {
+        culture = boer
+        religion = reformed
+        size = 1800
+    }
+
+    aristocrats = {
+        culture = sotho
+        religion = animist
+        size = 650
+    }
+
+    clergymen = {
+        culture = sotho
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+        culture = sotho
+        religion = animist
+        size = 1350
+    }
+}
+2910 = {
+    artisans = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    clergymen = {
+        culture = boer
+        religion = reformed
+        size = 150
+    }
+
+    soldiers = {
+        culture = boer
+        religion = reformed
+        size = 1500
+    }
+
+    farmers = {
+        culture = boer
+        religion = reformed
+        size = 1200
+    }
+}
+#Utrecht Republic 3899 add (1852)
+3215 = {
+    aristocrats = {
+        culture = boer
+        religion = reformed
+        size = 75
+    }
+	
+    clergymen = {
+        culture = boer
+        religion = reformed
+        size = 45
+    }
+
+    artisans = {
+        culture = boer
+        religion = reformed
+        size = 75
+    }
+
+    soldiers = {
+        culture = boer
+        religion = reformed
+        size = 60
+    }
+
+    farmers = {
+        culture = boer
+        religion = reformed
+        size = 135
+    }
+}
+#Klein Vrystaat 3648 add (1875)
+3100 = {
+    aristocrats = {
+        culture = boer
+        religion = reformed
+        size = 90
+    }
+	
+    clergymen = {
+        culture = boer
+        religion = reformed
+        size = 45
+    }
+
+    artisans = {
+        culture = boer
+        religion = reformed
+        size = 90
+    }
+
+    soldiers = {
+        culture = boer
+        religion = reformed
+        size = 75
+    }
+
+    farmers = {
+        culture = boer
+        religion = reformed
+        size = 285
+    }
+}
+#ASDFASDFASDFASDFASDFASDFASDFASDFASDF#
+#afro_french 1700
+3227 = {
+    slaves = {
+        culture = afro_french
+        religion = catholic
+        size = 2500
+    }
+}
+#afro_french 1704
+3228 = {
+    slaves = {
+        culture = afro_french
+        religion = catholic
+        size = 2500
+    }
+}
+#afro_french 1709
+3229 = {
+    slaves = {
+        culture = afro_french
+        religion = catholic
+        size = 2500
+    }
+}
+#Bahamas 2219 replace
+3118 = {
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 100
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 50
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 1205
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 2105
+    }
+
+    aristocrats = {
+        culture = british
+        religion = anglican
+        size = 15
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = anglican
+        size = 5
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 15
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 150
+    }
+
+    soldiers = {
+        culture = british
+        religion = anglican
+        size = 25
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 1285
+    }
+}
+#Turks n Caicos 2220 replace
+3036 = {
+    aristocrats = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 75
+    }
+	
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 100
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 50
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 200
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 300
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 50
+    }
+}
+#Belize 2190 replace
+3629 = {
+	aristocrats = {
+        culture = central_american
+        religion = catholic
+        size = 40
+    }
+
+    officers = {
+        culture = central_american
+        religion = catholic
+        size = 2
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 25
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = catholic
+        size = 15
+    }
+
+    artisans = {
+        culture = kreol
+        religion = protestant
+        size = 100
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = catholic
+        size = 10
+    }
+
+    farmers = {
+        culture = kreol
+        religion = protestant
+        size = 400
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 550
+    }
+
+    farmers = {
+        culture = central_american
+        religion = catholic
+        size = 758
+    }
+
+    farmers = {
+        culture = mayan
+        religion = catholic
+        size = 250
+    }
+}
+#Bermuda 203 replace
+2937 = {
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 15
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 170
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 25
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 1040
+    }
+
+    aristocrats = {
+        culture = british
+        religion = anglican
+        size = 25
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = anglican
+        size = 5
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 25
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 150
+    }
+
+    soldiers = {
+        culture = british
+        religion = anglican
+        size = 25
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 780
+    }
+}
+#Montreal 58 add
+3550 = {
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 80
+    }
+}
+#Quebec City 65 add
+2939 = {
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 100
+    }
+}
+#Riviere 67 add
+2941 = {
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 20
+    }
+}
+#Fredericton 68 add
+2940 = {
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 658
+    }
+}
+#Bathurst 69 add
+2938 = {
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 195
+    }
+}
+#PEI 70 add
+2936 = {
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 195
+    }
+}
+#Halifax 71 add
+3239 = {
+    labourers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 289
+    }
+
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 461
+    }
+}
+#Truro 72 add
+3543 = {
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 246
+    }
+}
+#CBI 73 add
+3225 = {
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 111
+    }
+}
+#Saint John's 74 add
+3542 = {
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 100
+    }
+}
+#Edmundston 3280 add
+3544 = {
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 148
+    }
+}
+#enslave Romanis 834, reduce farmers 0.95675406
+#misris 834, turks 837
+#Corint 840 slaves
+#Patrai 842 slaves
+#830 afro_caribbean artisans to slaves
+#Georgetown 2239 replace afro_caribbean
+2778 = {
+    slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 7000
+    }
+
+	farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 2900
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 300
+    }
+}
+#Essequibo 2243 replace
+2713 = {
+    aristocrats = {
+        culture = british
+        religion = anglican
+        size = 50
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 25
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 100
+    }
+
+    soldiers = {
+        culture = british
+        religion = anglican
+        size = 25
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 50
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 75
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 300
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 75
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 1000
+    }
+
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 7000
+    }
+    artisans = {
+        culture = avadhi
+        religion = hindu
+        size = 2000
+    }
+    artisans = {
+        culture = panjabi
+        religion = sunni
+        size = 2000
+    }
+    farmers = {
+        culture = kreol
+        religion = protestant
+        size = 550
+    }
+}
+#Bay Islands 3393 replace
+2714 = {
+	aristocrats = {
+        culture = british
+        religion = anglican
+        size = 22
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = anglican
+        size = 1
+    }
+
+    officers = {
+        culture = british
+        religion = anglican
+        size = 1
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 7
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 25
+    }
+
+    soldiers = {
+        culture = british
+        religion = anglican
+        size = 75
+    }
+
+    farmers = {
+        culture = central_american
+        religion = catholic
+        size = 185
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = central_american
+        religion = catholic
+        size = 130
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 125
+    }
+
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 510
+    }
+}
+#Iraqi craftsmen 923
+2715 = {
+	craftsmen = {
+        culture = mashriqi
+        religion = sunni
+        size = 600
+    }
+}
+#Jamaica 2217 replace
+3622 = {
+    aristocrats = {
+        culture = british
+        religion = anglican
+        size = 100
+    }
+
+    aristocrats = { #So the state has 2% aristocrats
+        culture = british
+        religion = anglican
+        size = 1890
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = anglican
+        size = 85
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 75
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 1250
+    }
+
+    soldiers = {
+        culture = british
+        religion = anglican
+        size = 50
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 2190
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 625
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 8250
+    }
+
+    artisans = {
+        culture = kreol
+        religion = protestant
+        size = 2000
+    }
+
+    soldiers = {
+        culture = kreol
+        religion = protestant
+        size = 1100
+    }
+
+    farmers = {
+        culture = kreol
+        religion = protestant
+        size = 10000
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 67375
+    }
+}
+#Cayman 2218 replace
+3640 = {
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 5
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 35
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 210
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 5
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 15
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 50
+    }
+}
+#Montserrat 2225 replace
+3232 = {
+    aristocrats = {
+        culture = british
+        religion = anglican
+        size = 10
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 5
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 30
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 330
+    }
+
+	farmers = {
+        culture = irish
+        religion = catholic
+        size = 330
+    }
+
+	artisans = {
+        culture = catalan
+        religion = catholic
+        size = 60
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 15
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 40
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 10
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 885
+    }
+}
+#Tortola 2226 replace
+3489 = {
+    aristocrats = {
+        culture = british
+        religion = anglican
+        size = 10
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 10
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 40
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 40
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 15
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 35
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 10
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 225
+    }
+
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 815
+    }
+}
+#Saint Kitts 2227 replace
+3488 = {
+    aristocrats = {
+        culture = british
+        religion = anglican
+        size = 75
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 15
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 225
+    }
+
+    soldiers = {
+        culture = british
+        religion = anglican
+        size = 50
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 260
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 75
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 150
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 75
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 292
+    }
+
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 5608
+    }
+}
+#Trinidad 2237 replace
+3224 = {
+    aristocrats = {
+        culture = british
+        religion = anglican
+        size = 25
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = anglican
+        size = 15
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 25
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 500
+    }
+
+    soldiers = {
+        culture = british
+        religion = anglican
+        size = 25
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 410
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 75
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 750
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 100
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 5929
+    }
+
+	farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 3146
+    }
+}
+#Tobago 2238 replace
+3236 = {
+    aristocrats = {
+        culture = british
+        religion = anglican
+        size = 10
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 5
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 25
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 60
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 183
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 100
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 3317
+    }
+}
+#Barbados 2229 replace
+3102 = {
+    aristocrats = {
+        culture = british
+        religion = anglican
+        size = 1150
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = anglican
+        size = 100
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 50
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 1750
+    }
+
+    soldiers = {
+        culture = british
+        religion = anglican
+        size = 50
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 1100
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 75
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 1985
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 1015
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 18925
+    }
+}
+#Saint Lucia 2231 replace
+3551 = {
+    aristocrats = {
+        culture = british
+        religion = anglican
+        size = 10
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 10
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 130
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 100
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 100
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 50
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 782
+    }
+
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 3268
+    }
+}
+#Dominica 2232 replace
+3103 = {
+    aristocrats = {
+        culture = british
+        religion = anglican
+        size = 10
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 10
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 130
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 100
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 150
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 50
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 584
+    }
+
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 3668
+    }
+}
+#Grenada 2233 replace
+3628 = {
+    aristocrats = {
+        culture = british
+        religion = anglican
+        size = 25
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 20
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 250
+    }
+
+    soldiers = {
+        culture = british
+        religion = anglican
+        size = 5
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 200
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 150
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 75
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 2402
+	}
+
+	slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4323
+    }
+}
+#Saint Vincent 2409 replace
+3104 = {
+    aristocrats = {
+        culture = british
+        religion = anglican
+        size = 10
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 10
+    }
+
+    artisans = {
+        culture = british
+        religion = anglican
+        size = 130
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 100
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 200
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 50
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4323
+    }
+
+	farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 377
+    }
+}
+#remove all militancy Turkey and Portugal
+#Mauritius 2125 slaves
+#soldiers 712 30
+#soldiers 706 3
+#soldiers 707 3
+#soldiers 708 1.2
+#soldiers 709 11
+#soldiers 710 11
+#soldiers 711 72
+#remove boers 2113
+#remove boers 2112
+#remove boers 2111
+#remove boers 2110
+#remove boers 2109
+#remove boers 2108
+#remove boers 2107
+#remove boers 2106
+#remove boers 2105
+#remove boers 2102
+#Tasmania
+3548 = {
+    bureaucrats = {
+        culture = british
+        religion = anglican
+        size = 25
+    }
+
+    clergymen = {
+        culture = british
+        religion = anglican
+        size = 100
+    }
+
+    soldiers = {
+        culture = british
+        religion = anglican
+        size = 100
+    }
+
+    farmers = {
+        culture = british
+        religion = anglican
+        size = 8620
+    }
+
+    farmers = {
+        culture = aborigine
+        religion = animist
+        size = 550
+    }
+
+    clergymen = {
+        culture = australian
+        religion = protestant
+        size = 10
+    }
+
+    artisans = {
+        culture = australian
+        religion = protestant
+        size = 20
+    }
+
+    soldiers = {
+        culture = australian
+        religion = protestant
+        size = 10
+    }
+
+    farmers = {
+        culture = australian
+        religion = protestant
+        size = 60
+    }
+}
+#Champa 3925 replace
+2822 = {
+    aristocrats = {
+        culture = vietnamese
+        religion = mahayana
+        size = 400
+    }
+
+    clergymen = {
+        culture = vietnamese
+        religion = mahayana
+        size = 200
+    }
+
+    artisans = {
+        culture = vietnamese
+        religion = mahayana
+        size = 450
+    }
+
+    soldiers = {
+        culture = vietnamese
+        religion = mahayana
+        size = 150
+    }
+
+    farmers = {
+        culture = vietnamese
+        religion = mahayana
+        size = 16800
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = sunni
+        size = 1500
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = sunni
+        size = 675
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = sunni
+        size = 3075
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = sunni
+        size = 3750
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = sunni
+        size = 66420
+    }
+}
+#dungan 1
+3230 = {
+    farmers = {
+        culture = hanhui
+        religion = sunni
+        size = 250
+    }
+}
+#dungan 2
+3578 = {
+    farmers = {
+        culture = hanhui
+        religion = sunni
+        size = 283
+    }
+}
+#dungan 3
+2716 = {
+    farmers = {
+        culture = hanhui
+        religion = sunni
+        size = 890
+    }
+}
+#serfs Mosbach 3481
+2723 = {
+    aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 336
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 252
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 1261
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 252
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 5045
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = protestant
+        size = 670
+    }
+
+    artisans = {
+        culture = south_german
+        religion = protestant
+        size = 4205
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = protestant
+        size = 1000
+    }
+
+    farmers = {
+        culture = south_german
+        religion = protestant
+        size = 15000
+    }
+
+    serfs = {
+        culture = south_german
+        religion = protestant
+        size = 1680
+    }
+
+    ######Jews
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 25
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 168
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 200
+    }
+    ########
+}
+#serfs Mannheim 569
+2723 = {
+    aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 200
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 150
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 750
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 150
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 10530
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = protestant
+        size = 400
+    }
+
+    artisans = {
+        culture = south_german
+        religion = protestant
+        size = 2500
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = protestant
+        size = 500
+    }
+
+    farmers = {
+        culture = south_german
+        religion = protestant
+        size = 30000
+    }
+
+    serfs = {
+        culture = south_german
+        religion = protestant
+        size = 3300
+    }
+	
+	craftsmen = {
+        culture = south_german
+        religion = protestant
+        size = 2000
+    }
+
+	farmers = {
+        culture = gypsy
+        religion = protestant
+        size = 600
+    }
+
+    ######Jews
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+    ########
+}
+#serfs Karlsruhe 586
+2725 = {
+    aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 1035
+    }
+
+    bureaucrats = {
+        culture = south_german
+        religion = catholic
+        size = 455
+    }
+
+    officers = {
+        culture = south_german
+        religion = catholic
+        size = 225
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 970
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 4955
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 1005
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 77300
+    }
+
+    farmers = {
+        culture = occitan
+        religion = catholic
+        size = 700
+    }
+
+    serfs = {
+        culture = south_german
+        religion = catholic
+        size = 11425
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = protestant
+        size = 65
+    }
+
+    artisans = {
+        culture = south_german
+        religion = protestant
+        size = 160
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = protestant
+        size = 65
+    }
+
+    farmers = {
+        culture = south_german
+        religion = protestant
+        size = 2732
+    }
+
+    serfs = {
+        culture = south_german
+        religion = protestant
+        size = 368
+    }
+
+	farmers = {
+        culture = gypsy
+        religion = protestant
+        size = 810
+    }
+
+    ######Jews
+    aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 65
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 65
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 65
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 130
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 195
+    }
+    ########
+}
+#serfs Freiburg 587
+2726 = {
+    aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 825
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 790
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 3920
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 1375
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 58735
+    }
+
+    serfs = {
+        culture = south_german
+        religion = catholic
+        size = 6370
+    }
+
+	craftsmen = {
+        culture = south_german
+        religion = catholic
+        size = 5505
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = protestant
+        size = 105
+    }
+
+    artisans = {
+        culture = south_german
+        religion = protestant
+        size = 275
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = protestant
+        size = 35
+    }
+
+    farmers = {
+        culture = south_german
+        religion = protestant
+        size = 4590
+    }
+
+    serfs = {
+        culture = south_german
+        religion = protestant
+        size = 500
+    }
+
+	farmers = {
+        culture = gypsy
+        religion = catholic
+        size = 925
+    }
+}
+#serfs Konstanz 588
+2727 = {
+    aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 350
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 375
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 1850
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 400
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 35385
+    }
+
+    serfs = {
+        culture = south_german
+        religion = catholic
+        size = 2100
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = protestant
+        size = 75
+    }
+
+    artisans = {
+        culture = south_german
+        religion = protestant
+        size = 200
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = protestant
+        size = 25
+    }
+
+    farmers = {
+        culture = south_german
+        religion = protestant
+        size = 3515
+    }
+
+    serfs = {
+        culture = south_german
+        religion = protestant
+        size = 185
+    }
+
+	farmers = {
+        culture = gypsy
+        religion = catholic
+        size = 350
+    }
+}
+#serfs Emden 543
+2868 = {
+    aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 30
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 70
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 400
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 50
+    }
+
+    farmers = {
+        culture = frisian
+        religion = catholic
+        size = 3277
+    }
+
+    serfs = {
+        culture = frisian
+        religion = catholic
+        size = 173
+    }
+
+    aristocrats = {
+        culture = north_german
+        religion = catholic
+        size = 150
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 175
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 1600
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 150
+    }
+
+    farmers = {
+        culture = frisian
+        religion = protestant
+        size = 13272
+    }
+
+    serfs = {
+        culture = frisian
+        religion = protestant
+        size = 747
+    }
+}
+#serfs Nordhorn 1743
+2734 = {
+    officers = {
+        culture = north_german
+        religion = protestant
+        size = 25
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 75
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 400
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 88
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 8150
+    }
+
+    serfs = {
+        culture = north_german
+        religion = protestant
+        size = 925
+    }
+
+    serfs = {
+        culture = north_german
+        religion = catholic
+        size = 800
+    }
+
+    farmers = {
+        culture = north_german
+        religion = catholic
+        size = 5000
+    }
+
+    clergymen = {
+        culture = dutch
+        religion = reformed
+        size = 15
+    }
+
+    farmers = {
+        culture = dutch
+        religion = reformed
+        size = 1483
+    }
+
+    serfs = {
+        culture = dutch
+        religion = reformed
+        size = 202
+    }
+}
+#serfs Lingen 542
+2722 = {
+    aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 150
+    }
+
+    bureaucrats = {
+        culture = north_german
+        religion = protestant
+        size = 75
+    }
+
+    officers = {
+        culture = north_german
+        religion = protestant
+        size = 25
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 75
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 400
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 88
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 7268
+    }
+
+    serfs = {
+        culture = north_german
+        religion = protestant
+        size = 807
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 65
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 150
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 25
+    }
+
+    farmers = {
+        culture = north_german
+        religion = catholic
+        size = 2034
+    }
+
+    serfs = {
+        culture = north_german
+        religion = catholic
+        size = 226
+    }
+}
+#serfs Osnabruck 538
+2721 = {
+    aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 250
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 250
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 2250
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 300
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 24800
+    }
+
+    serfs = {
+        culture = north_german
+        religion = protestant
+        size = 2150
+    }
+
+    aristocrats = {
+        culture = north_german
+        religion = catholic
+        size = 200
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 250
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 1750
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 250
+    }
+
+    farmers = {
+        culture = north_german
+        religion = catholic
+        size = 20745
+    }
+
+    serfs = {
+        culture = north_german
+        religion = catholic
+        size = 1805
+    }
+
+    ######Jews
+    aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 60
+    }
+
+    serfs = {
+        culture = ashkenazi
+        religion = jewish
+        size = 40
+    }
+    ########
+}
+#serfs Nienburg 535
+2720 = {
+    aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 550
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 625
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 3250
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 2000
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 51313
+    }
+
+    serfs = {
+        culture = north_german
+        religion = protestant
+        size = 6257
+    }
+
+    ######Jews
+    serfs = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 400
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 400
+    }
+    ########
+}
+#serfs Stade 531
+2871 = {
+    aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 550
+    }
+
+    bureaucrats = {
+        culture = north_german
+        religion = protestant
+        size = 50
+    }
+
+    officers = {
+        culture = north_german
+        religion = protestant
+        size = 100
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 500
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 2750
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 2000
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 49720
+    }
+
+    serfs = {
+        culture = north_german
+        religion = protestant
+        size = 5085
+    }
+
+	farmers = {
+        culture = gypsy
+        religion = protestant
+        size = 250
+    }
+}
+#serfs Lunenburg 532
+2881 = {
+    aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 450
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 4500
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 2250
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 1000
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 61100
+    }
+
+    serfs = {
+        culture = north_german
+        religion = protestant
+        size = 8800
+    }
+}
+#serfs Hannover 534
+2732 = {
+    aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 450
+    }
+
+    bureaucrats = {
+        culture = north_german
+        religion = protestant
+        size = 305
+    }
+
+    officers = {
+        culture = north_german
+        religion = protestant
+        size = 180
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 485
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 3175
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 3000
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 50890
+    }
+
+    serfs = {
+        culture = north_german
+        religion = protestant
+        size = 2120
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 45
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 120
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 30
+    }
+
+    farmers = {
+        culture = north_german
+        religion = catholic
+        size = 2175
+    }
+
+	farmers = {
+        culture = gypsy
+        religion = catholic
+        size = 290
+    }
+
+    ######Jews
+    aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 235
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 500
+    }
+    ########
+}
+#serfs Gottingen 537
+2877 = {
+	aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 400
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 425
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 2250
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 1000
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 39698
+    }
+
+    serfs = {
+        culture = north_german
+        religion = protestant
+        size = 1227
+    }
+}
+2768 = {
+    aristocrats = {
+        culture = turkish
+        religion = sunni
+        size = 575
+    }
+
+    bureaucrats = {
+        culture = turkish
+        religion = sunni
+        size = 425
+    }
+
+    officers = {
+        culture = turkish
+        religion = sunni
+        size = 100
+    }
+
+    clergymen = {
+        culture = turkish
+        religion = sunni
+        size = 550
+    }
+
+    artisans = {
+        culture = turkish
+        religion = sunni
+        size = 7000
+    }
+
+    soldiers = {
+        culture = turkish
+        religion = sunni
+        size = 500
+    }
+
+    farmers = {
+        culture = turkish
+        religion = sunni
+        size = 24350
+    }
+
+    aristocrats = {
+        culture = greek
+        religion = orthodox
+        size = 120
+    }
+
+    officers = {
+        culture = greek
+        religion = orthodox
+        size = 120
+    }
+
+    soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = greek
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = greek
+        religion = orthodox
+        size = 15000
+    }
+
+    artisans = {
+        culture = greek
+        religion = orthodox
+        size = 400
+    }
+
+    farmers = {
+        culture = greek
+        religion = orthodox
+        size = 21750
+    }
+
+    aristocrats = {
+        culture = armenian
+        religion = miaphysite
+        size = 120
+    }
+
+    officers = {
+        culture = armenian
+        religion = miaphysite
+        size = 120
+    }
+
+    soldiers = {
+        culture = armenian
+        religion = miaphysite
+        size = 150
+    }
+
+    clergymen = {
+        culture = armenian
+        religion = miaphysite
+        size = 120
+    }
+
+    artisans = {
+        culture = armenian
+        religion = miaphysite
+        size = 6400
+    }
+
+    farmers = {
+        culture = armenian
+        religion = miaphysite
+        size = 580
+    }
+
+    artisans = {
+        culture = sephardic
+        religion = jewish
+        size = 6000
+    }
+}
+2769 = {
+    aristocrats = {
+        culture = turkish
+        religion = sunni
+        size = 900
+    }
+
+    soldiers = {
+        culture = turkish
+        religion = sunni
+        size = 400
+    }
+
+    clergymen = {
+        culture = turkish
+        religion = sunni
+        size = 725
+    }
+
+    artisans = {
+        culture = turkish
+        religion = sunni
+        size = 3650
+    }
+
+    farmers = {
+        culture = turkish
+        religion = sunni
+        size = 56000
+    }
+
+	farmers = {
+        culture = turkish
+        religion = shiite
+        size = 1750
+    }
+
+    soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = greek
+        religion = orthodox
+        size = 120
+    }
+
+    artisans = {
+        culture = greek
+        religion = orthodox
+        size = 5200
+    }
+
+    farmers = {
+        culture = greek
+        religion = orthodox
+        size = 8425
+    }
+}
+2770 = {
+    aristocrats = {
+        culture = turkish
+        religion = sunni
+        size = 275
+    }
+
+    clergymen = {
+        culture = turkish
+        religion = sunni
+        size = 120
+    }
+
+    artisans = {
+        culture = turkish
+        religion = sunni
+        size = 1100
+    }
+
+    soldiers = {
+        culture = turkish
+        religion = sunni
+        size = 250
+    }
+
+    farmers = {
+        culture = turkish
+        religion = sunni
+        size = 14852
+    }
+
+	farmers = {
+        culture = turkish
+        religion = shiite
+        size = 175
+    }
+
+    soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = greek
+        religion = orthodox
+        size = 120
+    }
+
+    artisans = {
+        culture = greek
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = greek
+        religion = orthodox
+        size = 6975
+    }
+
+	farmers = {
+        culture = gypsy
+        religion = sunni
+        size = 148
+    }
+}
+
+#Korean pops in Lake Khanka for Tumen migration 
+3545 = { 
+	labourers = { 
+		culture = korean 
+		religion = mahayana 
+		size = 20000
+	}
+}
+3086 = { #Artisans to 2013
+	artisans = { 
+		culture = luvale
+		religion = animist 
+		size = 130
+	}
+	artisans = { 
+		culture = botatwe 
+		religion = animist 
+		size = 70
+	}
+	clergymen = { 
+		culture = botatwe 
+		religion = animist 
+		size = 40
+	}
+}
+3087 = { #Artisans to 3722
+	artisans = { 
+		culture = luvale
+		religion = animist 
+		size = 70
+	}
+	artisans = { 
+		culture = botatwe 
+		religion = animist 
+		size = 80
+	}
+	clergymen = { 
+		culture = botatwe 
+		religion = animist 
+		size = 40
+	}
+}
+3081 = { #Nguni to 2018
+	soldiers = { 
+		culture = nguni
+		religion = animist 
+		size = 50
+	}
+	soldiers = { 
+		culture = chewa 
+		religion = animist 
+		size = 50
+	}
+	soldiers = { 
+		culture = bemba 
+		religion = animist 
+		size = 50
+	}
+	farmers = { 
+		culture = nguni 
+		religion = animist  
+		size = 1500
+	}
+	farmers = { 
+		culture = chewa 
+		religion = animist 
+		size = 50
+	}
+	farmers = { 
+		culture = bemba 
+		religion = animist 
+		size = 50
+	}
+}
+3084 = { #Nguni to 2066
+	soldiers = { 
+		culture = nguni 
+		religion = animist 
+		size = 200
+	}
+	soldiers = { 
+		culture = chewa 
+		religion = animist 
+		size = 50
+	}
+	farmers = { 
+		culture = nguni 
+		religion = animist 
+		size = 3000
+	}
+	farmers = { 
+		culture = chewa 
+		religion = animist 
+		size = 50
+	}
+}
+
+3085 = { #Nguni to 3806
+	soldiers = { 
+		culture = nguni 
+		religion = animist 
+		size = 100
+	}
+	soldiers = { 
+		culture = chewa 
+		religion = animist 
+		size = 50
+	}
+	farmers = { 
+		culture = nguni 
+		religion = animist 
+		size = 2000
+	}
+	farmers = { 
+		culture = chewa 
+		religion = animist 
+		size = 50
+	}
+}
+
+3055 = { #British workers to 3806
+	farmers = { 
+		culture = british
+		religion = anglican 
+		size = 950
+	}
+	farmers = { 
+		culture = scottish
+		religion = reformed 
+		size = 350
+	}
+	farmers = { 
+		culture = irish
+		religion = catholic 
+		size = 200
+	}
+}
+3090 = { #Nguni to 3884
+	soldiers = { 
+		culture = nguni 
+		religion = animist 
+		size = 1100
+	}
+	soldiers = { 
+		culture = shona
+		religion = animist 
+		size = 50
+	}
+	farmers = { 
+		culture = nguni 
+		religion = animist 
+		size = 250
+	}
+	farmers = { 
+		culture = shona
+		religion = animist 
+		size = 50
+	}
+}
+3073 = { #Nguni to 2052
+	soldiers = { 
+		culture = nguni 
+		religion = animist 
+		size = 1100
+	}
+	soldiers = { 
+		culture = chewa 
+		religion = animist 
+		size = 50
+	}
+	farmers = { 
+		culture = nguni 
+		religion = animist 
+		size = 250
+	}
+	farmers = { 
+		culture = chewa 
+		religion = animist 
+		size = 50
+	}
+}
+3206 = { #Nguni to 1913
+	soldiers = { 
+		culture = songhai 
+		religion = sunni 
+		size = 1100
+	}
+	farmers = { 
+		culture = songhai 
+		religion = sunni 
+		size = 100
+	}
+	soldiers = { 
+		culture = gur
+		religion = sunni 
+		size = 50
+	}
+	farmers = { 
+		culture = gur
+		religion = sunni 
+		size = 50
+	}
+}
+3032 = { #Songhai to 3816
+	soldiers = { 
+		culture = songhai 
+		religion = sunni 
+		size = 1100
+	}
+	farmers = { 
+		culture = songhai 
+		religion = sunni 
+		size = 100
+	}
+	soldiers = { 
+		culture = gur
+		religion = sunni 
+		size = 50
+	}
+	farmers = { 
+		culture = gur
+		religion = sunni 
+		size = 50
+	}
+}
+2922 = { #Sunnis to 2573
+    aristocrats = {
+        culture = fulbe
+        religion = sunni
+        size = 275
+    }
+
+    clergymen = {
+        culture = fulbe
+        religion = sunni
+        size = 120
+    }
+
+    artisans = {
+        culture = fulbe
+        religion = sunni
+        size = 1100
+    }
+	
+	soldiers = { 
+		culture = fulbe
+		religion = sunni 
+		size = 1100
+	}
+
+	farmers = { 
+		culture = fulbe
+		religion = sunni 
+		size = 2000
+	}
+}
+2942 = { #Swahili to 3976
+    aristocrats = {
+        culture = swahili
+        religion = sunni
+        size = 205
+    }
+
+    clergymen = {
+        culture = swahili
+        religion = sunni
+        size = 100
+    }
+
+    artisans = {
+        culture = swahili
+        religion = sunni
+        size = 400
+    }
+	
+	soldiers = { 
+		culture = swahili
+		religion = sunni 
+		size = 1100
+	}
+
+	farmers = { 
+		culture = swahili
+		religion = sunni 
+		size = 1000
+	}
+    aristocrats = {
+        culture = chewa
+        religion = sunni
+        size = 50
+    }
+
+    clergymen = {
+        culture = chewa
+        religion = sunni
+        size = 50
+    }
+
+    artisans = {
+        culture = chewa
+        religion = sunni
+        size = 50
+    }
+	
+	soldiers = { 
+		culture = chewa
+		religion = sunni 
+		size = 50
+	}
+
+	farmers = { 
+		culture = chewa
+		religion = sunni 
+		size = 50
+	}
+}

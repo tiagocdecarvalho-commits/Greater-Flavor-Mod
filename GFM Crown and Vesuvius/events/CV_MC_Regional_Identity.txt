@@ -1,0 +1,52 @@
+# Repairs generic identities in existing More Cultures campaigns.
+country_event = {
+ id = 9860030
+ title = "cv_mc_identity_title"
+ desc = "cv_mc_identity_desc"
+ picture = "two_sicilies"
+ trigger = {
+  has_global_flag = global_mc_setup_complete
+  OR = { tag = NPL tag = VEN tag = TUS tag = SYC tag = SAR tag = SIC tag = PAR tag = PAP tag = MOD tag = LUC tag = LOM tag = ITA }
+  OR = { primary_culture = north_italian primary_culture = south_italian }
+  any_owned_province = { always = yes }
+ }
+ mean_time_to_happen = { days = 1 }
+ immediate = { random_owned = {
+ limit = { owner = { tag = NPL OR = { primary_culture = north_italian primary_culture = south_italian } } }
+ owner = { primary_culture = neapolitan add_accepted_culture = sicilianu remove_accepted_culture = south_italian set_country_flag = cv_mc_regional_identity_restored }
+ } random_owned = {
+ limit = { owner = { tag = VEN OR = { primary_culture = north_italian primary_culture = south_italian } } }
+ owner = { primary_culture = venetian add_accepted_culture = friulian add_accepted_culture = galloitalian remove_accepted_culture = north_italian set_country_flag = cv_mc_regional_identity_restored }
+ } random_owned = {
+ limit = { owner = { tag = TUS OR = { primary_culture = north_italian primary_culture = south_italian } } }
+ owner = { primary_culture = tuscan add_accepted_culture = galloitalian add_accepted_culture = mediano remove_accepted_culture = north_italian set_country_flag = cv_mc_regional_identity_restored }
+ } random_owned = {
+ limit = { owner = { tag = SYC OR = { primary_culture = north_italian primary_culture = south_italian } } }
+ owner = { primary_culture = sicilianu remove_accepted_culture = south_italian set_country_flag = cv_mc_regional_identity_restored }
+ } random_owned = {
+ limit = { owner = { tag = SAR OR = { primary_culture = north_italian primary_culture = south_italian } } }
+ owner = { primary_culture = galloitalian add_accepted_culture = valdotains remove_accepted_culture = north_italian set_country_flag = cv_mc_regional_identity_restored }
+ } random_owned = {
+ limit = { owner = { tag = SIC OR = { primary_culture = north_italian primary_culture = south_italian } } }
+ owner = { primary_culture = neapolitan add_accepted_culture = sicilianu remove_accepted_culture = south_italian set_country_flag = cv_mc_regional_identity_restored }
+ } random_owned = {
+ limit = { owner = { tag = PAR OR = { primary_culture = north_italian primary_culture = south_italian } } }
+ owner = { primary_culture = galloitalian remove_accepted_culture = north_italian set_country_flag = cv_mc_regional_identity_restored }
+ } random_owned = {
+ limit = { owner = { tag = PAP OR = { primary_culture = north_italian primary_culture = south_italian } } }
+ owner = { primary_culture = mediano add_accepted_culture = tuscan add_accepted_culture = galloitalian remove_accepted_culture = north_italian set_country_flag = cv_mc_regional_identity_restored }
+ } random_owned = {
+ limit = { owner = { tag = MOD OR = { primary_culture = north_italian primary_culture = south_italian } } }
+ owner = { primary_culture = galloitalian add_accepted_culture = tuscan remove_accepted_culture = north_italian set_country_flag = cv_mc_regional_identity_restored }
+ } random_owned = {
+ limit = { owner = { tag = LUC OR = { primary_culture = north_italian primary_culture = south_italian } } }
+ owner = { primary_culture = galloitalian add_accepted_culture = tuscan remove_accepted_culture = north_italian set_country_flag = cv_mc_regional_identity_restored }
+ } random_owned = {
+ limit = { owner = { tag = LOM OR = { primary_culture = north_italian primary_culture = south_italian } } }
+ owner = { primary_culture = galloitalian add_accepted_culture = venetian remove_accepted_culture = north_italian set_country_flag = cv_mc_regional_identity_restored }
+ } random_owned = {
+ limit = { owner = { tag = ITA OR = { primary_culture = north_italian primary_culture = south_italian } } }
+ owner = { primary_culture = galloitalian add_accepted_culture = union add_accepted_culture = friulian add_accepted_culture = ladin add_accepted_culture = romansh remove_accepted_culture = south_italian remove_accepted_culture = north_italian set_country_flag = cv_mc_regional_identity_restored }
+ } }
+ option = { name = "cv_mc_identity_a" }
+}

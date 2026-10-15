@@ -1,0 +1,1735 @@
+country_event = {
+    id = 31510
+    title = "EVTNAME31510"
+    desc = "EVTDESC31510"
+    picture = "austrian_destiny"
+    is_triggered_only = yes
+    major = yes
+    news = yes
+    news_desc_long = "EVTDESC31510_NEWS_LONG"
+    news_desc_medium = "EVTDESC31510_NEWS_MEDIUM"
+    news_desc_short = "EVTDESC31510_NEWS_SHORT"
+    option = {
+        name = "EVT31510OPTA"
+        set_country_flag = austrian_destiny
+        set_country_flag = austrian_greater_germany
+        badboy = 40
+        any_owned = {
+            limit = {
+                OR = {
+                    province_id = 624
+                    province_id = 778
+                    province_id = 623
+                }
+                is_core = HUN
+            }
+            add_core = UTI
+            remove_core = HUN
+        }
+        all_core = {
+            limit = {
+                NOT = {
+                    is_core = HUN
+                }
+                NOT = {
+                    is_core = CRO
+                }
+            }
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        689 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        770 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        778 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        2584 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 3285
+                }
+            }
+            owner = {
+                3285 = {
+                    add_core = GER
+                    random_country = {
+                        limit = {
+                            tag = OGE
+                        }
+                        PREV = {
+                            add_core = OGE
+                        }
+                    }
+                }
+            }
+        }
+        624 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        623 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        any_owned = {
+            limit = {
+                is_core = UTI
+            }
+            remove_core = UTI
+            add_core = HUN
+        }
+        any_owned = {
+            limit = {
+                OR = {
+                    is_core = HUN
+                    is_core = POL
+                    is_core = ROM
+                    is_core = CRO
+                    is_core = VEN
+                    is_core = LOM
+                    is_core = SER
+                }
+            }
+            add_province_modifier = {
+                name = nationalist_agitation
+                duration = 1095
+            }
+        }
+        any_pop = {
+            limit = {
+                is_primary_culture = no
+                is_accepted_culture = no
+            }
+            consciousness = 5
+            militancy = 5
+        }
+        any_country = {
+            limit = {
+                is_greater_power = yes
+                capital_scope = {
+                    continent = europe
+                }
+            }
+            leave_alliance = THIS
+            relation = {
+                who = THIS
+                value = -100
+            }
+            casus_belli = {
+                target = THIS
+                type = free_peoples
+                months = 60
+            }
+            casus_belli = {
+                target = SGF
+                type = free_peoples
+                months = 60
+            }
+            random_country = {
+                limit = {
+                    tag = GER
+                }
+                PREV = {
+                    casus_belli = {
+                        target = GER
+                        type = free_peoples
+                        months = 60
+                    }
+                }
+            }
+            random_country = {
+                limit = {
+                    tag = OGE
+                    NOT = {
+                        exists = GER
+                    }
+                }
+                PREV = {
+                    casus_belli = {
+                        target = OGE
+                        type = free_peoples
+                        months = 60
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = KUK
+                }
+            }
+            HUN = {
+                all_core = {
+                    remove_core = KUK
+                }
+            }
+            CRO = {
+                all_core = {
+                    remove_core = KUK
+                }
+            }
+            owner = {
+                remove_accepted_culture = hungarian
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = AUB
+                }
+            }
+            BOH = {
+                all_core = {
+                    remove_core = AUB
+                }
+            }
+            CRO = {
+                all_core = {
+                    remove_core = AUB
+                }
+            }
+            owner = {
+                remove_accepted_culture = czech
+            }
+        }
+        ai_chance = {
+            factor = 0
+        }
+    }
+    option = {
+        name = "EVT31510OPTB"
+        set_country_flag = austrian_destiny
+        set_country_flag = austrian_greater_germany
+        badboy = 20
+        any_owned = {
+            limit = {
+                OR = {
+                    region = AUS_736
+                    AND = {
+                        region = AUS_768
+                        NOT = {
+                            province_id = 3282
+                        }
+                    }
+                    AND = {
+                        is_core = THIS
+                        NOT = {
+                            is_core = CRO
+                            is_core = HUN
+                        }
+                    }
+                }
+            }
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        689 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        2584 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        624 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        623 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 3285
+                }
+            }
+            owner = {
+                3285 = {
+                    add_core = GER
+                    random_country = {
+                        limit = {
+                            tag = OGE
+                        }
+                        PREV = {
+                            add_core = OGE
+                        }
+                    }
+                }
+            }
+        }
+        any_greater_power = {
+            leave_alliance = THIS
+        }
+        any_owned = {
+            limit = {
+                is_core = KRA
+            }
+            remove_core = THIS
+        }
+        any_pop = {
+            limit = {
+                is_primary_culture = no
+                is_accepted_culture = no
+                location = {
+                    is_core = GER
+                }
+            }
+            consciousness = 5
+            militancy = 5
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = no_slovenia_germany
+                }
+            }
+            SLV = {
+                all_core = {
+                    remove_core = GER
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = KUK
+                }
+            }
+            CRO = {
+                all_core = {
+                    remove_core = KUK
+                }
+            }
+            owner = {
+                remove_accepted_culture = hungarian
+            }
+            HUN = {
+                all_core = {
+                    remove_core = KUK
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = AUB
+                }
+            }
+            BOH = {
+                all_core = {
+                    remove_core = AUB
+                }
+            }
+            CRO = {
+                all_core = {
+                    remove_core = AUB
+                }
+            }
+            owner = {
+                remove_accepted_culture = czech
+            }
+        }
+        random_owned = {
+            limit = {
+                SIE = {
+                    exists = no
+                }
+                owner = {
+                    owns = 660
+                    owns = 641
+                }
+            }
+            SIE = {
+                all_core = {
+                    limit = {
+                        NOT = {
+                            region = AUS_654
+                            region = AUS_657
+                        }
+                    }
+                    remove_core = SIE
+                }
+                primary_culture = north_german
+                add_accepted_culture = romanian
+                add_accepted_culture = south_german
+                country_event = 31511
+                capital = 657
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 660
+                    NOT = {
+                        owns = 641
+                    }
+                }
+                SIE = {
+                    exists = no
+                }
+            }
+            SIE = {
+                all_core = {
+                    limit = {
+                        NOT = {
+                            region = AUS_654
+                            region = AUS_657
+                            region = AUS_647
+                        }
+                    }
+                    remove_core = SIE
+                }
+                primary_culture = north_german
+                add_accepted_culture = romanian
+                add_accepted_culture = south_german
+                country_event = 31511
+                capital = 657
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 652
+                    owns = 794
+                }
+            }
+            794 = {
+                add_core = BAN
+            }
+        }
+        random_owned = {
+            limit = {
+                BAN = {
+                    exists = no
+                }
+                owner = {
+                    owns = 652
+                    owns = 771
+                }
+            }
+            2538 = {
+                add_core = BAN
+            }
+            3330 = {
+                add_core = BAN
+            }
+            3672 = {
+                add_core = BAN
+            }
+            BAN = {
+                country_event = 31511
+                add_accepted_culture = romanian
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 652
+                    NOT = {
+                        owns = 771
+                    }
+                }
+                BAN = {
+                    exists = no
+                }
+            }
+            2538 = {
+                add_core = BAN
+            }
+            3330 = {
+                add_core = BAN
+            }
+            3672 = {
+                add_core = BAN
+            }
+            791 = {
+                add_core = BAN
+            }
+            BAN = {
+                country_event = 31511
+                add_accepted_culture = romanian
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 714
+                    owns = 702
+                    NOT = {
+                        owns = 711
+                    }
+                }
+            }
+            BKV = {
+                all_core = {
+                    remove_core = GLM
+                }
+                country_event = 31511
+            }
+            GLM = {
+                country_event = 31511
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 714
+                    owns = 702
+                    owns = 711
+                    NOT = {
+                        owns = 706
+                    }
+                }
+            }
+            GLM = {
+                country_event = 31511
+            }
+            BKV = {
+                country_event = 31511
+                all_core = {
+                    remove_core = GLM
+                }
+            }
+            RUS_715 = {
+                add_core = GLM
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 714
+                    owns = 702
+                    owns = 711
+                    owns = 706
+                }
+            }
+            owner = {
+                set_global_flag = polish_unification
+            }
+            GLM = {
+                all_core = {
+                    remove_core = GLM
+                }
+            }
+            BKV = {
+                country_event = 31511
+            }
+            POL = {
+                all_core = {
+                    limit = {
+                        AND = {
+                            is_core = GER
+                            NOT = {
+                                province_id = 3285
+                            }
+                        }
+                    }
+                    remove_core = POL
+                }
+                country_event = 31511
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 771
+                    NOT = {
+                        owns = 783
+                    }
+                }
+            }
+            owner = {
+                3283 = {
+                    add_core = HUN
+                    remove_core = CRO
+                }
+            }
+            CRO = {
+                country_event = 31511
+                all_core = {
+                    remove_core = HUN
+                }
+            }
+            owner = {
+                3289 = {
+                    remove_core = HUN
+                    add_core = CRO
+                    secede_province = CRO
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 771
+                    owns = 783
+                }
+            }
+            owner = {
+                3283 = {
+                    add_core = HUN
+                    remove_core = CRO
+                }
+            }
+            TUR_788 = {
+                add_core = CRO
+            }
+            CRO = {
+                country_event = 31511
+                all_core = {
+                    remove_core = HUN
+                }
+            }
+            owner = {
+                3289 = {
+                    remove_core = HUN
+                    add_core = CRO
+                    secede_province = CRO
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 768
+                    has_country_flag = no_slovenia_germany
+                }
+            }
+            owner = {
+                624 = {
+                    remove_core = GER
+                    random_country = {
+                        limit = {
+                            tag = OGE
+                        }
+                        PREV = {
+                            remove_core = OGE
+                        }
+                    }
+                    remove_core = THIS
+                    secede_province = HUN
+                }
+                623 = {
+                    remove_core = GER
+                    random_country = {
+                        limit = {
+                            tag = OGE
+                        }
+                        PREV = {
+                            remove_core = OGE
+                        }
+                    }
+                    remove_core = THIS
+                    secede_province = HUN
+                }
+            }
+            SLO = {
+                country_event = 31511
+                all_core = {
+                    remove_core = HUN
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 781
+                    NOT = {
+                        owns = 771
+                    }
+                }
+            }
+            owner = {
+                any_owned = {
+                    limit = {
+                        is_core = CRO
+                        NOT = {
+                            is_core = THIS
+                        }
+                    }
+                    add_core = HUN
+                }
+            }
+            774 = {
+                add_core = DLM
+            }
+            DLM = {
+                country_event = 31511
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        owns = 641
+                        owns = 643
+                    }
+                }
+            }
+            owner = {
+                624 = {
+                    remove_core = GER
+                    remove_core = THIS
+                    secede_province = HUN
+                }
+                623 = {
+                    remove_core = GER
+                    remove_core = THIS
+                    secede_province = HUN
+                }
+            }
+            HUN = {
+                country_event = 31511
+            }
+        }
+        any_country = {
+            limit = {
+                NOT = {
+                    OR = {
+                        is_culture_group = germanic
+                        AND = {
+                            OR = {
+                                tag = OGE
+                                AND = {
+                                    tag = NET
+                                    has_country_flag = cvg2_north
+                                }
+                            }
+                        }
+                    }
+                    tag = HUN
+                    tag = SLV
+                    is_culture_group = italian
+                    is_culture_group = french
+                    is_culture_group = pan_romanian
+                    primary_culture = ukrainian
+                    tag = SLO
+                    tag = BKV
+                    tag = CRO
+                }
+                OR = {
+                    NOT = {
+                        primary_culture = polish
+                    }
+                    tag = KRA
+                }
+                any_core = {
+                    owned_by = THIS
+                    NOT = {
+                        is_core = GER
+                    }
+                    is_colonial = no
+                }
+                exists = no
+                AND = {
+                    is_cultural_union = no
+                    NOT = {
+                        tag = OGE
+                    }
+                }
+                NOT = {
+                    tag = OGE
+                    AND = {
+                        tag = NET
+                        has_country_flag = cvo_federation
+                    }
+                }
+            }
+            country_event = 31511
+        }
+        HUN = {
+            capital = 641
+        }
+        SIE = {
+            capital = 657
+        }
+        CRO = {
+            capital = 771
+        }
+        any_owned = {
+            limit = {
+                province_id = 3289
+            }
+            add_core = HUN
+            secede_province = HUN
+        }
+        any_country = {
+            limit = {
+                is_greater_power = yes
+                capital_scope = {
+                    continent = europe
+                }
+            }
+            relation = {
+                who = THIS
+                value = -50
+            }
+            casus_belli = {
+                target = THIS
+                type = release_puppet_no_infamy
+                months = 60
+            }
+            casus_belli = {
+                target = SGF
+                type = release_puppet_no_infamy
+                months = 60
+            }
+            random_country = {
+                limit = {
+                    tag = GER
+                }
+                PREV = {
+                    casus_belli = {
+                        target = GER
+                        type = release_puppet_no_infamy
+                        months = 60
+                    }
+                }
+            }
+            random_country = {
+                limit = {
+                    tag = OGE
+                    NOT = {
+                        exists = GER
+                    }
+                }
+                PREV = {
+                    casus_belli = {
+                        target = OGE
+                        type = release_puppet_no_infamy
+                        months = 60
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 633
+                }
+            }
+            SLV = {
+                country_event = 31511
+            }
+        }
+        ai_chance = {
+            factor = 75
+            modifier = {
+                factor = 0
+                badboy = 0.2
+                NOT = {
+                    government = fascist_dictatorship
+                }
+                NOT = {
+                    government = proletarian_dictatorship
+                }
+            }
+            modifier = {
+                factor = 0.5
+                tag = KUK
+            }
+            modifier = {
+                factor = 0.5
+                tag = AUB
+            }
+            modifier = {
+                factor = 0.8
+                OR = {
+                    government = absolute_monarchy
+                    government = cvg2_north_absolute
+                    government = cvo_absolute
+                    government = cvi_absolute_monarchy
+                }
+            }
+            modifier = {
+                factor = 0.5
+                OR = {
+                    government = democracy
+                    government = hms_government
+                    government = cvg2_north_constitutional
+                    government = cvo_constitutional
+                    government = cvo_federal
+                    government = cvt_ducal_constitutional
+                    government = cvt_federation
+                    government = cvi_constitutional_monarchy
+                    government = constitutional_empire
+                    government = cvt_imperial_constitutional
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 726
+                }
+            }
+            AUS_729 = {
+                add_core = LOM
+            }
+            LOM = {
+                country_event = 31511
+            }
+        }
+        random_owned = {
+            limit = {
+                SIE = {
+                    in_sphere = THIS
+                }
+                ROM = {
+                    exists = yes
+                }
+            }
+            ROM = {
+                country_event = 800910
+            }
+        }
+    }
+    option = {
+        name = "EVT31510OPTC"
+        set_country_flag = austrian_destiny
+        set_country_flag = austrian_greater_germany
+        badboy = 10
+        any_owned = {
+            limit = {
+                OR = {
+                    region = AUS_736
+                    AND = {
+                        region = AUS_768
+                        NOT = {
+                            province_id = 3282
+                        }
+                    }
+                    AND = {
+                        is_core = THIS
+                        NOT = {
+                            is_core = CRO
+                            is_core = HUN
+                        }
+                    }
+                }
+            }
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        689 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        2584 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        624 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        623 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 3285
+                }
+            }
+            owner = {
+                3285 = {
+                    add_core = GER
+                    random_country = {
+                        limit = {
+                            tag = OGE
+                        }
+                        PREV = {
+                            add_core = OGE
+                        }
+                    }
+                }
+            }
+        }
+        any_greater_power = {
+            leave_alliance = THIS
+        }
+        any_owned = {
+            limit = {
+                is_core = KRA
+            }
+            remove_core = THIS
+        }
+        any_pop = {
+            limit = {
+                is_primary_culture = no
+                is_accepted_culture = no
+                location = {
+                    is_core = GER
+                }
+            }
+            consciousness = 5
+            militancy = 5
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 3285
+                }
+            }
+            owner = {
+                3285 = {
+                    add_core = GER
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = no_slovenia_germany
+                }
+            }
+            SLV = {
+                all_core = {
+                    remove_core = GER
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = KUK
+                }
+            }
+            HUN = {
+                all_core = {
+                    remove_core = KUK
+                }
+            }
+            CRO = {
+                all_core = {
+                    remove_core = KUK
+                }
+            }
+            owner = {
+                remove_accepted_culture = hungarian
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = AUB
+                }
+            }
+            BOH = {
+                all_core = {
+                    remove_core = AUB
+                }
+            }
+            CRO = {
+                all_core = {
+                    remove_core = AUB
+                }
+            }
+            owner = {
+                remove_accepted_culture = czech
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 660
+                    owns = 641
+                }
+                SIE = {
+                    exists = no
+                }
+            }
+            SIE = {
+                all_core = {
+                    limit = {
+                        NOT = {
+                            region = AUS_654
+                            region = AUS_657
+                        }
+                    }
+                    remove_core = SIE
+                }
+                primary_culture = north_german
+                add_accepted_culture = romanian
+                add_accepted_culture = south_german
+                country_event = 31512
+                capital = 657
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 660
+                    NOT = {
+                        owns = 641
+                    }
+                }
+                SIE = {
+                    exists = no
+                }
+            }
+            SIE = {
+                all_core = {
+                    limit = {
+                        NOT = {
+                            region = AUS_654
+                            region = AUS_657
+                            region = AUS_647
+                        }
+                    }
+                    remove_core = SIE
+                }
+                primary_culture = north_german
+                add_accepted_culture = romanian
+                add_accepted_culture = south_german
+                country_event = 31511
+                capital = 657
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 652
+                    owns = 794
+                }
+            }
+            794 = {
+                add_core = BAN
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 652
+                    owns = 771
+                }
+                BAN = {
+                    exists = no
+                }
+            }
+            2538 = {
+                add_core = BAN
+            }
+            3330 = {
+                add_core = BAN
+            }
+            3672 = {
+                add_core = BAN
+            }
+            BAN = {
+                country_event = 31512
+                add_accepted_culture = romanian
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 652
+                    NOT = {
+                        owns = 771
+                    }
+                }
+                BAN = {
+                    exists = no
+                }
+            }
+            2538 = {
+                add_core = BAN
+            }
+            3330 = {
+                add_core = BAN
+            }
+            3672 = {
+                add_core = BAN
+            }
+            791 = {
+                add_core = BAN
+            }
+            BAN = {
+                country_event = 31512
+                add_accepted_culture = romanian
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 714
+                    owns = 702
+                    NOT = {
+                        owns = 711
+                    }
+                }
+            }
+            GLM = {
+                country_event = 31512
+            }
+            BKV = {
+                country_event = 31512
+                all_core = {
+                    remove_core = GLM
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 714
+                    NOT = {
+                        owns = 706
+                    }
+                    owns = 702
+                    owns = 711
+                }
+            }
+            RUS_715 = {
+                add_core = GLM
+            }
+            BKV = {
+                all_core = {
+                    remove_core = GLM
+                }
+                country_event = 31512
+            }
+            GLM = {
+                country_event = 31512
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 714
+                    owns = 702
+                    owns = 711
+                    owns = 706
+                }
+            }
+            owner = {
+                set_global_flag = polish_unification
+            }
+            GLM = {
+                all_core = {
+                    remove_core = GLM
+                }
+            }
+            BKV = {
+                country_event = 31512
+            }
+            POL = {
+                country_event = 31512
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 771
+                    NOT = {
+                        owns = 783
+                    }
+                }
+            }
+            owner = {
+                3283 = {
+                    add_core = HUN
+                    remove_core = CRO
+                }
+            }
+            CRO = {
+                country_event = 31512
+                all_core = {
+                    remove_core = HUN
+                }
+            }
+            owner = {
+                3289 = {
+                    remove_core = HUN
+                    add_core = CRO
+                    secede_province = CRO
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 771
+                    owns = 783
+                }
+            }
+            owner = {
+                624 = {
+                    remove_core = GER
+                    random_country = {
+                        limit = {
+                            tag = OGE
+                        }
+                        PREV = {
+                            remove_core = OGE
+                        }
+                    }
+                    remove_core = THIS
+                    secede_province = HUN
+                }
+                623 = {
+                    remove_core = GER
+                    random_country = {
+                        limit = {
+                            tag = OGE
+                        }
+                        PREV = {
+                            remove_core = OGE
+                        }
+                    }
+                    remove_core = THIS
+                    secede_province = HUN
+                }
+                3283 = {
+                    add_core = HUN
+                    remove_core = CRO
+                }
+            }
+            TUR_788 = {
+                add_core = CRO
+            }
+            CRO = {
+                country_event = 31512
+                all_core = {
+                    remove_core = HUN
+                }
+            }
+            owner = {
+                3289 = {
+                    remove_core = HUN
+                    add_core = CRO
+                    secede_province = CRO
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 768
+                    has_country_flag = no_slovenia_germany
+                }
+            }
+            SLO = {
+                country_event = 31512
+                all_core = {
+                    remove_core = HUN
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 781
+                    NOT = {
+                        owns = 771
+                    }
+                }
+            }
+            owner = {
+                any_owned = {
+                    limit = {
+                        is_core = CRO
+                        NOT = {
+                            is_core = THIS
+                        }
+                    }
+                    add_core = HUN
+                }
+            }
+            774 = {
+                add_core = DLM
+            }
+            DLM = {
+                country_event = 31512
+            }
+        }
+        any_country = {
+            limit = {
+                NOT = {
+                    OR = {
+                        is_culture_group = germanic
+                        AND = {
+                            OR = {
+                                tag = OGE
+                                AND = {
+                                    tag = NET
+                                    has_country_flag = cvg2_north
+                                }
+                            }
+                        }
+                    }
+                    tag = HUN
+                    tag = SLO
+                }
+                any_core = {
+                    owned_by = THIS
+                    NOT = {
+                        is_core = GER
+                    }
+                    is_colonial = no
+                }
+                exists = no
+                AND = {
+                    is_cultural_union = no
+                    NOT = {
+                        tag = OGE
+                    }
+                }
+                NOT = {
+                    tag = OGE
+                    AND = {
+                        tag = NET
+                        has_country_flag = cvo_federation
+                    }
+                }
+            }
+            country_event = 31512
+        }
+        624 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        623 = {
+            add_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    add_core = OGE
+                }
+            }
+        }
+        HUN = {
+            capital = 641
+        }
+        SIE = {
+            capital = 657
+        }
+        CRO = {
+            capital = 771
+        }
+        any_country = {
+            limit = {
+                is_greater_power = yes
+                capital_scope = {
+                    continent = europe
+                }
+            }
+            relation = {
+                who = THIS
+                value = -50
+            }
+        }
+        any_country = {
+            limit = {
+                tag = CRO
+                owns = 3289
+                HUN = {
+                    owns = 639
+                }
+            }
+            any_owned = {
+                limit = {
+                    province_id = 3289
+                }
+                secede_province = THIS
+            }
+        }
+        any_owned = {
+            limit = {
+                province_id = 3289
+            }
+            add_core = HUN
+            secede_province = HUN
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        owns = 641
+                        owns = 643
+                    }
+                }
+            }
+            owner = {
+                624 = {
+                    remove_core = GER
+                    remove_core = THIS
+                    secede_province = HUN
+                }
+                623 = {
+                    remove_core = GER
+                    remove_core = THIS
+                    secede_province = HUN
+                }
+            }
+            HUN = {
+                country_event = 31512
+                capital = 643
+            }
+        }
+        ai_chance = {
+            factor = 10
+            modifier = {
+                factor = 0.1
+                war_policy = jingoism
+            }
+            modifier = {
+                factor = 0.1
+                NOT = {
+                    badboy = 0.2
+                }
+            }
+            modifier = {
+                factor = 0
+                tag = KUK
+            }
+            modifier = {
+                factor = 0
+                tag = AUB
+            }
+            modifier = {
+                factor = 0.5
+                OR = {
+                    government = absolute_monarchy
+                    government = cvg2_north_absolute
+                    government = cvo_absolute
+                    government = cvi_absolute_monarchy
+                }
+            }
+            modifier = {
+                factor = 1.5
+                OR = {
+                    government = democracy
+                    government = hms_government
+                    government = cvg2_north_constitutional
+                    government = cvo_constitutional
+                    government = cvo_federal
+                    government = cvt_ducal_constitutional
+                    government = cvt_federation
+                    government = cvi_constitutional_monarchy
+                    government = constitutional_empire
+                    government = cvt_imperial_constitutional
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 633
+                }
+            }
+            SLV = {
+                country_event = 31512
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 726
+                }
+            }
+            AUS_729 = {
+                add_core = LOM
+            }
+            LOM = {
+                country_event = 31512
+            }
+        }
+        random_owned = {
+            limit = {
+                SIE = {
+                    in_sphere = THIS
+                }
+                ROM = {
+                    exists = yes
+                }
+            }
+            ROM = {
+                country_event = 800910
+            }
+        }
+    }
+    option = {
+        name = "EVT31510OPTD"
+        set_country_flag = austrian_destiny
+        clr_country_flag = austrian_greater_germany
+        prestige = -25
+        badboy = -5
+        any_pop = {
+            limit = {
+                is_culture_group = germanic
+            }
+            scaled_militancy = {
+                issue = jingoism
+                factor = 8
+            }
+            scaled_militancy = {
+                issue = pacifism
+                factor = -4
+            }
+        }
+        ai_chance = {
+            factor = 0
+            modifier = {
+                factor = 100
+                tag = KUK
+            }
+            modifier = {
+                factor = 100
+                tag = AUB
+            }
+            modifier = {
+                factor = 0
+                OR = {
+                    government = proletarian_dictatorship
+                    government = fascist_dictatorship
+                }
+            }
+        }
+    }
+} country_event = { id = 31511 title = "EVTNAME31511" desc = "EVTDESC31511" is_triggered_only = yes option = { name = "EVT31511OPTA" FROM = { any_owned = { limit = { NOT = { is_core = GER } is_core = THIS } secede_province = THIS } } FROM = { prestige = -5 create_vassal = THIS create_alliance = THIS diplomatic_influence = { who = THIS value = 400 } relation = { who = THIS value = 100 } } any_country = { limit = { is_greater_power = yes OR = { neighbour = THIS OR = { is_culture_group = THIS AND = { is_culture_group = germanic THIS = { OR = { tag = OGE AND = { tag = NET has_country_flag = cvg2_north } } } } } tag = FRA tag = BOR tag = RUS tag = ENG } } diplomatic_influence = { who = THIS value = 50 } } prestige = -100 any_pop = { limit = { is_primary_culture = yes } consciousness = 4 militancy = 4 } any_pop = { limit = { is_culture_group = germanic } militancy = -4 } } } country_event = { id = 31512 title = "EVTNAME31512" desc = "EVTDESC31512" is_triggered_only = yes option = { name = "EVT31511OPTA" FROM = { any_owned = { limit = { NOT = { is_core = GER is_core = GCF } is_core = THIS } secede_province = THIS } } FROM = { prestige = -5 diplomatic_influence = { who = THIS value = 200 } relation = { who = THIS value = 200 } } any_country = { limit = { is_greater_power = yes OR = { neighbour = THIS OR = { is_culture_group = THIS AND = { is_culture_group = germanic THIS = { OR = { tag = OGE AND = { tag = NET has_country_flag = cvg2_north } } } } } tag = FRA tag = BOR tag = RUS tag = ENG } } diplomatic_influence = { who = THIS value = 50 } } prestige = -100 any_pop = { limit = { is_primary_culture = yes } consciousness = -4 militancy = -4 } any_pop = { limit = { is_culture_group = germanic } militancy = 4 } } } country_event = { id = 31515 title = "EVTNAME31515" desc = "EVTDESC31515" picture = "german_destiny" major = yes trigger = { OR = { AND = { GER = { exists = yes is_sphere_leader_of = THIS } } AND = { exists = OGE OGE = { exists = yes is_sphere_leader_of = THIS } } } OR = { tag = AUS tag = AUB tag = KUK } OR = { any_owned_province = { NOT = { OR = { is_core = AUS is_core = GER is_colonial = yes } } } AND = { exists = HUN OR = { AND = { GER = { exists = yes ai = yes NOT = { badboy = 0.2 } } } AND = { exists = OGE OGE = { exists = yes ai = yes NOT = { badboy = 0.2 } } } } } } OR = { is_vassal = no OR = { vassal_of = GER AND = { vassal_of = OGE } } } is_greater_power = no war = no NOT = { has_country_flag = austrian_destiny } ai = yes } mean_time_to_happen = { days = 14 } option = { name = "EVT31515OPTA" set_country_flag = wants_to_unify set_country_flag = austrian_destiny random_country = { limit = { OR = { tag = GER AND = { tag = OGE NOT = { exists = GER } } } } country_event = 31516 } 624 = { add_core = AUS } 623 = { add_core = AUS } any_pop = { limit = { is_primary_culture = no is_accepted_culture = no } consciousness = 6 militancy = 6 } ai_chance = { factor = 10 modifier = { factor = 0 tag = KUK } modifier = { factor = 0 tag = AUB } modifier = { factor = 0 OR = { government = democracy government = hms_government government = cvg2_north_constitutional government = cvo_constitutional government = cvo_federal government = cvt_ducal_constitutional government = cvt_federation government = cvi_constitutional_monarchy government = constitutional_empire government = cvt_imperial_constitutional } } modifier = { factor = 0.5 has_country_flag = monarchy_government OR = { AND = { GER = { exists = yes NOT = { has_country_flag = monarchy_government } } } AND = { exists = OGE OGE = { exists = yes NOT = { has_country_flag = monarchy_government } } } } } modifier = { factor = 3 government = proletarian_dictatorship OR = { AND = { GER = { exists = yes government = proletarian_dictatorship } } AND = { exists = OGE OGE = { exists = yes government = proletarian_dictatorship } } } } modifier = { factor = 0 government = proletarian_dictatorship OR = { AND = { GER = { exists = yes government = fascist_dictatorship } } AND = { exists = OGE OGE = { exists = yes government = fascist_dictatorship } } } } modifier = { factor = 3 government = fascist_dictatorship OR = { AND = { GER = { exists = yes government = fascist_dictatorship } } AND = { exists = OGE OGE = { exists = yes government = fascist_dictatorship } } } } modifier = { factor = 0 government = fascist_dictatorship OR = { AND = { GER = { exists = yes government = proletarian_dictatorship } } AND = { exists = OGE OGE = { exists = yes government = proletarian_dictatorship } } } } } } option = { name = "EVT31515OPTB" set_country_flag = wants_to_unify set_country_flag = austrian_destiny 624 = { add_core = AUS } 623 = { add_core = AUS } any_pop = { limit = { is_primary_culture = no is_accepted_culture = no location = { NOT = { is_core = THIS } } } consciousness = 3 militancy = 3 } any_pop = { limit = { is_primary_culture = no is_accepted_culture = no location = { is_core = THIS } } consciousness = 5 militancy = 5 } random_country = { limit = { OR = { tag = GER AND = { tag = OGE NOT = { exists = GER } } } } country_event = 31519 } ai_chance = { factor = 30 modifier = { factor = 100 OR = { AND = { GER = { exists = yes ai = no } } AND = { exists = OGE OGE = { exists = yes ai = no } } } } modifier = { factor = 1.5 rank = 16 } modifier = { factor = 1.5 OR = { alliance_with = GER AND = { alliance_with = OGE } } } modifier = { factor = 1.5 OR = { AND = { NOT = { exists = OGE } relation = { who = GER value = 100 } } AND = { exists = OGE relation = { who = OGE value = 100 } } } } modifier = { factor = 0.5 tag = KUK } modifier = { factor = 0.5 tag = AUB } modifier = { factor = 0.5 has_country_flag = monarchy_government OR = { AND = { GER = { exists = yes NOT = { has_country_flag = monarchy_government } } } AND = { exists = OGE OGE = { exists = yes NOT = { has_country_flag = monarchy_government } } } } } modifier = { factor = 0.5 OR = { government = democracy government = hms_government government = cvg2_north_constitutional government = cvo_constitutional government = cvo_federal government = cvt_ducal_constitutional government = cvt_federation government = cvi_constitutional_monarchy government = constitutional_empire government = cvt_imperial_constitutional } OR = { AND = { GER = { exists = yes NOT = { government = democracy OR = { government = hms_government government = cvg2_north_constitutional government = cvo_constitutional government = cvo_federal government = cvt_ducal_constitutional government = cvt_federation government = cvi_constitutional_monarchy } OR = { government = constitutional_empire government = cvo_constitutional government = cvo_federal government = cvt_imperial_constitutional } } } } AND = { exists = OGE OGE = { exists = yes NOT = { government = democracy OR = { government = hms_government government = cvg2_north_constitutional government = cvo_constitutional government = cvo_federal government = cvt_ducal_constitutional government = cvt_federation government = cvi_constitutional_monarchy } OR = { government = constitutional_empire government = cvo_constitutional government = cvo_federal government = cvt_imperial_constitutional } } } } } } modifier = { factor = 0 OR = { government = proletarian_dictatorship government = fascist_dictatorship } } modifier = { factor = 0.5 OR = { government = presidential_dictatorship government = radical_republic } } modifier = { factor = 0 government = proletarian_dictatorship OR = { AND = { GER = { exists = yes government = fascist_dictatorship } } AND = { exists = OGE OGE = { exists = yes government = fascist_dictatorship } } } } modifier = { factor = 0 government = fascist_dictatorship OR = { AND = { GER = { exists = yes government = proletarian_dictatorship } } AND = { exists = OGE OGE = { exists = yes government = proletarian_dictatorship } } } } } } option = { name = "EVT31515OPTC" clr_country_flag = wants_to_unify set_country_flag = austrian_destiny 624 = { add_core = AUS } 623 = { add_core = AUS } random_country = { limit = { OR = { tag = GER AND = { tag = OGE NOT = { exists = GER } } } } country_event = 31518 } prestige = -10 badboy = -5 any_pop = { limit = { is_culture_group = germanic } scaled_militancy = { issue = jingoism factor = 8 } scaled_militancy = { issue = pacifism factor = -4 } } ai_chance = { factor = 60 modifier = { factor = 1.5 tag = KUK } modifier = { factor = 1.5 tag = AUB } modifier = { factor = 0.5 OR = { AND = { GER = { exists = yes ai = yes } } AND = { exists = OGE OGE = { exists = yes ai = yes } } } } modifier = { factor = 1.5 government = proletarian_dictatorship OR = { AND = { GER = { exists = yes NOT = { government = proletarian_dictatorship } } } AND = { exists = OGE OGE = { exists = yes NOT = { government = proletarian_dictatorship } } } } } modifier = { factor = 1.5 government = fascist_dictatorship OR = { AND = { GER = { exists = yes NOT = { government = fascist_dictatorship } } } AND = { exists = OGE OGE = { exists = yes NOT = { government = fascist_dictatorship } } } } } modifier = { factor = 1.5 OR = { government = presidential_dictatorship government = radical_republic } OR = { AND = { GER = { exists = yes NOT = { OR = { government = presidential_dictatorship government = radical_republic } } } } AND = { exists = OGE OGE = { exists = yes NOT = { OR = { government = presidential_dictatorship government = radical_republic } } } } } } modifier = { factor = 1.5 OR = { government = democracy government = hms_government government = cvg2_north_constitutional government = cvo_constitutional government = cvo_federal government = cvt_ducal_constitutional government = cvt_federation government = cvi_constitutional_monarchy government = constitutional_empire government = cvt_imperial_constitutional } OR = { AND = { GER = { exists = yes NOT = { OR = { government = democracy government = hms_government government = cvg2_north_constitutional government = cvo_constitutional government = cvo_federal government = cvt_ducal_constitutional government = cvt_federation government = cvi_constitutional_monarchy government = constitutional_empire government = cvt_imperial_constitutional } } } } AND = { exists = OGE OGE = { exists = yes NOT = { OR = { government = democracy government = hms_government government = cvg2_north_constitutional government = cvo_constitutional government = cvo_federal government = cvt_ducal_constitutional government = cvt_federation government = cvi_constitutional_monarchy government = constitutional_empire government = cvt_imperial_constitutional } } } } } } modifier = { factor = 1.5 OR = { government = absolute_monarchy government = cvg2_north_absolute government = cvo_absolute government = cvi_absolute_monarchy government = prussian_constitutionalism government = cvg2_north_semi government = cvo_semi government = cvi_semi_monarchy } } } } } country_event = { id = 31516 title = "EVTNAME31516" desc = "EVTDESC31516" picture = "threehurrahs" major = yes news = yes news_desc_long = "EVTDESC31531_NEWS_LONG" news_desc_medium = "EVTDESC31531_NEWS_MEDIUM" news_desc_short = "EVTDESC31531_NEWS_SHORT" is_triggered_only = yes option = { name = "EVT31516OPTA" badboy = 40 random_country = { limit = { OR = { tag = KUK tag = AUB tag = FROM } } all_core = { limit = { is_core = HUN } limit = { is_core = BOH } remove_core = KUK remove_core = AUB } } FROM = { all_core = { limit = { NOT = { is_core = HUN } NOT = { is_core = CRO } } add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 689 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 770 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 778 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 2584 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } } random_country = { limit = { OR = { tag = KUK tag = AUB tag = FROM } } all_core = { add_core = AUS } } inherit = FROM any_country = { limit = { is_greater_power = yes capital_scope = { continent = europe } } leave_alliance = THIS relation = { who = THIS value = -100 } casus_belli = { target = THIS type = free_peoples months = 60 } } any_owned = { limit = { OR = { is_core = HUN is_core = POL is_core = ROM is_core = CRO is_core = VEN is_core = LOM is_core = SER is_core = BOH } } any_pop = { limit = { is_primary_culture = no is_accepted_culture = no } militancy = 4 } add_province_modifier = { name = nationalist_agitation duration = 1095 } } ai_chance = { factor = 0 } } option = { name = "EVT31516OPTB" badboy = 20 FROM = { all_core = { limit = { NOT = { is_core = HUN } NOT = { is_core = CRO } } add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 689 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 770 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 778 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 2584 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } } any_country = { limit = { is_greater_power = yes capital_scope = { continent = europe } } relation = { who = THIS value = -50 } } FROM = { country_event = 315201 } ai_chance = { factor = 40 modifier = { factor = 0.5 OR = { government = presidential_dictatorship government = radical_republic } } modifier = { factor = 0 OR = { government = democracy government = hms_government government = cvg2_north_constitutional government = cvo_constitutional government = cvo_federal government = cvt_ducal_constitutional government = cvt_federation government = cvi_constitutional_monarchy government = constitutional_empire government = cvt_imperial_constitutional } } modifier = { factor = 0.1 badboy = 0.2 } } } option = { name = "EVT31516OPTC" FROM = { clr_country_flag = wants_to_unify } prestige = -25 badboy = -5 relation = { who = FROM value = -50 } any_pop = { limit = { is_culture_group = germanic } scaled_militancy = { issue = jingoism factor = 8 } scaled_militancy = { issue = pacifism factor = -4 } } ai_chance = { factor = 60 modifier = { factor = 0.5 war_policy = jingoism } modifier = { factor = 2 OR = { war_policy = anti_military war_policy = pacifism } } modifier = { factor = 0 OR = { government = proletarian_dictatorship government = fascist_dictatorship } } } } } country_event = { id = 31517 title = "EVTNAME31512" desc = "EVTDESC31517" is_triggered_only = yes option = { name = "EVT31511OPTA" random_country = { limit = { OR = { tag = GER AND = { tag = OGE NOT = { exists = GER } } } } any_owned = { limit = { NOT = { is_core = GER } is_core = THIS } remove_core = AUS secede_province = THIS } prestige = -5 diplomatic_influence = { who = THIS value = 200 } relation = { who = THIS value = 100 } } any_country = { limit = { is_greater_power = yes OR = { neighbour = THIS OR = { is_culture_group = THIS AND = { is_culture_group = germanic THIS = { OR = { tag = OGE AND = { tag = NET has_country_flag = cvg2_north } } } } } tag = FRA tag = BOR tag = RUS tag = ENG } } diplomatic_influence = { who = THIS value = 100 } } prestige = -100 any_pop = { limit = { is_primary_culture = yes } consciousness = -3 militancy = -6 } any_pop = { limit = { is_culture_group = germanic } militancy = 4 } random_owned = { limit = { OR = { AND = { GER = { exists = yes has_country_flag = monarchy_government } } AND = { exists = OGE OGE = { exists = yes has_country_flag = monarchy_government } } } } owner = { government = absolute_monarchy } } random_owned = { limit = { OR = { AND = { GER = { exists = yes NOT = { has_country_flag = monarchy_government } } } AND = { exists = OGE OGE = { exists = yes NOT = { has_country_flag = monarchy_government } } } } } owner = { government = democracy } } } } country_event = { id = 3151701 title = "EVTNAME31512" desc = "EVTDESC31517" is_triggered_only = yes option = { name = "EVT31511OPTA" random_country = { limit = { OR = { tag = GER AND = { tag = OGE NOT = { exists = GER } } } } any_owned = { limit = { NOT = { is_core = GER } NOT = { is_core = HUN } NOT = { is_core = DLM } is_core = THIS } remove_core = AUS secede_province = THIS } prestige = -5 diplomatic_influence = { who = THIS value = 200 } relation = { who = THIS value = 100 } } any_country = { limit = { is_greater_power = yes OR = { neighbour = THIS OR = { is_culture_group = THIS AND = { is_culture_group = germanic THIS = { OR = { tag = OGE AND = { tag = NET has_country_flag = cvg2_north } } } } } tag = FRA tag = BOR tag = RUS tag = ENG } } diplomatic_influence = { who = THIS value = 100 } } prestige = -100 any_pop = { limit = { is_primary_culture = yes } consciousness = -3 militancy = -6 } any_pop = { limit = { is_culture_group = germanic } militancy = 4 } random_owned = { limit = { OR = { AND = { GER = { exists = yes has_country_flag = monarchy_government } } AND = { exists = OGE OGE = { exists = yes has_country_flag = monarchy_government } } } } owner = { government = absolute_monarchy } } random_owned = { limit = { OR = { AND = { GER = { exists = yes NOT = { has_country_flag = monarchy_government } } } AND = { exists = OGE OGE = { exists = yes NOT = { has_country_flag = monarchy_government } } } } } owner = { government = democracy } } } } country_event = { id = 315171 title = "EVTNAME31512" desc = "EVTDESC31517" is_triggered_only = yes option = { name = "EVT31511OPTA" random_country = { limit = { OR = { tag = AUS tag = AUB tag = KUK } exists = yes } any_owned = { limit = { NOT = { is_core = GER } is_core = THIS } secede_province = THIS } } random_country = { limit = { OR = { tag = GER AND = { tag = OGE NOT = { exists = GER } } } } any_owned = { limit = { NOT = { is_core = GER } is_core = THIS } remove_core = AUS secede_province = THIS } prestige = -5 diplomatic_influence = { who = THIS value = 200 } relation = { who = THIS value = 100 } } any_country = { limit = { is_greater_power = yes OR = { neighbour = THIS OR = { is_culture_group = THIS AND = { is_culture_group = germanic THIS = { OR = { tag = OGE AND = { tag = NET has_country_flag = cvg2_north } } } } } tag = FRA tag = BOR tag = RUS tag = ENG } } diplomatic_influence = { who = THIS value = 100 } } prestige = -100 any_pop = { limit = { is_primary_culture = yes } consciousness = -3 militancy = -6 } any_pop = { limit = { is_culture_group = germanic } militancy = 4 } } } country_event = { id = 315172 title = "We have gained non-German Land from Austria" desc = "Due to Austria's accession to Germany, it has decided to cede some of its non-German lands to us." is_triggered_only = yes option = { name = "EVT31511OPTA" random_country = { limit = { OR = { tag = GER AND = { tag = OGE NOT = { exists = GER } } } } any_owned = { limit = { NOT = { is_core = GER } is_core = THIS } remove_core = AUS secede_province = THIS } prestige = -5 diplomatic_influence = { who = THIS value = 200 } relation = { who = THIS value = 100 } } any_pop = { limit = { is_primary_culture = yes } consciousness = -3 militancy = -6 } any_pop = { limit = { is_culture_group = germanic } militancy = 4 } } } country_event = { id = 3151721 title = "We have gained non-German Land from Austria" desc = "Due to Austria's accession to Germany, it has decided to cede some of its non-German lands to us." is_triggered_only = yes option = { name = "EVT31511OPTA" random_country = { limit = { OR = { tag = GER AND = { tag = OGE NOT = { exists = GER } } } } any_owned = { limit = { NOT = { is_core = GER } NOT = { is_core = HUN } NOT = { is_core = DLM } is_core = THIS } remove_core = AUS secede_province = THIS } prestige = -5 diplomatic_influence = { who = THIS value = 200 } relation = { who = THIS value = 100 } } any_pop = { limit = { is_primary_culture = yes } consciousness = -3 militancy = -6 } any_pop = { limit = { is_culture_group = germanic } militancy = 4 } } } country_event = { id = 31518 title = "EVTNAME31518" desc = "EVTDESC31518" picture = "threehurrahs" major = yes news = yes news_desc_long = "EVTDESC31518_NEWS_LONG" news_desc_medium = "EVTDESC31518_NEWS_MEDIUM" news_desc_short = "EVTDESC31518_NEWS_SHORT" is_triggered_only = yes option = { name = "Greater Germany is our destiny. §RGain 20 infamy§W" badboy = 20 set_global_flag = austrian_refused_unification diplomatic_influence = { who = FROM value = -400 } relation = { who = FROM value = -400 } remove_country_modifier = prussian_general_staff AUS_626 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 688 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } AUS_625 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 689 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 2584 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } AUS_613 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } AUS_612 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } AUS_624 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } AUS_619 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } AUS_734 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } AUS_736 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } AUS_768 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 689 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 770 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 778 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 2584 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } add_casus_belli = { target = FROM type = humiliate months = 60 } casus_belli = { target = FROM type = conquest months = 60 } any_country = { limit = { is_greater_power = yes capital_scope = { continent = europe } } leave_alliance = THIS relation = { who = THIS value = -200 } casus_belli = { target = THIS type = cut_down_to_size months = 60 } casus_belli = { target = THIS type = free_peoples months = 60 } } ai_chance = { factor = 30 modifier = { factor = 1.5 OR = { government = presidential_dictatorship government = radical_republic } } modifier = { factor = 0 OR = { government = democracy government = hms_government government = cvg2_north_constitutional government = cvo_constitutional government = cvo_federal government = cvt_ducal_constitutional government = cvt_federation government = cvi_constitutional_monarchy government = constitutional_empire government = cvt_imperial_constitutional } } modifier = { factor = 0.1 badboy = 0.2 } } } option = { name = "EVT31518OPTB" prestige = -25 badboy = -5 relation = { who = FROM value = 50 } any_pop = { limit = { is_culture_group = germanic } scaled_militancy = { issue = jingoism factor = 8 } scaled_militancy = { issue = pacifism factor = -4 } } ai_chance = { factor = 70 modifier = { factor = 0.5 war_policy = jingoism } modifier = { factor = 1.5 OR = { war_policy = anti_military war_policy = pacifism } } modifier = { factor = 0 OR = { government = proletarian_dictatorship government = fascist_dictatorship } } modifier = { factor = 0.5 OR = { government = presidential_dictatorship government = radical_republic } } } } } country_event = { id = 31519 title = "EVTNAME31516" desc = "EVTDESC31519" picture = "annexation" major = yes is_triggered_only = yes option = { name = "EVT31519OPTA" prestige = 10 badboy = 20 set_global_flag = austria_joined_germany remove_country_modifier = prussian_general_staff FROM = { all_core = { limit = { NOT = { is_core = HUN } NOT = { is_core = CRO } } add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 689 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 770 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 778 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } 2584 = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } } FROM = { country_event = 315201 } any_country = { limit = { is_greater_power = yes capital_scope = { continent = europe } } relation = { who = THIS value = -50 } casus_belli = { target = THIS type = free_peoples months = 60 } casus_belli = { target = THIS type = cut_down_to_size months = 60 } } ai_chance = { factor = 90 modifier = { factor = 0 OR = { government = proletarian_dictatorship government = fascist_dictatorship } } modifier = { factor = 0.5 OR = { government = presidential_dictatorship government = radical_republic } } modifier = { factor = 0 badboy = 0.2 } } } option = { name = "EVT31519OPTB" FROM = { clr_country_flag = wants_to_unify } prestige = -25 badboy = -5 relation = { who = FROM value = -50 } any_pop = { limit = { is_culture_group = germanic } scaled_militancy = { issue = jingoism factor = 8 } scaled_militancy = { issue = pacifism factor = -4 } } ai_chance = { factor = 10 modifier = { factor = 0.5 war_policy = jingoism } modifier = { factor = 1.5 OR = { war_policy = anti_military war_policy = pacifism } } modifier = { factor = 1.5 OR = { government = democracy government = hms_government government = cvg2_north_constitutional government = cvo_constitutional government = cvo_federal government = cvt_ducal_constitutional government = cvt_federation government = cvi_constitutional_monarchy government = constitutional_empire government = cvt_imperial_constitutional } } } } } country_event = { id = 315201 title = "Germany considers the Fate of non-German lands" desc = "With the Austro-German unification becoming complete, the new nation must decide what to do with the Austrian non-German lands, primarily Hungary." picture = "threehurrahs" major = yes is_triggered_only = yes option = { name = "We anxiously await the results." FROM = { country_event = 315202 } } } country_event = { id = 315202 title = "The Fate of non-German Lands" desc = "With the Austro-German unification becoming complete, we must decide what to do with the Austrian non-German lands, primarily Hungary." picture = "aus_ethnic" is_triggered_only = yes option = { name = "Hungary shall receive all the non-German lands." FROM = { country_event = 3152001 } ai_chance = { factor = 1 } } option = { name = "The Kingdom of Hungary shall receive most of the land." FROM = { country_event = 3152002 } ai_chance = { factor = 5 } } option = { name = "The size of Hungary shall be reduced so that it won't have the strength to turn against us." FROM = { country_event = 3152003 } ai_chance = { factor = 3 } } option = { name = "We must divide the newly created states as much as possible." FROM = { country_event = 3152004 } ai_chance = { factor = 1 } } } country_event = { id = 3152001 title = "EVTNAME31520" desc = "EVTDESC31520" picture = "threehurrahs" news = yes news_title = "EVTNAME31520_NEWS_TITLE" news_desc_long = "EVTDESC31520_NEWS_LONG" news_desc_medium = "EVTDESC31520_NEWS_MEDIUM" news_desc_short = "EVTDESC31520_NEWS_SHORT" is_triggered_only = yes option = { name = "Hungary shall receive all the non-German lands." random_owned = { limit = { owner = { OR = { tag = KUK tag = AUB } } } owner = { all_core = { limit = { NOT = { is_core = HUN } } limit = { NOT = { is_core = POL } } limit = { NOT = { is_core = CRO } } add_core = AUS } all_core = { remove_core = KUK } all_core = { remove_core = AUB } } } random_owned = { limit = { owner = { LOM = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = LOM NOT = { is_core = GER } NOT = { is_core = HUN } NOT = { is_core = DLM } is_colonial = no } secede_province = LOM } random_country = { limit = { tag = LOM exists = yes } country_event = 3151701 } } } random_owned = { limit = { owner = { LOM = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = LOM NOT = { is_core = GER } NOT = { is_core = HUN } NOT = { is_core = DLM } is_colonial = no } secede_province = LOM } random_country = { limit = { tag = LOM exists = yes } country_event = 3151721 } } } random_owned = { limit = { owner = { VEN = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = VEN NOT = { is_core = GER } NOT = { is_core = HUN } NOT = { is_core = DLM } is_colonial = no } secede_province = VEN } random_country = { limit = { tag = VEN exists = yes } country_event = 315171 } } } random_owned = { limit = { owner = { VEN = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = VEN NOT = { is_core = GER } NOT = { is_core = HUN } NOT = { is_core = DLM } is_colonial = no } secede_province = VEN } random_country = { limit = { tag = VEN exists = yes } country_event = 3151721 } } } random_owned = { limit = { owner = { TUS = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = TUS NOT = { is_core = GER } is_colonial = no } secede_province = TUS } random_country = { limit = { tag = TUS exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { TUS = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = TUS NOT = { is_core = GER } is_colonial = no } secede_province = TUS } random_country = { limit = { tag = TUS exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { PAR = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = PAR NOT = { is_core = GER } is_colonial = no } secede_province = PAR } random_country = { limit = { tag = PAR exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { PAR = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = PAR NOT = { is_core = GER } is_colonial = no } secede_province = PAR } random_country = { limit = { tag = PAR exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { LUC = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = LUC NOT = { is_core = GER } is_colonial = no } secede_province = LUC } random_country = { limit = { tag = LUC exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { LUC = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = LUC NOT = { is_core = GER } is_colonial = no } secede_province = LUC } random_country = { limit = { tag = LUC exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { MOD = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = MOD NOT = { is_core = GER } is_colonial = no } secede_province = MOD } random_country = { limit = { tag = MOD exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { MOD = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = MOD NOT = { is_core = GER } is_colonial = no } secede_province = MOD } random_country = { limit = { tag = MOD exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { SAR = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = SAR NOT = { is_core = GER } is_colonial = no } secede_province = SAR } random_country = { limit = { tag = SAR exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { SAR = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = SAR NOT = { is_core = GER } is_colonial = no } secede_province = SAR } random_country = { limit = { tag = SAR exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { SIC = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = SIC NOT = { is_core = GER } is_colonial = no } secede_province = SIC } random_country = { limit = { tag = SIC exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { SIC = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = SIC NOT = { is_core = GER } is_colonial = no } secede_province = SIC } random_country = { limit = { tag = SIC exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { PAP = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = PAP NOT = { is_core = GER } is_colonial = no } secede_province = PAP } random_country = { limit = { tag = PAP exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { PAP = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = PAP NOT = { is_core = GER } is_colonial = no } secede_province = PAP } random_country = { limit = { tag = PAP exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { HUN = { exists = no } } } owner = { any_owned = { limit = { NOT = { is_core = GER } is_colonial = no } secede_province = HUN } random_country = { limit = { tag = HUN exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { HUN = { exists = yes } } } owner = { any_owned = { limit = { NOT = { is_core = GER } is_colonial = no } secede_province = HUN } random_country = { limit = { tag = HUN exists = yes } country_event = 315172 } } } random_country = { limit = { OR = { tag = GER AND = { tag = OGE NOT = { exists = GER } } } } inherit = THIS } } } country_event = { id = 3152002 title = "EVTNAME31520" desc = "EVTDESC31520" picture = "threehurrahs" news = yes news_title = "EVTNAME31520_NEWS_TITLE" news_desc_long = "EVTDESC31520_NEWS_LONG" news_desc_medium = "EVTDESC31520_NEWS_MEDIUM" news_desc_short = "EVTDESC31520_NEWS_SHORT" is_triggered_only = yes option = { name = "The Kingdom of Hungary shall receive most of the land." random_owned = { limit = { owner = { OR = { tag = KUK tag = AUB } } } owner = { all_core = { limit = { NOT = { is_core = HUN } } limit = { NOT = { is_core = POL } } limit = { NOT = { is_core = CRO } } add_core = AUS } all_core = { remove_core = KUK } all_core = { remove_core = AUB } } } random_owned = { limit = { owner = { owns = 953 owns = 662 owns = 663 } } owner = { 662 = { add_core = GLM } 663 = { add_core = GLM } } } random_owned = { limit = { owner = { HUN = { exists = no } } } owner = { any_owned = { limit = { is_core = HUN NOT = { is_core = GER } is_colonial = no } secede_province = HUN } random_country = { limit = { tag = HUN exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { HUN = { exists = yes } } } owner = { any_owned = { limit = { is_core = HUN NOT = { is_core = GER } is_colonial = no } secede_province = HUN } random_country = { limit = { tag = HUN exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { DLM = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = DLM NOT = { is_core = GER } is_colonial = no } secede_province = DLM } random_country = { limit = { tag = DLM exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { DLM = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = DLM NOT = { is_core = GER } is_colonial = no } secede_province = DLM } random_country = { limit = { tag = DLM exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { GLM = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = GLM NOT = { is_core = GER } is_colonial = no } secede_province = GLM } random_country = { limit = { tag = GLM exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { GLM = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = GLM NOT = { is_core = GER } is_colonial = no } secede_province = GLM } random_country = { limit = { tag = GLM exists = yes } country_event = 315172 } } } any_country = { limit = { NOT = { OR = { is_culture_group = germanic AND = { OR = { tag = OGE AND = { tag = NET has_country_flag = cvg2_north } } } } } NOT = { tag = BOH } NOT = { tag = MRV } NOT = { tag = SLV } any_core = { owned_by = THIS NOT = { is_core = GER } is_colonial = no } exists = no AND = { is_cultural_union = no NOT = { tag = OGE } } NOT = { tag = OGE AND = { tag = NET has_country_flag = cvo_federation } } } country_event = 31517 } random_country = { limit = { OR = { tag = GER AND = { tag = OGE NOT = { exists = GER } } } } inherit = THIS } } } country_event = { id = 3152003 title = "EVTNAME31520" desc = "EVTDESC31520" picture = "threehurrahs" news = yes news_title = "EVTNAME31520_NEWS_TITLE" news_desc_long = "EVTDESC31520_NEWS_LONG" news_desc_medium = "EVTDESC31520_NEWS_MEDIUM" news_desc_short = "EVTDESC31520_NEWS_SHORT" is_triggered_only = yes option = { name = "The size of Hungary shall be reduced so that it won't have the strength to turn against us." 3289 = { remove_core = CRO } random_owned = { limit = { owner = { OR = { tag = KUK tag = AUB } } } owner = { all_core = { limit = { NOT = { is_core = HUN } } limit = { NOT = { is_core = POL } } limit = { NOT = { is_core = CRO } } add_core = AUS } all_core = { remove_core = KUK } all_core = { remove_core = AUB } } } random_owned = { limit = { owner = { owns = 953 owns = 662 owns = 663 } } owner = { 662 = { add_core = GLM } 663 = { add_core = GLM } } } random_owned = { limit = { owner = { owns = 3283 owns = 3330 } } owner = { 3330 = { add_core = CRO } 2538 = { add_core = CRO } 791 = { add_core = CRO } } } random_owned = { limit = { owner = { CRO = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = CRO NOT = { is_core = GER } is_colonial = no } secede_province = CRO } random_country = { limit = { tag = CRO exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { CRO = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = CRO NOT = { is_core = GER } is_colonial = no } secede_province = CRO } random_country = { limit = { tag = CRO exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { SIE = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = SIE NOT = { is_core = GER } is_colonial = no } secede_province = SIE } random_country = { limit = { tag = SIE exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { SIE = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = SIE NOT = { is_core = GER } is_colonial = no } secede_province = SIE } random_country = { limit = { tag = SIE exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { owns = 638 owns = 950 } } owner = { 950 = { add_core = SLV } 3673 = { add_core = SLV } 3332 = { add_core = SLV } } } random_owned = { limit = { owner = { SLV = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = SLV NOT = { is_core = GER } is_colonial = no } secede_province = SLV } random_country = { limit = { tag = SLV exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { SLV = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = SLV NOT = { is_core = GER } is_colonial = no } secede_province = SLV } random_country = { limit = { tag = SLV exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { GLM = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = GLM NOT = { is_core = GER } is_colonial = no } secede_province = GLM } random_country = { limit = { tag = GLM exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { GLM = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = GLM NOT = { is_core = GER } is_colonial = no } secede_province = GLM } random_country = { limit = { tag = GLM exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { HUN = { exists = no } } } owner = { any_owned = { limit = { is_core = HUN NOT = { is_core = GER } is_colonial = no } secede_province = HUN } random_country = { limit = { tag = HUN exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { HUN = { exists = yes } } } owner = { any_owned = { limit = { is_core = HUN NOT = { is_core = GER } is_colonial = no } secede_province = HUN } random_country = { limit = { tag = HUN exists = yes } country_event = 315172 } } } any_country = { limit = { NOT = { OR = { is_culture_group = germanic AND = { OR = { tag = OGE AND = { tag = NET has_country_flag = cvg2_north } } } } } NOT = { tag = BOH } NOT = { tag = MRV } NOT = { tag = SLV } any_core = { owned_by = THIS NOT = { is_core = GER } is_colonial = no } exists = no AND = { is_cultural_union = no NOT = { tag = OGE } } NOT = { tag = OGE AND = { tag = NET has_country_flag = cvo_federation } } } country_event = 31517 } random_country = { limit = { OR = { tag = GER AND = { tag = OGE NOT = { exists = GER } } } } inherit = THIS } 3289 = { add_core = CRO } } } country_event = { id = 3152004 title = "EVTNAME31520" desc = "EVTDESC31520" picture = "threehurrahs" news = yes news_title = "EVTNAME31520_NEWS_TITLE" news_desc_long = "EVTDESC31520_NEWS_LONG" news_desc_medium = "EVTDESC31520_NEWS_MEDIUM" news_desc_short = "EVTDESC31520_NEWS_SHORT" is_triggered_only = yes option = { name = "We must divide the newly created states as much as possible." 3289 = { remove_core = CRO } random_owned = { limit = { owner = { OR = { tag = KUK tag = AUB } } } owner = { all_core = { limit = { NOT = { is_core = HUN } } limit = { NOT = { is_core = POL } } limit = { NOT = { is_core = CRO } } add_core = AUS } all_core = { remove_core = KUK } all_core = { remove_core = AUB } } } random_owned = { limit = { owner = { SZK = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = SZK NOT = { is_core = GER } is_colonial = no } secede_province = SZK } random_country = { limit = { tag = SZK exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { SZK = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = SZK NOT = { is_core = GER } is_colonial = no } secede_province = SZK } random_country = { limit = { tag = SZK exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { BKV = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = BKV NOT = { is_core = GER } is_colonial = no } secede_province = BKV } random_country = { limit = { tag = BKV exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { BKV = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = BKV NOT = { is_core = GER } is_colonial = no } secede_province = BKV } random_country = { limit = { tag = BKV exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { owns = 3331 owns = 3330 } } owner = { 3330 = { add_core = BAN } 2538 = { add_core = BAN } 791 = { add_core = BAN } } } random_owned = { limit = { owner = { BAN = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = BAN NOT = { is_core = GER } is_colonial = no } secede_province = BAN } random_country = { limit = { tag = BAN exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { BAN = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = BAN NOT = { is_core = GER } is_colonial = no } secede_province = BAN } random_country = { limit = { tag = BAN exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { DLM = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = DLM NOT = { is_core = GER } is_colonial = no } secede_province = DLM } random_country = { limit = { tag = DLM exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { DLM = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = DLM NOT = { is_core = GER } is_colonial = no } secede_province = DLM } random_country = { limit = { tag = DLM exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { RUT = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = RUT NOT = { is_core = GER } is_colonial = no } secede_province = RUT } random_country = { limit = { tag = RUT exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { RUT = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = RUT NOT = { is_core = GER } is_colonial = no } secede_province = RUT } random_country = { limit = { tag = RUT exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { owns = 3283 owns = 3330 } } owner = { 3330 = { add_core = CRO } 2538 = { add_core = CRO } 791 = { add_core = CRO } } } random_owned = { limit = { owner = { CRO = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = CRO NOT = { is_core = GER } is_colonial = no } secede_province = CRO } random_country = { limit = { tag = CRO exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { CRO = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = CRO NOT = { is_core = GER } is_colonial = no } secede_province = CRO } random_country = { limit = { tag = CRO exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { SIE = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = SIE NOT = { is_core = GER } is_colonial = no } secede_province = SIE } random_country = { limit = { tag = SIE exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { SIE = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = SIE NOT = { is_core = GER } is_colonial = no } secede_province = SIE } random_country = { limit = { tag = SIE exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { SLV = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = SLV NOT = { is_core = GER } is_colonial = no } secede_province = SLV } random_country = { limit = { tag = SLV exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { SLV = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = SLV NOT = { is_core = GER } is_colonial = no } secede_province = SLV } random_country = { limit = { tag = SLV exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { GLM = { exists = no any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = GLM NOT = { is_core = GER } is_colonial = no } secede_province = GLM } random_country = { limit = { tag = GLM exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { GLM = { exists = yes any_core = { owned_by = THIS } } } } owner = { any_owned = { limit = { is_core = GLM NOT = { is_core = GER } is_colonial = no } secede_province = GLM } random_country = { limit = { tag = GLM exists = yes } country_event = 315172 } } } random_owned = { limit = { owner = { HUN = { exists = no } } } owner = { any_owned = { limit = { is_core = HUN NOT = { is_core = GER } is_colonial = no } secede_province = HUN } random_country = { limit = { tag = HUN exists = yes } country_event = 31517 } } } random_owned = { limit = { owner = { HUN = { exists = yes } } } owner = { any_owned = { limit = { is_core = HUN NOT = { is_core = GER } is_colonial = no } secede_province = HUN } random_country = { limit = { tag = HUN exists = yes } country_event = 315172 } } } any_country = { limit = { NOT = { OR = { is_culture_group = germanic AND = { OR = { tag = OGE AND = { tag = NET has_country_flag = cvg2_north } } } } } NOT = { tag = BOH } NOT = { tag = MRV } NOT = { tag = SLV } any_core = { owned_by = THIS NOT = { is_core = GER } is_colonial = no } exists = no AND = { is_cultural_union = no NOT = { tag = OGE } } NOT = { tag = OGE AND = { tag = NET has_country_flag = cvo_federation } } } country_event = 31517 } random_country = { limit = { OR = { tag = GER AND = { tag = OGE NOT = { exists = GER } } } } inherit = THIS } 3289 = { add_core = CRO } } } country_event = { id = 31521 title = "EVTNAME31521" desc = "EVTDESC31521" picture = "austria_is_no_more" major = yes news = yes news_desc_long = "EVTDESC31521_NEWS_LONG" news_desc_medium = "EVTDESC31521_NEWS_MEDIUM" news_desc_short = "EVTDESC31521_NEWS_SHORT" trigger = { OR = { tag = AUS tag = AUB tag = KUK } NOT = { has_country_flag = austria_dissolved owns = 619 owns = 612 owns = 616 } ai = yes } mean_time_to_happen = { days = 7 } option = { name = "EVT31521OPTA" set_country_flag = austria_dissolved prestige = -25 all_core = { limit = { NOT = { region = AUS_619 region = AUS_612 region = AUS_613 region = AUS_734 } } remove_core = THIS } random_owned = { limit = { owner = { OR = { tag = KUK tag = AUB } } } owner = { all_core = { add_core = AUS remove_core = KUK remove_core = AUB } } } any_country = { limit = { vassal_of = THIS } leave_alliance = THIS country_event = 31523 } any_country = { limit = { neighbour = THIS exists = yes any_core = { owned_by = THIS } } country_event = 31522 } any_country = { limit = { any_core = { owned_by = THIS } exists = no AND = { is_cultural_union = no NOT = { tag = OGE } } } country_event = 31526 } } } country_event = { id = 31522 title = "EVTNAME31522" desc = "EVTDESC31522" picture = "treaty" is_triggered_only = yes option = { name = "EVT31522OPTA" FROM = { any_owned = { limit = { is_core = THIS } secede_province = THIS } } } } country_event = { id = 31523 title = "EVTNAME31522" desc = "EVTDESC31523" picture = "treaty" is_triggered_only = yes option = { name = "EVT31523OPTA" FROM = { release_vassal = THIS } } } country_event = { id = 31526 title = "EVTNAME31512" desc = "EVTDESC31526" picture = "celebration" is_triggered_only = yes option = { name = "EVT31523OPTA" FROM = { any_owned = { limit = { is_core = THIS } secede_province = THIS } } any_country = { limit = { is_greater_power = yes OR = { neighbour = THIS OR = { is_culture_group = THIS AND = { is_culture_group = germanic THIS = { OR = { tag = OGE AND = { tag = NET has_country_flag = cvg2_north } } } } } tag = FRA tag = BOR tag = RUS tag = ENG } } diplomatic_influence = { who = THIS value = 100 } } } } country_event = { id = 31530 title = "EVTNAME31515" desc = "EVTDESC31530" picture = "greatpowers" trigger = { tag = AUS OR = { AND = { GER = { war = no exists = yes is_sphere_leader_of = THIS } } AND = { exists = OGE OGE = { war = no exists = yes is_sphere_leader_of = THIS } } } NOT = { any_owned_province = { NOT = { OR = { is_core = AUS is_core = GER is_colonial = yes } } } } OR = { is_vassal = no OR = { vassal_of = GER AND = { vassal_of = OGE } } } is_greater_power = no war = no NOT = { has_country_flag = austrian_destiny } } mean_time_to_happen = { months = 6 } option = { name = "EVT31530OPTA" set_country_flag = wants_to_unify set_country_flag = austrian_destiny random_country = { limit = { OR = { tag = GER AND = { tag = OGE NOT = { exists = GER } } } } country_event = 31531 } any_pop = { limit = { is_primary_culture = no is_accepted_culture = no } consciousness = 6 militancy = 6 } ai_chance = { factor = 75 modifier = { factor = 0.75 rank = 16 } modifier = { factor = 2 OR = { OR = { alliance_with = GER AND = { alliance_with = OGE } } OR = { AND = { NOT = { exists = OGE } relation = { who = GER value = 100 } } AND = { exists = OGE relation = { who = OGE value = 100 } } } } } modifier = { factor = 3 government = proletarian_dictatorship OR = { AND = { GER = { exists = yes government = proletarian_dictatorship } } AND = { exists = OGE OGE = { exists = yes government = proletarian_dictatorship } } } } modifier = { factor = 0 government = proletarian_dictatorship OR = { AND = { GER = { exists = yes government = fascist_dictatorship } } AND = { exists = OGE OGE = { exists = yes government = fascist_dictatorship } } } } modifier = { factor = 3 government = fascist_dictatorship OR = { AND = { GER = { exists = yes government = fascist_dictatorship } } AND = { exists = OGE OGE = { exists = yes government = fascist_dictatorship } } } } modifier = { factor = 0 government = fascist_dictatorship OR = { AND = { GER = { exists = yes government = proletarian_dictatorship } } AND = { exists = OGE OGE = { exists = yes government = proletarian_dictatorship } } } } } } option = { name = "EVT31515OPTC" clr_country_flag = wants_to_unify set_country_flag = austrian_destiny random_country = { limit = { OR = { tag = GER AND = { tag = OGE NOT = { exists = GER } } } } country_event = 31518 } prestige = -10 badboy = -5 any_pop = { limit = { is_culture_group = germanic } scaled_militancy = { issue = jingoism factor = 8 } scaled_militancy = { issue = pacifism factor = -4 } } ai_chance = { factor = 25 modifier = { factor = 0.75 NOT = { rank = 16 } } modifier = { factor = 1.5 OR = { truce_with = GER AND = { truce_with = OGE } } } modifier = { factor = 1.5 NOT = { OR = { AND = { NOT = { exists = OGE } relation = { who = GER value = 0 } } AND = { exists = OGE relation = { who = OGE value = 0 } } } } } modifier = { factor = 0.25 government = fascist_dictatorship OR = { AND = { GER = { exists = yes government = fascist_dictatorship } } AND = { exists = OGE OGE = { exists = yes government = fascist_dictatorship } } } } modifier = { factor = 0.25 government = proletarian_dictatorship OR = { AND = { GER = { exists = yes government = proletarian_dictatorship } } AND = { exists = OGE OGE = { exists = yes government = proletarian_dictatorship } } } } modifier = { factor = 0.25 OR = { government = democracy government = prussian_constitutionalism government = cvg2_north_semi government = cvo_semi government = cvi_semi_monarchy government = hms_government government = cvg2_north_constitutional government = cvo_constitutional government = cvo_federal government = cvt_ducal_constitutional government = cvt_federation government = cvi_constitutional_monarchy government = constitutional_empire government = cvt_imperial_constitutional government = semi_constitutional_empire government = cvt_imperial_semi } OR = { AND = { GER = { exists = yes OR = { government = democracy government = prussian_constitutionalism government = cvg2_north_semi government = cvo_semi government = cvi_semi_monarchy government = hms_government government = cvg2_north_constitutional government = cvo_constitutional government = cvo_federal government = cvt_ducal_constitutional government = cvt_federation government = cvi_constitutional_monarchy government = constitutional_empire government = cvt_imperial_constitutional government = semi_constitutional_empire government = cvt_imperial_semi } } } AND = { exists = OGE OGE = { exists = yes OR = { government = democracy government = prussian_constitutionalism government = cvg2_north_semi government = cvo_semi government = cvi_semi_monarchy government = hms_government government = cvg2_north_constitutional government = cvo_constitutional government = cvo_federal government = cvt_ducal_constitutional government = cvt_federation government = cvi_constitutional_monarchy government = constitutional_empire government = cvt_imperial_constitutional government = semi_constitutional_empire government = cvt_imperial_semi } } } } } } } } country_event = { id = 31531 title = "EVTNAME31516" desc = "EVTDESC31531" picture = "threehurrahs" major = yes news = yes news_desc_long = "EVTDESC31531_NEWS_LONG" news_desc_medium = "EVTDESC31531_NEWS_MEDIUM" news_desc_short = "EVTDESC31531_NEWS_SHORT" is_triggered_only = yes option = { name = "EVT31518OPTA" badboy = 10 FROM = { all_core = { add_core = GER random_country = { limit = { tag = OGE } PREV = { add_core = OGE } } } } inherit = FROM any_country = { limit = { is_greater_power = yes capital_scope = { continent = europe } OR = { tag = FRA tag = BOR tag = RUS NOT = { relation = { who = THIS value = 0 } } } } leave_alliance = THIS relation = { who = THIS value = -50 } casus_belli = { target = THIS type = cut_down_to_size months = 60 } } ai_chance = { factor = 95 modifier = { factor = 0 badboy = 0.6 NOT = { government = fascist_dictatorship } NOT = { government = proletarian_dictatorship } } } } option = { name = "EVT31531OPTA" FROM = { clr_country_flag = wants_to_unify } prestige = -25 badboy = -5 relation = { who = FROM value = -50 } any_pop = { limit = { is_culture_group = germanic } scaled_militancy = { issue = jingoism factor = 8 } scaled_militancy = { issue = pacifism factor = -4 } } ai_chance = { factor = 5 } } } country_event = { id = 800828 title = "The Question of Frauenstadt" desc = "EVTDESC800828" picture = "germanistentag" fire_only_once = yes mean_time_to_happen = { months = 2 } trigger = { tag = GCF OR = { GLM = { exists = yes in_sphere = THIS owns = 714 } POL = { exists = yes in_sphere = THIS owns = 714 } } owns = 3285 NOT = { has_country_flag = frauenstadt_solved } } option = { name = "Let the Poles have it. §GLose 0.5 infamy§W" badboy = -0.5 set_country_flag = frauenstadt_solved random_owned = { limit = { owner = { 714 = { owned_by = POL } } } owner = { 3285 = { remove_core = THIS add_core = POL secede_province = POL } } } random_owned = { limit = { owner = { 714 = { owned_by = GLM } } } owner = { 3285 = { remove_core = THIS add_core = GLM secede_province = GLM } } } ai_chance = { factor = 1 } } option = { name = "It shall be German" 3285 = { secede_province = THIS add_core = THIS } set_country_flag = frauenstadt_solved ai_chance = { factor = 0 } } } country_event = { id = 800829 title = "The Bohemian Question" desc = "EVTDESC800829" picture = "germanistentag" is_triggered_only = yes option = { name = "Start talks with Czech leaders. There is a place for them in our nation." set_country_flag = czech_integration 627 = { remove_core = BOH add_core = GCF } 628 = { remove_core = BOH add_core = GCF } 629 = { remove_core = BOH add_core = GCF } 630 = { remove_core = BOH add_core = GCF } 632 = { remove_core = BOH add_core = GCF remove_core = MRV } 688 = { remove_core = BOH add_core = GCF remove_core = MRV } 3426 = { remove_core = BOH add_core = GCF remove_core = MRV } PRU_685 = { remove_core = BOH remove_core = MRV } PRU_682 = { remove_core = BOH remove_core = MRV } any_pop = { limit = { is_culture_group = czecho_slovak_culture_group NOT = { has_pop_culture = slovak } } militancy = 1 consciousness = 3 } any_pop = { limit = { OR = { has_pop_culture = north_german has_pop_culture = south_german } } militancy = 2 } ai_chance = { factor = 1 } } option = { name = "It is about time we set them free. Grant them autonomy. §GLose 5 infamy§!" badboy = -5 prestige = -20 627 = { remove_core = BOH add_core = GCF } 628 = { remove_core = BOH add_core = GCF } 629 = { remove_core = BOH add_core = GCF } 630 = { remove_core = BOH add_core = GCF } 632 = { remove_core = BOH add_core = GCF remove_core = MRV } 688 = { remove_core = BOH add_core = GCF remove_core = MRV } 3426 = { remove_core = BOH add_core = GCF remove_core = MRV } PRU_685 = { remove_core = BOH remove_core = MRV } PRU_682 = { remove_core = BOH remove_core = MRV } any_pop = { limit = { is_culture_group = czecho_slovak_culture_group NOT = { has_pop_culture = slovak } } militancy = -3 } any_pop = { limit = { NOT = { is_culture_group = czecho_slovak_culture_group NOT = { has_pop_culture = slovak } } is_primary_culture = no } militancy = 1 } release_vassal = BOH create_alliance = BOH relation = { who = BOH value = 50 } diplomatic_influence = { who = BOH value = 400 } BOH = { any_pop = { limit = { is_culture_group = czecho_slovak_culture_group NOT = { has_pop_culture = slovak } } militancy = -8 } add_accepted_culture = south_german set_country_flag = german_accepted all_core = { remove_core = GCF } } ai_chance = { factor = 1 } } } country_event = { id = 800833 title = "The Kingdom of Croatia" desc = "EVTDESC800833" picture = "croatian_settlement" fire_only_once = yes mean_time_to_happen = { months = 24 } trigger = { tag = GCF owns = 778 CRO = { exists = yes OR = { in_sphere = THIS OR = { vassal_of = THIS is_vassal = no } } all_core = { owner = { OR = { tag = THIS AND = { in_sphere = THIS OR = { vassal_of = THIS is_vassal = no } } } } } } } option = { name = "Officialize the union between Croatia and Dalmatia!" country_event = 800834 3289 = { secede_province = THIS remove_core = HUN } 3289 = { secede_province = CRO add_core = CRO } 770 = { secede_province = THIS remove_core = CRO } CRO = { all_core = { remove_core = HUN } } ai_chance = { factor = 1 } } option = { name = "Split Dalmatia and Croatia once and for all!" country_event = 800834 3289 = { secede_province = THIS remove_core = HUN } 3289 = { secede_province = CRO add_core = CRO } 770 = { secede_province = THIS remove_core = CRO } 774 = { remove_core = DLM add_core = CRO } CRO = { all_core = { remove_core = HUN } any_owned = { limit = { is_core = DLM } secede_province = THIS } } release_vassal = DLM random_owned = { limit = { owner = { CRO = { is_vassal = no } } } release_vassal = DLM } create_alliance = DLM diplomatic_influence = { who = DLM value = 400 } ai_chance = { factor = 1 } } option = { name = "Free Dalmatia and grant Croatia to Hungary!" country_event = 800834 770 = { secede_province = THIS remove_core = CRO } 774 = { remove_core = DLM add_core = CRO } CRO = { any_owned = { limit = { is_core = DLM } secede_province = THIS } annex_to = HUN } release_vassal = DLM random_owned = { limit = { owner = { CRO = { is_vassal = no } } } release_vassal = DLM } create_alliance = DLM diplomatic_influence = { who = DLM value = 400 } diplomatic_influence = { who = HUN value = 100 } DLM = { all_core = { remove_core = HUN remove_core = CRO } } ai_chance = { factor = 1 } } option = { name = "Both Dalmatia and Croatia shall unite with Hungary!" country_event = 800834 770 = { secede_province = THIS remove_core = CRO remove_core = HUN } CRO = { all_core = { add_core = HUN } annex_to = HUN } diplomatic_influence = { who = HUN value = 200 } ai_chance = { factor = 1 } } } country_event = { id = 800834 title = "The Fate of Sankt Veit" desc = "EVTDESC800834" picture = "Merchants" is_triggered_only = yes option = { name = "Sankt Veit will remain in our hands." 778 = { secede_province = THIS add_core = THIS remove_core = CRO remove_core = HUN } ai_chance = { factor = 1 } } option = { name = "Sankt Veit will be returned to the Kingdom of Croatia" 778 = { secede_province = THIS } random_owned = { limit = { owner = { 771 = { owned_by = CRO } } } 778 = { secede_province = CRO remove_core = THIS remove_core = HUN } } random_owned = { limit = { owner = { 771 = { owned_by = HUN } } } 778 = { secede_province = HUN remove_core = THIS } } ai_chance = { factor = 1 } } } country_event = { id = 800910 title = "Across the Carpathians" desc = "EVTDESC800910" picture = "Merchants" is_triggered_only = yes option = { name = "Petition the Habsburgs to greenlight our unification!" FROM = { country_event = 800911 } ai_chance = { factor = 1 } } option = { name = "Why even bother?" prestige = -5 ai_chance = { factor = 0 } } } country_event = { id = 800911 title = "$FROMCOUNTRY$ petitions Romanian Unificaiton" desc = "EVTDESC800911" picture = "Merchants" is_triggered_only = yes option = { name = "We can't celebrate our unification while denying theirs! §GLose 2.5 infamy§W" badboy = -2.5 prestige = -5 diplomatic_influence = { who = FROM value = 100 } FROM = { country_event = 800912 } ai_chance = { factor = 1 } } option = { name = "Why even bother?" FROM = { country_event = 800913 } ai_chance = { factor = 0 } } } country_event = { id = 800912 title = "$FROMCOUNTRY$ Accepts!" desc = "EVTDESC800913" picture = "Merchants" is_triggered_only = yes option = { name = "Progress, at last!" inherit = SIE any_owned = { limit = { is_core = SIE } add_province_modifier = { name = integration_refusal duration = -1 } } relation = { who = FROM value = 100 } ai_chance = { factor = 1 } } } country_event = { id = 800913 title = "$FROMCOUNTRY$ Refuses!" desc = "EVTDESC800913" picture = "Merchants" is_triggered_only = yes option = { name = "They will hear of us again, they will see!" relation = { who = FROM value = -200 } ai_chance = { factor = 1 } } } country_event = { id = 800914 title = "The Status of Banat" desc = "EVTDESC800914" picture = "germanistentag" fire_only_once = yes mean_time_to_happen = { months = 12 } trigger = { tag = GCF BAN = { exists = yes in_sphere = THIS } HUN = { exists = yes in_sphere = THIS } } option = { name = "The Hungarians have no right to Banat!" BAN = { all_core = { remove_core = HUN } } HUN = { set_country_flag = lost_claims } ai_chance = { factor = 1 } } option = { name = "Lest it become a headache, let them have Banat." random_owned = { limit = { 794 = { is_core = BAN } } 794 = { secede_province = THIS add_core = SER remove_core = HUN } 794 = { secede_province = UTI } UTI = { civilized = yes } 3374 = { owner = { inherit = UTI } } UTI = { civilized = no } } random_owned = { limit = { owner = { exists = YUG } } 794 = { add_core = YUG } } BAN = { annex_to = HUN } ai_chance = { factor = 1 } } } country_event = { id = 801051 title = "A Meeting in Brno" desc = "EVTDESC801051" picture = "slovak_manifesto" fire_only_once = yes mean_time_to_happen = { months = 3 } trigger = { OR = { tag = GCF OR = { tag = GER AND = { tag = OGE } } } war = no nationalism_n_imperialism = 1 BOH = { exists = yes vassal_of = THIS war = no ai = yes } SLV = { exists = yes in_sphere = THIS war = no ai = yes } } option = { name = "Our nation can coexist with such a union... §GLose 2.5 infamy§W" badboy = -2.5 BOH = { all_core = { add_core = CZH } annex_to = THIS } SLV = { all_core = { add_core = CZH } annex_to = THIS } any_owned = { limit = { is_core = CZH NOT = { is_core = THIS } } secede_province = CZH } create_vassal = CZH create_alliance = CZH diplomatic_influence = { who = CZH value = 400 } CZH = { capital = 3483 any_pop = { militancy = -2 consciousness = -2 } } CZH = { government = colonial_company_3 add_accepted_culture = north_german add_accepted_culture = south_german set_country_flag = german_accepted } ai_chance = { factor = 1 } } option = { name = "And have the Bohemians using the Slovaks against us? Not a chance!" BOH = { relation = { who = THIS value = -100 } any_pop = { limit = { NOT = { has_pop_culture = south_german } } militancy = 4 consciousness = 2 } } SLV = { relation = { who = THIS value = -100 } any_pop = { limit = { NOT = { has_pop_culture = south_german } } militancy = 4 consciousness = 2 } } ai_chance = { factor = 1 } } } country_event = { id = 801078 title = "The Treaty of Venice" desc = "EVTDESC801078" picture = "venice_is_free" is_triggered_only = yes option = { name = "We get land from them and claims on Dalmatia? Perfect!" set_country_flag = AUS_ITA_treaty set_country_flag = conquest_adriatic_happened 735 = { remove_core = ITA } AUS_736 = { remove_core = ITA } 781 = { add_core = ITA } 780 = { add_core = ITA } 782 = { add_core = ITA } 2582 = { add_core = ITA } FROM = { country_event = 801080 } ai_chance = { factor = 1 } } option = { name = "We are not willing to compromise on our borders!" FROM = { country_event = 801079 } ai_chance = { factor = 0 } } } country_event = { id = 801079 title = "Italians Refuse the Treaty of Venice" desc = "EVTDESC801079" picture = "venice_is_free" is_triggered_only = yes option = { name = "So be it..." prestige = -5 relation = { who = FROM value = -50 } ai_chance = { factor = 1 } } } country_event = { id = 801080 title = "The Treaty of Venice" desc = "EVTDESC801080" picture = "venice_is_free" is_triggered_only = yes option = { name = "May peace endure!" set_country_flag = italian_border relation = { who = ITA value = 100 } 734 = { remove_core = THIS add_core = ITA } any_country = { limit = { vassal_of = THIS any_owned_province = { is_core = ITA } } any_owned = { limit = { is_core = ITA } secede_province = THIS } } any_owned = { limit = { is_core = ITA } secede_province = ITA } ai_chance = { factor = 1 } } }

@@ -1,0 +1,45 @@
+# Faith and Frontier 4.1 - Frontier Institutions
+political_decisions = {
+ ff41_codify_thirty_three_articles = {
+  picture = ffv5_general_raad_decision
+  potential = { OR = { tag = POT tag = WBG tag = VLK tag = TRN AND = { tag = ORA NOT = { year = 1848 } } } year = 1844 NOT = { has_country_flag = ff41_codified_33_done } }
+  allow = { war = no money = 2000 }
+  effect = { treasury = -2000 set_country_flag = ff41_codified_33_done add_country_modifier = { name = ff41_thirty_three_articles duration = -1 } research_points = 50 prestige = 1 }
+  ai_will_do = { factor = 0.7 }
+ }
+ ff41_field_cornet_districts = {
+  picture = ffv5_commando_decision
+  potential = { primary_culture = boer year = 1838 NOT = { has_country_flag = ff41_field_cornets_done } }
+  allow = { war = no money = 1750 }
+  effect = { treasury = -1750 set_country_flag = ff41_field_cornets_done add_country_modifier = { name = ff41_field_cornets duration = -1 } prestige = 1 }
+  ai_will_do = { factor = 0.65 }
+ }
+ ff41_organise_wool_auctions = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = ORA year = 1855 NOT = { has_country_flag = ff41_wool_auction_done } }
+  allow = { war = no money = 2500 }
+  effect = { treasury = -2500 set_country_flag = ff41_wool_auction_done add_country_modifier = { name = ff41_free_state_wool duration = 3650 } }
+  ai_will_do = { factor = 0.7 }
+ }
+ ff41_supply_diamond_fields = {
+  picture = ffv4_customs_union_decision
+  potential = { tag = ORA year = 1871 NOT = { has_country_flag = ff41_supply_diamond_fields_done } }
+  allow = { war = no money = 3000 }
+  effect = { treasury = -3000 set_country_flag = ff41_supply_diamond_fields_done add_country_modifier = { name = ff41_kimberley_market duration = 1825 } prestige = 1 }
+  ai_will_do = { factor = 0.7 }
+ }
+ ff41_schoemansdal_trade_office = {
+  picture = ffv5_general_raad_decision
+  potential = { OR = { tag = ZPB tag = ZOU tag = TRN } year = 1848 owns = 2110 NOT = { has_country_flag = ff41_trade_office_done } }
+  allow = { war = no money = 1750 }
+  effect = { treasury = -1750 set_country_flag = ff41_trade_office_done add_country_modifier = { name = ff41_schoemansdal_trade duration = 1825 } }
+  ai_will_do = { factor = 0.6 }
+ }
+ ff41_charter_chamber_of_mines = {
+  picture = ffv4_rand_deep_mining_decision
+  potential = { tag = TRN year = 1889 NOT = { has_country_flag = ff41_chamber_charter_done } }
+  allow = { war = no money = 5000 }
+  effect = { treasury = -5000 set_country_flag = ff41_chamber_charter_done add_country_modifier = { name = ff41_chamber_of_mines duration = -1 } research_points = 100 prestige = 1 }
+  ai_will_do = { factor = 0.8 }
+ }
+}

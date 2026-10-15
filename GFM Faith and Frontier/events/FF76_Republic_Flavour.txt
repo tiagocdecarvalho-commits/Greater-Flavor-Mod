@@ -1,0 +1,96 @@
+country_event = { id = 9785120 title = "FF76_ORANGE_TALKS_TITLE" desc = "FF76_ORANGE_TALKS_DESC" picture = "boer_war"
+ trigger = { tag = TRN is_vassal = no war = no has_country_flag = ff67_full_cape_victory has_country_flag = ff76_union_clock_started NOT = { has_country_modifier = ff76_orange_preparations } NOT = { has_country_flag = ff76_orange_talks_shown } ORA = { exists = yes } NOT = { exists = SAF } }
+ mean_time_to_happen = { days = 1 } immediate = { set_country_flag = ff76_orange_talks_shown }
+ option = { name = "FF76_ORANGE_TALKS_OPT0" ai_chance = { factor = 100 } TRN = { set_country_flag = ff76_orange_talks_open relation = { who = ORA value = 25 } } }
+}
+country_event = { id = 9785122 title = "FF76_ORANGE_TALKS_TITLE" desc = "FF76_ORANGE_CATCHUP_DESC" picture = "boer_war"
+ trigger = { tag = TRN is_vassal = no has_country_flag = ff67_full_cape_victory NOT = { has_country_flag = ff76_union_clock_started } NOT = { has_country_flag = ff76_legacy_notice_shown } ORA = { exists = yes } war = no NOT = { exists = SAF } }
+ mean_time_to_happen = { days = 1 } immediate = { set_country_flag = ff76_legacy_notice_shown }
+ option = { name = "FF76_ORANGE_TALKS_OPT0" ai_chance = { factor = 100 }
+ TRN = { random_owned = { limit = { owner = { NOT = { has_country_flag = ff76_union_clock_started } } } owner = {
+ TRN = { set_country_flag = ff76_union_clock_started }
+ random_owned = { limit = { owner = { has_country_modifier = ff67_union_wait } } owner = { TRN = { remove_country_modifier = ff67_union_wait add_country_modifier = { name = ff67_union_wait duration = 150 } } } }
+ TRN = { set_country_flag = ff76_orange_talks_shown set_country_flag = ff76_orange_talks_open relation = { who = ORA value = 25 } }
+ } } }
+ }
+}
+country_event = { id = 9785123 title = "FF76_DUTCH_INVITE_TITLE" desc = "FF76_DUTCH_INVITE_DESC" picture = "treaty"
+ trigger = { tag = NET NOT = { has_country_flag = ff76_dutch_answered } NOT = { has_country_flag = ff76_dutch_invite_shown } OR = { TRN = { has_country_flag = ff76_dutch_pending } SAF = { has_country_flag = ff76_dutch_pending } } }
+ mean_time_to_happen = { days = 1 } immediate = { set_country_flag = ff76_dutch_invite_shown }
+ option = { name = "FF76_DUTCH_ACCEPT" ai_chance = { factor = 85 } NET = { set_country_flag = ff76_dutch_answered }
+ TRN = { random_owned = { limit = { owner = { has_country_flag = ff76_dutch_pending } } owner = { TRN = { set_country_flag = ff76_dutch_agreement country_event = { id = 9785124 days = 1 } } } } }
+ SAF = { random_owned = { limit = { owner = { has_country_flag = ff76_dutch_pending } } owner = { SAF = { set_country_flag = ff76_dutch_agreement country_event = { id = 9785124 days = 1 } } } } }
+ }
+ option = { name = "FF76_DUTCH_REFUSE" ai_chance = { factor = 15 } NET = { set_country_flag = ff76_dutch_answered }
+ TRN = { random_owned = { limit = { owner = { has_country_flag = ff76_dutch_pending } } owner = { TRN = { clr_country_flag = ff76_dutch_pending add_country_modifier = { name = ff76_dutch_pause duration = 365 } country_event = { id = 9785125 days = 1 } } } } }
+ SAF = { random_owned = { limit = { owner = { has_country_flag = ff76_dutch_pending } } owner = { SAF = { clr_country_flag = ff76_dutch_pending add_country_modifier = { name = ff76_dutch_pause duration = 365 } country_event = { id = 9785125 days = 1 } } } } }
+ }
+}
+country_event = { id = 9785124 title = "FF76_DUTCH_CONFERENCE_TITLE" desc = "FF76_DUTCH_CONFERENCE_DESC" picture = "treaty" major = yes
+ trigger = { OR = { tag = TRN tag = SAF } is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } has_country_flag = ff76_dutch_pending has_country_flag = ff76_dutch_agreement NOT = { has_country_flag = ff76_dutch_treaty } NOT = { has_country_flag = ff76_dutch_conference_shown } } mean_time_to_happen = { days = 1 } immediate = { set_country_flag = ff76_dutch_conference_shown }
+ option = { name = "FF76_DUTCH_TRADE" ai_chance = { factor = 50 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } has_country_flag = ff76_dutch_pending has_country_flag = ff76_dutch_agreement NOT = { has_country_flag = ff76_dutch_treaty } } } owner = {
+ TRN = { money = -5000 add_accepted_culture = dutch relation = { who = NET value = 75 } add_country_modifier = { name = ff76_dutch_trade duration = 1825 } set_country_flag = ff76_dutch_treaty clr_country_flag = ff76_dutch_pending }
+ NET = { relation = { who = TRN value = 75 } add_country_modifier = { name = ff76_overseas_commerce duration = 1825 } }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } has_country_flag = ff76_dutch_pending has_country_flag = ff76_dutch_agreement NOT = { has_country_flag = ff76_dutch_treaty } } } owner = {
+ SAF = { money = -5000 add_accepted_culture = dutch relation = { who = NET value = 75 } add_country_modifier = { name = ff76_dutch_trade duration = 1825 } set_country_flag = ff76_dutch_treaty clr_country_flag = ff76_dutch_pending }
+ NET = { relation = { who = SAF value = 75 } add_country_modifier = { name = ff76_overseas_commerce duration = 1825 } }
+ } }
+ }
+ option = { name = "FF76_DUTCH_EXCHANGE" ai_chance = { factor = 50 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } has_country_flag = ff76_dutch_pending has_country_flag = ff76_dutch_agreement NOT = { has_country_flag = ff76_dutch_treaty } } } owner = {
+ TRN = { money = -3000 add_accepted_culture = dutch relation = { who = NET value = 75 } add_country_modifier = { name = ff76_dutch_exchange duration = 1825 } set_country_flag = ff76_dutch_treaty clr_country_flag = ff76_dutch_pending }
+ NET = { relation = { who = TRN value = 75 } add_country_modifier = { name = ff76_overseas_commerce duration = 1825 } }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } has_country_flag = ff76_dutch_pending has_country_flag = ff76_dutch_agreement NOT = { has_country_flag = ff76_dutch_treaty } } } owner = {
+ SAF = { money = -3000 add_accepted_culture = dutch relation = { who = NET value = 75 } add_country_modifier = { name = ff76_dutch_exchange duration = 1825 } set_country_flag = ff76_dutch_treaty clr_country_flag = ff76_dutch_pending }
+ NET = { relation = { who = SAF value = 75 } add_country_modifier = { name = ff76_overseas_commerce duration = 1825 } }
+ } }
+ }
+}
+country_event = { id = 9785125 title = "FF76_DUTCH_DECLINE_TITLE" desc = "FF76_DUTCH_DECLINE_DESC" picture = "treaty" is_triggered_only = yes option = { name = "FF76_DUTCH_DECLINE_OPT0" ai_chance = { factor = 100 } } }
+country_event = { id = 9785126 title = "FF76_FRONTIER_SURVEYS_TITLE" desc = "FF76_FRONTIER_SURVEYS_DESC" picture = "boer_war" is_triggered_only = yes
+ option = { name = "FF76_FRONTIER_SURVEYS_ROADS" ai_chance = { factor = 50 }
+ random_owned = { limit = { owner = { tag = TRN has_country_flag = ff76_frontier_surveys_funded NOT = { has_country_flag = ff76_frontier_surveys_complete } } } owner = { TRN = {
+ any_owned = { limit = { OR = { is_colonial = yes province_id = 2049 province_id = 2050 province_id = 3650 province_id = 3713 } } add_province_modifier = { name = ff76_survey_roads duration = 1825 } }
+ set_country_flag = ff76_frontier_surveys_complete
+ } } }
+ random_owned = { limit = { owner = { tag = SAF has_country_flag = ff76_frontier_surveys_funded NOT = { has_country_flag = ff76_frontier_surveys_complete } } } owner = { SAF = {
+ any_owned = { limit = { OR = { is_colonial = yes province_id = 2049 province_id = 2050 province_id = 3650 province_id = 3713 } } add_province_modifier = { name = ff76_survey_roads duration = 1825 } }
+ set_country_flag = ff76_frontier_surveys_complete
+ } } }
+ }
+ option = { name = "FF76_FRONTIER_SURVEYS_SCHOOLS" ai_chance = { factor = 50 }
+ random_owned = { limit = { owner = { tag = TRN has_country_flag = ff76_frontier_surveys_funded NOT = { has_country_flag = ff76_frontier_surveys_complete } } } owner = { TRN = {
+ any_owned = { limit = { OR = { is_colonial = yes province_id = 2049 province_id = 2050 province_id = 3650 province_id = 3713 } } add_province_modifier = { name = ff76_district_schools duration = 1825 } }
+ set_country_flag = ff76_frontier_surveys_complete
+ } } }
+ random_owned = { limit = { owner = { tag = SAF has_country_flag = ff76_frontier_surveys_funded NOT = { has_country_flag = ff76_frontier_surveys_complete } } } owner = { SAF = {
+ any_owned = { limit = { OR = { is_colonial = yes province_id = 2049 province_id = 2050 province_id = 3650 province_id = 3713 } } add_province_modifier = { name = ff76_district_schools duration = 1825 } }
+ set_country_flag = ff76_frontier_surveys_complete
+ } } }
+ }
+}
+country_event = { id = 9785127 title = "FF76_OCEAN_GATEWAY_TITLE" desc = "FF76_OCEAN_GATEWAY_DESC" picture = "boer_war" is_triggered_only = yes
+ option = { name = "FF76_OCEAN_GATEWAY_NAVAL" ai_chance = { factor = 50 }
+ random_owned = { limit = { owner = { tag = TRN has_country_flag = ff76_ocean_gateway_funded NOT = { has_country_flag = ff76_ocean_gateway_complete } } } owner = { TRN = {
+ random_owned = { limit = { port = yes NOT = { has_building = naval_base } } naval_base = 1 add_province_modifier = { name = ff76_port_works duration = 1825 } }
+ set_country_flag = ff76_ocean_gateway_complete
+ } } }
+ random_owned = { limit = { owner = { tag = SAF has_country_flag = ff76_ocean_gateway_funded NOT = { has_country_flag = ff76_ocean_gateway_complete } } } owner = { SAF = {
+ random_owned = { limit = { port = yes NOT = { has_building = naval_base } } naval_base = 1 add_province_modifier = { name = ff76_port_works duration = 1825 } }
+ set_country_flag = ff76_ocean_gateway_complete
+ } } }
+ }
+ option = { name = "FF76_OCEAN_GATEWAY_MERCHANT" ai_chance = { factor = 50 }
+ random_owned = { limit = { owner = { tag = TRN has_country_flag = ff76_ocean_gateway_funded NOT = { has_country_flag = ff76_ocean_gateway_complete } } } owner = { TRN = {
+ random_owned = { limit = { port = yes NOT = { has_building = naval_base } } naval_base = 1 add_province_modifier = { name = ff76_merchant_gateway duration = 1825 } }
+ set_country_flag = ff76_ocean_gateway_complete
+ } } }
+ random_owned = { limit = { owner = { tag = SAF has_country_flag = ff76_ocean_gateway_funded NOT = { has_country_flag = ff76_ocean_gateway_complete } } } owner = { SAF = {
+ random_owned = { limit = { port = yes NOT = { has_building = naval_base } } naval_base = 1 add_province_modifier = { name = ff76_merchant_gateway duration = 1825 } }
+ set_country_flag = ff76_ocean_gateway_complete
+ } } }
+ }
+}

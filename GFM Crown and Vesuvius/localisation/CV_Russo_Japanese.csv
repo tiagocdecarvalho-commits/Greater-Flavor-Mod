@@ -1,0 +1,153 @@
+cvrj_policy_0;Pursue the Manchurian railway and a Pacific naval base.;;;;;;;;;;;;;x
+cvrj_policy_1;Seek a negotiated balance with Japan.;;;;;;;;;;;;;x
+cvrj_policy_title;Russia Looks to the Pacific;;;;;;;;;;;;;x
+cvrj_policy_desc;The Siberian railway is turning the Pacific frontier into an imperial commitment. Witte favours commerce and rail concessions, while officers seek an ice-free naval base. Across the sea, a modernising Japan regards Korea as essential to its security. Expansion through Manchuria promises influence, but it will bring Russian interests into direct conflict with Tokyo and the Chinese court.;;;;;;;;;;;;;x
+cvrj_railway_0;Present the railway agreement to the Chinese authorities.;;;;;;;;;;;;;x
+cvrj_railway_title;The Chinese Eastern Railway;;;;;;;;;;;;;x
+cvrj_railway_desc;A railway across Manchuria would shorten the route to Vladivostok and bind Russian finance to the Qing frontier. The proposed concession concerns a railway, its administration and its guards, not a transfer of Chinese sovereignty. Officials in Beijing hope Russian support will restrain Japan, even as the concession gives another foreign power a permanent foothold.;;;;;;;;;;;;;x
+cvrj_rail_concession;Chinese Eastern Railway Concession;;;;;;;;;;;;;x
+cvrj_rail_concession_desc;Russian finance and railway administration establish a lasting interest in Manchuria.;;;;;;;;;;;;;x
+cvrj_china_rail_0;Concede the railway while reserving Chinese sovereignty.;;;;;;;;;;;;;x
+cvrj_china_rail_1;Reject the concession and its foreign guards.;;;;;;;;;;;;;x
+cvrj_china_rail_title;A Railway Through Manchuria;;;;;;;;;;;;;x
+cvrj_china_rail_desc;Russian bankers offer the means to construct a line across our northeastern provinces. Their diplomats speak of protection against Japan, yet railway guards and foreign administration may become instruments of control. Accepting the concession leaves the land Chinese, but makes Russia a participant in every future dispute along the line.;;;;;;;;;;;;;x
+cvrj_lease_request_0;Request the lease and its southern railway connection.;;;;;;;;;;;;;x
+cvrj_lease_request_title;An Ice-Free Base at Port Arthur;;;;;;;;;;;;;x
+cvrj_lease_request_desc;Port Arthur commands the approaches to the Liaodong peninsula. A lease would give the Pacific squadron a fortified anchorage and connect it to the Manchurian railway. China would formally retain sovereignty. To Japanese observers, a Russian base on ground once surrendered under foreign pressure would make that distinction increasingly hollow.;;;;;;;;;;;;;x
+cvrj_china_lease_0;Sign the lease, reserving our sovereign rights.;;;;;;;;;;;;;x
+cvrj_china_lease_1;Refuse a Russian naval enclave.;;;;;;;;;;;;;x
+cvrj_china_lease_title;The Lease of Liaodong;;;;;;;;;;;;;x
+cvrj_china_lease_desc;The Russian demand joins naval power to financial pressure. Our ministers can preserve the language of sovereignty while surrendering the administration of Port Arthur and its approaches. Refusal defends the integrity of the empire but risks another confrontation. The lease will leave a Chinese claim beneath a foreign flag.;;;;;;;;;;;;;x
+cvrj_japan_alarm_0;Prepare the fleet and continue negotiations.;;;;;;;;;;;;;x
+cvrj_japan_alarm_title;The Continental Balance;;;;;;;;;;;;;x
+cvrj_japan_alarm_desc;Russian influence now reaches from the Siberian frontier towards Liaodong. In Tokyo, ministers connect the railway concessions to the struggle over Korea. Naval expenditure and diplomatic negotiations serve the same purpose: prevent a neighbouring empire from closing Japan out of the continent. A settlement remains possible, but each new concession makes compromise harder.;;;;;;;;;;;;;x
+cvrj_withdrawal_0;Make withdrawal conditional on security guarantees.;;;;;;;;;;;;;x
+cvrj_withdrawal_1;Accept a settlement recognising Chinese administration.;;;;;;;;;;;;;x
+cvrj_withdrawal_title;The Manchurian Evacuation Question;;;;;;;;;;;;;x
+cvrj_withdrawal_desc;Railway protection has become a dispute over the future of Manchuria. Russia promises eventual withdrawal, but officers argue that the railway and the leased base cannot be left exposed. Chinese officials demand the restoration of ordinary administration, while Japan asks whether assurances of evacuation conceal a permanent Russian position.;;;;;;;;;;;;;x
+cvrj_negotiations_0;Submit the final proposals.;;;;;;;;;;;;;x
+cvrj_negotiations_title;Manchuria and Korea at the Negotiating Table;;;;;;;;;;;;;x
+cvrj_negotiations_desc;Tokyo proposes recognition of Russian railway interests in Manchuria in return for recognition of Japan's position in Korea. Russian counterproposals separate the two questions and seek restrictions on Japanese military activity. Behind the notes lie competing armies, railway interests and a Korean court trying to preserve its independence. Delay is becoming a policy with consequences of its own.;;;;;;;;;;;;;x
+cvrj_final_notes_0;Maintain our position and continue the correspondence.;;;;;;;;;;;;;x
+cvrj_final_notes_1;Recognise a negotiated balance in Korea and Manchuria.;;;;;;;;;;;;;x
+cvrj_final_notes_title;The Japanese Proposals;;;;;;;;;;;;;x
+cvrj_final_notes_desc;Japan seeks a written settlement of the Korean and Manchurian questions. Our Far Eastern authorities distrust concessions that might endanger the railway or the naval base. Others warn that Japan may fight before Russian communications are ready. The choice is between an accommodation with a rising neighbour and the risks of continued delay.;;;;;;;;;;;;;x
+cvrj_february_0;Break off relations and begin the war.;;;;;;;;;;;;;x
+cvrj_february_1;Continue diplomacy, the cabinet may reconsider.;;;;;;;;;;;;;x
+cvrj_february_title;The Break with Russia;;;;;;;;;;;;;x
+cvrj_february_desc;The exchange of notes has failed to settle Korea and Manchuria. The imperial conference must now decide whether further delay will strengthen Russia beyond Japan's ability to resist. Naval plans call for an attack on the Pacific squadron while the army establishes a continental bridgehead. This is a gamble on communications, credit and sea power, not a promise of an easy victory.;;;;;;;;;;;;;x
+cvrj_resume_crisis_title;Reconsider War with Russia;;;;;;;;;;;;;x
+cvrj_resume_crisis_desc;The cabinet postponed the rupture. It may now reconsider military action over Korea and Manchuria.;;;;;;;;;;;;;x
+cvrj_accommodation_notice_0;Ratify the agreement and reopen normal relations.;;;;;;;;;;;;;x
+cvrj_accommodation_notice_title;An Accommodation in the Far East;;;;;;;;;;;;;x
+cvrj_accommodation_notice_desc;The two governments have accepted a diplomatic division of interests. Russian railway interests and Japanese influence in Korea are acknowledged without a war between the empires. China and Korea still face unequal pressure, but the immediate danger of a naval confrontation has receded. This settlement remains dependent on restraint by both powers.;;;;;;;;;;;;;x
+cvrj_russian_war_0;Defend the Pacific position.;;;;;;;;;;;;;x
+cvrj_russian_war_title;War in the Pacific;;;;;;;;;;;;;x
+cvrj_russian_war_desc;Japan has opened hostilities. The Pacific squadron and the leased base face the first shock, while reinforcement depends on a railway stretching across Siberia. Ministers who dismissed the danger must now reconcile imperial commitments with the distance of the theatre. Russia must defend its position on land and at sea before it can dictate a settlement.;;;;;;;;;;;;;x
+cvrj_chinese_neutrality_0;Assert neutrality and tolerate passage through the war zone.;;;;;;;;;;;;;x
+cvrj_chinese_neutrality_1;Refuse passage to both armies.;;;;;;;;;;;;;x
+cvrj_chinese_neutrality_title;A War on Chinese Soil;;;;;;;;;;;;;x
+cvrj_chinese_neutrality_desc;Russia and Japan are fighting over rights exercised inside China. Our declaration of neutrality cannot remove their armies from the railway zone, but it can assert that foreign military success does not extinguish Chinese sovereignty. The court must preserve civil administration where it can and insist that any peace restores the northeastern provinces.;;;;;;;;;;;;;x
+cvrj_korean_neutrality_0;Protest the violations while preserving the government.;;;;;;;;;;;;;x
+cvrj_korean_neutrality_title;Korea Between the Empires;;;;;;;;;;;;;x
+cvrj_korean_neutrality_desc;Foreign squadrons and armies have made Korean neutrality precarious. Both belligerents claim that their presence is necessary to keep the other away. The emperor's government confronts a war it did not choose, fought over its independence. Permission for military passage is no recognition of a right to annex or govern the country.;;;;;;;;;;;;;x
+cvrj_arthur_fallen_0;Prepare the diplomatic case for peace.;;;;;;;;;;;;;x
+cvrj_arthur_fallen_title;Port Arthur Has Fallen;;;;;;;;;;;;;x
+cvrj_arthur_fallen_desc;The fall of the leased base has broken the visible symbol of Russia's Pacific policy. Its capture gives Japan a powerful argument at the negotiating table, but the continental war is not automatically over. Russian armies can still return, and the victors must decide whether military success can be turned into an affordable peace.;;;;;;;;;;;;;x
+cvrj_arthur_loss_0;The government must answer for this disaster.;;;;;;;;;;;;;x
+cvrj_arthur_loss_title;The Loss of Port Arthur;;;;;;;;;;;;;x
+cvrj_arthur_loss_desc;The fortress has fallen. News from the Far East strikes an empire already burdened by demands for reform. Officers call for renewed effort, while critics ask why soldiers and sailors were committed so far from reliable support. Defeat at the base is a grave blow, but only the outcome of the war can settle the wider dispute.;;;;;;;;;;;;;x
+cvrj_offer_JAP_0;Present our terms through diplomatic mediation.;;;;;;;;;;;;;x
+cvrj_offer_JAP_1;Continue the war and enforce the peace terms directly.;;;;;;;;;;;;;x
+cvrj_offer_JAP_title;The Price of Peace;;;;;;;;;;;;;x
+cvrj_offer_JAP_desc;Military success has opened a chance to end the war. A conference can turn occupation into treaty rights, but the defeated government must still accept the terms. Rejection leaves the armies in the field. Ministers should distinguish a negotiated settlement from the further sacrifices required to impose it by force.;;;;;;;;;;;;;x
+cvrj_offer_RUS_0;Present our terms through diplomatic mediation.;;;;;;;;;;;;;x
+cvrj_offer_RUS_1;Continue the war and enforce the peace terms directly.;;;;;;;;;;;;;x
+cvrj_offer_RUS_title;The Price of Peace;;;;;;;;;;;;;x
+cvrj_offer_RUS_desc;Military success has opened a chance to end the war. A conference can turn occupation into treaty rights, but the defeated government must still accept the terms. Rejection leaves the armies in the field. Ministers should distinguish a negotiated settlement from the further sacrifices required to impose it by force.;;;;;;;;;;;;;x
+cvrj_rus_offer_received_0;Accept the peace and face the crisis at home.;;;;;;;;;;;;;x
+cvrj_rus_offer_received_1;Reject the offer, continue resistance.;;;;;;;;;;;;;x
+cvrj_rus_offer_received_title;The Portsmouth Proposals;;;;;;;;;;;;;x
+cvrj_rus_offer_received_desc;Japan proposes recognition of its predominance in Korea, transfer of the Liaodong lease and the southern railway rights, and cession of southern Sakhalin. Russia would retain northern Sakhalin and pay no general war indemnity. China's administration in Manchuria is to be restored outside the lease. Acceptance ends a costly war, but it will intensify the demand for answers at home.;;;;;;;;;;;;;x
+cvrj_jap_offer_received_0;Accept the imposed settlement.;;;;;;;;;;;;;x
+cvrj_jap_offer_received_1;Reject these terms and fight on.;;;;;;;;;;;;;x
+cvrj_jap_offer_received_title;Russia Dictates the Pacific Settlement;;;;;;;;;;;;;x
+cvrj_jap_offer_received_desc;Russia demands Hokkaido, the whole of Sakhalin and the Kuril chain, together with the abandonment of Japanese claims to govern Korea. Its diplomats also intend to impose a Manchurian settlement on China. These are maximal terms made possible by a catastrophic military reversal, not the compromise once discussed before the war. Accepting them preserves the remaining empire at a terrible cost.;;;;;;;;;;;;;x
+cvrj_undecided_0;Record the inconclusive peace.;;;;;;;;;;;;;x
+cvrj_undecided_title;Peace Without a Far Eastern Settlement;;;;;;;;;;;;;x
+cvrj_undecided_desc;The fighting has ended without either side enforcing the special settlement. The armistice grants no automatic cession of islands, no protectorate and no annexation of Manchuria. The frontier now rests on the peace actually concluded, while the political argument over the war continues.;;;;;;;;;;;;;x
+cvrj_portsmouth_signed_0;Ratify the treaty and notify the other governments.;;;;;;;;;;;;;x
+cvrj_portsmouth_signed_title;The Treaty of Portsmouth;;;;;;;;;;;;;x
+cvrj_portsmouth_signed_desc;The war has ended in Japan's favour. The settlement transfers southern Sakhalin and the Russian lease at Port Arthur, recognises Japan's predominance in Korea, and provides for the transfer of the southern Manchurian railway rights with Chinese consent. Manchuria itself is to return to Chinese administration. Russia pays no general indemnity. Military victory has brought recognition, but the peace disappoints those who expected a greater reward.;;;;;;;;;;;;;x
+cvrj_china_portsmouth_0;Recognise the transfer while reasserting Chinese sovereignty.;;;;;;;;;;;;;x
+cvrj_china_portsmouth_1;Withhold recognition of the railway transfer.;;;;;;;;;;;;;x
+cvrj_china_portsmouth_title;China and the Portsmouth Settlement;;;;;;;;;;;;;x
+cvrj_china_portsmouth_desc;Russia and Japan have made peace over interests located within our empire. They now seek Chinese assent to the transfer of the Liaodong lease and railway rights. The agreement recognises the return of Chinese administration elsewhere in Manchuria. Our officials must recover that administration without mistaking a change of foreign concessionaire for the end of foreign pressure.;;;;;;;;;;;;;x
+cvrj_russian_treaty_0;Impose the island settlement and summon the Chinese authorities.;;;;;;;;;;;;;x
+cvrj_russian_treaty_title;Russia's Pacific Settlement;;;;;;;;;;;;;x
+cvrj_russian_treaty_desc;Japan has accepted the loss of Hokkaido and the northern island chain. Russia now intends to place Korea under its protection and turn its Manchurian position into territorial rule. Victory supplies the force behind these demands, not an uncontested legal title to Chinese land. Beijing must receive a separate demand, and resistance there may produce another war. The empire inherits difficult frontiers and unwilling subjects along with its triumph.;;;;;;;;;;;;;x
+cvrj_china_russian_peace_0;Yield under protest and preserve our claims.;;;;;;;;;;;;;x
+cvrj_china_russian_peace_1;Reject the demand, Manchuria is Chinese.;;;;;;;;;;;;;x
+cvrj_china_russian_peace_title;Russia Demands Manchuria;;;;;;;;;;;;;x
+cvrj_china_russian_peace_desc;Victory over Japan has emboldened Russia to demand more than railway privileges. Its representatives now require the transfer of our northeastern provinces. This is a new act of coercion against China, not a right conveyed by the defeated Japanese government. Acceptance sacrifices the frontier to preserve peace. Refusal leaves Russia to decide whether it will fight another war to enforce its demand.;;;;;;;;;;;;;x
+cvrj_china_refusal_notice_0;The demand can now be enforced through a separate war.;;;;;;;;;;;;;x
+cvrj_china_refusal_notice_title;China Rejects the Manchurian Demand;;;;;;;;;;;;;x
+cvrj_china_refusal_notice_desc;The Chinese authorities refuse to treat Japan's defeat as permission to annex their provinces. The Pacific settlement remains in force between Russia and Japan, but Manchuria will not change hands by diplomatic declaration alone. The government must decide whether to use its new war claim or leave the Chinese frontier intact.;;;;;;;;;;;;;x
+cvrj_china_accept_notice_0;Establish an administration for the new frontier.;;;;;;;;;;;;;x
+cvrj_china_accept_notice_title;The Manchurian Administration;;;;;;;;;;;;;x
+cvrj_china_accept_notice_desc;The Chinese authorities have yielded to the Russian demand. Railway administration must now become provincial government, a task for which a victorious army is no substitute. Chinese claims and local resistance will survive the transfer. Officials warn that the cost of holding the frontier may outlast the glory of the Pacific victory.;;;;;;;;;;;;;x
+cvrj_chinese_defeat_0;Execute the imposed cession.;;;;;;;;;;;;;x
+cvrj_chinese_defeat_title;An Imposed Manchurian Treaty;;;;;;;;;;;;;x
+cvrj_chinese_defeat_desc;The attempt to resist Russian territorial demands has ended in defeat. The peace now requires the transfer of our remaining Manchurian provinces. Chinese sovereignty is surrendered in fact, though the claim to the northeast is not forgotten. Officials and inhabitants must confront a new administration imposed by the outcome of war.;;;;;;;;;;;;;x
+cvrj_korean_treaty_0;Impose the protectorate treaty.;;;;;;;;;;;;;x
+cvrj_korean_treaty_1;Leave Korea independent under diplomatic influence.;;;;;;;;;;;;;x
+cvrj_korean_treaty_title;The Korean Protectorate;;;;;;;;;;;;;x
+cvrj_korean_treaty_desc;The victory over Russia has removed a major obstacle to Japanese predominance in Korea. A protectorate would place Korean foreign relations under Japanese direction while leaving the court in place. Korean opposition exposes the difference between international recognition of Japanese interests and the consent of the people whose independence is being curtailed.;;;;;;;;;;;;;x
+cvrj_korean_protectorate_notice_0;Preserve what remains of the Korean state.;;;;;;;;;;;;;x
+cvrj_korean_protectorate_notice_title;Foreign Relations Under a Protector;;;;;;;;;;;;;x
+cvrj_korean_protectorate_notice_desc;The struggle between foreign empires has ended with the subordination of Korean diplomacy. The court remains, but decisions about relations with other powers now pass through a protector. Officials debate accommodation and resistance while the population confronts the consequences of a settlement negotiated over its head.;;;;;;;;;;;;;x
+cvrj_defeat_crisis_0;The government must face the constitutional question.;;;;;;;;;;;;;x
+cvrj_defeat_crisis_title;Defeat and the Demand for Representation;;;;;;;;;;;;;x
+cvrj_defeat_crisis_desc;The war has ended in defeat, but Russia's crisis reaches deeper than the lost battles. Workers demand security and representation, peasants press for land, and national movements challenge the empire's administration. The humiliation in the Far East discredits promises that obedience alone will bring strength. The government must now answer demands it could postpone while victory still seemed possible.;;;;;;;;;;;;;x
+cvrj_manifesto_0;Grant the manifesto and summon a representative assembly.;;;;;;;;;;;;;x
+cvrj_manifesto_title;The October Manifesto;;;;;;;;;;;;;x
+cvrj_manifesto_desc;Strikes and political demands have made the old refusal to share authority untenable. The manifesto promises civil liberties and a Duma whose assent is required for legislation. It does not abolish the dynasty or resolve the agrarian question. The crown yields a representative institution while trying to preserve control over ministers, the army and the machinery of government.;;;;;;;;;;;;;x
+cvrj_fundamental_laws_0;Open the Duma under the revised Fundamental Laws.;;;;;;;;;;;;;x
+cvrj_fundamental_laws_title;The Fundamental Laws and the Duma;;;;;;;;;;;;;x
+cvrj_fundamental_laws_desc;The new Fundamental Laws define the uneasy settlement between crown and representation. The Duma gains a place in legislation, but ministers remain responsible to the emperor and the appointed State Council stands beside the elected chamber. The autocracy has accepted constitutional limits without becoming a parliamentary monarchy. Land, civil rights and ministerial responsibility will test whether the settlement can endure.;;;;;;;;;;;;;x
+cvrj_hibiya_0;Defend the peace and restore public order.;;;;;;;;;;;;;x
+cvrj_hibiya_1;Hear the petitions and explain the limits of victory.;;;;;;;;;;;;;x
+cvrj_hibiya_title;Victory and Anger in Tokyo;;;;;;;;;;;;;x
+cvrj_hibiya_desc;The treaty brings international recognition but no general indemnity. After the sacrifices of the war, crowds denounce a peace they believe has squandered victory. Ministers know the strain on finance and manpower, yet those arguments offer little comfort to bereaved families. The dispute exposes the gulf between wartime expectations and what diplomacy can obtain.;;;;;;;;;;;;;x
+cvrj_mantetsu;South Manchurian Railway Administration;;;;;;;;;;;;;x
+cvrj_mantetsu_desc;A railway company coordinates transport and commercial interests under the treaty settlement.;;;;;;;;;;;;;x
+cvrj_mantetsu_company_title;Organise the South Manchurian Railway Company;;;;;;;;;;;;;x
+cvrj_mantetsu_company_desc;Create a railway administration for the rights transferred under the peace and recognised by China.;;;;;;;;;;;;;x
+cvrj_siberian_capacity_mod;Improve the Siberian Supply Route;;;;;;;;;;;;;x
+cvrj_siberian_capacity_mod_desc;Invest in the communications on which a distant army depends. Better organisation can ease the burden without removing the distance between European Russia and the Pacific.;;;;;;;;;;;;;x
+cvrj_siberian_capacity_title;Improve the Siberian Supply Route;;;;;;;;;;;;;x
+cvrj_siberian_capacity_desc;Invest in the communications on which a distant army depends. Better organisation can ease the burden without removing the distance between European Russia and the Pacific.;;;;;;;;;;;;;x
+cvrj_naval_review_mod;Review the Lessons of the Pacific War;;;;;;;;;;;;;x
+cvrj_naval_review_mod_desc;Examine naval gunnery, signalling and the organisation of the fleet after the war. The lessons must follow the campaign actually fought, not assume the outcome of a famous battle.;;;;;;;;;;;;;x
+cvrj_naval_review_title;Review the Lessons of the Pacific War;;;;;;;;;;;;;x
+cvrj_naval_review_desc;Examine naval gunnery, signalling and the organisation of the fleet after the war. The lessons must follow the campaign actually fought, not assume the outcome of a famous battle.;;;;;;;;;;;;;x
+cvrj_russian_review_mod;Reorganise the Far Eastern Command;;;;;;;;;;;;;x
+cvrj_russian_review_mod_desc;Review mobilisation, staff work and the relationship between naval and military command after the Pacific war.;;;;;;;;;;;;;x
+cvrj_russian_review_title;Reorganise the Far Eastern Command;;;;;;;;;;;;;x
+cvrj_russian_review_desc;Review mobilisation, staff work and the relationship between naval and military command after the Pacific war.;;;;;;;;;;;;;x
+cvrj_duma_commission_mod;Convene the Duma Agrarian Commission;;;;;;;;;;;;;x
+cvrj_duma_commission_mod_desc;Let elected representatives examine the land question through a parliamentary commission. A hearing begins a political process, it does not conjure a settlement of the countryside.;;;;;;;;;;;;;x
+cvrj_duma_commission_title;Convene the Duma Agrarian Commission;;;;;;;;;;;;;x
+cvrj_duma_commission_desc;Let elected representatives examine the land question through a parliamentary commission. A hearing begins a political process, it does not conjure a settlement of the countryside.;;;;;;;;;;;;;x
+cvrj_pacific_settlement;Settle the Russo-Japanese War;;;;;;;;;;;;;x
+cvrj_pacific_settlement_desc;Enforce the negotiated territorial and diplomatic settlement after victory.;;;;;;;;;;;;;x
+CVRJ_PACIFIC_SETTLEMENT;The Russo-Japanese War;;;;;;;;;;;;;x
+NORMAL_CVRJ_PACIFIC_SETTLEMENT;The Russo-Japanese War;;;;;;;;;;;;;x
+AGRESSION_CVRJ_PACIFIC_SETTLEMENT;The Russo-Japanese War;;;;;;;;;;;;;x
+AGGRESSION_CVRJ_PACIFIC_SETTLEMENT;The Russo-Japanese War;;;;;;;;;;;;;x
+cvrj_manchurian_settlement;Impose the Manchurian Settlement;;;;;;;;;;;;;x
+cvrj_manchurian_settlement_desc;Enforce the negotiated territorial and diplomatic settlement after victory.;;;;;;;;;;;;;x
+CVRJ_MANCHURIAN_SETTLEMENT;The War for Manchuria;;;;;;;;;;;;;x
+NORMAL_CVRJ_MANCHURIAN_SETTLEMENT;The War for Manchuria;;;;;;;;;;;;;x
+AGRESSION_CVRJ_MANCHURIAN_SETTLEMENT;The War for Manchuria;;;;;;;;;;;;;x
+AGGRESSION_CVRJ_MANCHURIAN_SETTLEMENT;The War for Manchuria;;;;;;;;;;;;;x

@@ -1,0 +1,161 @@
+# Owner-driven names and Cape claims for the northern/eastern frontier.
+# No controller checks: wartime occupation does not rename another country's land.
+country_event = {
+ id = 9784840 title = "FF56_NAMES_TITLE" desc = "FF56_NAMES_DESC"
+ trigger = {
+  OR = { owns = 2110 owns = 3713 owns = 3650 owns = 2050 owns = 2049 }
+  OR = { any_owned_province = { OR = { province_id = 3713 province_id = 3650 province_id = 2050 province_id = 2049 } owner = { tag = TRN has_country_flag = ff54_gaza_complete } OR = { NOT = { is_core = TRN } NOT = { is_core = SAF } } } any_owned_province = { province_id = 2049 owner = { OR = { primary_culture = boer is_culture_group = beneluxian } } NOT = { has_global_flag = ff60_name_2049_boer } } any_owned_province = { province_id = 2049 owner = { OR = { primary_culture = north_german primary_culture = south_german } } NOT = { has_global_flag = ff60_name_2049_german } } any_owned_province = { province_id = 2049 owner = { OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } } NOT = { has_global_flag = ff60_name_2049_portuguese } } any_owned_province = { province_id = 2049 owner = { primary_culture = catalan } NOT = { has_global_flag = ff60_name_2049_catalan } } any_owned_province = { province_id = 2049 owner = { is_culture_group = french } NOT = { has_global_flag = ff60_name_2049_french } } any_owned_province = { province_id = 2049 owner = { is_culture_group = british } NOT = { has_global_flag = ff60_name_2049_british } } any_owned_province = { province_id = 2049 owner = { NOT = { OR = { primary_culture = boer is_culture_group = beneluxian } OR = { primary_culture = north_german primary_culture = south_german } OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } primary_culture = catalan is_culture_group = french is_culture_group = british } } NOT = { has_global_flag = ff60_name_2049_native } } any_owned_province = { province_id = 2050 owner = { OR = { primary_culture = boer is_culture_group = beneluxian } } NOT = { has_global_flag = ff60_name_2050_boer } } any_owned_province = { province_id = 2050 owner = { OR = { primary_culture = north_german primary_culture = south_german } } NOT = { has_global_flag = ff60_name_2050_german } } any_owned_province = { province_id = 2050 owner = { OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } } NOT = { has_global_flag = ff60_name_2050_portuguese } } any_owned_province = { province_id = 2050 owner = { primary_culture = catalan } NOT = { has_global_flag = ff60_name_2050_catalan } } any_owned_province = { province_id = 2050 owner = { is_culture_group = french } NOT = { has_global_flag = ff60_name_2050_french } } any_owned_province = { province_id = 2050 owner = { is_culture_group = british } NOT = { has_global_flag = ff60_name_2050_british } } any_owned_province = { province_id = 2050 owner = { NOT = { OR = { primary_culture = boer is_culture_group = beneluxian } OR = { primary_culture = north_german primary_culture = south_german } OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } primary_culture = catalan is_culture_group = french is_culture_group = british } } NOT = { has_global_flag = ff60_name_2050_native } } any_owned_province = { province_id = 2110 owner = { OR = { primary_culture = boer is_culture_group = beneluxian } } NOT = { has_global_flag = ff60_name_2110_boer } } any_owned_province = { province_id = 2110 owner = { OR = { primary_culture = north_german primary_culture = south_german } } NOT = { has_global_flag = ff60_name_2110_german } } any_owned_province = { province_id = 2110 owner = { OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } } NOT = { has_global_flag = ff60_name_2110_portuguese } } any_owned_province = { province_id = 2110 owner = { primary_culture = catalan } NOT = { has_global_flag = ff60_name_2110_catalan } } any_owned_province = { province_id = 2110 owner = { is_culture_group = french } NOT = { has_global_flag = ff60_name_2110_french } } any_owned_province = { province_id = 2110 owner = { is_culture_group = british } NOT = { has_global_flag = ff60_name_2110_british } } any_owned_province = { province_id = 2110 owner = { NOT = { OR = { primary_culture = boer is_culture_group = beneluxian } OR = { primary_culture = north_german primary_culture = south_german } OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } primary_culture = catalan is_culture_group = french is_culture_group = british } } NOT = { has_global_flag = ff60_name_2110_native } } any_owned_province = { province_id = 3650 owner = { OR = { primary_culture = boer is_culture_group = beneluxian } } NOT = { has_global_flag = ff60_name_3650_boer } } any_owned_province = { province_id = 3650 owner = { OR = { primary_culture = north_german primary_culture = south_german } } NOT = { has_global_flag = ff60_name_3650_german } } any_owned_province = { province_id = 3650 owner = { OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } } NOT = { has_global_flag = ff60_name_3650_portuguese } } any_owned_province = { province_id = 3650 owner = { primary_culture = catalan } NOT = { has_global_flag = ff60_name_3650_catalan } } any_owned_province = { province_id = 3650 owner = { is_culture_group = french } NOT = { has_global_flag = ff60_name_3650_french } } any_owned_province = { province_id = 3650 owner = { is_culture_group = british } NOT = { has_global_flag = ff60_name_3650_british } } any_owned_province = { province_id = 3650 owner = { NOT = { OR = { primary_culture = boer is_culture_group = beneluxian } OR = { primary_culture = north_german primary_culture = south_german } OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } primary_culture = catalan is_culture_group = french is_culture_group = british } } NOT = { has_global_flag = ff60_name_3650_native } } any_owned_province = { province_id = 3713 owner = { OR = { primary_culture = boer is_culture_group = beneluxian } } NOT = { has_global_flag = ff60_name_3713_boer } } any_owned_province = { province_id = 3713 owner = { OR = { primary_culture = north_german primary_culture = south_german } } NOT = { has_global_flag = ff60_name_3713_german } } any_owned_province = { province_id = 3713 owner = { OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } } NOT = { has_global_flag = ff60_name_3713_portuguese } } any_owned_province = { province_id = 3713 owner = { primary_culture = catalan } NOT = { has_global_flag = ff60_name_3713_catalan } } any_owned_province = { province_id = 3713 owner = { is_culture_group = french } NOT = { has_global_flag = ff60_name_3713_french } } any_owned_province = { province_id = 3713 owner = { is_culture_group = british } NOT = { has_global_flag = ff60_name_3713_british } } any_owned_province = { province_id = 3713 owner = { NOT = { OR = { primary_culture = boer is_culture_group = beneluxian } OR = { primary_culture = north_german primary_culture = south_german } OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } primary_culture = catalan is_culture_group = french is_culture_group = british } } NOT = { has_global_flag = ff60_name_3713_native } } any_owned_province = { province_id = 3713 OR = { is_core = TRN is_core = ORA is_core = POT is_core = VLK is_core = LYD is_core = UTR is_core = ZPB is_core = NAL is_core = KVS is_core = STL is_core = GOS is_core = UST is_core = NRB } NOT = { is_core = SAF } } any_owned_province = { province_id = 3650 OR = { is_core = TRN is_core = ORA is_core = POT is_core = VLK is_core = LYD is_core = UTR is_core = ZPB is_core = NAL is_core = KVS is_core = STL is_core = GOS is_core = UST is_core = NRB } NOT = { is_core = SAF } } any_owned_province = { province_id = 2050 OR = { is_core = TRN is_core = ORA is_core = POT is_core = VLK is_core = LYD is_core = UTR is_core = ZPB is_core = NAL is_core = KVS is_core = STL is_core = GOS is_core = UST is_core = NRB } NOT = { is_core = SAF } } any_owned_province = { province_id = 2049 OR = { is_core = TRN is_core = ORA is_core = POT is_core = VLK is_core = LYD is_core = UTR is_core = ZPB is_core = NAL is_core = KVS is_core = STL is_core = GOS is_core = UST is_core = NRB } NOT = { is_core = SAF } } }
+ }
+ mean_time_to_happen = { days = 1 }
+ option = { name = "FF56_NAMES_OK" ai_chance = { factor = 100 }
+ # Province names only. Region-renaming tooltip dereferences null states in the engine.
+ hidden_tooltip = {
+ any_owned = { limit = { OR = { province_id = 3713 province_id = 3650 province_id = 2050 province_id = 2049 } owner = { tag = TRN has_country_flag = ff54_gaza_complete } } add_core = TRN add_core = SAF }
+
+ any_owned = { limit = { province_id = 2049 owner = { OR = { primary_culture = boer is_culture_group = beneluxian } } NOT = { has_global_flag = ff60_name_2049_boer } }
+ clr_global_flag = ff60_name_2049_german clr_global_flag = ff60_name_2049_portuguese clr_global_flag = ff60_name_2049_catalan clr_global_flag = ff60_name_2049_french clr_global_flag = ff60_name_2049_british clr_global_flag = ff60_name_2049_native set_global_flag = ff60_name_2049_boer
+ change_province_name = "Ahoutburg"
+ }
+any_owned = { limit = { province_id = 2049 owner = { OR = { primary_culture = north_german primary_culture = south_german } } NOT = { has_global_flag = ff60_name_2049_german } }
+ clr_global_flag = ff60_name_2049_boer clr_global_flag = ff60_name_2049_portuguese clr_global_flag = ff60_name_2049_catalan clr_global_flag = ff60_name_2049_french clr_global_flag = ff60_name_2049_british clr_global_flag = ff60_name_2049_native set_global_flag = ff60_name_2049_german
+ change_province_name = "Delagoa-Bucht"
+ }
+any_owned = { limit = { province_id = 2049 owner = { OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } } NOT = { has_global_flag = ff60_name_2049_portuguese } }
+ clr_global_flag = ff60_name_2049_boer clr_global_flag = ff60_name_2049_german clr_global_flag = ff60_name_2049_catalan clr_global_flag = ff60_name_2049_french clr_global_flag = ff60_name_2049_british clr_global_flag = ff60_name_2049_native set_global_flag = ff60_name_2049_portuguese
+ change_province_name = "Lourenço Marques"
+ }
+any_owned = { limit = { province_id = 2049 owner = { primary_culture = catalan } NOT = { has_global_flag = ff60_name_2049_catalan } }
+ clr_global_flag = ff60_name_2049_boer clr_global_flag = ff60_name_2049_german clr_global_flag = ff60_name_2049_portuguese clr_global_flag = ff60_name_2049_french clr_global_flag = ff60_name_2049_british clr_global_flag = ff60_name_2049_native set_global_flag = ff60_name_2049_catalan
+ change_province_name = "Inkomati"
+ }
+any_owned = { limit = { province_id = 2049 owner = { is_culture_group = french } NOT = { has_global_flag = ff60_name_2049_french } }
+ clr_global_flag = ff60_name_2049_boer clr_global_flag = ff60_name_2049_german clr_global_flag = ff60_name_2049_portuguese clr_global_flag = ff60_name_2049_catalan clr_global_flag = ff60_name_2049_british clr_global_flag = ff60_name_2049_native set_global_flag = ff60_name_2049_french
+ change_province_name = "Inkomati"
+ }
+any_owned = { limit = { province_id = 2049 owner = { is_culture_group = british } NOT = { has_global_flag = ff60_name_2049_british } }
+ clr_global_flag = ff60_name_2049_boer clr_global_flag = ff60_name_2049_german clr_global_flag = ff60_name_2049_portuguese clr_global_flag = ff60_name_2049_catalan clr_global_flag = ff60_name_2049_french clr_global_flag = ff60_name_2049_native set_global_flag = ff60_name_2049_british
+ change_province_name = "Inkomati"
+ }
+any_owned = { limit = { province_id = 2049 owner = { NOT = { OR = { primary_culture = boer is_culture_group = beneluxian } OR = { primary_culture = north_german primary_culture = south_german } OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } primary_culture = catalan is_culture_group = french is_culture_group = british } } NOT = { has_global_flag = ff60_name_2049_native } }
+ clr_global_flag = ff60_name_2049_boer clr_global_flag = ff60_name_2049_german clr_global_flag = ff60_name_2049_portuguese clr_global_flag = ff60_name_2049_catalan clr_global_flag = ff60_name_2049_french clr_global_flag = ff60_name_2049_british set_global_flag = ff60_name_2049_native
+ change_province_name = "Inkomati"
+ }
+any_owned = { limit = { province_id = 2050 owner = { OR = { primary_culture = boer is_culture_group = beneluxian } } NOT = { has_global_flag = ff60_name_2050_boer } }
+ clr_global_flag = ff60_name_2050_german clr_global_flag = ff60_name_2050_portuguese clr_global_flag = ff60_name_2050_catalan clr_global_flag = ff60_name_2050_french clr_global_flag = ff60_name_2050_british clr_global_flag = ff60_name_2050_native set_global_flag = ff60_name_2050_boer
+ change_province_name = "Andriesburg"
+ }
+any_owned = { limit = { province_id = 2050 owner = { OR = { primary_culture = north_german primary_culture = south_german } } NOT = { has_global_flag = ff60_name_2050_german } }
+ clr_global_flag = ff60_name_2050_boer clr_global_flag = ff60_name_2050_portuguese clr_global_flag = ff60_name_2050_catalan clr_global_flag = ff60_name_2050_french clr_global_flag = ff60_name_2050_british clr_global_flag = ff60_name_2050_native set_global_flag = ff60_name_2050_german
+ change_province_name = "Manjacaze"
+ }
+any_owned = { limit = { province_id = 2050 owner = { OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } } NOT = { has_global_flag = ff60_name_2050_portuguese } }
+ clr_global_flag = ff60_name_2050_boer clr_global_flag = ff60_name_2050_german clr_global_flag = ff60_name_2050_catalan clr_global_flag = ff60_name_2050_french clr_global_flag = ff60_name_2050_british clr_global_flag = ff60_name_2050_native set_global_flag = ff60_name_2050_portuguese
+ change_province_name = "Manjacaze"
+ }
+any_owned = { limit = { province_id = 2050 owner = { primary_culture = catalan } NOT = { has_global_flag = ff60_name_2050_catalan } }
+ clr_global_flag = ff60_name_2050_boer clr_global_flag = ff60_name_2050_german clr_global_flag = ff60_name_2050_portuguese clr_global_flag = ff60_name_2050_french clr_global_flag = ff60_name_2050_british clr_global_flag = ff60_name_2050_native set_global_flag = ff60_name_2050_catalan
+ change_province_name = "Manjacaze"
+ }
+any_owned = { limit = { province_id = 2050 owner = { is_culture_group = french } NOT = { has_global_flag = ff60_name_2050_french } }
+ clr_global_flag = ff60_name_2050_boer clr_global_flag = ff60_name_2050_german clr_global_flag = ff60_name_2050_portuguese clr_global_flag = ff60_name_2050_catalan clr_global_flag = ff60_name_2050_british clr_global_flag = ff60_name_2050_native set_global_flag = ff60_name_2050_french
+ change_province_name = "Manjacaze"
+ }
+any_owned = { limit = { province_id = 2050 owner = { is_culture_group = british } NOT = { has_global_flag = ff60_name_2050_british } }
+ clr_global_flag = ff60_name_2050_boer clr_global_flag = ff60_name_2050_german clr_global_flag = ff60_name_2050_portuguese clr_global_flag = ff60_name_2050_catalan clr_global_flag = ff60_name_2050_french clr_global_flag = ff60_name_2050_native set_global_flag = ff60_name_2050_british
+ change_province_name = "Manjacaze"
+ }
+any_owned = { limit = { province_id = 2050 owner = { NOT = { OR = { primary_culture = boer is_culture_group = beneluxian } OR = { primary_culture = north_german primary_culture = south_german } OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } primary_culture = catalan is_culture_group = french is_culture_group = british } } NOT = { has_global_flag = ff60_name_2050_native } }
+ clr_global_flag = ff60_name_2050_boer clr_global_flag = ff60_name_2050_german clr_global_flag = ff60_name_2050_portuguese clr_global_flag = ff60_name_2050_catalan clr_global_flag = ff60_name_2050_french clr_global_flag = ff60_name_2050_british set_global_flag = ff60_name_2050_native
+ change_province_name = "Manjacaze"
+ }
+any_owned = { limit = { province_id = 2110 owner = { OR = { primary_culture = boer is_culture_group = beneluxian } } NOT = { has_global_flag = ff60_name_2110_boer } }
+ clr_global_flag = ff60_name_2110_german clr_global_flag = ff60_name_2110_portuguese clr_global_flag = ff60_name_2110_catalan clr_global_flag = ff60_name_2110_french clr_global_flag = ff60_name_2110_british clr_global_flag = ff60_name_2110_native set_global_flag = ff60_name_2110_boer
+ change_province_name = "Schoemansdal"
+ }
+any_owned = { limit = { province_id = 2110 owner = { OR = { primary_culture = north_german primary_culture = south_german } } NOT = { has_global_flag = ff60_name_2110_german } }
+ clr_global_flag = ff60_name_2110_boer clr_global_flag = ff60_name_2110_portuguese clr_global_flag = ff60_name_2110_catalan clr_global_flag = ff60_name_2110_french clr_global_flag = ff60_name_2110_british clr_global_flag = ff60_name_2110_native set_global_flag = ff60_name_2110_german
+ change_province_name = "Trichardtsdorp"
+ }
+any_owned = { limit = { province_id = 2110 owner = { OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } } NOT = { has_global_flag = ff60_name_2110_portuguese } }
+ clr_global_flag = ff60_name_2110_boer clr_global_flag = ff60_name_2110_german clr_global_flag = ff60_name_2110_catalan clr_global_flag = ff60_name_2110_french clr_global_flag = ff60_name_2110_british clr_global_flag = ff60_name_2110_native set_global_flag = ff60_name_2110_portuguese
+ change_province_name = "Porto Trichardo"
+ }
+any_owned = { limit = { province_id = 2110 owner = { primary_culture = catalan } NOT = { has_global_flag = ff60_name_2110_catalan } }
+ clr_global_flag = ff60_name_2110_boer clr_global_flag = ff60_name_2110_german clr_global_flag = ff60_name_2110_portuguese clr_global_flag = ff60_name_2110_french clr_global_flag = ff60_name_2110_british clr_global_flag = ff60_name_2110_native set_global_flag = ff60_name_2110_catalan
+ change_province_name = "Tritxardia"
+ }
+any_owned = { limit = { province_id = 2110 owner = { is_culture_group = french } NOT = { has_global_flag = ff60_name_2110_french } }
+ clr_global_flag = ff60_name_2110_boer clr_global_flag = ff60_name_2110_german clr_global_flag = ff60_name_2110_portuguese clr_global_flag = ff60_name_2110_catalan clr_global_flag = ff60_name_2110_british clr_global_flag = ff60_name_2110_native set_global_flag = ff60_name_2110_french
+ change_province_name = "Richardsville"
+ }
+any_owned = { limit = { province_id = 2110 owner = { is_culture_group = british } NOT = { has_global_flag = ff60_name_2110_british } }
+ clr_global_flag = ff60_name_2110_boer clr_global_flag = ff60_name_2110_german clr_global_flag = ff60_name_2110_portuguese clr_global_flag = ff60_name_2110_catalan clr_global_flag = ff60_name_2110_french clr_global_flag = ff60_name_2110_native set_global_flag = ff60_name_2110_british
+ change_province_name = "Thohoyandou"
+ }
+any_owned = { limit = { province_id = 2110 owner = { NOT = { OR = { primary_culture = boer is_culture_group = beneluxian } OR = { primary_culture = north_german primary_culture = south_german } OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } primary_culture = catalan is_culture_group = french is_culture_group = british } } NOT = { has_global_flag = ff60_name_2110_native } }
+ clr_global_flag = ff60_name_2110_boer clr_global_flag = ff60_name_2110_german clr_global_flag = ff60_name_2110_portuguese clr_global_flag = ff60_name_2110_catalan clr_global_flag = ff60_name_2110_french clr_global_flag = ff60_name_2110_british set_global_flag = ff60_name_2110_native
+ change_province_name = "Tshitandani"
+ }
+any_owned = { limit = { province_id = 3650 owner = { OR = { primary_culture = boer is_culture_group = beneluxian } } NOT = { has_global_flag = ff60_name_3650_boer } }
+ clr_global_flag = ff60_name_3650_german clr_global_flag = ff60_name_3650_portuguese clr_global_flag = ff60_name_3650_catalan clr_global_flag = ff60_name_3650_french clr_global_flag = ff60_name_3650_british clr_global_flag = ff60_name_3650_native set_global_flag = ff60_name_3650_boer
+ change_province_name = "Olifantsburg"
+ }
+any_owned = { limit = { province_id = 3650 owner = { OR = { primary_culture = north_german primary_culture = south_german } } NOT = { has_global_flag = ff60_name_3650_german } }
+ clr_global_flag = ff60_name_3650_boer clr_global_flag = ff60_name_3650_portuguese clr_global_flag = ff60_name_3650_catalan clr_global_flag = ff60_name_3650_french clr_global_flag = ff60_name_3650_british clr_global_flag = ff60_name_3650_native set_global_flag = ff60_name_3650_german
+ change_province_name = "Lepelle"
+ }
+any_owned = { limit = { province_id = 3650 owner = { OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } } NOT = { has_global_flag = ff60_name_3650_portuguese } }
+ clr_global_flag = ff60_name_3650_boer clr_global_flag = ff60_name_3650_german clr_global_flag = ff60_name_3650_catalan clr_global_flag = ff60_name_3650_french clr_global_flag = ff60_name_3650_british clr_global_flag = ff60_name_3650_native set_global_flag = ff60_name_3650_portuguese
+ change_province_name = "Malvérnia"
+ }
+any_owned = { limit = { province_id = 3650 owner = { primary_culture = catalan } NOT = { has_global_flag = ff60_name_3650_catalan } }
+ clr_global_flag = ff60_name_3650_boer clr_global_flag = ff60_name_3650_german clr_global_flag = ff60_name_3650_portuguese clr_global_flag = ff60_name_3650_french clr_global_flag = ff60_name_3650_british clr_global_flag = ff60_name_3650_native set_global_flag = ff60_name_3650_catalan
+ change_province_name = "Lepelle"
+ }
+any_owned = { limit = { province_id = 3650 owner = { is_culture_group = french } NOT = { has_global_flag = ff60_name_3650_french } }
+ clr_global_flag = ff60_name_3650_boer clr_global_flag = ff60_name_3650_german clr_global_flag = ff60_name_3650_portuguese clr_global_flag = ff60_name_3650_catalan clr_global_flag = ff60_name_3650_british clr_global_flag = ff60_name_3650_native set_global_flag = ff60_name_3650_french
+ change_province_name = "Lepelle"
+ }
+any_owned = { limit = { province_id = 3650 owner = { is_culture_group = british } NOT = { has_global_flag = ff60_name_3650_british } }
+ clr_global_flag = ff60_name_3650_boer clr_global_flag = ff60_name_3650_german clr_global_flag = ff60_name_3650_portuguese clr_global_flag = ff60_name_3650_catalan clr_global_flag = ff60_name_3650_french clr_global_flag = ff60_name_3650_native set_global_flag = ff60_name_3650_british
+ change_province_name = "Lepelle"
+ }
+any_owned = { limit = { province_id = 3650 owner = { NOT = { OR = { primary_culture = boer is_culture_group = beneluxian } OR = { primary_culture = north_german primary_culture = south_german } OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } primary_culture = catalan is_culture_group = french is_culture_group = british } } NOT = { has_global_flag = ff60_name_3650_native } }
+ clr_global_flag = ff60_name_3650_boer clr_global_flag = ff60_name_3650_german clr_global_flag = ff60_name_3650_portuguese clr_global_flag = ff60_name_3650_catalan clr_global_flag = ff60_name_3650_french clr_global_flag = ff60_name_3650_british set_global_flag = ff60_name_3650_native
+ change_province_name = "Lepelle"
+ }
+any_owned = { limit = { province_id = 3713 owner = { OR = { primary_culture = boer is_culture_group = beneluxian } } NOT = { has_global_flag = ff60_name_3713_boer } }
+ clr_global_flag = ff60_name_3713_german clr_global_flag = ff60_name_3713_portuguese clr_global_flag = ff60_name_3713_catalan clr_global_flag = ff60_name_3713_french clr_global_flag = ff60_name_3713_british clr_global_flag = ff60_name_3713_native set_global_flag = ff60_name_3713_boer
+ change_province_name = "Komatipoort"
+ }
+any_owned = { limit = { province_id = 3713 owner = { OR = { primary_culture = north_german primary_culture = south_german } } NOT = { has_global_flag = ff60_name_3713_german } }
+ clr_global_flag = ff60_name_3713_boer clr_global_flag = ff60_name_3713_portuguese clr_global_flag = ff60_name_3713_catalan clr_global_flag = ff60_name_3713_french clr_global_flag = ff60_name_3713_british clr_global_flag = ff60_name_3713_native set_global_flag = ff60_name_3713_german
+ change_province_name = "Komatipoort"
+ }
+any_owned = { limit = { province_id = 3713 owner = { OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } } NOT = { has_global_flag = ff60_name_3713_portuguese } }
+ clr_global_flag = ff60_name_3713_boer clr_global_flag = ff60_name_3713_german clr_global_flag = ff60_name_3713_catalan clr_global_flag = ff60_name_3713_french clr_global_flag = ff60_name_3713_british clr_global_flag = ff60_name_3713_native set_global_flag = ff60_name_3713_portuguese
+ change_province_name = "Porto Komati"
+ }
+any_owned = { limit = { province_id = 3713 owner = { primary_culture = catalan } NOT = { has_global_flag = ff60_name_3713_catalan } }
+ clr_global_flag = ff60_name_3713_boer clr_global_flag = ff60_name_3713_german clr_global_flag = ff60_name_3713_portuguese clr_global_flag = ff60_name_3713_french clr_global_flag = ff60_name_3713_british clr_global_flag = ff60_name_3713_native set_global_flag = ff60_name_3713_catalan
+ change_province_name = "Port Comati"
+ }
+any_owned = { limit = { province_id = 3713 owner = { is_culture_group = french } NOT = { has_global_flag = ff60_name_3713_french } }
+ clr_global_flag = ff60_name_3713_boer clr_global_flag = ff60_name_3713_german clr_global_flag = ff60_name_3713_portuguese clr_global_flag = ff60_name_3713_catalan clr_global_flag = ff60_name_3713_british clr_global_flag = ff60_name_3713_native set_global_flag = ff60_name_3713_french
+ change_province_name = "Port Komati"
+ }
+any_owned = { limit = { province_id = 3713 owner = { is_culture_group = british } NOT = { has_global_flag = ff60_name_3713_british } }
+ clr_global_flag = ff60_name_3713_boer clr_global_flag = ff60_name_3713_german clr_global_flag = ff60_name_3713_portuguese clr_global_flag = ff60_name_3713_catalan clr_global_flag = ff60_name_3713_french clr_global_flag = ff60_name_3713_native set_global_flag = ff60_name_3713_british
+ change_province_name = "Port Komati"
+ }
+any_owned = { limit = { province_id = 3713 owner = { NOT = { OR = { primary_culture = boer is_culture_group = beneluxian } OR = { primary_culture = north_german primary_culture = south_german } OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } primary_culture = catalan is_culture_group = french is_culture_group = british } } NOT = { has_global_flag = ff60_name_3713_native } }
+ clr_global_flag = ff60_name_3713_boer clr_global_flag = ff60_name_3713_german clr_global_flag = ff60_name_3713_portuguese clr_global_flag = ff60_name_3713_catalan clr_global_flag = ff60_name_3713_french clr_global_flag = ff60_name_3713_british set_global_flag = ff60_name_3713_native
+ change_province_name = "Nkomazi"
+ }
+random_owned = { limit = { owner = { 3713 = { OR = { is_core = TRN is_core = ORA is_core = POT is_core = VLK is_core = LYD is_core = UTR is_core = ZPB is_core = NAL is_core = KVS is_core = STL is_core = GOS is_core = UST is_core = NRB } NOT = { is_core = SAF } } } } owner = { 3713 = { add_core = SAF } } }
+random_owned = { limit = { owner = { 3650 = { OR = { is_core = TRN is_core = ORA is_core = POT is_core = VLK is_core = LYD is_core = UTR is_core = ZPB is_core = NAL is_core = KVS is_core = STL is_core = GOS is_core = UST is_core = NRB } NOT = { is_core = SAF } } } } owner = { 3650 = { add_core = SAF } } }
+random_owned = { limit = { owner = { 2050 = { OR = { is_core = TRN is_core = ORA is_core = POT is_core = VLK is_core = LYD is_core = UTR is_core = ZPB is_core = NAL is_core = KVS is_core = STL is_core = GOS is_core = UST is_core = NRB } NOT = { is_core = SAF } } } } owner = { 2050 = { add_core = SAF } } }
+random_owned = { limit = { owner = { 2049 = { OR = { is_core = TRN is_core = ORA is_core = POT is_core = VLK is_core = LYD is_core = UTR is_core = ZPB is_core = NAL is_core = KVS is_core = STL is_core = GOS is_core = UST is_core = NRB } NOT = { is_core = SAF } } } } owner = { 2049 = { add_core = SAF } } }
+ } # hidden_tooltip
+ }
+}

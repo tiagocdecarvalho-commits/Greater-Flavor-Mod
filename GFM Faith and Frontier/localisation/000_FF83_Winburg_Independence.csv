@@ -1,0 +1,157 @@
+FF83_RECOG;Let Winburg govern its own affairs.;;;;;;;;;;;;;x
+FF83_9785240_TITLE;Britain Recognises the Emigrant Government;;;;;;;;;;;;;x
+FF83_9785240_DESC;The reply from the Cape acknowledges that the emigrants will administer their own affairs beyond the colonial frontier. Britain has chosen negotiation over an expedition, but recognition is only the beginning of a state. The commandants must establish courts, collect revenue and decide who can speak for the scattered settlements. The council at Winburg now takes responsibility for that work. Independence brings no claim to British ports or neighbouring kingdoms: those questions must be settled through diplomacy, trade or future conflict.;;;;;;;;;;;;;x
+FF83_DEFEAT;Preserve the community under the settlement.;;;;;;;;;;;;;x
+FF83_9785241_TITLE;The Crown Re-establishes Its Authority;;;;;;;;;;;;;x
+FF83_9785241_DESC;The commandos have failed to prevent Britain from imposing its terms. The emigrant government retains its local officers, but it must accept British protection and the constraints that come with it. Families continue to move towards the Vaal, and new settlements will still seek their own councils. The question of Winburg, Potchefstroom and the wider emigrant government remains unsettled, but those disputes will now develop under the shadow of the Cape administration.;;;;;;;;;;;;;x
+FF83_WAR_VICTORY;Our independence has been defended.;;;;;;;;;;;;;x
+FF83_9785242_TITLE;The Commandos Return to Winburg;;;;;;;;;;;;;x
+FF83_9785242_DESC;The imperial expedition has ended without the submission it sought. The peace leaves the frontier where it stood and the emigrant government free to administer its settlements. The commandos return with a victory that few believed possible, yet a successful defence cannot replace a treasury, a court or a road. The Volksraad must convert the authority earned in the field into institutions that endure after the burghers return to their farms. No British territory has been ceded: the prize is the independence of the republic itself.;;;;;;;;;;;;;x
+FF83_FEDERAL;Let the districts govern through a common council.;;;;;;;;;;;;;x
+FF83_COMMANDANT;Place responsibility in a strong commandant government.;;;;;;;;;;;;;x
+FF83_CIVIL;Build a civil republic with courts and public accounts.;;;;;;;;;;;;;x
+FF83_9785243_TITLE;A Volksraad for an Independent Winburg;;;;;;;;;;;;;x
+FF83_9785243_DESC;A community of wagon camps can settle an argument through its commandants, but a republic needs rules that apply when those commandants disagree. Delegates gather to decide how the districts will contribute men and revenue, how magistrates will be appointed, and whether the council can bind the outlying settlements. Farmers favour local authority, military leaders ask for a stronger executive, and traders want predictable law. Each arrangement can sustain independence, but each will give the republic a different political character.;;;;;;;;;;;;;x
+FF83_POT_PARTNER;Open correspondence with the northern council.;;;;;;;;;;;;;x
+FF83_9785244_TITLE;The Northern Settlement at Potchefstroom;;;;;;;;;;;;;x
+FF83_9785244_DESC;News from the Mooi River reports a permanent northern settlement and a council of its own. Winburg's recognised independence gives the northern emigrants a partner with whom to arrange roads, markets and frontier defence. The two councils need not become one government to cooperate, but leaving their affairs entirely separate would make disagreements over levies and jurisdiction inevitable. Envoys will begin with practical arrangements and return to the question of a common constitution when both communities are ready.;;;;;;;;;;;;;x
+ff83_propose_vaal_union;Propose a Common Government Across the Vaal;;;;;;;;;;;;;x
+ff83_propose_vaal_union_desc;Invite Potchefstroom to negotiate a permanent union. The northern council may accept a shared constitution or retain its own government and continue as an ally.;;;;;;;;;;;;;x
+FF83_UNION_ACCEPT;Ratify the common government.;;;;;;;;;;;;;x
+FF83_UNION_REFUSE;Keep our council and the alliance.;;;;;;;;;;;;;x
+FF83_9785245_TITLE;Winburg Proposes a Lasting Union;;;;;;;;;;;;;x
+FF83_9785245_DESC;The Winburg delegates propose a government that will represent the emigrant communities on both banks of the Vaal. A common treasury and command would strengthen the republics against outside pressure, but northern farmers will not easily surrender the authority of their own council. The draft recognises district administration and requires the common government to account for its levies. Acceptance will create one sovereign republic, refusal will preserve the existing alliance and leave a later conference possible.;;;;;;;;;;;;;x
+FF83_UNION_RATIFY;Proclaim the union and preserve our independence.;;;;;;;;;;;;;x
+FF83_9785246_TITLE;A Republic on Both Banks of the Vaal;;;;;;;;;;;;;x
+FF83_9785246_DESC;The councils have ratified the union. The government will sit at Winburg, while the northern districts retain their local magistrates and representation in the Volksraad. Commandos will answer to a common authority, and revenue raised for roads and defence will be entered in one account. The republic takes the name Winburg-Potchefstroom. It inherits the agreements of its constituent communities, including the independence already secured from Britain. The new constitution must now be made effective across a country whose settlements remain widely separated.;;;;;;;;;;;;;x
+FF83_9785247_OPT0;Negotiate customs and frontier cooperation.;;;;;;;;;;;;;x
+FF83_9785247_OPT1;Keep our distance and strengthen the frontier councils.;;;;;;;;;;;;;x
+FF83_9785247_TITLE;Independence and the Cape Frontier;;;;;;;;;;;;;x
+FF83_9785247_DESC;Britain is reorganising its southern frontier, and the republic's earlier settlement must now be translated into everyday arrangements for trade, fugitives and the movement of armed men. Our delegates insist that the independence of the emigrant government cannot be set aside by a new colonial proclamation. Merchants ask for customs cooperation, while commandants want a firmer frontier administration. The council must choose how to deal with the Cape without accepting the dependency it previously rejected.;;;;;;;;;;;;;x
+FF83_9785248_OPT0;Fund audited accounts and a permanent revenue office.;;;;;;;;;;;;;x
+FF83_9785248_OPT1;Retain district contributions and publish the council accounts.;;;;;;;;;;;;;x
+FF83_9785248_TITLE;A Treasury Beyond the Wagon Chest;;;;;;;;;;;;;x
+FF83_9785248_DESC;Public business has outgrown the contributions collected when a commando was called. Magistrates, postal riders and roads require regular accounts, yet many burghers regard permanent taxation as the first step towards the government they left behind in the Cape. The Volksraad can finance an audited revenue office or retain a looser system of district contributions. The choice concerns the capacity of the republic to carry out the promises written into its constitution.;;;;;;;;;;;;;x
+FF83_9785249_OPT0;Guarantee the authority of the district councils.;;;;;;;;;;;;;x
+FF83_9785249_OPT1;Create a uniform civil administration.;;;;;;;;;;;;;x
+FF83_9785249_TITLE;Representation for the Outlying Districts;;;;;;;;;;;;;x
+FF83_9785249_DESC;New farms and market towns have shifted the balance of the republic. Delegates from outlying districts object that the founding settlements can decide levies and public works without bearing all their costs. The Volksraad must decide whether representation will continue through district councils or move towards a more uniform administration. The debate reaches into the commando system, the appointment of magistrates and the authority of the capital.;;;;;;;;;;;;;x
+FF83_9785250_OPT0;Establish a survey office and publish mining regulations.;;;;;;;;;;;;;x
+FF83_9785250_OPT1;Let private associations supply the diggings.;;;;;;;;;;;;;x
+FF83_9785250_TITLE;The Diggings and the Inland Republic;;;;;;;;;;;;;x
+FF83_9785250_DESC;Reports of diamonds near the Orange River have brought traders, surveyors and hopeful prospectors into the frontier towns. The deposits do not respect the lines drawn by councils and colonial officials, and competing claims may soon test every agreement on the western border. Even where the republic does not own the diggings, its roads and markets will carry men and supplies towards them. The government must decide whether to establish a public system of licences and surveys or leave the rush largely in private hands.;;;;;;;;;;;;;x
+FF83_9785251_OPT0;Seek a wider confederation through treaties.;;;;;;;;;;;;;x
+FF83_9785251_OPT1;Make commerce the foundation of our independence.;;;;;;;;;;;;;x
+FF83_9785251_OPT2;Secure the republic before extending its commitments.;;;;;;;;;;;;;x
+FF83_9785251_TITLE;The Republic Looks Beyond the Vaal;;;;;;;;;;;;;x
+FF83_9785251_DESC;A generation has passed since Britain first demanded the submission of the emigrant government. The republic has survived through councils, treaties, public works and the labour of its communities. Independence is now an established fact, but its next purpose remains contested. Some delegates favour cooperation with neighbouring republics, others place their hopes in commerce and access to distant ports, and the commandants argue that only a stronger defence can preserve what has been built. The Volksraad must choose the priority that will guide the next generation.;;;;;;;;;;;;;x
+ff83_roads;Build the Winburg Market Roads;;;;;;;;;;;;;x
+ff83_roads_desc;Survey the wagon routes, maintain crossings and establish a public market at Winburg. The work will help farmers sell their produce and support the movement of supplies.;;;;;;;;;;;;;x
+FF83_ROADS_EXECUTE;Put the council's programme into effect.;;;;;;;;;;;;;x
+FF83_9785252_TITLE;Build the Winburg Market Roads;;;;;;;;;;;;;x
+FF83_9785252_DESC;Survey the wagon routes, maintain crossings and establish a public market at Winburg. The work will help farmers sell their produce and support the movement of supplies. The council has authorised the expenditure, and the commissioners now report that the programme can begin.;;;;;;;;;;;;;x
+ff83_post;Establish the Republican Postal Service;;;;;;;;;;;;;x
+ff83_post_desc;Finance regular postal riders between the councils and principal market towns. Public correspondence should no longer depend on the chance passage of a wagon.;;;;;;;;;;;;;x
+FF83_POST_EXECUTE;Put the council's programme into effect.;;;;;;;;;;;;;x
+FF83_9785253_TITLE;Establish the Republican Postal Service;;;;;;;;;;;;;x
+FF83_9785253_DESC;Finance regular postal riders between the councils and principal market towns. Public correspondence should no longer depend on the chance passage of a wagon. The council has authorised the expenditure, and the commissioners now report that the programme can begin.;;;;;;;;;;;;;x
+ff83_schools;Endow the District Schools;;;;;;;;;;;;;x
+ff83_schools_desc;Provide salaries, books and buildings for schools administered through the district councils and congregations. Funding a permanent system will help the republic train its own clerks and teachers.;;;;;;;;;;;;;x
+FF83_SCHOOLS_EXECUTE;Put the council's programme into effect.;;;;;;;;;;;;;x
+FF83_9785254_TITLE;Endow the District Schools;;;;;;;;;;;;;x
+FF83_9785254_DESC;Provide salaries, books and buildings for schools administered through the district councils and congregations. Funding a permanent system will help the republic train its own clerks and teachers. The council has authorised the expenditure, and the commissioners now report that the programme can begin.;;;;;;;;;;;;;x
+ff83_settlers;Open the Inland Settlement Offices;;;;;;;;;;;;;x
+ff83_settlers_desc;Register land applications and organise the reception of prospective settlers. Published rules and reliable administration can draw immigration without claiming land that belongs to a neighbouring government.;;;;;;;;;;;;;x
+FF83_SETTLERS_EXECUTE;Put the council's programme into effect.;;;;;;;;;;;;;x
+FF83_9785255_TITLE;Open the Inland Settlement Offices;;;;;;;;;;;;;x
+FF83_9785255_DESC;Register land applications and organise the reception of prospective settlers. Published rules and reliable administration can draw immigration without claiming land that belongs to a neighbouring government. The council has authorised the expenditure, and the commissioners now report that the programme can begin.;;;;;;;;;;;;;x
+ff83_rail;Survey a Railway Across the Vaal;;;;;;;;;;;;;x
+ff83_rail_desc;Commission engineers to survey the route between Winburg and Potchefstroom. The survey prepares a future railway, but does not pretend that a complete line can be built by proclamation.;;;;;;;;;;;;;x
+FF83_RAIL_EXECUTE;Put the council's programme into effect.;;;;;;;;;;;;;x
+FF83_9785256_TITLE;Survey a Railway Across the Vaal;;;;;;;;;;;;;x
+FF83_9785256_DESC;Commission engineers to survey the route between Winburg and Potchefstroom. The survey prepares a future railway, but does not pretend that a complete line can be built by proclamation. The council has authorised the expenditure, and the commissioners now report that the programme can begin.;;;;;;;;;;;;;x
+ff83_water;Provide Water for the Frontier Towns;;;;;;;;;;;;;x
+ff83_water_desc;Finance wells, drainage and inspection of public water supplies in the growing market towns. The treasury must support the institutions needed to maintain them.;;;;;;;;;;;;;x
+FF83_WATER_EXECUTE;Put the council's programme into effect.;;;;;;;;;;;;;x
+FF83_9785257_TITLE;Provide Water for the Frontier Towns;;;;;;;;;;;;;x
+FF83_9785257_DESC;Finance wells, drainage and inspection of public water supplies in the growing market towns. The treasury must support the institutions needed to maintain them. The council has authorised the expenditure, and the commissioners now report that the programme can begin.;;;;;;;;;;;;;x
+ff83_dutch_mission;Send a Commercial Mission to the Netherlands;;;;;;;;;;;;;x
+ff83_dutch_mission_desc;Negotiate exchanges of teachers, public servants and commercial representatives with the Netherlands. A convention would strengthen Dutch institutions in the republic and offer merchants a recognised channel for cooperation.;;;;;;;;;;;;;x
+FF83_DUTCH_ACCEPT;Receive the mission and conclude a convention.;;;;;;;;;;;;;x
+FF83_DUTCH_REFUSE;Keep our commitments limited to private commerce.;;;;;;;;;;;;;x
+FF83_9785258_TITLE;A Mission from the Inland Republic;;;;;;;;;;;;;x
+FF83_9785258_DESC;Delegates from the emigrant republic request Dutch teachers, technical advisers and a formal channel for merchants. Their government has secured its independence and is trying to build institutions that need not depend upon the Cape. The Netherlands can support these exchanges without guaranteeing the republic against every frontier dispute. The proposed convention would recognise a cultural and commercial relationship while leaving both governments responsible for their own foreign policy.;;;;;;;;;;;;;x
+FF83_DUTCH_RATIFY;Ratify the convention and welcome the delegates.;;;;;;;;;;;;;x
+FF83_9785259_TITLE;The Dutch Convention Is Ratified;;;;;;;;;;;;;x
+FF83_9785259_DESC;The Dutch delegates have agreed to establish regular exchanges of teachers, advisers and commercial representatives. The Volksraad recognises Dutch residents within the civic institutions of the republic, while its schools and offices receive a new source of trained personnel. The convention provides cooperation, not a foreign military guarantee. Its value will depend on the work of the people who build the relationship.;;;;;;;;;;;;;x
+ff83_philippolis;Negotiate the Philippolis Purchase;;;;;;;;;;;;;x
+ff83_philippolis_desc;Offer a settlement for the Philippolis district. The Griqua government must consent before any land passes to the republic, and an unsuccessful negotiation returns the authorised purchase funds.;;;;;;;;;;;;;x
+FF83_PHIL_SALE;Accept the purchase agreement.;;;;;;;;;;;;;x
+FF83_PHIL_KEEP;Retain the district and decline the offer.;;;;;;;;;;;;;x
+FF83_9785260_TITLE;An Offer for Philippolis;;;;;;;;;;;;;x
+FF83_9785260_DESC;The emigrant republic has offered to purchase the Philippolis district. Settler pressure and disputes over land have made the Griqua government's position increasingly difficult, but a sale also means surrendering a home that its people have worked to establish. The council must decide whether an agreed payment and an orderly departure offer a better prospect than continued uncertainty. The republican envoys have no authority to take the district without an agreement.;;;;;;;;;;;;;x
+FF83_PHIL_RATIFY;Register the agreement and organise the district.;;;;;;;;;;;;;x
+FF83_9785261_TITLE;The Philippolis Agreement;;;;;;;;;;;;;x
+FF83_9785261_DESC;The Philippolis purchase has been ratified. Magistrates must record the transfer, settle the outstanding accounts and respect the terms negotiated with the Griqua council. The agreement changes the western frontier of the republic and opens a new chapter for the Griqua families who choose to move east. The government must administer the district it has acquired rather than treat the payment as the end of its obligations.;;;;;;;;;;;;;x
+ff83_review_agenda;Review the Republican Programme;;;;;;;;;;;;;x
+ff83_review_agenda_desc;Open the Volksraad's programme for the independent republic. The docket records future constitutional debates and the public works that can be financed as the country develops.;;;;;;;;;;;;;x
+FF83_AGENDA;Let the councils prepare the next business.;;;;;;;;;;;;;x
+FF83_9785262_TITLE;The Programme Before the Volksraad;;;;;;;;;;;;;x
+FF83_9785262_DESC;The republic's first tasks are courts, roads and correspondence. From 1838 the council can fund Winburg's market roads, and from 1840 it can propose a permanent union with Potchefstroom. Postal service follows in 1843. The Cape frontier convention will be debated from 1848, a Dutch mission can depart from 1851, and public accounts will be reconsidered from 1852. Schools and settlement offices become available later in the decade. From 1861 the council can negotiate for Philippolis, with railway surveys following in 1864. The diamond question returns in 1867, town water supplies in 1868, and the Volksraad will choose the republic's next priority in 1870. Each expenditure requires funds, and no agreement can annex a government that has not consented.;;;;;;;;;;;;;x
+FF83_LEGACY_WAR;Defend the government at Winburg.;;;;;;;;;;;;;x
+FF83_9785263_TITLE;The Imperial Expedition Reaches the Frontier;;;;;;;;;;;;;x
+FF83_9785263_DESC;The dispute with the Cape has become a war over the authority of the emigrant government. Britain demands submission, while the commandos seek only to preserve the independence of their settlements.;;;;;;;;;;;;;x
+ff83_recognised_frontier;The Recognised Frontier;;;;;;;;;;;;;x
+ff83_recognised_frontier_desc;The emigrant government administers its own affairs under an acknowledged frontier settlement.;;;;;;;;;;;;;x
+ff83_commando_memory;The Defence of Winburg;;;;;;;;;;;;;x
+ff83_commando_memory_desc;The commandos returned from the imperial campaign with their government still independent.;;;;;;;;;;;;;x
+ff83_district_councils;The District Councils;;;;;;;;;;;;;x
+ff83_district_councils_desc;Local councils administer the republic through a common Volksraad.;;;;;;;;;;;;;x
+ff83_commandant_government;The Commandant Government;;;;;;;;;;;;;x
+ff83_commandant_government_desc;The executive coordinates the commandos and the frontier districts.;;;;;;;;;;;;;x
+ff83_civil_republic;The Civil Republic;;;;;;;;;;;;;x
+ff83_civil_republic_desc;Courts and public accounts give the emigrant government a permanent civil foundation.;;;;;;;;;;;;;x
+ff83_cape_trade;The Cape Frontier Convention;;;;;;;;;;;;;x
+ff83_cape_trade_desc;Customs cooperation supports commerce across the colonial frontier.;;;;;;;;;;;;;x
+ff83_frontier_watch;The Frontier Councils;;;;;;;;;;;;;x
+ff83_frontier_watch_desc;District officers supervise the frontier and maintain the commando rolls.;;;;;;;;;;;;;x
+ff83_public_accounts;Audited Republican Accounts;;;;;;;;;;;;;x
+ff83_public_accounts_desc;The treasury maintains permanent accounts for revenue and public works.;;;;;;;;;;;;;x
+ff83_district_compromise;The District Compromise;;;;;;;;;;;;;x
+ff83_district_compromise_desc;The outlying councils retain representation and authority in the common republic.;;;;;;;;;;;;;x
+ff83_uniform_administration;Uniform Civil Administration;;;;;;;;;;;;;x
+ff83_uniform_administration_desc;Public officers apply a common administrative framework across the republic.;;;;;;;;;;;;;x
+ff83_mining_regulations;The Survey and Licensing Office;;;;;;;;;;;;;x
+ff83_mining_regulations_desc;Surveyors and public licences support an orderly market around the diggings.;;;;;;;;;;;;;x
+ff83_prospectors_markets;Markets for the Prospectors;;;;;;;;;;;;;x
+ff83_prospectors_markets_desc;Private associations supply the men travelling towards the diamond fields.;;;;;;;;;;;;;x
+ff83_confederation_mission;The Confederation Mission;;;;;;;;;;;;;x
+ff83_confederation_mission_desc;Diplomats seek treaties and closer cooperation with neighbouring governments.;;;;;;;;;;;;;x
+ff83_commercial_outlook;The Commercial Republic;;;;;;;;;;;;;x
+ff83_commercial_outlook_desc;Merchants and public officers seek markets that can sustain the republic's independence.;;;;;;;;;;;;;x
+ff83_defence_outlook;The Defence of the Republic;;;;;;;;;;;;;x
+ff83_defence_outlook_desc;The government gives priority to commando training and reliable mobilisation.;;;;;;;;;;;;;x
+ff83_market_roads;The Market Roads;;;;;;;;;;;;;x
+ff83_market_roads_desc;Maintained wagon routes and crossings serve the district market.;;;;;;;;;;;;;x
+ff83_postal_service;The Republican Postal Service;;;;;;;;;;;;;x
+ff83_postal_service_desc;Regular postal riders carry council correspondence between the towns.;;;;;;;;;;;;;x
+ff83_district_schools;The District Schools;;;;;;;;;;;;;x
+ff83_district_schools_desc;Public funding sustains teachers and schools in the republican districts.;;;;;;;;;;;;;x
+ff83_settlement_offices;The Inland Settlement Offices;;;;;;;;;;;;;x
+ff83_settlement_offices_desc;Land registration and published settlement rules support incoming settlers.;;;;;;;;;;;;;x
+ff83_transport_survey;The Railway Survey;;;;;;;;;;;;;x
+ff83_transport_survey_desc;Engineers have surveyed the district's future transport route.;;;;;;;;;;;;;x
+ff83_town_water;Public Water Supplies;;;;;;;;;;;;;x
+ff83_town_water_desc;Wells, drainage and inspection support the health of the frontier towns.;;;;;;;;;;;;;x
+ff83_dutch_exchange;The Dutch Exchange;;;;;;;;;;;;;x
+ff83_dutch_exchange_desc;Teachers and advisers support the republic through an agreed Dutch convention.;;;;;;;;;;;;;x
+ff83_union_pause;The Northern Council Reconsiders;;;;;;;;;;;;;x
+ff83_union_pause_desc;The council has recorded the present decision and will review it after the agreed interval.;;;;;;;;;;;;;x
+ff83_dutch_pause;Commercial Talks Postponed;;;;;;;;;;;;;x
+ff83_dutch_pause_desc;The council has recorded the present decision and will review it after the agreed interval.;;;;;;;;;;;;;x
+ff83_philippolis_pause;Philippolis Negotiations Postponed;;;;;;;;;;;;;x
+ff83_philippolis_pause_desc;The council has recorded the present decision and will review it after the agreed interval.;;;;;;;;;;;;;x
+ff83_agenda_pause;The Current Volksraad Docket;;;;;;;;;;;;;x
+ff83_agenda_pause_desc;The council has recorded the present decision and will review it after the agreed interval.;;;;;;;;;;;;;x
+ff83_constitution_wait;The Founding Volksraad;;;;;;;;;;;;;x
+ff83_constitution_wait_desc;District delegates are gathering to establish the institutions of the independent republic.;;;;;;;;;;;;;x

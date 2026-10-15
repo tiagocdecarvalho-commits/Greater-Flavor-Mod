@@ -1,0 +1,22 @@
+ff_hai_gs_ack;Acknowledge the diplomatic report.;;;;;;;;;;;;;x
+ff_hai_schleswig_settlement;Settle the Schleswig-Holstein Question;;;;;;;;;;;;;x
+ff_hai_schleswig_settlement_short;Secure the Duchies;;;;;;;;;;;;;x
+ff_hai_schleswig_settlement_desc;Compel Denmark to settle the dispute over the duchies.;;;;;;;;;;;;;x
+ff_hai_gs_purchase_title;The Gadsden Purchase;;;;;;;;;;;;;x
+ff_hai_gs_purchase_desc;On 30 June 1854 the amended treaty between Mexico and the United States takes effect. The Mesilla purchase settles the disputed frontier and provides a route for a southern transcontinental railway. Tucson and the adjoining border districts pass to American sovereignty.;;;;;;;;;;;;;x
+ff_hai_gs_constitution_title;The November Constitution;;;;;;;;;;;;;x
+ff_hai_gs_constitution_desc;Christian IX signs the November Constitution on 18 November 1863. The closer association of Schleswig with Denmark challenges the London settlement. The duchies remain represented under the Danish Crown while the constitutional dispute becomes an international crisis.;;;;;;;;;;;;;x
+ff_hai_gs_war_title;The Second Schleswig War;;;;;;;;;;;;;x
+ff_hai_gs_war_desc;On 1 February 1864 Prussian and Austrian forces cross the Eider after Denmark refuses to withdraw the November Constitution. Prussia and Austria act together against Denmark. The other great powers remain outside the campaign.;;;;;;;;;;;;;x
+ff_hai_gs_vienna_title;The Treaty of Vienna;;;;;;;;;;;;;x
+ff_hai_gs_vienna_desc;On 30 October 1864 Denmark renounces its rights to Schleswig, Holstein and Lauenburg in favour of Prussia and Austria. The two powers assume joint authority. The existing duchy administrations represent this settlement until their responsibilities are divided at Gastein.;;;;;;;;;;;;;x
+ff_hai_gs_gastein_title;The Gastein Convention;;;;;;;;;;;;;x
+ff_hai_gs_gastein_desc;On 14 August 1865 Prussia and Austria divide their administrative responsibilities. Schleswig comes under Prussian administration and Holstein under Austrian administration. The rights over Lauenburg pass to Prussia, which joins the duchy to its crown in personal union.;;;;;;;;;;;;;x
+FF_HAI_SECOND_SCHLESWIG_WAR;Second Schleswig War;;;;;;;;;;;;;x
+FF_HAI_SECOND_SCHLESWIG_WAR_NO_ORDER;Second Schleswig War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_SECOND_SCHLESWIG_WAR;Second Schleswig War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_SECOND_SCHLESWIG_WAR_NO_ORDER;Second Schleswig War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_SECOND_SCHLESWIG_WAR;Second Schleswig War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_SECOND_SCHLESWIG_WAR_NO_ORDER;Second Schleswig War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_SECOND_SCHLESWIG_WAR;Second Schleswig War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_SECOND_SCHLESWIG_WAR_NO_ORDER;Second Schleswig War;;;;;;;;;;;;;x

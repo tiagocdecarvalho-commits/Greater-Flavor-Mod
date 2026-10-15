@@ -1,0 +1,59 @@
+# FF83's accepted independent union enters the shared 1850 charter.
+country_event = {
+    id = 9786240
+    title = "FF103_CHARTER_TITLE"
+    desc = "FF103_CHARTER_DESC"
+    picture = "ffv5_natalia_volksraad"
+    trigger = {
+        tag = VLK
+        primary_culture = boer
+        has_country_flag = ff83_independent_path
+        has_country_flag = ff83_lasting_union
+        has_country_flag = ff83_union_ratified
+        has_country_flag = ff42_winburg_potchefstroom_union
+        is_vassal = no
+        war = no
+        year = 1850
+        NOT = { has_country_flag = ff84_union_path }
+        NOT = { has_country_flag = ff84_union_victory }
+        NOT = { has_country_flag = ff84_constitution_done }
+        NOT = { has_country_flag = ff84_civil_war }
+        NOT = { has_global_flag = ff84_civil_war_active }
+        NOT = { has_country_flag = ff103_bridge_complete }
+    }
+    mean_time_to_happen = { days = 1 }
+    option = {
+        name = "FF103_PREPARE_CHARTER"
+        ai_chance = { factor = 100 }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = VLK
+                    primary_culture = boer
+                    has_country_flag = ff83_independent_path
+                    has_country_flag = ff83_lasting_union
+                    has_country_flag = ff83_union_ratified
+                    has_country_flag = ff42_winburg_potchefstroom_union
+                    is_vassal = no
+                    war = no
+                    year = 1850
+                    NOT = { has_country_flag = ff84_union_path }
+                    NOT = { has_country_flag = ff84_union_victory }
+                    NOT = { has_country_flag = ff84_constitution_done }
+                    NOT = { has_country_flag = ff84_civil_war }
+                    NOT = { has_global_flag = ff84_civil_war_active }
+                    NOT = { has_country_flag = ff103_bridge_complete }
+                }
+            }
+            owner = {
+                set_country_flag = ff103_bridge_complete
+                set_country_flag = ff84_union_path
+                set_country_flag = ff84_reintegrated
+                government = ff84_union_republic
+                set_country_flag = new_world_nation
+                add_country_modifier = { name = ff84_common_treasury duration = -1 }
+                add_country_modifier = { name = ff84_constitution_wait duration = 30 }
+            }
+        }
+    }
+}

@@ -1,0 +1,5008 @@
+political_decisions = {
+    cve_army = {
+        picture = cvt_court
+        potential = {
+            has_country_flag = cvt_pack
+            has_country_flag = cvt_origin
+            OR = {
+                tag = TUS
+                tag = TIE
+                tag = ITA
+            }
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1855
+            military_staff_system = 1
+            NOT = {
+                has_country_flag = cve_army_done
+            }
+            NOT = {
+                has_country_flag = cve_army_pending
+            }
+        }
+        allow = {
+            war = no
+            money = 22000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = cvt_pack
+                        has_country_flag = cvt_origin
+                        OR = {
+                            tag = TUS
+                            tag = TIE
+                            tag = ITA
+                        }
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1855
+                        military_staff_system = 1
+                        NOT = {
+                            has_country_flag = cve_army_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_army_pending
+                        }
+                        war = no
+                        money = 22000
+                    }
+                }
+                owner = {
+                    treasury = -22000
+                    set_country_flag = cve_army_pending
+                    country_event = {
+                        id = 9901004
+                        days = 1
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_navy = {
+        picture = cvt_court
+        potential = {
+            has_country_flag = cvt_pack
+            has_country_flag = cvt_origin
+            OR = {
+                tag = TUS
+                tag = TIE
+                tag = ITA
+            }
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1856
+            NOT = {
+                has_country_flag = cve_navy_done
+            }
+            NOT = {
+                has_country_flag = cve_navy_pending
+            }
+        }
+        allow = {
+            war = no
+            money = 25000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = cvt_pack
+                        has_country_flag = cvt_origin
+                        OR = {
+                            tag = TUS
+                            tag = TIE
+                            tag = ITA
+                        }
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1856
+                        NOT = {
+                            has_country_flag = cve_navy_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_navy_pending
+                        }
+                        war = no
+                        money = 25000
+                    }
+                }
+                owner = {
+                    treasury = -25000
+                    set_country_flag = cve_navy_pending
+                    country_event = {
+                        id = 9901005
+                        days = 1
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_railways = {
+        picture = cvt_court
+        potential = {
+            has_country_flag = cvt_pack
+            has_country_flag = cvt_origin
+            OR = {
+                tag = TUS
+                tag = TIE
+                tag = ITA
+            }
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1858
+            experimental_railroad = 1
+            NOT = {
+                has_country_flag = cve_railways_done
+            }
+            NOT = {
+                has_country_flag = cve_railways_pending
+            }
+        }
+        allow = {
+            war = no
+            money = 25000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = cvt_pack
+                        has_country_flag = cvt_origin
+                        OR = {
+                            tag = TUS
+                            tag = TIE
+                            tag = ITA
+                        }
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1858
+                        experimental_railroad = 1
+                        NOT = {
+                            has_country_flag = cve_railways_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_railways_pending
+                        }
+                        war = no
+                        money = 25000
+                    }
+                }
+                owner = {
+                    treasury = -25000
+                    set_country_flag = cve_railways_pending
+                    country_event = {
+                        id = 9901006
+                        days = 1
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_southern = {
+        picture = cvt_court
+        potential = {
+            has_country_flag = cvt_pack
+            has_country_flag = cvt_origin
+            OR = {
+                tag = TUS
+                tag = TIE
+                tag = ITA
+            }
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1862
+            NOT = {
+                has_country_flag = cve_southern_done
+            }
+            NOT = {
+                has_country_flag = cve_southern_pending
+            }
+        }
+        allow = {
+            war = no
+            money = 20000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = cvt_pack
+                        has_country_flag = cvt_origin
+                        OR = {
+                            tag = TUS
+                            tag = TIE
+                            tag = ITA
+                        }
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1862
+                        NOT = {
+                            has_country_flag = cve_southern_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_southern_pending
+                        }
+                        war = no
+                        money = 20000
+                    }
+                }
+                owner = {
+                    treasury = -20000
+                    set_country_flag = cve_southern_pending
+                    country_event = {
+                        id = 9901007
+                        days = 1
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_consuls = {
+        picture = cvt_court
+        potential = {
+            has_country_flag = cvt_pack
+            has_country_flag = cvt_origin
+            OR = {
+                tag = TUS
+                tag = TIE
+                tag = ITA
+            }
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1860
+            has_country_flag = cve_navy_done
+            NOT = {
+                has_country_flag = cve_consuls_done
+            }
+            NOT = {
+                has_country_flag = cve_consuls_pending
+            }
+        }
+        allow = {
+            war = no
+            money = 18000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = cvt_pack
+                        has_country_flag = cvt_origin
+                        OR = {
+                            tag = TUS
+                            tag = TIE
+                            tag = ITA
+                        }
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1860
+                        has_country_flag = cve_navy_done
+                        NOT = {
+                            has_country_flag = cve_consuls_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_consuls_pending
+                        }
+                        war = no
+                        money = 18000
+                    }
+                }
+                owner = {
+                    treasury = -18000
+                    set_country_flag = cve_consuls_pending
+                    country_event = {
+                        id = 9901008
+                        days = 1
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_colonial_admin = {
+        picture = cvt_court
+        potential = {
+            has_country_flag = cvt_pack
+            has_country_flag = cvt_origin
+            OR = {
+                tag = TUS
+                tag = TIE
+                tag = ITA
+            }
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1880
+            OR = {
+                EGY = {
+                    vassal_of = TIE
+                }
+                SIA = {
+                    vassal_of = TIE
+                }
+                TUN = {
+                    vassal_of = TIE
+                }
+                TRI = {
+                    vassal_of = TIE
+                }
+                SOM = {
+                    vassal_of = TIE
+                }
+                ETH = {
+                    vassal_of = TIE
+                }
+                any_owned_province = {
+                    is_colonial = yes
+                }
+            }
+            NOT = {
+                has_country_flag = cve_colonial_admin_done
+            }
+            NOT = {
+                has_country_flag = cve_colonial_admin_pending
+            }
+        }
+        allow = {
+            war = no
+            money = 30000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = cvt_pack
+                        has_country_flag = cvt_origin
+                        OR = {
+                            tag = TUS
+                            tag = TIE
+                            tag = ITA
+                        }
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1880
+                        OR = {
+                            EGY = {
+                                vassal_of = TIE
+                            }
+                            SIA = {
+                                vassal_of = TIE
+                            }
+                            TUN = {
+                                vassal_of = TIE
+                            }
+                            TRI = {
+                                vassal_of = TIE
+                            }
+                            SOM = {
+                                vassal_of = TIE
+                            }
+                            ETH = {
+                                vassal_of = TIE
+                            }
+                            any_owned_province = {
+                                is_colonial = yes
+                            }
+                        }
+                        NOT = {
+                            has_country_flag = cve_colonial_admin_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_colonial_admin_pending
+                        }
+                        war = no
+                        money = 30000
+                    }
+                }
+                owner = {
+                    treasury = -30000
+                    set_country_flag = cve_colonial_admin_pending
+                    country_event = {
+                        id = 9901009
+                        days = 1
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_accord_ENG = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1857
+            NOT = {
+                has_country_flag = cve_accord_ENG_done
+            }
+            NOT = {
+                has_country_flag = cve_accord_ENG_pending
+            }
+            NOT = {
+                has_country_modifier = cve_accord_ENG_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 12000
+            NOT = {
+                truce_with = ENG
+            }
+            relation = {
+                who = ENG
+                value = 100
+            }
+            ENG = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1857
+                        NOT = {
+                            has_country_flag = cve_accord_ENG_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_accord_ENG_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_accord_ENG_cooldown
+                        }
+                        war = no
+                        money = 12000
+                        NOT = {
+                            truce_with = ENG
+                        }
+                        relation = {
+                            who = ENG
+                            value = 100
+                        }
+                        ENG = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -12000
+                        set_country_flag = cve_accord_ENG_pending
+                        add_country_modifier = {
+                            name = cve_accord_ENG_cooldown
+                            duration = 1095
+                        }
+                        ENG = {
+                            country_event = {
+                                id = 9901014
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_accord_ENG_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_accord_FRA = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1857
+            NOT = {
+                has_country_flag = cve_accord_FRA_done
+            }
+            NOT = {
+                has_country_flag = cve_accord_FRA_pending
+            }
+            NOT = {
+                has_country_modifier = cve_accord_FRA_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 12000
+            NOT = {
+                truce_with = FRA
+            }
+            relation = {
+                who = FRA
+                value = 100
+            }
+            FRA = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1857
+                        NOT = {
+                            has_country_flag = cve_accord_FRA_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_accord_FRA_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_accord_FRA_cooldown
+                        }
+                        war = no
+                        money = 12000
+                        NOT = {
+                            truce_with = FRA
+                        }
+                        relation = {
+                            who = FRA
+                            value = 100
+                        }
+                        FRA = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -12000
+                        set_country_flag = cve_accord_FRA_pending
+                        add_country_modifier = {
+                            name = cve_accord_FRA_cooldown
+                            duration = 1095
+                        }
+                        FRA = {
+                            country_event = {
+                                id = 9901018
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_accord_FRA_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_accord_AUS = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1857
+            NOT = {
+                has_country_flag = cve_accord_AUS_done
+            }
+            NOT = {
+                has_country_flag = cve_accord_AUS_pending
+            }
+            NOT = {
+                has_country_modifier = cve_accord_AUS_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 12000
+            NOT = {
+                truce_with = AUS
+            }
+            relation = {
+                who = AUS
+                value = 100
+            }
+            AUS = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1857
+                        NOT = {
+                            has_country_flag = cve_accord_AUS_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_accord_AUS_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_accord_AUS_cooldown
+                        }
+                        war = no
+                        money = 12000
+                        NOT = {
+                            truce_with = AUS
+                        }
+                        relation = {
+                            who = AUS
+                            value = 100
+                        }
+                        AUS = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -12000
+                        set_country_flag = cve_accord_AUS_pending
+                        add_country_modifier = {
+                            name = cve_accord_AUS_cooldown
+                            duration = 1095
+                        }
+                        AUS = {
+                            country_event = {
+                                id = 9901022
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_accord_AUS_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_accord_PRU = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1857
+            NOT = {
+                has_country_flag = cve_accord_PRU_done
+            }
+            NOT = {
+                has_country_flag = cve_accord_PRU_pending
+            }
+            NOT = {
+                has_country_modifier = cve_accord_PRU_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 12000
+            NOT = {
+                truce_with = PRU
+            }
+            relation = {
+                who = PRU
+                value = 100
+            }
+            PRU = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1857
+                        NOT = {
+                            has_country_flag = cve_accord_PRU_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_accord_PRU_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_accord_PRU_cooldown
+                        }
+                        war = no
+                        money = 12000
+                        NOT = {
+                            truce_with = PRU
+                        }
+                        relation = {
+                            who = PRU
+                            value = 100
+                        }
+                        PRU = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -12000
+                        set_country_flag = cve_accord_PRU_pending
+                        add_country_modifier = {
+                            name = cve_accord_PRU_cooldown
+                            duration = 1095
+                        }
+                        PRU = {
+                            country_event = {
+                                id = 9901026
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_accord_PRU_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_accord_GER = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1857
+            NOT = {
+                has_country_flag = cve_accord_GER_done
+            }
+            NOT = {
+                has_country_flag = cve_accord_GER_pending
+            }
+            NOT = {
+                has_country_modifier = cve_accord_GER_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 12000
+            NOT = {
+                truce_with = GER
+            }
+            relation = {
+                who = GER
+                value = 100
+            }
+            GER = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1857
+                        NOT = {
+                            has_country_flag = cve_accord_GER_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_accord_GER_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_accord_GER_cooldown
+                        }
+                        war = no
+                        money = 12000
+                        NOT = {
+                            truce_with = GER
+                        }
+                        relation = {
+                            who = GER
+                            value = 100
+                        }
+                        GER = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -12000
+                        set_country_flag = cve_accord_GER_pending
+                        add_country_modifier = {
+                            name = cve_accord_GER_cooldown
+                            duration = 1095
+                        }
+                        GER = {
+                            country_event = {
+                                id = 9901030
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_accord_GER_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_lombardy = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1857
+            NOT = {
+                has_country_flag = cve_lombardy_done
+            }
+            NOT = {
+                has_country_flag = cve_lombardy_pending
+            }
+            NOT = {
+                has_country_modifier = cve_lombardy_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 100000
+            NOT = {
+                truce_with = AUS
+            }
+            prestige = 50
+            relation = {
+                who = AUS
+                value = 150
+            }
+            AUS = {
+                any_owned_province = {
+                    OR = {
+                        region = AUS_726
+                    }
+                }
+            }
+            AUS = {
+                exists = yes
+                is_vassal = no
+                any_owned_province = {
+                    OR = {
+                        region = AUS_726
+                    }
+                }
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1857
+                        NOT = {
+                            has_country_flag = cve_lombardy_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_lombardy_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_lombardy_cooldown
+                        }
+                        war = no
+                        money = 100000
+                        NOT = {
+                            truce_with = AUS
+                        }
+                        prestige = 50
+                        relation = {
+                            who = AUS
+                            value = 150
+                        }
+                        AUS = {
+                            any_owned_province = {
+                                OR = {
+                                    region = AUS_726
+                                }
+                            }
+                        }
+                        AUS = {
+                            exists = yes
+                            is_vassal = no
+                            any_owned_province = {
+                                OR = {
+                                    region = AUS_726
+                                }
+                            }
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -100000
+                        set_country_flag = cve_lombardy_pending
+                        add_country_modifier = {
+                            name = cve_lombardy_cooldown
+                            duration = 1095
+                        }
+                        AUS = {
+                            country_event = {
+                                id = 9901034
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_lombardy_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_venetia = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1865
+            NOT = {
+                has_country_flag = cve_venetia_done
+            }
+            NOT = {
+                has_country_flag = cve_venetia_pending
+            }
+            NOT = {
+                has_country_modifier = cve_venetia_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 140000
+            NOT = {
+                truce_with = AUS
+            }
+            prestige = 50
+            relation = {
+                who = AUS
+                value = 150
+            }
+            AUS = {
+                any_owned_province = {
+                    OR = {
+                        region = AUS_729
+                    }
+                }
+            }
+            AUS = {
+                exists = yes
+                is_vassal = no
+                any_owned_province = {
+                    OR = {
+                        region = AUS_729
+                    }
+                }
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1865
+                        NOT = {
+                            has_country_flag = cve_venetia_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_venetia_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_venetia_cooldown
+                        }
+                        war = no
+                        money = 140000
+                        NOT = {
+                            truce_with = AUS
+                        }
+                        prestige = 50
+                        relation = {
+                            who = AUS
+                            value = 150
+                        }
+                        AUS = {
+                            any_owned_province = {
+                                OR = {
+                                    region = AUS_729
+                                }
+                            }
+                        }
+                        AUS = {
+                            exists = yes
+                            is_vassal = no
+                            any_owned_province = {
+                                OR = {
+                                    region = AUS_729
+                                }
+                            }
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -140000
+                        set_country_flag = cve_venetia_pending
+                        add_country_modifier = {
+                            name = cve_venetia_cooldown
+                            duration = 1095
+                        }
+                        AUS = {
+                            country_event = {
+                                id = 9901038
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_venetia_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_adriatic = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1878
+            NOT = {
+                has_country_flag = cve_adriatic_done
+            }
+            NOT = {
+                has_country_flag = cve_adriatic_pending
+            }
+            NOT = {
+                has_country_modifier = cve_adriatic_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 20000
+            NOT = {
+                truce_with = AUS
+            }
+            owns = 729
+            relation = {
+                who = AUS
+                value = 100
+            }
+            AUS = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1878
+                        NOT = {
+                            has_country_flag = cve_adriatic_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_adriatic_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_adriatic_cooldown
+                        }
+                        war = no
+                        money = 20000
+                        NOT = {
+                            truce_with = AUS
+                        }
+                        owns = 729
+                        relation = {
+                            who = AUS
+                            value = 100
+                        }
+                        AUS = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -20000
+                        set_country_flag = cve_adriatic_pending
+                        add_country_modifier = {
+                            name = cve_adriatic_cooldown
+                            duration = 1095
+                        }
+                        AUS = {
+                            country_event = {
+                                id = 9901043
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_adriatic_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_albanian = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1878
+            NOT = {
+                has_country_flag = cve_albanian_done
+            }
+            NOT = {
+                has_country_flag = cve_albanian_pending
+            }
+            NOT = {
+                has_country_modifier = cve_albanian_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 15000
+            NOT = {
+                truce_with = ALB
+            }
+            has_country_flag = cve_consuls_done
+            relation = {
+                who = ALB
+                value = 75
+            }
+            ALB = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1878
+                        NOT = {
+                            has_country_flag = cve_albanian_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_albanian_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_albanian_cooldown
+                        }
+                        war = no
+                        money = 15000
+                        NOT = {
+                            truce_with = ALB
+                        }
+                        has_country_flag = cve_consuls_done
+                        relation = {
+                            who = ALB
+                            value = 75
+                        }
+                        ALB = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -15000
+                        set_country_flag = cve_albanian_pending
+                        add_country_modifier = {
+                            name = cve_albanian_cooldown
+                            duration = 1095
+                        }
+                        ALB = {
+                            country_event = {
+                                id = 9901047
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_albanian_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_ottoman_libya = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1865
+            NOT = {
+                has_country_flag = cve_ottoman_libya_done
+            }
+            NOT = {
+                has_country_flag = cve_ottoman_libya_pending
+            }
+            NOT = {
+                has_country_modifier = cve_ottoman_libya_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 100000
+            NOT = {
+                truce_with = TUR
+            }
+            has_country_flag = cve_navy_done
+            is_greater_power = yes
+            relation = {
+                who = TUR
+                value = 150
+            }
+            TUR = {
+                any_owned_province = {
+                    OR = {
+                        region = TRI_1731
+                        region = TRI_1735
+                    }
+                }
+            }
+            TUR = {
+                exists = yes
+                war = no
+                is_vassal = no
+                any_owned_province = {
+                    OR = {
+                        region = TRI_1731
+                        region = TRI_1735
+                    }
+                }
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1865
+                        NOT = {
+                            has_country_flag = cve_ottoman_libya_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_ottoman_libya_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_ottoman_libya_cooldown
+                        }
+                        war = no
+                        money = 100000
+                        NOT = {
+                            truce_with = TUR
+                        }
+                        has_country_flag = cve_navy_done
+                        is_greater_power = yes
+                        relation = {
+                            who = TUR
+                            value = 150
+                        }
+                        TUR = {
+                            any_owned_province = {
+                                OR = {
+                                    region = TRI_1731
+                                    region = TRI_1735
+                                }
+                            }
+                        }
+                        TUR = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                            any_owned_province = {
+                                OR = {
+                                    region = TRI_1731
+                                    region = TRI_1735
+                                }
+                            }
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -100000
+                        set_country_flag = cve_ottoman_libya_pending
+                        add_country_modifier = {
+                            name = cve_ottoman_libya_cooldown
+                            duration = 1095
+                        }
+                        TUR = {
+                            country_event = {
+                                id = 9901052
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_ottoman_libya_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_egypt_british = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1875
+            NOT = {
+                has_country_flag = cve_egypt_british_done
+            }
+            NOT = {
+                has_country_flag = cve_egypt_british_pending
+            }
+            NOT = {
+                has_country_modifier = cve_egypt_british_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 20000
+            NOT = {
+                truce_with = ENG
+            }
+            has_country_flag = cve_consuls_done
+            relation = {
+                who = ENG
+                value = 125
+            }
+            EGY = {
+                exists = yes
+                vassal_of = ENG
+            }
+            ENG = {
+                exists = yes
+                war = no
+                is_vassal = no
+                EGY = {
+                    exists = yes
+                    vassal_of = ENG
+                }
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1875
+                        NOT = {
+                            has_country_flag = cve_egypt_british_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_egypt_british_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_egypt_british_cooldown
+                        }
+                        war = no
+                        money = 20000
+                        NOT = {
+                            truce_with = ENG
+                        }
+                        has_country_flag = cve_consuls_done
+                        relation = {
+                            who = ENG
+                            value = 125
+                        }
+                        EGY = {
+                            exists = yes
+                            vassal_of = ENG
+                        }
+                        ENG = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                            EGY = {
+                                exists = yes
+                                vassal_of = ENG
+                            }
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -20000
+                        set_country_flag = cve_egypt_british_pending
+                        add_country_modifier = {
+                            name = cve_egypt_british_cooldown
+                            duration = 1095
+                        }
+                        ENG = {
+                            country_event = {
+                                id = 9901056
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_egypt_british_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_egypt_ratification = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1875
+            NOT = {
+                has_country_flag = cve_egypt_ratification_done
+            }
+            NOT = {
+                has_country_flag = cve_egypt_ratification_pending
+            }
+            NOT = {
+                has_country_modifier = cve_egypt_ratification_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 25000
+            NOT = {
+                truce_with = EGY
+            }
+            has_country_flag = cve_egypt_british_done
+            EGY = {
+                exists = yes
+                war = no
+                vassal_of = ENG
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1875
+                        NOT = {
+                            has_country_flag = cve_egypt_ratification_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_egypt_ratification_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_egypt_ratification_cooldown
+                        }
+                        war = no
+                        money = 25000
+                        NOT = {
+                            truce_with = EGY
+                        }
+                        has_country_flag = cve_egypt_british_done
+                        EGY = {
+                            exists = yes
+                            war = no
+                            vassal_of = ENG
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -25000
+                        set_country_flag = cve_egypt_ratification_pending
+                        add_country_modifier = {
+                            name = cve_egypt_ratification_cooldown
+                            duration = 1095
+                        }
+                        EGY = {
+                            country_event = {
+                                id = 9901060
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_egypt_ratification_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_trade_SIA = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1856
+            NOT = {
+                has_country_flag = cve_trade_SIA_done
+            }
+            NOT = {
+                has_country_flag = cve_trade_SIA_pending
+            }
+            NOT = {
+                has_country_modifier = cve_trade_SIA_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 15000
+            NOT = {
+                truce_with = SIA
+            }
+            has_country_flag = cve_consuls_done
+            total_amount_of_ships = 10
+            relation = {
+                who = SIA
+                value = 50
+            }
+            SIA = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1856
+                        NOT = {
+                            has_country_flag = cve_trade_SIA_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_trade_SIA_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_trade_SIA_cooldown
+                        }
+                        war = no
+                        money = 15000
+                        NOT = {
+                            truce_with = SIA
+                        }
+                        has_country_flag = cve_consuls_done
+                        total_amount_of_ships = 10
+                        relation = {
+                            who = SIA
+                            value = 50
+                        }
+                        SIA = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -15000
+                        set_country_flag = cve_trade_SIA_pending
+                        add_country_modifier = {
+                            name = cve_trade_SIA_cooldown
+                            duration = 1095
+                        }
+                        SIA = {
+                            country_event = {
+                                id = 9901064
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_trade_SIA_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_protect_SIA = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1860
+            NOT = {
+                has_country_flag = cve_protect_SIA_done
+            }
+            NOT = {
+                has_country_flag = cve_protect_SIA_pending
+            }
+            NOT = {
+                has_country_modifier = cve_protect_SIA_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 60000
+            NOT = {
+                truce_with = SIA
+            }
+            has_country_flag = cve_trade_SIA_done
+            is_greater_power = yes
+            military_score = 30
+            total_amount_of_ships = 20
+            relation = {
+                who = SIA
+                value = 125
+            }
+            SIA = {
+                exists = yes
+                war = no
+                is_vassal = no
+                is_greater_power = no
+                OR = {
+                    part_of_sphere = no
+                    in_sphere = TIE
+                }
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1860
+                        NOT = {
+                            has_country_flag = cve_protect_SIA_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_protect_SIA_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_protect_SIA_cooldown
+                        }
+                        war = no
+                        money = 60000
+                        NOT = {
+                            truce_with = SIA
+                        }
+                        has_country_flag = cve_trade_SIA_done
+                        is_greater_power = yes
+                        military_score = 30
+                        total_amount_of_ships = 20
+                        relation = {
+                            who = SIA
+                            value = 125
+                        }
+                        SIA = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                            is_greater_power = no
+                            OR = {
+                                part_of_sphere = no
+                                in_sphere = TIE
+                            }
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -60000
+                        set_country_flag = cve_protect_SIA_pending
+                        add_country_modifier = {
+                            name = cve_protect_SIA_cooldown
+                            duration = 1095
+                        }
+                        SIA = {
+                            country_event = {
+                                id = 9901068
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_protect_SIA_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_investment_SIA = {
+        picture = cvt_court
+        potential = {
+            has_country_flag = cvt_pack
+            has_country_flag = cvt_origin
+            OR = {
+                tag = TUS
+                tag = TIE
+                tag = ITA
+            }
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1861
+            SIA = {
+                exists = yes
+                vassal_of = TIE
+            }
+            NOT = {
+                has_country_flag = cve_investment_SIA_done
+            }
+            NOT = {
+                has_country_flag = cve_investment_SIA_pending
+            }
+        }
+        allow = {
+            war = no
+            money = 20000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = cvt_pack
+                        has_country_flag = cvt_origin
+                        OR = {
+                            tag = TUS
+                            tag = TIE
+                            tag = ITA
+                        }
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1861
+                        SIA = {
+                            exists = yes
+                            vassal_of = TIE
+                        }
+                        NOT = {
+                            has_country_flag = cve_investment_SIA_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_investment_SIA_pending
+                        }
+                        war = no
+                        money = 20000
+                    }
+                }
+                owner = {
+                    treasury = -20000
+                    set_country_flag = cve_investment_SIA_pending
+                    country_event = {
+                        id = 9901073
+                        days = 1
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_release_SIA = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            SIA = {
+                exists = yes
+                vassal_of = TIE
+            }
+        }
+        allow = {
+            war = no
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        SIA = {
+                            exists = yes
+                            vassal_of = TIE
+                        }
+                        war = no
+                    }
+                }
+                owner = {
+                    TIE = {
+                        release_vassal = SIA
+                        prestige = -5
+                        relation = {
+                            who = SIA
+                            value = 25
+                        }
+                    }
+                    SIA = {
+                        government = absolute_monarchy
+                        clr_country_flag = italian_accepted
+                        remove_accepted_culture = north_italian
+                        remove_accepted_culture = south_italian
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_trade_EGY = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1856
+            NOT = {
+                has_country_flag = cve_trade_EGY_done
+            }
+            NOT = {
+                has_country_flag = cve_trade_EGY_pending
+            }
+            NOT = {
+                has_country_modifier = cve_trade_EGY_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 15000
+            NOT = {
+                truce_with = EGY
+            }
+            has_country_flag = cve_consuls_done
+            total_amount_of_ships = 10
+            relation = {
+                who = EGY
+                value = 50
+            }
+            EGY = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1856
+                        NOT = {
+                            has_country_flag = cve_trade_EGY_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_trade_EGY_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_trade_EGY_cooldown
+                        }
+                        war = no
+                        money = 15000
+                        NOT = {
+                            truce_with = EGY
+                        }
+                        has_country_flag = cve_consuls_done
+                        total_amount_of_ships = 10
+                        relation = {
+                            who = EGY
+                            value = 50
+                        }
+                        EGY = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -15000
+                        set_country_flag = cve_trade_EGY_pending
+                        add_country_modifier = {
+                            name = cve_trade_EGY_cooldown
+                            duration = 1095
+                        }
+                        EGY = {
+                            country_event = {
+                                id = 9901078
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_trade_EGY_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_protect_EGY = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1860
+            NOT = {
+                has_country_flag = cve_protect_EGY_done
+            }
+            NOT = {
+                has_country_flag = cve_protect_EGY_pending
+            }
+            NOT = {
+                has_country_modifier = cve_protect_EGY_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 60000
+            NOT = {
+                truce_with = EGY
+            }
+            has_country_flag = cve_trade_EGY_done
+            is_greater_power = yes
+            military_score = 30
+            total_amount_of_ships = 20
+            relation = {
+                who = EGY
+                value = 125
+            }
+            EGY = {
+                exists = yes
+                war = no
+                is_vassal = no
+                is_greater_power = no
+                OR = {
+                    part_of_sphere = no
+                    in_sphere = TIE
+                }
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1860
+                        NOT = {
+                            has_country_flag = cve_protect_EGY_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_protect_EGY_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_protect_EGY_cooldown
+                        }
+                        war = no
+                        money = 60000
+                        NOT = {
+                            truce_with = EGY
+                        }
+                        has_country_flag = cve_trade_EGY_done
+                        is_greater_power = yes
+                        military_score = 30
+                        total_amount_of_ships = 20
+                        relation = {
+                            who = EGY
+                            value = 125
+                        }
+                        EGY = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                            is_greater_power = no
+                            OR = {
+                                part_of_sphere = no
+                                in_sphere = TIE
+                            }
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -60000
+                        set_country_flag = cve_protect_EGY_pending
+                        add_country_modifier = {
+                            name = cve_protect_EGY_cooldown
+                            duration = 1095
+                        }
+                        EGY = {
+                            country_event = {
+                                id = 9901082
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_protect_EGY_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_investment_EGY = {
+        picture = cvt_court
+        potential = {
+            has_country_flag = cvt_pack
+            has_country_flag = cvt_origin
+            OR = {
+                tag = TUS
+                tag = TIE
+                tag = ITA
+            }
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1861
+            EGY = {
+                exists = yes
+                vassal_of = TIE
+            }
+            NOT = {
+                has_country_flag = cve_investment_EGY_done
+            }
+            NOT = {
+                has_country_flag = cve_investment_EGY_pending
+            }
+        }
+        allow = {
+            war = no
+            money = 20000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = cvt_pack
+                        has_country_flag = cvt_origin
+                        OR = {
+                            tag = TUS
+                            tag = TIE
+                            tag = ITA
+                        }
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1861
+                        EGY = {
+                            exists = yes
+                            vassal_of = TIE
+                        }
+                        NOT = {
+                            has_country_flag = cve_investment_EGY_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_investment_EGY_pending
+                        }
+                        war = no
+                        money = 20000
+                    }
+                }
+                owner = {
+                    treasury = -20000
+                    set_country_flag = cve_investment_EGY_pending
+                    country_event = {
+                        id = 9901087
+                        days = 1
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_release_EGY = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            EGY = {
+                exists = yes
+                vassal_of = TIE
+            }
+        }
+        allow = {
+            war = no
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        EGY = {
+                            exists = yes
+                            vassal_of = TIE
+                        }
+                        war = no
+                    }
+                }
+                owner = {
+                    TIE = {
+                        release_vassal = EGY
+                        prestige = -5
+                        relation = {
+                            who = EGY
+                            value = 25
+                        }
+                    }
+                    EGY = {
+                        government = absolute_monarchy
+                        clr_country_flag = italian_accepted
+                        remove_accepted_culture = north_italian
+                        remove_accepted_culture = south_italian
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_trade_TUN = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1856
+            NOT = {
+                has_country_flag = cve_trade_TUN_done
+            }
+            NOT = {
+                has_country_flag = cve_trade_TUN_pending
+            }
+            NOT = {
+                has_country_modifier = cve_trade_TUN_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 15000
+            NOT = {
+                truce_with = TUN
+            }
+            has_country_flag = cve_consuls_done
+            total_amount_of_ships = 10
+            relation = {
+                who = TUN
+                value = 50
+            }
+            TUN = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1856
+                        NOT = {
+                            has_country_flag = cve_trade_TUN_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_trade_TUN_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_trade_TUN_cooldown
+                        }
+                        war = no
+                        money = 15000
+                        NOT = {
+                            truce_with = TUN
+                        }
+                        has_country_flag = cve_consuls_done
+                        total_amount_of_ships = 10
+                        relation = {
+                            who = TUN
+                            value = 50
+                        }
+                        TUN = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -15000
+                        set_country_flag = cve_trade_TUN_pending
+                        add_country_modifier = {
+                            name = cve_trade_TUN_cooldown
+                            duration = 1095
+                        }
+                        TUN = {
+                            country_event = {
+                                id = 9901092
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_trade_TUN_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_protect_TUN = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1860
+            NOT = {
+                has_country_flag = cve_protect_TUN_done
+            }
+            NOT = {
+                has_country_flag = cve_protect_TUN_pending
+            }
+            NOT = {
+                has_country_modifier = cve_protect_TUN_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 60000
+            NOT = {
+                truce_with = TUN
+            }
+            has_country_flag = cve_trade_TUN_done
+            is_greater_power = yes
+            military_score = 30
+            total_amount_of_ships = 20
+            relation = {
+                who = TUN
+                value = 125
+            }
+            TUN = {
+                exists = yes
+                war = no
+                is_vassal = no
+                is_greater_power = no
+                OR = {
+                    part_of_sphere = no
+                    in_sphere = TIE
+                }
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1860
+                        NOT = {
+                            has_country_flag = cve_protect_TUN_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_protect_TUN_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_protect_TUN_cooldown
+                        }
+                        war = no
+                        money = 60000
+                        NOT = {
+                            truce_with = TUN
+                        }
+                        has_country_flag = cve_trade_TUN_done
+                        is_greater_power = yes
+                        military_score = 30
+                        total_amount_of_ships = 20
+                        relation = {
+                            who = TUN
+                            value = 125
+                        }
+                        TUN = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                            is_greater_power = no
+                            OR = {
+                                part_of_sphere = no
+                                in_sphere = TIE
+                            }
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -60000
+                        set_country_flag = cve_protect_TUN_pending
+                        add_country_modifier = {
+                            name = cve_protect_TUN_cooldown
+                            duration = 1095
+                        }
+                        TUN = {
+                            country_event = {
+                                id = 9901096
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_protect_TUN_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_investment_TUN = {
+        picture = cvt_court
+        potential = {
+            has_country_flag = cvt_pack
+            has_country_flag = cvt_origin
+            OR = {
+                tag = TUS
+                tag = TIE
+                tag = ITA
+            }
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1861
+            TUN = {
+                exists = yes
+                vassal_of = TIE
+            }
+            NOT = {
+                has_country_flag = cve_investment_TUN_done
+            }
+            NOT = {
+                has_country_flag = cve_investment_TUN_pending
+            }
+        }
+        allow = {
+            war = no
+            money = 20000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = cvt_pack
+                        has_country_flag = cvt_origin
+                        OR = {
+                            tag = TUS
+                            tag = TIE
+                            tag = ITA
+                        }
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1861
+                        TUN = {
+                            exists = yes
+                            vassal_of = TIE
+                        }
+                        NOT = {
+                            has_country_flag = cve_investment_TUN_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_investment_TUN_pending
+                        }
+                        war = no
+                        money = 20000
+                    }
+                }
+                owner = {
+                    treasury = -20000
+                    set_country_flag = cve_investment_TUN_pending
+                    country_event = {
+                        id = 9901101
+                        days = 1
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_release_TUN = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            TUN = {
+                exists = yes
+                vassal_of = TIE
+            }
+        }
+        allow = {
+            war = no
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        TUN = {
+                            exists = yes
+                            vassal_of = TIE
+                        }
+                        war = no
+                    }
+                }
+                owner = {
+                    TIE = {
+                        release_vassal = TUN
+                        prestige = -5
+                        relation = {
+                            who = TUN
+                            value = 25
+                        }
+                    }
+                    TUN = {
+                        government = absolute_monarchy
+                        clr_country_flag = italian_accepted
+                        remove_accepted_culture = north_italian
+                        remove_accepted_culture = south_italian
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_trade_TRI = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1860
+            NOT = {
+                has_country_flag = cve_trade_TRI_done
+            }
+            NOT = {
+                has_country_flag = cve_trade_TRI_pending
+            }
+            NOT = {
+                has_country_modifier = cve_trade_TRI_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 15000
+            NOT = {
+                truce_with = TRI
+            }
+            has_country_flag = cve_consuls_done
+            total_amount_of_ships = 10
+            relation = {
+                who = TRI
+                value = 50
+            }
+            TRI = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1860
+                        NOT = {
+                            has_country_flag = cve_trade_TRI_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_trade_TRI_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_trade_TRI_cooldown
+                        }
+                        war = no
+                        money = 15000
+                        NOT = {
+                            truce_with = TRI
+                        }
+                        has_country_flag = cve_consuls_done
+                        total_amount_of_ships = 10
+                        relation = {
+                            who = TRI
+                            value = 50
+                        }
+                        TRI = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -15000
+                        set_country_flag = cve_trade_TRI_pending
+                        add_country_modifier = {
+                            name = cve_trade_TRI_cooldown
+                            duration = 1095
+                        }
+                        TRI = {
+                            country_event = {
+                                id = 9901106
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_trade_TRI_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_protect_TRI = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1864
+            NOT = {
+                has_country_flag = cve_protect_TRI_done
+            }
+            NOT = {
+                has_country_flag = cve_protect_TRI_pending
+            }
+            NOT = {
+                has_country_modifier = cve_protect_TRI_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 60000
+            NOT = {
+                truce_with = TRI
+            }
+            has_country_flag = cve_trade_TRI_done
+            is_greater_power = yes
+            military_score = 30
+            total_amount_of_ships = 20
+            relation = {
+                who = TRI
+                value = 125
+            }
+            TRI = {
+                exists = yes
+                war = no
+                is_vassal = no
+                is_greater_power = no
+                OR = {
+                    part_of_sphere = no
+                    in_sphere = TIE
+                }
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1864
+                        NOT = {
+                            has_country_flag = cve_protect_TRI_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_protect_TRI_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_protect_TRI_cooldown
+                        }
+                        war = no
+                        money = 60000
+                        NOT = {
+                            truce_with = TRI
+                        }
+                        has_country_flag = cve_trade_TRI_done
+                        is_greater_power = yes
+                        military_score = 30
+                        total_amount_of_ships = 20
+                        relation = {
+                            who = TRI
+                            value = 125
+                        }
+                        TRI = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                            is_greater_power = no
+                            OR = {
+                                part_of_sphere = no
+                                in_sphere = TIE
+                            }
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -60000
+                        set_country_flag = cve_protect_TRI_pending
+                        add_country_modifier = {
+                            name = cve_protect_TRI_cooldown
+                            duration = 1095
+                        }
+                        TRI = {
+                            country_event = {
+                                id = 9901110
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_protect_TRI_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_investment_TRI = {
+        picture = cvt_court
+        potential = {
+            has_country_flag = cvt_pack
+            has_country_flag = cvt_origin
+            OR = {
+                tag = TUS
+                tag = TIE
+                tag = ITA
+            }
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1865
+            TRI = {
+                exists = yes
+                vassal_of = TIE
+            }
+            NOT = {
+                has_country_flag = cve_investment_TRI_done
+            }
+            NOT = {
+                has_country_flag = cve_investment_TRI_pending
+            }
+        }
+        allow = {
+            war = no
+            money = 20000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = cvt_pack
+                        has_country_flag = cvt_origin
+                        OR = {
+                            tag = TUS
+                            tag = TIE
+                            tag = ITA
+                        }
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1865
+                        TRI = {
+                            exists = yes
+                            vassal_of = TIE
+                        }
+                        NOT = {
+                            has_country_flag = cve_investment_TRI_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_investment_TRI_pending
+                        }
+                        war = no
+                        money = 20000
+                    }
+                }
+                owner = {
+                    treasury = -20000
+                    set_country_flag = cve_investment_TRI_pending
+                    country_event = {
+                        id = 9901115
+                        days = 1
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_release_TRI = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            TRI = {
+                exists = yes
+                vassal_of = TIE
+            }
+        }
+        allow = {
+            war = no
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        TRI = {
+                            exists = yes
+                            vassal_of = TIE
+                        }
+                        war = no
+                    }
+                }
+                owner = {
+                    TIE = {
+                        release_vassal = TRI
+                        prestige = -5
+                        relation = {
+                            who = TRI
+                            value = 25
+                        }
+                    }
+                    TRI = {
+                        government = absolute_monarchy
+                        clr_country_flag = italian_accepted
+                        remove_accepted_culture = north_italian
+                        remove_accepted_culture = south_italian
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_trade_ZAN = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1870
+            NOT = {
+                has_country_flag = cve_trade_ZAN_done
+            }
+            NOT = {
+                has_country_flag = cve_trade_ZAN_pending
+            }
+            NOT = {
+                has_country_modifier = cve_trade_ZAN_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 15000
+            NOT = {
+                truce_with = MZR
+            }
+            has_country_flag = cve_consuls_done
+            total_amount_of_ships = 10
+            relation = {
+                who = MZR
+                value = 50
+            }
+            MZR = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1870
+                        NOT = {
+                            has_country_flag = cve_trade_ZAN_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_trade_ZAN_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_trade_ZAN_cooldown
+                        }
+                        war = no
+                        money = 15000
+                        NOT = {
+                            truce_with = MZR
+                        }
+                        has_country_flag = cve_consuls_done
+                        total_amount_of_ships = 10
+                        relation = {
+                            who = MZR
+                            value = 50
+                        }
+                        MZR = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -15000
+                        set_country_flag = cve_trade_ZAN_pending
+                        add_country_modifier = {
+                            name = cve_trade_ZAN_cooldown
+                            duration = 1095
+                        }
+                        MZR = {
+                            country_event = {
+                                id = 9901120
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_trade_ZAN_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_trade_SOM = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1880
+            NOT = {
+                has_country_flag = cve_trade_SOM_done
+            }
+            NOT = {
+                has_country_flag = cve_trade_SOM_pending
+            }
+            NOT = {
+                has_country_modifier = cve_trade_SOM_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 15000
+            NOT = {
+                truce_with = SOM
+            }
+            has_country_flag = cve_consuls_done
+            total_amount_of_ships = 10
+            relation = {
+                who = SOM
+                value = 50
+            }
+            SOM = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1880
+                        NOT = {
+                            has_country_flag = cve_trade_SOM_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_trade_SOM_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_trade_SOM_cooldown
+                        }
+                        war = no
+                        money = 15000
+                        NOT = {
+                            truce_with = SOM
+                        }
+                        has_country_flag = cve_consuls_done
+                        total_amount_of_ships = 10
+                        relation = {
+                            who = SOM
+                            value = 50
+                        }
+                        SOM = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -15000
+                        set_country_flag = cve_trade_SOM_pending
+                        add_country_modifier = {
+                            name = cve_trade_SOM_cooldown
+                            duration = 1095
+                        }
+                        SOM = {
+                            country_event = {
+                                id = 9901124
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_trade_SOM_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_protect_SOM = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1884
+            NOT = {
+                has_country_flag = cve_protect_SOM_done
+            }
+            NOT = {
+                has_country_flag = cve_protect_SOM_pending
+            }
+            NOT = {
+                has_country_modifier = cve_protect_SOM_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 60000
+            NOT = {
+                truce_with = SOM
+            }
+            has_country_flag = cve_trade_SOM_done
+            is_greater_power = yes
+            military_score = 30
+            total_amount_of_ships = 20
+            relation = {
+                who = SOM
+                value = 125
+            }
+            SOM = {
+                exists = yes
+                war = no
+                is_vassal = no
+                is_greater_power = no
+                OR = {
+                    part_of_sphere = no
+                    in_sphere = TIE
+                }
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1884
+                        NOT = {
+                            has_country_flag = cve_protect_SOM_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_protect_SOM_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_protect_SOM_cooldown
+                        }
+                        war = no
+                        money = 60000
+                        NOT = {
+                            truce_with = SOM
+                        }
+                        has_country_flag = cve_trade_SOM_done
+                        is_greater_power = yes
+                        military_score = 30
+                        total_amount_of_ships = 20
+                        relation = {
+                            who = SOM
+                            value = 125
+                        }
+                        SOM = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                            is_greater_power = no
+                            OR = {
+                                part_of_sphere = no
+                                in_sphere = TIE
+                            }
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -60000
+                        set_country_flag = cve_protect_SOM_pending
+                        add_country_modifier = {
+                            name = cve_protect_SOM_cooldown
+                            duration = 1095
+                        }
+                        SOM = {
+                            country_event = {
+                                id = 9901128
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_protect_SOM_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_investment_SOM = {
+        picture = cvt_court
+        potential = {
+            has_country_flag = cvt_pack
+            has_country_flag = cvt_origin
+            OR = {
+                tag = TUS
+                tag = TIE
+                tag = ITA
+            }
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1885
+            SOM = {
+                exists = yes
+                vassal_of = TIE
+            }
+            NOT = {
+                has_country_flag = cve_investment_SOM_done
+            }
+            NOT = {
+                has_country_flag = cve_investment_SOM_pending
+            }
+        }
+        allow = {
+            war = no
+            money = 20000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = cvt_pack
+                        has_country_flag = cvt_origin
+                        OR = {
+                            tag = TUS
+                            tag = TIE
+                            tag = ITA
+                        }
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1885
+                        SOM = {
+                            exists = yes
+                            vassal_of = TIE
+                        }
+                        NOT = {
+                            has_country_flag = cve_investment_SOM_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_investment_SOM_pending
+                        }
+                        war = no
+                        money = 20000
+                    }
+                }
+                owner = {
+                    treasury = -20000
+                    set_country_flag = cve_investment_SOM_pending
+                    country_event = {
+                        id = 9901133
+                        days = 1
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_release_SOM = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            SOM = {
+                exists = yes
+                vassal_of = TIE
+            }
+        }
+        allow = {
+            war = no
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        SOM = {
+                            exists = yes
+                            vassal_of = TIE
+                        }
+                        war = no
+                    }
+                }
+                owner = {
+                    TIE = {
+                        release_vassal = SOM
+                        prestige = -5
+                        relation = {
+                            who = SOM
+                            value = 25
+                        }
+                    }
+                    SOM = {
+                        government = absolute_monarchy
+                        clr_country_flag = italian_accepted
+                        remove_accepted_culture = north_italian
+                        remove_accepted_culture = south_italian
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_trade_ETH = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1870
+            NOT = {
+                has_country_flag = cve_trade_ETH_done
+            }
+            NOT = {
+                has_country_flag = cve_trade_ETH_pending
+            }
+            NOT = {
+                has_country_modifier = cve_trade_ETH_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 15000
+            NOT = {
+                truce_with = ETH
+            }
+            has_country_flag = cve_consuls_done
+            total_amount_of_ships = 10
+            relation = {
+                who = ETH
+                value = 50
+            }
+            ETH = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1870
+                        NOT = {
+                            has_country_flag = cve_trade_ETH_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_trade_ETH_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_trade_ETH_cooldown
+                        }
+                        war = no
+                        money = 15000
+                        NOT = {
+                            truce_with = ETH
+                        }
+                        has_country_flag = cve_consuls_done
+                        total_amount_of_ships = 10
+                        relation = {
+                            who = ETH
+                            value = 50
+                        }
+                        ETH = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -15000
+                        set_country_flag = cve_trade_ETH_pending
+                        add_country_modifier = {
+                            name = cve_trade_ETH_cooldown
+                            duration = 1095
+                        }
+                        ETH = {
+                            country_event = {
+                                id = 9901138
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_trade_ETH_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_trade_CHI = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1890
+            NOT = {
+                has_country_flag = cve_trade_CHI_done
+            }
+            NOT = {
+                has_country_flag = cve_trade_CHI_pending
+            }
+            NOT = {
+                has_country_modifier = cve_trade_CHI_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 15000
+            NOT = {
+                truce_with = CHI
+            }
+            has_country_flag = cve_consuls_done
+            total_amount_of_ships = 10
+            relation = {
+                who = CHI
+                value = 50
+            }
+            CHI = {
+                exists = yes
+                war = no
+                is_vassal = no
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1890
+                        NOT = {
+                            has_country_flag = cve_trade_CHI_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_trade_CHI_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_trade_CHI_cooldown
+                        }
+                        war = no
+                        money = 15000
+                        NOT = {
+                            truce_with = CHI
+                        }
+                        has_country_flag = cve_consuls_done
+                        total_amount_of_ships = 10
+                        relation = {
+                            who = CHI
+                            value = 50
+                        }
+                        CHI = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -15000
+                        set_country_flag = cve_trade_CHI_pending
+                        add_country_modifier = {
+                            name = cve_trade_CHI_cooldown
+                            duration = 1095
+                        }
+                        CHI = {
+                            country_event = {
+                                id = 9901142
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_trade_CHI_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_china_station = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1895
+            NOT = {
+                has_country_flag = cve_china_station_done
+            }
+            NOT = {
+                has_country_flag = cve_china_station_pending
+            }
+            NOT = {
+                has_country_modifier = cve_china_station_cooldown
+            }
+        }
+        allow = {
+            war = no
+            money = 50000
+            NOT = {
+                truce_with = CHI
+            }
+            has_country_flag = cve_trade_CHI_done
+            is_greater_power = yes
+            total_amount_of_ships = 30
+            relation = {
+                who = CHI
+                value = 100
+            }
+            CHI = {
+                exists = yes
+                war = no
+                is_vassal = no
+                owns = 1608
+            }
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1895
+                        NOT = {
+                            has_country_flag = cve_china_station_done
+                        }
+                        NOT = {
+                            has_country_flag = cve_china_station_pending
+                        }
+                        NOT = {
+                            has_country_modifier = cve_china_station_cooldown
+                        }
+                        war = no
+                        money = 50000
+                        NOT = {
+                            truce_with = CHI
+                        }
+                        has_country_flag = cve_trade_CHI_done
+                        is_greater_power = yes
+                        total_amount_of_ships = 30
+                        relation = {
+                            who = CHI
+                            value = 100
+                        }
+                        CHI = {
+                            exists = yes
+                            war = no
+                            is_vassal = no
+                            owns = 1608
+                        }
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -50000
+                        set_country_flag = cve_china_station_pending
+                        add_country_modifier = {
+                            name = cve_china_station_cooldown
+                            duration = 1095
+                        }
+                        CHI = {
+                            country_event = {
+                                id = 9901147
+                                days = 7
+                            }
+                        }
+                        add_country_modifier = {
+                            name = cve_china_station_waiting
+                            duration = 180
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_assab = {
+        picture = cvt_congress
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1869
+            NOT = {
+                has_country_flag = cve_assab_sponsored
+            }
+            NOT = {
+                has_country_flag = sale_of_assab
+            }
+            NOT = {
+                has_global_flag = assab_sold
+            }
+        }
+        allow = {
+            war = no
+            has_country_flag = cve_navy_done
+            total_amount_of_ships = 15
+            rank = 16
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            set_country_flag = cve_assab_sponsored
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_war_lombardy = {
+        picture = cvi_war
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1858
+            exists = AUS
+            NOT = {
+                has_country_flag = cve_war_lombardy_victory
+            }
+        }
+        allow = {
+            war = no
+            money = 30000
+            military_score = 30
+            is_disarmed = no
+            NOT = {
+                has_country_modifier = cve_war_lombardy_review
+            }
+            NOT = {
+                truce_with = AUS
+            }
+            NOT = {
+                alliance_with = AUS
+            }
+            AUS = {
+                is_vassal = no
+            }
+            has_country_flag = cve_army_done
+            AUS = {
+                any_owned_province = {
+                    OR = {
+                        region = AUS_726
+                    }
+                }
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1858
+                        exists = AUS
+                        NOT = {
+                            has_country_flag = cve_war_lombardy_victory
+                        }
+                        war = no
+                        money = 30000
+                        military_score = 30
+                        is_disarmed = no
+                        NOT = {
+                            has_country_modifier = cve_war_lombardy_review
+                        }
+                        NOT = {
+                            truce_with = AUS
+                        }
+                        NOT = {
+                            alliance_with = AUS
+                        }
+                        AUS = {
+                            is_vassal = no
+                        }
+                        has_country_flag = cve_army_done
+                        AUS = {
+                            any_owned_province = {
+                                OR = {
+                                    region = AUS_726
+                                }
+                            }
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -30000
+                        badboy = 5
+                        set_country_flag = cve_war_lombardy_started
+                        clr_country_flag = cve_war_lombardy_closed
+                        add_country_modifier = {
+                            name = cve_war_lombardy_review
+                            duration = 1095
+                        }
+                        war = {
+                            target = AUS
+                            attacker_goal = {
+                                casus_belli = cve_war_lombardy_cb
+                            }
+                            defender_goal = {
+                                casus_belli = humiliate_no_infamy
+                            }
+                            call_ally = yes
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_war_venetia = {
+        picture = cvi_war
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1865
+            exists = AUS
+            NOT = {
+                has_country_flag = cve_war_venetia_victory
+            }
+        }
+        allow = {
+            war = no
+            money = 30000
+            military_score = 30
+            is_disarmed = no
+            NOT = {
+                has_country_modifier = cve_war_venetia_review
+            }
+            NOT = {
+                truce_with = AUS
+            }
+            NOT = {
+                alliance_with = AUS
+            }
+            AUS = {
+                is_vassal = no
+            }
+            has_country_flag = cve_army_done
+            AUS = {
+                any_owned_province = {
+                    OR = {
+                        region = AUS_729
+                    }
+                }
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1865
+                        exists = AUS
+                        NOT = {
+                            has_country_flag = cve_war_venetia_victory
+                        }
+                        war = no
+                        money = 30000
+                        military_score = 30
+                        is_disarmed = no
+                        NOT = {
+                            has_country_modifier = cve_war_venetia_review
+                        }
+                        NOT = {
+                            truce_with = AUS
+                        }
+                        NOT = {
+                            alliance_with = AUS
+                        }
+                        AUS = {
+                            is_vassal = no
+                        }
+                        has_country_flag = cve_army_done
+                        AUS = {
+                            any_owned_province = {
+                                OR = {
+                                    region = AUS_729
+                                }
+                            }
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -30000
+                        badboy = 5
+                        set_country_flag = cve_war_venetia_started
+                        clr_country_flag = cve_war_venetia_closed
+                        add_country_modifier = {
+                            name = cve_war_venetia_review
+                            duration = 1095
+                        }
+                        war = {
+                            target = AUS
+                            attacker_goal = {
+                                casus_belli = cve_war_venetia_cb
+                            }
+                            defender_goal = {
+                                casus_belli = humiliate_no_infamy
+                            }
+                            call_ally = yes
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_war_libya = {
+        picture = cvi_war
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1870
+            exists = TUR
+            NOT = {
+                has_country_flag = cve_war_libya_victory
+            }
+        }
+        allow = {
+            war = no
+            money = 30000
+            military_score = 30
+            is_disarmed = no
+            NOT = {
+                has_country_modifier = cve_war_libya_review
+            }
+            NOT = {
+                truce_with = TUR
+            }
+            NOT = {
+                alliance_with = TUR
+            }
+            TUR = {
+                is_vassal = no
+            }
+            has_country_flag = cve_army_done
+            has_country_flag = cve_navy_done
+            TUR = {
+                any_owned_province = {
+                    OR = {
+                        region = TRI_1731
+                        region = TRI_1735
+                    }
+                }
+            }
+            total_amount_of_ships = 20
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1870
+                        exists = TUR
+                        NOT = {
+                            has_country_flag = cve_war_libya_victory
+                        }
+                        war = no
+                        money = 30000
+                        military_score = 30
+                        is_disarmed = no
+                        NOT = {
+                            has_country_modifier = cve_war_libya_review
+                        }
+                        NOT = {
+                            truce_with = TUR
+                        }
+                        NOT = {
+                            alliance_with = TUR
+                        }
+                        TUR = {
+                            is_vassal = no
+                        }
+                        has_country_flag = cve_army_done
+                        has_country_flag = cve_navy_done
+                        TUR = {
+                            any_owned_province = {
+                                OR = {
+                                    region = TRI_1731
+                                    region = TRI_1735
+                                }
+                            }
+                        }
+                        total_amount_of_ships = 20
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -30000
+                        badboy = 5
+                        set_country_flag = cve_war_libya_started
+                        clr_country_flag = cve_war_libya_closed
+                        add_country_modifier = {
+                            name = cve_war_libya_review
+                            duration = 1095
+                        }
+                        war = {
+                            target = TUR
+                            attacker_goal = {
+                                casus_belli = cve_war_libya_cb
+                            }
+                            defender_goal = {
+                                casus_belli = humiliate_no_infamy
+                            }
+                            call_ally = yes
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_war_egypt_ottoman = {
+        picture = cvi_war
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1865
+            exists = TUR
+            NOT = {
+                has_country_flag = cve_war_egypt_ottoman_victory
+            }
+        }
+        allow = {
+            war = no
+            money = 30000
+            military_score = 30
+            is_disarmed = no
+            NOT = {
+                has_country_modifier = cve_war_egypt_ottoman_review
+            }
+            NOT = {
+                truce_with = TUR
+            }
+            NOT = {
+                alliance_with = TUR
+            }
+            TUR = {
+                is_vassal = no
+            }
+            has_country_flag = cve_army_done
+            EGY = {
+                exists = yes
+                is_greater_power = no
+                vassal_of = TUR
+            }
+            total_amount_of_ships = 20
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1865
+                        exists = TUR
+                        NOT = {
+                            has_country_flag = cve_war_egypt_ottoman_victory
+                        }
+                        war = no
+                        money = 30000
+                        military_score = 30
+                        is_disarmed = no
+                        NOT = {
+                            has_country_modifier = cve_war_egypt_ottoman_review
+                        }
+                        NOT = {
+                            truce_with = TUR
+                        }
+                        NOT = {
+                            alliance_with = TUR
+                        }
+                        TUR = {
+                            is_vassal = no
+                        }
+                        has_country_flag = cve_army_done
+                        EGY = {
+                            exists = yes
+                            is_greater_power = no
+                            vassal_of = TUR
+                        }
+                        total_amount_of_ships = 20
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -30000
+                        badboy = 5
+                        set_country_flag = cve_war_egypt_ottoman_started
+                        clr_country_flag = cve_war_egypt_ottoman_closed
+                        add_country_modifier = {
+                            name = cve_war_egypt_ottoman_review
+                            duration = 1095
+                        }
+                        war = {
+                            target = TUR
+                            attacker_goal = {
+                                casus_belli = cve_war_egypt_ottoman_cb
+                            }
+                            defender_goal = {
+                                casus_belli = humiliate_no_infamy
+                            }
+                            call_ally = yes
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_war_protectorate_SIA = {
+        picture = cvi_war
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1870
+            exists = SIA
+            NOT = {
+                has_country_flag = cve_war_protectorate_SIA_victory
+            }
+        }
+        allow = {
+            war = no
+            money = 30000
+            military_score = 30
+            is_disarmed = no
+            NOT = {
+                has_country_modifier = cve_war_protectorate_SIA_review
+            }
+            NOT = {
+                truce_with = SIA
+            }
+            NOT = {
+                alliance_with = SIA
+            }
+            SIA = {
+                is_vassal = no
+            }
+            has_country_flag = cve_army_done
+            has_country_flag = cve_navy_done
+            has_country_flag = cve_protect_SIA_refused
+            SIA = {
+                exists = yes
+                is_greater_power = no
+                is_vassal = no
+            }
+            total_amount_of_ships = 20
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1870
+                        exists = SIA
+                        NOT = {
+                            has_country_flag = cve_war_protectorate_SIA_victory
+                        }
+                        war = no
+                        money = 30000
+                        military_score = 30
+                        is_disarmed = no
+                        NOT = {
+                            has_country_modifier = cve_war_protectorate_SIA_review
+                        }
+                        NOT = {
+                            truce_with = SIA
+                        }
+                        NOT = {
+                            alliance_with = SIA
+                        }
+                        SIA = {
+                            is_vassal = no
+                        }
+                        has_country_flag = cve_army_done
+                        has_country_flag = cve_navy_done
+                        has_country_flag = cve_protect_SIA_refused
+                        SIA = {
+                            exists = yes
+                            is_greater_power = no
+                            is_vassal = no
+                        }
+                        total_amount_of_ships = 20
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -30000
+                        badboy = 5
+                        set_country_flag = cve_war_protectorate_SIA_started
+                        clr_country_flag = cve_war_protectorate_SIA_closed
+                        add_country_modifier = {
+                            name = cve_war_protectorate_SIA_review
+                            duration = 1095
+                        }
+                        war = {
+                            target = SIA
+                            attacker_goal = {
+                                casus_belli = cve_war_protectorate_SIA_cb
+                            }
+                            defender_goal = {
+                                casus_belli = humiliate_no_infamy
+                            }
+                            call_ally = yes
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_war_protectorate_EGY = {
+        picture = cvi_war
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1870
+            exists = EGY
+            NOT = {
+                has_country_flag = cve_war_protectorate_EGY_victory
+            }
+        }
+        allow = {
+            war = no
+            money = 30000
+            military_score = 30
+            is_disarmed = no
+            NOT = {
+                has_country_modifier = cve_war_protectorate_EGY_review
+            }
+            NOT = {
+                truce_with = EGY
+            }
+            NOT = {
+                alliance_with = EGY
+            }
+            EGY = {
+                is_vassal = no
+            }
+            has_country_flag = cve_army_done
+            has_country_flag = cve_protect_EGY_refused
+            EGY = {
+                exists = yes
+                is_greater_power = no
+                is_vassal = no
+            }
+            total_amount_of_ships = 20
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1870
+                        exists = EGY
+                        NOT = {
+                            has_country_flag = cve_war_protectorate_EGY_victory
+                        }
+                        war = no
+                        money = 30000
+                        military_score = 30
+                        is_disarmed = no
+                        NOT = {
+                            has_country_modifier = cve_war_protectorate_EGY_review
+                        }
+                        NOT = {
+                            truce_with = EGY
+                        }
+                        NOT = {
+                            alliance_with = EGY
+                        }
+                        EGY = {
+                            is_vassal = no
+                        }
+                        has_country_flag = cve_army_done
+                        has_country_flag = cve_protect_EGY_refused
+                        EGY = {
+                            exists = yes
+                            is_greater_power = no
+                            is_vassal = no
+                        }
+                        total_amount_of_ships = 20
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -30000
+                        badboy = 5
+                        set_country_flag = cve_war_protectorate_EGY_started
+                        clr_country_flag = cve_war_protectorate_EGY_closed
+                        add_country_modifier = {
+                            name = cve_war_protectorate_EGY_review
+                            duration = 1095
+                        }
+                        war = {
+                            target = EGY
+                            attacker_goal = {
+                                casus_belli = cve_war_protectorate_EGY_cb
+                            }
+                            defender_goal = {
+                                casus_belli = humiliate_no_infamy
+                            }
+                            call_ally = yes
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_war_protectorate_TUN = {
+        picture = cvi_war
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1870
+            exists = TUN
+            NOT = {
+                has_country_flag = cve_war_protectorate_TUN_victory
+            }
+        }
+        allow = {
+            war = no
+            money = 30000
+            military_score = 30
+            is_disarmed = no
+            NOT = {
+                has_country_modifier = cve_war_protectorate_TUN_review
+            }
+            NOT = {
+                truce_with = TUN
+            }
+            NOT = {
+                alliance_with = TUN
+            }
+            TUN = {
+                is_vassal = no
+            }
+            has_country_flag = cve_army_done
+            has_country_flag = cve_navy_done
+            has_country_flag = cve_protect_TUN_refused
+            TUN = {
+                exists = yes
+                is_greater_power = no
+                is_vassal = no
+            }
+            total_amount_of_ships = 20
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1870
+                        exists = TUN
+                        NOT = {
+                            has_country_flag = cve_war_protectorate_TUN_victory
+                        }
+                        war = no
+                        money = 30000
+                        military_score = 30
+                        is_disarmed = no
+                        NOT = {
+                            has_country_modifier = cve_war_protectorate_TUN_review
+                        }
+                        NOT = {
+                            truce_with = TUN
+                        }
+                        NOT = {
+                            alliance_with = TUN
+                        }
+                        TUN = {
+                            is_vassal = no
+                        }
+                        has_country_flag = cve_army_done
+                        has_country_flag = cve_navy_done
+                        has_country_flag = cve_protect_TUN_refused
+                        TUN = {
+                            exists = yes
+                            is_greater_power = no
+                            is_vassal = no
+                        }
+                        total_amount_of_ships = 20
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -30000
+                        badboy = 5
+                        set_country_flag = cve_war_protectorate_TUN_started
+                        clr_country_flag = cve_war_protectorate_TUN_closed
+                        add_country_modifier = {
+                            name = cve_war_protectorate_TUN_review
+                            duration = 1095
+                        }
+                        war = {
+                            target = TUN
+                            attacker_goal = {
+                                casus_belli = cve_war_protectorate_TUN_cb
+                            }
+                            defender_goal = {
+                                casus_belli = humiliate_no_infamy
+                            }
+                            call_ally = yes
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_war_protectorate_TRI = {
+        picture = cvi_war
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1870
+            exists = TRI
+            NOT = {
+                has_country_flag = cve_war_protectorate_TRI_victory
+            }
+        }
+        allow = {
+            war = no
+            money = 30000
+            military_score = 30
+            is_disarmed = no
+            NOT = {
+                has_country_modifier = cve_war_protectorate_TRI_review
+            }
+            NOT = {
+                truce_with = TRI
+            }
+            NOT = {
+                alliance_with = TRI
+            }
+            TRI = {
+                is_vassal = no
+            }
+            has_country_flag = cve_army_done
+            has_country_flag = cve_navy_done
+            has_country_flag = cve_protect_TRI_refused
+            TRI = {
+                exists = yes
+                is_greater_power = no
+                is_vassal = no
+            }
+            total_amount_of_ships = 20
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1870
+                        exists = TRI
+                        NOT = {
+                            has_country_flag = cve_war_protectorate_TRI_victory
+                        }
+                        war = no
+                        money = 30000
+                        military_score = 30
+                        is_disarmed = no
+                        NOT = {
+                            has_country_modifier = cve_war_protectorate_TRI_review
+                        }
+                        NOT = {
+                            truce_with = TRI
+                        }
+                        NOT = {
+                            alliance_with = TRI
+                        }
+                        TRI = {
+                            is_vassal = no
+                        }
+                        has_country_flag = cve_army_done
+                        has_country_flag = cve_navy_done
+                        has_country_flag = cve_protect_TRI_refused
+                        TRI = {
+                            exists = yes
+                            is_greater_power = no
+                            is_vassal = no
+                        }
+                        total_amount_of_ships = 20
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -30000
+                        badboy = 5
+                        set_country_flag = cve_war_protectorate_TRI_started
+                        clr_country_flag = cve_war_protectorate_TRI_closed
+                        add_country_modifier = {
+                            name = cve_war_protectorate_TRI_review
+                            duration = 1095
+                        }
+                        war = {
+                            target = TRI
+                            attacker_goal = {
+                                casus_belli = cve_war_protectorate_TRI_cb
+                            }
+                            defender_goal = {
+                                casus_belli = humiliate_no_infamy
+                            }
+                            call_ally = yes
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_war_protectorate_SOM = {
+        picture = cvi_war
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1870
+            exists = SOM
+            NOT = {
+                has_country_flag = cve_war_protectorate_SOM_victory
+            }
+        }
+        allow = {
+            war = no
+            money = 30000
+            military_score = 30
+            is_disarmed = no
+            NOT = {
+                has_country_modifier = cve_war_protectorate_SOM_review
+            }
+            NOT = {
+                truce_with = SOM
+            }
+            NOT = {
+                alliance_with = SOM
+            }
+            SOM = {
+                is_vassal = no
+            }
+            has_country_flag = cve_army_done
+            has_country_flag = cve_navy_done
+            has_country_flag = cve_protect_SOM_refused
+            SOM = {
+                exists = yes
+                is_greater_power = no
+                is_vassal = no
+            }
+            total_amount_of_ships = 20
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1870
+                        exists = SOM
+                        NOT = {
+                            has_country_flag = cve_war_protectorate_SOM_victory
+                        }
+                        war = no
+                        money = 30000
+                        military_score = 30
+                        is_disarmed = no
+                        NOT = {
+                            has_country_modifier = cve_war_protectorate_SOM_review
+                        }
+                        NOT = {
+                            truce_with = SOM
+                        }
+                        NOT = {
+                            alliance_with = SOM
+                        }
+                        SOM = {
+                            is_vassal = no
+                        }
+                        has_country_flag = cve_army_done
+                        has_country_flag = cve_navy_done
+                        has_country_flag = cve_protect_SOM_refused
+                        SOM = {
+                            exists = yes
+                            is_greater_power = no
+                            is_vassal = no
+                        }
+                        total_amount_of_ships = 20
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -30000
+                        badboy = 5
+                        set_country_flag = cve_war_protectorate_SOM_started
+                        clr_country_flag = cve_war_protectorate_SOM_closed
+                        add_country_modifier = {
+                            name = cve_war_protectorate_SOM_review
+                            duration = 1095
+                        }
+                        war = {
+                            target = SOM
+                            attacker_goal = {
+                                casus_belli = cve_war_protectorate_SOM_cb
+                            }
+                            defender_goal = {
+                                casus_belli = humiliate_no_infamy
+                            }
+                            call_ally = yes
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cve_war_protectorate_ETH = {
+        picture = cvi_war
+        potential = {
+            tag = TIE
+            ai = no
+            has_country_flag = cvt_formed
+            is_vassal = no
+            year = 1870
+            exists = ETH
+            NOT = {
+                has_country_flag = cve_war_protectorate_ETH_victory
+            }
+        }
+        allow = {
+            war = no
+            money = 30000
+            military_score = 30
+            is_disarmed = no
+            NOT = {
+                has_country_modifier = cve_war_protectorate_ETH_review
+            }
+            NOT = {
+                truce_with = ETH
+            }
+            NOT = {
+                alliance_with = ETH
+            }
+            ETH = {
+                is_vassal = no
+            }
+            has_country_flag = cve_army_done
+            has_country_flag = cve_navy_done
+            has_country_flag = cve_expeditionary_policy
+            ETH = {
+                exists = yes
+                is_greater_power = no
+                is_vassal = no
+            }
+            total_amount_of_ships = 20
+            NOT = {
+                has_global_flag = colonial_railroading_disabled
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = TIE
+                        ai = no
+                        has_country_flag = cvt_formed
+                        is_vassal = no
+                        year = 1870
+                        exists = ETH
+                        NOT = {
+                            has_country_flag = cve_war_protectorate_ETH_victory
+                        }
+                        war = no
+                        money = 30000
+                        military_score = 30
+                        is_disarmed = no
+                        NOT = {
+                            has_country_modifier = cve_war_protectorate_ETH_review
+                        }
+                        NOT = {
+                            truce_with = ETH
+                        }
+                        NOT = {
+                            alliance_with = ETH
+                        }
+                        ETH = {
+                            is_vassal = no
+                        }
+                        has_country_flag = cve_army_done
+                        has_country_flag = cve_navy_done
+                        has_country_flag = cve_expeditionary_policy
+                        ETH = {
+                            exists = yes
+                            is_greater_power = no
+                            is_vassal = no
+                        }
+                        total_amount_of_ships = 20
+                        NOT = {
+                            has_global_flag = colonial_railroading_disabled
+                        }
+                    }
+                }
+                owner = {
+                    TIE = {
+                        treasury = -30000
+                        badboy = 5
+                        set_country_flag = cve_war_protectorate_ETH_started
+                        clr_country_flag = cve_war_protectorate_ETH_closed
+                        add_country_modifier = {
+                            name = cve_war_protectorate_ETH_review
+                            duration = 1095
+                        }
+                        war = {
+                            target = ETH
+                            attacker_goal = {
+                                casus_belli = cve_war_protectorate_ETH_cb
+                            }
+                            defender_goal = {
+                                casus_belli = humiliate_no_infamy
+                            }
+                            call_ally = yes
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

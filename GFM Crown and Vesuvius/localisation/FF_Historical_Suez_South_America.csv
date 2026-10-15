@@ -1,0 +1,52 @@
+ff_hai_sa_ack;Acknowledge the diplomatic report.;;;;;;;;;;;;;x
+ff_hai_paraguayan_war;Paraguayan War against Brazil;;;;;;;;;;;;;x
+ff_hai_paraguayan_war_short;Defeat Brazil;;;;;;;;;;;;;x
+ff_hai_paraguayan_war_desc;Force Brazil to abandon its military resistance.;;;;;;;;;;;;;x
+ff_hai_allied_settlement;Defeat the Paraguayan Government;;;;;;;;;;;;;x
+ff_hai_allied_settlement_short;Defeat Paraguay;;;;;;;;;;;;;x
+ff_hai_allied_settlement_desc;Defeat the government of Paraguay while preserving the republic.;;;;;;;;;;;;;x
+ff_hai_uruguay_intervention;Intervene in Uruguay;;;;;;;;;;;;;x
+ff_hai_uruguay_intervention_short;Defeat the Blanco Government;;;;;;;;;;;;;x
+ff_hai_uruguay_intervention_desc;Compel the Blanco administration to accept a political settlement.;;;;;;;;;;;;;x
+ff_hai_sa_construction_title;Work Begins on the Suez Canal;;;;;;;;;;;;;x
+ff_hai_sa_construction_desc;Excavation begins on 25 April 1859 under the concession granted to the Suez Canal Company. French investment and engineering help direct the enterprise. The concession does not transfer Egyptian sovereignty over the canal district.;;;;;;;;;;;;;x
+ff_hai_sa_opening_title;The Opening of the Suez Canal;;;;;;;;;;;;;x
+ff_hai_sa_opening_desc;On 17 November 1869 the canal opens to international navigation. The company operates the waterway under its concession, the surrounding territory remains Egyptian.;;;;;;;;;;;;;x
+ff_hai_sa_shares_title;Britain Purchases the Khedive's Canal Shares;;;;;;;;;;;;;x
+ff_hai_sa_shares_desc;On 25 November 1875 the British government purchases Ismail's shares in the Suez Canal Company. The purchase gives Britain a major financial stake alongside French shareholders. It is not an annexation of the canal district or the beginning of the British occupation of Egypt.;;;;;;;;;;;;;x
+ff_hai_sa_war_title;Paraguay and Brazil Go to War;;;;;;;;;;;;;x
+ff_hai_sa_war_desc;Brazilian intervention in Uruguay has brought the regional crisis to a breaking point. Following the seizure of the Marques de Olinda, Paraguay declares war on Brazil in December 1864 and prepares its campaign in Mato Grosso.;;;;;;;;;;;;;x
+ff_hai_sa_alliance_title;The Treaty of the Triple Alliance;;;;;;;;;;;;;x
+ff_hai_sa_alliance_desc;The conflict has widened after the Paraguayan attack on Corrientes. On 1 May 1865 Brazil, Argentina and Uruguay sign the Treaty of the Triple Alliance against the government of Francisco Solano Lopez.;;;;;;;;;;;;;x
+ff_hai_sa_peace_title;The End of the Paraguayan War;;;;;;;;;;;;;x
+ff_hai_sa_peace_desc;The death of Francisco Solano Lopez at Cerro Cora on 1 March 1870 ends the campaign. Paraguay survives as an independent republic, devastated by war. Its disputed frontiers remain to be settled by separate treaties with Brazil and Argentina.;;;;;;;;;;;;;x
+ff_hai_sa_brazil_treaty_title;The Loizaga-Cotegipe Treaty;;;;;;;;;;;;;x
+ff_hai_sa_brazil_treaty_desc;Paraguay and Brazil conclude their boundary treaty on 9 January 1872. The settlement recognizes the Brazilian frontier north of the Apa and along the eastern watershed. Paraguay retains its independent statehood.;;;;;;;;;;;;;x
+ff_hai_sa_argentina_treaty_title;The Argentine-Paraguayan Boundary Treaty;;;;;;;;;;;;;x
+ff_hai_sa_argentina_treaty_desc;On 3 February 1876 Argentina and Paraguay agree their boundary settlement. Argentina secures the Chaco south of the Pilcomayo and the disputed Misiones frontier. The northern Chaco question remains subject to arbitration.;;;;;;;;;;;;;x
+ff_hai_sa_argentina_title;The Argentine Republic;;;;;;;;;;;;;x
+ff_hai_sa_argentina_desc;The government abandons the revived United Provinces project and recognizes Argentina as a separate republic. Paraguay and Uruguay remain distinct sovereign states.;;;;;;;;;;;;;x
+ff_hai_sa_acre_title;The Bolivian Amazon Frontier;;;;;;;;;;;;;x
+ff_hai_sa_acre_desc;The Peruvian and Bolivian governments recognize the separate administration of the Bolivian Amazon districts. Overlapping territorial claims do not establish a restored Peru-Bolivian union.;;;;;;;;;;;;;x
+ff_hai_sa_occupation_title;The British Occupation of Egypt;;;;;;;;;;;;;x
+ff_hai_sa_occupation_desc;Following the defeat of the Urabi movement at Tel el-Kebir in September 1882, British troops occupy Egypt. The khedival administration continues under nominal Ottoman suzerainty, while British military and political influence becomes decisive. This occupation is distinct from the earlier purchase of canal shares.;;;;;;;;;;;;;x
+ff_hai_sa_uruguay_intervention_title;Brazil Intervenes in Uruguay;;;;;;;;;;;;;x
+ff_hai_sa_uruguay_intervention_desc;The Brazilian ultimatum has failed to settle the crisis with the Blanco government. Imperial forces intervene in support of the Colorados led by Venancio Flores. Paraguay regards the intervention as a threat to the regional balance.;;;;;;;;;;;;;x
+ff_hai_sa_montevideo_title;The Convention of Montevideo;;;;;;;;;;;;;x
+ff_hai_sa_montevideo_desc;On 20 February 1865 the settlement at Montevideo ends the conflict with Brazil and brings Venancio Flores to power. The new Colorado administration aligns Uruguay with Brazil and Argentina in the widening conflict with Paraguay.;;;;;;;;;;;;;x
+FF_HAI_PARAGUAYAN_WAR;The Paraguayan War;;;;;;;;;;;;;x
+FF_HAI_PARAGUAYAN_WAR_NO_ORDER;The Paraguayan War;;;;;;;;;;;;;x
+FF_HAI_URUGUAYAN_WAR;The Uruguayan War;;;;;;;;;;;;;x
+FF_HAI_URUGUAYAN_WAR_NO_ORDER;The Uruguayan War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_PARAGUAYAN_WAR;The Paraguayan War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_PARAGUAYAN_WAR_NO_ORDER;The Paraguayan War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_URUGUAYAN_WAR;The Uruguayan War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_URUGUAYAN_WAR_NO_ORDER;The Uruguayan War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_PARAGUAYAN_WAR;The Paraguayan War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_PARAGUAYAN_WAR_NO_ORDER;The Paraguayan War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_URUGUAYAN_WAR;The Uruguayan War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_URUGUAYAN_WAR_NO_ORDER;The Uruguayan War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_PARAGUAYAN_WAR;The Paraguayan War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_PARAGUAYAN_WAR_NO_ORDER;The Paraguayan War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_URUGUAYAN_WAR;The Uruguayan War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_URUGUAYAN_WAR_NO_ORDER;The Uruguayan War;;;;;;;;;;;;;x

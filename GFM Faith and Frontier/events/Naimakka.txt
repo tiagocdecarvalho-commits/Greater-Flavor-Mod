@@ -1,0 +1,2 @@
+# Faith & Frontier compatibility override
+# Intentionally empty.

@@ -1,0 +1,40 @@
+#CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;x
+cvx_exile_invite;Authorise an invitation and prepare the funding proposal.;;;;;;;;;;;;;x
+cvx_exile_offer_title;The French Bourbons in Exile;;;;;;;;;;;;;x
+cvx_exile_offer_desc;Charles X has lost the French throne to Louis-Philippe. His displaced household can be offered a permanent establishment in Naples, bringing legitimist connections and obligations to its hosts. Authorising an invitation opens the household funding decision, the court must then provide premises and passage before anyone arrives.;;;;;;;;;;;;;x
+cvx_fund_exiles_title;Establish the Exiled Bourbon Household;;;;;;;;;;;;;x
+cvx_fund_exiles_desc;An invitation needs suitable lodgings, travel arrangements and guarantees of maintenance. Funding the establishment will begin the household journey. Its arrival can strengthen court administration, while its legitimist associations may unsettle liberals and the French government.;;;;;;;;;;;;;x
+cvx_exile_journey;Preparing the Bourbon Household;;;;;;;;;;;;;x
+cvx_exile_journey_desc;Officials are arranging the exiles' passage and lodgings. The household can arrive once the preparations are complete.;;;;;;;;;;;;;x
+cvx_arrival_confirm;Receive the household and enter its contribution.;;;;;;;;;;;;;x
+cvi_exile_cancelled;Close the invitation and recover the unused reserve.;;;;;;;;;;;;;x
+cvx_recover_exile_arrival_title;Call the Household before the Court;;;;;;;;;;;;;x
+cvx_recover_exile_arrival_desc;The household establishment has been funded, but the court has received no report of its arrival. Reissue the travel order and require the household to answer the invitation.;;;;;;;;;;;;;x
+cvx_exile_lapsed_a;Close the establishment account.;;;;;;;;;;;;;x
+cvx_exile_lapsed_title;The Household Invitation Cannot Proceed;;;;;;;;;;;;;x
+cvx_exile_lapsed_desc;The change in the crown's circumstances has made the proposed establishment impossible. Officials close the arrangements and return the unused portion of the travelling reserve.;;;;;;;;;;;;;x
+cvx_border_watch;Precautions on the Papal Frontier;;;;;;;;;;;;;x
+cvx_border_watch_desc;Frontier offices and military depots are coordinating inspections. Their preparations improve military readiness but require additional administrative expenditure.;;;;;;;;;;;;;x
+cvx_court_contacts;The Conservative Courts in Consultation;;;;;;;;;;;;;x
+cvx_court_contacts_desc;Envoys exchange reports with the threatened courts. Diplomatic coordination occupies officials who would otherwise oversee provincial revenues.;;;;;;;;;;;;;x
+cvx_radical_condemn;Refuse recognition and keep the kingdom out of the war.;;;;;;;;;;;;;x
+cvx_radical_watch;Refuse recognition and reinforce frontier precautions.;;;;;;;;;;;;;x
+cvx_radical_courts;Refuse recognition and consult the threatened courts.;;;;;;;;;;;;;x
+cvx_radical_provinces_title;Naples and the Italian United Provinces;;;;;;;;;;;;;x
+cvx_radical_provinces_desc;Reports from central Italy announce a revolutionary government challenging the established courts and Papal authority. Its republican programme offers no acceptable partner for the Bourbon crown. Ministers disagree over the response: refuse recognition while remaining outside the conflict, prepare the frontier against contagion, or coordinate diplomatically with the threatened courts. Opposition to the republic need not place the kingdom's army under Austrian direction.;;;;;;;;;;;;;x
+cvx_review_release;Return the frontier offices to ordinary duties.;;;;;;;;;;;;;x
+cvx_review_continue;Maintain precautions against renewed conspiracies.;;;;;;;;;;;;;x
+cvx_republic_aftermath_title;The Revolutionary Emergency Recedes;;;;;;;;;;;;;x
+cvx_republic_aftermath_desc;The revolutionary government no longer rules under its former programme. Naples can review the temporary precautions without claiming that its diplomacy decided the conflict. Frontier officers ask to return to ordinary duties, hardliners argue that surveillance should continue after the immediate danger has passed.;;;;;;;;;;;;;x
+cvx_institution_3_a;Publish the agreed common accounts.;;;;;;;;;;;;;x
+cvx_institution_3_b;Keep the negotiations within the two administrations.;;;;;;;;;;;;;x
+cvx_institution_3_title;The First Joint Budget Session;;;;;;;;;;;;;x
+cvx_institution_3_desc;The federal articles now face their practical test: ministers in Naples and the island representatives must agree which expenses belong to the common crown. Publication can build confidence in the bargain, quiet negotiation preserves room for compromise but leaves outsiders less able to follow the accounts.;;;;;;;;;;;;;x
+cvx_institution_4_a;Require written service records.;;;;;;;;;;;;;x
+cvx_institution_4_b;Retain the court's personal recommendations.;;;;;;;;;;;;;x
+cvx_institution_4_title;Appointments Before the Royal Council;;;;;;;;;;;;;x
+cvx_institution_4_desc;The royal council can demand evidence of competence from provincial appointees while retaining the crown's final authority. Inspectors favour written service records, established families defend personal recommendations as guarantees of loyalty. Neither course creates parliamentary government.;;;;;;;;;;;;;x
+cvx_institution_5_a;Submit the accounts to representative scrutiny.;;;;;;;;;;;;;x
+cvx_institution_5_b;Keep the first review within the ministry.;;;;;;;;;;;;;x
+cvx_institution_5_title;The First Ministerial Accounts;;;;;;;;;;;;;x
+cvx_institution_5_desc;A centralized constitution requires ministers to explain expenditure to the representatives of the kingdom. Public scrutiny can make the new institutions credible, but the court fears that discussion will become a challenge to every royal appointment.;;;;;;;;;;;;;x

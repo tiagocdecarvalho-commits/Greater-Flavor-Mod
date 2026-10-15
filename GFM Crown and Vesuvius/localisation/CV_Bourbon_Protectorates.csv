@@ -1,0 +1,56 @@
+cvm_bourbon_albania;Albanian Crown Protectorate;;;;;;;;;;;;;x
+cvm_bourbon_albania_ruler;King;;;;;;;;;;;;;x
+ALB_cvm_bourbon_albania;Regno d'Albania;;;;;;;;;;;;;x
+ALB_cvm_bourbon_albania_ADJ;Albanian;;;;;;;;;;;;;x
+cvm_bourbon_guiana;Italian Colonial Protectorate;;;;;;;;;;;;;x
+cvm_bourbon_guiana_ruler;Governor;;;;;;;;;;;;;x
+RIG_cvm_bourbon_guiana;Protettorato della Guiana;;;;;;;;;;;;;x
+RIG_cvm_bourbon_guiana_ADJ;Guianese;;;;;;;;;;;;;x
+cvm_bourbon_siam;Italian Protectorate;;;;;;;;;;;;;x
+SIA_cvm_bourbon_siam;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvm_bourbon_siam_ADJ;Siamese;;;;;;;;;;;;;x
+cvm_bourbon_gabon;Italian Protectorate;;;;;;;;;;;;;x
+GAB_cvm_bourbon_gabon;Protettorato del Gabone;;;;;;;;;;;;;x
+GAB_cvm_bourbon_gabon_ADJ;Gabonese;;;;;;;;;;;;;x
+cvm_bourbon_gabon_colonial;Italian Colonial Protectorate;;;;;;;;;;;;;x
+cvm_bourbon_gabon_colonial_ruler;Governor;;;;;;;;;;;;;x
+GAB_cvm_bourbon_gabon_colonial;Protettorato del Gabone;;;;;;;;;;;;;x
+GAB_cvm_bourbon_gabon_colonial_ADJ;Gabonese;;;;;;;;;;;;;x
+cvbp_albania_title;The Standard of the Albanian Crown;;;;;;;;;;;;;x
+cvbp_albania_desc;The Albanian protectorate now serves beneath the Bourbon crown. Its standard joins the Albanian eagle to the arms of the protecting dynasty, recording the arrangement already concluded with Italy.;;;;;;;;;;;;;x
+cvbp_albania_ack;Record the royal standard.;;;;;;;;;;;;;x
+cvbp_albania_restore_title;A New Protector for Albania;;;;;;;;;;;;;x
+cvbp_albania_restore_desc;The relationship that established the Bourbon standard has changed. The protectorate resumes its ordinary designation and colours.;;;;;;;;;;;;;x
+cvbp_albania_restore_ack;Record the present arrangement.;;;;;;;;;;;;;x
+cvbp_guiana_title;The Standard of the Guianese Protectorate;;;;;;;;;;;;;x
+cvbp_guiana_desc;The existing Guianese protectorate now flies the colours of its Bourbon patron. Italian colours, royal arms and the Atlantic waters mark the authority already exercised over the colony.;;;;;;;;;;;;;x
+cvbp_guiana_ack;Record the protectorate standard.;;;;;;;;;;;;;x
+cvbp_guiana_restore_title;A New Protector for Guiana;;;;;;;;;;;;;x
+cvbp_guiana_restore_desc;The relationship that established the Bourbon standard has changed. The colony resumes its ordinary colonial designation and colours.;;;;;;;;;;;;;x
+cvbp_guiana_restore_ack;Record the present arrangement.;;;;;;;;;;;;;x
+cvm_italian_eqg;Italian Protectorate;;;;;;;;;;;;;x
+cvm_italian_eqg_ruler;Governor;;;;;;;;;;;;;x
+EQG_cvm_italian_eqg;Protettorato della Guinea Equatoriale;;;;;;;;;;;;;x
+EQG_cvm_italian_eqg_ADJ;Equatoguinean;;;;;;;;;;;;;x
+cvm_italian_eqg_colonial;Italian Protectorate;;;;;;;;;;;;;x
+cvm_italian_eqg_colonial_ruler;Governor;;;;;;;;;;;;;x
+EQG_cvm_italian_eqg_colonial;Protettorato della Guinea Equatoriale;;;;;;;;;;;;;x
+EQG_cvm_italian_eqg_colonial_ADJ;Equatoguinean;;;;;;;;;;;;;x
+cvbp_eqg_title;The Standard of Equatorial Guinea;;;;;;;;;;;;;x
+cvbp_eqg_desc;The administration of Equatorial Guinea adopts the colours of its Italian protector. The new standard records the existing relationship with the Italian crown.;;;;;;;;;;;;;x
+cvbp_eqg_ack;Record the protectorate standard.;;;;;;;;;;;;;x
+cvbp_eqg_restore_title;A New Protector;;;;;;;;;;;;;x
+cvbp_eqg_restore_desc;The relationship that established the Bourbon standard has changed. The country resumes its ordinary designation and colours.;;;;;;;;;;;;;x
+cvbp_eqg_restore_ack;Record the present arrangement.;;;;;;;;;;;;;x
+cvbp_siam_title;The Standard of the Siamese Protectorate;;;;;;;;;;;;;x
+cvbp_siam_desc;Siam now flies the standard of its Bourbon protector. The new colours record the existing relationship between the Siamese court and Italy.;;;;;;;;;;;;;x
+cvbp_siam_ack;Record the protectorate standard.;;;;;;;;;;;;;x
+cvbp_siam_restore_title;A New Protector;;;;;;;;;;;;;x
+cvbp_siam_restore_desc;The relationship that established the Bourbon standard has changed. The country resumes its ordinary designation and colours.;;;;;;;;;;;;;x
+cvbp_siam_restore_ack;Record the present arrangement.;;;;;;;;;;;;;x
+cvbp_gabon_title;The Standard of the Gabonese Protectorate;;;;;;;;;;;;;x
+cvbp_gabon_desc;Gabon now flies the standard of its Bourbon protector. The new colours record the existing relationship between the Gabonese administration and Italy.;;;;;;;;;;;;;x
+cvbp_gabon_ack;Record the protectorate standard.;;;;;;;;;;;;;x
+cvbp_gabon_restore_title;A New Protector;;;;;;;;;;;;;x
+cvbp_gabon_restore_desc;The relationship that established the Bourbon standard has changed. The country resumes its ordinary designation and colours.;;;;;;;;;;;;;x
+cvbp_gabon_restore_ack;Record the present arrangement.;;;;;;;;;;;;;x

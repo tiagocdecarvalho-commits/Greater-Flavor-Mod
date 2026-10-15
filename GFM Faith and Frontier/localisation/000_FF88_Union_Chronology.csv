@@ -1,0 +1,163 @@
+FF88_9785410_TITLE;The Protected United Government;;;;;;;;;;;;;x
+FF88_9785410_DESC;The settlement of the Orange dispute has preserved a common Boer administration, but Britain continues to claim authority over the interior. The council will govern its own districts under British protection while delegates prepare the permanent constitution. Independence remains a question for the approaching Sand River negotiations.;;;;;;;;;;;;;x
+FF88_9785410_OPT;Ratify the articles and publish them to the districts.;;;;;;;;;;;;;x
+FF88_9785411_TITLE;The Sand River Conference: A United Interior;;;;;;;;;;;;;x
+FF88_9785411_DESC;Delegates from the united government have met the British commissioners to settle the status of both the Orange and Vaal districts. The common legislature remains in place, and Britain will relinquish its protection over the entire union. The articles recognise the authority of the Boer government within its existing boundaries and establish a framework for relations along the Cape frontier. Recognition does not transfer British Natal or promise land held by other frontier councils.;;;;;;;;;;;;;x
+FF88_9785411_OPT;Ratify the articles and publish them to the districts.;;;;;;;;;;;;;x
+FF88_9785412_TITLE;The United Government Is Independent;;;;;;;;;;;;;x
+FF88_9785412_DESC;The Sand River articles have been ratified. British protection has ended over the united Orange and Vaal government, and the common legislature now conducts foreign relations in its own right. Northern and southern delegates remain bound by the constitution agreed in 1850. The difficult work of reconciling the southern districts continues, but it will be carried out by an independent government.;;;;;;;;;;;;;x
+FF88_9785412_OPT;Ratify the articles and publish them to the districts.;;;;;;;;;;;;;x
+FF88_9785413_TITLE;The Southern Districts Are Reconciled;;;;;;;;;;;;;x
+FF88_9785413_DESC;District accounts have been audited, returning officials have entered the common administration, and the disputes left by the civil war have finally been settled. The southern Volksraad delegates now take their seats within the permanent united institutions. Separate Potchefstroom and Orange claims to the districts held by the union will be replaced by the authority of the common government. Local rights and non-Boer claims remain recorded in the provincial registers.;;;;;;;;;;;;;x
+FF88_9785413_OPT;Ratify the articles and publish them to the districts.;;;;;;;;;;;;;x
+FF88_9785414_TITLE;The Common Provincial Registers;;;;;;;;;;;;;x
+FF88_9785414_DESC;The council has received the registers of newly acquired districts. Where the united government now holds the land, its constitutional claim will replace rival Boer administrative claims. The clerk will retain the records of neighbouring governments and non-Boer communities outside this settlement.;;;;;;;;;;;;;x
+FF88_9785414_OPT;Ratify the articles and publish them to the districts.;;;;;;;;;;;;;x
+FF88_FF42_ZPB_UNION_TITLE;Zoutpansberg and the United Republic;;;;;;;;;;;;;x
+FF88_FF42_ZPB_UNION_DESC;The northern commandants have agreed in principle to join the wider United Government. Distance and strong local institutions make immediate absorption difficult, so the settlement is likely to retain substantial autonomy even while acknowledging the common republican government.;;;;;;;;;;;;;x
+FF88_FF42_ZPB_UNION_OPT_HIST;Join the republic while retaining local autonomy.;;;;;;;;;;;;;x
+FF88_ff42_zoutpansberg_autonomy;Zoutpansberg Regionalism;;;;;;;;;;;;;x
+FF88_FF42_ZPB_UNION_OPT_INDEPENDENT;Zoutpansberg will remain apart.;;;;;;;;;;;;;x
+FF88_FF42_CIVIL_WAR_CRISIS_TITLE;The Republic Divides;;;;;;;;;;;;;x
+FF88_FF42_CIVIL_WAR_CRISIS_DESC;The contest over executive authority has become a constitutional crisis. Stephanus Schoeman and his supporters reject the decisions of their opponents, while Paul Kruger and the Volksraad insist that no commandant may place himself above the law. Armed burghers are beginning to gather behind rival leaders.;;;;;;;;;;;;;x
+FF88_FF42_CIVIL_WAR_CRISIS_OPT_HIST;The Volksraad will enforce its authority.;;;;;;;;;;;;;x
+FF88_ff42_transvaal_civil_war;the United Government Civil War;;;;;;;;;;;;;x
+FF88_FF42_CIVIL_WAR_CRISIS_OPT_COMPROMISE;Compromise before the commandos assemble.;;;;;;;;;;;;;x
+FF88_ff42_post_civil_war_reconciliation;Republican Reconciliation;;;;;;;;;;;;;x
+FF88_FF42_ZPB_COMPACT_TITLE;A Northern Compact with Zoutpansberg;;;;;;;;;;;;;x
+FF88_FF42_ZPB_COMPACT_DESC;The administration of Zoutpansberg has marked its association with the United Government with a public celebration at Schoemansdal. The northern district keeps its own commandants, magistrates and local institutions, while acknowledging the SAR as the centre of a wider republican union. Pretoria's representatives promise that this arrangement will bring practical cooperation in trade, roads and frontier defence without erasing Zoutpansberg's local government. The compact is a union of governments under one republican protection, not the disappearance of the northern community.;;;;;;;;;;;;;x
+FF88_FF42_ZPB_COMPACT_OPT_FUND;Fund shared roads, supply stores and district administration.;;;;;;;;;;;;;x
+FF88_ff42_zpb_sar_compact;Northern Compact;;;;;;;;;;;;;x
+FF88_FF42_ZPB_COMPACT_LIMITED_OPT;Celebrate the compact without new commitments.;;;;;;;;;;;;;x
+FF88_FF42_SCHOEMAN_REBELLION_TITLE;Schoeman's Supporters Take Up Arms;;;;;;;;;;;;;x
+FF88_FF42_SCHOEMAN_REBELLION_DESC;The northern faction has rejected the authority of the central government. Supporters of Stephanus Schoeman and allied commandants are mobilising in Zoutpansberg and the western districts, turning a dispute over office into an armed struggle for control of the republic.;;;;;;;;;;;;;x
+FF88_FF42_SCHOEMAN_REBELLION_OPT;Rally the commandos.;;;;;;;;;;;;;x
+FF88_FF42_KAREE_ARMISTICE_TITLE;An Armistice Beneath the Karee Trees;;;;;;;;;;;;;x
+FF88_FF42_KAREE_ARMISTICE_DESC;After years of factional skirmishing, neither side can claim that republican government has benefited from the conflict. The opposing commandos are prepared to accept an armistice, submit the dispute to constitutional procedures and hold a fresh presidential election.;;;;;;;;;;;;;x
+FF88_FF42_KAREE_ARMISTICE_OPT_HIST;End the civil war and call a new election.;;;;;;;;;;;;;x
+FF88_FF42_KAREE_ARMISTICE_OPT_CONTINUE;There can be no settlement yet.;;;;;;;;;;;;;x
+FF88_FF42_ZPB_PEACEFUL_INCORPORATION_TITLE;The Northern Districts;;;;;;;;;;;;;x
+FF88_FF42_ZPB_PEACEFUL_INCORPORATION_DESC;Years of negotiation have brought Zoutpansberg increasingly within the institutions of the United Government. The question is no longer whether the northern settlers belong to the wider republican system, but how much separate authority their district should retain.;;;;;;;;;;;;;x
+FF88_FF42_ZPB_PEACEFUL_INCORPORATION_OPT_HIST;Complete the incorporation.;;;;;;;;;;;;;x
+FF88_FF42_ZPB_PEACEFUL_INCORPORATION_OPT_AUTONOMY;Preserve the northern autonomy.;;;;;;;;;;;;;x
+FF88_FF50_UTR_TITLE;Lydenburg Joins the Republic of Utrecht;;;;;;;;;;;;;x
+FF88_FF50_UTR_DESC;The Lydenburg burghers accept incorporation into the Republic of Utrecht. The Utrecht raad absorbs Lydenburg and its districts, and the united republic remains independent until its union with the United Government in 1860.;;;;;;;;;;;;;x
+FF88_FF50_UTR_ACCEPT;Incorporate Lydenburg and continue as Utrecht.;;;;;;;;;;;;;x
+FF88_FF50_REFUSE;Retain our separate government.;;;;;;;;;;;;;x
+FF88_FF50_LYD_TITLE;The Utrecht Republic Joins the United Government;;;;;;;;;;;;;x
+FF88_FF50_LYD_DESC;The 1860 union brings the Republic of Utrecht, including the former Lydenburg districts, into the United Government. Zoutpansberg remains a distinct but associated republic under the SAR until the crisis of 1862.;;;;;;;;;;;;;x
+FF88_FF50_JOIN_TRN;Complete the union and continue as the United Government.;;;;;;;;;;;;;x
+FF88_FF50_UTR_FALLBACK_TITLE;Lydenburg Joins the United Government;;;;;;;;;;;;;x
+FF88_FF50_UTR_FALLBACK_DESC;The Utrecht negotiations have not established a common government. The Lydenburg raad must now consider a direct agreement with Pretoria, bringing its districts and public administration into the United Government.;;;;;;;;;;;;;x
+ff88_southern_resistance;Southern Resistance;;;;;;;;;;;;;x
+ff88_southern_resistance_desc;The reunited southern districts resist common taxes and military obligations until their administration is reconciled.;;;;;;;;;;;;;x
+ff88_southern_resistance_local;Southern Resistance;;;;;;;;;;;;;x
+ff88_southern_resistance_local_desc;Disputed registers and resistance to district officers disrupt production in the southern districts.;;;;;;;;;;;;;x
+ff88_northern_restoration;Restore the Northern Union;;;;;;;;;;;;;x
+ff88_northern_restoration_desc;Restore the Northern Union;;;;;;;;;;;;;x
+ff88_northern_restoration_short;Restore the Northern Union;;;;;;;;;;;;;x
+ff88_northern_restoration_short_desc;Restore the Northern Union;;;;;;;;;;;;;x
+ff88_northern_restoration_setup;Restore the Northern Union;;;;;;;;;;;;;x
+FF88_NORTHERN_WAR;The Second Boer Civil War;;;;;;;;;;;;;x
+NORMAL_FF88_NORTHERN_WAR;The Second Boer Civil War;;;;;;;;;;;;;x
+AGRESSION_FF88_NORTHERN_WAR;The Second Boer Civil War;;;;;;;;;;;;;x
+VLK_slot3;The United Boer Republics;;;;;;;;;;;;;x
+VLK_slot3_ADJ;United Boer;;;;;;;;;;;;;x
+VLK_slot4;The United Boer Duchies;;;;;;;;;;;;;x
+VLK_slot4_ADJ;United Boer;;;;;;;;;;;;;x
+VLK_ff84_union_republic;The United Boer Republics;;;;;;;;;;;;;x
+VLK_ff84_union_republic_ADJ;United Boer;;;;;;;;;;;;;x
+VLK_ff84_constitutional_duchies;The United Boer Duchies;;;;;;;;;;;;;x
+VLK_ff84_constitutional_duchies_ADJ;United Boer;;;;;;;;;;;;;x
+ff84_programme_title;The Programme of the United Government;;;;;;;;;;;;;x
+ff31_federal_treasury_title;Federal Treasury;;;;;;;;;;;;;x
+ff31_diamond_licenses_title;Diamond Digging Licences;;;;;;;;;;;;;x
+ff67_schools_title;Republican Community Schools;;;;;;;;;;;;;x
+ff67_defence_title;A National Defence Establishment;;;;;;;;;;;;;x
+ff67_cape_administration_title;The Cape Administrative Charter;;;;;;;;;;;;;x
+ff82_vereeniging_title;Convene the Vereeniging Negotiations;;;;;;;;;;;;;x
+ff82_united_republics_title;Convene the Convention of the United Republics;;;;;;;;;;;;;x
+ff82_kaap_conference_title;The Kaap Conference;;;;;;;;;;;;;x
+ff82_griqualand_east_trn_title;Invite Griqualand East into the Republic;;;;;;;;;;;;;x
+ff82_griqualand_east_saf_title;Invite Griqualand East into the Republic;;;;;;;;;;;;;x
+ff83_propose_vaal_union_title;Propose a Common Government Across the Vaal;;;;;;;;;;;;;x
+ff83_roads_title;Build the Winburg Market Roads;;;;;;;;;;;;;x
+ff83_post_title;Establish the Republican Postal Service;;;;;;;;;;;;;x
+ff83_schools_title;Endow the District Schools;;;;;;;;;;;;;x
+ff83_settlers_title;Open the Inland Settlement Offices;;;;;;;;;;;;;x
+ff83_rail_title;Survey a Railway Across the Vaal;;;;;;;;;;;;;x
+ff83_water_title;Provide Water for the Frontier Towns;;;;;;;;;;;;;x
+ff83_dutch_mission_title;Send a Commercial Mission to the Netherlands;;;;;;;;;;;;;x
+ff83_philippolis_title;Negotiate the Philippolis Purchase;;;;;;;;;;;;;x
+ff83_review_agenda_title;Review the Republican Programme;;;;;;;;;;;;;x
+ff84_accounts_title;Establish the Union Audit Office;;;;;;;;;;;;;x
+ff84_courts_title;One Law Across the Vaal;;;;;;;;;;;;;x
+ff84_schools_title;Teachers for the United Districts;;;;;;;;;;;;;x
+ff84_commandos_title;The Quartermaster and the Commando;;;;;;;;;;;;;x
+ff84_health_title;Clean Water for the Market Towns;;;;;;;;;;;;;x
+ff84_rail_title;Rails Between the Two Administrations;;;;;;;;;;;;;x
+ff84_negotiate_recognition_title;Request a Convention With Britain;;;;;;;;;;;;;x
+ff84_negotiate_basotho_title;Convene a Basotho Boundary Commission;;;;;;;;;;;;;x
+ff84_negotiate_portugal_title;Negotiate Access to Portuguese Ports;;;;;;;;;;;;;x
+ff84_negotiate_dutch_title;Invite a Dutch Educational Mission;;;;;;;;;;;;;x
+ff84_enforce_union_title;Conclude the Civil War: Restore the Union;;;;;;;;;;;;;x
+ff84_accept_separation_title;Conclude the Civil War: Accept Separation;;;;;;;;;;;;;x
+ff87_frontier_charter_title;Set the Union's Frontier Policy;;;;;;;;;;;;;x
+ff87_griqua_west_title;Negotiate with Griqualand West;;;;;;;;;;;;;x
+ff87_griqua_west_integrate_title;Complete the Griqualand West District Settlement;;;;;;;;;;;;;x
+ff87_kholokoe_title;Negotiate with Kholokoe;;;;;;;;;;;;;x
+ff87_kholokoe_integrate_title;Complete the Kholokoe District Settlement;;;;;;;;;;;;;x
+ff87_transvaal_title;Negotiate with Transvaal;;;;;;;;;;;;;x
+ff87_transvaal_integrate_title;Complete the Transvaal District Settlement;;;;;;;;;;;;;x
+ff87_lydenburg_title;Negotiate with Lydenburg;;;;;;;;;;;;;x
+ff87_lydenburg_integrate_title;Complete the Lydenburg District Settlement;;;;;;;;;;;;;x
+ff87_zoutpansberg_title;Negotiate with Zoutpansberg;;;;;;;;;;;;;x
+ff87_zoutpansberg_integrate_title;Complete the Zoutpansberg District Settlement;;;;;;;;;;;;;x
+ff87_griqua_east_title;Negotiate with Griqualand East;;;;;;;;;;;;;x
+ff87_griqua_east_integrate_title;Complete the Griqualand East District Settlement;;;;;;;;;;;;;x
+ff87_basotho_title;Negotiate with Basotho;;;;;;;;;;;;;x
+ff87_basotho_integrate_title;Complete the Basotho District Settlement;;;;;;;;;;;;;x
+ff87_swazi_title;Negotiate with Swaziland;;;;;;;;;;;;;x
+ff87_swazi_integrate_title;Complete the Swaziland District Settlement;;;;;;;;;;;;;x
+ff87_zulu_title;Negotiate with Zululand;;;;;;;;;;;;;x
+ff87_zulu_integrate_title;Complete the Zululand District Settlement;;;;;;;;;;;;;x
+ff87_gaza_title;Negotiate with Gaza;;;;;;;;;;;;;x
+ff87_gaza_integrate_title;Complete the Gaza District Settlement;;;;;;;;;;;;;x
+ff87_shangaan_title;Negotiate with Shangaan;;;;;;;;;;;;;x
+ff87_shangaan_integrate_title;Complete the Shangaan District Settlement;;;;;;;;;;;;;x
+ff87_accession_griqua_west_title;Invite Griqualand West to Full Accession;;;;;;;;;;;;;x
+ff87_accession_kholokoe_title;Invite Kholokoe to Full Accession;;;;;;;;;;;;;x
+ff87_accession_transvaal_title;Invite Transvaal to Full Accession;;;;;;;;;;;;;x
+ff87_accession_lydenburg_title;Invite Lydenburg to Full Accession;;;;;;;;;;;;;x
+ff87_accession_zoutpansberg_title;Invite Zoutpansberg to Full Accession;;;;;;;;;;;;;x
+ff87_accession_griqua_east_title;Invite Griqualand East to Full Accession;;;;;;;;;;;;;x
+ff87_accession_basotho_title;Invite Basotho to Full Accession;;;;;;;;;;;;;x
+ff87_accession_swazi_title;Invite Swaziland to Full Accession;;;;;;;;;;;;;x
+ff87_accession_zulu_title;Invite Zululand to Full Accession;;;;;;;;;;;;;x
+ff87_recall_mission_title;Recall an Unanswered Frontier Mission;;;;;;;;;;;;;x
+ff87_republic_congress_title;The Burghers' Frontier Congress;;;;;;;;;;;;;x
+ff87_ducal_council_title;A Ducal Council for Frontier Affairs;;;;;;;;;;;;;x
+ffv5_found_grey_college_title;Endow Grey College in Bloemfontein;;;;;;;;;;;;;x
+ffv5_bloemfontein_telegraph_title;Connect Bloemfontein by Telegraph;;;;;;;;;;;;;x
+ffv5_state_gymnasium_pretoria_title;Establish the Staatsgymnasium;;;;;;;;;;;;;x
+ffv5_standardise_the_commandos_title;Standardise the District Commandos;;;;;;;;;;;;;x
+ffv5_fortify_port_natal_title;Fortify Port Natal;;;;;;;;;;;;;x
+ffv5_consolidate_surviving_natalia_title;Consolidate the Surviving Republic;;;;;;;;;;;;;x
+ffv5_nrb_seek_foreign_recognition_title;Petition Berlin and Lisbon for Recognition;;;;;;;;;;;;;x
+ffv5_nrb_join_the_zar_title;Enter the South African Republic;;;;;;;;;;;;;x
+ffv5_call_general_raad_title;Call a General Raad of the Trekker Districts;;;;;;;;;;;;;x
+ffr_dec_cape_government_railways_title;Expand the Cape Government Railways;;;;;;;;;;;;;x
+ffr_dec_chamber_of_mines_title;Organize a Chamber of Mines;;;;;;;;;;;;;x
+ffr_dec_mine_health_board_title;Create a Mine Health and Sanitation Board;;;;;;;;;;;;;x
+ffr_dec_cape_civic_compromise_title;Extend the Cape Civic Compact;;;;;;;;;;;;;x
+ffv4_offer_for_delagoa_bay_title;Offer to Purchase Delagoa Bay;;;;;;;;;;;;;x
+ffv4_offer_for_southern_mozambique_title;Negotiate for Southern Mozambique;;;;;;;;;;;;;x
+ffv4_integrate_south_west_africa_title;Debate the Integration of South West Africa;;;;;;;;;;;;;x
+ffv4_delagoa_free_port_title;Delagoa Free Port;;;;;;;;;;;;;x
+ffv4_southern_african_customs_union_title;Propose a Southern African Customs Union;;;;;;;;;;;;;x
+ffv4_expand_durban_harbour_title;Expand Durban Harbour;;;;;;;;;;;;;x
+ffv4_develop_witwatersrand_deep_levels_title;Finance Deep-Level Mining on the Rand;;;;;;;;;;;;;x
+ffv4_endow_fort_hare_title;Endow Fort Hare;;;;;;;;;;;;;x
+ffv4_memorialise_mendi_title;Create a National Memorial to the Mendi;;;;;;;;;;;;;x
+ffv4_electrify_the_rand_title;Electrify the Rand;;;;;;;;;;;;;x
+ffv4_develop_south_west_railways_title;Extend the South West African Railways;;;;;;;;;;;;;x

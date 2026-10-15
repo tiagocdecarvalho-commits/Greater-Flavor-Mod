@@ -1,0 +1,2004 @@
+political_decisions = {
+	ff101_demand_tristan = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1902
+			NOT = {
+				owns = 2132
+			}
+			NOT = {
+				has_country_flag = ff101_tristan_issued
+			}
+			2132 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+				}
+			}
+		}
+		allow = {
+			year = 1902
+			war = no
+			owns = 4003
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1902
+						NOT = {
+							owns = 2132
+						}
+						NOT = {
+							has_country_flag = ff101_tristan_issued
+						}
+						2132 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+							}
+						}
+						year = 1902
+						war = no
+						owns = 4003
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff101_tristan_issued
+						set_country_flag = ff101_tristan_pending
+						2132 = {
+							owner = {
+								set_country_flag = ff101_tristan_owner_pending
+								country_event = {
+									id = 9786410
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_survey_tristan = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1902
+			NOT = {
+				owns = 2132
+			}
+			NOT = {
+				has_country_flag = ff101_tristan_issued
+			}
+			2132 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff101_tristan_survey_sent
+			}
+		}
+		allow = {
+			year = 1902
+			war = no
+			owns = 4003
+			money = 500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1902
+						NOT = {
+							owns = 2132
+						}
+						NOT = {
+							has_country_flag = ff101_tristan_issued
+						}
+						2132 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff101_tristan_survey_sent
+						}
+						year = 1902
+						war = no
+						owns = 4003
+						money = 500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -500
+						set_country_flag = ff101_tristan_survey_sent
+						set_country_flag = ff101_tristan_survey_pending
+						country_event = {
+							id = 9786414
+							days = 90
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_station_tristan = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1902
+			NOT = {
+				owns = 2132
+			}
+			NOT = {
+				has_country_flag = ff101_tristan_issued
+			}
+			2132 = {
+				empty = yes
+			}
+			has_country_flag = ff101_tristan_surveyed
+		}
+		allow = {
+			year = 1902
+			war = no
+			owns = 4003
+			money = 2000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1902
+						NOT = {
+							owns = 2132
+						}
+						NOT = {
+							has_country_flag = ff101_tristan_issued
+						}
+						2132 = {
+							empty = yes
+						}
+						has_country_flag = ff101_tristan_surveyed
+						year = 1902
+						war = no
+						owns = 4003
+						money = 2000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -2000
+						set_country_flag = ff101_tristan_issued
+						set_country_flag = ff101_tristan_acquired
+						set_country_flag = ff101_tristan_report_pending
+						2132 = {
+							add_core = SAF
+							secede_province = SAF
+							naval_base = 1
+						}
+						country_event = {
+							id = 9786411
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_demand_bouvet = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1907
+			NOT = {
+				owns = 4026
+			}
+			NOT = {
+				has_country_flag = ff101_bouvet_issued
+			}
+			4026 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+				}
+			}
+		}
+		allow = {
+			year = 1907
+			war = no
+			owns = 4003
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1907
+						NOT = {
+							owns = 4026
+						}
+						NOT = {
+							has_country_flag = ff101_bouvet_issued
+						}
+						4026 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+							}
+						}
+						year = 1907
+						war = no
+						owns = 4003
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff101_bouvet_issued
+						set_country_flag = ff101_bouvet_pending
+						4026 = {
+							owner = {
+								set_country_flag = ff101_bouvet_owner_pending
+								country_event = {
+									id = 9786420
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_survey_bouvet = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1907
+			NOT = {
+				owns = 4026
+			}
+			NOT = {
+				has_country_flag = ff101_bouvet_issued
+			}
+			4026 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff101_bouvet_survey_sent
+			}
+		}
+		allow = {
+			year = 1907
+			war = no
+			owns = 4003
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1907
+						NOT = {
+							owns = 4026
+						}
+						NOT = {
+							has_country_flag = ff101_bouvet_issued
+						}
+						4026 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff101_bouvet_survey_sent
+						}
+						year = 1907
+						war = no
+						owns = 4003
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff101_bouvet_survey_sent
+						set_country_flag = ff101_bouvet_survey_pending
+						country_event = {
+							id = 9786424
+							days = 90
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_station_bouvet = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1907
+			NOT = {
+				owns = 4026
+			}
+			NOT = {
+				has_country_flag = ff101_bouvet_issued
+			}
+			4026 = {
+				empty = yes
+			}
+			has_country_flag = ff101_bouvet_surveyed
+		}
+		allow = {
+			year = 1907
+			war = no
+			owns = 4003
+			money = 4000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1907
+						NOT = {
+							owns = 4026
+						}
+						NOT = {
+							has_country_flag = ff101_bouvet_issued
+						}
+						4026 = {
+							empty = yes
+						}
+						has_country_flag = ff101_bouvet_surveyed
+						year = 1907
+						war = no
+						owns = 4003
+						money = 4000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -4000
+						set_country_flag = ff101_bouvet_issued
+						set_country_flag = ff101_bouvet_acquired
+						set_country_flag = ff101_bouvet_report_pending
+						4026 = {
+							add_core = SAF
+							secede_province = SAF
+							naval_base = 1
+						}
+						country_event = {
+							id = 9786421
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_demand_saint_helena = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1904
+			NOT = {
+				owns = 2129
+			}
+			NOT = {
+				has_country_flag = ff101_saint_helena_issued
+			}
+			2129 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+				}
+			}
+		}
+		allow = {
+			year = 1904
+			war = no
+			owns = 4003
+			money = 2000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1904
+						NOT = {
+							owns = 2129
+						}
+						NOT = {
+							has_country_flag = ff101_saint_helena_issued
+						}
+						2129 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+							}
+						}
+						year = 1904
+						war = no
+						owns = 4003
+						money = 2000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -2000
+						set_country_flag = ff101_saint_helena_issued
+						set_country_flag = ff101_saint_helena_pending
+						2129 = {
+							owner = {
+								set_country_flag = ff101_saint_helena_owner_pending
+								country_event = {
+									id = 9786430
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_survey_saint_helena = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1904
+			NOT = {
+				owns = 2129
+			}
+			NOT = {
+				has_country_flag = ff101_saint_helena_issued
+			}
+			2129 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff101_saint_helena_survey_sent
+			}
+		}
+		allow = {
+			year = 1904
+			war = no
+			owns = 4003
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1904
+						NOT = {
+							owns = 2129
+						}
+						NOT = {
+							has_country_flag = ff101_saint_helena_issued
+						}
+						2129 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff101_saint_helena_survey_sent
+						}
+						year = 1904
+						war = no
+						owns = 4003
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff101_saint_helena_survey_sent
+						set_country_flag = ff101_saint_helena_survey_pending
+						country_event = {
+							id = 9786434
+							days = 90
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_station_saint_helena = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1904
+			NOT = {
+				owns = 2129
+			}
+			NOT = {
+				has_country_flag = ff101_saint_helena_issued
+			}
+			2129 = {
+				empty = yes
+			}
+			has_country_flag = ff101_saint_helena_surveyed
+		}
+		allow = {
+			year = 1904
+			war = no
+			owns = 4003
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1904
+						NOT = {
+							owns = 2129
+						}
+						NOT = {
+							has_country_flag = ff101_saint_helena_issued
+						}
+						2129 = {
+							empty = yes
+						}
+						has_country_flag = ff101_saint_helena_surveyed
+						year = 1904
+						war = no
+						owns = 4003
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						set_country_flag = ff101_saint_helena_issued
+						set_country_flag = ff101_saint_helena_acquired
+						set_country_flag = ff101_saint_helena_report_pending
+						2129 = {
+							add_core = SAF
+							secede_province = SAF
+							naval_base = 1
+						}
+						country_event = {
+							id = 9786431
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_demand_ascension = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1906
+			NOT = {
+				owns = 2130
+			}
+			NOT = {
+				has_country_flag = ff101_ascension_issued
+			}
+			2130 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+				}
+			}
+		}
+		allow = {
+			year = 1906
+			war = no
+			owns = 4003
+			money = 2000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1906
+						NOT = {
+							owns = 2130
+						}
+						NOT = {
+							has_country_flag = ff101_ascension_issued
+						}
+						2130 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+							}
+						}
+						year = 1906
+						war = no
+						owns = 4003
+						money = 2000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -2000
+						set_country_flag = ff101_ascension_issued
+						set_country_flag = ff101_ascension_pending
+						2130 = {
+							owner = {
+								set_country_flag = ff101_ascension_owner_pending
+								country_event = {
+									id = 9786440
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_survey_ascension = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1906
+			NOT = {
+				owns = 2130
+			}
+			NOT = {
+				has_country_flag = ff101_ascension_issued
+			}
+			2130 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff101_ascension_survey_sent
+			}
+		}
+		allow = {
+			year = 1906
+			war = no
+			owns = 4003
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1906
+						NOT = {
+							owns = 2130
+						}
+						NOT = {
+							has_country_flag = ff101_ascension_issued
+						}
+						2130 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff101_ascension_survey_sent
+						}
+						year = 1906
+						war = no
+						owns = 4003
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff101_ascension_survey_sent
+						set_country_flag = ff101_ascension_survey_pending
+						country_event = {
+							id = 9786444
+							days = 90
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_station_ascension = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1906
+			NOT = {
+				owns = 2130
+			}
+			NOT = {
+				has_country_flag = ff101_ascension_issued
+			}
+			2130 = {
+				empty = yes
+			}
+			has_country_flag = ff101_ascension_surveyed
+		}
+		allow = {
+			year = 1906
+			war = no
+			owns = 4003
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1906
+						NOT = {
+							owns = 2130
+						}
+						NOT = {
+							has_country_flag = ff101_ascension_issued
+						}
+						2130 = {
+							empty = yes
+						}
+						has_country_flag = ff101_ascension_surveyed
+						year = 1906
+						war = no
+						owns = 4003
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						set_country_flag = ff101_ascension_issued
+						set_country_flag = ff101_ascension_acquired
+						set_country_flag = ff101_ascension_report_pending
+						2130 = {
+							add_core = SAF
+							secede_province = SAF
+							naval_base = 1
+						}
+						country_event = {
+							id = 9786441
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_demand_trindade = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1908
+			NOT = {
+				owns = 3666
+			}
+			NOT = {
+				has_country_flag = ff101_trindade_issued
+			}
+			3666 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+				}
+			}
+		}
+		allow = {
+			year = 1908
+			war = no
+			owns = 4003
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1908
+						NOT = {
+							owns = 3666
+						}
+						NOT = {
+							has_country_flag = ff101_trindade_issued
+						}
+						3666 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+							}
+						}
+						year = 1908
+						war = no
+						owns = 4003
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff101_trindade_issued
+						set_country_flag = ff101_trindade_pending
+						3666 = {
+							owner = {
+								set_country_flag = ff101_trindade_owner_pending
+								country_event = {
+									id = 9786450
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_survey_trindade = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1908
+			NOT = {
+				owns = 3666
+			}
+			NOT = {
+				has_country_flag = ff101_trindade_issued
+			}
+			3666 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff101_trindade_survey_sent
+			}
+		}
+		allow = {
+			year = 1908
+			war = no
+			owns = 4003
+			money = 1200
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1908
+						NOT = {
+							owns = 3666
+						}
+						NOT = {
+							has_country_flag = ff101_trindade_issued
+						}
+						3666 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff101_trindade_survey_sent
+						}
+						year = 1908
+						war = no
+						owns = 4003
+						money = 1200
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1200
+						set_country_flag = ff101_trindade_survey_sent
+						set_country_flag = ff101_trindade_survey_pending
+						country_event = {
+							id = 9786454
+							days = 90
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_station_trindade = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1908
+			NOT = {
+				owns = 3666
+			}
+			NOT = {
+				has_country_flag = ff101_trindade_issued
+			}
+			3666 = {
+				empty = yes
+			}
+			has_country_flag = ff101_trindade_surveyed
+		}
+		allow = {
+			year = 1908
+			war = no
+			owns = 4003
+			money = 4000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1908
+						NOT = {
+							owns = 3666
+						}
+						NOT = {
+							has_country_flag = ff101_trindade_issued
+						}
+						3666 = {
+							empty = yes
+						}
+						has_country_flag = ff101_trindade_surveyed
+						year = 1908
+						war = no
+						owns = 4003
+						money = 4000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -4000
+						set_country_flag = ff101_trindade_issued
+						set_country_flag = ff101_trindade_acquired
+						set_country_flag = ff101_trindade_report_pending
+						3666 = {
+							add_core = SAF
+							secede_province = SAF
+							naval_base = 1
+						}
+						country_event = {
+							id = 9786451
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_demand_prince_edward = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1910
+			NOT = {
+				owns = 3563
+			}
+			NOT = {
+				has_country_flag = ff101_prince_edward_issued
+			}
+			3563 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+				}
+			}
+		}
+		allow = {
+			year = 1910
+			war = no
+			owns = 4003
+			money = 1200
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1910
+						NOT = {
+							owns = 3563
+						}
+						NOT = {
+							has_country_flag = ff101_prince_edward_issued
+						}
+						3563 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+							}
+						}
+						year = 1910
+						war = no
+						owns = 4003
+						money = 1200
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1200
+						set_country_flag = ff101_prince_edward_issued
+						set_country_flag = ff101_prince_edward_pending
+						3563 = {
+							owner = {
+								set_country_flag = ff101_prince_edward_owner_pending
+								country_event = {
+									id = 9786460
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_survey_prince_edward = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1910
+			NOT = {
+				owns = 3563
+			}
+			NOT = {
+				has_country_flag = ff101_prince_edward_issued
+			}
+			3563 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff101_prince_edward_survey_sent
+			}
+		}
+		allow = {
+			year = 1910
+			war = no
+			owns = 4003
+			money = 1800
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1910
+						NOT = {
+							owns = 3563
+						}
+						NOT = {
+							has_country_flag = ff101_prince_edward_issued
+						}
+						3563 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff101_prince_edward_survey_sent
+						}
+						year = 1910
+						war = no
+						owns = 4003
+						money = 1800
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1800
+						set_country_flag = ff101_prince_edward_survey_sent
+						set_country_flag = ff101_prince_edward_survey_pending
+						country_event = {
+							id = 9786464
+							days = 90
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_station_prince_edward = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1910
+			NOT = {
+				owns = 3563
+			}
+			NOT = {
+				has_country_flag = ff101_prince_edward_issued
+			}
+			3563 = {
+				empty = yes
+			}
+			has_country_flag = ff101_prince_edward_surveyed
+		}
+		allow = {
+			year = 1910
+			war = no
+			owns = 4003
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1910
+						NOT = {
+							owns = 3563
+						}
+						NOT = {
+							has_country_flag = ff101_prince_edward_issued
+						}
+						3563 = {
+							empty = yes
+						}
+						has_country_flag = ff101_prince_edward_surveyed
+						year = 1910
+						war = no
+						owns = 4003
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						set_country_flag = ff101_prince_edward_issued
+						set_country_flag = ff101_prince_edward_acquired
+						set_country_flag = ff101_prince_edward_report_pending
+						3563 = {
+							add_core = SAF
+							secede_province = SAF
+							naval_base = 1
+						}
+						country_event = {
+							id = 9786461
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_demand_crozet = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1912
+			NOT = {
+				owns = 4027
+			}
+			NOT = {
+				has_country_flag = ff101_crozet_issued
+			}
+			4027 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+				}
+			}
+		}
+		allow = {
+			year = 1912
+			war = no
+			owns = 4003
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1912
+						NOT = {
+							owns = 4027
+						}
+						NOT = {
+							has_country_flag = ff101_crozet_issued
+						}
+						4027 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+							}
+						}
+						year = 1912
+						war = no
+						owns = 4003
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff101_crozet_issued
+						set_country_flag = ff101_crozet_pending
+						4027 = {
+							owner = {
+								set_country_flag = ff101_crozet_owner_pending
+								country_event = {
+									id = 9786470
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_survey_crozet = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1912
+			NOT = {
+				owns = 4027
+			}
+			NOT = {
+				has_country_flag = ff101_crozet_issued
+			}
+			4027 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff101_crozet_survey_sent
+			}
+		}
+		allow = {
+			year = 1912
+			war = no
+			owns = 4003
+			money = 2000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1912
+						NOT = {
+							owns = 4027
+						}
+						NOT = {
+							has_country_flag = ff101_crozet_issued
+						}
+						4027 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff101_crozet_survey_sent
+						}
+						year = 1912
+						war = no
+						owns = 4003
+						money = 2000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -2000
+						set_country_flag = ff101_crozet_survey_sent
+						set_country_flag = ff101_crozet_survey_pending
+						country_event = {
+							id = 9786474
+							days = 90
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff101_station_crozet = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			OR = {
+				has_country_flag = ff67_south_african_republic
+				has_country_flag = ff92_south_africa_formed
+				has_country_flag = ff82_united_boer_republic
+			}
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1912
+			NOT = {
+				owns = 4027
+			}
+			NOT = {
+				has_country_flag = ff101_crozet_issued
+			}
+			4027 = {
+				empty = yes
+			}
+			has_country_flag = ff101_crozet_surveyed
+		}
+		allow = {
+			year = 1912
+			war = no
+			owns = 4003
+			money = 6000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1912
+						NOT = {
+							owns = 4027
+						}
+						NOT = {
+							has_country_flag = ff101_crozet_issued
+						}
+						4027 = {
+							empty = yes
+						}
+						has_country_flag = ff101_crozet_surveyed
+						year = 1912
+						war = no
+						owns = 4003
+						money = 6000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -6000
+						set_country_flag = ff101_crozet_issued
+						set_country_flag = ff101_crozet_acquired
+						set_country_flag = ff101_crozet_report_pending
+						4027 = {
+							add_core = SAF
+							secede_province = SAF
+							naval_base = 1
+						}
+						country_event = {
+							id = 9786471
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

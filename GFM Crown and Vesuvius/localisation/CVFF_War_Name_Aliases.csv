@@ -1,0 +1,360 @@
+AGRESSION_CVBC_TUNIS_OTTOMAN_SETTLEMENT_WAR;The War for the Tunisian Convention;;;;;;;;;;;;;x
+AGRESSION_CVBC_TUNIS_OTTOMAN_SETTLEMENT_WAR_NO_ORDER;The War for the Tunisian Convention;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_EGYPT_OTTOMAN_CB;The War for the Egyptian Protectorate;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_EGYPT_OTTOMAN_CB_NO_ORDER;The War for the Egyptian Protectorate;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_LIBYA_CB;The Italo-Ottoman War for Libya;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_LIBYA_CB_NO_ORDER;The Italo-Ottoman War for Libya;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_LOMBARDY_CB;The War for Lombardy;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_LOMBARDY_CB_NO_ORDER;The War for Lombardy;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_PROTECTORATE_EGY_CB;The Italian Protectorate War: Egypt;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_PROTECTORATE_EGY_CB_NO_ORDER;The Italian Protectorate War: Egypt;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_PROTECTORATE_ETH_CB;The Italian Protectorate War: Ethiopia;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_PROTECTORATE_ETH_CB_NO_ORDER;The Italian Protectorate War: Ethiopia;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_PROTECTORATE_SIA_CB;The Italian Protectorate War: Siam;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_PROTECTORATE_SIA_CB_NO_ORDER;The Italian Protectorate War: Siam;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_PROTECTORATE_SOM_CB;The Italian Protectorate War: Somalia;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_PROTECTORATE_SOM_CB_NO_ORDER;The Italian Protectorate War: Somalia;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_PROTECTORATE_TRI_CB;The Italian Protectorate War: Tripoli;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_PROTECTORATE_TRI_CB_NO_ORDER;The Italian Protectorate War: Tripoli;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_PROTECTORATE_TUN_CB;The Italian Protectorate War: Tunisia;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_PROTECTORATE_TUN_CB_NO_ORDER;The Italian Protectorate War: Tunisia;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_VENETIA_CB;The War for Venetia;;;;;;;;;;;;;x
+AGRESSION_CVE_WAR_VENETIA_CB_NO_ORDER;The War for Venetia;;;;;;;;;;;;;x
+AGRESSION_CVG2_HEGEMONY_AUS;Austro-Dutch War for German Hegemony;;;;;;;;;;;;;x
+AGRESSION_CVG2_HEGEMONY_AUS_NO_ORDER;Austro-Dutch War for German Hegemony;;;;;;;;;;;;;x
+AGRESSION_CVG2_HEGEMONY_NGF;Prusso-Dutch War for German Hegemony;;;;;;;;;;;;;x
+AGRESSION_CVG2_HEGEMONY_NGF_NO_ORDER;Prusso-Dutch War for German Hegemony;;;;;;;;;;;;;x
+AGRESSION_CVG2_HEGEMONY_PRU;Prusso-Dutch War for German Hegemony;;;;;;;;;;;;;x
+AGRESSION_CVG2_HEGEMONY_PRU_NO_ORDER;Prusso-Dutch War for German Hegemony;;;;;;;;;;;;;x
+AGRESSION_CVM_ALBANIA_LOCAL_TREATY_WAR;The War for the Albanian Protectorate;;;;;;;;;;;;;x
+AGRESSION_CVM_ALBANIA_LOCAL_TREATY_WAR_NO_ORDER;The War for the Albanian Protectorate;;;;;;;;;;;;;x
+AGRESSION_CVM_ALBANIA_OTTOMAN_TREATY_WAR;The War for the Albanian Settlement;;;;;;;;;;;;;x
+AGRESSION_CVM_ALBANIA_OTTOMAN_TREATY_WAR_NO_ORDER;The War for the Albanian Settlement;;;;;;;;;;;;;x
+AGRESSION_CVM_DODECANESE_WAR;The War for the Dodecanese Settlement;;;;;;;;;;;;;x
+AGRESSION_CVM_DODECANESE_WAR_NO_ORDER;The War for the Dodecanese Settlement;;;;;;;;;;;;;x
+AGRESSION_CVM_LIBYA_CYR_WAR;The War for the Protection of Cyrenaica;;;;;;;;;;;;;x
+AGRESSION_CVM_LIBYA_CYR_WAR_NO_ORDER;The War for the Protection of Cyrenaica;;;;;;;;;;;;;x
+AGRESSION_CVM_LIBYA_LBY_WAR;The War for the Protection of Libya;;;;;;;;;;;;;x
+AGRESSION_CVM_LIBYA_LBY_WAR_NO_ORDER;The War for the Protection of Libya;;;;;;;;;;;;;x
+AGRESSION_CVM_LIBYA_LOCAL_TREATY_WAR;The War for the Libyan Protectorate;;;;;;;;;;;;;x
+AGRESSION_CVM_LIBYA_LOCAL_TREATY_WAR_NO_ORDER;The War for the Libyan Protectorate;;;;;;;;;;;;;x
+AGRESSION_CVM_LIBYA_OTTOMAN_TREATY_WAR;The War for the Libyan Settlement;;;;;;;;;;;;;x
+AGRESSION_CVM_LIBYA_OTTOMAN_TREATY_WAR_NO_ORDER;The War for the Libyan Settlement;;;;;;;;;;;;;x
+AGRESSION_CVM_TUNIS_LOCAL_TREATY_WAR;The War for the Tunisian Protectorate;;;;;;;;;;;;;x
+AGRESSION_CVM_TUNIS_LOCAL_TREATY_WAR_NO_ORDER;The War for the Tunisian Protectorate;;;;;;;;;;;;;x
+AGRESSION_CVM_TUNIS_OTTOMAN_TREATY_WAR;The War for the Tunisian Settlement;;;;;;;;;;;;;x
+AGRESSION_CVM_TUNIS_OTTOMAN_TREATY_WAR_NO_ORDER;The War for the Tunisian Settlement;;;;;;;;;;;;;x
+AGRESSION_CVO_DEFEND_FEDERATION;The Defence of the German Settlement;;;;;;;;;;;;;x
+AGRESSION_CVO_DEFEND_FEDERATION_NO_ORDER;The Defence of the German Settlement;;;;;;;;;;;;;x
+AGRESSION_CVO_WAR_AUSTRIA;The War for Federal Recognition;;;;;;;;;;;;;x
+AGRESSION_CVO_WAR_AUSTRIA_NO_ORDER;The War for Federal Recognition;;;;;;;;;;;;;x
+AGRESSION_CVO_WAR_NORTH_GERMANY;The War for German Federal Leadership;;;;;;;;;;;;;x
+AGRESSION_CVO_WAR_NORTH_GERMANY_NO_ORDER;The War for German Federal Leadership;;;;;;;;;;;;;x
+AGRESSION_CVO_WAR_PRUSSIA;The War for German Federal Leadership;;;;;;;;;;;;;x
+AGRESSION_CVO_WAR_PRUSSIA_NO_ORDER;The War for German Federal Leadership;;;;;;;;;;;;;x
+AGRESSION_CVO_WAR_RHINE;The War for the Lower Rhine;;;;;;;;;;;;;x
+AGRESSION_CVO_WAR_RHINE_NO_ORDER;The War for the Lower Rhine;;;;;;;;;;;;;x
+AGRESSION_CVRJ_MANCHURIAN_SETTLEMENT_NO_ORDER;The War for Manchuria;;;;;;;;;;;;;x
+AGRESSION_CVRJ_PACIFIC_SETTLEMENT_NO_ORDER;The Russo-Japanese War;;;;;;;;;;;;;x
+AGRESSION_FF100_SECOND_UNION_WAR;The Second Anglo-Boer War;;;;;;;;;;;;;x
+AGRESSION_FF100_SECOND_UNION_WAR_NO_ORDER;The Second Anglo-Boer War;;;;;;;;;;;;;x
+AGRESSION_FF102_FRONTIER_WAR;The $FIRST$-$SECOND$ Bechuanaland Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF102_FRONTIER_WAR_NO_ORDER;The $FIRST$-$SECOND$ Bechuanaland Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF48_DIMAWE_WAR_NAME_NO_ORDER;$ORDER$$FIRST$-$SECOND$ Dimawe Border War;;;;;;;;;;;;;x
+AGRESSION_FF63_BOER_WAR_NO_ORDER;The First Boer War;;;;;;;;;;;;;x
+AGRESSION_FF63_TEMBE_WAR_NO_ORDER;The Tembe Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF82_GKE_WAR_NO_ORDER;The Griqualand East Campaign;;;;;;;;;;;;;x
+AGRESSION_FF82_SECOND_BOER_WAR_NO_ORDER;The Second Boer War;;;;;;;;;;;;;x
+AGRESSION_FF84_CIVIL_WAR_NO_ORDER;The Boer Civil War;;;;;;;;;;;;;x
+AGRESSION_FF84_INDEPENDENCE_WAR_NO_ORDER;The War for the United Charter;;;;;;;;;;;;;x
+AGRESSION_FF86_KLIP_WAR_NO_ORDER;The Klip River War;;;;;;;;;;;;;x
+AGRESSION_FF87_BASOTHO_WAR_NO_ORDER;The Basotho Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_GAZA_WAR_NO_ORDER;The Gaza Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_GRIQUA_EAST_WAR_NO_ORDER;The Griqualand East Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_GRIQUA_WEST_WAR_NO_ORDER;The Griqualand West Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_KHOLOKOE_WAR_NO_ORDER;The Kholokoe Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_LYDENBURG_WAR_NO_ORDER;The Lydenburg Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_SHANGAAN_WAR_NO_ORDER;The Shangaan Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_SWAZI_WAR_NO_ORDER;The Swaziland Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_TRANSVAAL_WAR_NO_ORDER;The Transvaal Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_ZOUTPANSBERG_WAR_NO_ORDER;The Zoutpansberg Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_ZULU_WAR_NO_ORDER;The Zululand Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF88_NORTHERN_WAR_NO_ORDER;The Second Boer Civil War;;;;;;;;;;;;;x
+AGRESSION_FF92_SOUTHERN_WAR_NO_ORDER;The War for South African Unification;;;;;;;;;;;;;x
+AGRESSION_FF97_MABHUDU_WAR_NO_ORDER;The Mabhudu Coast War;;;;;;;;;;;;;x
+AGRESSION_FF97_PHILIPPOLIS_WAR_NO_ORDER;The Philippolis District War;;;;;;;;;;;;;x
+AGRESSION_cvbc_tunis_ottoman_settlement_war;The War for the Tunisian Convention;;;;;;;;;;;;;x
+AGRESSION_cvbc_tunis_ottoman_settlement_war_NO_ORDER;The War for the Tunisian Convention;;;;;;;;;;;;;x
+AGRESSION_cvm_albania_local_treaty_war;The War for the Albanian Protectorate;;;;;;;;;;;;;x
+AGRESSION_cvm_albania_local_treaty_war_NO_ORDER;The War for the Albanian Protectorate;;;;;;;;;;;;;x
+AGRESSION_cvm_albania_ottoman_treaty_war;The War for the Albanian Settlement;;;;;;;;;;;;;x
+AGRESSION_cvm_albania_ottoman_treaty_war_NO_ORDER;The War for the Albanian Settlement;;;;;;;;;;;;;x
+AGRESSION_cvm_dodecanese_war;The War for the Dodecanese Settlement;;;;;;;;;;;;;x
+AGRESSION_cvm_dodecanese_war_NO_ORDER;The War for the Dodecanese Settlement;;;;;;;;;;;;;x
+AGRESSION_cvm_libya_cyr_war;The War for the Protection of Cyrenaica;;;;;;;;;;;;;x
+AGRESSION_cvm_libya_cyr_war_NO_ORDER;The War for the Protection of Cyrenaica;;;;;;;;;;;;;x
+AGRESSION_cvm_libya_lby_war;The War for the Protection of Libya;;;;;;;;;;;;;x
+AGRESSION_cvm_libya_lby_war_NO_ORDER;The War for the Protection of Libya;;;;;;;;;;;;;x
+AGRESSION_cvm_libya_local_treaty_war;The War for the Libyan Protectorate;;;;;;;;;;;;;x
+AGRESSION_cvm_libya_local_treaty_war_NO_ORDER;The War for the Libyan Protectorate;;;;;;;;;;;;;x
+AGRESSION_cvm_libya_ottoman_treaty_war;The War for the Libyan Settlement;;;;;;;;;;;;;x
+AGRESSION_cvm_libya_ottoman_treaty_war_NO_ORDER;The War for the Libyan Settlement;;;;;;;;;;;;;x
+AGRESSION_cvm_tunis_local_treaty_war;The War for the Tunisian Protectorate;;;;;;;;;;;;;x
+AGRESSION_cvm_tunis_local_treaty_war_NO_ORDER;The War for the Tunisian Protectorate;;;;;;;;;;;;;x
+AGRESSION_cvm_tunis_ottoman_treaty_war;The War for the Tunisian Settlement;;;;;;;;;;;;;x
+AGRESSION_cvm_tunis_ottoman_treaty_war_NO_ORDER;The War for the Tunisian Settlement;;;;;;;;;;;;;x
+NORMAL_CVBC_TUNIS_OTTOMAN_SETTLEMENT_WAR;The War for the Tunisian Convention;;;;;;;;;;;;;x
+NORMAL_CVBC_TUNIS_OTTOMAN_SETTLEMENT_WAR_NO_ORDER;The War for the Tunisian Convention;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_EGYPT_OTTOMAN_CB_NO_ORDER;The War for the Egyptian Protectorate;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_LIBYA_CB_NO_ORDER;The Italo-Ottoman War for Libya;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_LOMBARDY_CB_NO_ORDER;The War for Lombardy;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_PROTECTORATE_EGY_CB_NO_ORDER;The Italian Protectorate War: Egypt;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_PROTECTORATE_ETH_CB_NO_ORDER;The Italian Protectorate War: Ethiopia;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_PROTECTORATE_SIA_CB_NO_ORDER;The Italian Protectorate War: Siam;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_PROTECTORATE_SOM_CB_NO_ORDER;The Italian Protectorate War: Somalia;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_PROTECTORATE_TRI_CB_NO_ORDER;The Italian Protectorate War: Tripoli;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_PROTECTORATE_TUN_CB_NO_ORDER;The Italian Protectorate War: Tunisia;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_VENETIA_CB_NO_ORDER;The War for Venetia;;;;;;;;;;;;;x
+NORMAL_CVG2_GREATER_AUB_NO_ORDER;The War for Greater German Unification;;;;;;;;;;;;;x
+NORMAL_CVG2_GREATER_AUS_NO_ORDER;The War for Greater German Unification;;;;;;;;;;;;;x
+NORMAL_CVG2_GREATER_KUK_NO_ORDER;The War for Greater German Unification;;;;;;;;;;;;;x
+NORMAL_CVG2_HEGEMONY_AUS_NO_ORDER;Austro-Dutch War for German Hegemony;;;;;;;;;;;;;x
+NORMAL_CVG2_HEGEMONY_NGF_NO_ORDER;Prusso-Dutch War for German Hegemony;;;;;;;;;;;;;x
+NORMAL_CVG2_HEGEMONY_PRU_NO_ORDER;Prusso-Dutch War for German Hegemony;;;;;;;;;;;;;x
+NORMAL_CVM_ALBANIA_LOCAL_TREATY_WAR;The War for the Albanian Protectorate;;;;;;;;;;;;;x
+NORMAL_CVM_ALBANIA_LOCAL_TREATY_WAR_NO_ORDER;The War for the Albanian Protectorate;;;;;;;;;;;;;x
+NORMAL_CVM_ALBANIA_OTTOMAN_TREATY_WAR;The War for the Albanian Settlement;;;;;;;;;;;;;x
+NORMAL_CVM_ALBANIA_OTTOMAN_TREATY_WAR_NO_ORDER;The War for the Albanian Settlement;;;;;;;;;;;;;x
+NORMAL_CVM_DODECANESE_WAR;The War for the Dodecanese Settlement;;;;;;;;;;;;;x
+NORMAL_CVM_DODECANESE_WAR_NO_ORDER;The War for the Dodecanese Settlement;;;;;;;;;;;;;x
+NORMAL_CVM_LIBYA_CYR_WAR;The War for the Protection of Cyrenaica;;;;;;;;;;;;;x
+NORMAL_CVM_LIBYA_CYR_WAR_NO_ORDER;The War for the Protection of Cyrenaica;;;;;;;;;;;;;x
+NORMAL_CVM_LIBYA_LBY_WAR;The War for the Protection of Libya;;;;;;;;;;;;;x
+NORMAL_CVM_LIBYA_LBY_WAR_NO_ORDER;The War for the Protection of Libya;;;;;;;;;;;;;x
+NORMAL_CVM_LIBYA_LOCAL_TREATY_WAR;The War for the Libyan Protectorate;;;;;;;;;;;;;x
+NORMAL_CVM_LIBYA_LOCAL_TREATY_WAR_NO_ORDER;The War for the Libyan Protectorate;;;;;;;;;;;;;x
+NORMAL_CVM_LIBYA_OTTOMAN_TREATY_WAR;The War for the Libyan Settlement;;;;;;;;;;;;;x
+NORMAL_CVM_LIBYA_OTTOMAN_TREATY_WAR_NO_ORDER;The War for the Libyan Settlement;;;;;;;;;;;;;x
+NORMAL_CVM_TUNIS_LOCAL_TREATY_WAR;The War for the Tunisian Protectorate;;;;;;;;;;;;;x
+NORMAL_CVM_TUNIS_LOCAL_TREATY_WAR_NO_ORDER;The War for the Tunisian Protectorate;;;;;;;;;;;;;x
+NORMAL_CVM_TUNIS_OTTOMAN_TREATY_WAR;The War for the Tunisian Settlement;;;;;;;;;;;;;x
+NORMAL_CVM_TUNIS_OTTOMAN_TREATY_WAR_NO_ORDER;The War for the Tunisian Settlement;;;;;;;;;;;;;x
+NORMAL_CVO_DEFEND_FEDERATION_NO_ORDER;The Defence of the German Settlement;;;;;;;;;;;;;x
+NORMAL_CVO_WAR_AUSTRIA_NO_ORDER;The War for Federal Recognition;;;;;;;;;;;;;x
+NORMAL_CVO_WAR_NORTH_GERMANY_NO_ORDER;The War for German Federal Leadership;;;;;;;;;;;;;x
+NORMAL_CVO_WAR_PRUSSIA_NO_ORDER;The War for German Federal Leadership;;;;;;;;;;;;;x
+NORMAL_CVO_WAR_RHINE_NO_ORDER;The War for the Lower Rhine;;;;;;;;;;;;;x
+NORMAL_CVRJ_MANCHURIAN_SETTLEMENT_NO_ORDER;The War for Manchuria;;;;;;;;;;;;;x
+NORMAL_CVRJ_PACIFIC_SETTLEMENT_NO_ORDER;The Russo-Japanese War;;;;;;;;;;;;;x
+NORMAL_FF100_SECOND_UNION_WAR;The Second Anglo-Boer War;;;;;;;;;;;;;x
+NORMAL_FF100_SECOND_UNION_WAR_NO_ORDER;The Second Anglo-Boer War;;;;;;;;;;;;;x
+NORMAL_FF102_FRONTIER_WAR;The $FIRST$-$SECOND$ Bechuanaland Frontier War;;;;;;;;;;;;;x
+NORMAL_FF102_FRONTIER_WAR_NO_ORDER;The $FIRST$-$SECOND$ Bechuanaland Frontier War;;;;;;;;;;;;;x
+NORMAL_FF48_DIMAWE_WAR_NAME_NO_ORDER;$ORDER$$FIRST$-$SECOND$ Dimawe Border War;;;;;;;;;;;;;x
+NORMAL_FF63_BOER_WAR_NO_ORDER;The First Boer War;;;;;;;;;;;;;x
+NORMAL_FF63_TEMBE_WAR_NO_ORDER;The Tembe Frontier War;;;;;;;;;;;;;x
+NORMAL_FF71_SWAZI_WAR_NO_ORDER;The $ORDER$$FIRST$-$SECOND$ War over Swaziland;;;;;;;;;;;;;x
+NORMAL_FF75_BASOTHO_WAR_NO_ORDER;The $FIRST$-$SECOND$ War over Basutoland;;;;;;;;;;;;;x
+NORMAL_FF75_GRIQUA_WAR_NO_ORDER;The $FIRST$-$SECOND$ War over Griqualand West;;;;;;;;;;;;;x
+NORMAL_FF77_BAMANGWATO_WAR_NO_ORDER;The $FIRST$-$SECOND$ Bamangwato War;;;;;;;;;;;;;x
+NORMAL_FF77_BATAWANA_WAR_NO_ORDER;The $FIRST$-$SECOND$ baTawana War;;;;;;;;;;;;;x
+NORMAL_FF77_DUMA_WAR_NO_ORDER;The $FIRST$-$SECOND$ Duma War;;;;;;;;;;;;;x
+NORMAL_FF77_GAZA_WAR_NO_ORDER;The $FIRST$-$SECOND$ Gaza War;;;;;;;;;;;;;x
+NORMAL_FF77_MTHWAKAZI_WAR_NO_ORDER;The $FIRST$-$SECOND$ Mthwakazi War;;;;;;;;;;;;;x
+NORMAL_FF77_SHANGAAN_WAR_NO_ORDER;The $FIRST$-$SECOND$ Shangaan War;;;;;;;;;;;;;x
+NORMAL_FF82_GKE_WAR_NO_ORDER;The Griqualand East Campaign;;;;;;;;;;;;;x
+NORMAL_FF82_SECOND_BOER_WAR_NO_ORDER;The Second Boer War;;;;;;;;;;;;;x
+NORMAL_FF84_CIVIL_WAR_NO_ORDER;The Boer Civil War;;;;;;;;;;;;;x
+NORMAL_FF84_INDEPENDENCE_WAR_NO_ORDER;The War for the United Charter;;;;;;;;;;;;;x
+NORMAL_FF86_KLIP_WAR_NO_ORDER;The Klip River War;;;;;;;;;;;;;x
+NORMAL_FF87_BASOTHO_WAR_NO_ORDER;The Basotho Frontier War;;;;;;;;;;;;;x
+NORMAL_FF87_GAZA_WAR_NO_ORDER;The Gaza Frontier War;;;;;;;;;;;;;x
+NORMAL_FF87_GRIQUA_EAST_WAR_NO_ORDER;The Griqualand East Frontier War;;;;;;;;;;;;;x
+NORMAL_FF87_GRIQUA_WEST_WAR_NO_ORDER;The Griqualand West Frontier War;;;;;;;;;;;;;x
+NORMAL_FF87_KHOLOKOE_WAR_NO_ORDER;The Kholokoe Frontier War;;;;;;;;;;;;;x
+NORMAL_FF87_LYDENBURG_WAR_NO_ORDER;The Lydenburg Frontier War;;;;;;;;;;;;;x
+NORMAL_FF87_SHANGAAN_WAR_NO_ORDER;The Shangaan Frontier War;;;;;;;;;;;;;x
+NORMAL_FF87_SWAZI_WAR_NO_ORDER;The Swaziland Frontier War;;;;;;;;;;;;;x
+NORMAL_FF87_TRANSVAAL_WAR_NO_ORDER;The Transvaal Frontier War;;;;;;;;;;;;;x
+NORMAL_FF87_ZOUTPANSBERG_WAR_NO_ORDER;The Zoutpansberg Frontier War;;;;;;;;;;;;;x
+NORMAL_FF87_ZULU_WAR_NO_ORDER;The Zululand Frontier War;;;;;;;;;;;;;x
+NORMAL_FF88_NORTHERN_WAR_NO_ORDER;The Second Boer Civil War;;;;;;;;;;;;;x
+NORMAL_FF92_SOUTHERN_WAR_NO_ORDER;The War for South African Unification;;;;;;;;;;;;;x
+NORMAL_FF97_MABHUDU_WAR_NO_ORDER;The Mabhudu Coast War;;;;;;;;;;;;;x
+NORMAL_FF97_PHILIPPOLIS_WAR_NO_ORDER;The Philippolis District War;;;;;;;;;;;;;x
+NORMAL_cvbc_tunis_ottoman_settlement_war;The War for the Tunisian Convention;;;;;;;;;;;;;x
+NORMAL_cvbc_tunis_ottoman_settlement_war_NO_ORDER;The War for the Tunisian Convention;;;;;;;;;;;;;x
+NORMAL_cvm_albania_local_treaty_war;The War for the Albanian Protectorate;;;;;;;;;;;;;x
+NORMAL_cvm_albania_local_treaty_war_NO_ORDER;The War for the Albanian Protectorate;;;;;;;;;;;;;x
+NORMAL_cvm_albania_ottoman_treaty_war;The War for the Albanian Settlement;;;;;;;;;;;;;x
+NORMAL_cvm_albania_ottoman_treaty_war_NO_ORDER;The War for the Albanian Settlement;;;;;;;;;;;;;x
+NORMAL_cvm_dodecanese_war;The War for the Dodecanese Settlement;;;;;;;;;;;;;x
+NORMAL_cvm_dodecanese_war_NO_ORDER;The War for the Dodecanese Settlement;;;;;;;;;;;;;x
+NORMAL_cvm_libya_cyr_war;The War for the Protection of Cyrenaica;;;;;;;;;;;;;x
+NORMAL_cvm_libya_cyr_war_NO_ORDER;The War for the Protection of Cyrenaica;;;;;;;;;;;;;x
+NORMAL_cvm_libya_lby_war;The War for the Protection of Libya;;;;;;;;;;;;;x
+NORMAL_cvm_libya_lby_war_NO_ORDER;The War for the Protection of Libya;;;;;;;;;;;;;x
+NORMAL_cvm_libya_local_treaty_war;The War for the Libyan Protectorate;;;;;;;;;;;;;x
+NORMAL_cvm_libya_local_treaty_war_NO_ORDER;The War for the Libyan Protectorate;;;;;;;;;;;;;x
+NORMAL_cvm_libya_ottoman_treaty_war;The War for the Libyan Settlement;;;;;;;;;;;;;x
+NORMAL_cvm_libya_ottoman_treaty_war_NO_ORDER;The War for the Libyan Settlement;;;;;;;;;;;;;x
+NORMAL_cvm_tunis_local_treaty_war;The War for the Tunisian Protectorate;;;;;;;;;;;;;x
+NORMAL_cvm_tunis_local_treaty_war_NO_ORDER;The War for the Tunisian Protectorate;;;;;;;;;;;;;x
+NORMAL_cvm_tunis_ottoman_treaty_war;The War for the Tunisian Settlement;;;;;;;;;;;;;x
+NORMAL_cvm_tunis_ottoman_treaty_war_NO_ORDER;The War for the Tunisian Settlement;;;;;;;;;;;;;x
+REGRESSION_CVBC_TUNIS_OTTOMAN_SETTLEMENT_WAR;The War for the Tunisian Convention;;;;;;;;;;;;;x
+REGRESSION_CVBC_TUNIS_OTTOMAN_SETTLEMENT_WAR_NO_ORDER;The War for the Tunisian Convention;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_EGYPT_OTTOMAN_CB;The War for the Egyptian Protectorate;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_EGYPT_OTTOMAN_CB_NO_ORDER;The War for the Egyptian Protectorate;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_LIBYA_CB;The Italo-Ottoman War for Libya;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_LIBYA_CB_NO_ORDER;The Italo-Ottoman War for Libya;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_LOMBARDY_CB;The War for Lombardy;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_LOMBARDY_CB_NO_ORDER;The War for Lombardy;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_PROTECTORATE_EGY_CB;The Italian Protectorate War: Egypt;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_PROTECTORATE_EGY_CB_NO_ORDER;The Italian Protectorate War: Egypt;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_PROTECTORATE_ETH_CB;The Italian Protectorate War: Ethiopia;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_PROTECTORATE_ETH_CB_NO_ORDER;The Italian Protectorate War: Ethiopia;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_PROTECTORATE_SIA_CB;The Italian Protectorate War: Siam;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_PROTECTORATE_SIA_CB_NO_ORDER;The Italian Protectorate War: Siam;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_PROTECTORATE_SOM_CB;The Italian Protectorate War: Somalia;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_PROTECTORATE_SOM_CB_NO_ORDER;The Italian Protectorate War: Somalia;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_PROTECTORATE_TRI_CB;The Italian Protectorate War: Tripoli;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_PROTECTORATE_TRI_CB_NO_ORDER;The Italian Protectorate War: Tripoli;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_PROTECTORATE_TUN_CB;The Italian Protectorate War: Tunisia;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_PROTECTORATE_TUN_CB_NO_ORDER;The Italian Protectorate War: Tunisia;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_VENETIA_CB;The War for Venetia;;;;;;;;;;;;;x
+REGRESSION_CVE_WAR_VENETIA_CB_NO_ORDER;The War for Venetia;;;;;;;;;;;;;x
+REGRESSION_CVG2_GREATER_AUB;The War for Greater German Unification;;;;;;;;;;;;;x
+REGRESSION_CVG2_GREATER_AUB_NO_ORDER;The War for Greater German Unification;;;;;;;;;;;;;x
+REGRESSION_CVG2_GREATER_AUS;The War for Greater German Unification;;;;;;;;;;;;;x
+REGRESSION_CVG2_GREATER_AUS_NO_ORDER;The War for Greater German Unification;;;;;;;;;;;;;x
+REGRESSION_CVG2_GREATER_KUK;The War for Greater German Unification;;;;;;;;;;;;;x
+REGRESSION_CVG2_GREATER_KUK_NO_ORDER;The War for Greater German Unification;;;;;;;;;;;;;x
+REGRESSION_CVG2_HEGEMONY_AUS;Austro-Dutch War for German Hegemony;;;;;;;;;;;;;x
+REGRESSION_CVG2_HEGEMONY_AUS_NO_ORDER;Austro-Dutch War for German Hegemony;;;;;;;;;;;;;x
+REGRESSION_CVG2_HEGEMONY_NGF;Prusso-Dutch War for German Hegemony;;;;;;;;;;;;;x
+REGRESSION_CVG2_HEGEMONY_NGF_NO_ORDER;Prusso-Dutch War for German Hegemony;;;;;;;;;;;;;x
+REGRESSION_CVG2_HEGEMONY_PRU;Prusso-Dutch War for German Hegemony;;;;;;;;;;;;;x
+REGRESSION_CVG2_HEGEMONY_PRU_NO_ORDER;Prusso-Dutch War for German Hegemony;;;;;;;;;;;;;x
+REGRESSION_CVM_ALBANIA_LOCAL_TREATY_WAR;The War for the Albanian Protectorate;;;;;;;;;;;;;x
+REGRESSION_CVM_ALBANIA_LOCAL_TREATY_WAR_NO_ORDER;The War for the Albanian Protectorate;;;;;;;;;;;;;x
+REGRESSION_CVM_ALBANIA_OTTOMAN_TREATY_WAR;The War for the Albanian Settlement;;;;;;;;;;;;;x
+REGRESSION_CVM_ALBANIA_OTTOMAN_TREATY_WAR_NO_ORDER;The War for the Albanian Settlement;;;;;;;;;;;;;x
+REGRESSION_CVM_DODECANESE_WAR;The War for the Dodecanese Settlement;;;;;;;;;;;;;x
+REGRESSION_CVM_DODECANESE_WAR_NO_ORDER;The War for the Dodecanese Settlement;;;;;;;;;;;;;x
+REGRESSION_CVM_LIBYA_CYR_WAR;The War for the Protection of Cyrenaica;;;;;;;;;;;;;x
+REGRESSION_CVM_LIBYA_CYR_WAR_NO_ORDER;The War for the Protection of Cyrenaica;;;;;;;;;;;;;x
+REGRESSION_CVM_LIBYA_LBY_WAR;The War for the Protection of Libya;;;;;;;;;;;;;x
+REGRESSION_CVM_LIBYA_LBY_WAR_NO_ORDER;The War for the Protection of Libya;;;;;;;;;;;;;x
+REGRESSION_CVM_LIBYA_LOCAL_TREATY_WAR;The War for the Libyan Protectorate;;;;;;;;;;;;;x
+REGRESSION_CVM_LIBYA_LOCAL_TREATY_WAR_NO_ORDER;The War for the Libyan Protectorate;;;;;;;;;;;;;x
+REGRESSION_CVM_LIBYA_OTTOMAN_TREATY_WAR;The War for the Libyan Settlement;;;;;;;;;;;;;x
+REGRESSION_CVM_LIBYA_OTTOMAN_TREATY_WAR_NO_ORDER;The War for the Libyan Settlement;;;;;;;;;;;;;x
+REGRESSION_CVM_TUNIS_LOCAL_TREATY_WAR;The War for the Tunisian Protectorate;;;;;;;;;;;;;x
+REGRESSION_CVM_TUNIS_LOCAL_TREATY_WAR_NO_ORDER;The War for the Tunisian Protectorate;;;;;;;;;;;;;x
+REGRESSION_CVM_TUNIS_OTTOMAN_TREATY_WAR;The War for the Tunisian Settlement;;;;;;;;;;;;;x
+REGRESSION_CVM_TUNIS_OTTOMAN_TREATY_WAR_NO_ORDER;The War for the Tunisian Settlement;;;;;;;;;;;;;x
+REGRESSION_CVO_DEFEND_FEDERATION;The Defence of the German Settlement;;;;;;;;;;;;;x
+REGRESSION_CVO_DEFEND_FEDERATION_NO_ORDER;The Defence of the German Settlement;;;;;;;;;;;;;x
+REGRESSION_CVO_WAR_AUSTRIA;The War for Federal Recognition;;;;;;;;;;;;;x
+REGRESSION_CVO_WAR_AUSTRIA_NO_ORDER;The War for Federal Recognition;;;;;;;;;;;;;x
+REGRESSION_CVO_WAR_NORTH_GERMANY;The War for German Federal Leadership;;;;;;;;;;;;;x
+REGRESSION_CVO_WAR_NORTH_GERMANY_NO_ORDER;The War for German Federal Leadership;;;;;;;;;;;;;x
+REGRESSION_CVO_WAR_PRUSSIA;The War for German Federal Leadership;;;;;;;;;;;;;x
+REGRESSION_CVO_WAR_PRUSSIA_NO_ORDER;The War for German Federal Leadership;;;;;;;;;;;;;x
+REGRESSION_CVO_WAR_RHINE;The War for the Lower Rhine;;;;;;;;;;;;;x
+REGRESSION_CVO_WAR_RHINE_NO_ORDER;The War for the Lower Rhine;;;;;;;;;;;;;x
+REGRESSION_CVRJ_MANCHURIAN_SETTLEMENT;The War for Manchuria;;;;;;;;;;;;;x
+REGRESSION_CVRJ_MANCHURIAN_SETTLEMENT_NO_ORDER;The War for Manchuria;;;;;;;;;;;;;x
+REGRESSION_CVRJ_PACIFIC_SETTLEMENT;The Russo-Japanese War;;;;;;;;;;;;;x
+REGRESSION_CVRJ_PACIFIC_SETTLEMENT_NO_ORDER;The Russo-Japanese War;;;;;;;;;;;;;x
+REGRESSION_FF100_SECOND_UNION_WAR;The Second Anglo-Boer War;;;;;;;;;;;;;x
+REGRESSION_FF100_SECOND_UNION_WAR_NO_ORDER;The Second Anglo-Boer War;;;;;;;;;;;;;x
+REGRESSION_FF102_FRONTIER_WAR;The $FIRST$-$SECOND$ Bechuanaland Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF102_FRONTIER_WAR_NO_ORDER;The $FIRST$-$SECOND$ Bechuanaland Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF48_DIMAWE_WAR_NAME;$ORDER$$FIRST$-$SECOND$ Dimawe Border War;;;;;;;;;;;;;x
+REGRESSION_FF48_DIMAWE_WAR_NAME_NO_ORDER;$ORDER$$FIRST$-$SECOND$ Dimawe Border War;;;;;;;;;;;;;x
+REGRESSION_FF53_GAZA_WAR;$ORDER$$FIRST$-$SECOND$ Eastern Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF53_GAZA_WAR_NO_ORDER;$ORDER$$FIRST$-$SECOND$ Eastern Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF63_BOER_WAR;The First Boer War;;;;;;;;;;;;;x
+REGRESSION_FF63_BOER_WAR_NO_ORDER;The First Boer War;;;;;;;;;;;;;x
+REGRESSION_FF63_TEMBE_WAR;The Tembe Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF63_TEMBE_WAR_NO_ORDER;The Tembe Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF71_SWAZI_WAR;The $ORDER$$FIRST$-$SECOND$ War over Swaziland;;;;;;;;;;;;;x
+REGRESSION_FF71_SWAZI_WAR_NO_ORDER;The $ORDER$$FIRST$-$SECOND$ War over Swaziland;;;;;;;;;;;;;x
+REGRESSION_FF75_BASOTHO_WAR;The $FIRST$-$SECOND$ War over Basutoland;;;;;;;;;;;;;x
+REGRESSION_FF75_BASOTHO_WAR_NO_ORDER;The $FIRST$-$SECOND$ War over Basutoland;;;;;;;;;;;;;x
+REGRESSION_FF75_GRIQUA_WAR;The $FIRST$-$SECOND$ War over Griqualand West;;;;;;;;;;;;;x
+REGRESSION_FF75_GRIQUA_WAR_NO_ORDER;The $FIRST$-$SECOND$ War over Griqualand West;;;;;;;;;;;;;x
+REGRESSION_FF77_BAMANGWATO_WAR;The $FIRST$-$SECOND$ Bamangwato War;;;;;;;;;;;;;x
+REGRESSION_FF77_BAMANGWATO_WAR_NO_ORDER;The $FIRST$-$SECOND$ Bamangwato War;;;;;;;;;;;;;x
+REGRESSION_FF77_BATAWANA_WAR;The $FIRST$-$SECOND$ baTawana War;;;;;;;;;;;;;x
+REGRESSION_FF77_BATAWANA_WAR_NO_ORDER;The $FIRST$-$SECOND$ baTawana War;;;;;;;;;;;;;x
+REGRESSION_FF77_DUMA_WAR;The $FIRST$-$SECOND$ Duma War;;;;;;;;;;;;;x
+REGRESSION_FF77_DUMA_WAR_NO_ORDER;The $FIRST$-$SECOND$ Duma War;;;;;;;;;;;;;x
+REGRESSION_FF77_GAZA_WAR;The $FIRST$-$SECOND$ Gaza War;;;;;;;;;;;;;x
+REGRESSION_FF77_GAZA_WAR_NO_ORDER;The $FIRST$-$SECOND$ Gaza War;;;;;;;;;;;;;x
+REGRESSION_FF77_MTHWAKAZI_WAR;The $FIRST$-$SECOND$ Mthwakazi War;;;;;;;;;;;;;x
+REGRESSION_FF77_MTHWAKAZI_WAR_NO_ORDER;The $FIRST$-$SECOND$ Mthwakazi War;;;;;;;;;;;;;x
+REGRESSION_FF77_SHANGAAN_WAR;The $FIRST$-$SECOND$ Shangaan War;;;;;;;;;;;;;x
+REGRESSION_FF77_SHANGAAN_WAR_NO_ORDER;The $FIRST$-$SECOND$ Shangaan War;;;;;;;;;;;;;x
+REGRESSION_FF82_GKE_WAR;The Griqualand East Campaign;;;;;;;;;;;;;x
+REGRESSION_FF82_GKE_WAR_NO_ORDER;The Griqualand East Campaign;;;;;;;;;;;;;x
+REGRESSION_FF82_SECOND_BOER_WAR;The Second Boer War;;;;;;;;;;;;;x
+REGRESSION_FF82_SECOND_BOER_WAR_NO_ORDER;The Second Boer War;;;;;;;;;;;;;x
+REGRESSION_FF84_CIVIL_WAR;The Boer Civil War;;;;;;;;;;;;;x
+REGRESSION_FF84_CIVIL_WAR_NO_ORDER;The Boer Civil War;;;;;;;;;;;;;x
+REGRESSION_FF84_INDEPENDENCE_WAR;The War for the United Charter;;;;;;;;;;;;;x
+REGRESSION_FF84_INDEPENDENCE_WAR_NO_ORDER;The War for the United Charter;;;;;;;;;;;;;x
+REGRESSION_FF86_KLIP_WAR;The Klip River War;;;;;;;;;;;;;x
+REGRESSION_FF86_KLIP_WAR_NO_ORDER;The Klip River War;;;;;;;;;;;;;x
+REGRESSION_FF87_BASOTHO_WAR;The Basotho Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_BASOTHO_WAR_NO_ORDER;The Basotho Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_GAZA_WAR;The Gaza Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_GAZA_WAR_NO_ORDER;The Gaza Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_GRIQUA_EAST_WAR;The Griqualand East Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_GRIQUA_EAST_WAR_NO_ORDER;The Griqualand East Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_GRIQUA_WEST_WAR;The Griqualand West Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_GRIQUA_WEST_WAR_NO_ORDER;The Griqualand West Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_KHOLOKOE_WAR;The Kholokoe Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_KHOLOKOE_WAR_NO_ORDER;The Kholokoe Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_LYDENBURG_WAR;The Lydenburg Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_LYDENBURG_WAR_NO_ORDER;The Lydenburg Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_SHANGAAN_WAR;The Shangaan Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_SHANGAAN_WAR_NO_ORDER;The Shangaan Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_SWAZI_WAR;The Swaziland Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_SWAZI_WAR_NO_ORDER;The Swaziland Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_TRANSVAAL_WAR;The Transvaal Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_TRANSVAAL_WAR_NO_ORDER;The Transvaal Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_ZOUTPANSBERG_WAR;The Zoutpansberg Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_ZOUTPANSBERG_WAR_NO_ORDER;The Zoutpansberg Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_ZULU_WAR;The Zululand Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF87_ZULU_WAR_NO_ORDER;The Zululand Frontier War;;;;;;;;;;;;;x
+REGRESSION_FF88_NORTHERN_WAR;The Second Boer Civil War;;;;;;;;;;;;;x
+REGRESSION_FF88_NORTHERN_WAR_NO_ORDER;The Second Boer Civil War;;;;;;;;;;;;;x
+REGRESSION_FF92_SOUTHERN_WAR;The War for South African Unification;;;;;;;;;;;;;x
+REGRESSION_FF92_SOUTHERN_WAR_NO_ORDER;The War for South African Unification;;;;;;;;;;;;;x
+REGRESSION_FF97_MABHUDU_WAR;The Mabhudu Coast War;;;;;;;;;;;;;x
+REGRESSION_FF97_MABHUDU_WAR_NO_ORDER;The Mabhudu Coast War;;;;;;;;;;;;;x
+REGRESSION_FF97_PHILIPPOLIS_WAR;The Philippolis District War;;;;;;;;;;;;;x
+REGRESSION_FF97_PHILIPPOLIS_WAR_NO_ORDER;The Philippolis District War;;;;;;;;;;;;;x
+REGRESSION_cvbc_tunis_ottoman_settlement_war;The War for the Tunisian Convention;;;;;;;;;;;;;x
+REGRESSION_cvbc_tunis_ottoman_settlement_war_NO_ORDER;The War for the Tunisian Convention;;;;;;;;;;;;;x
+REGRESSION_cvm_albania_local_treaty_war;The War for the Albanian Protectorate;;;;;;;;;;;;;x
+REGRESSION_cvm_albania_local_treaty_war_NO_ORDER;The War for the Albanian Protectorate;;;;;;;;;;;;;x
+REGRESSION_cvm_albania_ottoman_treaty_war;The War for the Albanian Settlement;;;;;;;;;;;;;x
+REGRESSION_cvm_albania_ottoman_treaty_war_NO_ORDER;The War for the Albanian Settlement;;;;;;;;;;;;;x
+REGRESSION_cvm_dodecanese_war;The War for the Dodecanese Settlement;;;;;;;;;;;;;x
+REGRESSION_cvm_dodecanese_war_NO_ORDER;The War for the Dodecanese Settlement;;;;;;;;;;;;;x
+REGRESSION_cvm_libya_cyr_war;The War for the Protection of Cyrenaica;;;;;;;;;;;;;x
+REGRESSION_cvm_libya_cyr_war_NO_ORDER;The War for the Protection of Cyrenaica;;;;;;;;;;;;;x
+REGRESSION_cvm_libya_lby_war;The War for the Protection of Libya;;;;;;;;;;;;;x
+REGRESSION_cvm_libya_lby_war_NO_ORDER;The War for the Protection of Libya;;;;;;;;;;;;;x
+REGRESSION_cvm_libya_local_treaty_war;The War for the Libyan Protectorate;;;;;;;;;;;;;x
+REGRESSION_cvm_libya_local_treaty_war_NO_ORDER;The War for the Libyan Protectorate;;;;;;;;;;;;;x
+REGRESSION_cvm_libya_ottoman_treaty_war;The War for the Libyan Settlement;;;;;;;;;;;;;x
+REGRESSION_cvm_libya_ottoman_treaty_war_NO_ORDER;The War for the Libyan Settlement;;;;;;;;;;;;;x
+REGRESSION_cvm_tunis_local_treaty_war;The War for the Tunisian Protectorate;;;;;;;;;;;;;x
+REGRESSION_cvm_tunis_local_treaty_war_NO_ORDER;The War for the Tunisian Protectorate;;;;;;;;;;;;;x
+REGRESSION_cvm_tunis_ottoman_treaty_war;The War for the Tunisian Settlement;;;;;;;;;;;;;x
+REGRESSION_cvm_tunis_ottoman_treaty_war_NO_ORDER;The War for the Tunisian Settlement;;;;;;;;;;;;;x

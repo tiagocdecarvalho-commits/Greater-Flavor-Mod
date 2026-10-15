@@ -1,0 +1,39 @@
+cvo_conference_title;Convene the Italian Peace Conference;;;;;;;;;;;;;x
+cvo_conference_desc;Convene the peace conference after the Brothers' War. Ratification publishes our political settlement and sends accession articles to the remaining Italian courts. Their replies open separate acts of incorporation. The Papal provinces require their own agreement.;;;;;;;;;;;;;x
+cvo_articles_federal;The Federal Peace Articles;;;;;;;;;;;;;x
+cvo_articles_federal_desc;The delegates assemble beneath the banners of the victorious crown. Piedmont's submission has settled the contest for leadership, but the other Italian governments must be shown what union will mean. The federal articles promise common defence and diplomacy while preserving provincial institutions under an agreed national crown. Naples will dispatch these terms to the courts still outside the union. Each must answer before its act of accession can be ratified. Sicily's guarantees stand as the first test of our promises: a federation held together by public law must honour the liberties it offers. The Pope's temporal possessions remain a separate question for negotiation.;;;;;;;;;;;;;x
+cvo_articles_federal_ack;Publish the federal articles and dispatch the accession proposals.;;;;;;;;;;;;;x
+cvo_articles_federal_title;The Federal Peace Articles;;;;;;;;;;;;;x
+cvo_articles_absolute;The Royal Peace Articles;;;;;;;;;;;;;x
+cvo_articles_absolute_desc;The delegates record the victory over Savoy and the precedence of the Bourbon crown. Ministers now place the national undertaking under a single sovereign: army, diplomacy and appointments will answer to Naples. Accession articles are to be dispatched to the courts still independent, offering incorporation under the crown and a place for their officials in the new administration. Their replies must precede the separate acts of ratification. The treaty has removed a rival, but authority over Italy cannot rest on that victory alone. Provincial loyalties, established laws and the service of the newly incorporated districts will test the king's government. The Papal settlement must be negotiated on its own terms.;;;;;;;;;;;;;x
+cvo_articles_absolute_ack;Promulgate the royal articles and dispatch the accession proposals.;;;;;;;;;;;;;x
+cvo_articles_absolute_title;The Royal Peace Articles;;;;;;;;;;;;;x
+cvo_articles_constitutional;The Constitutional Peace Articles;;;;;;;;;;;;;x
+cvo_articles_constitutional_desc;The victory is laid before the constitutional institutions and published for the country to read. Ministers propose a common statute, responsible administration and a national assembly through which the incorporated provinces can be heard. Accession articles will now carry these commitments to the Italian courts still outside the union. Each government must answer, and its agreement must be ratified before incorporation. Deputies insist that the treatment of Piedmont set a standard for the rest of Italy: the crown has won the initiative in war, but public law must make that victory durable. Rome's temporal government and the outlying Papal provinces remain matters for a separate settlement.;;;;;;;;;;;;;x
+cvo_articles_constitutional_ack;Approve the statute and dispatch the accession proposals.;;;;;;;;;;;;;x
+cvo_articles_constitutional_title;The Constitutional Peace Articles;;;;;;;;;;;;;x
+cvo_loyalties_title;Address the Southern Wartime Divisions;;;;;;;;;;;;;x
+cvo_loyalties_desc;The contest with Piedmont has left accusations, rival loyalties and local grievances in the south. Bring the matter before the government. Our political programme will determine the institutions available, and the choice between restraint and exceptional policing will carry different consequences.;;;;;;;;;;;;;x
+cvo_policing;Exceptional Southern Policing;;;;;;;;;;;;;x
+cvo_policing_desc;Police and magistrates pursue armed conspiracies, but exceptional powers burden the administration and deepen liberal distrust.;;;;;;;;;;;;;x
+cvo_reconciliation;Southern Reconciliation Offices;;;;;;;;;;;;;x
+cvo_reconciliation_desc;Local officials hear grievances and supervise reconciliation. The work occupies administrative resources while helping restore ordinary civic life.;;;;;;;;;;;;;x
+cvo_loyalties_federal_courts;Entrust reconciliation to the provincial councils.;;;;;;;;;;;;;x
+cvo_loyalties_federal_police;Pursue armed conspiracies with exceptional policing.;;;;;;;;;;;;;x
+cvo_loyalties_federal_title;The Southern Councils and Wartime Grievances;;;;;;;;;;;;;x
+cvo_loyalties_federal_desc;Provincial representatives ask to settle the accusations left by the war through local hearings and reconciliation. Security officials fear that armed networks will escape scrutiny. The federal government must choose between council-led settlement and a tightly limited police intervention.;;;;;;;;;;;;;x
+cvo_loyalties_absolute_courts;Offer clemency through the royal courts.;;;;;;;;;;;;;x
+cvo_loyalties_absolute_police;Pursue armed conspiracies with exceptional policing.;;;;;;;;;;;;;x
+cvo_loyalties_absolute_title;Loyalty and the Royal Courts;;;;;;;;;;;;;x
+cvo_loyalties_absolute_desc;Royal loyalists demand action against suspected Piedmontese agents. Ministers distinguish political sympathy from evidence of armed conspiracy, but hardliners press for exceptional powers. The crown can order a targeted police campaign or offer clemency through the ordinary royal courts.;;;;;;;;;;;;;x
+cvo_loyalties_constitutional_courts;Open a public inquiry under the statute.;;;;;;;;;;;;;x
+cvo_loyalties_constitutional_police;Pursue armed conspiracies with exceptional policing.;;;;;;;;;;;;;x
+cvo_loyalties_constitutional_title;The Statute and the Southern Accusations;;;;;;;;;;;;;x
+cvo_loyalties_constitutional_desc;Petitions accuse neighbours and political clubs of serving Piedmont during the war. Constitutional ministers must decide whether ordinary courts and a public inquiry suffice, or whether documented armed conspiracies justify exceptional policing. Political opponents will judge the government by the guarantees it preserves.;;;;;;;;;;;;;x
+cvo_conference_lapsed_ack;Close the arrangements.;;;;;;;;;;;;;x
+cvo_conference_lapsed_title;The Peace Conference Cannot Proceed;;;;;;;;;;;;;x
+cvo_conference_lapsed_desc;The government or the leadership settlement has changed before the conference could meet. The delegation is dissolved and its unused appropriation returned. No conference articles have been adopted.;;;;;;;;;;;;;x
+cvo_conference_pending;An Italian peace conference is being prepared;;;;;;;;;;;;;x
+cvo_conference_done;The Italian peace conference has concluded;;;;;;;;;;;;;x
+cvo_loyalties_pending;Southern wartime grievances are under review;;;;;;;;;;;;;x
+cvo_loyalties_done;The southern wartime review has concluded;;;;;;;;;;;;;x

@@ -1,0 +1,2388 @@
+country_event = {
+    id = 9880600
+    is_triggered_only = yes
+    title = "cvb_credit_funded_title"
+    desc = "cvb_credit_funded_desc"
+    picture = "cvb_historical_map_1"
+    option = {
+        name = "cvb_credit_funded_a"
+        ai_chance = {
+            factor = 80
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_credit_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_policy_chosen
+                        NOT = {
+                            has_country_flag = cvb_credit_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1835
+                            private_banks = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_credit_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_policy_chosen
+                    NOT = {
+                        has_country_flag = cvb_credit_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1835
+                        private_banks = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_credit_done
+                clr_country_flag = cvb_credit_funding_pending
+                any_owned = {
+                    add_province_modifier = {
+                        name = cvb_agricultural_credit
+                        duration = -1
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_credit_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_policy_chosen
+                            NOT = {
+                                has_country_flag = cvb_credit_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1835
+                                private_banks = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1000
+                clr_country_flag = cvb_credit_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_credit_funded_b"
+        ai_chance = {
+            factor = 20
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_credit_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_policy_chosen
+                        NOT = {
+                            has_country_flag = cvb_credit_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1835
+                            private_banks = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_credit_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_policy_chosen
+                    NOT = {
+                        has_country_flag = cvb_credit_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1835
+                        private_banks = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_credit_done
+                clr_country_flag = cvb_credit_funding_pending
+                any_owned = {
+                    add_province_modifier = {
+                        name = cvb_secure_tenure
+                        duration = -1
+                    }
+                }
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = estonian
+                            has_pop_culture = latvian
+                        }
+                        type = farmers
+                    }
+                    militancy = -0.5
+                    consciousness = 0.5
+                }
+                any_pop = {
+                    limit = {
+                        type = aristocrats
+                    }
+                    militancy = 0.5
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_credit_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_policy_chosen
+                            NOT = {
+                                has_country_flag = cvb_credit_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1835
+                                private_banks = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1000
+                clr_country_flag = cvb_credit_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_credit_funded_postpone"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_credit_funding_pending
+                }
+            }
+            owner = {
+                treasury = 1000
+                clr_country_flag = cvb_credit_funding_pending
+            }
+        }
+    }
+}
+country_event = {
+    id = 9880601
+    is_triggered_only = yes
+    title = "cvb_tenure_funded_title"
+    desc = "cvb_tenure_funded_desc"
+    picture = "cvb_historical_map_1"
+    option = {
+        name = "cvb_tenure_funded_a"
+        ai_chance = {
+            factor = 80
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_tenure_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_policy_chosen
+                        NOT = {
+                            has_country_flag = cvb_tenure_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1849
+                            market_structure = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_tenure_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_policy_chosen
+                    NOT = {
+                        has_country_flag = cvb_tenure_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1849
+                        market_structure = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_tenure_done
+                clr_country_flag = cvb_tenure_funding_pending
+                any_owned = {
+                    add_province_modifier = {
+                        name = cvb_secure_tenure
+                        duration = -1
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_tenure_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_policy_chosen
+                            NOT = {
+                                has_country_flag = cvb_tenure_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1849
+                                market_structure = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1600
+                clr_country_flag = cvb_tenure_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_tenure_funded_b"
+        ai_chance = {
+            factor = 20
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_tenure_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_policy_chosen
+                        NOT = {
+                            has_country_flag = cvb_tenure_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1849
+                            market_structure = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_tenure_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_policy_chosen
+                    NOT = {
+                        has_country_flag = cvb_tenure_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1849
+                        market_structure = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_tenure_done
+                clr_country_flag = cvb_tenure_funding_pending
+                any_owned = {
+                    add_province_modifier = {
+                        name = cvb_agricultural_credit
+                        duration = -1
+                    }
+                }
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = estonian
+                            has_pop_culture = latvian
+                        }
+                        type = farmers
+                    }
+                    militancy = -0.5
+                }
+                plurality = 1
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_tenure_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_policy_chosen
+                            NOT = {
+                                has_country_flag = cvb_tenure_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1849
+                                market_structure = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1600
+                clr_country_flag = cvb_tenure_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_tenure_funded_postpone"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_tenure_funding_pending
+                }
+            }
+            owner = {
+                treasury = 1600
+                clr_country_flag = cvb_tenure_funding_pending
+            }
+        }
+    }
+}
+country_event = {
+    id = 9880602
+    is_triggered_only = yes
+    title = "cvb_ports_funded_title"
+    desc = "cvb_ports_funded_desc"
+    picture = "cvb_historical_map_1"
+    option = {
+        name = "cvb_ports_funded_a"
+        ai_chance = {
+            factor = 80
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_ports_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_policy_chosen
+                        NOT = {
+                            has_country_flag = cvb_ports_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1840
+                            freedom_of_trade = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_ports_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_policy_chosen
+                    NOT = {
+                        has_country_flag = cvb_ports_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1840
+                        freedom_of_trade = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_ports_done
+                clr_country_flag = cvb_ports_funding_pending
+                any_owned = {
+                    add_province_modifier = {
+                        name = cvb_port_works
+                        duration = -1
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_ports_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_policy_chosen
+                            NOT = {
+                                has_country_flag = cvb_ports_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1840
+                                freedom_of_trade = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 2200
+                clr_country_flag = cvb_ports_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_ports_funded_b"
+        ai_chance = {
+            factor = 20
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_ports_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_policy_chosen
+                        NOT = {
+                            has_country_flag = cvb_ports_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1840
+                            freedom_of_trade = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_ports_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_policy_chosen
+                    NOT = {
+                        has_country_flag = cvb_ports_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1840
+                        freedom_of_trade = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_ports_done
+                clr_country_flag = cvb_ports_funding_pending
+                any_owned = {
+                    add_province_modifier = {
+                        name = cvb_agricultural_credit
+                        duration = -1
+                    }
+                }
+                any_owned = {
+                    add_province_modifier = {
+                        name = cvb_port_works
+                        duration = 3650
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_ports_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_policy_chosen
+                            NOT = {
+                                has_country_flag = cvb_ports_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1840
+                                freedom_of_trade = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 2200
+                clr_country_flag = cvb_ports_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_ports_funded_postpone"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_ports_funding_pending
+                }
+            }
+            owner = {
+                treasury = 2200
+                clr_country_flag = cvb_ports_funding_pending
+            }
+        }
+    }
+}
+country_event = {
+    id = 9880603
+    is_triggered_only = yes
+    title = "cvb_parish_funded_title"
+    desc = "cvb_parish_funded_desc"
+    picture = "cvb_historical_map_1"
+    option = {
+        name = "cvb_parish_funded_a"
+        ai_chance = {
+            factor = 80
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_parish_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_policy_chosen
+                        NOT = {
+                            has_country_flag = cvb_parish_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1835
+                            idealism = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_parish_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_policy_chosen
+                    NOT = {
+                        has_country_flag = cvb_parish_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1835
+                        idealism = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_parish_done
+                clr_country_flag = cvb_parish_funding_pending
+                add_country_modifier = {
+                    name = cvb_parish_schools
+                    duration = -1
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_parish_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_policy_chosen
+                            NOT = {
+                                has_country_flag = cvb_parish_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1835
+                                idealism = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1200
+                clr_country_flag = cvb_parish_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_parish_funded_b"
+        ai_chance = {
+            factor = 20
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_parish_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_policy_chosen
+                        NOT = {
+                            has_country_flag = cvb_parish_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1835
+                            idealism = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_parish_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_policy_chosen
+                    NOT = {
+                        has_country_flag = cvb_parish_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1835
+                        idealism = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_parish_done
+                clr_country_flag = cvb_parish_funding_pending
+                add_country_modifier = {
+                    name = cvb_parish_schools
+                    duration = -1
+                }
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = estonian
+                            has_pop_culture = latvian
+                        }
+                    }
+                    literacy = 0.01
+                    consciousness = 0.5
+                }
+                any_pop = {
+                    limit = {
+                        type = aristocrats
+                    }
+                    militancy = 0.5
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_parish_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_policy_chosen
+                            NOT = {
+                                has_country_flag = cvb_parish_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1835
+                                idealism = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1200
+                clr_country_flag = cvb_parish_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_parish_funded_postpone"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_parish_funding_pending
+                }
+            }
+            owner = {
+                treasury = 1200
+                clr_country_flag = cvb_parish_funding_pending
+            }
+        }
+    }
+}
+country_event = {
+    id = 9880604
+    is_triggered_only = yes
+    title = "cvb_diet_funded_title"
+    desc = "cvb_diet_funded_desc"
+    picture = "cvb_historical_map_1"
+    option = {
+        name = "cvb_diet_funded_a"
+        ai_chance = {
+            factor = 80
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_diet_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_policy_chosen
+                        NOT = {
+                            has_country_flag = cvb_diet_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1860
+                            state_n_government = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_diet_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_policy_chosen
+                    NOT = {
+                        has_country_flag = cvb_diet_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1860
+                        state_n_government = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_diet_done
+                clr_country_flag = cvb_diet_funding_pending
+                add_country_modifier = {
+                    name = cvb_representative_diet
+                    duration = -1
+                }
+                plurality = 3
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                vote_franschise = none_voting
+                                vote_franschise = landed_voting
+                                vote_franschise = wealth_weighted_voting
+                            }
+                        }
+                    }
+                    owner = {
+                        political_reform = wealth_voting
+                    }
+                }
+                political_reform = secret_ballots
+                any_pop = {
+                    limit = {
+                        type = aristocrats
+                    }
+                    militancy = 1
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_diet_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_policy_chosen
+                            NOT = {
+                                has_country_flag = cvb_diet_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1860
+                                state_n_government = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1800
+                clr_country_flag = cvb_diet_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_diet_funded_b"
+        ai_chance = {
+            factor = 20
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_diet_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_policy_chosen
+                        NOT = {
+                            has_country_flag = cvb_diet_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1860
+                            state_n_government = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_diet_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_policy_chosen
+                    NOT = {
+                        has_country_flag = cvb_diet_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1860
+                        state_n_government = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_diet_done
+                clr_country_flag = cvb_diet_funding_pending
+                add_country_modifier = {
+                    name = cvb_representative_diet
+                    duration = -1
+                }
+                plurality = 1
+                any_pop = {
+                    limit = {
+                        type = aristocrats
+                    }
+                    militancy = -0.5
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_diet_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_policy_chosen
+                            NOT = {
+                                has_country_flag = cvb_diet_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1860
+                                state_n_government = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1800
+                clr_country_flag = cvb_diet_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_diet_funded_postpone"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_diet_funding_pending
+                }
+            }
+            owner = {
+                treasury = 1800
+                clr_country_flag = cvb_diet_funding_pending
+            }
+        }
+    }
+}
+country_event = {
+    id = 9880605
+    is_triggered_only = yes
+    title = "cvb_german_schools_funded_title"
+    desc = "cvb_german_schools_funded_desc"
+    picture = "cvb_assembly"
+    option = {
+        name = "cvb_german_schools_funded_a"
+        ai_chance = {
+            factor = 80
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_german_schools_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_german
+                        has_country_flag = cvb_parish_done
+                        NOT = {
+                            has_country_flag = cvb_german_schools_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1840
+                            idealism = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_german_schools_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_german
+                    has_country_flag = cvb_parish_done
+                    NOT = {
+                        has_country_flag = cvb_german_schools_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1840
+                        idealism = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_german_schools_done
+                clr_country_flag = cvb_german_schools_funding_pending
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = baltic_german
+                            has_pop_culture = volga_german
+                            has_pop_culture = north_german
+                        }
+                    }
+                    literacy = 0.02
+                }
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = estonian
+                            has_pop_culture = latvian
+                        }
+                    }
+                    consciousness = 1
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_german_schools_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_german
+                            has_country_flag = cvb_parish_done
+                            NOT = {
+                                has_country_flag = cvb_german_schools_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1840
+                                idealism = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1400
+                clr_country_flag = cvb_german_schools_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_german_schools_funded_b"
+        ai_chance = {
+            factor = 20
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_german_schools_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_german
+                        has_country_flag = cvb_parish_done
+                        NOT = {
+                            has_country_flag = cvb_german_schools_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1840
+                            idealism = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_german_schools_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_german
+                    has_country_flag = cvb_parish_done
+                    NOT = {
+                        has_country_flag = cvb_german_schools_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1840
+                        idealism = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_german_schools_done
+                clr_country_flag = cvb_german_schools_funding_pending
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = baltic_german
+                            has_pop_culture = volga_german
+                            has_pop_culture = north_german
+                        }
+                    }
+                    literacy = 0.01
+                }
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = estonian
+                            has_pop_culture = latvian
+                        }
+                    }
+                    literacy = 0.01
+                    consciousness = 0.5
+                }
+                any_pop = {
+                    limit = {
+                        type = aristocrats
+                    }
+                    militancy = 0.5
+                }
+                plurality = 1
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_german_schools_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_german
+                            has_country_flag = cvb_parish_done
+                            NOT = {
+                                has_country_flag = cvb_german_schools_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1840
+                                idealism = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1400
+                clr_country_flag = cvb_german_schools_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_german_schools_funded_postpone"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_german_schools_funding_pending
+                }
+            }
+            owner = {
+                treasury = 1400
+                clr_country_flag = cvb_german_schools_funding_pending
+            }
+        }
+    }
+}
+country_event = {
+    id = 9880606
+    is_triggered_only = yes
+    title = "cvb_institutions_est_funded_title"
+    desc = "cvb_institutions_est_funded_desc"
+    picture = "cvb_historical_map_1"
+    option = {
+        name = "cvb_institutions_est_funded_a"
+        ai_chance = {
+            factor = 80
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_institutions_est_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_german
+                        owns = 349
+                        NOT = {
+                            has_country_flag = cvb_institutions_est_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1840
+                            idealism = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_est_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_german
+                    owns = 349
+                    NOT = {
+                        has_country_flag = cvb_institutions_est_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1840
+                        idealism = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_institutions_est_done
+                clr_country_flag = cvb_institutions_est_funding_pending
+                349 = {
+                    add_province_modifier = {
+                        name = cvb_institutions_est_modifier
+                        duration = -1
+                    }
+                }
+                prestige = 3
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = estonian
+                            has_pop_culture = latvian
+                        }
+                    }
+                    consciousness = 0.5
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_est_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_german
+                            owns = 349
+                            NOT = {
+                                has_country_flag = cvb_institutions_est_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1840
+                                idealism = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1200
+                clr_country_flag = cvb_institutions_est_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_institutions_est_funded_b"
+        ai_chance = {
+            factor = 20
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_institutions_est_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_german
+                        owns = 349
+                        NOT = {
+                            has_country_flag = cvb_institutions_est_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1840
+                            idealism = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_est_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_german
+                    owns = 349
+                    NOT = {
+                        has_country_flag = cvb_institutions_est_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1840
+                        idealism = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_institutions_est_done
+                clr_country_flag = cvb_institutions_est_funding_pending
+                349 = {
+                    add_province_modifier = {
+                        name = cvb_port_works
+                        duration = -1
+                    }
+                }
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = estonian
+                            has_pop_culture = latvian
+                        }
+                    }
+                    militancy = -0.5
+                }
+                any_pop = {
+                    limit = {
+                        type = aristocrats
+                    }
+                    militancy = 0.5
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_est_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_german
+                            owns = 349
+                            NOT = {
+                                has_country_flag = cvb_institutions_est_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1840
+                                idealism = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1200
+                clr_country_flag = cvb_institutions_est_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_institutions_est_funded_postpone"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_est_funding_pending
+                }
+            }
+            owner = {
+                treasury = 1200
+                clr_country_flag = cvb_institutions_est_funding_pending
+            }
+        }
+    }
+}
+country_event = {
+    id = 9880607
+    is_triggered_only = yes
+    title = "cvb_institutions_ubd_funded_title"
+    desc = "cvb_institutions_ubd_funded_desc"
+    picture = "cvb_historical_map_1"
+    option = {
+        name = "cvb_institutions_ubd_funded_a"
+        ai_chance = {
+            factor = 80
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_institutions_ubd_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_german
+                        owns = 352
+                        NOT = {
+                            has_country_flag = cvb_institutions_ubd_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1840
+                            idealism = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_ubd_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_german
+                    owns = 352
+                    NOT = {
+                        has_country_flag = cvb_institutions_ubd_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1840
+                        idealism = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_institutions_ubd_done
+                clr_country_flag = cvb_institutions_ubd_funding_pending
+                352 = {
+                    add_province_modifier = {
+                        name = cvb_institutions_ubd_modifier
+                        duration = -1
+                    }
+                }
+                prestige = 3
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = estonian
+                            has_pop_culture = latvian
+                        }
+                    }
+                    consciousness = 0.5
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_ubd_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_german
+                            owns = 352
+                            NOT = {
+                                has_country_flag = cvb_institutions_ubd_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1840
+                                idealism = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1200
+                clr_country_flag = cvb_institutions_ubd_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_institutions_ubd_funded_b"
+        ai_chance = {
+            factor = 20
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_institutions_ubd_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_german
+                        owns = 352
+                        NOT = {
+                            has_country_flag = cvb_institutions_ubd_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1840
+                            idealism = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_ubd_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_german
+                    owns = 352
+                    NOT = {
+                        has_country_flag = cvb_institutions_ubd_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1840
+                        idealism = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_institutions_ubd_done
+                clr_country_flag = cvb_institutions_ubd_funding_pending
+                add_country_modifier = {
+                    name = cvb_parish_schools
+                    duration = -1
+                }
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = baltic_german
+                            has_pop_culture = volga_german
+                            has_pop_culture = north_german
+                        }
+                    }
+                    literacy = 0.005
+                }
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = estonian
+                            has_pop_culture = latvian
+                        }
+                    }
+                    literacy = 0.005
+                    consciousness = 0.5
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_ubd_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_german
+                            owns = 352
+                            NOT = {
+                                has_country_flag = cvb_institutions_ubd_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1840
+                                idealism = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1200
+                clr_country_flag = cvb_institutions_ubd_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_institutions_ubd_funded_postpone"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_ubd_funding_pending
+                }
+            }
+            owner = {
+                treasury = 1200
+                clr_country_flag = cvb_institutions_ubd_funding_pending
+            }
+        }
+    }
+}
+country_event = {
+    id = 9880608
+    is_triggered_only = yes
+    title = "cvb_institutions_lat_funded_title"
+    desc = "cvb_institutions_lat_funded_desc"
+    picture = "cvb_historical_map_1"
+    option = {
+        name = "cvb_institutions_lat_funded_a"
+        ai_chance = {
+            factor = 80
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_institutions_lat_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_german
+                        owns = 357
+                        NOT = {
+                            has_country_flag = cvb_institutions_lat_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1840
+                            idealism = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_lat_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_german
+                    owns = 357
+                    NOT = {
+                        has_country_flag = cvb_institutions_lat_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1840
+                        idealism = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_institutions_lat_done
+                clr_country_flag = cvb_institutions_lat_funding_pending
+                357 = {
+                    add_province_modifier = {
+                        name = cvb_institutions_lat_modifier
+                        duration = -1
+                    }
+                }
+                prestige = 3
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = estonian
+                            has_pop_culture = latvian
+                        }
+                    }
+                    consciousness = 0.5
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_lat_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_german
+                            owns = 357
+                            NOT = {
+                                has_country_flag = cvb_institutions_lat_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1840
+                                idealism = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1200
+                clr_country_flag = cvb_institutions_lat_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_institutions_lat_funded_b"
+        ai_chance = {
+            factor = 20
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_institutions_lat_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_german
+                        owns = 357
+                        NOT = {
+                            has_country_flag = cvb_institutions_lat_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1840
+                            idealism = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_lat_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_german
+                    owns = 357
+                    NOT = {
+                        has_country_flag = cvb_institutions_lat_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1840
+                        idealism = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_institutions_lat_done
+                clr_country_flag = cvb_institutions_lat_funding_pending
+                357 = {
+                    add_province_modifier = {
+                        name = cvb_secure_tenure
+                        duration = -1
+                    }
+                }
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = estonian
+                            has_pop_culture = latvian
+                        }
+                        type = farmers
+                    }
+                    militancy = -0.5
+                }
+                any_pop = {
+                    limit = {
+                        type = aristocrats
+                    }
+                    militancy = 0.5
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_lat_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_german
+                            owns = 357
+                            NOT = {
+                                has_country_flag = cvb_institutions_lat_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1840
+                                idealism = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 1200
+                clr_country_flag = cvb_institutions_lat_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_institutions_lat_funded_postpone"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_institutions_lat_funding_pending
+                }
+            }
+            owner = {
+                treasury = 1200
+                clr_country_flag = cvb_institutions_lat_funding_pending
+            }
+        }
+    }
+}
+country_event = {
+    id = 9880609
+    is_triggered_only = yes
+    title = "cvb_landwehr_funded_title"
+    desc = "cvb_landwehr_funded_desc"
+    picture = "cvb_historical_map_2"
+    option = {
+        name = "cvb_landwehr_funded_a"
+        ai_chance = {
+            factor = 80
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_landwehr_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_policy_chosen
+                        NOT = {
+                            has_country_flag = cvb_landwehr_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1840
+                            military_staff_system = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_landwehr_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_policy_chosen
+                    NOT = {
+                        has_country_flag = cvb_landwehr_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1840
+                        military_staff_system = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_landwehr_done
+                clr_country_flag = cvb_landwehr_funding_pending
+                add_country_modifier = {
+                    name = cvb_provincial_defense
+                    duration = -1
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_landwehr_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_policy_chosen
+                            NOT = {
+                                has_country_flag = cvb_landwehr_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1840
+                                military_staff_system = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 2500
+                clr_country_flag = cvb_landwehr_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_landwehr_funded_b"
+        ai_chance = {
+            factor = 20
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        has_country_flag = cvb_landwehr_funding_pending
+                        has_country_flag = cvb_pack
+                        OR = {
+                            tag = EST
+                            tag = UBD
+                            tag = LAT
+                        }
+                        has_country_flag = cvb_policy_chosen
+                        NOT = {
+                            has_country_flag = cvb_landwehr_done
+                        }
+                        war = no
+                        OR = {
+                            year = 1840
+                            military_staff_system = 1
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_landwehr_funding_pending
+                    has_country_flag = cvb_pack
+                    OR = {
+                        tag = EST
+                        tag = UBD
+                        tag = LAT
+                    }
+                    has_country_flag = cvb_policy_chosen
+                    NOT = {
+                        has_country_flag = cvb_landwehr_done
+                    }
+                    war = no
+                    OR = {
+                        year = 1840
+                        military_staff_system = 1
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvb_landwehr_done
+                clr_country_flag = cvb_landwehr_funding_pending
+                add_country_modifier = {
+                    name = cvb_provincial_defense
+                    duration = -1
+                }
+                plurality = 2
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                vote_franschise = none_voting
+                                vote_franschise = landed_voting
+                                vote_franschise = wealth_weighted_voting
+                            }
+                        }
+                    }
+                    owner = {
+                        political_reform = wealth_voting
+                    }
+                }
+                political_reform = secret_ballots
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = estonian
+                            has_pop_culture = latvian
+                        }
+                    }
+                    consciousness = 0.5
+                }
+                any_pop = {
+                    limit = {
+                        type = aristocrats
+                    }
+                    militancy = 0.5
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_landwehr_funding_pending
+                    NOT = {
+                        AND = {
+                            has_country_flag = cvb_pack
+                            OR = {
+                                tag = EST
+                                tag = UBD
+                                tag = LAT
+                            }
+                            has_country_flag = cvb_policy_chosen
+                            NOT = {
+                                has_country_flag = cvb_landwehr_done
+                            }
+                            war = no
+                            OR = {
+                                year = 1840
+                                military_staff_system = 1
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                treasury = 2500
+                clr_country_flag = cvb_landwehr_funding_pending
+                country_event = {
+                    id = 9880698
+                    days = 1
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvb_landwehr_funded_postpone"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = cvb_landwehr_funding_pending
+                }
+            }
+            owner = {
+                treasury = 2500
+                clr_country_flag = cvb_landwehr_funding_pending
+            }
+        }
+    }
+}
+country_event = {
+    id = 9880698
+    is_triggered_only = yes
+    title = "cvb_funding_withdrawn_title"
+    desc = "cvb_funding_withdrawn_desc"
+    picture = "cvb_assembly"
+    option = {
+        name = "cvb_funding_withdrawn_ack"
+        ai_chance = {
+            factor = 100
+        }
+    }
+}

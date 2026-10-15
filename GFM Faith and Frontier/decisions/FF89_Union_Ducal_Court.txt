@@ -1,0 +1,554 @@
+political_decisions = {
+	ff89_orange_invite = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			NOT = {
+				has_country_flag = ff89_duke_crowned
+			}
+			NOT = {
+				has_country_flag = ff89_nominee
+			}
+			NOT = {
+				has_country_flag = ff89_invitation_pending
+			}
+			NET = {
+				exists = yes
+				OR = {
+					government = hms_government
+					government = absolute_monarchy
+					government = prussian_constitutionalism
+				}
+			}
+			NOT = {
+				has_country_modifier = ff89_orange_pause
+			}
+		}
+		allow = {
+			war = no
+			year = 1850
+			money = 2000
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+							NOT = {
+								has_country_flag = ff89_nominee
+							}
+							NOT = {
+								has_country_flag = ff89_invitation_pending
+							}
+							NET = {
+								exists = yes
+								OR = {
+									government = hms_government
+									government = absolute_monarchy
+									government = prussian_constitutionalism
+								}
+							}
+							NOT = {
+								has_country_modifier = ff89_orange_pause
+							}
+							war = no
+							year = 1850
+							money = 2000
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+						}
+					}
+					owner = {
+						money = -2000
+						set_country_flag = ff89_invitation_pending
+						set_country_flag = ff89_orange_pending
+						add_country_modifier = {
+							name = ff89_envoys_wait
+							duration = 90
+						}
+						NET = {
+							country_event = {
+								id = 9785451
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff89_hohenzollern_invite = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			NOT = {
+				has_country_flag = ff89_duke_crowned
+			}
+			NOT = {
+				has_country_flag = ff89_nominee
+			}
+			NOT = {
+				has_country_flag = ff89_invitation_pending
+			}
+			PRU = {
+				exists = yes
+				OR = {
+					government = hms_government
+					government = absolute_monarchy
+					government = prussian_constitutionalism
+				}
+			}
+			NOT = {
+				has_country_modifier = ff89_hohenzollern_pause
+			}
+		}
+		allow = {
+			war = no
+			year = 1850
+			money = 2000
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+							NOT = {
+								has_country_flag = ff89_nominee
+							}
+							NOT = {
+								has_country_flag = ff89_invitation_pending
+							}
+							PRU = {
+								exists = yes
+								OR = {
+									government = hms_government
+									government = absolute_monarchy
+									government = prussian_constitutionalism
+								}
+							}
+							NOT = {
+								has_country_modifier = ff89_hohenzollern_pause
+							}
+							war = no
+							year = 1850
+							money = 2000
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+						}
+					}
+					owner = {
+						money = -2000
+						set_country_flag = ff89_invitation_pending
+						set_country_flag = ff89_hohenzollern_pending
+						add_country_modifier = {
+							name = ff89_envoys_wait
+							duration = 90
+						}
+						PRU = {
+							country_event = {
+								id = 9785454
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff89_belgian_invite = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			NOT = {
+				has_country_flag = ff89_duke_crowned
+			}
+			NOT = {
+				has_country_flag = ff89_nominee
+			}
+			NOT = {
+				has_country_flag = ff89_invitation_pending
+			}
+			BEL = {
+				exists = yes
+				OR = {
+					government = hms_government
+					government = absolute_monarchy
+					government = prussian_constitutionalism
+				}
+			}
+			NOT = {
+				has_country_modifier = ff89_belgian_pause
+			}
+		}
+		allow = {
+			war = no
+			year = 1850
+			money = 2000
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+							NOT = {
+								has_country_flag = ff89_nominee
+							}
+							NOT = {
+								has_country_flag = ff89_invitation_pending
+							}
+							BEL = {
+								exists = yes
+								OR = {
+									government = hms_government
+									government = absolute_monarchy
+									government = prussian_constitutionalism
+								}
+							}
+							NOT = {
+								has_country_modifier = ff89_belgian_pause
+							}
+							war = no
+							year = 1850
+							money = 2000
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+						}
+					}
+					owner = {
+						money = -2000
+						set_country_flag = ff89_invitation_pending
+						set_country_flag = ff89_belgian_pending
+						add_country_modifier = {
+							name = ff89_envoys_wait
+							duration = 90
+						}
+						BEL = {
+							country_event = {
+								id = 9785457
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff89_british_invite = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			NOT = {
+				has_country_flag = ff89_duke_crowned
+			}
+			NOT = {
+				has_country_flag = ff89_nominee
+			}
+			NOT = {
+				has_country_flag = ff89_invitation_pending
+			}
+			ENG = {
+				exists = yes
+				OR = {
+					government = hms_government
+					government = absolute_monarchy
+					government = prussian_constitutionalism
+				}
+			}
+			NOT = {
+				has_country_modifier = ff89_british_pause
+			}
+		}
+		allow = {
+			war = no
+			year = 1850
+			money = 2000
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+							NOT = {
+								has_country_flag = ff89_nominee
+							}
+							NOT = {
+								has_country_flag = ff89_invitation_pending
+							}
+							ENG = {
+								exists = yes
+								OR = {
+									government = hms_government
+									government = absolute_monarchy
+									government = prussian_constitutionalism
+								}
+							}
+							NOT = {
+								has_country_modifier = ff89_british_pause
+							}
+							war = no
+							year = 1850
+							money = 2000
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+						}
+					}
+					owner = {
+						money = -2000
+						set_country_flag = ff89_invitation_pending
+						set_country_flag = ff89_british_pending
+						add_country_modifier = {
+							name = ff89_envoys_wait
+							duration = 90
+						}
+						ENG = {
+							country_event = {
+								id = 9785460
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff89_local_nominee = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			NOT = {
+				has_country_flag = ff89_duke_crowned
+			}
+			NOT = {
+				has_country_flag = ff89_nominee
+			}
+			NOT = {
+				has_country_flag = ff89_invitation_pending
+			}
+		}
+		allow = {
+			war = no
+			year = 1850
+			money = 600
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+							NOT = {
+								has_country_flag = ff89_nominee
+							}
+							NOT = {
+								has_country_flag = ff89_invitation_pending
+							}
+							war = no
+							year = 1850
+							money = 600
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+						}
+					}
+					owner = {
+						money = -600
+						set_country_flag = ff89_nominee
+						set_country_flag = ff89_local_nominee
+						country_event = {
+							id = 9785463
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff89_coronation = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			has_country_flag = ff89_nominee
+			NOT = {
+				has_country_flag = ff89_duke_crowned
+			}
+			NOT = {
+				has_country_flag = ff89_coronation_funded
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							has_country_flag = ff89_nominee
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+							NOT = {
+								has_country_flag = ff89_coronation_funded
+							}
+							war = no
+							money = 1500
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+						}
+					}
+					owner = {
+						money = -1500
+						set_country_flag = ff89_coronation_funded
+						country_event = {
+							id = 9785464
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff89_recall_envoys = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			has_country_flag = ff89_invitation_pending
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_modifier = ff89_envoys_wait
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							has_country_flag = ff89_invitation_pending
+							war = no
+							NOT = {
+								has_country_modifier = ff89_envoys_wait
+							}
+						}
+					}
+					owner = {
+						clr_country_flag = ff89_invitation_pending
+						remove_country_modifier = ff89_envoys_wait
+						money = 1000
+						clr_country_flag = ff89_orange_pending
+						clr_country_flag = ff89_hohenzollern_pending
+						clr_country_flag = ff89_belgian_pending
+						clr_country_flag = ff89_british_pending
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+}

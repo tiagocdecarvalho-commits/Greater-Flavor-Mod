@@ -1,0 +1,49 @@
+cvfr_savoy_closed_title;The Savoy and Nice Mission Closes;;;;;;;;;;;;;x
+cvfr_corsica_closed_title;The Corsican Mission Closes;;;;;;;;;;;;;x
+cvfr_closed_desc;The ambassador can no longer carry out the territorial instructions. Changes in government, sovereignty or the relations between the courts have deprived the unfinished negotiation of its basis. The ministry closes the dossier and returns the unused appropriation. A fresh mission must be authorised if the required circumstances return.;;;;;;;;;;;;;x
+cvfr_closed_ack;Close the unfinished mission and reconcile its accounts.;;;;;;;;;;;;;x
+cvfr_white_peace_title;The French Dispute Remains Unsettled;;;;;;;;;;;;;x
+cvfr_white_peace_desc;The fighting has ended without an accepted territorial settlement. No province passes by this armistice, and neither cabinet can present it as the fulfilment of the national demands. The Italian ministry retains the unresolved correspondence. Any renewed campaign must respect the peace and the engagements now binding the crown.;;;;;;;;;;;;;x
+cvfr_white_peace_ack;Record the unresolved dispute and respect the peace.;;;;;;;;;;;;;x
+cve_savoy_reply_presented;Savoy and Nice: French reply delivered;;;;;;;;;;;;;x
+cve_savoy_reply_done;Savoy and Nice: French reply recorded;;;;;;;;;;;;;x
+cve_savoy_bargain_presented;Savoy and Nice: Compromise proposal delivered;;;;;;;;;;;;;x
+cve_savoy_bargain_done;Savoy and Nice: Compromise reply recorded;;;;;;;;;;;;;x
+cve_savoy_ratify_pending;Savoy and Nice: French ratification pending;;;;;;;;;;;;;x
+cve_savoy_ratify_presented;Savoy and Nice: Ratification submitted;;;;;;;;;;;;;x
+cve_savoy_ratify_done;Savoy and Nice: Ratification recorded;;;;;;;;;;;;;x
+cve_savoy_refusal_presented;Savoy and Nice: French refusal delivered;;;;;;;;;;;;;x
+cve_savoy_closed;Savoy and Nice: Mission closed;;;;;;;;;;;;;x
+cve_corsica_reply_presented;Corsica: French reply delivered;;;;;;;;;;;;;x
+cve_corsica_reply_done;Corsica: French reply recorded;;;;;;;;;;;;;x
+cve_corsica_bargain_presented;Corsica: Compromise proposal delivered;;;;;;;;;;;;;x
+cve_corsica_bargain_done;Corsica: Compromise reply recorded;;;;;;;;;;;;;x
+cve_corsica_ratify_pending;Corsica: French ratification pending;;;;;;;;;;;;;x
+cve_corsica_ratify_presented;Corsica: Ratification submitted;;;;;;;;;;;;;x
+cve_corsica_ratify_done;Corsica: Ratification recorded;;;;;;;;;;;;;x
+cve_corsica_refusal_presented;Corsica: French refusal delivered;;;;;;;;;;;;;x
+cve_corsica_closed;Corsica: Mission closed;;;;;;;;;;;;;x
+NORMAL_cve_french_settlement_war;The Italian National Settlement War;;;;;;;;;;;;;x
+NORMAL_cve_french_settlement_war_NO_ORDER;The Italian National Settlement War;;;;;;;;;;;;;x
+AGRESSION_cve_french_settlement_war;The Italian National Settlement War;;;;;;;;;;;;;x
+AGRESSION_cve_french_settlement_war_NO_ORDER;The Italian National Settlement War;;;;;;;;;;;;;x
+REGRESSION_cve_french_settlement_war;The Italian National Settlement War;;;;;;;;;;;;;x
+REGRESSION_cve_french_settlement_war_NO_ORDER;The Italian National Settlement War;;;;;;;;;;;;;x
+NORMAL_CVE_FRENCH_SETTLEMENT_WAR;The Italian National Settlement War;;;;;;;;;;;;;x
+NORMAL_CVE_FRENCH_SETTLEMENT_WAR_NO_ORDER;The Italian National Settlement War;;;;;;;;;;;;;x
+AGRESSION_CVE_FRENCH_SETTLEMENT_WAR;The Italian National Settlement War;;;;;;;;;;;;;x
+AGRESSION_CVE_FRENCH_SETTLEMENT_WAR_NO_ORDER;The Italian National Settlement War;;;;;;;;;;;;;x
+REGRESSION_CVE_FRENCH_SETTLEMENT_WAR;The Italian National Settlement War;;;;;;;;;;;;;x
+REGRESSION_CVE_FRENCH_SETTLEMENT_WAR_NO_ORDER;The Italian National Settlement War;;;;;;;;;;;;;x
+NORMAL_cve_french_countersettlement_war;The French Counter-Settlement War;;;;;;;;;;;;;x
+NORMAL_cve_french_countersettlement_war_NO_ORDER;The French Counter-Settlement War;;;;;;;;;;;;;x
+AGRESSION_cve_french_countersettlement_war;The French Counter-Settlement War;;;;;;;;;;;;;x
+AGRESSION_cve_french_countersettlement_war_NO_ORDER;The French Counter-Settlement War;;;;;;;;;;;;;x
+REGRESSION_cve_french_countersettlement_war;The French Counter-Settlement War;;;;;;;;;;;;;x
+REGRESSION_cve_french_countersettlement_war_NO_ORDER;The French Counter-Settlement War;;;;;;;;;;;;;x
+NORMAL_CVE_FRENCH_COUNTERSETTLEMENT_WAR;The French Counter-Settlement War;;;;;;;;;;;;;x
+NORMAL_CVE_FRENCH_COUNTERSETTLEMENT_WAR_NO_ORDER;The French Counter-Settlement War;;;;;;;;;;;;;x
+AGRESSION_CVE_FRENCH_COUNTERSETTLEMENT_WAR;The French Counter-Settlement War;;;;;;;;;;;;;x
+AGRESSION_CVE_FRENCH_COUNTERSETTLEMENT_WAR_NO_ORDER;The French Counter-Settlement War;;;;;;;;;;;;;x
+REGRESSION_CVE_FRENCH_COUNTERSETTLEMENT_WAR;The French Counter-Settlement War;;;;;;;;;;;;;x
+REGRESSION_CVE_FRENCH_COUNTERSETTLEMENT_WAR_NO_ORDER;The French Counter-Settlement War;;;;;;;;;;;;;x

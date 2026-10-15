@@ -1,0 +1,188 @@
+cvr_cvl_invitation_title;A Congress Proposed by Naples;;;;;;;;;;;;;x
+cvr_cvl_invitation_desc;The southern government proposes a congress to recognise its initiative in Italian affairs. Its envoys offer diplomatic leadership under the political programme already established in Naples. Acceptance would leave our territory and institutions intact, but place the initiative with our rival. Refusal preserves our own claim and may sharpen the competition.;;;;;;;;;;;;;x
+cvr_cvl_invitation_refuse;Piedmont will retain its own initiative.;;;;;;;;;;;;;x
+cvr_cvl_invitation_accept;Recognise the southern diplomatic initiative.;;;;;;;;;;;;;x
+cvr_cvl_agreement_title;Piedmont Recognises the Initiative;;;;;;;;;;;;;x
+cvr_cvl_agreement_desc;The government in Turin has accepted southern diplomatic leadership. Recognition is an opening for a settlement, not a transfer of provinces or a promise that every Italian court will follow. Ministers can now prepare ratification under the programme with which the congress began.;;;;;;;;;;;;;x
+cvr_cvl_agreement_ack;Prepare the articles of settlement.;;;;;;;;;;;;;x
+cvr_cvl_refusal_title;The Congress Has Been Refused;;;;;;;;;;;;;x
+cvr_cvl_refusal_desc;Piedmont will not concede the Italian initiative. Our ministers can close the proposal without fighting or inspect the army and prepare another approach backed by force. A confrontation would compete with the wider struggle against foreign influence and may divide the Italian courts further.;;;;;;;;;;;;;x
+cvr_cvl_refusal_continue;Keep the initiative open and examine our preparations.;;;;;;;;;;;;;x
+cvr_cvl_refusal_withdraw;Close the proposal and preserve the peace.;;;;;;;;;;;;;x
+cvr_cvl_ultimatum_title;The Southern Leadership Ultimatum;;;;;;;;;;;;;x
+cvr_cvl_ultimatum_desc;Naples has renewed its claim with military preparations behind it. Recognition would preserve Piedmontese government and territory while conceding the diplomatic initiative. Refusal would allow the southern republic to seek recognition by war. No army moves merely because this dispatch has arrived.;;;;;;;;;;;;;x
+cvr_cvl_ult_refuse;Reject the claim to leadership.;;;;;;;;;;;;;x
+cvr_cvl_ult_concede;Concede diplomatic primacy and negotiate the settlement.;;;;;;;;;;;;;x
+cvr_cvl_ult_failed_title;The Ultimatum Is Rejected;;;;;;;;;;;;;x
+cvr_cvl_ult_failed_desc;Piedmont has rejected the demand. The cabinet may now pursue a limited leadership war through ordinary diplomacy. Recognition must be included in the peace settlement: a white peace, an unrelated concession or occupation alone will not establish our primacy. The claim lapses if it is left unused.;;;;;;;;;;;;;x
+cvr_cvl_ult_failed_ack;The choice of war now rests with the government.;;;;;;;;;;;;;x
+cvr_cvl_war_report_title;The Italian Leadership War;;;;;;;;;;;;;x
+cvr_cvl_war_report_desc;The contest with Piedmont has entered the field. Our depots can support the army, but commanders must secure their own routes through the peninsula or by sea. Ministers insist that recognition be written into the peace: military success without that settlement leaves the leadership question unresolved.;;;;;;;;;;;;;x
+cvr_cvl_war_report_ack;Keep the campaign directed toward its political objective.;;;;;;;;;;;;;x
+cvr_cvl_inconclusive_title;Peace Without Recognition;;;;;;;;;;;;;x
+cvr_cvl_inconclusive_desc;The fighting with Piedmont has ended without an accepted leadership settlement. Whatever other terms were agreed, the southern claim has not been recognised through this initiative. Ministers close the extraordinary preparations and turn to restoring the republic's diplomatic standing.;;;;;;;;;;;;;x
+cvr_cvl_inconclusive_ack;Close the initiative and restore confidence.;;;;;;;;;;;;;x
+cvr_cvl_closed_notice_title;The Congress Has Lost Its Mandate;;;;;;;;;;;;;x
+cvr_cvl_closed_notice_desc;The southern government no longer meets the political terms under which the congress was opened. The government, its chosen programme and its seat at Naples were the basis of that initiative. Ministers close this earlier proposal to Piedmont. The separate Brothers' War and papal settlement remain governed by their own conditions.;;;;;;;;;;;;;x
+cvr_cvl_closed_ack;Close the earlier congress proposal.;;;;;;;;;;;;;x
+cvr_cvl_congress_expired_title;The Earlier Leadership Congress Has Expired;;;;;;;;;;;;;x
+cvr_cvl_congress_expired_desc;The appointed diplomatic window for the earlier congress with Piedmont has ended before a political compact was ratified. Ministers close that proposal and its extraordinary preparations. This does not undo a papal settlement or end the separate struggle for Italian leadership through the Brothers' War.;;;;;;;;;;;;;x
+cvr_cvl_congress_expired_ack;Close the expired congress proposal.;;;;;;;;;;;;;x
+cvr_cvl_claim_expired_title;The Leadership Ultimatum Has Expired;;;;;;;;;;;;;x
+cvr_cvl_claim_expired_desc;The opportunity to enforce the earlier ultimatum to Piedmont has passed without recognition. Its claim to a limited leadership war has expired, and ministers close the congress initiative. The separate Brothers' War and any papal settlement remain governed by their own conditions.;;;;;;;;;;;;;x
+cvr_cvl_claim_expired_ack;Close the unused ultimatum.;;;;;;;;;;;;;x
+cvr_cvl_rival_changed_title;The Congress Has Lost Its Counterpart;;;;;;;;;;;;;x
+cvr_cvl_rival_changed_desc;The earlier congress assumed an independent Piedmontese monarchy and an Italy still divided between rival courts. That diplomatic situation has changed, so its original articles can no longer be concluded. Ministers close the congress proposal without reversing territorial settlements already reached.;;;;;;;;;;;;;x
+cvr_cvl_rival_changed_ack;Close the obsolete congress proposal.;;;;;;;;;;;;;x
+cvr_cvl_settle_constitutional_title;The Republican Leadership Settlement;;;;;;;;;;;;;x
+cvr_cvl_settle_constitutional_desc;Publish the commitments of the republican congress and place their administration before the elected institutions. Piedmont recognises the Neapolitan initiative while retaining its territory and government. The common republic must still be built through the existing accession and territorial requirements.;;;;;;;;;;;;;x
+cvr_cvl_settle_constitutional_ack;Ratify the ministerial commitments.;;;;;;;;;;;;;x
+cvr_cvl_turin_settlement_title;The Settlement with Naples;;;;;;;;;;;;;x
+cvr_cvl_turin_settlement_desc;Naples has ratified the settlement recognising its Italian initiative. Piedmont retains its own territory and government. Relations between the cabinets can now recover, even as each watches how the southern programme develops and how the other Italian states respond.;;;;;;;;;;;;;x
+cvr_cvl_turin_settlement_ack;Instruct our envoys to work within the settlement.;;;;;;;;;;;;;x
+cvr_convene_title;Convene an Italian Leadership Congress;;;;;;;;;;;;;x
+cvr_convene_desc;Invite Piedmont to discuss a southern initiative for Italian leadership. Our established political programme will determine the settlement we offer. Agreement recognises diplomatic leadership without annexing the other Italian states. Rejection can lead to further negotiations backed by military preparation.;;;;;;;;;;;;;x
+cvr_prepare_title;Prepare the Northern Supply Depots;;;;;;;;;;;;;x
+cvr_prepare_desc;Piedmont has rejected the congress. Inspect the army, organize supply depots and contract transport before returning to the negotiating table. These preparations support a limited campaign for recognition, but they provide neither access through neutral states nor an automatic victory.;;;;;;;;;;;;;x
+cvr_challenge_title;Present the Leadership Ultimatum;;;;;;;;;;;;;x
+cvr_challenge_desc;Ask Piedmont to recognise the southern initiative under the pressure of our preparations. Its government may concede or refuse. Refusal grants a leadership casus belli, which must be used through ordinary diplomacy. Allies, truces, military access and the terms of peace still matter.;;;;;;;;;;;;;x
+cvr_settlement_title;Ratify the Italian Leadership Settlement;;;;;;;;;;;;;x
+cvr_settlement_desc;Ratify the public commitments won through the republican leadership congress. The elected government administers the common programme from Naples, while Piedmont remains sovereign. The full Brothers' War opens from March 1860. Its victory can compel incorporation into the national union.;;;;;;;;;;;;;x
+cvr_cvw_north_success_title;The Northern Expedition Vindicated;;;;;;;;;;;;;x
+cvr_cvw_north_success_desc;Austria has accepted the liberation terms. The Lombard and Venetian lands covered by the treaty pass to their own states. The expedition has won Naples a place in the national struggle, but no northern court has thereby surrendered its independence.;;;;;;;;;;;;;x
+cvr_cvw_north_success_ack;Welcome the veterans and send envoys north.;;;;;;;;;;;;;x
+cvr_cvw_north_failure_title;The Expedition Returns without a Settlement;;;;;;;;;;;;;x
+cvr_cvw_north_failure_desc;The northern campaign has ended without the liberation terms being accepted. The army returns to a republic still divided over the expedition. Ministers must explain why its sacrifices did not secure a northern settlement.;;;;;;;;;;;;;x
+cvr_cvw_north_failure_ack;Receive the army and account for the campaign.;;;;;;;;;;;;;x
+cvr_cvw_primacy_title;The Italian Initiative Passes to Naples;;;;;;;;;;;;;x
+cvr_cvw_primacy_desc;The treaty recognises southern republican leadership and commits the defeated Savoyard state to incorporation. The signed annexation articles will be implemented after the peace. The other Italian states retain their accession choices.;;;;;;;;;;;;;x
+cvr_cvw_primacy_ack;Prepare the accession proposals.;;;;;;;;;;;;;x
+cvr_cvw_brothers_loss_title;The Southern Challenge Has Failed;;;;;;;;;;;;;x
+cvr_cvw_brothers_loss_desc;The campaign has ended without recognition of southern republican leadership. A Piedmontese victory may break our Italian sphere. The elected government must account for the failure. Accession cannot proceed on the strength of this war.;;;;;;;;;;;;;x
+cvr_cvw_brothers_loss_ack;The ministry must answer for the defeat.;;;;;;;;;;;;;x
+cvr_cvw_accession_constitutional_title;The Common Italian Statute;;;;;;;;;;;;;x
+cvr_cvw_accession_constitutional_desc;Naples offers incorporation into a centralized Italian republic. Regional sovereignty would pass to the common government and its elected institutions. Acceptance authorises annexation when the articles are ratified. Refusal preserves independence.;;;;;;;;;;;;;x
+cvr_cvw_accept_constitutional;Accept the articles and authorise incorporation.;;;;;;;;;;;;;x
+cvr_cvw_refuse_constitutional;Retain our independent state.;;;;;;;;;;;;;x
+cvr_cvw_reply_sar_title;Piedmont Accepts the Accession Articles;;;;;;;;;;;;;x
+cvr_cvw_reply_sar_desc;Piedmont has accepted the proposed articles. Its named ratification decision is now available, and ratification will incorporate its territory. War or a new foreign dependency can still prevent completion until the obstacle is resolved.;;;;;;;;;;;;;x
+cvr_cvw_reply_sar_ack;Record the answer and instruct our envoys.;;;;;;;;;;;;;x
+cvr_cvw_refusal_sar_title;Piedmont Refuses Accession;;;;;;;;;;;;;x
+cvr_cvw_refusal_sar_desc;Piedmont has rejected the articles and will remain independent. Our envoys cannot ratify an accession without its consent. Further unification must proceed through ordinary diplomacy or a separate lawful war claim.;;;;;;;;;;;;;x
+cvr_cvw_refusal_sar_ack;Respect the answer and review our policy.;;;;;;;;;;;;;x
+cvr_cvw_reply_par_title;Parma Accepts the Accession Articles;;;;;;;;;;;;;x
+cvr_cvw_reply_par_desc;Parma has accepted the proposed articles. Its named ratification decision is now available, and ratification will incorporate its territory. War or a new foreign dependency can still prevent completion until the obstacle is resolved.;;;;;;;;;;;;;x
+cvr_cvw_reply_par_ack;Record the answer and instruct our envoys.;;;;;;;;;;;;;x
+cvr_cvw_refusal_par_title;Parma Refuses Accession;;;;;;;;;;;;;x
+cvr_cvw_refusal_par_desc;Parma has rejected the articles and will remain independent. Our envoys cannot ratify an accession without its consent. Further unification must proceed through ordinary diplomacy or a separate lawful war claim.;;;;;;;;;;;;;x
+cvr_cvw_refusal_par_ack;Respect the answer and review our policy.;;;;;;;;;;;;;x
+cvr_cvw_reply_mod_title;Modena Accepts the Accession Articles;;;;;;;;;;;;;x
+cvr_cvw_reply_mod_desc;Modena has accepted the proposed articles. Its named ratification decision is now available, and ratification will incorporate its territory. War or a new foreign dependency can still prevent completion until the obstacle is resolved.;;;;;;;;;;;;;x
+cvr_cvw_reply_mod_ack;Record the answer and instruct our envoys.;;;;;;;;;;;;;x
+cvr_cvw_refusal_mod_title;Modena Refuses Accession;;;;;;;;;;;;;x
+cvr_cvw_refusal_mod_desc;Modena has rejected the articles and will remain independent. Our envoys cannot ratify an accession without its consent. Further unification must proceed through ordinary diplomacy or a separate lawful war claim.;;;;;;;;;;;;;x
+cvr_cvw_refusal_mod_ack;Respect the answer and review our policy.;;;;;;;;;;;;;x
+cvr_cvw_reply_luc_title;Lucca Accepts the Accession Articles;;;;;;;;;;;;;x
+cvr_cvw_reply_luc_desc;Lucca has accepted the proposed articles. Its named ratification decision is now available, and ratification will incorporate its territory. War or a new foreign dependency can still prevent completion until the obstacle is resolved.;;;;;;;;;;;;;x
+cvr_cvw_reply_luc_ack;Record the answer and instruct our envoys.;;;;;;;;;;;;;x
+cvr_cvw_refusal_luc_title;Lucca Refuses Accession;;;;;;;;;;;;;x
+cvr_cvw_refusal_luc_desc;Lucca has rejected the articles and will remain independent. Our envoys cannot ratify an accession without its consent. Further unification must proceed through ordinary diplomacy or a separate lawful war claim.;;;;;;;;;;;;;x
+cvr_cvw_refusal_luc_ack;Respect the answer and review our policy.;;;;;;;;;;;;;x
+cvr_cvw_reply_tus_title;Tuscany Accepts the Accession Articles;;;;;;;;;;;;;x
+cvr_cvw_reply_tus_desc;Tuscany has accepted the proposed articles. Its named ratification decision is now available, and ratification will incorporate its territory. War or a new foreign dependency can still prevent completion until the obstacle is resolved.;;;;;;;;;;;;;x
+cvr_cvw_reply_tus_ack;Record the answer and instruct our envoys.;;;;;;;;;;;;;x
+cvr_cvw_refusal_tus_title;Tuscany Refuses Accession;;;;;;;;;;;;;x
+cvr_cvw_refusal_tus_desc;Tuscany has rejected the articles and will remain independent. Our envoys cannot ratify an accession without its consent. Further unification must proceed through ordinary diplomacy or a separate lawful war claim.;;;;;;;;;;;;;x
+cvr_cvw_refusal_tus_ack;Respect the answer and review our policy.;;;;;;;;;;;;;x
+cvr_cvw_reply_lom_title;Lombardy Accepts the Accession Articles;;;;;;;;;;;;;x
+cvr_cvw_reply_lom_desc;Lombardy has accepted the proposed articles. Its named ratification decision is now available, and ratification will incorporate its territory. War or a new foreign dependency can still prevent completion until the obstacle is resolved.;;;;;;;;;;;;;x
+cvr_cvw_reply_lom_ack;Record the answer and instruct our envoys.;;;;;;;;;;;;;x
+cvr_cvw_refusal_lom_title;Lombardy Refuses Accession;;;;;;;;;;;;;x
+cvr_cvw_refusal_lom_desc;Lombardy has rejected the articles and will remain independent. Our envoys cannot ratify an accession without its consent. Further unification must proceed through ordinary diplomacy or a separate lawful war claim.;;;;;;;;;;;;;x
+cvr_cvw_refusal_lom_ack;Respect the answer and review our policy.;;;;;;;;;;;;;x
+cvr_cvw_reply_ven_title;Venetia Accepts the Accession Articles;;;;;;;;;;;;;x
+cvr_cvw_reply_ven_desc;Venetia has accepted the proposed articles. Its named ratification decision is now available, and ratification will incorporate its territory. War or a new foreign dependency can still prevent completion until the obstacle is resolved.;;;;;;;;;;;;;x
+cvr_cvw_reply_ven_ack;Record the answer and instruct our envoys.;;;;;;;;;;;;;x
+cvr_cvw_refusal_ven_title;Venetia Refuses Accession;;;;;;;;;;;;;x
+cvr_cvw_refusal_ven_desc;Venetia has rejected the articles and will remain independent. Our envoys cannot ratify an accession without its consent. Further unification must proceed through ordinary diplomacy or a separate lawful war claim.;;;;;;;;;;;;;x
+cvr_cvw_refusal_ven_ack;Respect the answer and review our policy.;;;;;;;;;;;;;x
+cvr_1848_expedition_title;Keep the Expedition in Northern Italy;;;;;;;;;;;;;x
+cvr_1848_expedition_desc;The northern rising presents a choice between domestic retreat and an Italian campaign. Keep the expedition in the field and declare war on Austria for the liberation of Lombardy and Venetia. Victory would restore those lands to their Italian states, leaving their later political settlement open. The government must secure the south and arrange military access before its army can march north.;;;;;;;;;;;;;x
+cvr_brothers_title;Contest Piedmont for the Italian Republic;;;;;;;;;;;;;x
+cvr_brothers_desc;Fight for an Italian republic led from Naples. Victory establishes southern leadership and incorporates the remaining Savoyard state through the peace articles. Foreign alliances and protection remain active. Defeat can establish Piedmontese leadership.;;;;;;;;;;;;;x
+cvr_papal_demand_title;Demand a Settlement in the Papal Provinces;;;;;;;;;;;;;x
+cvr_papal_demand_desc;Seek Benevento, Pontecorvo, Perugia and Ancona where they remain papal, with the surviving Papal State under southern protection. The Pope retains his theocratic government. Refusal can lead to a limited war claim, while France may oppose the settlement.;;;;;;;;;;;;;x
+cvr_offer_title;Offer the Common Republican Statute;;;;;;;;;;;;;x
+cvr_offer_desc;Naples offers incorporation into a centralized Italian republic. Regional sovereignty would pass to the common government and its elected institutions. Acceptance authorises annexation when the articles are ratified. Refusal preserves independence. Foreign subjects and states protected by another sphere cannot join through these negotiations.;;;;;;;;;;;;;x
+cvr_ratify_sar_title;Ratify the Accession of Piedmont;;;;;;;;;;;;;x
+cvr_ratify_sar_desc;Piedmont has accepted the republican articles. Ratification incorporates its territory into the common state, governed through the national statute and elected institutions. War or foreign protection can still prevent completion.;;;;;;;;;;;;;x
+cvr_ratify_par_title;Ratify the Accession of Parma;;;;;;;;;;;;;x
+cvr_ratify_par_desc;Parma has accepted the republican articles. Ratification incorporates its territory into the common state, governed through the national statute and elected institutions. War or foreign protection can still prevent completion.;;;;;;;;;;;;;x
+cvr_ratify_mod_title;Ratify the Accession of Modena;;;;;;;;;;;;;x
+cvr_ratify_mod_desc;Modena has accepted the republican articles. Ratification incorporates its territory into the common state, governed through the national statute and elected institutions. War or foreign protection can still prevent completion.;;;;;;;;;;;;;x
+cvr_ratify_luc_title;Ratify the Accession of Lucca;;;;;;;;;;;;;x
+cvr_ratify_luc_desc;Lucca has accepted the republican articles. Ratification incorporates its territory into the common state, governed through the national statute and elected institutions. War or foreign protection can still prevent completion.;;;;;;;;;;;;;x
+cvr_ratify_tus_title;Ratify the Accession of Tuscany;;;;;;;;;;;;;x
+cvr_ratify_tus_desc;Tuscany has accepted the republican articles. Ratification incorporates its territory into the common state, governed through the national statute and elected institutions. War or foreign protection can still prevent completion.;;;;;;;;;;;;;x
+cvr_ratify_lom_title;Ratify the Accession of Lombardy;;;;;;;;;;;;;x
+cvr_ratify_lom_desc;Lombardy has accepted the republican articles. Ratification incorporates its territory into the common state, governed through the national statute and elected institutions. War or foreign protection can still prevent completion.;;;;;;;;;;;;;x
+cvr_ratify_ven_title;Ratify the Accession of Venetia;;;;;;;;;;;;;x
+cvr_ratify_ven_desc;Venetia has accepted the republican articles. Ratification incorporates its territory into the common state, governed through the national statute and elected institutions. War or foreign protection can still prevent completion.;;;;;;;;;;;;;x
+cvr_proclaim_title;Proclaim the Southern-led Italian Republic;;;;;;;;;;;;;x
+cvr_proclaim_desc;Proclaim a united Italian republic under the Neapolitan republican mandate. Participating territories must already stand under our government, apart from the protected Papal principality and the remaining northern questions. The Pope keeps his government until a separate Roman agreement.;;;;;;;;;;;;;x
+cvr_cvo_articles_constitutional_title;The Republican Peace Articles;;;;;;;;;;;;;x
+cvr_cvo_articles_constitutional_desc;The victory is laid before the elected institutions and published for the country to read. Ministers propose a common statute, responsible administration and a national assembly through which the incorporated provinces can be heard. Accession articles will now carry these commitments to the Italian governments still outside the union. Each must answer, and its agreement must be ratified before incorporation. Deputies insist that the treatment of Piedmont set a standard for the rest of Italy: the republic has won the initiative in war, but public law must make that victory durable. Rome's temporal government and the outlying Papal provinces remain matters for a separate settlement.;;;;;;;;;;;;;x
+cvr_cvo_articles_constitutional_ack;Approve the statute and dispatch the accession proposals.;;;;;;;;;;;;;x
+cvr_conference_title;Convene the Italian Peace Conference;;;;;;;;;;;;;x
+cvr_conference_desc;Victory has settled the leadership dispute, but the peace needs institutions. Convene the delegates to publish the settlement under our chosen political programme. The conference establishes a framework for diplomacy and administration, accession still requires the consent and ratification of each participating state.;;;;;;;;;;;;;x
+cvr_CVL_LEADERSHIP_WAR_NAME;The Italian Leadership War;;;;;;;;;;;;;x
+cvr_leadership;Recognise Southern Italian Leadership;;;;;;;;;;;;;x
+cvr_leadership_short;Recognise Southern Leadership;;;;;;;;;;;;;x
+cvr_leadership_desc;Compel Piedmont to recognise the southern Italian initiative. Enforce this recognition as a peace term, then ratify the republican compact. This earlier leadership war preserves Piedmontese sovereignty. Incorporation belongs to the later Brothers' War.;;;;;;;;;;;;;x
+cvr_leadership_setup;The defeated Piedmontese crown will recognise the southern Italian initiative, allowing the political compact to be ratified.;;;;;;;;;;;;;x
+cvr_cvw_brothers_war;The Italian Brothers' War;;;;;;;;;;;;;x
+cvr_brothers;Italian Brothers War;;;;;;;;;;;;;x
+cvr_brothers_short;Italian Brothers War;;;;;;;;;;;;;x
+cvr_brothers_setup;Southern victory breaks the Savoyard sphere and incorporates the remaining Savoyard republic. Piedmontese victory instead enforces recognition of its leadership.;;;;;;;;;;;;;x
+cvr_chapter_window;The Naples Leadership Initiative;;;;;;;;;;;;;x
+cvr_chapter_window_desc;The cabinet is pursuing a time-limited initiative to establish an agreed Italian leadership.;;;;;;;;;;;;;x
+cvr_preparations;Depots for the Northern Campaign;;;;;;;;;;;;;x
+cvr_preparations_desc;Inspections, supply reserves and transport contracts improve readiness while occupying revenue officials.;;;;;;;;;;;;;x
+cvr_challenge_window;The Earlier Dispute with Piedmont;;;;;;;;;;;;;x
+cvr_challenge_window_desc;Piedmont has rejected our claim to leadership. This temporary ultimatum permits a war for recognition, leaving the Savoyard state independent. Its expiry does not prevent the full Brothers' War from March 1860.;;;;;;;;;;;;;x
+cvr_recovery;A Leadership Bid Exhausted;;;;;;;;;;;;;x
+cvr_recovery_desc;The cabinet must restore confidence after failing to secure an Italian settlement.;;;;;;;;;;;;;x
+cvr_republican_compact;The Republican Leadership Compact;;;;;;;;;;;;;x
+cvr_republican_compact_desc;Published ministerial commitments give the southern republican programme greater administrative credibility.;;;;;;;;;;;;;x
+cvr_republican_articles;The Republican Peace Articles;;;;;;;;;;;;;x
+cvr_republican_articles_desc;The peace is to be laid before the elected institutions and published for the country to read. Ministers propose a commission to prepare the accession instruments and examine the business of national consolidation. Its proceedings must give the common statute a place in affairs that might otherwise be settled by private correspondence between courts. Deputies will ask who answers for expenditure, appointments and the treatment of the newly incorporated provinces. The victorious republic has secured the initiative in Italy. Its ministers must now show that the government they offer can give the treaty a durable footing in public law.;;;;;;;;;;;;;x
+cvr_congress_seen;Congress seen;;;;;;;;;;;;;x
+cvr_path_republican;Path republican;;;;;;;;;;;;;x
+cvr_started;Started;;;;;;;;;;;;;x
+cvr_closed;Closed;;;;;;;;;;;;;x
+cvr_settled;Settled;;;;;;;;;;;;;x
+cvr_congress_pending;Congress pending;;;;;;;;;;;;;x
+cvr_ult_pending;Ult pending;;;;;;;;;;;;;x
+cvr_congress_refused;Congress refused;;;;;;;;;;;;;x
+cvr_congress_accepted;Congress accepted;;;;;;;;;;;;;x
+cvr_leadership_earned;Leadership earned;;;;;;;;;;;;;x
+cvr_refusal_reported;Refusal reported;;;;;;;;;;;;;x
+cvr_rejected;Rejected;;;;;;;;;;;;;x
+cvr_settlement_pending;Settlement pending;;;;;;;;;;;;;x
+cvr_ult_seen;Ult seen;;;;;;;;;;;;;x
+cvr_ult_refused;Ult refused;;;;;;;;;;;;;x
+cvr_cb_issued;Cb issued;;;;;;;;;;;;;x
+cvr_war_committed;War committed;;;;;;;;;;;;;x
+cvr_war_reported;War reported;;;;;;;;;;;;;x
+cvr_settled_republican;Settled republican;;;;;;;;;;;;;x
+cvr_settlement_seen;Settlement seen;;;;;;;;;;;;;x
+cvw_seen_republican;Seen republican;;;;;;;;;;;;;x
+cvw_offered_republican;Offered republican;;;;;;;;;;;;;x
+cvw_consent_republican;Consent republican;;;;;;;;;;;;;x
+cvw_refused_republican;Refused republican;;;;;;;;;;;;;x
+cvr_prepared;Prepared;;;;;;;;;;;;;x
+cvr_ult_sent;Ult sent;;;;;;;;;;;;;x
+cvw_war_path_republican;War path republican;;;;;;;;;;;;;x
+cvr_republic_formation_pending;Republic formation pending;;;;;;;;;;;;;x
+cvr_recognised_by_treaty;Recognised by treaty;;;;;;;;;;;;;x
+cvr_military_recognition;Military recognition;;;;;;;;;;;;;x

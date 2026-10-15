@@ -1,0 +1,17 @@
+FF110_CLAIM_TITLE;The Disputed Philippolis Claim;;;;;;;;;;;;;x
+FF110_CLAIM_DESC;The Griqua council still governs Philippolis. The Orange administration defers its territorial claim while a negotiated settlement remains possible.;;;;;;;;;;;;;x
+FF110_DEFER;Leave the council in possession pending an agreement.;;;;;;;;;;;;;x
+FF110_OFFER_TITLE;Philippolis After the War;;;;;;;;;;;;;x
+FF110_OFFER_DESC;The Free State acquired Philippolis through war. This conquest did not settle the Griqua council's rights or provide for the community's future. In 1861 the government can offer compensation and seek the council's agreement to a western administration and an eastern settlement.;;;;;;;;;;;;;x
+FF110_OFFER;Offer compensation and ask the council to agree.;;;;;;;;;;;;;x
+FF110_RETAIN;Retain the conquest without an agreement.;;;;;;;;;;;;;x
+FF110_COUNCIL_TITLE;The Council Considers Compensation;;;;;;;;;;;;;x
+FF110_COUNCIL_DESC;Philippolis has already passed to the Free State through war. Its commissioners now offer compensation for an agreed settlement of the council's rights. Acceptance would establish a western Griqua administration and allow families to seek permission to settle near Kokstad. The council may decline the offer.;;;;;;;;;;;;;x
+FF110_ACCEPT;Accept compensation and establish the western council.;;;;;;;;;;;;;x
+FF110_REFUSE;Decline the agreement and retain our claims.;;;;;;;;;;;;;x
+FF110_CLOSED_TITLE;The Philippolis Mission Closes;;;;;;;;;;;;;x
+FF110_CLOSED_DESC;The mission cannot conclude its proposed agreement under the present circumstances. The reserved funds return to the Free State treasury. No rights settlement or migration has been authorised.;;;;;;;;;;;;;x
+FF110_CLOSE;Close the mission and recover the reserved funds.;;;;;;;;;;;;;x
+FF110_REPORT_TITLE;The Philippolis Rights Agreement;;;;;;;;;;;;;x
+FF110_REPORT_DESC;The Free State took Philippolis during an earlier war. The Griqua council has now accepted compensation and agreed to settle its rights. Its remaining western districts receive their own administration. Families seeking a new home near Kokstad must still obtain the eastern host's consent.;;;;;;;;;;;;;x
+FF110_RECORD;Record the agreement following the conquest.;;;;;;;;;;;;;x

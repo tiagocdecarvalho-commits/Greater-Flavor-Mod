@@ -1,0 +1,4416 @@
+political_decisions = {
+    cvg2_north = {
+        picture = cvo_princes
+        potential = {
+            tag = NET
+            ai = no
+            has_country_flag = cvg2_struggle
+            is_greater_power = yes
+            NOT = {
+                has_country_flag = cvg2_north
+                exists = NGF
+                exists = GER
+                exists = GCF
+                exists = OGE
+            }
+        }
+        allow = {
+            war = no
+            is_vassal = no
+            nationalism_n_imperialism = 1
+            owns = 375
+            GER = {
+                all_core = {
+                    OR = {
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_greater_power = no
+                            }
+                        }
+                        NOT = {
+                            culture = north_german
+                        }
+                    }
+                }
+            }
+            NOT = {
+                OR = {
+                    has_country_flag = cvo_trade_HAN_pending
+                    has_country_flag = cvo_league_HAN_pending
+                    has_country_flag = cvo_integrated_HAN_pending
+                    has_country_flag = cvo_trade_NAS_pending
+                    has_country_flag = cvo_league_NAS_pending
+                    has_country_flag = cvo_integrated_NAS_pending
+                    has_country_flag = cvo_trade_HES_pending
+                    has_country_flag = cvo_league_HES_pending
+                    has_country_flag = cvo_integrated_HES_pending
+                    has_country_flag = cvo_trade_HEK_pending
+                    has_country_flag = cvo_league_HEK_pending
+                    has_country_flag = cvo_integrated_HEK_pending
+                    has_country_flag = cvo_trade_BAV_pending
+                    has_country_flag = cvo_league_BAV_pending
+                    has_country_flag = cvo_integrated_BAV_pending
+                    has_country_flag = cvo_trade_SAX_pending
+                    has_country_flag = cvo_league_SAX_pending
+                    has_country_flag = cvo_integrated_SAX_pending
+                    has_country_flag = cvo_trade_WUR_pending
+                    has_country_flag = cvo_league_WUR_pending
+                    has_country_flag = cvo_integrated_WUR_pending
+                    has_country_flag = cvo_trade_BAD_pending
+                    has_country_flag = cvo_league_BAD_pending
+                    has_country_flag = cvo_integrated_BAD_pending
+                    has_country_flag = cvo_trade_BRE_pending
+                    has_country_flag = cvo_league_BRE_pending
+                    has_country_flag = cvo_integrated_BRE_pending
+                    has_country_flag = cvo_trade_HAM_pending
+                    has_country_flag = cvo_league_HAM_pending
+                    has_country_flag = cvo_integrated_HAM_pending
+                    has_country_flag = cvo_trade_LUB_pending
+                    has_country_flag = cvo_league_LUB_pending
+                    has_country_flag = cvo_integrated_LUB_pending
+                    has_country_flag = cvo_trade_FRM_pending
+                    has_country_flag = cvo_league_FRM_pending
+                    has_country_flag = cvo_integrated_FRM_pending
+                    has_country_flag = cvo_frankfurt_prussia_pending
+                    has_country_flag = cvo_backing_ENG_pending
+                    has_country_flag = cvo_backing_FRA_pending
+                    has_country_flag = cvo_backing_AUS_pending
+                    has_country_flag = cvo_backing_RUS_pending
+                    has_country_flag = cvo_leadership_PRU_pending
+                    has_country_flag = cvo_leadership_NGF_pending
+                }
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = NET
+                        ai = no
+                        has_country_flag = cvg2_struggle
+                        is_greater_power = yes
+                        NOT = {
+                            has_country_flag = cvg2_north
+                            exists = NGF
+                            exists = GER
+                            exists = GCF
+                            exists = OGE
+                        }
+                        war = no
+                        is_vassal = no
+                        nationalism_n_imperialism = 1
+                        owns = 375
+                        GER = {
+                            all_core = {
+                                OR = {
+                                    OR = {
+                                        owned_by = THIS
+                                        owner = {
+                                            in_sphere = THIS
+                                            OR = {
+                                                is_vassal = no
+                                                vassal_of = THIS
+                                            }
+                                            war = no
+                                            is_greater_power = no
+                                        }
+                                    }
+                                    NOT = {
+                                        culture = north_german
+                                    }
+                                }
+                            }
+                        }
+                        NOT = {
+                            OR = {
+                                has_country_flag = cvo_trade_HAN_pending
+                                has_country_flag = cvo_league_HAN_pending
+                                has_country_flag = cvo_integrated_HAN_pending
+                                has_country_flag = cvo_trade_NAS_pending
+                                has_country_flag = cvo_league_NAS_pending
+                                has_country_flag = cvo_integrated_NAS_pending
+                                has_country_flag = cvo_trade_HES_pending
+                                has_country_flag = cvo_league_HES_pending
+                                has_country_flag = cvo_integrated_HES_pending
+                                has_country_flag = cvo_trade_HEK_pending
+                                has_country_flag = cvo_league_HEK_pending
+                                has_country_flag = cvo_integrated_HEK_pending
+                                has_country_flag = cvo_trade_BAV_pending
+                                has_country_flag = cvo_league_BAV_pending
+                                has_country_flag = cvo_integrated_BAV_pending
+                                has_country_flag = cvo_trade_SAX_pending
+                                has_country_flag = cvo_league_SAX_pending
+                                has_country_flag = cvo_integrated_SAX_pending
+                                has_country_flag = cvo_trade_WUR_pending
+                                has_country_flag = cvo_league_WUR_pending
+                                has_country_flag = cvo_integrated_WUR_pending
+                                has_country_flag = cvo_trade_BAD_pending
+                                has_country_flag = cvo_league_BAD_pending
+                                has_country_flag = cvo_integrated_BAD_pending
+                                has_country_flag = cvo_trade_BRE_pending
+                                has_country_flag = cvo_league_BRE_pending
+                                has_country_flag = cvo_integrated_BRE_pending
+                                has_country_flag = cvo_trade_HAM_pending
+                                has_country_flag = cvo_league_HAM_pending
+                                has_country_flag = cvo_integrated_HAM_pending
+                                has_country_flag = cvo_trade_LUB_pending
+                                has_country_flag = cvo_league_LUB_pending
+                                has_country_flag = cvo_integrated_LUB_pending
+                                has_country_flag = cvo_trade_FRM_pending
+                                has_country_flag = cvo_league_FRM_pending
+                                has_country_flag = cvo_integrated_FRM_pending
+                                has_country_flag = cvo_frankfurt_prussia_pending
+                                has_country_flag = cvo_backing_ENG_pending
+                                has_country_flag = cvo_backing_FRA_pending
+                                has_country_flag = cvo_backing_AUS_pending
+                                has_country_flag = cvo_backing_RUS_pending
+                                has_country_flag = cvo_leadership_PRU_pending
+                                has_country_flag = cvo_leadership_NGF_pending
+                            }
+                        }
+                    }
+                }
+                owner = {
+                    set_country_flag = cvg2_north
+                    set_country_flag = cvo_federation
+                    set_country_flag = cvo_dutch_consent
+                    set_country_flag = cvo_prussian_consent
+                    political_reform = federalism
+                    prestige = 15
+                    add_accepted_culture = baltic_german
+                    add_accepted_culture = cimbrian
+                    add_accepted_culture = crimean_german
+                    add_accepted_culture = hunsrik
+                    add_accepted_culture = north_german
+                    add_accepted_culture = pennsylvania_dutch
+                    add_accepted_culture = poland_german
+                    add_accepted_culture = sibirian_german
+                    add_accepted_culture = south_german
+                    add_accepted_culture = volga_german
+                    add_accepted_culture = yenish
+                    random_owned = {
+                        limit = {
+                            owner = {
+                                OR = {
+                                    government = absolute_monarchy
+                                    government = absolute_empire
+                                }
+                            }
+                        }
+                        owner = {
+                            government = cvg2_north_absolute
+                        }
+                    }
+                    random_owned = {
+                        limit = {
+                            owner = {
+                                OR = {
+                                    government = prussian_constitutionalism
+                                    government = semi_constitutional_empire
+                                }
+                            }
+                        }
+                        owner = {
+                            government = cvg2_north_semi
+                        }
+                    }
+                    random_owned = {
+                        limit = {
+                            owner = {
+                                NOT = {
+                                    government = cvg2_north_absolute
+                                    government = cvg2_north_semi
+                                }
+                            }
+                        }
+                        owner = {
+                            government = cvg2_north_constitutional
+                        }
+                    }
+                    any_country = {
+                        limit = {
+                            exists = yes
+                            in_sphere = THIS
+                            is_greater_power = no
+                            war = no
+                            OR = {
+                                primary_culture = north_german
+                                tag = SCH
+                            }
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            NOT = {
+                                tag = THIS
+                                tag = UBD
+                                tag = LAT
+                                tag = EST
+                                has_country_flag = post_colonial_country
+                            }
+                        }
+                        all_core = {
+                            add_core = NET
+                        }
+                        annex_to = THIS
+                    }
+                    any_owned = {
+                        limit = {
+                            is_core = GER
+                        }
+                        add_core = NET
+                    }
+                    add_accepted_culture = flemish
+                    add_accepted_culture = frisian
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cvg2_hurrahs = {
+        picture = cvo_frankfurt
+        potential = {
+            tag = NET
+            ai = no
+            has_country_flag = cvg2_north
+            NOT = {
+                exists = GER
+                exists = GCF
+                exists = OGE
+            }
+        }
+        allow = {
+            prestige = 45
+            nationalism_n_imperialism = 1
+            is_greater_power = yes
+            NOT = {
+                war_with = FRA
+                war_with = BOR
+            }
+            OR = {
+                has_country_flag = ems_dispatch_sent
+                has_global_flag = germany_has_rename_elsass
+                ALS = {
+                    all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_greater_power = no
+                            }
+                        }
+                    }
+                }
+            }
+            OR = {
+                GER = {
+                    all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_greater_power = no
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    NGF = {
+                        all_core = {
+                            OR = {
+                                owned_by = THIS
+                                owner = {
+                                    in_sphere = THIS
+                                    OR = {
+                                        is_vassal = no
+                                        vassal_of = THIS
+                                    }
+                                    war = no
+                                    is_greater_power = no
+                                }
+                            }
+                        }
+                    }
+                    OR = {
+                        BAV = {
+                            is_greater_power = yes
+                            ai = yes
+                            NOT = {
+                                rank = 8
+                            }
+                        }
+                        AND = {
+                            OR = {
+                                AND = {
+                                    NGF = {
+                                        exists = yes
+                                        ai = yes
+                                    }
+                                }
+                                AND = {
+                                    NET = {
+                                        exists = yes
+                                        has_country_flag = cvg2_north
+                                    }
+                                    NET = {
+                                        exists = yes
+                                        ai = yes
+                                    }
+                                }
+                            }
+                            BAV = {
+                                ai = yes
+                                is_greater_power = yes
+                            }
+                        }
+                        BAV = {
+                            ai = yes
+                            is_greater_power = no
+                            part_of_sphere = no
+                        }
+                        BAV = {
+                            all_core = {
+                                OR = {
+                                    owned_by = THIS
+                                    owner = {
+                                        in_sphere = THIS
+                                        OR = {
+                                            is_vassal = no
+                                            vassal_of = THIS
+                                        }
+                                        war = no
+                                        is_greater_power = no
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    WUR = {
+                        all_core = {
+                            OR = {
+                                owned_by = THIS
+                                owner = {
+                                    in_sphere = THIS
+                                    OR = {
+                                        is_vassal = no
+                                        vassal_of = THIS
+                                    }
+                                    war = no
+                                    is_greater_power = no
+                                }
+                            }
+                        }
+                    }
+                    BAD = {
+                        all_core = {
+                            OR = {
+                                owned_by = THIS
+                                owner = {
+                                    in_sphere = THIS
+                                    OR = {
+                                        is_vassal = no
+                                        vassal_of = THIS
+                                    }
+                                    war = no
+                                    is_greater_power = no
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            war = no
+            NOT = {
+                exists = OGE
+            }
+            NOT = {
+                OR = {
+                    has_country_flag = cvo_trade_HAN_pending
+                    has_country_flag = cvo_league_HAN_pending
+                    has_country_flag = cvo_integrated_HAN_pending
+                    has_country_flag = cvo_trade_NAS_pending
+                    has_country_flag = cvo_league_NAS_pending
+                    has_country_flag = cvo_integrated_NAS_pending
+                    has_country_flag = cvo_trade_HES_pending
+                    has_country_flag = cvo_league_HES_pending
+                    has_country_flag = cvo_integrated_HES_pending
+                    has_country_flag = cvo_trade_HEK_pending
+                    has_country_flag = cvo_league_HEK_pending
+                    has_country_flag = cvo_integrated_HEK_pending
+                    has_country_flag = cvo_trade_BAV_pending
+                    has_country_flag = cvo_league_BAV_pending
+                    has_country_flag = cvo_integrated_BAV_pending
+                    has_country_flag = cvo_trade_SAX_pending
+                    has_country_flag = cvo_league_SAX_pending
+                    has_country_flag = cvo_integrated_SAX_pending
+                    has_country_flag = cvo_trade_WUR_pending
+                    has_country_flag = cvo_league_WUR_pending
+                    has_country_flag = cvo_integrated_WUR_pending
+                    has_country_flag = cvo_trade_BAD_pending
+                    has_country_flag = cvo_league_BAD_pending
+                    has_country_flag = cvo_integrated_BAD_pending
+                    has_country_flag = cvo_trade_BRE_pending
+                    has_country_flag = cvo_league_BRE_pending
+                    has_country_flag = cvo_integrated_BRE_pending
+                    has_country_flag = cvo_trade_HAM_pending
+                    has_country_flag = cvo_league_HAM_pending
+                    has_country_flag = cvo_integrated_HAM_pending
+                    has_country_flag = cvo_trade_LUB_pending
+                    has_country_flag = cvo_league_LUB_pending
+                    has_country_flag = cvo_integrated_LUB_pending
+                    has_country_flag = cvo_trade_FRM_pending
+                    has_country_flag = cvo_league_FRM_pending
+                    has_country_flag = cvo_integrated_FRM_pending
+                    has_country_flag = cvo_frankfurt_prussia_pending
+                    has_country_flag = cvo_backing_ENG_pending
+                    has_country_flag = cvo_backing_FRA_pending
+                    has_country_flag = cvo_backing_AUS_pending
+                    has_country_flag = cvo_backing_RUS_pending
+                    has_country_flag = cvo_leadership_PRU_pending
+                    has_country_flag = cvo_leadership_NGF_pending
+                }
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = NET
+                        ai = no
+                        has_country_flag = cvg2_north
+                        NOT = {
+                            exists = GER
+                            exists = GCF
+                            exists = OGE
+                        }
+                        prestige = 45
+                        nationalism_n_imperialism = 1
+                        is_greater_power = yes
+                        NOT = {
+                            war_with = FRA
+                            war_with = BOR
+                        }
+                        OR = {
+                            has_country_flag = ems_dispatch_sent
+                            has_global_flag = germany_has_rename_elsass
+                            ALS = {
+                                all_core = {
+                                    OR = {
+                                        owned_by = THIS
+                                        owner = {
+                                            in_sphere = THIS
+                                            OR = {
+                                                is_vassal = no
+                                                vassal_of = THIS
+                                            }
+                                            war = no
+                                            is_greater_power = no
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        OR = {
+                            GER = {
+                                all_core = {
+                                    OR = {
+                                        owned_by = THIS
+                                        owner = {
+                                            in_sphere = THIS
+                                            OR = {
+                                                is_vassal = no
+                                                vassal_of = THIS
+                                            }
+                                            war = no
+                                            is_greater_power = no
+                                        }
+                                    }
+                                }
+                            }
+                            AND = {
+                                NGF = {
+                                    all_core = {
+                                        OR = {
+                                            owned_by = THIS
+                                            owner = {
+                                                in_sphere = THIS
+                                                OR = {
+                                                    is_vassal = no
+                                                    vassal_of = THIS
+                                                }
+                                                war = no
+                                                is_greater_power = no
+                                            }
+                                        }
+                                    }
+                                }
+                                OR = {
+                                    BAV = {
+                                        is_greater_power = yes
+                                        ai = yes
+                                        NOT = {
+                                            rank = 8
+                                        }
+                                    }
+                                    AND = {
+                                        OR = {
+                                            AND = {
+                                                NGF = {
+                                                    exists = yes
+                                                    ai = yes
+                                                }
+                                            }
+                                            AND = {
+                                                NET = {
+                                                    exists = yes
+                                                    has_country_flag = cvg2_north
+                                                }
+                                                NET = {
+                                                    exists = yes
+                                                    ai = yes
+                                                }
+                                            }
+                                        }
+                                        BAV = {
+                                            ai = yes
+                                            is_greater_power = yes
+                                        }
+                                    }
+                                    BAV = {
+                                        ai = yes
+                                        is_greater_power = no
+                                        part_of_sphere = no
+                                    }
+                                    BAV = {
+                                        all_core = {
+                                            OR = {
+                                                owned_by = THIS
+                                                owner = {
+                                                    in_sphere = THIS
+                                                    OR = {
+                                                        is_vassal = no
+                                                        vassal_of = THIS
+                                                    }
+                                                    war = no
+                                                    is_greater_power = no
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                WUR = {
+                                    all_core = {
+                                        OR = {
+                                            owned_by = THIS
+                                            owner = {
+                                                in_sphere = THIS
+                                                OR = {
+                                                    is_vassal = no
+                                                    vassal_of = THIS
+                                                }
+                                                war = no
+                                                is_greater_power = no
+                                            }
+                                        }
+                                    }
+                                }
+                                BAD = {
+                                    all_core = {
+                                        OR = {
+                                            owned_by = THIS
+                                            owner = {
+                                                in_sphere = THIS
+                                                OR = {
+                                                    is_vassal = no
+                                                    vassal_of = THIS
+                                                }
+                                                war = no
+                                                is_greater_power = no
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        war = no
+                        NOT = {
+                            exists = OGE
+                        }
+                        NOT = {
+                            OR = {
+                                has_country_flag = cvo_trade_HAN_pending
+                                has_country_flag = cvo_league_HAN_pending
+                                has_country_flag = cvo_integrated_HAN_pending
+                                has_country_flag = cvo_trade_NAS_pending
+                                has_country_flag = cvo_league_NAS_pending
+                                has_country_flag = cvo_integrated_NAS_pending
+                                has_country_flag = cvo_trade_HES_pending
+                                has_country_flag = cvo_league_HES_pending
+                                has_country_flag = cvo_integrated_HES_pending
+                                has_country_flag = cvo_trade_HEK_pending
+                                has_country_flag = cvo_league_HEK_pending
+                                has_country_flag = cvo_integrated_HEK_pending
+                                has_country_flag = cvo_trade_BAV_pending
+                                has_country_flag = cvo_league_BAV_pending
+                                has_country_flag = cvo_integrated_BAV_pending
+                                has_country_flag = cvo_trade_SAX_pending
+                                has_country_flag = cvo_league_SAX_pending
+                                has_country_flag = cvo_integrated_SAX_pending
+                                has_country_flag = cvo_trade_WUR_pending
+                                has_country_flag = cvo_league_WUR_pending
+                                has_country_flag = cvo_integrated_WUR_pending
+                                has_country_flag = cvo_trade_BAD_pending
+                                has_country_flag = cvo_league_BAD_pending
+                                has_country_flag = cvo_integrated_BAD_pending
+                                has_country_flag = cvo_trade_BRE_pending
+                                has_country_flag = cvo_league_BRE_pending
+                                has_country_flag = cvo_integrated_BRE_pending
+                                has_country_flag = cvo_trade_HAM_pending
+                                has_country_flag = cvo_league_HAM_pending
+                                has_country_flag = cvo_integrated_HAM_pending
+                                has_country_flag = cvo_trade_LUB_pending
+                                has_country_flag = cvo_league_LUB_pending
+                                has_country_flag = cvo_integrated_LUB_pending
+                                has_country_flag = cvo_trade_FRM_pending
+                                has_country_flag = cvo_league_FRM_pending
+                                has_country_flag = cvo_integrated_FRM_pending
+                                has_country_flag = cvo_frankfurt_prussia_pending
+                                has_country_flag = cvo_backing_ENG_pending
+                                has_country_flag = cvo_backing_FRA_pending
+                                has_country_flag = cvo_backing_AUS_pending
+                                has_country_flag = cvo_backing_RUS_pending
+                                has_country_flag = cvo_leadership_PRU_pending
+                                has_country_flag = cvo_leadership_NGF_pending
+                            }
+                        }
+                    }
+                }
+                owner = {
+                    any_country = {
+                        limit = {
+                            exists = yes
+                            in_sphere = THIS
+                            is_greater_power = no
+                            war = no
+                            OR = {
+                                is_culture_group = germanic
+                                tag = SCH
+                            }
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            NOT = {
+                                tag = THIS
+                                tag = AUS
+                                tag = AUB
+                                tag = KUK
+                                tag = DNB
+                                tag = SWI
+                                tag = UBD
+                                tag = LAT
+                                tag = EST
+                                tag = LIE
+                                tag = SIE
+                                tag = BAN
+                                has_country_flag = post_colonial_country
+                            }
+                        }
+                        all_core = {
+                            add_core = NET
+                        }
+                        annex_to = THIS
+                    }
+                    set_country_flag = cvg2_constitution_remembered
+                    random_owned = {
+                        limit = {
+                            owner = {
+                                government = cvg2_north_absolute
+                            }
+                        }
+                        owner = {
+                            set_country_flag = cvg2_remember_absolute
+                        }
+                    }
+                    random_owned = {
+                        limit = {
+                            owner = {
+                                government = cvg2_north_semi
+                            }
+                        }
+                        owner = {
+                            set_country_flag = cvg2_remember_semi
+                        }
+                    }
+                    set_country_flag = cvo_origin
+                    set_country_flag = cvo_empire
+                    any_owned = {
+                        limit = {
+                            continent = europe
+                            is_core = GER
+                        }
+                        add_core = OGE
+                    }
+                    any_country = {
+                        limit = {
+                            vassal_of = NET
+                        }
+                        set_country_flag = cvo_transfer_subject
+                    }
+                    change_tag = OGE
+                    government = cvo_constitutional
+                    capital = 375
+                    OGE = {
+                        any_country = {
+                            limit = {
+                                has_country_flag = cvo_transfer_subject
+                            }
+                            country_event = {
+                                id = 9911001
+                                days = 1
+                            }
+                        }
+                    }
+                    prestige = 15
+                    add_accepted_culture = baltic_german
+                    add_accepted_culture = cimbrian
+                    add_accepted_culture = crimean_german
+                    add_accepted_culture = hunsrik
+                    add_accepted_culture = north_german
+                    add_accepted_culture = pennsylvania_dutch
+                    add_accepted_culture = poland_german
+                    add_accepted_culture = sibirian_german
+                    add_accepted_culture = south_german
+                    add_accepted_culture = volga_german
+                    add_accepted_culture = yenish
+                    set_country_flag = cvg2_struggle
+                    set_global_flag = 3hurrahs
+                    GER = {
+                        all_core = {
+                            add_core = OGE
+                        }
+                    }
+                    FRA_412 = {
+                        add_core = OGE
+                    }
+                    random_owned = {
+                        limit = {
+                            owner = {
+                                has_country_flag = cvg2_remember_absolute
+                            }
+                        }
+                        owner = {
+                            government = cvo_absolute
+                            clr_country_flag = cvg2_remember_absolute
+                        }
+                    }
+                    random_owned = {
+                        limit = {
+                            owner = {
+                                has_country_flag = cvg2_remember_semi
+                            }
+                        }
+                        owner = {
+                            government = cvo_semi
+                            clr_country_flag = cvg2_remember_semi
+                        }
+                    }
+                    add_accepted_culture = flemish
+                    add_accepted_culture = frisian
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cvg2_claims = {
+        picture = cvo_princes
+        potential = {
+            tag = OGE
+            ai = no
+            NOT = {
+                has_country_flag = cvg2_western_claims
+            }
+        }
+        allow = {
+            war = no
+            is_greater_power = yes
+            nationalism_n_imperialism = 1
+            prestige = 50
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = OGE
+                        ai = no
+                        NOT = {
+                            has_country_flag = cvg2_western_claims
+                        }
+                        war = no
+                        is_greater_power = yes
+                        nationalism_n_imperialism = 1
+                        prestige = 50
+                    }
+                }
+                owner = {
+                    set_country_flag = cvg2_western_claims
+                    FLA = {
+                        all_core = {
+                            add_core = OGE
+                        }
+                    }
+                    FRA_412 = {
+                        add_core = OGE
+                    }
+                    badboy = 5
+                    relation = {
+                        who = BEL
+                        value = -100
+                    }
+                    relation = {
+                        who = FRA
+                        value = -100
+                    }
+                    relation = {
+                        who = ENG
+                        value = -75
+                    }
+                    clr_country_flag = cvo_asian_guarantees
+                    clr_country_flag = cvo_backing_ENG_done
+                    clr_country_flag = cvo_backing_FRA_done
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cvg2_challenge_PRU = {
+        picture = cvo_bautersem
+        potential = {
+            tag = NET
+            ai = no
+            has_country_flag = cvg2_struggle
+            is_greater_power = yes
+            PRU = {
+                exists = yes
+                is_greater_power = yes
+            }
+        }
+        allow = {
+            nationalism_n_imperialism = 1
+            war = no
+            is_vassal = no
+            is_disarmed = no
+            NOT = {
+                truce_with = PRU
+                alliance_with = PRU
+                has_country_modifier = neutrality_modifier
+            }
+            PRU = {
+                is_vassal = no
+                NOT = {
+                    has_country_modifier = neutrality_modifier
+                }
+            }
+            OR = {
+                ALS = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                ANH = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                ATB = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BAD = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BAN = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BAV = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BRA = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BRE = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BRN = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                COB = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                DZG = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                EST = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                FRK = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                FRM = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HAM = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HAN = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HEK = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HES = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HOL = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LAT = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LIE = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LIP = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LOR = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LUB = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LUX = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                MEC = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                MEI = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                MST = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                NAS = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                NCT = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                NGF = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                OLD = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                PAL = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                POM = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                PRU = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                REU = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                RHI = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SAA = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SAX = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SCL = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SGF = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SGM = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SWG = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SWH = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SWI = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                UBD = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                WEI = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                WES = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                WLD = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                WUR = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+            }
+            PRU = {
+                OR = {
+                    ALS = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    ANH = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    ATB = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    BAD = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    BAN = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    BAV = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    BRA = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    BRE = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    BRN = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    COB = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    DZG = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    EST = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    FRK = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    FRM = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    HAM = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    HAN = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    HEK = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    HES = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    HOL = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    LAT = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    LIE = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    LIP = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    LOR = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    LUB = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    LUX = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    MEC = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    MEI = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    MST = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    NAS = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    NCT = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    NGF = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    OLD = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    PAL = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    POM = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    PRU = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    REU = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    RHI = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    SAA = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    SAX = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    SCL = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    SGF = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    SGM = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    SWG = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    SWH = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    SWI = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    UBD = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    WEI = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    WES = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    WLD = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                    WUR = {
+                        exists = yes
+                        in_sphere = PRU
+                        is_greater_power = no
+                    }
+                }
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = NET
+                        ai = no
+                        has_country_flag = cvg2_struggle
+                        is_greater_power = yes
+                        PRU = {
+                            exists = yes
+                            is_greater_power = yes
+                        }
+                        nationalism_n_imperialism = 1
+                        war = no
+                        is_vassal = no
+                        is_disarmed = no
+                        NOT = {
+                            truce_with = PRU
+                            alliance_with = PRU
+                            has_country_modifier = neutrality_modifier
+                        }
+                        PRU = {
+                            is_vassal = no
+                            NOT = {
+                                has_country_modifier = neutrality_modifier
+                            }
+                        }
+                        OR = {
+                            ALS = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            ANH = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            ATB = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BAD = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BAN = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BAV = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BRA = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BRE = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BRN = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            COB = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            DZG = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            EST = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            FRK = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            FRM = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HAM = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HAN = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HEK = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HES = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HOL = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LAT = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LIE = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LIP = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LOR = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LUB = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LUX = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            MEC = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            MEI = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            MST = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            NAS = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            NCT = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            NGF = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            OLD = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            PAL = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            POM = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            PRU = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            REU = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            RHI = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SAA = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SAX = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SCL = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SGF = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SGM = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SWG = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SWH = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SWI = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            UBD = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            WEI = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            WES = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            WLD = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            WUR = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                        }
+                        PRU = {
+                            OR = {
+                                ALS = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                ANH = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                ATB = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                BAD = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                BAN = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                BAV = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                BRA = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                BRE = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                BRN = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                COB = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                DZG = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                EST = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                FRK = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                FRM = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                HAM = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                HAN = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                HEK = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                HES = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                HOL = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                LAT = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                LIE = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                LIP = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                LOR = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                LUB = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                LUX = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                MEC = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                MEI = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                MST = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                NAS = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                NCT = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                NGF = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                OLD = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                PAL = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                POM = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                PRU = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                REU = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                RHI = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                SAA = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                SAX = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                SCL = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                SGF = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                SGM = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                SWG = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                SWH = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                SWI = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                UBD = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                WEI = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                WES = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                WLD = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                                WUR = {
+                                    exists = yes
+                                    in_sphere = PRU
+                                    is_greater_power = no
+                                }
+                            }
+                        }
+                    }
+                }
+                owner = {
+                    war = {
+                        target = PRU
+                        attacker_goal = {
+                            casus_belli = cvg2_hegemony_PRU
+                        }
+                        defender_goal = {
+                            casus_belli = cvg2_hegemony_PRU
+                        }
+                        call_ally = yes
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cvg2_challenge_NGF = {
+        picture = cvo_bautersem
+        potential = {
+            tag = NET
+            ai = no
+            has_country_flag = cvg2_struggle
+            is_greater_power = yes
+            NGF = {
+                exists = yes
+                is_greater_power = yes
+            }
+        }
+        allow = {
+            nationalism_n_imperialism = 1
+            war = no
+            is_vassal = no
+            is_disarmed = no
+            NOT = {
+                truce_with = NGF
+                alliance_with = NGF
+                has_country_modifier = neutrality_modifier
+            }
+            NGF = {
+                is_vassal = no
+                NOT = {
+                    has_country_modifier = neutrality_modifier
+                }
+            }
+            OR = {
+                ALS = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                ANH = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                ATB = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BAD = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BAN = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BAV = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BRA = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BRE = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BRN = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                COB = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                DZG = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                EST = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                FRK = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                FRM = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HAM = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HAN = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HEK = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HES = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HOL = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LAT = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LIE = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LIP = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LOR = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LUB = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LUX = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                MEC = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                MEI = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                MST = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                NAS = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                NCT = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                NGF = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                OLD = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                PAL = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                POM = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                PRU = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                REU = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                RHI = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SAA = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SAX = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SCL = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SGF = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SGM = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SWG = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SWH = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SWI = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                UBD = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                WEI = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                WES = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                WLD = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                WUR = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+            }
+            NGF = {
+                OR = {
+                    ALS = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    ANH = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    ATB = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    BAD = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    BAN = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    BAV = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    BRA = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    BRE = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    BRN = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    COB = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    DZG = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    EST = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    FRK = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    FRM = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    HAM = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    HAN = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    HEK = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    HES = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    HOL = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    LAT = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    LIE = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    LIP = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    LOR = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    LUB = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    LUX = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    MEC = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    MEI = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    MST = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    NAS = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    NCT = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    NGF = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    OLD = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    PAL = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    POM = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    PRU = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    REU = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    RHI = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    SAA = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    SAX = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    SCL = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    SGF = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    SGM = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    SWG = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    SWH = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    SWI = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    UBD = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    WEI = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    WES = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    WLD = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                    WUR = {
+                        exists = yes
+                        in_sphere = NGF
+                        is_greater_power = no
+                    }
+                }
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = NET
+                        ai = no
+                        has_country_flag = cvg2_struggle
+                        is_greater_power = yes
+                        NGF = {
+                            exists = yes
+                            is_greater_power = yes
+                        }
+                        nationalism_n_imperialism = 1
+                        war = no
+                        is_vassal = no
+                        is_disarmed = no
+                        NOT = {
+                            truce_with = NGF
+                            alliance_with = NGF
+                            has_country_modifier = neutrality_modifier
+                        }
+                        NGF = {
+                            is_vassal = no
+                            NOT = {
+                                has_country_modifier = neutrality_modifier
+                            }
+                        }
+                        OR = {
+                            ALS = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            ANH = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            ATB = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BAD = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BAN = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BAV = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BRA = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BRE = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BRN = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            COB = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            DZG = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            EST = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            FRK = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            FRM = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HAM = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HAN = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HEK = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HES = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HOL = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LAT = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LIE = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LIP = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LOR = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LUB = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LUX = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            MEC = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            MEI = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            MST = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            NAS = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            NCT = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            NGF = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            OLD = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            PAL = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            POM = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            PRU = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            REU = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            RHI = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SAA = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SAX = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SCL = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SGF = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SGM = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SWG = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SWH = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SWI = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            UBD = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            WEI = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            WES = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            WLD = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            WUR = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                        }
+                        NGF = {
+                            OR = {
+                                ALS = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                ANH = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                ATB = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                BAD = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                BAN = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                BAV = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                BRA = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                BRE = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                BRN = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                COB = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                DZG = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                EST = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                FRK = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                FRM = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                HAM = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                HAN = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                HEK = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                HES = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                HOL = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                LAT = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                LIE = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                LIP = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                LOR = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                LUB = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                LUX = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                MEC = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                MEI = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                MST = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                NAS = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                NCT = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                NGF = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                OLD = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                PAL = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                POM = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                PRU = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                REU = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                RHI = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                SAA = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                SAX = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                SCL = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                SGF = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                SGM = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                SWG = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                SWH = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                SWI = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                UBD = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                WEI = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                WES = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                WLD = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                                WUR = {
+                                    exists = yes
+                                    in_sphere = NGF
+                                    is_greater_power = no
+                                }
+                            }
+                        }
+                    }
+                }
+                owner = {
+                    war = {
+                        target = NGF
+                        attacker_goal = {
+                            casus_belli = cvg2_hegemony_NGF
+                        }
+                        defender_goal = {
+                            casus_belli = cvg2_hegemony_NGF
+                        }
+                        call_ally = yes
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cvg2_challenge_AUS = {
+        picture = cvo_koniggratz
+        potential = {
+            tag = NET
+            ai = no
+            has_country_flag = cvg2_struggle
+            is_greater_power = yes
+            AUS = {
+                exists = yes
+                is_greater_power = yes
+            }
+        }
+        allow = {
+            nationalism_n_imperialism = 1
+            war = no
+            is_vassal = no
+            is_disarmed = no
+            NOT = {
+                truce_with = AUS
+                alliance_with = AUS
+                has_country_modifier = neutrality_modifier
+            }
+            AUS = {
+                is_vassal = no
+                NOT = {
+                    has_country_modifier = neutrality_modifier
+                }
+            }
+            OR = {
+                ALS = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                ANH = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                ATB = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BAD = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BAN = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BAV = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BRA = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BRE = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                BRN = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                COB = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                DZG = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                EST = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                FRK = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                FRM = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HAM = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HAN = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HEK = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HES = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                HOL = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LAT = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LIE = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LIP = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LOR = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LUB = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                LUX = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                MEC = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                MEI = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                MST = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                NAS = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                NCT = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                NGF = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                OLD = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                PAL = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                POM = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                PRU = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                REU = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                RHI = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SAA = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SAX = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SCL = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SGF = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SGM = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SWG = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SWH = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                SWI = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                UBD = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                WEI = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                WES = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                WLD = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+                WUR = {
+                    exists = yes
+                    in_sphere = NET
+                    is_greater_power = no
+                }
+            }
+            AUS = {
+                OR = {
+                    ALS = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    ANH = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    ATB = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    BAD = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    BAN = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    BAV = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    BRA = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    BRE = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    BRN = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    COB = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    DZG = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    EST = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    FRK = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    FRM = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    HAM = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    HAN = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    HEK = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    HES = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    HOL = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    LAT = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    LIE = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    LIP = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    LOR = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    LUB = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    LUX = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    MEC = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    MEI = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    MST = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    NAS = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    NCT = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    NGF = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    OLD = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    PAL = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    POM = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    PRU = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    REU = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    RHI = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    SAA = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    SAX = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    SCL = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    SGF = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    SGM = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    SWG = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    SWH = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    SWI = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    UBD = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    WEI = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    WES = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    WLD = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                    WUR = {
+                        exists = yes
+                        in_sphere = AUS
+                        is_greater_power = no
+                    }
+                }
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = NET
+                        ai = no
+                        has_country_flag = cvg2_struggle
+                        is_greater_power = yes
+                        AUS = {
+                            exists = yes
+                            is_greater_power = yes
+                        }
+                        nationalism_n_imperialism = 1
+                        war = no
+                        is_vassal = no
+                        is_disarmed = no
+                        NOT = {
+                            truce_with = AUS
+                            alliance_with = AUS
+                            has_country_modifier = neutrality_modifier
+                        }
+                        AUS = {
+                            is_vassal = no
+                            NOT = {
+                                has_country_modifier = neutrality_modifier
+                            }
+                        }
+                        OR = {
+                            ALS = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            ANH = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            ATB = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BAD = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BAN = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BAV = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BRA = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BRE = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            BRN = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            COB = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            DZG = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            EST = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            FRK = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            FRM = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HAM = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HAN = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HEK = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HES = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            HOL = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LAT = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LIE = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LIP = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LOR = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LUB = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            LUX = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            MEC = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            MEI = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            MST = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            NAS = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            NCT = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            NGF = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            OLD = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            PAL = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            POM = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            PRU = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            REU = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            RHI = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SAA = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SAX = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SCL = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SGF = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SGM = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SWG = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SWH = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            SWI = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            UBD = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            WEI = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            WES = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            WLD = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                            WUR = {
+                                exists = yes
+                                in_sphere = NET
+                                is_greater_power = no
+                            }
+                        }
+                        AUS = {
+                            OR = {
+                                ALS = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                ANH = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                ATB = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                BAD = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                BAN = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                BAV = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                BRA = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                BRE = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                BRN = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                COB = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                DZG = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                EST = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                FRK = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                FRM = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                HAM = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                HAN = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                HEK = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                HES = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                HOL = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                LAT = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                LIE = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                LIP = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                LOR = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                LUB = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                LUX = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                MEC = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                MEI = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                MST = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                NAS = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                NCT = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                NGF = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                OLD = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                PAL = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                POM = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                PRU = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                REU = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                RHI = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                SAA = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                SAX = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                SCL = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                SGF = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                SGM = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                SWG = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                SWH = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                SWI = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                UBD = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                WEI = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                WES = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                WLD = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                                WUR = {
+                                    exists = yes
+                                    in_sphere = AUS
+                                    is_greater_power = no
+                                }
+                            }
+                        }
+                    }
+                }
+                owner = {
+                    war = {
+                        target = AUS
+                        attacker_goal = {
+                            casus_belli = cvg2_hegemony_AUS
+                        }
+                        defender_goal = {
+                            casus_belli = cvg2_hegemony_AUS
+                        }
+                        call_ally = yes
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cvg2_greater_AUS = {
+        picture = cvo_koniggratz
+        potential = {
+            tag = OGE
+            ai = no
+            AUS = {
+                exists = yes
+            }
+            NOT = {
+                has_country_flag = cvg2_greater_AUS_won
+            }
+            NOT = {
+                has_country_flag = cvg2_greater_germany
+            }
+        }
+        allow = {
+            war = no
+            is_vassal = no
+            is_greater_power = yes
+            nationalism_n_imperialism = 1
+            is_disarmed = no
+            NOT = {
+                truce_with = AUS
+            }
+            NOT = {
+                alliance_with = AUS
+            }
+            AUS = {
+                is_vassal = no
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = OGE
+                        ai = no
+                        AUS = {
+                            exists = yes
+                        }
+                        NOT = {
+                            has_country_flag = cvg2_greater_AUS_won
+                        }
+                        NOT = {
+                            has_country_flag = cvg2_greater_germany
+                        }
+                        war = no
+                        is_vassal = no
+                        is_greater_power = yes
+                        nationalism_n_imperialism = 1
+                        is_disarmed = no
+                        NOT = {
+                            truce_with = AUS
+                        }
+                        NOT = {
+                            alliance_with = AUS
+                        }
+                        AUS = {
+                            is_vassal = no
+                        }
+                    }
+                }
+                owner = {
+                    set_country_flag = cvg2_greater_AUS_started
+                    war = {
+                        target = AUS
+                        attacker_goal = {
+                            casus_belli = cvg2_greater_AUS
+                        }
+                        defender_goal = {
+                            casus_belli = humiliate
+                        }
+                        call_ally = yes
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cvg2_greater_AUB = {
+        picture = cvo_koniggratz
+        potential = {
+            tag = OGE
+            ai = no
+            AUB = {
+                exists = yes
+            }
+            NOT = {
+                has_country_flag = cvg2_greater_AUB_won
+            }
+            NOT = {
+                has_country_flag = cvg2_greater_germany
+            }
+        }
+        allow = {
+            war = no
+            is_vassal = no
+            is_greater_power = yes
+            nationalism_n_imperialism = 1
+            is_disarmed = no
+            NOT = {
+                truce_with = AUB
+            }
+            NOT = {
+                alliance_with = AUB
+            }
+            AUB = {
+                is_vassal = no
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = OGE
+                        ai = no
+                        AUB = {
+                            exists = yes
+                        }
+                        NOT = {
+                            has_country_flag = cvg2_greater_AUB_won
+                        }
+                        NOT = {
+                            has_country_flag = cvg2_greater_germany
+                        }
+                        war = no
+                        is_vassal = no
+                        is_greater_power = yes
+                        nationalism_n_imperialism = 1
+                        is_disarmed = no
+                        NOT = {
+                            truce_with = AUB
+                        }
+                        NOT = {
+                            alliance_with = AUB
+                        }
+                        AUB = {
+                            is_vassal = no
+                        }
+                    }
+                }
+                owner = {
+                    set_country_flag = cvg2_greater_AUB_started
+                    war = {
+                        target = AUB
+                        attacker_goal = {
+                            casus_belli = cvg2_greater_AUB
+                        }
+                        defender_goal = {
+                            casus_belli = humiliate
+                        }
+                        call_ally = yes
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cvg2_greater_KUK = {
+        picture = cvo_koniggratz
+        potential = {
+            tag = OGE
+            ai = no
+            KUK = {
+                exists = yes
+            }
+            NOT = {
+                has_country_flag = cvg2_greater_KUK_won
+            }
+            NOT = {
+                has_country_flag = cvg2_greater_germany
+            }
+        }
+        allow = {
+            war = no
+            is_vassal = no
+            is_greater_power = yes
+            nationalism_n_imperialism = 1
+            is_disarmed = no
+            NOT = {
+                truce_with = KUK
+            }
+            NOT = {
+                alliance_with = KUK
+            }
+            KUK = {
+                is_vassal = no
+            }
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = OGE
+                        ai = no
+                        KUK = {
+                            exists = yes
+                        }
+                        NOT = {
+                            has_country_flag = cvg2_greater_KUK_won
+                        }
+                        NOT = {
+                            has_country_flag = cvg2_greater_germany
+                        }
+                        war = no
+                        is_vassal = no
+                        is_greater_power = yes
+                        nationalism_n_imperialism = 1
+                        is_disarmed = no
+                        NOT = {
+                            truce_with = KUK
+                        }
+                        NOT = {
+                            alliance_with = KUK
+                        }
+                        KUK = {
+                            is_vassal = no
+                        }
+                    }
+                }
+                owner = {
+                    set_country_flag = cvg2_greater_KUK_started
+                    war = {
+                        target = KUK
+                        attacker_goal = {
+                            casus_belli = cvg2_greater_KUK
+                        }
+                        defender_goal = {
+                            casus_belli = humiliate
+                        }
+                        call_ally = yes
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

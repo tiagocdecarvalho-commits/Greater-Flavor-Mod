@@ -1,0 +1,733 @@
+#Damaraland Region (192000)
+#uncolonized in 1836/dominated by the Herero in 1836
+#Windhoek (72000/18000 POPS)
+2078 = {
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 50
+    }
+
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 300
+    }
+
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 75
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 5175
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = protestant
+        size = 300
+    }
+
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 225
+    }
+
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 125
+    }
+
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 600
+    }
+
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 125
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 10725
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = protestant
+        size = 200
+    }
+}
+#Swakopmund (52000/13000 POPS)
+2079 = {
+    aristocrats = {
+        culture = herero
+        religion = animist
+        size = 150
+    }
+
+    clergymen = {
+        culture = herero
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+        culture = herero
+        religion = animist
+        size = 450
+    }
+
+    soldiers = {
+        culture = herero
+        religion = animist
+        size = 100
+    }
+
+    farmers = {
+        culture = herero
+        religion = animist
+        size = 4160
+    }
+
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 150
+    }
+
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 450
+    }
+
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 100
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 4090
+    }
+
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 50
+    }
+
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 50
+    }
+
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 200
+    }
+
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 50
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 2650
+    }
+}
+#Tsumeb (24000/6000 POPS)
+2080 = {
+    aristocrats = {
+        culture = herero
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = herero
+        religion = animist
+        size = 50
+    }
+
+    artisans = {
+        culture = herero
+        religion = animist
+        size = 300
+    }
+
+    soldiers = {
+        culture = herero
+        religion = animist
+        size = 75
+    }
+
+    farmers = {
+        culture = herero
+        religion = animist
+        size = 7025
+    }
+
+    farmers = {
+        culture = chokwe
+        religion = animist
+        size = 130
+    }
+
+    aristocrats = {
+        culture = herero
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = herero
+        religion = animist
+        size = 50
+    }
+
+    artisans = {
+        culture = herero
+        religion = animist
+        size = 300
+    }
+
+    soldiers = {
+        culture = herero
+        religion = animist
+        size = 75
+    }
+
+    farmers = {
+        culture = herero
+        religion = animist
+        size = 2395
+    }
+
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 50
+    }
+
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 300
+    }
+
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 75
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 3075
+    }
+}
+#Otjinene (44000/11000 POPS)
+2082 = {
+    aristocrats = {
+        culture = herero
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = herero
+        religion = animist
+        size = 50
+    }
+
+    artisans = {
+        culture = herero
+        religion = animist
+        size = 300
+    }
+
+    soldiers = {
+        culture = herero
+        religion = animist
+        size = 75
+    }
+
+    farmers = {
+        culture = herero
+        religion = animist
+        size = 4830
+    }
+
+    farmers = {
+        culture = chokwe
+        religion = animist
+        size = 150
+    }
+
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 50
+    }
+
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 300
+    }
+
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 75
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 1950
+    }
+
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 75
+    }
+
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 50
+    }
+
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 250
+    }
+
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 50
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 2595
+    }
+}
+#Kafue Region (16000) #see Zambia.txt for balance of region
+#uncolonized in 1836/dominated by the Lozi in 1836
+#Linyati (16000/4000 POPS)
+2081 = {
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 150
+    }
+
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 100
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 1935
+    }
+
+    farmers = {
+        culture = tswana
+        religion = animist
+        size = 300
+    }
+
+    aristocrats = {
+        culture = herero
+        religion = animist
+        size = 200
+    }
+
+    bureaucrats = {
+        culture = herero
+        religion = animist
+        size = 25
+    }
+
+    officers = {
+        culture = herero
+        religion = animist
+        size = 15
+    }
+
+    clergymen = {
+        culture = herero
+        religion = animist
+        size = 150
+    }
+
+    artisans = {
+        culture = herero
+        religion = animist
+        size = 200
+    }
+
+    soldiers = {
+        culture = herero
+        religion = animist
+        size = 200
+    }
+
+    farmers = {
+        culture = herero
+        religion = animist
+        size = 1240
+    }
+
+    farmers = {
+        culture = botatwe
+        religion = animist
+        size = 2815
+    }
+}
+#Namaqualand Region (64000) #see South Africa.txt for balance of region
+#uncolonized in 1836/dominated by the Nama in 1836
+#Walvis Bay (4000/1000 POPS)
+2083 = {
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 15
+    }
+
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 50
+    }
+
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 10
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 1925
+    }
+}
+#Angra Pequena (28000/7000 POPS)
+2084 = {
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 115
+    }
+
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 69
+    }
+
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 322
+    }
+
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 69
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 15065
+    }
+}
+4012 = {
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 10
+    }
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 61
+    }
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 6
+    }
+    farmers = {
+        culture = herero
+        religion = animist
+        size = 136
+    }
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 1141
+    }
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 6
+    }
+}
+#Nugouses (12000/3000 POPS)
+2085 = {
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 21
+    }
+
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 42
+    }
+
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 84
+    }
+
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 21
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 1512
+    }
+
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 13
+    }
+
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 21
+    }
+
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 42
+    }
+
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 9
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 756
+    }
+}
+4014 = {
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 6
+    }
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 37
+    }
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 12
+    }
+    farmers = {
+        culture = herero
+        religion = protestant
+        size = 46
+    }
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 373
+    }
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 5
+    }
+}
+#Karasburg (20000/5000 POPS)
+2086 = {
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 40
+    }
+
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 40
+    }
+
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 160
+    }
+
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 40
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 2920
+    }
+
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 12
+    }
+
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 20
+    }
+
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 40
+    }
+
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 8
+    }
+
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 720
+    }
+
+}
+4013 = {
+    aristocrats = {
+        culture = khoisan
+        religion = animist
+        size = 13
+    }
+    artisans = {
+        culture = khoisan
+        religion = animist
+        size = 81
+    }
+    clergymen = {
+        culture = khoisan
+        religion = animist
+        size = 15
+    }
+    farmers = {
+        culture = herero
+        religion = animist
+        size = 160
+    }
+    farmers = {
+        culture = khoisan
+        religion = animist
+        size = 719
+    }
+    soldiers = {
+        culture = khoisan
+        religion = animist
+        size = 12
+    }
+}

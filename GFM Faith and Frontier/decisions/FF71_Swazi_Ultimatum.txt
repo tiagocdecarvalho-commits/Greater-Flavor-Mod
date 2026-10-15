@@ -1,0 +1,8 @@
+political_decisions = {
+ ff71_demand_swaziland = { picture = claim_transvaal
+  potential = { OR = { tag = TRN tag = SAF } is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } SUA = { exists = yes } NOT = { has_country_flag = ff71_swazi_demand_issued } }
+  allow = { war = no SUA = { exists = yes war = no OR = { is_vassal = no vassal_of = THIS } } }
+  effect = { set_country_flag = ff71_swazi_demand_issued set_country_flag = ff71_swazi_request_pending SUA = { country_event = { id = 9784983 days = 1 } } }
+  ai_will_do = { factor = 0.1 }
+ }
+}

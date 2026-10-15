@@ -1,0 +1,654 @@
+cvt_opening_cvt_historical;The grand duchy will follow the established Lorraine settlement.;;;;;;;;;;;;;x
+cvt_opening_cvt_leopoldine;Prepare a durable Leopoldine constitutional monarchy.;;;;;;;;;;;;;x
+cvt_opening_cvt_federation;Seek a federation of the Central Italian governments.;;;;;;;;;;;;;x
+cvt_opening_cvt_crown;Build a Tuscan claim to the crown of Italy.;;;;;;;;;;;;;x
+cvt_opening_cvt_eagle;Preserve the crown and cultivate the White Eagle in Florence.;;;;;;;;;;;;;x
+cvt_opening_cvt_republic;Prepare the institutions of a Tuscan republic.;;;;;;;;;;;;;x
+cvt_opening_title;The Grand Duchy Looks Ahead;;;;;;;;;;;;;x
+cvt_opening_desc;Leopold II governs a grand duchy sustained by agriculture, workshops and the commerce of Livorno. His ministers continue a tradition of practical reform, while Austria remains the dynasty's protector. The court must decide which ambitions to cultivate. These are plans for the years ahead: any change of constitution, federation or Italian crown must still be won through later reforms and crises.;;;;;;;;;;;;;x
+cvt_paternal_administration;The Paternal Administration;;;;;;;;;;;;;x
+cvt_paternal_administration_desc;Experienced officials sustain the public works and the ducal accounts.;;;;;;;;;;;;;x
+cvt_fossombroni_choice_0;Maintain the paternal administration.;;;;;;;;;;;;;x
+cvt_fossombroni_choice_1;Open the public accounts to municipal scrutiny.;;;;;;;;;;;;;x
+cvt_fossombroni_title;The Legacy of Fossombroni;;;;;;;;;;;;;x
+cvt_fossombroni_desc;Fossombroni treats engineering and careful accounts as instruments of government. The reclamation works demand patience, and the cabinet must decide whether orderly administration will serve the court alone or make room for municipal scrutiny.;;;;;;;;;;;;;x
+cvt_antologia_choice_0;Close the journal and reassure Vienna.;;;;;;;;;;;;;x
+cvt_antologia_choice_1;Protect the journal under ordinary law.;;;;;;;;;;;;;x
+cvt_antologia_title;The Antologia Question;;;;;;;;;;;;;x
+cvt_antologia_desc;The literary journal has become a meeting place for ideas that trouble Vienna. Its editors insist that intellectual exchange belongs to the Tuscan reform tradition, the court fears that political discussion will outrun its control.;;;;;;;;;;;;;x
+cvt_courts_reorganised;Reorganised Tuscan Courts;;;;;;;;;;;;;x
+cvt_courts_reorganised_desc;Regular procedures improve the reach of the civil administration.;;;;;;;;;;;;;x
+cvt_courts_choice_0;Give the courts a clear administrative hierarchy.;;;;;;;;;;;;;x
+cvt_courts_choice_1;Require public proceedings and municipal representation.;;;;;;;;;;;;;x
+cvt_courts_title;The Reorganisation of the Courts;;;;;;;;;;;;;x
+cvt_courts_desc;The civil and criminal courts are being reorganised. A clear hierarchy can make justice more predictable, while municipal advocates seek public procedures that restrain the officials themselves.;;;;;;;;;;;;;x
+cvt_scientific_networks;The Pisa Scientific Networks;;;;;;;;;;;;;x
+cvt_scientific_networks_desc;Scholars exchange methods and build lasting connections between institutions.;;;;;;;;;;;;;x
+cvt_scientists_choice_0;Encourage scientific exchange.;;;;;;;;;;;;;x
+cvt_scientists_choice_1;Keep the congress within a ducal technical programme.;;;;;;;;;;;;;x
+cvt_scientists_title;The Congress of Italian Scientists;;;;;;;;;;;;;x
+cvt_scientists_desc;Pisa welcomes scholars from across the peninsula. Leopold attends an assembly devoted to science, yet the friendships formed in its halls also teach educated Italians to imagine a public larger than their separate states.;;;;;;;;;;;;;x
+cvt_fossombroni_death_choice_0;Entrust the programme to experienced administrators.;;;;;;;;;;;;;x
+cvt_fossombroni_death_choice_1;Invite Ridolfi and the moderate reformers into consultation.;;;;;;;;;;;;;x
+cvt_fossombroni_death_title;The Old Governing Generation Passes;;;;;;;;;;;;;x
+cvt_fossombroni_death_desc;Fossombroni has died. Corsini and Cempini inherit an administration whose public works have become part of the dynasty's claim to rule. The next ministry must decide how far that practical reform tradition can accommodate a growing public voice.;;;;;;;;;;;;;x
+cvt_press_choice_0;Allow a lawful political press.;;;;;;;;;;;;;x
+cvt_press_choice_1;Permit discussion while preserving the palace police.;;;;;;;;;;;;;x
+cvt_press_title;The Press Law of 1847;;;;;;;;;;;;;x
+cvt_press_desc;Leopold relaxes censorship as political expectations rise across Italy. Ridolfi argues that lawful public discussion can bind reform to the crown, the palace fears that concessions will be taken as permission to demand more.;;;;;;;;;;;;;x
+cvt_consulta_choice_0;Consult the municipalities and the established estates.;;;;;;;;;;;;;x
+cvt_consulta_choice_1;Make ministerial accounts answerable to the council.;;;;;;;;;;;;;x
+cvt_consulta_title;The Consulta;;;;;;;;;;;;;x
+cvt_consulta_desc;The crown establishes a consultative council. Municipal reformers want ministers to answer to a public assembly, while hereditary patrons would keep advice separate from sovereignty.;;;;;;;;;;;;;x
+cvt_guard_choice_0;Establish the guard under municipal officers.;;;;;;;;;;;;;x
+cvt_guard_choice_1;Keep the guard under officers trusted by the crown.;;;;;;;;;;;;;x
+cvt_guard_title;The Civic Guard;;;;;;;;;;;;;x
+cvt_guard_desc;A civic guard gives respectable citizens a place in public security. Its officers may support the government, but a guard that sees itself as the nation's representative will not obey every order from the palace.;;;;;;;;;;;;;x
+cvt_customs_choice_0;Sign the preliminary arrangements.;;;;;;;;;;;;;x
+cvt_customs_choice_1;Keep the discussions technical and consult Vienna.;;;;;;;;;;;;;x
+cvt_customs_title;The Preliminary Italian Customs League;;;;;;;;;;;;;x
+cvt_customs_desc;Florence, Turin and Rome discuss common customs arrangements. The proposal promises easier commerce, but every court guards its revenues and political independence. An agreement on trade does not yet create a common government.;;;;;;;;;;;;;x
+cvt_statuto_choice_0;Promulgate the Statuto and summon the parliament.;;;;;;;;;;;;;x
+cvt_statuto_choice_1;Grant the statute while securing the palace administration.;;;;;;;;;;;;;x
+cvt_statuto_title;The Tuscan Statuto;;;;;;;;;;;;;x
+cvt_statuto_desc;Leopold signs a statute establishing representative institutions and a restricted electorate. Ridolfi hopes to reconcile the dynasty with lawful Italian reform. The court can grant a constitution, but its survival will depend on the conduct of ministers, the army and the crown.;;;;;;;;;;;;;x
+cvt_war_1848_choice_0;Send the Tuscan contingent to the national war.;;;;;;;;;;;;;x
+cvt_war_1848_choice_1;Limit the contingent and preserve communications with Vienna.;;;;;;;;;;;;;x
+cvt_war_1848_title;Italy Cannot Be Bought With the Crown's Blood;;;;;;;;;;;;;x
+cvt_war_1848_desc;The war between Sardinia and Austria asks Tuscany to choose between its dynastic protection and the national cause. Volunteers prepare to leave, while the palace weighs the danger of a complete rupture with Vienna.;;;;;;;;;;;;;x
+cvt_curtatone_memory;The Students Held the Line;;;;;;;;;;;;;x
+cvt_curtatone_memory_desc;The volunteers' service links the army to Italian public life.;;;;;;;;;;;;;x
+cvt_curtatone_choice_0;Honour the soldiers and the university volunteers.;;;;;;;;;;;;;x
+cvt_curtatone_title;Curtatone and Montanara;;;;;;;;;;;;;x
+cvt_curtatone_desc;Tuscan troops and university volunteers hold their positions against the Austrian advance. Their sacrifice joins the duchy's military memory to the Italian cause, while bereaved households confront the cost of a war decided beyond Tuscany.;;;;;;;;;;;;;x
+cvt_democratic_ministry_choice_0;Accept the ministry and continue negotiations.;;;;;;;;;;;;;x
+cvt_democratic_ministry_choice_1;Prepare a lawful compromise with the democratic deputies.;;;;;;;;;;;;;x
+cvt_democratic_ministry_choice_2;Preserve the officer corps and plan a restoration.;;;;;;;;;;;;;x
+cvt_democratic_ministry_title;The Democratic Ministry;;;;;;;;;;;;;x
+cvt_democratic_ministry_desc;Military disappointment and the collapse of moderate authority bring Montanelli and Guerrazzi into government. They call for a constituent settlement larger than the existing Statuto. The palace fears that the ministry will surrender the crown's remaining authority.;;;;;;;;;;;;;x
+cvt_revolution_choice_0;The provisional government must hold the country together.;;;;;;;;;;;;;x
+cvt_revolution_choice_1;Reconcile the statute and the crown before the breach becomes final.;;;;;;;;;;;;;x
+cvt_revolution_title;The Triumvirate in Florence;;;;;;;;;;;;;x
+cvt_revolution_desc;Leopold has left Florence and sought refuge at Gaeta. Guerrazzi, Montanelli and Mazzoni form a provisional triumvirate. Their constituent project faces divisions at home and a dynasty that can still appeal to Austrian arms.;;;;;;;;;;;;;x
+cvt_austrian_occupation;Austrian Occupation;;;;;;;;;;;;;x
+cvt_austrian_occupation_desc;The dynasty depends on Austrian protection, whose presence burdens its domestic standing.;;;;;;;;;;;;;x
+cvt_restore_historical;Restore the dynasty under Austrian protection.;;;;;;;;;;;;;x
+cvt_restoration_title;The White Eagle Returns to Florence;;;;;;;;;;;;;x
+cvt_restoration_desc;Austrian intervention has restored the dynasty. Baldasseroni wants an orderly government capable of continuing the public works, while Maria Antonia and the court distrust the parliament. Protection from Vienna comes with political obligations that the country will remember.;;;;;;;;;;;;;x
+cvt_reconcile_crown_title;Reconcile the Crown and the Statuto;;;;;;;;;;;;;x
+cvt_reconcile_crown_desc;Ridolfi and the municipalities offer to preserve the dynasty under a public constitutional settlement. Leopold must abandon government by personal command, and the democratic ministry must accept a lawful parliament.;;;;;;;;;;;;;x
+cvt_reconcile_crown_ratify;Ratify the settlement.;;;;;;;;;;;;;x
+cvt_reconcile_crown_defer;Leave the present settlement in force.;;;;;;;;;;;;;x
+cvt_reconcile_crown_deliberation_title;Reconcile the Crown and the Statuto;;;;;;;;;;;;;x
+cvt_reconcile_crown_deliberation_desc;Ridolfi and the municipalities offer to preserve the dynasty under a public constitutional settlement. Leopold must abandon government by personal command, and the democratic ministry must accept a lawful parliament.;;;;;;;;;;;;;x
+cvt_convention_choice_0;They shall leave when order is restored.;;;;;;;;;;;;;x
+cvt_convention_choice_1;Ask Vienna to make its presence useful to the Tuscan state.;;;;;;;;;;;;;x
+cvt_convention_title;The Convention of Florence;;;;;;;;;;;;;x
+cvt_convention_desc;The convention defines the presence of Austrian forces and the obligations of the restored government. The court can regard the occupation as a temporary burden or use the relationship to train its own officers and strengthen its administration.;;;;;;;;;;;;;x
+cvt_mission_accept;Approve the mission and a reciprocal military convention.;;;;;;;;;;;;;x
+cvt_mission_refuse;Retain our protection without the proposed military mission.;;;;;;;;;;;;;x
+cvt_mission_reply_title;The Tuscan Military Convention;;;;;;;;;;;;;x
+cvt_mission_reply_desc;Baldasseroni asks that Austrian protection support a permanent Tuscan training programme. Vienna must judge whether the allied dynasty should develop a more independent army. Consent establishes a reciprocal convention, refusal leaves the restored court without the proposed mission.;;;;;;;;;;;;;x
+cvt_statuto_abolished_choice_0;Abolish the statute and restore personal government.;;;;;;;;;;;;;x
+cvt_statuto_abolished_choice_1;Retain a restricted chamber under ministers appointed by the crown.;;;;;;;;;;;;;x
+cvt_statuto_abolished_choice_2;Retain the statute and reconcile the moderate administration.;;;;;;;;;;;;;x
+cvt_statuto_abolished_title;The Crown and the Suspended Parliament;;;;;;;;;;;;;x
+cvt_statuto_abolished_desc;The parliament has not reconvened. The court proposes restoring personal government, while the moderate ministers defend representative institutions. Leopold can abolish the Statuto, retain a restricted chamber under royal ministers, or reconcile the crown with responsible constitutional government. The choice settles how Tuscany is governed without abandoning its Italian ambitions.;;;;;;;;;;;;;x
+cvt_withdrawal_choice_0;Continue the modest reforms of the restored duchy.;;;;;;;;;;;;;x
+cvt_withdrawal_choice_1;Give the House of Lorraine an Italian mission.;;;;;;;;;;;;;x
+cvt_withdrawal_choice_2;Retain the Austrian alliance while strengthening Tuscan independence.;;;;;;;;;;;;;x
+cvt_withdrawal_title;Austria Leaves, but the Army Changes;;;;;;;;;;;;;x
+cvt_withdrawal_desc;The occupation troops leave Tuscany. Ferrari da Grado's reorganisation offers a practical foundation for a better army, but the country must choose whether its improved institutions serve continued dependence, an independent duchy or a larger Italian mission.;;;;;;;;;;;;;x
+cvt_1859_settled_choice_0;The grand duke leaves, Ricasoli forms a provisional government.;;;;;;;;;;;;;x
+cvt_1859_settled_choice_1;Rally the country around the crown and its public institutions.;;;;;;;;;;;;;x
+cvt_1859_settled_choice_2;The White Eagle will stand as an Italian ally of Vienna.;;;;;;;;;;;;;x
+cvt_1859_settled_choice_3;The republic answers to its assembly, not the exiled dynasty.;;;;;;;;;;;;;x
+cvt_1859_settled_title;Another Twenty-Seventh of April?;;;;;;;;;;;;;x
+cvt_1859_settled_desc;Ricasoli and Dolfi unite the moderates and the national movement against a court identified with Vienna. The army's loyalty is uncertain. A crown supported by effective institutions may survive, while an unprepared dynasty faces a provisional government committed to Turin.;;;;;;;;;;;;;x
+cvt_plebiscite_union;Ratify union with the constitutional monarchy.;;;;;;;;;;;;;x
+cvt_plebiscite_separate;Preserve a separate Tuscan constitutional state.;;;;;;;;;;;;;x
+cvt_plebiscite_title;The Tuscan Plebiscite;;;;;;;;;;;;;x
+cvt_plebiscite_desc;The assembly has rejected restoration of the Lorraine government. Ricasoli presents union with Victor Emmanuel's constitutional monarchy as the means to complete the national settlement. A separate kingdom remains on the ballot, but the national movement has rallied around Turin.;;;;;;;;;;;;;x
+cvt_maremma_estates;Maremma Reclamation;;;;;;;;;;;;;x
+cvt_maremma_estates_desc;Engineering works sustain commercial farming in the reclaimed districts.;;;;;;;;;;;;;x
+cvt_maremma_settlements;Maremma Settlement Roads;;;;;;;;;;;;;x
+cvt_maremma_settlements_desc;Public works connect healthier villages to the reclaimed land.;;;;;;;;;;;;;x
+cvt_maremma_title;The Great Reclamation of the Maremma;;;;;;;;;;;;;x
+cvt_maremma_desc;Manetti's engineers ask for drains, roads and regular inspection. Landowners seek larger estates, while village delegates want healthier settlements and secure access to reclaimed ground.;;;;;;;;;;;;;x
+cvt_maremma_programme_0;Drain the marshes and improve the commercial estates.;;;;;;;;;;;;;x
+cvt_maremma_programme_1;Give reclamation priority to settlement and village roads.;;;;;;;;;;;;;x
+cvt_maremma_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_maremma_appropriation_title;The Great Reclamation of the Maremma;;;;;;;;;;;;;x
+cvt_maremma_appropriation_desc;Manetti's engineers ask for drains, roads and regular inspection. Landowners seek larger estates, while village delegates want healthier settlements and secure access to reclaimed ground. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_livorno_warehouses;The Livorno Warehouses;;;;;;;;;;;;;x
+cvt_livorno_warehouses_desc;Better storage and dependable accounts sustain the port's commerce.;;;;;;;;;;;;;x
+cvt_livorno_freeport;Livorno's Commercial Privileges;;;;;;;;;;;;;x
+cvt_livorno_freeport_desc;The free port attracts merchants while limiting customs receipts.;;;;;;;;;;;;;x
+cvt_livorno_title;Livorno and the Commercial Quays;;;;;;;;;;;;;x
+cvt_livorno_desc;Merchants seek warehouses and repaired quays. Customs officials favour reliable accounts, while shipowners want the free-port tradition to attract machinery and foreign commerce.;;;;;;;;;;;;;x
+cvt_livorno_programme_0;Improve the warehouses and the customs administration.;;;;;;;;;;;;;x
+cvt_livorno_programme_1;Protect the free port and improve commercial access.;;;;;;;;;;;;;x
+cvt_livorno_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_livorno_appropriation_title;Livorno and the Commercial Quays;;;;;;;;;;;;;x
+cvt_livorno_appropriation_desc;Merchants seek warehouses and repaired quays. Customs officials favour reliable accounts, while shipowners want the free-port tradition to attract machinery and foreign commerce. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_leopolda_commerce;The Leopolda Commercial Spine;;;;;;;;;;;;;x
+cvt_leopolda_commerce_desc;A coordinated railway programme connects production to Livorno.;;;;;;;;;;;;;x
+cvt_leopolda_state;The State Railway Programme;;;;;;;;;;;;;x
+cvt_leopolda_state_desc;The state coordinates transport with administration and military supply.;;;;;;;;;;;;;x
+cvt_leopolda_title;The Leopolda Railway;;;;;;;;;;;;;x
+cvt_leopolda_desc;The Livorno-Pisa line gives Tuscany a practical beginning in the railway age. Engineers propose extending the connection toward Florence, merchants and the army differ over how its capacity should be organised.;;;;;;;;;;;;;x
+cvt_leopolda_programme_0;Connect the port, workshops and capital.;;;;;;;;;;;;;x
+cvt_leopolda_programme_1;Give the state control of strategic railway capacity.;;;;;;;;;;;;;x
+cvt_leopolda_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_leopolda_appropriation_title;The Leopolda Railway;;;;;;;;;;;;;x
+cvt_leopolda_appropriation_desc;The Livorno-Pisa line gives Tuscany a practical beginning in the railway age. Engineers propose extending the connection toward Florence, merchants and the army differ over how its capacity should be organised. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_pisa_technical;Tuscan Technical Education;;;;;;;;;;;;;x
+cvt_pisa_technical_desc;University study supplies the public works and technical professions.;;;;;;;;;;;;;x
+cvt_pisa_public;Tuscan Public Scholarship;;;;;;;;;;;;;x
+cvt_pisa_public_desc;Libraries and university patronage broaden the province's intellectual life.;;;;;;;;;;;;;x
+cvt_pisa_title;Pisa and the Tuscan Universities;;;;;;;;;;;;;x
+cvt_pisa_desc;The universities can train engineers, physicians and officers, or give a wider public access to scholarship. Scientific patronage brings new knowledge and new political expectations.;;;;;;;;;;;;;x
+cvt_pisa_programme_0;Endow technical study and engineering scholarships.;;;;;;;;;;;;;x
+cvt_pisa_programme_1;Support broader study and public libraries.;;;;;;;;;;;;;x
+cvt_pisa_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_pisa_appropriation_title;Pisa and the Tuscan Universities;;;;;;;;;;;;;x
+cvt_pisa_appropriation_desc;The universities can train engineers, physicians and officers, or give a wider public access to scholarship. Scientific patronage brings new knowledge and new political expectations. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_follonica_works;The Follonica Workshops;;;;;;;;;;;;;x
+cvt_follonica_works_desc;Tuscan metallurgy serves bridges, machinery and later military production.;;;;;;;;;;;;;x
+cvt_larderel_concession;The Larderel Concession;;;;;;;;;;;;;x
+cvt_larderel_concession_desc;Industrial concessions connect specialised production with private investment.;;;;;;;;;;;;;x
+cvt_follonica_title;Follonica and the Iron of Elba;;;;;;;;;;;;;x
+cvt_follonica_desc;The Follonica works and Elban ore offer a modest industrial foundation. De Larderel's example encourages private enterprise, the court also sees a means to supply its engineers and, eventually, its army.;;;;;;;;;;;;;x
+cvt_follonica_programme_0;Improve the metallurgical works and engineering supply.;;;;;;;;;;;;;x
+cvt_follonica_programme_1;Encourage private concessions and chemical production.;;;;;;;;;;;;;x
+cvt_follonica_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_follonica_appropriation_title;Follonica and the Iron of Elba;;;;;;;;;;;;;x
+cvt_follonica_appropriation_desc;The Follonica works and Elban ore offer a modest industrial foundation. De Larderel's example encourages private enterprise, the court also sees a means to supply its engineers and, eventually, its army. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_responsible_ministry;A Responsible Tuscan Ministry;;;;;;;;;;;;;x
+cvt_responsible_ministry_desc;Public accounts give representative institutions a practical foundation.;;;;;;;;;;;;;x
+cvt_municipal_charter;The Tuscan Municipal Charter;;;;;;;;;;;;;x
+cvt_municipal_charter_desc;Lawful procedures connect the crown with municipal public life.;;;;;;;;;;;;;x
+cvt_constitutional_accounts_title;Give the Statuto a Working Administration;;;;;;;;;;;;;x
+cvt_constitutional_accounts_desc;A written statute cannot make ministers answerable by itself. Ridolfi proposes published accounts and regular sessions, municipal delegates want secure procedures for petitions and representation.;;;;;;;;;;;;;x
+cvt_constitutional_accounts_programme_0;Require regular parliamentary accounts and responsible ministers.;;;;;;;;;;;;;x
+cvt_constitutional_accounts_programme_1;Protect municipal petitions and the independence of the courts.;;;;;;;;;;;;;x
+cvt_constitutional_accounts_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_constitutional_accounts_appropriation_title;Give the Statuto a Working Administration;;;;;;;;;;;;;x
+cvt_constitutional_accounts_appropriation_desc;A written statute cannot make ministers answerable by itself. Ridolfi proposes published accounts and regular sessions, municipal delegates want secure procedures for petitions and representation. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_republic_assembly;The Tuscan Republican Assembly;;;;;;;;;;;;;x
+cvt_republic_assembly_desc;Representative procedures give the republic a stable civilian foundation.;;;;;;;;;;;;;x
+cvt_republic_executive;A Responsible Republican Executive;;;;;;;;;;;;;x
+cvt_republic_executive_desc;An elected executive coordinates defence while municipalities retain legal guarantees.;;;;;;;;;;;;;x
+cvt_republic_constitution_title;Constitute the Tuscan Republic;;;;;;;;;;;;;x
+cvt_republic_constitution_desc;The triumvirate must give way to a durable public settlement. Guerrazzi argues for a strong executive during danger, Mazzoni and municipal delegates want an assembly capable of restraining it.;;;;;;;;;;;;;x
+cvt_republic_constitution_programme_0;Let an elected assembly control ministers and public accounts.;;;;;;;;;;;;;x
+cvt_republic_constitution_programme_1;Retain a responsible executive with municipal guarantees.;;;;;;;;;;;;;x
+cvt_republic_constitution_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_republic_constitution_appropriation_title;Constitute the Tuscan Republic;;;;;;;;;;;;;x
+cvt_republic_constitution_appropriation_desc;The triumvirate must give way to a durable public settlement. Guerrazzi argues for a strong executive during danger, Mazzoni and municipal delegates want an assembly capable of restraining it. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_renew_mission_title;Renew the Austrian Military Convention;;;;;;;;;;;;;x
+cvt_renew_mission_desc;The court can renew its approach to Vienna after securing stronger relations. A funded delegation offers administrative guarantees or a programme of officer exchange, Austrian consent remains necessary before the mission can begin.;;;;;;;;;;;;;x
+cvt_renew_mission_programme_0;Offer a supervised convention of public accounts.;;;;;;;;;;;;;x
+cvt_renew_mission_programme_1;Offer reciprocal officer exchange and technical consultation.;;;;;;;;;;;;;x
+cvt_renew_mission_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_renew_mission_appropriation_title;Renew the Austrian Military Convention;;;;;;;;;;;;;x
+cvt_renew_mission_appropriation_desc;The court can renew its approach to Vienna after securing stronger relations. A funded delegation offers administrative guarantees or a programme of officer exchange, Austrian consent remains necessary before the mission can begin. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_military_mission_programme_0;Train the staff with Austrian advisers.;;;;;;;;;;;;;x
+cvt_military_mission_programme_0_desc;Austrian advisers offer staff practice and officer exchanges. Their instruction improves the army, but opponents will treat each new convention as evidence that Florence serves Vienna.;;;;;;;;;;;;;x
+cvt_military_mission_programme_1;Keep the instruction under a Tuscan civilian budget.;;;;;;;;;;;;;x
+cvt_military_mission_programme_1_desc;Austrian advisers offer staff practice and officer exchanges. Their instruction improves the army, but opponents will treat each new convention as evidence that Florence serves Vienna.;;;;;;;;;;;;;x
+cvt_military_mission_title;The Austrian Military Mission;;;;;;;;;;;;;x
+cvt_military_mission_desc;Austrian advisers offer staff practice and officer exchanges. Their instruction improves the army, but opponents will treat each new convention as evidence that Florence serves Vienna.;;;;;;;;;;;;;x
+cvt_military_mission_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_military_mission_appropriation_title;The Austrian Military Mission;;;;;;;;;;;;;x
+cvt_military_mission_appropriation_desc;Austrian advisers offer staff practice and officer exchanges. Their instruction improves the army, but opponents will treat each new convention as evidence that Florence serves Vienna. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_line_regiments_programme_0;Give the line regiments regular professional training.;;;;;;;;;;;;;x
+cvt_line_regiments_programme_0_desc;Ferrari da Grado proposes regular establishments and practical training. The cabinet must choose between expensive professional formations and a broader reserve organisation.;;;;;;;;;;;;;x
+cvt_line_regiments_programme_1;Link the line regiments to a disciplined provincial reserve.;;;;;;;;;;;;;x
+cvt_line_regiments_programme_1_desc;Ferrari da Grado proposes regular establishments and practical training. The cabinet must choose between expensive professional formations and a broader reserve organisation.;;;;;;;;;;;;;x
+cvt_line_regiments_title;Reorganise the Line Regiments;;;;;;;;;;;;;x
+cvt_line_regiments_desc;Ferrari da Grado proposes regular establishments and practical training. The cabinet must choose between expensive professional formations and a broader reserve organisation.;;;;;;;;;;;;;x
+cvt_line_regiments_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_line_regiments_appropriation_title;Reorganise the Line Regiments;;;;;;;;;;;;;x
+cvt_line_regiments_appropriation_desc;Ferrari da Grado proposes regular establishments and practical training. The cabinet must choose between expensive professional formations and a broader reserve organisation. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_general_staff_programme_0;Organise a central planning staff.;;;;;;;;;;;;;x
+cvt_general_staff_programme_0_desc;The army needs plans that connect recruitment, railways and supply. A central staff can direct the small forces efficiently, while provincial officers favour closer knowledge of their districts.;;;;;;;;;;;;;x
+cvt_general_staff_programme_1;Build a staff around provincial mobilisation districts.;;;;;;;;;;;;;x
+cvt_general_staff_programme_1_desc;The army needs plans that connect recruitment, railways and supply. A central staff can direct the small forces efficiently, while provincial officers favour closer knowledge of their districts.;;;;;;;;;;;;;x
+cvt_general_staff_title;A Tuscan General Staff;;;;;;;;;;;;;x
+cvt_general_staff_desc;The army needs plans that connect recruitment, railways and supply. A central staff can direct the small forces efficiently, while provincial officers favour closer knowledge of their districts.;;;;;;;;;;;;;x
+cvt_general_staff_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_general_staff_appropriation_title;A Tuscan General Staff;;;;;;;;;;;;;x
+cvt_general_staff_appropriation_desc;The army needs plans that connect recruitment, railways and supply. A central staff can direct the small forces efficiently, while provincial officers favour closer knowledge of their districts. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_officer_school_programme_0;Train a professional corps through competitive admission.;;;;;;;;;;;;;x
+cvt_officer_school_programme_0_desc;A permanent school can give officers professional standing beyond court patronage. The crown may reserve admission to its trusted families or open the course to capable candidates from the universities.;;;;;;;;;;;;;x
+cvt_officer_school_programme_1;Educate the established officer families in modern practice.;;;;;;;;;;;;;x
+cvt_officer_school_programme_1_desc;A permanent school can give officers professional standing beyond court patronage. The crown may reserve admission to its trusted families or open the course to capable candidates from the universities.;;;;;;;;;;;;;x
+cvt_officer_school_title;The Officer School of Florence;;;;;;;;;;;;;x
+cvt_officer_school_desc;A permanent school can give officers professional standing beyond court patronage. The crown may reserve admission to its trusted families or open the course to capable candidates from the universities.;;;;;;;;;;;;;x
+cvt_officer_school_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_officer_school_appropriation_title;The Officer School of Florence;;;;;;;;;;;;;x
+cvt_officer_school_appropriation_desc;A permanent school can give officers professional standing beyond court patronage. The crown may reserve admission to its trusted families or open the course to capable candidates from the universities. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_arsenal_programme_0;Build an arsenal serving the regular establishments.;;;;;;;;;;;;;x
+cvt_arsenal_programme_0_desc;The metallurgical works can supply regular military orders. Engineers warn that specialised tooling will compete with ordinary production, private contractors offer a less centralised alternative.;;;;;;;;;;;;;x
+cvt_arsenal_programme_1;Use supervised contracts with Tuscan workshops.;;;;;;;;;;;;;x
+cvt_arsenal_programme_1_desc;The metallurgical works can supply regular military orders. Engineers warn that specialised tooling will compete with ordinary production, private contractors offer a less centralised alternative.;;;;;;;;;;;;;x
+cvt_arsenal_title;The Follonica Arsenal;;;;;;;;;;;;;x
+cvt_arsenal_desc;The metallurgical works can supply regular military orders. Engineers warn that specialised tooling will compete with ordinary production, private contractors offer a less centralised alternative.;;;;;;;;;;;;;x
+cvt_arsenal_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_arsenal_appropriation_title;The Follonica Arsenal;;;;;;;;;;;;;x
+cvt_arsenal_appropriation_desc;The metallurgical works can supply regular military orders. Engineers warn that specialised tooling will compete with ordinary production, private contractors offer a less centralised alternative. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_calibres_programme_0;Adopt the Austrian standard under a supply convention.;;;;;;;;;;;;;x
+cvt_calibres_programme_0_desc;Common calibres would simplify ammunition and Austrian cooperation. Tuscan armourers prefer a domestic standard that costs more effort now but preserves freedom of supply.;;;;;;;;;;;;;x
+cvt_calibres_programme_1;Agree on compatible domestic specifications.;;;;;;;;;;;;;x
+cvt_calibres_programme_1_desc;Common calibres would simplify ammunition and Austrian cooperation. Tuscan armourers prefer a domestic standard that costs more effort now but preserves freedom of supply.;;;;;;;;;;;;;x
+cvt_calibres_title;Standardise Imperial Calibres;;;;;;;;;;;;;x
+cvt_calibres_desc;Common calibres would simplify ammunition and Austrian cooperation. Tuscan armourers prefer a domestic standard that costs more effort now but preserves freedom of supply.;;;;;;;;;;;;;x
+cvt_calibres_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_calibres_appropriation_title;Standardise Imperial Calibres;;;;;;;;;;;;;x
+cvt_calibres_appropriation_desc;Common calibres would simplify ammunition and Austrian cooperation. Tuscan armourers prefer a domestic standard that costs more effort now but preserves freedom of supply. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_carabinieri_programme_0;Give the carabinieri regular legal procedures.;;;;;;;;;;;;;x
+cvt_carabinieri_programme_0_desc;Baldasseroni wants a regular rural police service. Reliable procedure can protect roads and public accounts, a palace intelligence network would instead watch the political opponents of the dynasty.;;;;;;;;;;;;;x
+cvt_carabinieri_programme_1;Connect the service to the palace intelligence network.;;;;;;;;;;;;;x
+cvt_carabinieri_programme_1_desc;Baldasseroni wants a regular rural police service. Reliable procedure can protect roads and public accounts, a palace intelligence network would instead watch the political opponents of the dynasty.;;;;;;;;;;;;;x
+cvt_carabinieri_title;The Carabinieri Granducali;;;;;;;;;;;;;x
+cvt_carabinieri_desc;Baldasseroni wants a regular rural police service. Reliable procedure can protect roads and public accounts, a palace intelligence network would instead watch the political opponents of the dynasty.;;;;;;;;;;;;;x
+cvt_carabinieri_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_carabinieri_appropriation_title;The Carabinieri Granducali;;;;;;;;;;;;;x
+cvt_carabinieri_appropriation_desc;Baldasseroni wants a regular rural police service. Reliable procedure can protect roads and public accounts, a palace intelligence network would instead watch the political opponents of the dynasty. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_reserve_law_programme_0;Require regular reserve service across the districts.;;;;;;;;;;;;;x
+cvt_reserve_law_programme_0_desc;The small duchy cannot sustain an unlimited standing army. A reserve may widen military service, but the households supplying its recruits will expect obligations to be shared fairly.;;;;;;;;;;;;;x
+cvt_reserve_law_programme_1;Provide a smaller reserve with municipal compensation.;;;;;;;;;;;;;x
+cvt_reserve_law_programme_1_desc;The small duchy cannot sustain an unlimited standing army. A reserve may widen military service, but the households supplying its recruits will expect obligations to be shared fairly.;;;;;;;;;;;;;x
+cvt_reserve_law_title;The Tuscan Reserve Law;;;;;;;;;;;;;x
+cvt_reserve_law_desc;The small duchy cannot sustain an unlimited standing army. A reserve may widen military service, but the households supplying its recruits will expect obligations to be shared fairly.;;;;;;;;;;;;;x
+cvt_reserve_law_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_reserve_law_appropriation_title;The Tuscan Reserve Law;;;;;;;;;;;;;x
+cvt_reserve_law_appropriation_desc;The small duchy cannot sustain an unlimited standing army. A reserve may widen military service, but the households supplying its recruits will expect obligations to be shared fairly. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_apennines_programme_0;Build permanent positions on the northern approaches.;;;;;;;;;;;;;x
+cvt_apennines_programme_0_desc;Engineers propose defensive works on the northern approaches. Permanent positions can protect the duchy, while roads and supply stations would serve defence without immobilising the army.;;;;;;;;;;;;;x
+cvt_apennines_programme_1;Improve the roads and the mobile supply stations.;;;;;;;;;;;;;x
+cvt_apennines_programme_1_desc;Engineers propose defensive works on the northern approaches. Permanent positions can protect the duchy, while roads and supply stations would serve defence without immobilising the army.;;;;;;;;;;;;;x
+cvt_apennines_title;Fortify the Apennine Passes;;;;;;;;;;;;;x
+cvt_apennines_desc;Engineers propose defensive works on the northern approaches. Permanent positions can protect the duchy, while roads and supply stations would serve defence without immobilising the army.;;;;;;;;;;;;;x
+cvt_apennines_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_apennines_appropriation_title;Fortify the Apennine Passes;;;;;;;;;;;;;x
+cvt_apennines_appropriation_desc;Engineers propose defensive works on the northern approaches. Permanent positions can protect the duchy, while roads and supply stations would serve defence without immobilising the army. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_military_depot_programme_0;Establish regular military stores beside the port.;;;;;;;;;;;;;x
+cvt_military_depot_programme_0_desc;Livorno can organise imports and stores for the army. Officers want a central depot, merchants offer distributed contracts that keep commercial capacity available.;;;;;;;;;;;;;x
+cvt_military_depot_programme_1;Distribute the stores through supervised port contracts.;;;;;;;;;;;;;x
+cvt_military_depot_programme_1_desc;Livorno can organise imports and stores for the army. Officers want a central depot, merchants offer distributed contracts that keep commercial capacity available.;;;;;;;;;;;;;x
+cvt_military_depot_title;The Livorno Military Depot;;;;;;;;;;;;;x
+cvt_military_depot_desc;Livorno can organise imports and stores for the army. Officers want a central depot, merchants offer distributed contracts that keep commercial capacity available.;;;;;;;;;;;;;x
+cvt_military_depot_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_military_depot_appropriation_title;The Livorno Military Depot;;;;;;;;;;;;;x
+cvt_military_depot_appropriation_desc;Livorno can organise imports and stores for the army. Officers want a central depot, merchants offer distributed contracts that keep commercial capacity available. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_lorraine_mission_title;The Italian Mission of the House of Lorraine;;;;;;;;;;;;;x
+cvt_lorraine_mission_desc;The reformed army and administration give Florence an opportunity beyond continued dependence. The crown can present itself as an Italian conservative authority, but recognition from other courts must be earned through diplomacy.;;;;;;;;;;;;;x
+cvt_lorraine_mission_ratify;Ratify the settlement.;;;;;;;;;;;;;x
+cvt_lorraine_mission_defer;Leave the present settlement in force.;;;;;;;;;;;;;x
+cvt_lorraine_mission_deliberation_title;The Italian Mission of the House of Lorraine;;;;;;;;;;;;;x
+cvt_lorraine_mission_deliberation_desc;The reformed army and administration give Florence an opportunity beyond continued dependence. The crown can present itself as an Italian conservative authority, but recognition from other courts must be earned through diplomacy.;;;;;;;;;;;;;x
+cvt_ricasoli_reconcile;Reconcile with the moderates and their public institutions.;;;;;;;;;;;;;x
+cvt_uncertain_officers;Officers and the National Society;;;;;;;;;;;;;x
+cvt_uncertain_officers_desc;Political surveillance makes officers question the crown's Italian mission.;;;;;;;;;;;;;x
+cvt_ricasoli_police;Put the network under the palace police.;;;;;;;;;;;;;x
+cvt_ricasoli_title;The Baron of Brolio Conspires;;;;;;;;;;;;;x
+cvt_ricasoli_desc;Ricasoli's allies link the National Society with municipal patrons and dissatisfied officers. The court has improved its institutions without securing the public's loyalty. Ridolfi offers lawful reconciliation, palace advisers instead want the police to break the network.;;;;;;;;;;;;;x
+cvt_league_congress_title;The League of the Italian Princes;;;;;;;;;;;;;x
+cvt_league_congress_desc;Florence proposes an executive centre for conservative Italy: common conventions, railway coordination and arbitration between sovereign courts. The princes may accept cooperation without surrendering their states.;;;;;;;;;;;;;x
+cvt_league_congress_programme_0;Invite the courts to a league of public conventions.;;;;;;;;;;;;;x
+cvt_league_congress_programme_1;Offer a constitutional congress with provincial guarantees.;;;;;;;;;;;;;x
+cvt_league_congress_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_league_congress_appropriation_title;The League of the Italian Princes;;;;;;;;;;;;;x
+cvt_league_congress_appropriation_desc;Florence proposes an executive centre for conservative Italy: common conventions, railway coordination and arbitration between sovereign courts. The princes may accept cooperation without surrendering their states. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_republican_congress_title;A Congress of the Italian Governments;;;;;;;;;;;;;x
+cvt_republican_congress_desc;A surviving Tuscan assembly can propose lawful cooperation to its neighbours. The invitation promises public accounts and provincial guarantees, sovereign courts may join practical conventions without endorsing the republic's constitution.;;;;;;;;;;;;;x
+cvt_republican_congress_programme_0;Offer common administration through public conventions.;;;;;;;;;;;;;x
+cvt_republican_congress_programme_1;Give municipal guarantees priority in the conventions.;;;;;;;;;;;;;x
+cvt_republican_congress_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_republican_congress_appropriation_title;A Congress of the Italian Governments;;;;;;;;;;;;;x
+cvt_republican_congress_appropriation_desc;A surviving Tuscan assembly can propose lawful cooperation to its neighbours. The invitation promises public accounts and provincial guarantees, sovereign courts may join practical conventions without endorsing the republic's constitution. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_league_MOD_join;Join the conventions while retaining our sovereignty.;;;;;;;;;;;;;x
+cvt_league_MOD_refuse;Keep our government outside the Florentine league.;;;;;;;;;;;;;x
+cvt_league_reply_MOD_title;The Florentine Congress;;;;;;;;;;;;;x
+cvt_league_reply_MOD_desc;The Tuscan government proposes common conventions while recognising the sovereignty of participating courts. Its representatives want Florence to coordinate the programme. Acceptance creates cooperation, not a transfer of territory.;;;;;;;;;;;;;x
+cvt_league_PAR_join;Join the conventions while retaining our sovereignty.;;;;;;;;;;;;;x
+cvt_league_PAR_refuse;Keep our government outside the Florentine league.;;;;;;;;;;;;;x
+cvt_league_reply_PAR_title;The Florentine Congress;;;;;;;;;;;;;x
+cvt_league_reply_PAR_desc;The Tuscan government proposes common conventions while recognising the sovereignty of participating courts. Its representatives want Florence to coordinate the programme. Acceptance creates cooperation, not a transfer of territory.;;;;;;;;;;;;;x
+cvt_league_SIC_join;Join the conventions while retaining our sovereignty.;;;;;;;;;;;;;x
+cvt_league_SIC_refuse;Keep our government outside the Florentine league.;;;;;;;;;;;;;x
+cvt_league_reply_SIC_title;The Florentine Congress;;;;;;;;;;;;;x
+cvt_league_reply_SIC_desc;The Tuscan government proposes common conventions while recognising the sovereignty of participating courts. Its representatives want Florence to coordinate the programme. Acceptance creates cooperation, not a transfer of territory.;;;;;;;;;;;;;x
+cvt_league_AUS_join;Join the conventions while retaining our sovereignty.;;;;;;;;;;;;;x
+cvt_league_AUS_refuse;Keep our government outside the Florentine league.;;;;;;;;;;;;;x
+cvt_league_reply_AUS_title;The Florentine Congress;;;;;;;;;;;;;x
+cvt_league_reply_AUS_desc;The Tuscan government proposes common conventions while recognising the sovereignty of participating courts. Its representatives want Florence to coordinate the programme. Acceptance creates cooperation, not a transfer of territory.;;;;;;;;;;;;;x
+cvt_renew_league_title;Renew the Florentine Conventions;;;;;;;;;;;;;x
+cvt_renew_league_desc;The first congress need not settle every court's position forever. Improved relations can support another funded delegation to governments still outside the league. Each court retains its sovereignty and its right to refuse.;;;;;;;;;;;;;x
+cvt_renew_league_programme_0;Send fresh delegations to the eligible courts.;;;;;;;;;;;;;x
+cvt_renew_league_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_renew_league_appropriation_title;Renew the Florentine Conventions;;;;;;;;;;;;;x
+cvt_renew_league_appropriation_desc;The first congress need not settle every court's position forever. Improved relations can support another funded delegation to governments still outside the league. Each court retains its sovereignty and its right to refuse. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_union_PAR_title;A Common Government with Parma;;;;;;;;;;;;;x
+cvt_union_PAR_desc;The league has opened a question beyond common conventions. A common government would preserve provincial courts and settle dynastic obligations, but the other government must consent to surrender its independent administration.;;;;;;;;;;;;;x
+cvt_union_PAR_accept;Accept the funded settlement and the common administration.;;;;;;;;;;;;;x
+cvt_union_PAR_refuse;Retain our sovereignty and return the delegation's funds.;;;;;;;;;;;;;x
+cvt_union_PAR_reply_title;A Common Government with Parma;;;;;;;;;;;;;x
+cvt_union_PAR_reply_desc;The league has opened a question beyond common conventions. A common government would preserve provincial courts and settle dynastic obligations, but the other government must consent to surrender its independent administration. The delegation offers a funded settlement of administrative and dynastic obligations. Our government may accept it or retain its sovereignty.;;;;;;;;;;;;;x
+cvt_union_PAR_recover;Close the approach and return the reserved funds.;;;;;;;;;;;;;x
+cvt_union_PAR_closed_title;The Negotiations Cannot Continue;;;;;;;;;;;;;x
+cvt_union_PAR_closed_desc;The delegation can no longer conclude the proposed settlement under the circumstances agreed at its departure. The reserved compensation returns to the treasury, a later approach will require the conditions to be restored.;;;;;;;;;;;;;x
+cvt_union_MOD_title;A Common Government with Modena;;;;;;;;;;;;;x
+cvt_union_MOD_desc;The league has opened a question beyond common conventions. A common government would preserve provincial courts and settle dynastic obligations, but the other government must consent to surrender its independent administration.;;;;;;;;;;;;;x
+cvt_union_MOD_accept;Accept the funded settlement and the common administration.;;;;;;;;;;;;;x
+cvt_union_MOD_refuse;Retain our sovereignty and return the delegation's funds.;;;;;;;;;;;;;x
+cvt_union_MOD_reply_title;A Common Government with Modena;;;;;;;;;;;;;x
+cvt_union_MOD_reply_desc;The league has opened a question beyond common conventions. A common government would preserve provincial courts and settle dynastic obligations, but the other government must consent to surrender its independent administration. The delegation offers a funded settlement of administrative and dynastic obligations. Our government may accept it or retain its sovereignty.;;;;;;;;;;;;;x
+cvt_union_MOD_recover;Close the approach and return the reserved funds.;;;;;;;;;;;;;x
+cvt_union_MOD_closed_title;The Negotiations Cannot Continue;;;;;;;;;;;;;x
+cvt_union_MOD_closed_desc;The delegation can no longer conclude the proposed settlement under the circumstances agreed at its departure. The reserved compensation returns to the treasury, a later approach will require the conditions to be restored.;;;;;;;;;;;;;x
+cvt_legations_title;Temporary Protection of the Legations;;;;;;;;;;;;;x
+cvt_legations_desc;Florence offers civil protection in the troubled northern legations. The Holy See would retain Rome and its spiritual authority. Tuscan officials must obtain papal consent before the proposed administration can take possession.;;;;;;;;;;;;;x
+cvt_legations_accept;Accept the funded settlement and the common administration.;;;;;;;;;;;;;x
+cvt_legations_refuse;Retain our sovereignty and return the delegation's funds.;;;;;;;;;;;;;x
+cvt_legations_reply_title;Temporary Protection of the Legations;;;;;;;;;;;;;x
+cvt_legations_reply_desc;Florence offers civil protection in the troubled northern legations. The Holy See would retain Rome and its spiritual authority. Tuscan officials must obtain papal consent before the proposed administration can take possession. The delegation offers a funded settlement of administrative and dynastic obligations. Our government may accept it or retain its sovereignty.;;;;;;;;;;;;;x
+cvt_legations_recover;Close the approach and return the reserved funds.;;;;;;;;;;;;;x
+cvt_legations_closed_title;The Negotiations Cannot Continue;;;;;;;;;;;;;x
+cvt_legations_closed_desc;The delegation can no longer conclude the proposed settlement under the circumstances agreed at its departure. The reserved compensation returns to the treasury, a later approach will require the conditions to be restored.;;;;;;;;;;;;;x
+cvt_marches_title;The Settlement of Umbria and the Marches;;;;;;;;;;;;;x
+cvt_marches_desc;The earlier legation convention has made a broader civil settlement possible. Florence offers to assume the administration of Perugia and Ancona while recognising the remaining temporal government in Rome and Viterbo. The Holy See must ratify the transfer and its guarantees.;;;;;;;;;;;;;x
+cvt_marches_accept;Accept the funded settlement and the common administration.;;;;;;;;;;;;;x
+cvt_marches_refuse;Retain our sovereignty and return the delegation's funds.;;;;;;;;;;;;;x
+cvt_marches_reply_title;The Settlement of Umbria and the Marches;;;;;;;;;;;;;x
+cvt_marches_reply_desc;The earlier legation convention has made a broader civil settlement possible. Florence offers to assume the administration of Perugia and Ancona while recognising the remaining temporal government in Rome and Viterbo. The Holy See must ratify the transfer and its guarantees. The delegation offers a funded settlement of administrative and dynastic obligations. Our government may accept it or retain its sovereignty.;;;;;;;;;;;;;x
+cvt_marches_recover;Close the approach and return the reserved funds.;;;;;;;;;;;;;x
+cvt_marches_closed_title;The Negotiations Cannot Continue;;;;;;;;;;;;;x
+cvt_marches_closed_desc;The delegation can no longer conclude the proposed settlement under the circumstances agreed at its departure. The reserved compensation returns to the treasury, a later approach will require the conditions to be restored.;;;;;;;;;;;;;x
+cvt_federal_charter_title;Constitute the Central Italian Federation;;;;;;;;;;;;;x
+cvt_federal_charter_desc;The governments of Parma, Modena and Tuscany have accepted common institutions. A federal charter can protect their local laws while giving Florence responsibility for ministers, defence and the common budget. It creates a practical regional state, an Italian crown still requires the rest of the peninsula.;;;;;;;;;;;;;x
+cvt_federal_charter_ratify;Ratify the settlement.;;;;;;;;;;;;;x
+cvt_federal_charter_defer;Leave the present settlement in force.;;;;;;;;;;;;;x
+cvt_federal_charter_deliberation_title;Constitute the Central Italian Federation;;;;;;;;;;;;;x
+cvt_federal_charter_deliberation_desc;The governments of Parma, Modena and Tuscany have accepted common institutions. A federal charter can protect their local laws while giving Florence responsibility for ministers, defence and the common budget. It creates a practical regional state, an Italian crown still requires the rest of the peninsula.;;;;;;;;;;;;;x
+cvt_national_army_professional;The National Standing Army;;;;;;;;;;;;;x
+cvt_national_army_professional_desc;Regular accounts and staff training give the constitutional government a dependable military instrument.;;;;;;;;;;;;;x
+cvt_national_army_reserves;The Provincial Reserve Administration;;;;;;;;;;;;;x
+cvt_national_army_reserves_desc;The army coordinates reserve service with provincial public institutions.;;;;;;;;;;;;;x
+cvt_national_army_title;An Army for the Italian Public Settlement;;;;;;;;;;;;;x
+cvt_national_army_desc;The constitutional government needs officers, dependable accounts and a supply administration before it can make national promises. The ministry can favour a professional standing force or coordinate provincial reserves with the ordinary army.;;;;;;;;;;;;;x
+cvt_national_army_programme_0;Build a professional standing force under responsible ministers.;;;;;;;;;;;;;x
+cvt_national_army_programme_1;Coordinate provincial reserves through the national staff.;;;;;;;;;;;;;x
+cvt_national_army_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_national_army_appropriation_title;An Army for the Italian Public Settlement;;;;;;;;;;;;;x
+cvt_national_army_appropriation_desc;The constitutional government needs officers, dependable accounts and a supply administration before it can make national promises. The ministry can favour a professional standing force or coordinate provincial reserves with the ordinary army. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_break_vienna_title;The House of Lorraine and the National War;;;;;;;;;;;;;x
+cvt_break_vienna_desc;Sardinia is fighting Austria for the Italian settlement. A prepared Tuscan crown can demonstrate its independence by entering the same struggle and claiming Lombardy. This breaks the Austrian alliance and requires a real campaign, the provinces remain Austrian until a successful peace.;;;;;;;;;;;;;x
+cvt_break_vienna_ratify;Ratify the settlement.;;;;;;;;;;;;;x
+cvt_break_vienna_defer;Leave the present settlement in force.;;;;;;;;;;;;;x
+cvt_break_vienna_deliberation_title;The House of Lorraine and the National War;;;;;;;;;;;;;x
+cvt_break_vienna_deliberation_desc;Sardinia is fighting Austria for the Italian settlement. A prepared Tuscan crown can demonstrate its independence by entering the same struggle and claiming Lombardy. This breaks the Austrian alliance and requires a real campaign, the provinces remain Austrian until a successful peace.;;;;;;;;;;;;;x
+cvt_savoy_challenge_title;Contest Savoyard Leadership;;;;;;;;;;;;;x
+cvt_savoy_challenge_desc;Turin claims to speak for the Italian future. Florence can demand recognition of another centre of leadership, but a refusal will leave the question to diplomacy or an actual war. The claim requires a capable army and established public institutions.;;;;;;;;;;;;;x
+cvt_savoy_challenge_ratify;Ratify the settlement.;;;;;;;;;;;;;x
+cvt_savoy_challenge_defer;Leave the present settlement in force.;;;;;;;;;;;;;x
+cvt_savoy_challenge_deliberation_title;Contest Savoyard Leadership;;;;;;;;;;;;;x
+cvt_savoy_challenge_deliberation_desc;Turin claims to speak for the Italian future. Florence can demand recognition of another centre of leadership, but a refusal will leave the question to diplomacy or an actual war. The claim requires a capable army and established public institutions.;;;;;;;;;;;;;x
+cvt_savoy_accept;Recognise the Florentine settlement without surrendering our state.;;;;;;;;;;;;;x
+cvt_savoy_refuse;The House of Savoy will retain its Italian claim.;;;;;;;;;;;;;x
+cvt_savoy_answer_title;The Claim from Florence;;;;;;;;;;;;;x
+cvt_turin_demands_title;The Settlement of Turin;;;;;;;;;;;;;x
+cvt_turin_demands_desc;Tuscan forces hold Turin. The Sardinian government must choose between continuing the war and recognising Florentine leadership of the Central Italian settlement. A settlement ends this campaign and leaves the Sardinian state intact.;;;;;;;;;;;;;x
+cvt_turin_sign;Recognise the Florentine settlement and end the campaign.;;;;;;;;;;;;;x
+cvt_turin_fight;Continue the war despite the loss of the capital.;;;;;;;;;;;;;x
+cvt_turin_settlement_title;The Settlement of Turin;;;;;;;;;;;;;x
+cvt_turin_settlement_desc;The loss of the capital has brought the Italian leadership claim before the government under the pressure of war. Florence offers peace in return for recognition. It does not demand annexation of Piedmont, and a later common crown would require another agreement.;;;;;;;;;;;;;x
+cvt_union_SAR_title;A Common Italian Crown with Savoy;;;;;;;;;;;;;x
+cvt_union_SAR_desc;After recognition of Florentine leadership, a common crown can settle the rivalry. Sardinia retains the right to refuse, compensation and guarantees must be accepted before its administration can join the new government.;;;;;;;;;;;;;x
+cvt_union_SAR_accept;Accept the funded settlement and the common administration.;;;;;;;;;;;;;x
+cvt_union_SAR_refuse;Retain our sovereignty and return the delegation's funds.;;;;;;;;;;;;;x
+cvt_union_SAR_reply_title;A Common Italian Crown with Savoy;;;;;;;;;;;;;x
+cvt_union_SAR_reply_desc;After recognition of Florentine leadership, a common crown can settle the rivalry. Sardinia retains the right to refuse, compensation and guarantees must be accepted before its administration can join the new government. The delegation offers a funded settlement of administrative and dynastic obligations. Our government may accept it or retain its sovereignty.;;;;;;;;;;;;;x
+cvt_union_SAR_recover;Close the approach and return the reserved funds.;;;;;;;;;;;;;x
+cvt_union_SAR_closed_title;The Negotiations Cannot Continue;;;;;;;;;;;;;x
+cvt_union_SAR_closed_desc;The delegation can no longer conclude the proposed settlement under the circumstances agreed at its departure. The reserved compensation returns to the treasury, a later approach will require the conditions to be restored.;;;;;;;;;;;;;x
+cvt_union_SIC_title;The Southern Dynastic Settlement;;;;;;;;;;;;;x
+cvt_union_SIC_desc;The league has made a common Italian administration conceivable, but Naples will not surrender its dynasty merely because Florence asks. A funded settlement must guarantee provincial courts and the public standing of the southern kingdom before it can join.;;;;;;;;;;;;;x
+cvt_union_SIC_accept;Accept the funded settlement and the common administration.;;;;;;;;;;;;;x
+cvt_union_SIC_refuse;Retain our sovereignty and return the delegation's funds.;;;;;;;;;;;;;x
+cvt_union_SIC_reply_title;The Southern Dynastic Settlement;;;;;;;;;;;;;x
+cvt_union_SIC_reply_desc;The league has made a common Italian administration conceivable, but Naples will not surrender its dynasty merely because Florence asks. A funded settlement must guarantee provincial courts and the public standing of the southern kingdom before it can join. The delegation offers a funded settlement of administrative and dynastic obligations. Our government may accept it or retain its sovereignty.;;;;;;;;;;;;;x
+cvt_union_SIC_recover;Close the approach and return the reserved funds.;;;;;;;;;;;;;x
+cvt_union_SIC_closed_title;The Negotiations Cannot Continue;;;;;;;;;;;;;x
+cvt_union_SIC_closed_desc;The delegation can no longer conclude the proposed settlement under the circumstances agreed at its departure. The reserved compensation returns to the treasury, a later approach will require the conditions to be restored.;;;;;;;;;;;;;x
+cvt_austrian_trade_privileges;Austrian Treaty Privileges;;;;;;;;;;;;;x
+cvt_austrian_trade_privileges_desc;The Habsburg settlement preserves Austrian property and preferential commercial obligations.;;;;;;;;;;;;;x
+cvt_lombardy_title;Better a Habsburg Italy than a Savoyard Italy;;;;;;;;;;;;;x
+cvt_lombardy_desc;A loyal and capable Florence offers Vienna a different solution to Lombardy: an allied Italian government under the House of Lorraine. Austria must consent to the territorial transfer. The settlement preserves alliance and access, compensates the imperial treasury and renounces the Tyrolean claim.;;;;;;;;;;;;;x
+cvt_lombardy_accept;Accept the funded settlement and the common administration.;;;;;;;;;;;;;x
+cvt_lombardy_refuse;Retain our sovereignty and return the delegation's funds.;;;;;;;;;;;;;x
+cvt_lombardy_reply_title;Better a Habsburg Italy than a Savoyard Italy;;;;;;;;;;;;;x
+cvt_lombardy_reply_desc;A loyal and capable Florence offers Vienna a different solution to Lombardy: an allied Italian government under the House of Lorraine. Austria must consent to the territorial transfer. The settlement preserves alliance and access, compensates the imperial treasury and renounces the Tyrolean claim. The delegation offers a funded settlement of administrative and dynastic obligations. Our government may accept it or retain its sovereignty.;;;;;;;;;;;;;x
+cvt_lombardy_recover;Close the approach and return the reserved funds.;;;;;;;;;;;;;x
+cvt_lombardy_closed_title;The Negotiations Cannot Continue;;;;;;;;;;;;;x
+cvt_lombardy_closed_desc;The delegation can no longer conclude the proposed settlement under the circumstances agreed at its departure. The reserved compensation returns to the treasury, a later approach will require the conditions to be restored.;;;;;;;;;;;;;x
+cvt_venetia_title;The Later Venetian Convention;;;;;;;;;;;;;x
+cvt_venetia_desc;The Lombard settlement has survived as an alliance. A later convention may extend the Italian administration to Venetia, but the Austrian government must judge the renewed compensation and guarantees acceptable.;;;;;;;;;;;;;x
+cvt_venetia_accept;Accept the convention and transfer the Venetian administration.;;;;;;;;;;;;;x
+cvt_venetia_refuse;Retain direct rule and return the reserved compensation.;;;;;;;;;;;;;x
+cvt_venetia_reply_title;The Venetian Convention;;;;;;;;;;;;;x
+cvt_venetia_reply_desc;The Italian imperial government offers another funded convention. Vienna can retain direct rule or transfer Venetia while keeping alliance, access and property guarantees. The Tyrolean settlement remains outside the bargain.;;;;;;;;;;;;;x
+cvt_venetia_recover;Close the approach and return the funds.;;;;;;;;;;;;;x
+cvt_venetia_closed_title;The Venetian Approach Ends;;;;;;;;;;;;;x
+cvt_venetia_closed_desc;The agreed conditions for the Venetian approach no longer hold. The compensation remains uncommitted and returns to the Italian treasury.;;;;;;;;;;;;;x
+cvt_austrian_intervene;Intervene to restore Austrian protection over Tuscany.;;;;;;;;;;;;;x
+cvt_austrian_wait;Keep the intervention outside our present commitments.;;;;;;;;;;;;;x
+cvt_austrian_republic_title;The Tuscan Revolutionary Government;;;;;;;;;;;;;x
+cvt_austrian_republic_desc;The Lorraine court asks Vienna to restore its authority. Intervention against an independent Tuscan republic would require an actual campaign. The republic may seek allies and recruit its own army, Austrian protection cannot be imposed merely by proclamation.;;;;;;;;;;;;;x
+cvt_republic_restore;Accept the restoration imposed by the peace.;;;;;;;;;;;;;x
+cvt_republic_defeat_title;The Republic Under Austrian Protection;;;;;;;;;;;;;x
+cvt_republic_defeat_desc;The peace has placed Tuscany under Austrian protection. The revolutionary government has lost the independence on which its constituent project rested, and the dynasty returns under the victor's authority.;;;;;;;;;;;;;x
+cvt_republic_recognition_title;Secure the Republic's Public Standing;;;;;;;;;;;;;x
+cvt_republic_recognition_desc;A surviving independent assembly must turn emergency authority into ordinary government. Recognition begins with reliable accounts and a civil administration, alliances and national union remain questions for actual diplomacy.;;;;;;;;;;;;;x
+cvt_republic_recognition_ratify;Ratify the settlement.;;;;;;;;;;;;;x
+cvt_republic_recognition_defer;Leave the present settlement in force.;;;;;;;;;;;;;x
+cvt_republic_recognition_deliberation_title;Secure the Republic's Public Standing;;;;;;;;;;;;;x
+cvt_republic_recognition_deliberation_desc;A surviving independent assembly must turn emergency authority into ordinary government. Recognition begins with reliable accounts and a civil administration, alliances and national union remain questions for actual diplomacy.;;;;;;;;;;;;;x
+cvt_proclaim_impero_title;Proclaim the Impero d'Italia;;;;;;;;;;;;;x
+cvt_proclaim_impero_desc;The Lorraine government holds the principal territories of the Italian settlement. Florence can now claim an imperial crown, but the constitution must reconcile the dynasty with the country it has brought together. Rome and Austrian Venetia remain separate questions unless acquired through their own settlements.;;;;;;;;;;;;;x
+cvt_imperial_absolute_choice;The crown will stand above the political institutions.;;;;;;;;;;;;;x
+cvt_imperial_semi_choice;Bind crown and state through responsible royal ministers.;;;;;;;;;;;;;x
+cvt_imperial_constitutional_choice;Restore the Statuto as a national constitutional settlement.;;;;;;;;;;;;;x
+cvt_imperial_defer;Leave the Tuscan government in place for now.;;;;;;;;;;;;;x
+cvt_imperial_settlement_title;The Crown and the Italian State;;;;;;;;;;;;;x
+cvt_imperial_settlement_desc;Florence has secured a territorial basis for a common Italian government. The House of Lorraine now faces the question that a larger country cannot postpone: personal sovereignty, a crown sharing power with ministers, or a responsible constitutional monarchy. The choice determines the new imperial standard and the public settlement.;;;;;;;;;;;;;x
+cvt_republican_italy_title;Constitute the Italian Republic;;;;;;;;;;;;;x
+cvt_republican_italy_desc;A national government requires possession and administration of the Italian territories, not a proclamation alone. The Tuscan institutions can now supply a common public settlement while Rome and Venetia retain their separate diplomatic questions.;;;;;;;;;;;;;x
+cvt_republican_italy_ratify;Ratify the settlement.;;;;;;;;;;;;;x
+cvt_republican_italy_defer;Leave the present settlement in force.;;;;;;;;;;;;;x
+cvt_republican_italy_deliberation_title;Constitute the Italian Republic;;;;;;;;;;;;;x
+cvt_republican_italy_deliberation_desc;A national government requires possession and administration of the Italian territories, not a proclamation alone. The Tuscan institutions can now supply a common public settlement while Rome and Venetia retain their separate diplomatic questions.;;;;;;;;;;;;;x
+cvt_federal_italy_title;Extend the Federal Charter to Italy;;;;;;;;;;;;;x
+cvt_federal_italy_desc;A national government requires possession and administration of the Italian territories, not a proclamation alone. The Tuscan institutions can now supply a common public settlement while Rome and Venetia retain their separate diplomatic questions.;;;;;;;;;;;;;x
+cvt_federal_italy_ratify;Ratify the settlement.;;;;;;;;;;;;;x
+cvt_federal_italy_defer;Leave the present settlement in force.;;;;;;;;;;;;;x
+cvt_federal_italy_deliberation_title;Extend the Federal Charter to Italy;;;;;;;;;;;;;x
+cvt_federal_italy_deliberation_desc;A national government requires possession and administration of the Italian territories, not a proclamation alone. The Tuscan institutions can now supply a common public settlement while Rome and Venetia retain their separate diplomatic questions.;;;;;;;;;;;;;x
+cvt_national_service;The Professional Public Service;;;;;;;;;;;;;x
+cvt_national_service_desc;Trained officials connect public accounts with a dependable central administration.;;;;;;;;;;;;;x
+cvt_provincial_service;The Provincial Public Service;;;;;;;;;;;;;x
+cvt_provincial_service_desc;Provincial recruitment sustains local knowledge and lawful public administration.;;;;;;;;;;;;;x
+cvt_late_public_service_title;A Professional National Public Service;;;;;;;;;;;;;x
+cvt_late_public_service_desc;A larger public administration needs trained officials whose duties extend beyond household patronage. Ministers can invest in a uniform service or protect provincial recruitment and local courts.;;;;;;;;;;;;;x
+cvt_late_public_service_programme_0;Create a uniform professional civil service.;;;;;;;;;;;;;x
+cvt_late_public_service_programme_1;Recruit through provincial colleges and protect local procedure.;;;;;;;;;;;;;x
+cvt_late_public_service_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_late_public_service_appropriation_title;A Professional National Public Service;;;;;;;;;;;;;x
+cvt_late_public_service_appropriation_desc;A larger public administration needs trained officials whose duties extend beyond household patronage. Ministers can invest in a uniform service or protect provincial recruitment and local courts. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_national_technical;National Technical Scholarship;;;;;;;;;;;;;x
+cvt_national_technical_desc;Specialist study links the universities with industry and public engineering.;;;;;;;;;;;;;x
+cvt_national_public_schools;The Public School and Library Network;;;;;;;;;;;;;x
+cvt_national_public_schools_desc;A wider public gains access to education beyond the old university circles.;;;;;;;;;;;;;x
+cvt_late_schools_title;Scholarship and the National Public;;;;;;;;;;;;;x
+cvt_late_schools_desc;The universities and technical schools must serve a society larger than the old duchy. Ministers debate specialist training for industry against wider public education and municipal libraries.;;;;;;;;;;;;;x
+cvt_late_schools_programme_0;Connect the universities to engineering and industry.;;;;;;;;;;;;;x
+cvt_late_schools_programme_1;Broaden public schooling and municipal libraries.;;;;;;;;;;;;;x
+cvt_late_schools_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cvt_late_schools_appropriation_title;Scholarship and the National Public;;;;;;;;;;;;;x
+cvt_late_schools_appropriation_desc;The universities and technical schools must serve a society larger than the old duchy. Ministers debate specialist training for industry against wider public education and municipal libraries. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cvt_revise_imperial_constitution_title;Reconsider the Imperial Constitution;;;;;;;;;;;;;x
+cvt_revise_imperial_constitution_desc;The institutions chosen at unification now govern a mature national public. The crown can retain personal sovereignty, share authority with responsible royal ministers, or accept full constitutional government. A funded settlement supports the legal and administrative transition.;;;;;;;;;;;;;x
+cvt_revision_absolute;Retain sovereignty under the crown.;;;;;;;;;;;;;x
+cvt_revision_semi;Share authority with responsible royal ministers.;;;;;;;;;;;;;x
+cvt_revision_constitutional;Entrust ordinary government to the constitutional parliament.;;;;;;;;;;;;;x
+cvt_revision_postpone;Return the appropriation and retain the present settlement.;;;;;;;;;;;;;x
+cvt_imperial_revision_title;The Imperial Constitution Reconsidered;;;;;;;;;;;;;x
+cvt_imperial_revision_desc;The reserved appropriation supports a new public settlement. The constitution will define the crown's authority and the ministry's responsibility, changing circumstances can still require postponement.;;;;;;;;;;;;;x
+cvt_century_question_choice_0;Expand lawful participation and recognise organised public life.;;;;;;;;;;;;;x
+cvt_century_question_choice_1;Keep the executive settlement and strengthen legal protection.;;;;;;;;;;;;;x
+cvt_century_question_title;The Public at the Turn of the Century;;;;;;;;;;;;;x
+cvt_century_question_desc;Workers, municipal reformers and the educated professions ask whether the institutions built by the old duchy can answer a changing society. The government can expand lawful participation or insist on executive order, but neither course erases the country's social divisions.;;;;;;;;;;;;;x
+cvt_national_century_title;The National Public at the Turn of the Century;;;;;;;;;;;;;x
+cvt_national_century_desc;The institutions built at unification now face a larger organised public. Workers, municipalities and educated professions seek a lawful place in national government. Ministers must decide how far the public settlement can accommodate them.;;;;;;;;;;;;;x
+cvt_reign_leopoldo_i;Leopoldo I, Emperor of Italy;;;;;;;;;;;;;x
+cvt_reign_leopoldo_i_desc;The Tuscan Habsburg-Lorraine dynasty holds the Italian imperial crown under its founder, Leopoldo I.;;;;;;;;;;;;;x
+cvt_reign_ferdinando_i;Ferdinando I, Emperor of Italy;;;;;;;;;;;;;x
+cvt_reign_ferdinando_i_desc;Ferdinando I has inherited the Italian imperial crown following the death of his father, Leopoldo I.;;;;;;;;;;;;;x
+cvt_founder_acclamation_absolute;Long live Emperor Ferdinando I!;;;;;;;;;;;;;x
+cvt_founder_death_absolute_title;The Death of the Founder;;;;;;;;;;;;;x
+cvt_founder_death_absolute_desc;Seine Kaiserliche Hoheit Leopoldo I, Emperor of Italy and Grand Duke of Tuscany, has died. Once ruler of a modest Tuscan state, Leopoldo lived to see his dynasty, already reigning in Austria, raised to the throne of a united Italy under his rule. His eldest surviving son Ferdinand now inherits the Imperial Crown, becoming Ferdinando I, Emperor of Italy. Across the Empire, bells toll for the man who founded a new Italian order, while the court in Florence turns its attention to the reign that now begins. One thing is certain: Seine Kaiserliche Hoheit Ferdinando I will strive to make Italy remembered throughout the world, by faith and country.;;;;;;;;;;;;;x
+cvt_founder_acclamation_semi;Long live Emperor Ferdinando I!;;;;;;;;;;;;;x
+cvt_founder_death_semi_title;The Death of the Founder;;;;;;;;;;;;;x
+cvt_founder_death_semi_desc;Unsere Kaiserliche Hoheit Leopoldo I, Emperor of Italy and Grand Duke of Tuscany, has died. Once ruler of a modest Tuscan state, Leopoldo lived to see his dynasty, already reigning in Austria, raised to the throne of a united Italy under his rule. His eldest surviving son Ferdinand now inherits the Imperial Crown, becoming Ferdinando I, Emperor of Italy. Across the Empire, bells toll for the man who founded a new Italian order, while the court in Florence turns its attention to the reign that now begins. One thing is certain: Unsere Kaiserliche Hoheit Ferdinando I will strive to make Italy remembered throughout the world, by faith and country.;;;;;;;;;;;;;x
+cvt_founder_acclamation_constitutional;Long live Emperor Ferdinando I!;;;;;;;;;;;;;x
+cvt_founder_death_constitutional_title;The Death of the Founder;;;;;;;;;;;;;x
+cvt_founder_death_constitutional_desc;Apostolische Majestät Leopoldo I, Emperor of Italy and Grand Duke of Tuscany, has died. Once ruler of a modest Tuscan state, Leopoldo lived to see his dynasty, already reigning in Austria, raised to the throne of a united Italy under his rule. His eldest surviving son Ferdinand now inherits the Imperial Crown, becoming Ferdinando I, Emperor of Italy. Across the Empire, bells toll for the man who founded a new Italian order, while the court in Florence turns its attention to the reign that now begins. One thing is certain: Apostolische Majestät Ferdinando I will strive to make Italy remembered throughout the world, by faith and country.;;;;;;;;;;;;;x
+cvt_ferdinando_faith;The Crown, Faith and Country;;;;;;;;;;;;;x
+cvt_ferdinando_faith_desc;Ferdinando favours cooperation between the court, parish charities and provincial authorities while preserving the inherited constitution.;;;;;;;;;;;;;x
+cvt_ferdinando_direction_faith;Faith and country will bind the crown to its people.;;;;;;;;;;;;;x
+cvt_ferdinando_conciliation;The Conciliatory Imperial Ministry;;;;;;;;;;;;;x
+cvt_ferdinando_conciliation_desc;Ferdinando receives parliamentary and municipal representatives and encourages education as a bond between the dynasty and the Italian public.;;;;;;;;;;;;;x
+cvt_ferdinando_direction_conciliation;Reconcile the imperial crown with Italy's constitutional public.;;;;;;;;;;;;;x
+cvt_ferdinando_service;The Crown and Public Service;;;;;;;;;;;;;x
+cvt_ferdinando_service_desc;Ferdinando calls for accountable officials and orderly public accounts, leaving larger institutional reforms to their own appropriations.;;;;;;;;;;;;;x
+cvt_ferdinando_direction_service;Earn Italy's loyalty through a disciplined public service.;;;;;;;;;;;;;x
+cvt_ferdinando_direction_title;The First Council of Ferdinando I;;;;;;;;;;;;;x
+cvt_ferdinando_direction_desc;The mourning court has acclaimed the new Emperor, but inheritance alone cannot define his reign. Ferdinando must speak to an Italy brought together by his father: conservative provincial society, the constitutional public and ministers seeking an effective national administration. His first council can place faith and dynastic loyalty at the centre of public life, pursue reconciliation, or make public service the test of the crown's usefulness. The existing constitution remains in force, larger reforms still require their own parliamentary and financial settlements.;;;;;;;;;;;;;x
+cvt_reign_suspend_choice;Record the new public settlement.;;;;;;;;;;;;;x
+cvt_imperial_reign_suspended_title;The Crown Leaves Public Government;;;;;;;;;;;;;x
+cvt_imperial_reign_suspended_desc;The new public government has set aside imperial authority. The court's dynastic claim survives in exile, but it no longer supplies the country's reigning head of state.;;;;;;;;;;;;;x
+cvt_reign_restore_choice;Record the restored imperial government.;;;;;;;;;;;;;x
+cvt_imperial_reign_restored_title;The Imperial Court Returns;;;;;;;;;;;;;x
+cvt_imperial_reign_restored_desc;A monarchic settlement has restored the House of Habsburg-Lorraine to public authority. The court resumes its place under the surviving imperial succession, while the restored constitution defines its powers.;;;;;;;;;;;;;x
+cvt_leadership_campaign_confirm_title;The War for Italian Unification;;;;;;;;;;;;;x
+cvt_leadership_campaign_confirm_desc;The rivalry between Florence and Turin will be decided by war. Both crowns may call their allies. Enforcing the unification objective gives the victor an Italian conference covering the peninsula, the islands and the Savoyard frontier. Austrian lands remain outside its articles.;;;;;;;;;;;;;x
+cvt_league_AUS_accepted_report_desc;Austria has accepted the Florentine conventions. The courts are allied, military access is granted and their relations improve. Each retains its sovereignty until a further Italian settlement.;;;;;;;;;;;;;x
+cvt_league_AUS_accepted_report_ok;The ministry records the answer.;;;;;;;;;;;;;x
+cvt_league_AUS_accepted_report_title;Austria Joins the Florentine Conventions;;;;;;;;;;;;;x
+cvt_league_AUS_refusal_record_report_desc;The foreign ministry records the diplomatic strain left by the rejected convention.;;;;;;;;;;;;;x
+cvt_league_AUS_refusal_record_report_ok;Record the diplomatic settlement.;;;;;;;;;;;;;x
+cvt_league_AUS_refusal_record_report_title;Austria and the Rejected Convention;;;;;;;;;;;;;x
+cvt_league_AUS_refused_report_desc;Austria has declined the proposed conventions. The refusal strains relations between the courts. Florence may renew the approach when diplomatic conditions permit.;;;;;;;;;;;;;x
+cvt_league_AUS_refused_report_ok;The ministry records the answer.;;;;;;;;;;;;;x
+cvt_league_AUS_refused_report_title;Austria Declines the Florentine Conventions;;;;;;;;;;;;;x
+cvt_league_AUS_treaty_record_report_desc;The foreign ministry completes the accepted convention. An alliance and military access now give practical force to the agreement, while relations between the courts improve.;;;;;;;;;;;;;x
+cvt_league_AUS_treaty_record_report_ok;Record the diplomatic settlement.;;;;;;;;;;;;;x
+cvt_league_AUS_treaty_record_report_title;Austria: The Alliance Takes Effect;;;;;;;;;;;;;x
+cvt_league_MOD_accepted_report_desc;Modena has accepted the Florentine conventions. The courts are allied, military access is granted and their relations improve. Each retains its sovereignty until a further Italian settlement.;;;;;;;;;;;;;x
+cvt_league_MOD_accepted_report_ok;The ministry records the answer.;;;;;;;;;;;;;x
+cvt_league_MOD_accepted_report_title;Modena Joins the Florentine Conventions;;;;;;;;;;;;;x
+cvt_league_MOD_refusal_record_report_desc;The foreign ministry records the diplomatic strain left by the rejected convention.;;;;;;;;;;;;;x
+cvt_league_MOD_refusal_record_report_ok;Record the diplomatic settlement.;;;;;;;;;;;;;x
+cvt_league_MOD_refusal_record_report_title;Modena and the Rejected Convention;;;;;;;;;;;;;x
+cvt_league_MOD_refused_report_desc;Modena has declined the proposed conventions. The refusal strains relations between the courts. Florence may renew the approach when diplomatic conditions permit.;;;;;;;;;;;;;x
+cvt_league_MOD_refused_report_ok;The ministry records the answer.;;;;;;;;;;;;;x
+cvt_league_MOD_refused_report_title;Modena Declines the Florentine Conventions;;;;;;;;;;;;;x
+cvt_league_MOD_treaty_record_report_desc;The foreign ministry completes the accepted convention. An alliance and military access now give practical force to the agreement, while relations between the courts improve.;;;;;;;;;;;;;x
+cvt_league_MOD_treaty_record_report_ok;Record the diplomatic settlement.;;;;;;;;;;;;;x
+cvt_league_MOD_treaty_record_report_title;Modena: The Alliance Takes Effect;;;;;;;;;;;;;x
+cvt_league_PAR_accepted_report_desc;Parma has accepted the Florentine conventions. The courts are allied, military access is granted and their relations improve. Each retains its sovereignty until a further Italian settlement.;;;;;;;;;;;;;x
+cvt_league_PAR_accepted_report_ok;The ministry records the answer.;;;;;;;;;;;;;x
+cvt_league_PAR_accepted_report_title;Parma Joins the Florentine Conventions;;;;;;;;;;;;;x
+cvt_league_PAR_refusal_record_report_desc;The foreign ministry records the diplomatic strain left by the rejected convention.;;;;;;;;;;;;;x
+cvt_league_PAR_refusal_record_report_ok;Record the diplomatic settlement.;;;;;;;;;;;;;x
+cvt_league_PAR_refusal_record_report_title;Parma and the Rejected Convention;;;;;;;;;;;;;x
+cvt_league_PAR_refused_report_desc;Parma has declined the proposed conventions. The refusal strains relations between the courts. Florence may renew the approach when diplomatic conditions permit.;;;;;;;;;;;;;x
+cvt_league_PAR_refused_report_ok;The ministry records the answer.;;;;;;;;;;;;;x
+cvt_league_PAR_refused_report_title;Parma Declines the Florentine Conventions;;;;;;;;;;;;;x
+cvt_league_PAR_treaty_record_report_desc;The foreign ministry completes the accepted convention. An alliance and military access now give practical force to the agreement, while relations between the courts improve.;;;;;;;;;;;;;x
+cvt_league_PAR_treaty_record_report_ok;Record the diplomatic settlement.;;;;;;;;;;;;;x
+cvt_league_PAR_treaty_record_report_title;Parma: The Alliance Takes Effect;;;;;;;;;;;;;x
+cvt_league_SIC_accepted_report_desc;Two Sicilies has accepted the Florentine conventions. The courts are allied, military access is granted and their relations improve. Each retains its sovereignty until a further Italian settlement.;;;;;;;;;;;;;x
+cvt_league_SIC_accepted_report_ok;The ministry records the answer.;;;;;;;;;;;;;x
+cvt_league_SIC_accepted_report_title;Two Sicilies Joins the Florentine Conventions;;;;;;;;;;;;;x
+cvt_league_SIC_refusal_record_report_desc;The foreign ministry records the diplomatic strain left by the rejected convention.;;;;;;;;;;;;;x
+cvt_league_SIC_refusal_record_report_ok;Record the diplomatic settlement.;;;;;;;;;;;;;x
+cvt_league_SIC_refusal_record_report_title;Two Sicilies and the Rejected Convention;;;;;;;;;;;;;x
+cvt_league_SIC_refused_report_desc;Two Sicilies has declined the proposed conventions. The refusal strains relations between the courts. Florence may renew the approach when diplomatic conditions permit.;;;;;;;;;;;;;x
+cvt_league_SIC_refused_report_ok;The ministry records the answer.;;;;;;;;;;;;;x
+cvt_league_SIC_refused_report_title;Two Sicilies Declines the Florentine Conventions;;;;;;;;;;;;;x
+cvt_league_SIC_treaty_record_report_desc;The foreign ministry completes the accepted convention. An alliance and military access now give practical force to the agreement, while relations between the courts improve.;;;;;;;;;;;;;x
+cvt_league_SIC_treaty_record_report_ok;Record the diplomatic settlement.;;;;;;;;;;;;;x
+cvt_league_SIC_treaty_record_report_title;Two Sicilies: The Alliance Takes Effect;;;;;;;;;;;;;x
+cvt_league_dispatch_report_desc;The ministry has dispatched invitations to the courts eligible for this approach. Their governments must now decide whether to join. Separate reports will bring each recorded answer to Florence. Participation establishes cooperation between sovereign states, it does not transfer their territory.;;;;;;;;;;;;;x
+cvt_league_dispatch_report_ok;Await the reports from our delegations.;;;;;;;;;;;;;x
+cvt_league_dispatch_report_title;The Florentine Delegations Depart;;;;;;;;;;;;;x
+cvt_league_record_report_desc;The ministry has reconciled its dispatches with the foreign replies. Accepted conventions can now receive their outstanding diplomatic arrangements, and invitations recorded at the wrong chancery are being returned to the proper delegation. No new appropriation is required for this correction.;;;;;;;;;;;;;x
+cvt_league_record_report_ok;Complete the diplomatic records.;;;;;;;;;;;;;x
+cvt_league_record_report_title;The Florentine Convention Records;;;;;;;;;;;;;x
+cvt_savoy_answer_desc;Florence demands recognition of its Italian initiative. Acceptance preserves Sardinia as a separate state. Refusal opens a war in which either crown can enforce an Italian unification conference.;;;;;;;;;;;;;x
+cvt_leadership_campaign_title;The War for Italian Unification;;;;;;;;;;;;;x
+cvt_leadership_campaign_desc;The rivalry between Florence and Turin will be decided by war. Both crowns may call their allies. Enforcing the unification objective gives the victor an Italian conference covering the peninsula, the islands and the Savoyard frontier. Austrian lands remain outside its articles.;;;;;;;;;;;;;x
+cvt_leadership_campaign_ratify;Begin the war for Italian unification.;;;;;;;;;;;;;x
+cvt_leadership_campaign_defer;Leave the present settlement in force.;;;;;;;;;;;;;x
+cvt_leadership_campaign_deliberation_title;The War for Italian Unification;;;;;;;;;;;;;x
+cvt_leadership_campaign_deliberation_desc;The rivalry between Florence and Turin will be decided by war. Both crowns may call their allies. Enforcing the unification objective gives the victor an Italian conference covering the peninsula, the islands and the Savoyard frontier. Austrian lands remain outside its articles.;;;;;;;;;;;;;x
+cvi_conference_TUS_ratify;Ratify the articles and establish a united Italy.;;;;;;;;;;;;;x
+cvi_conference_TUS_defer;Keep the articles for later ratification.;;;;;;;;;;;;;x
+cvi_conference_TUS_title;The Italian Unification Conference;;;;;;;;;;;;;x
+cvi_conference_TUS_desc;The rival crown has accepted the unification terms. Delegates assemble to place the Italian courts, the Papal temporal provinces and the southern kingdom under the victorious government. Savoy and Nice accompany Piedmont wherever they remain in Italian hands. Lombardy, Venetia and the Austrian borderlands are excluded. Ratification will end the separate sovereignty of the participating Italian states.;;;;;;;;;;;;;x
+cvi_conference_SAR_ratify;Ratify the articles and establish a united Italy.;;;;;;;;;;;;;x
+cvi_conference_SAR_defer;Keep the articles for later ratification.;;;;;;;;;;;;;x
+cvi_conference_SAR_title;The Italian Unification Conference;;;;;;;;;;;;;x
+cvi_conference_SAR_desc;The rival crown has accepted the unification terms. Delegates assemble to place the Italian courts, the Papal temporal provinces and the southern kingdom under the victorious government. Savoy and Nice accompany Piedmont wherever they remain in Italian hands. Lombardy, Venetia and the Austrian borderlands are excluded. Ratification will end the separate sovereignty of the participating Italian states.;;;;;;;;;;;;;x
+cvi_resume_conference_title;Reopen the Italian Unification Conference;;;;;;;;;;;;;x
+cvi_resume_conference_desc;Return the deferred articles to the delegates for ratification.;;;;;;;;;;;;;x
+cvi_imperial_absolute;The imperial crown will retain personal sovereignty.;;;;;;;;;;;;;x
+cvi_imperial_semi;Crown and ministers will share the government.;;;;;;;;;;;;;x
+cvi_imperial_constitutional;A national statute will bind the imperial crown.;;;;;;;;;;;;;x
+cvi_imperial_articles_title;The Imperial Crown of Italy;;;;;;;;;;;;;x
+cvi_imperial_articles_desc;The conference has placed Italy under the House of Lorraine. Florence must now settle the powers of the imperial crown. The settlement can preserve personal sovereignty, establish a ministry under royal authority, or bind the dynasty to a national constitution. The excluded Austrian provinces remain a question for another day.;;;;;;;;;;;;;x
+cvi_articles_cvt_republic_ok;Constitute the common Italian state.;;;;;;;;;;;;;x
+cvi_articles_cvt_republic_title;The Italian Republican Articles;;;;;;;;;;;;;x
+cvi_articles_cvt_republic_desc;The victorious Tuscan government carries its existing political programme into the common Italian state. The conference unites the participating territories while reserving the Austrian question for later diplomacy.;;;;;;;;;;;;;x
+cvi_articles_cvt_federation_ok;Constitute the common Italian state.;;;;;;;;;;;;;x
+cvi_articles_cvt_federation_title;The Italian Federal Articles;;;;;;;;;;;;;x
+cvi_articles_cvt_federation_desc;The victorious Tuscan government carries its existing political programme into the common Italian state. The conference unites the participating territories while reserving the Austrian question for later diplomacy.;;;;;;;;;;;;;x
+cvi_inconclusive_TUS_ok;The Italian question remains open.;;;;;;;;;;;;;x
+cvi_inconclusive_TUS_title;The Unresolved Italian Question;;;;;;;;;;;;;x
+cvi_inconclusive_TUS_desc;The armies have stood down without an enforced unification settlement. Neither crown can convene the victorious conference on the strength of this peace. The truce and the ordinary diplomatic situation remain in force.;;;;;;;;;;;;;x
+cvi_inconclusive_SAR_ok;The Italian question remains open.;;;;;;;;;;;;;x
+cvi_inconclusive_SAR_title;The Unresolved Italian Question;;;;;;;;;;;;;x
+cvi_inconclusive_SAR_desc;The armies have stood down without an enforced unification settlement. Neither crown can convene the victorious conference on the strength of this peace. The truce and the ordinary diplomatic situation remain in force.;;;;;;;;;;;;;x
+cvi_savoy_allies_ok;Call our allies to the war.;;;;;;;;;;;;;x
+cvi_savoy_allies_title;The Defence of the Savoyard Crown;;;;;;;;;;;;;x
+cvi_savoy_allies_desc;Florence has challenged the House of Savoy for the government of Italy. Turin calls upon its allies to defend its claim. A victorious peace can establish Italy under Savoy as surely as defeat can establish the Tuscan empire.;;;;;;;;;;;;;x
+cvi_districts_TUS_ok;Complete the provincial schedules.;;;;;;;;;;;;;x
+cvi_districts_TUS_title;Completing the Italian Conference Articles;;;;;;;;;;;;;x
+cvi_districts_TUS_desc;The provincial schedules omitted districts administered separately on the Italian map. The delegates confirm that these districts belong to the same settlement as the surrounding Italian provinces. Their administrations will now join the victorious state under the constitution already agreed. The excluded Austrian and foreign territories remain outside the articles.;;;;;;;;;;;;;x
+cvi_districts_SAR_ok;Complete the provincial schedules.;;;;;;;;;;;;;x
+cvi_districts_SAR_title;Completing the Italian Conference Articles;;;;;;;;;;;;;x
+cvi_districts_SAR_desc;The provincial schedules omitted districts administered separately on the Italian map. The delegates confirm that these districts belong to the same settlement as the surrounding Italian provinces. Their administrations will now join the victorious state under the constitution already agreed. The excluded Austrian and foreign territories remain outside the articles.;;;;;;;;;;;;;x
+cvi_districts_TIE_ok;Complete the provincial schedules.;;;;;;;;;;;;;x
+cvi_districts_TIE_title;Completing the Italian Conference Articles;;;;;;;;;;;;;x
+cvi_districts_TIE_desc;The provincial schedules omitted districts administered separately on the Italian map. The delegates confirm that these districts belong to the same settlement as the surrounding Italian provinces. Their administrations will now join the victorious state under the constitution already agreed. The excluded Austrian and foreign territories remain outside the articles.;;;;;;;;;;;;;x
+cvi_districts_ITA_ok;Complete the provincial schedules.;;;;;;;;;;;;;x
+cvi_districts_ITA_title;Completing the Italian Conference Articles;;;;;;;;;;;;;x
+cvi_districts_ITA_desc;The provincial schedules omitted districts administered separately on the Italian map. The delegates confirm that these districts belong to the same settlement as the surrounding Italian provinces. Their administrations will now join the victorious state under the constitution already agreed. The excluded Austrian and foreign territories remain outside the articles.;;;;;;;;;;;;;x
+cvi_unification;War of Italian Unification;;;;;;;;;;;;;x
+cvi_unification_short;Italian Unification;;;;;;;;;;;;;x
+cvi_unification_desc;Enforce a conference uniting the participating Italian states under the victorious crown. Austrian territory is excluded.;;;;;;;;;;;;;x
+CVI_UNIFICATION_WAR;The War for Italian Unification;;;;;;;;;;;;;x
+NORMAL_CVI_UNIFICATION_WAR;The War for Italian Unification;;;;;;;;;;;;;x

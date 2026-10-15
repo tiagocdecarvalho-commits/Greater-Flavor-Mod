@@ -1,0 +1,267 @@
+# Faith and Frontier 3.1 - Dynamic Polities decisions
+political_decisions = {
+ ff31_vryburg_land_board = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = STL year = 1883 owns = 4022 NOT = { has_country_flag = ff31_vryburg_land_board_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_vryburg_land_board_done add_country_modifier = { name = ff31_land_registry duration = -1 } 4022 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_stellaland_postal_route = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = STL year = 1884 owns = 4022 NOT = { has_country_flag = ff31_stellaland_postal_route_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_stellaland_postal_route_done add_country_modifier = { name = ff31_market_road duration = 3650 } 4022 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_rooigrond_laager = {
+  picture = ffv5_commando_decision
+  potential = { tag = GOS year = 1883 owns = 4023 NOT = { has_country_flag = ff31_rooigrond_laager_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_rooigrond_laager_done add_country_modifier = { name = ff31_frontier_commando duration = 1095 } 4023 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_barolong_grazing_compact = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = GOS year = 1883 owns = 4023 NOT = { has_country_flag = ff31_barolong_grazing_compact_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_barolong_grazing_compact_done add_country_modifier = { name = ff31_native_compact duration = 3650 } 4023 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_federal_treasury = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = UST year = 1883 owns = 4022 NOT = { has_country_flag = ff31_federal_treasury_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_federal_treasury_done add_country_modifier = { name = ff31_federal_treasury duration = -1 } 4022 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_two_star_standard = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = UST year = 1883 owns = 4023 NOT = { has_country_flag = ff31_two_star_standard_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_two_star_standard_done add_country_modifier = { name = ff31_district_raad duration = -1 } 4023 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_lydenburg_prospectors = {
+  picture = ffv4_rand_deep_mining_decision
+  potential = { tag = LYD year = 1856 owns = 2109 NOT = { has_country_flag = ff31_lydenburg_prospectors_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_lydenburg_prospectors_done add_country_modifier = { name = ff31_gold_prospecting duration = 1825 } 2109 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_delagoa_wagon_route = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = LYD year = 1857 owns = 2109 NOT = { has_country_flag = ff31_delagoa_wagon_route_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_delagoa_wagon_route_done add_country_modifier = { name = ff31_market_road duration = 3650 } 2109 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_buffalo_river_compact = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = UTR year = 1854 owns = 4024 NOT = { has_country_flag = ff31_buffalo_river_compact_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_buffalo_river_compact_done add_country_modifier = { name = ff31_native_compact duration = 3650 } 4024 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_utrecht_wagon_road = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = UTR year = 1855 owns = 4024 NOT = { has_country_flag = ff31_utrecht_wagon_road_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_utrecht_wagon_road_done add_country_modifier = { name = ff31_market_road duration = 3650 } 4024 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_mbandzeni_grant = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = KVS year = 1886 owns = 4025 NOT = { has_country_flag = ff31_mbandzeni_grant_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_mbandzeni_grant_done add_country_modifier = { name = ff31_native_compact duration = 3650 } 4025 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_piet_retief_market = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = KVS year = 1886 owns = 4025 NOT = { has_country_flag = ff31_piet_retief_market_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_piet_retief_market_done add_country_modifier = { name = ff31_market_road duration = 3650 } 4025 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_winburg_volksraad = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = ORA year = 1837 NOT = { year = 1848 } owns = 2102 NOT = { has_country_flag = ff31_winburg_volksraad_done } }
+  allow = { war = no money = 500 }
+  effect = { treasury = -500 set_country_flag = ff31_winburg_volksraad_done add_country_modifier = { name = ff31_district_raad duration = -1 } plurality = 1 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_vet_river_commando = {
+  picture = ffv5_commando_decision
+  potential = { tag = ORA year = 1838 NOT = { year = 1848 } owns = 2102 NOT = { has_country_flag = ff31_vet_river_commando_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_vet_river_commando_done add_country_modifier = { name = ff31_frontier_commando duration = 1095 } 2102 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_mooi_river_market = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = POT year = 1838 owns = 4005 NOT = { has_country_flag = ff31_mooi_river_market_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_mooi_river_market_done add_country_modifier = { name = ff31_market_road duration = 3650 } 4005 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_potchefstroom_press = {
+  picture = ffv5_grey_college_decision
+  potential = { tag = POT year = 1840 owns = 4005 NOT = { has_country_flag = ff31_potchefstroom_press_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_potchefstroom_press_done add_country_modifier = { name = ff31_printing_press duration = -1 } 4005 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_schoemansdal_ivory_route = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = ZPB year = 1852 owns = 2110 NOT = { has_country_flag = ff31_schoemansdal_ivory_route_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_schoemansdal_ivory_route_done add_country_modifier = { name = ff31_ivory_trade duration = 1825 } 2110 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_zoutpansberg_laager = {
+  picture = ffv5_commando_decision
+  potential = { tag = ZPB year = 1853 owns = 2110 NOT = { has_country_flag = ff31_zoutpansberg_laager_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_zoutpansberg_laager_done add_country_modifier = { name = ff31_frontier_commando duration = 1095 } 2110 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_klip_river_compact = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = KLR year = 1847 owns = 2112 NOT = { has_country_flag = ff31_klip_river_compact_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_klip_river_compact_done add_country_modifier = { name = ff31_native_compact duration = 3650 } 2112 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_ladysmith_wagon_road = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = KLR year = 1848 owns = 2112 NOT = { has_country_flag = ff31_ladysmith_wagon_road_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_ladysmith_wagon_road_done add_country_modifier = { name = ff31_market_road duration = 3650 } 2112 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_swellendam_drostdy = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = SWL year = 1836 owns = 2090 NOT = { has_country_flag = ff31_swellendam_drostdy_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_swellendam_drostdy_done add_country_modifier = { name = ff31_district_raad duration = -1 } 2090 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_overberg_land_register = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = SWL year = 1837 owns = 2090 NOT = { has_country_flag = ff31_overberg_land_register_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_overberg_land_register_done add_country_modifier = { name = ff31_land_registry duration = -1 } 2090 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_graaffreinet_drostdy = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = GRF year = 1836 owns = 2097 NOT = { has_country_flag = ff31_graaffreinet_drostdy_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_graaffreinet_drostdy_done add_country_modifier = { name = ff31_district_raad duration = -1 } 2097 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_eastern_frontier_commando = {
+  picture = ffv5_commando_decision
+  potential = { tag = GRF year = 1837 owns = 2097 NOT = { has_country_flag = ff31_eastern_frontier_commando_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_eastern_frontier_commando_done add_country_modifier = { name = ff31_frontier_commando duration = 1095 } 2097 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_griqua_land_commission = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = GKW year = 1854 owns = 4010 NOT = { has_country_flag = ff31_griqua_land_commission_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_griqua_land_commission_done add_country_modifier = { name = ff31_griqua_landboard duration = -1 } 4010 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_diamond_licenses = {
+  picture = ffv4_rand_deep_mining_decision
+  potential = { tag = GKW year = 1867 owns = 4010 NOT = { has_country_flag = ff31_diamond_licenses_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_diamond_licenses_done add_country_modifier = { name = ff31_diamond_licenses duration = 3650 } 4010 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_kokstad_land_board = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = GKE year = 1861 owns = 3901 NOT = { has_country_flag = ff31_kokstad_land_board_done } }
+  allow = { war = no money = 2250 }
+  effect = { treasury = -2250 set_country_flag = ff31_kokstad_land_board_done add_country_modifier = { name = ff31_griqua_landboard duration = -1 } 3901 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_griqua_mission_schools = {
+  picture = ffv5_grey_college_decision
+  potential = { tag = GKE year = 1862 owns = 3901 NOT = { has_country_flag = ff31_griqua_mission_schools_done } }
+  allow = { war = no money = 10000 }
+  effect = { treasury = -10000 set_country_flag = ff31_griqua_mission_schools_done add_country_modifier = { name = ff31_mission_school duration = -1 } 3901 = { infrastructure = 1 } research_points = 40 prestige = 1  }
+  ai_will_do = { factor = 0.6 }
+ }
+
+ ff31_convene_district_raad = {
+  picture = ffv5_general_raad_decision
+  potential = { OR = { tag = STL tag = GOS tag = UST tag = LYD tag = UTR tag = KVS tag = WBG tag = POT tag = ZPB tag = KLR tag = SWL tag = GRF } NOT = { has_country_flag = ff31_convene_district_raad_done } }
+  allow = { war = no money = 1500 }
+  effect = { treasury = -1500 set_country_flag = ff31_convene_district_raad_done add_country_modifier = { name = ff31_district_raad duration = -1 } research_points = 30 prestige = 1 }
+  ai_will_do = { factor = 0.45 }
+ }
+
+ ff31_register_farms = {
+  picture = ffv4_customs_union_decision
+  potential = { OR = { tag = STL tag = GOS tag = UST tag = LYD tag = UTR tag = KVS tag = WBG tag = POT tag = ZPB tag = KLR tag = SWL tag = GRF } NOT = { has_country_flag = ff31_register_farms_done } }
+  allow = { war = no money = 1750 }
+  effect = { treasury = -1750 set_country_flag = ff31_register_farms_done add_country_modifier = { name = ff31_land_registry duration = -1 } research_points = 30 prestige = 1 }
+  ai_will_do = { factor = 0.45 }
+ }
+
+ ff31_standardise_commandos = {
+  picture = ffv5_commando_decision
+  potential = { OR = { tag = STL tag = GOS tag = UST tag = LYD tag = UTR tag = KVS tag = WBG tag = POT tag = ZPB tag = KLR tag = SWL tag = GRF } NOT = { has_country_flag = ff31_standardise_commandos_done } }
+  allow = { war = no money = 2000 }
+  effect = { treasury = -2000 set_country_flag = ff31_standardise_commandos_done add_country_modifier = { name = ff31_frontier_commando duration = 1095 } research_points = 30 prestige = 1 }
+  ai_will_do = { factor = 0.45 }
+ }
+
+ ff31_found_reformed_congregation = {
+  picture = ffv5_grey_college_decision
+  potential = { OR = { tag = STL tag = GOS tag = UST tag = LYD tag = UTR tag = KVS tag = WBG tag = POT tag = ZPB tag = KLR tag = SWL tag = GRF } NOT = { has_country_flag = ff31_found_reformed_congregation_done } }
+  allow = { war = no money = 1500 }
+  effect = { treasury = -1500 set_country_flag = ff31_found_reformed_congregation_done add_country_modifier = { name = ff31_reformed_congregation duration = -1 } research_points = 30 prestige = 1 }
+  ai_will_do = { factor = 0.45 }
+ }
+
+ ff31_issue_local_notes = {
+  picture = ffv5_general_raad_decision
+  potential = { OR = { tag = STL tag = GOS tag = UST tag = LYD tag = UTR tag = KVS tag = WBG tag = POT tag = ZPB tag = KLR tag = SWL tag = GRF } NOT = { has_country_flag = ff31_issue_local_notes_done } }
+  allow = { war = no money = 1500 }
+  effect = { treasury = -1500 set_country_flag = ff31_issue_local_notes_done add_country_modifier = { name = ff31_local_notes duration = 1825 } research_points = 30 prestige = 1 }
+  ai_will_do = { factor = 0.45 }
+ }
+
+}

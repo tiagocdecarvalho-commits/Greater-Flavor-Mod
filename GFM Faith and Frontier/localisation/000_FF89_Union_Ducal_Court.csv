@@ -1,0 +1,217 @@
+FF89_REGENCY;Publish the regency and open nominations.;;;;;;;;;;;;;x
+FF89_9785450_TITLE;A Regent Until the Ducal Election;;;;;;;;;;;;;x
+FF89_9785450_DESC;The constitution has established a ducal office, but the council has yet to name its holder. A regency will administer the civil list while the elected ministers conduct public business. The delegates can choose a local burgher or seek a candidate from a foreign royal house. A court abroad must agree to the invitation before any candidate can be crowned. The office will be bound by the union's constitution and will not transfer the government to a foreign country.;;;;;;;;;;;;;x
+ff89_orange_invite;Invite a Candidate from the House of Orange-Nassau;;;;;;;;;;;;;x
+ff89_orange_invite_title;Invite a Candidate from the House of Orange-Nassau;;;;;;;;;;;;;x
+ff89_orange_invite_desc;The council can send a delegation to the Dutch court requesting a candidate from the House of Orange-Nassau. The invitation offers the constitutional ducal office, with the legislature retaining control of taxation and ministerial government. The foreign court may decline. Agreement provides a nominee, whose coronation must still be funded and approved by the union.;;;;;;;;;;;;;x
+FF89_orange_YES;Recommend a candidate under the union constitution.;;;;;;;;;;;;;x
+FF89_orange_NO;Decline the invitation and recall the delegation.;;;;;;;;;;;;;x
+FF89_9785451_TITLE;A Ducal Invitation from the United Boer Government;;;;;;;;;;;;;x
+FF89_9785451_DESC;The council can send a delegation to the Dutch court requesting a candidate from the House of Orange-Nassau. The invitation offers the constitutional ducal office, with the legislature retaining control of taxation and ministerial government. The foreign court may decline. Agreement provides a nominee, whose coronation must still be funded and approved by the union. The delegates ask our ministers whether the royal house will put forward a willing candidate. Acceptance recognises the constitutional terms of the office, without creating a personal union or a new imperial dependency.;;;;;;;;;;;;;x
+FF89_orange_RECEIVE;Receive the nominee and prepare the constitutional oath.;;;;;;;;;;;;;x
+FF89_9785452_TITLE;The House of Orange-Nassau Accepts the Invitation;;;;;;;;;;;;;x
+FF89_9785452_DESC;The delegation has returned with the agreement of the Dutch court. A candidate from the House of Orange-Nassau has been recommended for the ducal office. The councillors will now arrange an oath to the constitution and present the civil list to the legislature. Until the coronation, the regency continues. Neither the invitation nor its acceptance changes the union's borders or diplomatic dependency.;;;;;;;;;;;;;x
+FF89_orange_ACK;Return the envoys and reopen the nominations.;;;;;;;;;;;;;x
+FF89_9785453_TITLE;The Foreign Court Declines;;;;;;;;;;;;;x
+FF89_9785453_DESC;The ministers of the Dutch court have declined to recommend a candidate. The delegation has recovered its unused reserve, and the regency remains in place. The council can seek another royal house or choose a burgher from the united districts. A renewed approach to the same court will have to wait until the previous refusal has ceased to dominate correspondence.;;;;;;;;;;;;;x
+ff89_orange_pause;A Ducal Invitation Declined;;;;;;;;;;;;;x
+ff89_orange_pause_desc;The court recently declined the invitation and will not reconsider it immediately.;;;;;;;;;;;;;x
+ff89_hohenzollern_invite;Invite a Candidate from the House of Hohenzollern;;;;;;;;;;;;;x
+ff89_hohenzollern_invite_title;Invite a Candidate from the House of Hohenzollern;;;;;;;;;;;;;x
+ff89_hohenzollern_invite_desc;The council can send a delegation to the Prussian court requesting a candidate from the House of Hohenzollern. The invitation offers the constitutional ducal office, with the legislature retaining control of taxation and ministerial government. The foreign court may decline. Agreement provides a nominee, whose coronation must still be funded and approved by the union.;;;;;;;;;;;;;x
+FF89_hohenzollern_YES;Recommend a candidate under the union constitution.;;;;;;;;;;;;;x
+FF89_hohenzollern_NO;Decline the invitation and recall the delegation.;;;;;;;;;;;;;x
+FF89_9785454_TITLE;A Ducal Invitation from the United Boer Government;;;;;;;;;;;;;x
+FF89_9785454_DESC;The council can send a delegation to the Prussian court requesting a candidate from the House of Hohenzollern. The invitation offers the constitutional ducal office, with the legislature retaining control of taxation and ministerial government. The foreign court may decline. Agreement provides a nominee, whose coronation must still be funded and approved by the union. The delegates ask our ministers whether the royal house will put forward a willing candidate. Acceptance recognises the constitutional terms of the office, without creating a personal union or a new imperial dependency.;;;;;;;;;;;;;x
+FF89_hohenzollern_RECEIVE;Receive the nominee and prepare the constitutional oath.;;;;;;;;;;;;;x
+FF89_9785455_TITLE;The House of Hohenzollern Accepts the Invitation;;;;;;;;;;;;;x
+FF89_9785455_DESC;The delegation has returned with the agreement of the Prussian court. A candidate from the House of Hohenzollern has been recommended for the ducal office. The councillors will now arrange an oath to the constitution and present the civil list to the legislature. Until the coronation, the regency continues. Neither the invitation nor its acceptance changes the union's borders or diplomatic dependency.;;;;;;;;;;;;;x
+FF89_hohenzollern_ACK;Return the envoys and reopen the nominations.;;;;;;;;;;;;;x
+FF89_9785456_TITLE;The Foreign Court Declines;;;;;;;;;;;;;x
+FF89_9785456_DESC;The ministers of the Prussian court have declined to recommend a candidate. The delegation has recovered its unused reserve, and the regency remains in place. The council can seek another royal house or choose a burgher from the united districts. A renewed approach to the same court will have to wait until the previous refusal has ceased to dominate correspondence.;;;;;;;;;;;;;x
+ff89_hohenzollern_pause;A Ducal Invitation Declined;;;;;;;;;;;;;x
+ff89_hohenzollern_pause_desc;The court recently declined the invitation and will not reconsider it immediately.;;;;;;;;;;;;;x
+ff89_belgian_invite;Invite a Candidate from the Belgian House of Saxe-Coburg and Gotha;;;;;;;;;;;;;x
+ff89_belgian_invite_title;Invite a Candidate from the Belgian House of Saxe-Coburg and Gotha;;;;;;;;;;;;;x
+ff89_belgian_invite_desc;The council can send a delegation to the Belgian court requesting a candidate from the Belgian House of Saxe-Coburg and Gotha. The invitation offers the constitutional ducal office, with the legislature retaining control of taxation and ministerial government. The foreign court may decline. Agreement provides a nominee, whose coronation must still be funded and approved by the union.;;;;;;;;;;;;;x
+FF89_belgian_YES;Recommend a candidate under the union constitution.;;;;;;;;;;;;;x
+FF89_belgian_NO;Decline the invitation and recall the delegation.;;;;;;;;;;;;;x
+FF89_9785457_TITLE;A Ducal Invitation from the United Boer Government;;;;;;;;;;;;;x
+FF89_9785457_DESC;The council can send a delegation to the Belgian court requesting a candidate from the Belgian House of Saxe-Coburg and Gotha. The invitation offers the constitutional ducal office, with the legislature retaining control of taxation and ministerial government. The foreign court may decline. Agreement provides a nominee, whose coronation must still be funded and approved by the union. The delegates ask our ministers whether the royal house will put forward a willing candidate. Acceptance recognises the constitutional terms of the office, without creating a personal union or a new imperial dependency.;;;;;;;;;;;;;x
+FF89_belgian_RECEIVE;Receive the nominee and prepare the constitutional oath.;;;;;;;;;;;;;x
+FF89_9785458_TITLE;The Belgian House of Saxe-Coburg and Gotha Accepts the Invitation;;;;;;;;;;;;;x
+FF89_9785458_DESC;The delegation has returned with the agreement of the Belgian court. A candidate from the Belgian House of Saxe-Coburg and Gotha has been recommended for the ducal office. The councillors will now arrange an oath to the constitution and present the civil list to the legislature. Until the coronation, the regency continues. Neither the invitation nor its acceptance changes the union's borders or diplomatic dependency.;;;;;;;;;;;;;x
+FF89_belgian_ACK;Return the envoys and reopen the nominations.;;;;;;;;;;;;;x
+FF89_9785459_TITLE;The Foreign Court Declines;;;;;;;;;;;;;x
+FF89_9785459_DESC;The ministers of the Belgian court have declined to recommend a candidate. The delegation has recovered its unused reserve, and the regency remains in place. The council can seek another royal house or choose a burgher from the united districts. A renewed approach to the same court will have to wait until the previous refusal has ceased to dominate correspondence.;;;;;;;;;;;;;x
+ff89_belgian_pause;A Ducal Invitation Declined;;;;;;;;;;;;;x
+ff89_belgian_pause_desc;The court recently declined the invitation and will not reconsider it immediately.;;;;;;;;;;;;;x
+ff89_british_invite;Invite a Candidate from the British royal family;;;;;;;;;;;;;x
+ff89_british_invite_title;Invite a Candidate from the British royal family;;;;;;;;;;;;;x
+ff89_british_invite_desc;The council can send a delegation to the British court requesting a candidate from the British royal family. The invitation offers the constitutional ducal office, with the legislature retaining control of taxation and ministerial government. The foreign court may decline. Agreement provides a nominee, whose coronation must still be funded and approved by the union.;;;;;;;;;;;;;x
+FF89_british_YES;Recommend a candidate under the union constitution.;;;;;;;;;;;;;x
+FF89_british_NO;Decline the invitation and recall the delegation.;;;;;;;;;;;;;x
+FF89_9785460_TITLE;A Ducal Invitation from the United Boer Government;;;;;;;;;;;;;x
+FF89_9785460_DESC;The council can send a delegation to the British court requesting a candidate from the British royal family. The invitation offers the constitutional ducal office, with the legislature retaining control of taxation and ministerial government. The foreign court may decline. Agreement provides a nominee, whose coronation must still be funded and approved by the union. The delegates ask our ministers whether the royal house will put forward a willing candidate. Acceptance recognises the constitutional terms of the office, without creating a personal union or a new imperial dependency.;;;;;;;;;;;;;x
+FF89_british_RECEIVE;Receive the nominee and prepare the constitutional oath.;;;;;;;;;;;;;x
+FF89_9785461_TITLE;The British royal family Accepts the Invitation;;;;;;;;;;;;;x
+FF89_9785461_DESC;The delegation has returned with the agreement of the British court. A candidate from the British royal family has been recommended for the ducal office. The councillors will now arrange an oath to the constitution and present the civil list to the legislature. Until the coronation, the regency continues. Neither the invitation nor its acceptance changes the union's borders or diplomatic dependency.;;;;;;;;;;;;;x
+FF89_british_ACK;Return the envoys and reopen the nominations.;;;;;;;;;;;;;x
+FF89_9785462_TITLE;The Foreign Court Declines;;;;;;;;;;;;;x
+FF89_9785462_DESC;The ministers of the British court have declined to recommend a candidate. The delegation has recovered its unused reserve, and the regency remains in place. The council can seek another royal house or choose a burgher from the united districts. A renewed approach to the same court will have to wait until the previous refusal has ceased to dominate correspondence.;;;;;;;;;;;;;x
+ff89_british_pause;A Ducal Invitation Declined;;;;;;;;;;;;;x
+ff89_british_pause_desc;The court recently declined the invitation and will not reconsider it immediately.;;;;;;;;;;;;;x
+ff89_local_nominee;Nominate a Duke from the United Districts;;;;;;;;;;;;;x
+ff89_local_nominee_title;Nominate a Duke from the United Districts;;;;;;;;;;;;;x
+ff89_local_nominee_desc;The council can choose a burgher from the united districts for the constitutional ducal office. This places the responsibility for the dynasty at home and requires no foreign invitation. The nominee must still swear the constitution at a separately funded coronation.;;;;;;;;;;;;;x
+FF89_LOCAL_RECEIVE;Present the nominee to the united legislature.;;;;;;;;;;;;;x
+FF89_9785463_TITLE;A Burgher Chosen for the Ducal Office;;;;;;;;;;;;;x
+FF89_9785463_DESC;The district delegates have agreed on a local nominee for the ducal office. The choice reconciles a hereditary constitutional head of state with the authority of the common legislature. Before taking office, the nominee must swear to uphold the constitution and accept the limits of the civil list. Ministers have asked the council to arrange the coronation, while the regency continues to administer the office.;;;;;;;;;;;;;x
+ff89_coronation;Crown the Duke of the United Boer Duchies;;;;;;;;;;;;;x
+ff89_coronation_title;Crown the Duke of the United Boer Duchies;;;;;;;;;;;;;x
+ff89_coronation_desc;The nominee will swear the constitution before delegates from the Orange, Vaal and northern districts. The legislature must fund the ceremony and civil-list arrangements. The completed coronation will be announced to foreign governments, while the union retains its existing constitution and diplomatic position.;;;;;;;;;;;;;x
+FF89_CROWN;Receive the oath and proclaim the Duke.;;;;;;;;;;;;;x
+FF89_9785464_TITLE;The Coronation of the Duke;;;;;;;;;;;;;x
+FF89_9785464_DESC;The delegates have assembled for the oath of the new Duke. Before the common legislature and the district representatives, the nominee has sworn to uphold the constitution, respect the elected ministers and govern within the approved civil list. The regency ends with the completion of the ceremony. The ducal office belongs to the united state: its foreign connections confer neither ownership of the country nor authority to dispense with its constitution.;;;;;;;;;;;;;x
+FF89_FOREIGN_CROWN;Publish the coronation in the diplomatic register.;;;;;;;;;;;;;x
+FF89_9785465_TITLE;A Duke Crowned in the United Boer Duchies;;;;;;;;;;;;;x
+FF89_9785465_DESC;Reports from Winburg announce the completion of the ducal coronation. The new head of state has sworn the union constitution before delegates from its constituent districts. The elected legislature retains authority over public expenditure and ministers remain bound by the charter. Foreign chancelleries will now correspond with an established ducal court rather than a regency. The ceremony changes the holder of the constitutional office, while existing frontier treaties and diplomatic obligations remain in force.;;;;;;;;;;;;;x
+ff89_recall_envoys;Recall the Ducal Delegation;;;;;;;;;;;;;x
+ff89_recall_envoys_title;Recall the Ducal Delegation;;;;;;;;;;;;;x
+ff89_recall_envoys_desc;A mission that has not produced an answer can be recalled once the waiting period has elapsed. The unused reserve will return to the treasury, and the council can reopen nominations.;;;;;;;;;;;;;x
+FF89_REVIEW_accounts;Appropriate GBP 500 for public accounts and court registers.;;;;;;;;;;;;;x
+FF89_REVIEW_schools;Appropriate GBP 500 for teachers and school registers.;;;;;;;;;;;;;x
+FF89_REVIEW_FILE;Keep the existing budget and postpone supplementary teaching grants.;;;;;;;;;;;;;x
+FF84_9785292_TITLE;The Programme of the United Government;;;;;;;;;;;;;x
+FF84_9785292_DESC;The united government must decide how to finance its next three-year programme. A supplementary appropriation of GBP 500 can pay clerks to reconcile district accounts and support court registers, improving tax collection and administration, or pay teachers and prepare common school registers, improving education. These are temporary grants, not the permanent audit office or school system, which must still be established separately. Keeping expenditure within the existing budget preserves the treasury and tightens collection, but leaves education to advance more slowly. Only one programme can operate at a time.;;;;;;;;;;;;;x
+FF89_RECOVER_0;Send the reserved funds and instructions to the officers.;;;;;;;;;;;;;x
+FF89_9785470_TITLE;The Funded Works Await Their Registers;;;;;;;;;;;;;x
+FF89_9785470_DESC;The council has already reserved funds for a public undertaking. Its officers must now complete the implementation and enter the resulting institutions in the district accounts. This dispatch spends no additional treasury funds.;;;;;;;;;;;;;x
+FF89_RECOVER_1;Send the reserved funds and instructions to the officers.;;;;;;;;;;;;;x
+FF89_9785471_TITLE;The Funded Works Await Their Registers;;;;;;;;;;;;;x
+FF89_9785471_DESC;The council has already reserved funds for a public undertaking. Its officers must now complete the implementation and enter the resulting institutions in the district accounts. This dispatch spends no additional treasury funds.;;;;;;;;;;;;;x
+FF89_RECOVER_2;Send the reserved funds and instructions to the officers.;;;;;;;;;;;;;x
+FF89_9785472_TITLE;The Funded Works Await Their Registers;;;;;;;;;;;;;x
+FF89_9785472_DESC;The council has already reserved funds for a public undertaking. Its officers must now complete the implementation and enter the resulting institutions in the district accounts. This dispatch spends no additional treasury funds.;;;;;;;;;;;;;x
+FF89_RECOVER_3;Send the reserved funds and instructions to the officers.;;;;;;;;;;;;;x
+FF89_9785473_TITLE;The Funded Works Await Their Registers;;;;;;;;;;;;;x
+FF89_9785473_DESC;The council has already reserved funds for a public undertaking. Its officers must now complete the implementation and enter the resulting institutions in the district accounts. This dispatch spends no additional treasury funds.;;;;;;;;;;;;;x
+FF89_RECOVER_4;Send the reserved funds and instructions to the officers.;;;;;;;;;;;;;x
+FF89_9785474_TITLE;The Funded Works Await Their Registers;;;;;;;;;;;;;x
+FF89_9785474_DESC;The council has already reserved funds for a public undertaking. Its officers must now complete the implementation and enter the resulting institutions in the district accounts. This dispatch spends no additional treasury funds.;;;;;;;;;;;;;x
+FF89_RECOVER_5;Send the reserved funds and instructions to the officers.;;;;;;;;;;;;;x
+FF89_9785475_TITLE;The Funded Works Await Their Registers;;;;;;;;;;;;;x
+FF89_9785475_DESC;The council has already reserved funds for a public undertaking. Its officers must now complete the implementation and enter the resulting institutions in the district accounts. This dispatch spends no additional treasury funds.;;;;;;;;;;;;;x
+FF89_RECOVER_CROWN;Assemble the delegates for the oath.;;;;;;;;;;;;;x
+FF89_9785480_TITLE;The Coronation Arrangements Are Ready;;;;;;;;;;;;;x
+FF89_9785480_DESC;The civil list and ceremony budget have already been approved. The delegates await the constitutional oath before they can announce the new Duke to foreign governments.;;;;;;;;;;;;;x
+ff89_envoys_wait;Ducal Envoys Abroad;;;;;;;;;;;;;x
+ff89_envoys_wait_desc;The council awaits an answer from the invited royal court.;;;;;;;;;;;;;x
+ff89_crowned_duke;A Crowned Constitutional Duke;;;;;;;;;;;;;x
+ff89_crowned_duke_desc;The ducal office has been filled by a nominee sworn to the union constitution.;;;;;;;;;;;;;x
+ff89_accounts_priority;Supplementary Public Accounts Budget;;;;;;;;;;;;;x
+ff89_accounts_priority_desc;A paid three-year grant supports district clerks and court registers: tax efficiency +2% and administrative efficiency +2%.;;;;;;;;;;;;;x
+ff89_schools_priority;Supplementary Teaching Budget;;;;;;;;;;;;;x
+ff89_schools_priority_desc;A paid three-year grant supports teachers and common school registers: education efficiency +5%.;;;;;;;;;;;;;x
+ff84_constitutional_duchies_ruler;Mister Prime Minister;;;;;;;;;;;;;x
+ff84_union_republic_ruler;President;;;;;;;;;;;;;x
+ff31_federal_treasury_title;Federal Treasury;;;;;;;;;;;;;x
+ff31_diamond_licenses_title;Diamond Digging Licences;;;;;;;;;;;;;x
+ff67_schools_title;Republican Community Schools;;;;;;;;;;;;;x
+ff67_defence_title;A National Defence Establishment;;;;;;;;;;;;;x
+ff67_cape_administration_title;The Cape Administrative Charter;;;;;;;;;;;;;x
+ff82_vereeniging_title;Convene the Vereeniging Negotiations;;;;;;;;;;;;;x
+ff82_united_republics_title;Convene the Convention of the United Republics;;;;;;;;;;;;;x
+ff82_kaap_conference_title;The Kaap Conference;;;;;;;;;;;;;x
+ff82_griqualand_east_trn_title;Invite Griqualand East into the Republic;;;;;;;;;;;;;x
+ff82_griqualand_east_saf_title;Invite Griqualand East into the Republic;;;;;;;;;;;;;x
+ff83_propose_vaal_union_title;Propose a Common Government Across the Vaal;;;;;;;;;;;;;x
+ff83_roads_title;Build the Winburg Market Roads;;;;;;;;;;;;;x
+ff83_post_title;Establish the Republican Postal Service;;;;;;;;;;;;;x
+ff83_schools_title;Endow the District Schools;;;;;;;;;;;;;x
+ff83_settlers_title;Open the Inland Settlement Offices;;;;;;;;;;;;;x
+ff83_rail_title;Survey a Railway Across the Vaal;;;;;;;;;;;;;x
+ff83_water_title;Provide Water for the Frontier Towns;;;;;;;;;;;;;x
+ff83_dutch_mission_title;Send a Commercial Mission to the Netherlands;;;;;;;;;;;;;x
+ff83_philippolis_title;Negotiate the Philippolis Purchase;;;;;;;;;;;;;x
+ff83_review_agenda_title;Review the Republican Programme;;;;;;;;;;;;;x
+ff84_accounts_title;Establish the Union Audit Office;;;;;;;;;;;;;x
+ff84_courts_title;One Law Across the Vaal;;;;;;;;;;;;;x
+ff84_schools_title;Teachers for the United Districts;;;;;;;;;;;;;x
+ff84_commandos_title;The Quartermaster and the Commando;;;;;;;;;;;;;x
+ff84_health_title;Clean Water for the Market Towns;;;;;;;;;;;;;x
+ff84_rail_title;Rails Between the Two Administrations;;;;;;;;;;;;;x
+ff84_negotiate_recognition_title;Request a Convention With Britain;;;;;;;;;;;;;x
+ff84_negotiate_basotho_title;Convene a Basotho Boundary Commission;;;;;;;;;;;;;x
+ff84_negotiate_portugal_title;Negotiate Access to Portuguese Ports;;;;;;;;;;;;;x
+ff84_negotiate_dutch_title;Invite a Dutch Educational Mission;;;;;;;;;;;;;x
+ff84_programme_title;Review the Programme of the United Government;;;;;;;;;;;;;x
+ff84_enforce_union_title;Conclude the Civil War: Restore the Union;;;;;;;;;;;;;x
+ff84_accept_separation_title;Conclude the Civil War: Accept Separation;;;;;;;;;;;;;x
+ff87_frontier_charter_title;Set the Union's Frontier Policy;;;;;;;;;;;;;x
+ff87_griqua_west_title;Negotiate with Griqualand West;;;;;;;;;;;;;x
+ff87_griqua_west_integrate_title;Complete the Griqualand West District Settlement;;;;;;;;;;;;;x
+ff87_kholokoe_title;Negotiate with Kholokoe;;;;;;;;;;;;;x
+ff87_kholokoe_integrate_title;Complete the Kholokoe District Settlement;;;;;;;;;;;;;x
+ff87_transvaal_title;Negotiate with Transvaal;;;;;;;;;;;;;x
+ff87_transvaal_integrate_title;Complete the Transvaal District Settlement;;;;;;;;;;;;;x
+ff87_lydenburg_title;Negotiate with Lydenburg;;;;;;;;;;;;;x
+ff87_lydenburg_integrate_title;Complete the Lydenburg District Settlement;;;;;;;;;;;;;x
+ff87_zoutpansberg_title;Negotiate with Zoutpansberg;;;;;;;;;;;;;x
+ff87_zoutpansberg_integrate_title;Complete the Zoutpansberg District Settlement;;;;;;;;;;;;;x
+ff87_griqua_east_title;Negotiate with Griqualand East;;;;;;;;;;;;;x
+ff87_griqua_east_integrate_title;Complete the Griqualand East District Settlement;;;;;;;;;;;;;x
+ff87_basotho_title;Negotiate with Basotho;;;;;;;;;;;;;x
+ff87_basotho_integrate_title;Complete the Basotho District Settlement;;;;;;;;;;;;;x
+ff87_swazi_title;Negotiate with Swaziland;;;;;;;;;;;;;x
+ff87_swazi_integrate_title;Complete the Swaziland District Settlement;;;;;;;;;;;;;x
+ff87_zulu_title;Negotiate with Zululand;;;;;;;;;;;;;x
+ff87_zulu_integrate_title;Complete the Zululand District Settlement;;;;;;;;;;;;;x
+ff87_gaza_title;Negotiate with Gaza;;;;;;;;;;;;;x
+ff87_gaza_integrate_title;Complete the Gaza District Settlement;;;;;;;;;;;;;x
+ff87_shangaan_title;Negotiate with Shangaan;;;;;;;;;;;;;x
+ff87_shangaan_integrate_title;Complete the Shangaan District Settlement;;;;;;;;;;;;;x
+ff87_accession_griqua_west_title;Invite Griqualand West to Full Accession;;;;;;;;;;;;;x
+ff87_accession_kholokoe_title;Invite Kholokoe to Full Accession;;;;;;;;;;;;;x
+ff87_accession_transvaal_title;Invite Transvaal to Full Accession;;;;;;;;;;;;;x
+ff87_accession_lydenburg_title;Invite Lydenburg to Full Accession;;;;;;;;;;;;;x
+ff87_accession_zoutpansberg_title;Invite Zoutpansberg to Full Accession;;;;;;;;;;;;;x
+ff87_accession_griqua_east_title;Invite Griqualand East to Full Accession;;;;;;;;;;;;;x
+ff87_accession_basotho_title;Invite Basotho to Full Accession;;;;;;;;;;;;;x
+ff87_accession_swazi_title;Invite Swaziland to Full Accession;;;;;;;;;;;;;x
+ff87_accession_zulu_title;Invite Zululand to Full Accession;;;;;;;;;;;;;x
+ff87_recall_mission_title;Recall an Unanswered Frontier Mission;;;;;;;;;;;;;x
+ff87_republic_congress_title;The Burghers' Frontier Congress;;;;;;;;;;;;;x
+ff87_ducal_council_title;A Ducal Council for Frontier Affairs;;;;;;;;;;;;;x
+ffv5_found_grey_college_title;Endow Grey College in Bloemfontein;;;;;;;;;;;;;x
+ffv5_bloemfontein_telegraph_title;Connect Bloemfontein by Telegraph;;;;;;;;;;;;;x
+ffv5_state_gymnasium_pretoria_title;Establish the Staatsgymnasium;;;;;;;;;;;;;x
+ffv5_standardise_the_commandos_title;Standardise the District Commandos;;;;;;;;;;;;;x
+ffv5_fortify_port_natal_title;Fortify Port Natal;;;;;;;;;;;;;x
+ffv5_consolidate_surviving_natalia_title;Consolidate the Surviving Republic;;;;;;;;;;;;;x
+ffv5_nrb_seek_foreign_recognition_title;Petition Berlin and Lisbon for Recognition;;;;;;;;;;;;;x
+ffv5_nrb_join_the_zar_title;Enter the South African Republic;;;;;;;;;;;;;x
+ffv5_call_general_raad_title;Call a General Raad of the Trekker Districts;;;;;;;;;;;;;x
+ffr_dec_cape_government_railways_title;Expand the Cape Government Railways;;;;;;;;;;;;;x
+ffr_dec_chamber_of_mines_title;Organize a Chamber of Mines;;;;;;;;;;;;;x
+ffr_dec_mine_health_board_title;Create a Mine Health and Sanitation Board;;;;;;;;;;;;;x
+ffr_dec_cape_civic_compromise_title;Extend the Cape Civic Compact;;;;;;;;;;;;;x
+ffv4_offer_for_delagoa_bay_title;Offer to Purchase Delagoa Bay;;;;;;;;;;;;;x
+ffv4_offer_for_southern_mozambique_title;Negotiate for Southern Mozambique;;;;;;;;;;;;;x
+ffv4_integrate_south_west_africa_title;Debate the Integration of South West Africa;;;;;;;;;;;;;x
+ffv4_delagoa_free_port_title;Delagoa Free Port;;;;;;;;;;;;;x
+ffv4_southern_african_customs_union_title;Propose a Southern African Customs Union;;;;;;;;;;;;;x
+ffv4_expand_durban_harbour_title;Expand Durban Harbour;;;;;;;;;;;;;x
+ffv4_develop_witwatersrand_deep_levels_title;Finance Deep-Level Mining on the Rand;;;;;;;;;;;;;x
+ffv4_endow_fort_hare_title;Endow Fort Hare;;;;;;;;;;;;;x
+ffv4_memorialise_mendi_title;Create a National Memorial to the Mendi;;;;;;;;;;;;;x
+ffv4_electrify_the_rand_title;Electrify the Rand;;;;;;;;;;;;;x
+ffv4_develop_south_west_railways_title;Extend the South West African Railways;;;;;;;;;;;;;x
+VLK_ff84_union_republic;The United Boer Republics;;;;;;;;;;;;;x
+VLK_ff84_union_republic_ADJ;United Boer;;;;;;;;;;;;;x
+VLK_ff84_constitutional_duchies;The United Boer Duchies;;;;;;;;;;;;;x
+VLK_ff84_constitutional_duchies_ADJ;United Boer;;;;;;;;;;;;;x
+VLK_slot3;The United Boer Republics;;;;;;;;;;;;;x
+VLK_slot3_ADJ;United Boer;;;;;;;;;;;;;x
+VLK_slot4;The United Boer Duchies;;;;;;;;;;;;;x
+VLK_slot4_ADJ;United Boer;;;;;;;;;;;;;x

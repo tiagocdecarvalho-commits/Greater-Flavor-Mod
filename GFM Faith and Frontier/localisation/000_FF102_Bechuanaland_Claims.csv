@@ -1,0 +1,169 @@
+FF102_RECORD;Record the proposed frontier and authorise the conferences.;;;;;;;;;;;;;x
+FF102_ACCEPT;Offer an agreed handover of the disputed districts.;;;;;;;;;;;;;x
+FF102_TERMS;Seek compensation and guarantees for local rights.;;;;;;;;;;;;;x
+FF102_REFUSE;Decline the proposed frontier and retain our districts.;;;;;;;;;;;;;x
+FF102_RATIFY;Ratify the offered frontier convention.;;;;;;;;;;;;;x
+FF102_PAY;Conclude the negotiated settlement and arrange the handover.;;;;;;;;;;;;;x
+FF102_REVISE;Send revised articles and reopen the negotiations.;;;;;;;;;;;;;x
+FF102_WITHDRAW;Withdraw this demand and preserve the peace.;;;;;;;;;;;;;x
+FF102_WAR;Issue the declaration and enforce the district claim.;;;;;;;;;;;;;x
+FF102_REPORT_ACK;Receive the commissioners and record their instructions.;;;;;;;;;;;;;x
+FF102_LAPSED_ACK;Close the mission and recall its delegation.;;;;;;;;;;;;;x
+FF102_CAMPAIGN_ACK;Record the campaign and the limits of its demand.;;;;;;;;;;;;;x
+ff102_frontier_works;The Bechuanaland District Programme;;;;;;;;;;;;;x
+ff102_frontier_works_desc;Wells, roads and district offices support the frontier communities and incoming settlers.;;;;;;;;;;;;;x
+ff102_frontier_conference;Settle the Bechuanaland district claim;;;;;;;;;;;;;x
+ff102_frontier_conference_setup;The Bechuanaland District Convention;;;;;;;;;;;;;x
+ff102_frontier_conference_desc;The opposing government relinquishes its holdings within the proposed frontier. The convention preserves the possessions of neighbouring governments.;;;;;;;;;;;;;x
+FF102_FRONTIER_WAR;The $FIRST$-$SECOND$ Bechuanaland Frontier War;;;;;;;;;;;;;x
+FF102_FRONTIER_WAR_NO_ORDER;The $FIRST$-$SECOND$ Bechuanaland Frontier War;;;;;;;;;;;;;x
+ff102_record_frontier_claim_title;Reopen the Bechuanaland Frontier Question;;;;;;;;;;;;;x
+ff102_record_frontier_claim_desc;The victory has renewed debate over Pretorius's proposed frontier of 1868. The raad can commission a district register and approaches to the governments now holding that country. The proposal was never a recognized territorial settlement; its adoption still requires agreements or a campaign.;;;;;;;;;;;;;x
+FF102_CLAIM_TITLE;Pretorius's Proposed Western Frontier;;;;;;;;;;;;;x
+FF102_CLAIM_DESC;The raad has reopened the proposal made by Marthinus Wessel Pretorius in 1868: a frontier from the country west of Lake Ngami towards the northern Langeberg. That proclamation did not establish the border later recognized in the Pretoria and London conventions. Its renewal is now a republican diplomatic demand. Commissioners will approach each government holding the named districts, while recording the communities, grazing rights and water routes within them.;;;;;;;;;;;;;x
+ff102_convene_4028_title;Convene the Frontier Conference for Ngami Reach;;;;;;;;;;;;;x
+ff102_convene_4028_desc;Our envoys will approach the government currently holding Ngami Reach. The conference concerns that government's districts within the proposed frontier. The council may accept a convention, seek different terms or refuse the demand.;;;;;;;;;;;;;x
+ff102_convene_4029_title;Convene the Frontier Conference for Central Kalahari;;;;;;;;;;;;;x
+ff102_convene_4029_desc;Our envoys will approach the government currently holding Central Kalahari. The conference concerns that government's districts within the proposed frontier. The council may accept a convention, seek different terms or refuse the demand.;;;;;;;;;;;;;x
+ff102_convene_4030_title;Convene the Frontier Conference for Lehututu;;;;;;;;;;;;;x
+ff102_convene_4030_desc;Our envoys will approach the government currently holding Lehututu. The conference concerns that government's districts within the proposed frontier. The council may accept a convention, seek different terms or refuse the demand.;;;;;;;;;;;;;x
+ff102_convene_4031_title;Convene the Frontier Conference for Kgalagadi;;;;;;;;;;;;;x
+ff102_convene_4031_desc;Our envoys will approach the government currently holding Kgalagadi. The conference concerns that government's districts within the proposed frontier. The council may accept a convention, seek different terms or refuse the demand.;;;;;;;;;;;;;x
+ff102_convene_4032_title;Convene the Frontier Conference for Kweneng;;;;;;;;;;;;;x
+ff102_convene_4032_desc;Our envoys will approach the government currently holding Kweneng. The conference concerns that government's districts within the proposed frontier. The council may accept a convention, seek different terms or refuse the demand.;;;;;;;;;;;;;x
+ff102_convene_4033_title;Convene the Frontier Conference for Shoshong;;;;;;;;;;;;;x
+ff102_convene_4033_desc;Our envoys will approach the government currently holding Shoshong. The conference concerns that government's districts within the proposed frontier. The council may accept a convention, seek different terms or refuse the demand.;;;;;;;;;;;;;x
+ff102_convene_2074_title;Convene the Frontier Conference for the Notwane country;;;;;;;;;;;;;x
+ff102_convene_2074_desc;Our envoys will approach the government currently holding the Notwane country. The conference concerns that government's districts within the proposed frontier. The council may accept a convention, seek different terms or refuse the demand.;;;;;;;;;;;;;x
+ff102_convene_4034_title;Convene the Frontier Conference for Ngwato Reach;;;;;;;;;;;;;x
+ff102_convene_4034_desc;Our envoys will approach the government currently holding Ngwato Reach. The conference concerns that government's districts within the proposed frontier. The council may accept a convention, seek different terms or refuse the demand.;;;;;;;;;;;;;x
+ff102_convene_2574_title;Convene the Frontier Conference for the Kgatleng country;;;;;;;;;;;;;x
+ff102_convene_2574_desc;Our envoys will approach the government currently holding the Kgatleng country. The conference concerns that government's districts within the proposed frontier. The council may accept a convention, seek different terms or refuse the demand.;;;;;;;;;;;;;x
+ff102_convene_3882_title;Convene the Frontier Conference for the Tonotha country;;;;;;;;;;;;;x
+ff102_convene_3882_desc;Our envoys will approach the government currently holding the Tonotha country. The conference concerns that government's districts within the proposed frontier. The council may accept a convention, seek different terms or refuse the demand.;;;;;;;;;;;;;x
+ff102_convene_4035_title;Convene the Frontier Conference for Shashani Reach;;;;;;;;;;;;;x
+ff102_convene_4035_desc;Our envoys will approach the government currently holding Shashani Reach. The conference concerns that government's districts within the proposed frontier. The council may accept a convention, seek different terms or refuse the demand.;;;;;;;;;;;;;x
+ff102_convene_4036_title;Convene the Frontier Conference for Limpopo Bend;;;;;;;;;;;;;x
+ff102_convene_4036_desc;Our envoys will approach the government currently holding Limpopo Bend. The conference concerns that government's districts within the proposed frontier. The council may accept a convention, seek different terms or refuse the demand.;;;;;;;;;;;;;x
+ff102_convene_4037_title;Convene the Frontier Conference for Northern Langeberg;;;;;;;;;;;;;x
+ff102_convene_4037_desc;Our envoys will approach the government currently holding Northern Langeberg. The conference concerns that government's districts within the proposed frontier. The council may accept a convention, seek different terms or refuse the demand.;;;;;;;;;;;;;x
+FF102_OFFER_TITLE;A Republican Bechuanaland Demand;;;;;;;;;;;;;x
+FF102_OFFER_DESC;South African envoys invoke the disputed frontier proposed in 1868 and ask us to conclude a district convention. Their victory over Britain gives the demand new weight, but a republican map cannot extinguish our authority or the rights of our communities. The council can offer a handover, seek compensation and guarantees, or retain the districts under our government.;;;;;;;;;;;;;x
+FF102_REPLY_TITLE;The Frontier Council's Reply;;;;;;;;;;;;;x
+FF102_REPLY_DESC;The delegation has brought the council's answer. An offered convention can be ratified; negotiated articles require provision for compensation and local rights. A refusal leaves the raad to reopen the talks, withdraw its demand or authorise a campaign. Any handover concerns only the named districts still governed by this council. The existing rights of neighbours and frontier communities remain matters for their own agreements.;;;;;;;;;;;;;x
+FF102_RECEIVED_TITLE;The Bechuanaland District Convention;;;;;;;;;;;;;x
+FF102_RECEIVED_DESC;Commissioners have received the districts included in the convention. They must reconcile the public accounts, record water and grazing rights and work with the local assemblies and headmen. The agreement establishes a new administration; roads, wells and settlement services still require a funded programme.;;;;;;;;;;;;;x
+FF102_CAMPAIGN_TITLE;Commandos on the Bechuanaland Frontier;;;;;;;;;;;;;x
+FF102_CAMPAIGN_DESC;The declaration has reached the opposing government. The campaign seeks the districts named in the frontier register, and occupation must make that demand enforceable. Commandants must distinguish the opponent's districts from neighbouring territory. A convention can be imposed once our forces hold all the claimed districts still under that government; other possessions lie beyond the settlement.;;;;;;;;;;;;;x
+ff102_enforce_frontier_convention_title;Conclude the Occupied Frontier Convention;;;;;;;;;;;;;x
+ff102_enforce_frontier_convention_desc;Our forces hold the claimed districts still governed by the campaign's opponent. Commissioners can impose the district convention and end the fighting. The settlement transfers those occupied districts and leaves the opponent's other possessions outside its articles.;;;;;;;;;;;;;x
+FF102_NATIVE_PEACE_TITLE;The Frontier Peace Is Accepted;;;;;;;;;;;;;x
+FF102_NATIVE_PEACE_DESC;The opposing government has accepted the Bechuanaland frontier articles in the peace settlement. Commissioners receive the named districts still governed by that country and enter their communities, water routes and local rights in the new district registers. Territory held by neighbours and the defeated government's other possessions remains outside this convention.;;;;;;;;;;;;;x
+FF102_LAPSED_TITLE;The Frontier Mission Closes;;;;;;;;;;;;;x
+FF102_LAPSED_DESC;The mission's counterpart or the conditions of its mandate have changed. The ministry recalls its delegation and closes the outstanding proceedings. No new holder inherits an earlier council's reply. A future approach must be addressed to the government then holding the districts.;;;;;;;;;;;;;x
+ff102_recall_frontier_delegation_title;Recall the Bechuanaland Delegation;;;;;;;;;;;;;x
+ff102_recall_frontier_delegation_desc;Close the outstanding frontier mission and recall its envoys. The ministry may later issue a fresh approach to a government still holding the disputed districts.;;;;;;;;;;;;;x
+ff102_survey_4028_title;Survey the Routes of Ngami Reach;;;;;;;;;;;;;x
+ff102_survey_4028_desc;Survey wells and routes in Ngami Reach and record the communities already using the land. A survey prepares an outpost; it cannot transfer a district governed by another country.;;;;;;;;;;;;;x
+ff102_outpost_4028_title;Establish the District Station in Ngami Reach;;;;;;;;;;;;;x
+ff102_outpost_4028_desc;Commission the surveyed station in Ngami Reach. Wells, transport stores and district records will support a continuing administration. The station can be established only while the district has no state owner; existing communities and rights require local arrangements.;;;;;;;;;;;;;x
+ff102_works_4028_title;Fund the District Programme in Ngami Reach;;;;;;;;;;;;;x
+ff102_works_4028_desc;Fund wells, roads and district offices in Ngami Reach. The programme will support local commerce and incoming farming households, with land and water rights entered in the public registers.;;;;;;;;;;;;;x
+FF102_SURVEY_4028_TITLE;The Survey of Ngami Reach;;;;;;;;;;;;;x
+FF102_SURVEY_4028_DESC;The survey party has reported on wells, grazing routes and existing communities. The ministry now has a basis for an outpost, provided the district remains outside another state's administration. Survey reports establish practical knowledge; a station and continuing local agreements are still needed to sustain government.;;;;;;;;;;;;;x
+ff102_survey_4029_title;Survey the Routes of Central Kalahari;;;;;;;;;;;;;x
+ff102_survey_4029_desc;Survey wells and routes in Central Kalahari and record the communities already using the land. A survey prepares an outpost; it cannot transfer a district governed by another country.;;;;;;;;;;;;;x
+ff102_outpost_4029_title;Establish the District Station in Central Kalahari;;;;;;;;;;;;;x
+ff102_outpost_4029_desc;Commission the surveyed station in Central Kalahari. Wells, transport stores and district records will support a continuing administration. The station can be established only while the district has no state owner; existing communities and rights require local arrangements.;;;;;;;;;;;;;x
+ff102_works_4029_title;Fund the District Programme in Central Kalahari;;;;;;;;;;;;;x
+ff102_works_4029_desc;Fund wells, roads and district offices in Central Kalahari. The programme will support local commerce and incoming farming households, with land and water rights entered in the public registers.;;;;;;;;;;;;;x
+FF102_SURVEY_4029_TITLE;The Survey of Central Kalahari;;;;;;;;;;;;;x
+FF102_SURVEY_4029_DESC;The survey party has reported on wells, grazing routes and existing communities. The ministry now has a basis for an outpost, provided the district remains outside another state's administration. Survey reports establish practical knowledge; a station and continuing local agreements are still needed to sustain government.;;;;;;;;;;;;;x
+ff102_survey_4030_title;Survey the Routes of Lehututu;;;;;;;;;;;;;x
+ff102_survey_4030_desc;Survey wells and routes in Lehututu and record the communities already using the land. A survey prepares an outpost; it cannot transfer a district governed by another country.;;;;;;;;;;;;;x
+ff102_outpost_4030_title;Establish the District Station in Lehututu;;;;;;;;;;;;;x
+ff102_outpost_4030_desc;Commission the surveyed station in Lehututu. Wells, transport stores and district records will support a continuing administration. The station can be established only while the district has no state owner; existing communities and rights require local arrangements.;;;;;;;;;;;;;x
+ff102_works_4030_title;Fund the District Programme in Lehututu;;;;;;;;;;;;;x
+ff102_works_4030_desc;Fund wells, roads and district offices in Lehututu. The programme will support local commerce and incoming farming households, with land and water rights entered in the public registers.;;;;;;;;;;;;;x
+FF102_SURVEY_4030_TITLE;The Survey of Lehututu;;;;;;;;;;;;;x
+FF102_SURVEY_4030_DESC;The survey party has reported on wells, grazing routes and existing communities. The ministry now has a basis for an outpost, provided the district remains outside another state's administration. Survey reports establish practical knowledge; a station and continuing local agreements are still needed to sustain government.;;;;;;;;;;;;;x
+ff102_survey_4031_title;Survey the Routes of Kgalagadi;;;;;;;;;;;;;x
+ff102_survey_4031_desc;Survey wells and routes in Kgalagadi and record the communities already using the land. A survey prepares an outpost; it cannot transfer a district governed by another country.;;;;;;;;;;;;;x
+ff102_outpost_4031_title;Establish the District Station in Kgalagadi;;;;;;;;;;;;;x
+ff102_outpost_4031_desc;Commission the surveyed station in Kgalagadi. Wells, transport stores and district records will support a continuing administration. The station can be established only while the district has no state owner; existing communities and rights require local arrangements.;;;;;;;;;;;;;x
+ff102_works_4031_title;Fund the District Programme in Kgalagadi;;;;;;;;;;;;;x
+ff102_works_4031_desc;Fund wells, roads and district offices in Kgalagadi. The programme will support local commerce and incoming farming households, with land and water rights entered in the public registers.;;;;;;;;;;;;;x
+FF102_SURVEY_4031_TITLE;The Survey of Kgalagadi;;;;;;;;;;;;;x
+FF102_SURVEY_4031_DESC;The survey party has reported on wells, grazing routes and existing communities. The ministry now has a basis for an outpost, provided the district remains outside another state's administration. Survey reports establish practical knowledge; a station and continuing local agreements are still needed to sustain government.;;;;;;;;;;;;;x
+ff102_survey_4032_title;Survey the Routes of Kweneng;;;;;;;;;;;;;x
+ff102_survey_4032_desc;Survey wells and routes in Kweneng and record the communities already using the land. A survey prepares an outpost; it cannot transfer a district governed by another country.;;;;;;;;;;;;;x
+ff102_outpost_4032_title;Establish the District Station in Kweneng;;;;;;;;;;;;;x
+ff102_outpost_4032_desc;Commission the surveyed station in Kweneng. Wells, transport stores and district records will support a continuing administration. The station can be established only while the district has no state owner; existing communities and rights require local arrangements.;;;;;;;;;;;;;x
+ff102_works_4032_title;Fund the District Programme in Kweneng;;;;;;;;;;;;;x
+ff102_works_4032_desc;Fund wells, roads and district offices in Kweneng. The programme will support local commerce and incoming farming households, with land and water rights entered in the public registers.;;;;;;;;;;;;;x
+FF102_SURVEY_4032_TITLE;The Survey of Kweneng;;;;;;;;;;;;;x
+FF102_SURVEY_4032_DESC;The survey party has reported on wells, grazing routes and existing communities. The ministry now has a basis for an outpost, provided the district remains outside another state's administration. Survey reports establish practical knowledge; a station and continuing local agreements are still needed to sustain government.;;;;;;;;;;;;;x
+ff102_survey_4033_title;Survey the Routes of Shoshong;;;;;;;;;;;;;x
+ff102_survey_4033_desc;Survey wells and routes in Shoshong and record the communities already using the land. A survey prepares an outpost; it cannot transfer a district governed by another country.;;;;;;;;;;;;;x
+ff102_outpost_4033_title;Establish the District Station in Shoshong;;;;;;;;;;;;;x
+ff102_outpost_4033_desc;Commission the surveyed station in Shoshong. Wells, transport stores and district records will support a continuing administration. The station can be established only while the district has no state owner; existing communities and rights require local arrangements.;;;;;;;;;;;;;x
+ff102_works_4033_title;Fund the District Programme in Shoshong;;;;;;;;;;;;;x
+ff102_works_4033_desc;Fund wells, roads and district offices in Shoshong. The programme will support local commerce and incoming farming households, with land and water rights entered in the public registers.;;;;;;;;;;;;;x
+FF102_SURVEY_4033_TITLE;The Survey of Shoshong;;;;;;;;;;;;;x
+FF102_SURVEY_4033_DESC;The survey party has reported on wells, grazing routes and existing communities. The ministry now has a basis for an outpost, provided the district remains outside another state's administration. Survey reports establish practical knowledge; a station and continuing local agreements are still needed to sustain government.;;;;;;;;;;;;;x
+ff102_survey_2074_title;Survey the Routes of the Notwane country;;;;;;;;;;;;;x
+ff102_survey_2074_desc;Survey wells and routes in the Notwane country and record the communities already using the land. A survey prepares an outpost; it cannot transfer a district governed by another country.;;;;;;;;;;;;;x
+ff102_outpost_2074_title;Establish the District Station in the Notwane country;;;;;;;;;;;;;x
+ff102_outpost_2074_desc;Commission the surveyed station in the Notwane country. Wells, transport stores and district records will support a continuing administration. The station can be established only while the district has no state owner; existing communities and rights require local arrangements.;;;;;;;;;;;;;x
+ff102_works_2074_title;Fund the District Programme in the Notwane country;;;;;;;;;;;;;x
+ff102_works_2074_desc;Fund wells, roads and district offices in the Notwane country. The programme will support local commerce and incoming farming households, with land and water rights entered in the public registers.;;;;;;;;;;;;;x
+FF102_SURVEY_2074_TITLE;The Survey of the Notwane country;;;;;;;;;;;;;x
+FF102_SURVEY_2074_DESC;The survey party has reported on wells, grazing routes and existing communities. The ministry now has a basis for an outpost, provided the district remains outside another state's administration. Survey reports establish practical knowledge; a station and continuing local agreements are still needed to sustain government.;;;;;;;;;;;;;x
+ff102_survey_4034_title;Survey the Routes of Ngwato Reach;;;;;;;;;;;;;x
+ff102_survey_4034_desc;Survey wells and routes in Ngwato Reach and record the communities already using the land. A survey prepares an outpost; it cannot transfer a district governed by another country.;;;;;;;;;;;;;x
+ff102_outpost_4034_title;Establish the District Station in Ngwato Reach;;;;;;;;;;;;;x
+ff102_outpost_4034_desc;Commission the surveyed station in Ngwato Reach. Wells, transport stores and district records will support a continuing administration. The station can be established only while the district has no state owner; existing communities and rights require local arrangements.;;;;;;;;;;;;;x
+ff102_works_4034_title;Fund the District Programme in Ngwato Reach;;;;;;;;;;;;;x
+ff102_works_4034_desc;Fund wells, roads and district offices in Ngwato Reach. The programme will support local commerce and incoming farming households, with land and water rights entered in the public registers.;;;;;;;;;;;;;x
+FF102_SURVEY_4034_TITLE;The Survey of Ngwato Reach;;;;;;;;;;;;;x
+FF102_SURVEY_4034_DESC;The survey party has reported on wells, grazing routes and existing communities. The ministry now has a basis for an outpost, provided the district remains outside another state's administration. Survey reports establish practical knowledge; a station and continuing local agreements are still needed to sustain government.;;;;;;;;;;;;;x
+ff102_survey_2574_title;Survey the Routes of the Kgatleng country;;;;;;;;;;;;;x
+ff102_survey_2574_desc;Survey wells and routes in the Kgatleng country and record the communities already using the land. A survey prepares an outpost; it cannot transfer a district governed by another country.;;;;;;;;;;;;;x
+ff102_outpost_2574_title;Establish the District Station in the Kgatleng country;;;;;;;;;;;;;x
+ff102_outpost_2574_desc;Commission the surveyed station in the Kgatleng country. Wells, transport stores and district records will support a continuing administration. The station can be established only while the district has no state owner; existing communities and rights require local arrangements.;;;;;;;;;;;;;x
+ff102_works_2574_title;Fund the District Programme in the Kgatleng country;;;;;;;;;;;;;x
+ff102_works_2574_desc;Fund wells, roads and district offices in the Kgatleng country. The programme will support local commerce and incoming farming households, with land and water rights entered in the public registers.;;;;;;;;;;;;;x
+FF102_SURVEY_2574_TITLE;The Survey of the Kgatleng country;;;;;;;;;;;;;x
+FF102_SURVEY_2574_DESC;The survey party has reported on wells, grazing routes and existing communities. The ministry now has a basis for an outpost, provided the district remains outside another state's administration. Survey reports establish practical knowledge; a station and continuing local agreements are still needed to sustain government.;;;;;;;;;;;;;x
+ff102_survey_3882_title;Survey the Routes of the Tonotha country;;;;;;;;;;;;;x
+ff102_survey_3882_desc;Survey wells and routes in the Tonotha country and record the communities already using the land. A survey prepares an outpost; it cannot transfer a district governed by another country.;;;;;;;;;;;;;x
+ff102_outpost_3882_title;Establish the District Station in the Tonotha country;;;;;;;;;;;;;x
+ff102_outpost_3882_desc;Commission the surveyed station in the Tonotha country. Wells, transport stores and district records will support a continuing administration. The station can be established only while the district has no state owner; existing communities and rights require local arrangements.;;;;;;;;;;;;;x
+ff102_works_3882_title;Fund the District Programme in the Tonotha country;;;;;;;;;;;;;x
+ff102_works_3882_desc;Fund wells, roads and district offices in the Tonotha country. The programme will support local commerce and incoming farming households, with land and water rights entered in the public registers.;;;;;;;;;;;;;x
+FF102_SURVEY_3882_TITLE;The Survey of the Tonotha country;;;;;;;;;;;;;x
+FF102_SURVEY_3882_DESC;The survey party has reported on wells, grazing routes and existing communities. The ministry now has a basis for an outpost, provided the district remains outside another state's administration. Survey reports establish practical knowledge; a station and continuing local agreements are still needed to sustain government.;;;;;;;;;;;;;x
+ff102_survey_4035_title;Survey the Routes of Shashani Reach;;;;;;;;;;;;;x
+ff102_survey_4035_desc;Survey wells and routes in Shashani Reach and record the communities already using the land. A survey prepares an outpost; it cannot transfer a district governed by another country.;;;;;;;;;;;;;x
+ff102_outpost_4035_title;Establish the District Station in Shashani Reach;;;;;;;;;;;;;x
+ff102_outpost_4035_desc;Commission the surveyed station in Shashani Reach. Wells, transport stores and district records will support a continuing administration. The station can be established only while the district has no state owner; existing communities and rights require local arrangements.;;;;;;;;;;;;;x
+ff102_works_4035_title;Fund the District Programme in Shashani Reach;;;;;;;;;;;;;x
+ff102_works_4035_desc;Fund wells, roads and district offices in Shashani Reach. The programme will support local commerce and incoming farming households, with land and water rights entered in the public registers.;;;;;;;;;;;;;x
+FF102_SURVEY_4035_TITLE;The Survey of Shashani Reach;;;;;;;;;;;;;x
+FF102_SURVEY_4035_DESC;The survey party has reported on wells, grazing routes and existing communities. The ministry now has a basis for an outpost, provided the district remains outside another state's administration. Survey reports establish practical knowledge; a station and continuing local agreements are still needed to sustain government.;;;;;;;;;;;;;x
+ff102_survey_4036_title;Survey the Routes of Limpopo Bend;;;;;;;;;;;;;x
+ff102_survey_4036_desc;Survey wells and routes in Limpopo Bend and record the communities already using the land. A survey prepares an outpost; it cannot transfer a district governed by another country.;;;;;;;;;;;;;x
+ff102_outpost_4036_title;Establish the District Station in Limpopo Bend;;;;;;;;;;;;;x
+ff102_outpost_4036_desc;Commission the surveyed station in Limpopo Bend. Wells, transport stores and district records will support a continuing administration. The station can be established only while the district has no state owner; existing communities and rights require local arrangements.;;;;;;;;;;;;;x
+ff102_works_4036_title;Fund the District Programme in Limpopo Bend;;;;;;;;;;;;;x
+ff102_works_4036_desc;Fund wells, roads and district offices in Limpopo Bend. The programme will support local commerce and incoming farming households, with land and water rights entered in the public registers.;;;;;;;;;;;;;x
+FF102_SURVEY_4036_TITLE;The Survey of Limpopo Bend;;;;;;;;;;;;;x
+FF102_SURVEY_4036_DESC;The survey party has reported on wells, grazing routes and existing communities. The ministry now has a basis for an outpost, provided the district remains outside another state's administration. Survey reports establish practical knowledge; a station and continuing local agreements are still needed to sustain government.;;;;;;;;;;;;;x
+ff102_survey_4037_title;Survey the Routes of Northern Langeberg;;;;;;;;;;;;;x
+ff102_survey_4037_desc;Survey wells and routes in Northern Langeberg and record the communities already using the land. A survey prepares an outpost; it cannot transfer a district governed by another country.;;;;;;;;;;;;;x
+ff102_outpost_4037_title;Establish the District Station in Northern Langeberg;;;;;;;;;;;;;x
+ff102_outpost_4037_desc;Commission the surveyed station in Northern Langeberg. Wells, transport stores and district records will support a continuing administration. The station can be established only while the district has no state owner; existing communities and rights require local arrangements.;;;;;;;;;;;;;x
+ff102_works_4037_title;Fund the District Programme in Northern Langeberg;;;;;;;;;;;;;x
+ff102_works_4037_desc;Fund wells, roads and district offices in Northern Langeberg. The programme will support local commerce and incoming farming households, with land and water rights entered in the public registers.;;;;;;;;;;;;;x
+FF102_SURVEY_4037_TITLE;The Survey of Northern Langeberg;;;;;;;;;;;;;x
+FF102_SURVEY_4037_DESC;The survey party has reported on wells, grazing routes and existing communities. The ministry now has a basis for an outpost, provided the district remains outside another state's administration. Survey reports establish practical knowledge; a station and continuing local agreements are still needed to sustain government.;;;;;;;;;;;;;x

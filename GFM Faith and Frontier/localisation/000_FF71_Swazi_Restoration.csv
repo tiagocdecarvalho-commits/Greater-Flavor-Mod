@@ -1,0 +1,37 @@
+ff71_demand_swaziland_title;Demand the Incorporation of Swaziland;;;;;;;;;;;;;x
+ff71_demand_swaziland_desc;Victory over Britain has strengthened the republic's position, but it gives no automatic authority over Swazi independence. Deliver an ultimatum demanding incorporation. The Swazi government is likely to refuse: you may then withdraw or launch a conquest war. Acceptance incorporates the kingdom peacefully. After a conquest, a separate event determines the treatment of the occupied population. The demand is available immediately after the Boer peace, without a waiting period.;;;;;;;;;;;;;x
+ff71_swazi_conquest;Incorporate Swaziland;;;;;;;;;;;;;x
+ff71_swazi_conquest_short;Conquest of Swaziland;;;;;;;;;;;;;x
+FF71_SWAZI_WAR;The $ORDER$$FIRST$-$SECOND$ War over Swaziland;;;;;;;;;;;;;x
+FF71_DEMAND_TITLE;An Ultimatum from the Victorious Republic;;;;;;;;;;;;;x
+FF71_DEMAND_DESC;The government that emerged victorious from the struggle with Britain now demands the end of our separate kingdom. Its delegates speak of a continuous frontier and an administration extending across the mountains. Those arguments cannot conceal what incorporation means: the loss of our government's authority and the transfer of its districts to the republic. Acceptance could spare the country a campaign, but it would place local institutions at the mercy of the new administration. Refusal preserves our claim to govern ourselves and risks a war against a neighbour emboldened by its recent victory. The council must answer an ultimatum, not a voluntary invitation to federation.;;;;;;;;;;;;;x
+FF71_DEMAND_ACCEPT;Accept incorporation to avert a war.;;;;;;;;;;;;;x
+FF71_DEMAND_REFUSE;Our kingdom will not surrender its independence.;;;;;;;;;;;;;x
+FF71_ACCEPT_TITLE;The Swazi Council Accepts the Ultimatum;;;;;;;;;;;;;x
+FF71_ACCEPT_DESC;The answer from the Swazi council accepts incorporation rather than risking another campaign. Our officials must now arrange the transfer of authority, accounts and districts formerly governed by the kingdom. Agreement at the council table does not erase the concerns of the people who live there: recognition of republican claims will change the administration under which they hold land and settle disputes. The territory enters the republic without the postwar violence associated with a conquest. Its provinces receive the republic's claims and Boer administrative names, while the former kingdom's territorial cores are removed in the incorporated districts.;;;;;;;;;;;;;x
+FF71_ACCEPT_OPT0;Implement the agreement without a campaign.;;;;;;;;;;;;;x
+FF71_REFUSAL_TITLE;The Swazi Council Rejects Incorporation;;;;;;;;;;;;;x
+FF71_REFUSAL_DESC;The council has rejected our demand. Its reply recognises the republic's recent victory over Britain but refuses to treat that victory as authority to abolish Swazi government. Our delegates return without an agreement, leaving the raad to decide whether its ultimatum was a negotiating position or the opening of a campaign. A conquest would seek the kingdom's entire remaining territory. If the kingdom is presently our dependency, that relationship must end before armies can meet in a real war. Victory would also leave the republic responsible for governing the occupied districts and confronting the violence that can accompany their incorporation. Withdrawal remains possible, at the cost of prestige, without surrendering the gains of the British peace.;;;;;;;;;;;;;x
+FF71_REFUSAL_WAR;Launch the conquest.;;;;;;;;;;;;;x
+FF71_REFUSAL_WITHDRAW;Withdraw the ultimatum and preserve the peace.;;;;;;;;;;;;;x
+FF71_MOUNTAINS_TITLE;Massacre at the Swazi Mountains;;;;;;;;;;;;;x
+FF71_MOUNTAINS_DESC;Reports from the conquered districts describe attacks upon Swazi communities, expulsions from farms and families driven into the mountains. The campaign has ended, but its aftermath threatens to turn military victory into a prolonged struggle over land and government. Settlers seek new holdings while survivors appeal for protection and an accounting of what has happened. The raad must decide whether to sanction expulsions, tolerate local violence or restrain the commandos and protect civilians. The decisions taken here will determine whether the conquered districts face continued violence or receive protection and relief under republican government.;;;;;;;;;;;;;x
+FF71_MOUNTAINS_EXPULSION;Authorise the commandants to expel the local communities.;;;;;;;;;;;;;x
+FF71_MOUNTAINS_TOLERATE;Leave the districts in the hands of the local commandants.;;;;;;;;;;;;;x
+FF71_MOUNTAINS_PROTECT;Protect the communities and organise relief.;;;;;;;;;;;;;x
+FF71_RESTORE_TITLE;The Transvaal Registers beneath Crown Rule;;;;;;;;;;;;;x
+FF71_RESTORE_DESC;The commissioners have reviewed the district registers inherited by British Transvaal. The Crown administration now records the territory under its own public authority, replacing the entries of the suspended republic and the defunct emigrant governments. The burghers preserve their old records and their demand for self-government, even as official documents bear the name of the occupied administration. If independence is restored, the republican registers will be reinstated with it.;;;;;;;;;;;;;x
+FF71_RESTORE_OPT0;Record the districts under British Transvaal.;;;;;;;;;;;;;x
+ff71_settlement_frontier;A New Settlement Frontier;;;;;;;;;;;;;x
+ff71_settlement_frontier_desc;Immigration attraction rises by 100% for five years. Settlers arrive through ordinary migration, not fabricated new population. This modifier does not restrict migrants by culture.;;;;;;;;;;;;;x
+ff71_coercive_frontier;Expulsions and Frontier Resistance;;;;;;;;;;;;;x
+ff71_coercive_frontier_desc;Coercive incorporation has disrupted communities and production. Local RGO output falls by 30% for five years.;;;;;;;;;;;;;x
+ff71_unchecked_violence;An Uncontrolled Frontier;;;;;;;;;;;;;x
+ff71_unchecked_violence_desc;Unchecked attacks have undermined the new administration. Local RGO output falls by 15% for five years.;;;;;;;;;;;;;x
+ff71_protected_frontier;Protection and Reconstruction;;;;;;;;;;;;;x
+ff71_protected_frontier_desc;Civilian protection supports recovery. Local RGO output rises by 5% for five years.;;;;;;;;;;;;;x
+AGRESSION_FF71_SWAZI_WAR;The $FIRST$-$SECOND$ War over Swaziland;;;;;;;;;;;;;x
+AGRESSION_FF71_SWAZI_WAR_NO_ORDER;The $FIRST$-$SECOND$ War over Swaziland;;;;;;;;;;;;;x
+AGGRESSION_FF71_SWAZI_WAR;The $FIRST$-$SECOND$ War over Swaziland;;;;;;;;;;;;;x
+AGGRESSION_FF71_SWAZI_WAR_NO_ORDER;The $FIRST$-$SECOND$ War over Swaziland;;;;;;;;;;;;;x
+FF71_SWAZI_WAR_NO_ORDER;The $FIRST$-$SECOND$ War over Swaziland;;;;;;;;;;;;;x

@@ -1,0 +1,10 @@
+owner = PCF
+controller = PCF
+add_core = PCF
+add_core = MAT
+terrain = dry_mountains
+trade_goods = wool
+life_rating = 30
+
+# Faith and Frontier 3: Zoutpansberg
+1848.1.1 = { add_core = ZPB }

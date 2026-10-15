@@ -1,0 +1,233 @@
+cvo_german_struggle_entry_0;Enter the German struggle and accept its consequences.;;;;;;;;;;;;;x
+cvo_german_struggle_entry_1;Retain an independent maritime policy.;;;;;;;;;;;;;x
+cvo_german_struggle_entry_title;The Netherlands and the German Struggle;;;;;;;;;;;;;x
+cvo_german_struggle_entry_desc;The cabinet faces a question that reaches beyond the wording of a proclamation. Supporters of the Orange undertaking demand evidence that their sacrifices have given the nation a more commanding place in Europe. Ministers must reconcile that expectation with the rights of their partners and the power of the courts beyond the frontier. Our German policy enters the Kingdom into the contest for national leadership. Rival Great Powers may challenge our German sphere. If the Netherlands loses Great Power status and enters a German rival's sphere, that rival may incorporate the Kingdom through its national unification.;;;;;;;;;;;;;x
+cvg2_north_title;Form the Orange North German Confederation;;;;;;;;;;;;;x
+cvg2_north_desc;Gather the northern German lands beneath the Orange crown. As in the Prussian formation, only North German-culture provinces bearing German national cores must be owned by us or held by eligible countries in our sphere. Southern German provinces are exempt. The northern sphere states join the confederation upon proclamation, while Dutch remains the primary culture and North German, Frisian and Flemish are recognised within the common state.;;;;;;;;;;;;;x
+cvg2_subject_ok;Record the treaty.;;;;;;;;;;;;;x
+cvg2_subject_title;The Federal Treaty Continues;;;;;;;;;;;;;x
+cvg2_subject_desc;Delegates gather beneath the Orange colours to consider the obligations of the common state. National unity will be judged by the place it gives to its peoples and institutions, as well as by the strength it presents abroad. The court must make its promises credible in the daily work of government. The imperial crown succeeds to the confederation's existing obligations.;;;;;;;;;;;;;x
+cvg2_hurrahs_title;Three Hurrahs for Germany!;;;;;;;;;;;;;x
+cvg2_hurrahs_desc;The German national settlement is complete. Proclaim the German Empire under Orange-Nassau, preserving the federal constitution and the inherited Dutch possessions.;;;;;;;;;;;;;x
+cvg2_cultures_ok;Recognise their place in the federation.;;;;;;;;;;;;;x
+cvg2_cultures_title;The German Peoples of the Federation;;;;;;;;;;;;;x
+cvg2_cultures_desc;Delegates gather beneath the Orange colours to consider the obligations of the common state. National unity will be judged by the place it gives to its peoples and institutions, as well as by the strength it presents abroad. The court must make its promises credible in the daily work of government. The federal settlement recognises the German peoples at home and abroad, including Baltic, Volga and Polish Germans. Dutch identity remains part of the common state.;;;;;;;;;;;;;x
+cvg2_native_settlement_ok;A common German destiny under Orange.;;;;;;;;;;;;;x
+cvg2_native_settlement_title;The Orange Crown and the German Nation;;;;;;;;;;;;;x
+cvg2_native_settlement_desc;Delegates gather beneath the Orange colours to consider the obligations of the common state. National unity will be judged by the place it gives to its peoples and institutions, as well as by the strength it presents abroad. The court must make its promises credible in the daily work of government. The Orange empire takes its place as the German national state. Its inherited Dutch institutions and overseas possessions endure within the wider imperial settlement.;;;;;;;;;;;;;x
+cvg2_claims_title;The Western Frontiers of the Orange Empire;;;;;;;;;;;;;x
+cvg2_claims_desc;Nationalists demand Flanders and Alsace-Lorraine. Adopting their programme repudiates earlier frontier assurances and damages relations with Belgium, France and Britain. Claims alone transfer no territory.;;;;;;;;;;;;;x
+cvg2_hegemony_PRU;German National Hegemony;;;;;;;;;;;;;x
+cvg2_hegemony_PRU_short;German Hegemony;;;;;;;;;;;;;x
+cvg2_hegemony_PRU_desc;A Dutch victory transfers the defeated power's eligible German sphere and authorises its compulsory incorporation into a northern union under the Orange crown. A rival victory transfers the Dutch German sphere without annexing the Netherlands.;;;;;;;;;;;;;x
+CVG2_HEGEMONY_PRU;Prusso-Dutch War for German Hegemony;;;;;;;;;;;;;x
+NORMAL_CVG2_HEGEMONY_PRU;Prusso-Dutch War for German Hegemony;;;;;;;;;;;;;x
+cvg2_challenge_PRU_title;Challenge Prussian Leadership for German Hegemony;;;;;;;;;;;;;x
+cvg2_challenge_PRU_desc;Challenge Prussia for leadership of northern Germany. Enforcing our hegemony objective transfers its eligible German sphere and authorises the Northern Victory Congress to compel the defeated state into a common northern union under the Orange crown. White peace grants no incorporation. A defeat exposes our German sphere to the rival power.;;;;;;;;;;;;;x
+cvg2_hegemony_NGF;German National Hegemony;;;;;;;;;;;;;x
+cvg2_hegemony_NGF_short;German Hegemony;;;;;;;;;;;;;x
+cvg2_hegemony_NGF_desc;A Dutch victory transfers the defeated power's eligible German sphere and authorises its compulsory incorporation into a northern union under the Orange crown. A rival victory transfers the Dutch German sphere without annexing the Netherlands.;;;;;;;;;;;;;x
+CVG2_HEGEMONY_NGF;Prusso-Dutch War for German Hegemony;;;;;;;;;;;;;x
+NORMAL_CVG2_HEGEMONY_NGF;Prusso-Dutch War for German Hegemony;;;;;;;;;;;;;x
+cvg2_challenge_NGF_title;Challenge Prussian Leadership for German Hegemony;;;;;;;;;;;;;x
+cvg2_challenge_NGF_desc;Challenge the rival North German Confederation for leadership of northern Germany. Enforcing our hegemony objective transfers its eligible German sphere and authorises the Northern Victory Congress to compel the defeated state into a common northern union under the Orange crown. White peace grants no incorporation. A defeat exposes our German sphere to the rival power.;;;;;;;;;;;;;x
+cvg2_hegemony_AUS;German National Hegemony;;;;;;;;;;;;;x
+cvg2_hegemony_AUS_short;German Hegemony;;;;;;;;;;;;;x
+cvg2_hegemony_AUS_desc;Transfer the defeated power's independent German sphere members to the victor.;;;;;;;;;;;;;x
+CVG2_HEGEMONY_AUS;Austro-Dutch War for German Hegemony;;;;;;;;;;;;;x
+NORMAL_CVG2_HEGEMONY_AUS;Austro-Dutch War for German Hegemony;;;;;;;;;;;;;x
+cvg2_challenge_AUS_title;Challenge Austria for German Hegemony;;;;;;;;;;;;;x
+cvg2_challenge_AUS_desc;Contest the rival Great Power's influence over the German states. Victory transfers the defeated power's independent German sphere members. Defeat exposes our own German sphere to the same settlement.;;;;;;;;;;;;;x
+cvg2_greater_AUS_title;The Greater German Settlement;;;;;;;;;;;;;x
+cvg2_greater_AUS_desc;Enforce the Greater German congress: Austria joins the Empire, Bohemia is released, and the Habsburg court withdraws to Hungary.;;;;;;;;;;;;;x
+cvg2_greater_AUS;Greater German Unification;;;;;;;;;;;;;x
+cvg2_greater_AUS_short;Greater Germany;;;;;;;;;;;;;x
+CVG2_GREATER_AUS;The War for Greater German Unification;;;;;;;;;;;;;x
+NORMAL_CVG2_GREATER_AUS;The War for Greater German Unification;;;;;;;;;;;;;x
+cvg2_greater_AUS_record;Convene the congress and approach the Russian court.;;;;;;;;;;;;;x
+cvg2_greater_AUS_peace_title;The Greater German Peace Conference;;;;;;;;;;;;;x
+cvg2_greater_AUS_peace_desc;The Habsburg defeat has opened the road to Vienna. Our delegates demand Austria, South Tyrol and the Littoral for the German Empire, Bohemia will recover its statehood, and the defeated dynasty must retreat to a Hungarian kingdom retaining Dalmatia. Yet the eastern frontier requires another signature. An invitation goes to the Russian court: Galicia in return for recognition of the settlement. Bukovina is reserved for the Romanian principalities. The congress awaits the Tsar's answer before issuing its final act.;;;;;;;;;;;;;x
+cvg2_greater_AUB_title;The Greater German Settlement;;;;;;;;;;;;;x
+cvg2_greater_AUB_desc;Enforce the Greater German congress: Austria joins the Empire, Bohemia is released, and the Habsburg court withdraws to Hungary.;;;;;;;;;;;;;x
+cvg2_greater_AUB;Greater German Unification;;;;;;;;;;;;;x
+cvg2_greater_AUB_short;Greater Germany;;;;;;;;;;;;;x
+CVG2_GREATER_AUB;The War for Greater German Unification;;;;;;;;;;;;;x
+NORMAL_CVG2_GREATER_AUB;The War for Greater German Unification;;;;;;;;;;;;;x
+cvg2_greater_AUB_record;Convene the congress and approach the Russian court.;;;;;;;;;;;;;x
+cvg2_greater_AUB_peace_title;The Greater German Peace Conference;;;;;;;;;;;;;x
+cvg2_greater_AUB_peace_desc;The Habsburg defeat has opened the road to Vienna. Our delegates demand Austria, South Tyrol and the Littoral for the German Empire, Bohemia will recover its statehood, and the defeated dynasty must retreat to a Hungarian kingdom retaining Dalmatia. Yet the eastern frontier requires another signature. An invitation goes to the Russian court: Galicia in return for recognition of the settlement. Bukovina is reserved for the Romanian principalities. The congress awaits the Tsar's answer before issuing its final act.;;;;;;;;;;;;;x
+cvg2_greater_KUK_title;The Greater German Settlement;;;;;;;;;;;;;x
+cvg2_greater_KUK_desc;Enforce the Greater German congress: Austria joins the Empire, Bohemia is released, and the Habsburg court withdraws to Hungary.;;;;;;;;;;;;;x
+cvg2_greater_KUK;Greater German Unification;;;;;;;;;;;;;x
+cvg2_greater_KUK_short;Greater Germany;;;;;;;;;;;;;x
+CVG2_GREATER_KUK;The War for Greater German Unification;;;;;;;;;;;;;x
+NORMAL_CVG2_GREATER_KUK;The War for Greater German Unification;;;;;;;;;;;;;x
+cvg2_greater_KUK_record;Convene the congress and approach the Russian court.;;;;;;;;;;;;;x
+cvg2_greater_KUK_peace_title;The Greater German Peace Conference;;;;;;;;;;;;;x
+cvg2_greater_KUK_peace_desc;The Habsburg defeat has opened the road to Vienna. Our delegates demand Austria, South Tyrol and the Littoral for the German Empire, Bohemia will recover its statehood, and the defeated dynasty must retreat to a Hungarian kingdom retaining Dalmatia. Yet the eastern frontier requires another signature. An invitation goes to the Russian court: Galicia in return for recognition of the settlement. Bukovina is reserved for the Romanian principalities. The congress awaits the Tsar's answer before issuing its final act.;;;;;;;;;;;;;x
+cvg2_north_absolute;Absolute Confederation;;;;;;;;;;;;;x
+NET_cvg2_north_absolute;North German Confederation;;;;;;;;;;;;;x
+NET_cvg2_north_absolute_ADJ;Orange-North German;;;;;;;;;;;;;x
+cvg2_north_absolute_ruler;King;;;;;;;;;;;;;x
+cvg2_north_semi;Semi-Constitutional Confederation;;;;;;;;;;;;;x
+NET_cvg2_north_semi;North German Confederation;;;;;;;;;;;;;x
+NET_cvg2_north_semi_ADJ;Orange-North German;;;;;;;;;;;;;x
+cvg2_north_semi_ruler;King;;;;;;;;;;;;;x
+cvg2_north_constitutional;Constitutional Confederation;;;;;;;;;;;;;x
+NET_cvg2_north_constitutional;North German Confederation;;;;;;;;;;;;;x
+NET_cvg2_north_constitutional_ADJ;Orange-North German;;;;;;;;;;;;;x
+cvg2_north_constitutional_ruler;King;;;;;;;;;;;;;x
+cvg2_hyper_subject_ok;Continue the treaty.;;;;;;;;;;;;;x
+cvg2_hyper_subject_title;A New Sovereign for the Dutch Treaties;;;;;;;;;;;;;x
+cvg2_hyper_subject_desc;Delegates gather beneath the Orange colours to consider the obligations of the common state. National unity will be judged by the place it gives to its peoples and institutions, as well as by the strength it presents abroad. The court must make its promises credible in the daily work of government. The Dutch state has joined its German sphere leader. Its existing dependency treaties now answer to the unifying crown.;;;;;;;;;;;;;x
+cvg2_north_style_absolute_ok;Record the constitutional settlement.;;;;;;;;;;;;;x
+cvg2_north_style_absolute_title;The Federal Constitution;;;;;;;;;;;;;x
+cvg2_north_style_absolute_desc;Delegates gather beneath the Orange colours to consider the obligations of the common state. National unity will be judged by the place it gives to its peoples and institutions, as well as by the strength it presents abroad. The court must make its promises credible in the daily work of government. The confederation records the current division of authority between crown and parliament.;;;;;;;;;;;;;x
+cvg2_north_style_semi_ok;Record the constitutional settlement.;;;;;;;;;;;;;x
+cvg2_north_style_semi_title;The Federal Constitution;;;;;;;;;;;;;x
+cvg2_north_style_semi_desc;Delegates gather beneath the Orange colours to consider the obligations of the common state. National unity will be judged by the place it gives to its peoples and institutions, as well as by the strength it presents abroad. The court must make its promises credible in the daily work of government. The confederation records the current division of authority between crown and parliament.;;;;;;;;;;;;;x
+cvg2_north_style_constitutional_ok;Record the constitutional settlement.;;;;;;;;;;;;;x
+cvg2_north_style_constitutional_title;The Federal Constitution;;;;;;;;;;;;;x
+cvg2_north_style_constitutional_desc;Delegates gather beneath the Orange colours to consider the obligations of the common state. National unity will be judged by the place it gives to its peoples and institutions, as well as by the strength it presents abroad. The court must make its promises credible in the daily work of government. The confederation records the current division of authority between crown and parliament.;;;;;;;;;;;;;x
+cvg2_struggle;Struggle;;;;;;;;;;;;;x
+cvg2_north;North;;;;;;;;;;;;;x
+cvg2_native_settlement;Native settlement;;;;;;;;;;;;;x
+cvg2_greater_AUS_started;Greater aus started;;;;;;;;;;;;;x
+cvg2_greater_AUB_started;Greater aub started;;;;;;;;;;;;;x
+cvg2_greater_KUK_started;Greater kuk started;;;;;;;;;;;;;x
+cvg2_hyper_subject;Hyper subject;;;;;;;;;;;;;x
+cvg2_constitution_remembered;Constitution remembered;;;;;;;;;;;;;x
+cvg2_remember_absolute;Remember absolute;;;;;;;;;;;;;x
+cvg2_remember_semi;Remember semi;;;;;;;;;;;;;x
+cvg2_western_claims;Western claims;;;;;;;;;;;;;x
+cvg2_greater_AUS_won;Greater aus won;;;;;;;;;;;;;x
+cvg2_greater_AUB_won;Greater aub won;;;;;;;;;;;;;x
+cvg2_greater_KUK_won;Greater kuk won;;;;;;;;;;;;;x
+cvg2_prussian_subject_title;The Treaties of the Northern Crown;;;;;;;;;;;;;x
+cvg2_prussian_subject_desc;The northern union treaty has extinguished the independent authority of our former protector. Orange envoys now claim succession to its treaties and obligations. Our ministers are asked to acknowledge the common crown, while the Dutch delegation promises that a change of protector need not erase the institutions of its dependencies. Such assurances will be tested in practice: petitions once addressed to Berlin must now reach The Hague. Beyond our borders, the settlement is hailed as the foundation of northern unity. Within the council chamber, its meaning is more immediate. The relationship upon which our security rested has passed into new hands, and our government must find its place beneath the Orange crown.;;;;;;;;;;;;;x
+cvg2_prussian_subject_ack;Record the succession of the Orange crown.;;;;;;;;;;;;;x
+cvg2_prussian_subject;Prussian dependency awaiting treaty succession;;;;;;;;;;;;;x
+cvg2_absorb_PRU_title;The Northern Victory Congress;;;;;;;;;;;;;x
+cvg2_absorb_PRU_desc;The Prussian delegates enter beneath the banners of their conquerors. Orange ministers demand a settlement that Berlin cannot overturn by rebuilding its alliances. Invoking their dynasty's German roots and the rivers joining Dutch ports to the interior, they proclaim a northern union under a common crown. Prussia must surrender its independent diplomacy and military command. Its provinces enter the Orange state, its officials and soldiers pass into common service. Provincial traditions are promised respect, but Berlin will no longer speak as a sovereign power. German nationalists acclaim unity, while Prussian loyalists see conquest dressed in brotherhood. North Germans take their place beside Dutch, Frisian and Flemish citizens. The remaining northern courts must still be gathered before the confederation is proclaimed. The road to German unity now runs through The Hague.;;;;;;;;;;;;;x
+cvg2_absorb_PRU_ack;Compel Prussia to enter the northern union!;;;;;;;;;;;;;x
+cvg2_absorb_PRU_pending;Enforced Dutch victory awaiting the northern congress;;;;;;;;;;;;;x
+cvg2_absorb_PRU_done;Northern incorporation congress ratified;;;;;;;;;;;;;x
+cvg2_absorb_NGF_title;The Northern Victory Congress;;;;;;;;;;;;;x
+cvg2_absorb_NGF_desc;The defeated confederation claims already to embody northern unity. Orange ministers answer that the war has settled who shall lead it: leaving a rival federal crown intact would preserve the foundation of another coalition. The treaty compels the confederation to enter a common state beneath the Orange crown. Independent diplomacy and military command pass to The Hague, together with its provinces, officials and regiments. Delegates demand respect for provincial traditions, while Orange spokesmen promise a union connecting Dutch ports and the German interior. Supporters acclaim national strength. Opponents call it conquest dressed in federal language. North Germans join Dutch, Frisian and Flemish citizens, but the remaining northern courts must still be gathered before our confederation is proclaimed. Responsibility for northern unity now rests upon Orange.;;;;;;;;;;;;;x
+cvg2_absorb_NGF_ack;One northern union beneath the Orange crown!;;;;;;;;;;;;;x
+cvg2_absorb_NGF_pending;Enforced Dutch victory awaiting the northern congress;;;;;;;;;;;;;x
+cvg2_absorb_NGF_done;Northern incorporation congress ratified;;;;;;;;;;;;;x
+cvg2_greater_AUS_russia_accept;Recognise the settlement and accept Galicia.;;;;;;;;;;;;;x
+cvg2_greater_AUS_russia_refuse;Decline the convention.;;;;;;;;;;;;;x
+cvg2_greater_AUS_russia_title;The Galician Convention;;;;;;;;;;;;;x
+cvg2_greater_AUS_russia_desc;The German victory has broken Habsburg power west of Hungary. Delegates offer Galicia to Russia in return for recognition of the new order: Austria enters the German Empire, Bohemia stands apart, and the Habsburgs withdraw to Hungary. Bukovina is excluded from the offer and reserved for the Romanian principalities. Acceptance brings the Galician frontier under our authority, refusal leaves an independent Galician state between the powers.;;;;;;;;;;;;;x
+cvg2_greater_AUS_ratify;Ratify the final act and establish the new frontiers.;;;;;;;;;;;;;x
+cvg2_greater_AUS_treaty_title;The Final Act of the German Congress;;;;;;;;;;;;;x
+cvg2_greater_AUS_treaty_desc;The Russian court has accepted the Galician Convention. Galicia passes to Russia, whose delegates recognise the new German settlement. Austria, South Tyrol and the Littoral enter the German Empire, Bohemia regains its own government. The Habsburg court withdraws to a constitutional Hungarian kingdom, retaining the remaining crownlands and Dalmatia. Lombardy and Venetia form a protected Italian kingdom. Bukovina passes to Romania, or to Moldavia while the principalities remain divided. The signatures now turn these articles into frontiers.;;;;;;;;;;;;;x
+cvg2_greater_AUB_russia_accept;Recognise the settlement and accept Galicia.;;;;;;;;;;;;;x
+cvg2_greater_AUB_russia_refuse;Decline the convention.;;;;;;;;;;;;;x
+cvg2_greater_AUB_russia_title;The Galician Convention;;;;;;;;;;;;;x
+cvg2_greater_AUB_russia_desc;The German victory has broken Habsburg power west of Hungary. Delegates offer Galicia to Russia in return for recognition of the new order: Austria enters the German Empire, Bohemia stands apart, and the Habsburgs withdraw to Hungary. Bukovina is excluded from the offer and reserved for the Romanian principalities. Acceptance brings the Galician frontier under our authority, refusal leaves an independent Galician state between the powers.;;;;;;;;;;;;;x
+cvg2_greater_AUB_ratify;Ratify the final act and establish the new frontiers.;;;;;;;;;;;;;x
+cvg2_greater_AUB_treaty_title;The Final Act of the German Congress;;;;;;;;;;;;;x
+cvg2_greater_AUB_treaty_desc;The Russian court has accepted the Galician Convention. Galicia passes to Russia, whose delegates recognise the new German settlement. Austria, South Tyrol and the Littoral enter the German Empire, Bohemia regains its own government. The Habsburg court withdraws to a constitutional Hungarian kingdom, retaining the remaining crownlands and Dalmatia. Lombardy and Venetia form a protected Italian kingdom. Bukovina passes to Romania, or to Moldavia while the principalities remain divided. The signatures now turn these articles into frontiers.;;;;;;;;;;;;;x
+cvg2_greater_KUK_russia_accept;Recognise the settlement and accept Galicia.;;;;;;;;;;;;;x
+cvg2_greater_KUK_russia_refuse;Decline the convention.;;;;;;;;;;;;;x
+cvg2_greater_KUK_russia_title;The Galician Convention;;;;;;;;;;;;;x
+cvg2_greater_KUK_russia_desc;The German victory has broken Habsburg power west of Hungary. Delegates offer Galicia to Russia in return for recognition of the new order: Austria enters the German Empire, Bohemia stands apart, and the Habsburgs withdraw to Hungary. Bukovina is excluded from the offer and reserved for the Romanian principalities. Acceptance brings the Galician frontier under our authority, refusal leaves an independent Galician state between the powers.;;;;;;;;;;;;;x
+cvg2_greater_KUK_ratify;Ratify the final act and establish the new frontiers.;;;;;;;;;;;;;x
+cvg2_greater_KUK_treaty_title;The Final Act of the German Congress;;;;;;;;;;;;;x
+cvg2_greater_KUK_treaty_desc;The Russian court has accepted the Galician Convention. Galicia passes to Russia, whose delegates recognise the new German settlement. Austria, South Tyrol and the Littoral enter the German Empire, Bohemia regains its own government. The Habsburg court withdraws to a constitutional Hungarian kingdom, retaining the remaining crownlands and Dalmatia. Lombardy and Venetia form a protected Italian kingdom. Bukovina passes to Romania, or to Moldavia while the principalities remain divided. The signatures now turn these articles into frontiers.;;;;;;;;;;;;;x
+cvg2_greater_AUS_treaty_without_russia_title;The Final Act of the German Congress;;;;;;;;;;;;;x
+cvg2_greater_AUS_treaty_without_russia_desc;The congress closes without Russian ratification. Galicia will stand as an independent state, while the remaining articles take effect. Austria, South Tyrol and the Littoral enter the German Empire, Bohemia regains its own government. The Habsburg court withdraws to a constitutional Hungarian kingdom, retaining the remaining crownlands and Dalmatia. Lombardy and Venetia form a protected Italian kingdom. Bukovina passes to Romania, or to Moldavia while the principalities remain divided. The signatures now turn these articles into frontiers.;;;;;;;;;;;;;x
+cvg2_greater_AUB_treaty_without_russia_title;The Final Act of the German Congress;;;;;;;;;;;;;x
+cvg2_greater_AUB_treaty_without_russia_desc;The congress closes without Russian ratification. Galicia will stand as an independent state, while the remaining articles take effect. Austria, South Tyrol and the Littoral enter the German Empire, Bohemia regains its own government. The Habsburg court withdraws to a constitutional Hungarian kingdom, retaining the remaining crownlands and Dalmatia. Lombardy and Venetia form a protected Italian kingdom. Bukovina passes to Romania, or to Moldavia while the principalities remain divided. The signatures now turn these articles into frontiers.;;;;;;;;;;;;;x
+cvg2_greater_KUK_treaty_without_russia_title;The Final Act of the German Congress;;;;;;;;;;;;;x
+cvg2_greater_KUK_treaty_without_russia_desc;The congress closes without Russian ratification. Galicia will stand as an independent state, while the remaining articles take effect. Austria, South Tyrol and the Littoral enter the German Empire, Bohemia regains its own government. The Habsburg court withdraws to a constitutional Hungarian kingdom, retaining the remaining crownlands and Dalmatia. Lombardy and Venetia form a protected Italian kingdom. Bukovina passes to Romania, or to Moldavia while the principalities remain divided. The signatures now turn these articles into frontiers.;;;;;;;;;;;;;x
+AGGRESSION_CVG2_GREATER_AUS;The War for Greater German Unification;;;;;;;;;;;;;x
+AGGRESSION_CVG2_GREATER_AUS_NO_ORDER;The War for Greater German Unification;;;;;;;;;;;;;x
+AGGRESSION_CVG2_GREATER_AUB;The War for Greater German Unification;;;;;;;;;;;;;x
+AGGRESSION_CVG2_GREATER_AUB_NO_ORDER;The War for Greater German Unification;;;;;;;;;;;;;x
+AGGRESSION_CVG2_GREATER_KUK;The War for Greater German Unification;;;;;;;;;;;;;x
+AGGRESSION_CVG2_GREATER_KUK_NO_ORDER;The War for Greater German Unification;;;;;;;;;;;;;x
+cvg2_congress_implementation_record;Confirm the independent crowns and the Italian protectorate.;;;;;;;;;;;;;x
+cvg2_congress_implementation_title;The New Order in Central Europe;;;;;;;;;;;;;x
+cvg2_congress_implementation_desc;The frontier commissions have carried out the territorial articles. Bohemia stands outside the Empire, while the Habsburg court establishes its government in Hungary. Lombardy and Venetia form a protected kingdom under the German crown, its Italian administration remains distinct from the imperial provinces. The delegates now exchange the treaties binding these governments.;;;;;;;;;;;;;x
+cvg2_greater_AUS_reopen;Recall the delegates and carry out the settlement.;;;;;;;;;;;;;x
+cvg2_greater_AUS_recovery_title;The Unfulfilled Articles of the Congress;;;;;;;;;;;;;x
+cvg2_greater_AUS_recovery_desc;The peace was signed, but its territorial articles have not been carried out. The German delegation recalls the frontier commission and will reconfirm the agreement before putting these articles into effect.;;;;;;;;;;;;;x
+cvg2_greater_AUB_reopen;Recall the delegates and carry out the settlement.;;;;;;;;;;;;;x
+cvg2_greater_AUB_recovery_title;The Unfulfilled Articles of the Congress;;;;;;;;;;;;;x
+cvg2_greater_AUB_recovery_desc;The peace was signed, but its territorial articles have not been carried out. The German delegation recalls the frontier commission and will reconfirm the agreement before putting these articles into effect.;;;;;;;;;;;;;x
+cvg2_greater_KUK_reopen;Recall the delegates and carry out the settlement.;;;;;;;;;;;;;x
+cvg2_greater_KUK_recovery_title;The Unfulfilled Articles of the Congress;;;;;;;;;;;;;x
+cvg2_greater_KUK_recovery_desc;The peace was signed, but its territorial articles have not been carried out. The German delegation recalls the frontier commission and will reconfirm the agreement before putting these articles into effect.;;;;;;;;;;;;;x
+AGRESSION_CVG2_GREATER_AUS;The War for Greater German Unification;;;;;;;;;;;;;x
+AGRESSION_CVG2_GREATER_AUS_NO_ORDER;The War for Greater German Unification;;;;;;;;;;;;;x
+AGRESSION_CVG2_GREATER_AUB;The War for Greater German Unification;;;;;;;;;;;;;x
+AGRESSION_CVG2_GREATER_AUB_NO_ORDER;The War for Greater German Unification;;;;;;;;;;;;;x
+AGRESSION_CVG2_GREATER_KUK;The War for Greater German Unification;;;;;;;;;;;;;x
+AGRESSION_CVG2_GREATER_KUK_NO_ORDER;The War for Greater German Unification;;;;;;;;;;;;;x
+cvg2_retired_congress_ack;File the earlier instructions.;;;;;;;;;;;;;x
+cvg2_retired_congress_title;The Congress Record;;;;;;;;;;;;;x
+cvg2_retired_congress_desc;The frontier commission is reviewing the implementation of the German settlement. Its renewed instructions will arrive through the current congress.;;;;;;;;;;;;;x
+cvg2_greater_AUS_frontier_repair_apply;Carry out the outstanding territorial articles.;;;;;;;;;;;;;x
+cvg2_greater_AUS_frontier_repair_title;The Unexecuted Frontier Articles;;;;;;;;;;;;;x
+cvg2_greater_AUS_frontier_repair_desc;The frontier commission has found that the earlier transfers did not follow the congress map. The German provinces remain within the Empire. Bohemia must receive its own territory, Lombardy and Venetia their protected kingdom, and Bukovina its Romanian administration. The Galician frontier will follow the Russian answer recorded at the congress. The outstanding instruments will now be served upon the governments administering those districts.;;;;;;;;;;;;;x
+cvg2_greater_AUB_frontier_repair_apply;Carry out the outstanding territorial articles.;;;;;;;;;;;;;x
+cvg2_greater_AUB_frontier_repair_title;The Unexecuted Frontier Articles;;;;;;;;;;;;;x
+cvg2_greater_AUB_frontier_repair_desc;The frontier commission has found that the earlier transfers did not follow the congress map. The German provinces remain within the Empire. Bohemia must receive its own territory, Lombardy and Venetia their protected kingdom, and Bukovina its Romanian administration. The Galician frontier will follow the Russian answer recorded at the congress. The outstanding instruments will now be served upon the governments administering those districts.;;;;;;;;;;;;;x
+cvg2_greater_KUK_frontier_repair_apply;Carry out the outstanding territorial articles.;;;;;;;;;;;;;x
+cvg2_greater_KUK_frontier_repair_title;The Unexecuted Frontier Articles;;;;;;;;;;;;;x
+cvg2_greater_KUK_frontier_repair_desc;The frontier commission has found that the earlier transfers did not follow the congress map. The German provinces remain within the Empire. Bohemia must receive its own territory, Lombardy and Venetia their protected kingdom, and Bukovina its Romanian administration. The Galician frontier will follow the Russian answer recorded at the congress. The outstanding instruments will now be served upon the governments administering those districts.;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_ack;Execute the territorial article.;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_OGE_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_OGE_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_BOH_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_BOH_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_LOM_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_LOM_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_ROM_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_ROM_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_MOL_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_MOL_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_RUS_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_RUS_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_GLM_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_GLM_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_HUN_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUS_article_HUN_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_ack;Execute the territorial article.;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_OGE_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_OGE_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_BOH_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_BOH_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_LOM_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_LOM_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_ROM_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_ROM_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_MOL_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_MOL_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_RUS_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_RUS_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_GLM_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_GLM_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_HUN_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_AUB_article_HUN_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_ack;Execute the territorial article.;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_OGE_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_OGE_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_BOH_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_BOH_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_LOM_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_LOM_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_ROM_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_ROM_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_MOL_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_MOL_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_RUS_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_RUS_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_GLM_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_GLM_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_HUN_title;The Frontier Commission;;;;;;;;;;;;;x
+cvg2_greater_KUK_article_HUN_desc;The congress has issued the instruments for this frontier. The administration will hand the assigned districts to the government named in the treaty.;;;;;;;;;;;;;x

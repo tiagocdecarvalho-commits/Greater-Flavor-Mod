@@ -1,0 +1,59 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+cvsp_opening_title;A Kingdom Across the Sea;;;;;;;;;;;;;x
+cvsp_opening_desc;In 1830, the House of Savoy governs lands divided by the sea and by different legal traditions. The crown must bind the mainland and Sardinia together while answering demands for reform.;;;;;;;;;;;;;x
+cvsp_opening_continue;Hold the kingdom together through careful reform;;;;;;;;;;;;;x
+cvsp_accession_title;Carlo Alberto Takes the Crown;;;;;;;;;;;;;x
+cvsp_accession_desc;Carlo Felice's death brings Carlo Alberto to the throne. The new king inherits a conservative state, a reforming reputation, and the unresolved question of how far royal government can change.;;;;;;;;;;;;;x
+cvsp_accession_reform;Let the new reign begin with measured reform;;;;;;;;;;;;;x
+cvsp_codes_title;A Common Body of Law;;;;;;;;;;;;;x
+cvsp_codes_desc;Officials urge Carlo Alberto to prepare a modern body of civil and commercial law. Uniform rules could strengthen the state, but they may unsettle local practice and established interests.;;;;;;;;;;;;;x
+cvsp_codes_uniform;Commission common royal codes;;;;;;;;;;;;;x
+cvsp_codes_local;Proceed cautiously and preserve local practice;;;;;;;;;;;;;x
+cvsp_conspiracy_title;Conspiracy and the Crown;;;;;;;;;;;;;x
+cvsp_conspiracy_desc;Mazzinian organizing and military conspiracy expose the fragility of the restored order. The government can rely on arrests and exemplary punishment, or temper repression with clemency.;;;;;;;;;;;;;x
+cvsp_conspiracy_repress;Suppress the conspiracy and deter further plots;;;;;;;;;;;;;x
+cvsp_conspiracy_clemency;Show clemency where the danger has passed;;;;;;;;;;;;;x
+cvsp_feudal_title;The Feudal Rights of Sardinia;;;;;;;;;;;;;x
+cvsp_feudal_desc;The crown moves to end feudal jurisdiction and settle the dues attached to it. Compensation can be borne by the treasury, or the island can be made to carry more of the cost through the redemption process.;;;;;;;;;;;;;x
+cvsp_feudal_public_treasury;Compensate former lords from the royal treasury;;;;;;;;;;;;;x
+cvsp_feudal_local_burden;Place more of the settlement on local communities;;;;;;;;;;;;;x
+cvsp_bersaglieri_title;La Marmora's New Corps;;;;;;;;;;;;;x
+cvsp_bersaglieri_desc;On Alessandro La Marmora's proposal, Carlo Alberto authorizes a new light infantry corps for scouting and rapid action. Its first companies will test a different kind of royal service.;;;;;;;;;;;;;x
+cvsp_bersaglieri_experiment;Authorize the Bersaglieri experiment;;;;;;;;;;;;;x
+cvsp_civil_code_title;The Albertine Civil Code;;;;;;;;;;;;;x
+cvsp_civil_code_desc;The civil code takes effect on the mainland. Sardinia keeps its distinct legal framework for now, while criminal and commercial codification continues.;;;;;;;;;;;;;x
+cvsp_civil_code_ack;Put the mainland code into force;;;;;;;;;;;;;x
+cvsp_later_codes_title;Criminal and Commercial Codification;;;;;;;;;;;;;x
+cvsp_later_codes_desc;The criminal code has entered into force, and the Code of Commerce now follows. These measures continue the mainland's legal reorganization, while Sardinia's separate civil code remains in place.;;;;;;;;;;;;;x
+cvsp_later_codes_ack;Continue the work of codification;;;;;;;;;;;;;x
+cvsp_feudal_review_title;The Sardinian Redemption Settlements;;;;;;;;;;;;;x
+cvsp_feudal_review_desc;The redemption of Sardinian fiefs proceeds through valuations, petitions, and settlements. Ending feudal jurisdiction has not erased disputes over land, compensation, and the obligations that replaced old dues.;;;;;;;;;;;;;x
+cvsp_feudal_review_ack;Continue the settlement through the royal delegation;;;;;;;;;;;;;x
+cvsp_genoa_title;Genoa and the Mainland Economy;;;;;;;;;;;;;x
+cvsp_genoa_desc;The government has authorized a new public works programme. It can direct its first effort toward the difficult rail link between Turin and Genoa, or toward the port and commercial facilities that support the kingdom's maritime trade.;;;;;;;;;;;;;x
+cvsp_genoa_rail;Survey and begin the Turin–Genoa railway;;;;;;;;;;;;;x
+cvsp_genoa_harbour;Strengthen Genoa's harbour and commercial services;;;;;;;;;;;;;x
+cvsp_genoa_progress_title;Genoa's Public Works Programme;;;;;;;;;;;;;x
+cvsp_genoa_progress_desc;Engineers and officials have begun turning the selected plan into a public project. The work is underway, though the larger transport and commercial changes will take years to complete.;;;;;;;;;;;;;x
+cvsp_genoa_progress_ack;Keep the project under royal supervision;;;;;;;;;;;;;x
+cvsp_fusion_title;The Perfect Fusion;;;;;;;;;;;;;x
+cvsp_fusion_desc;The kingdom has chosen the Perfect Fusion, extending a common administration across the mainland and Sardinia. The island's distinct civil code remains in force for now, so legal integration is still unfinished.;;;;;;;;;;;;;x
+cvsp_fusion_ack;Make the fused administration work throughout the kingdom;;;;;;;;;;;;;x
+cvsp_genoa_investment;Genoa and the Mainland Economy;;;;;;;;;;;;;x
+cvsp_genoa_investment_desc;Genoa's port and its links to the mainland can shape the kingdom's commercial future. Authorize public works for the Turin–Genoa route or harbour services, and place the chosen project under royal supervision.;;;;;;;;;;;;;x
+cvsp_legal_commission;Royal Codification Commission;;;;;;;;;;;;;x
+cvsp_legal_commission_desc;Officials are preparing a common body of royal law.;;;;;;;;;;;;;x
+cvsp_albertine_codes;Albertine Civil Code;;;;;;;;;;;;;x
+cvsp_albertine_codes_desc;The mainland civil code establishes a more consistent royal framework. Sardinia retains its separate code for now.;;;;;;;;;;;;;x
+cvsp_feudal_compensation;Royal Feudal Compensation;;;;;;;;;;;;;x
+cvsp_feudal_compensation_desc;The treasury bears more of the cost of settling former feudal rights in Sardinia.;;;;;;;;;;;;;x
+cvsp_feudal_assessments;Sardinian Redemption Assessments;;;;;;;;;;;;;x
+cvsp_feudal_assessments_desc;Local communities carry a greater share of the cost of settling former feudal rights.;;;;;;;;;;;;;x
+cvsp_bersaglieri_corps;Bersaglieri Corps;;;;;;;;;;;;;x
+cvsp_bersaglieri_corps_desc;The new light infantry corps strengthens scouting and rapid field operations.;;;;;;;;;;;;;x
+cvsp_turin_genoa_works;Turin–Genoa Railway Works;;;;;;;;;;;;;x
+cvsp_turin_genoa_works_desc;Royal engineers and contractors are advancing the difficult rail connection to Genoa.;;;;;;;;;;;;;x
+cvsp_genoa_harbour_board;Genoa Harbour Board;;;;;;;;;;;;;x
+cvsp_genoa_harbour_board_desc;Port and commercial services at Genoa receive continuing royal support.;;;;;;;;;;;;;x
+cvsp_perfect_fusion_administration;Perfect Fusion Administration;;;;;;;;;;;;;x
+cvsp_perfect_fusion_administration_desc;The royal administration is being integrated across the mainland and Sardinia.;;;;;;;;;;;;;x

@@ -1,0 +1,337 @@
+ff92_national_congress;Convene a South African Congress;;;;;;;;;;;;;x
+ff92_national_congress_title;Convene a South African Congress;;;;;;;;;;;;;x
+ff92_national_congress_desc;Bring delegates from the united northern and southern districts together to prepare a common South African constitution. The congress can pursue an agreement with Britain or support a later campaign for the coast. Independence, the administrations at Bloemfontein and Pretoria, and a funded delegation are required.;;;;;;;;;;;;;x
+FF92_CONGRESS_ASSENT;Let the districts speak with one voice.;;;;;;;;;;;;;x
+FF92_9785500_TITLE;A Congress for South Africa;;;;;;;;;;;;;x
+FF92_9785500_DESC;Delegates have assembled to consider a common state extending from the interior to the southern ports. The union already possesses a constitution, a treasury and a government of its own. The question is how the coastal districts will enter that settlement. The delegates agree to preserve the existing constitutional order, while authorising negotiations with Britain and preparations should those negotiations fail.;;;;;;;;;;;;;x
+ff92_southern_convention;Propose a Southern African Convention;;;;;;;;;;;;;x
+ff92_southern_convention_title;Propose a Southern African Convention;;;;;;;;;;;;;x
+ff92_southern_convention_desc;Send a delegation to London with a proposal to place the Cape and Natal under the union constitution, with protections for municipal property and existing commercial contracts. Britain may consent or reject the proposal. The delegation requires funding, peaceful relations and an independent British government.;;;;;;;;;;;;;x
+FF92_BRITAIN_ACCEPT;Accept the convention and arrange the handover.;;;;;;;;;;;;;x
+FF92_BRITAIN_REFUSE;The Cape and Natal will remain under British protection.;;;;;;;;;;;;;x
+FF92_9785501_TITLE;The Union Proposes a Southern Convention;;;;;;;;;;;;;x
+FF92_9785501_DESC;Envoys from the united Boer government propose a settlement for the Cape and Natal. Their charter would preserve municipal institutions and commercial property while transferring sovereignty to the inland union. Supporters see a means of ending repeated frontier disputes, but opponents consider the ports and their hinterlands indispensable to British influence. Parliament must decide whether such a withdrawal can be accepted.;;;;;;;;;;;;;x
+FF92_REFUSAL_ACK;The congress will consider its next step.;;;;;;;;;;;;;x
+FF92_9785502_TITLE;London Rejects the Convention;;;;;;;;;;;;;x
+FF92_9785502_DESC;The delegation has returned without an agreement. The British government will not relinquish the Cape and Natal. The congress can maintain its claim and prepare for a confrontation, but there will be no transfer of territory without a new settlement. Ministers must weigh the costs of war against the strength of the union and the value of continued peace.;;;;;;;;;;;;;x
+ff92_recall_southern_envoys;Recall the Southern Convention Delegation;;;;;;;;;;;;;x
+ff92_recall_southern_envoys_title;Recall the Southern Convention Delegation;;;;;;;;;;;;;x
+ff92_recall_southern_envoys_desc;Recall a delegation whose business remains unresolved. The congress will retain its national mandate and may reconsider a confrontation when the diplomatic situation permits.;;;;;;;;;;;;;x
+ff92_southern_campaign;Press the Southern Claim by Force;;;;;;;;;;;;;x
+ff92_southern_campaign_title;Press the Southern Claim by Force;;;;;;;;;;;;;x
+ff92_southern_campaign_desc;Mobilise the union for a war against Britain over the Cape and Natal. A victory must be secured in the southern territories before the national settlement can be enforced. The congress requires fresh campaign funds, peace at home and freedom from a truce with Britain.;;;;;;;;;;;;;x
+ff92_enforce_southern_settlement;Conclude the Southern Peace;;;;;;;;;;;;;x
+ff92_enforce_southern_settlement_title;Conclude the Southern Peace;;;;;;;;;;;;;x
+ff92_enforce_southern_settlement_desc;With Kaapstad and Durban occupied and British-held districts across the Cape and Natal secured, the union can enforce its national settlement. Only British possessions and the British-dependent Natalia administration will be transferred. Other independent states must enter the union through their own agreements.;;;;;;;;;;;;;x
+FF92_SETTLEMENT_SIGN;Receive the districts and honour the convention.;;;;;;;;;;;;;x
+FF92_9785503_TITLE;The Southern Convention Is Signed;;;;;;;;;;;;;x
+FF92_9785503_DESC;The settlement has been signed. The Cape and Natal districts covered by the agreement will pass into the administration of the union. Magistrates must register the transfer of public offices, port revenues and local obligations. The congress can now complete its work on a South African state, provided the principal districts are united and the country is at peace.;;;;;;;;;;;;;x
+FF92_DUCHY_PROCLAIM;May the charter bind our provinces together.;;;;;;;;;;;;;x
+FF92_9785504_TITLE;The Grand-Duchy of Afrikaania;;;;;;;;;;;;;x
+FF92_9785504_DESC;The representatives of the united districts have proclaimed the Grand-Duchy of Afrikaania. The constitutional charter remains in force: the grand-ducal dignity binds the provinces together, while ministers and the elected assembly continue to govern under law. From the interior to the southern ports, the new state takes responsibility for a common treasury, its defence and its relations with foreign powers. The standards of the grand duchy are raised above the public offices.;;;;;;;;;;;;;x
+FF92_REPUBLIC_PROCLAIM;One union, upheld by the republics.;;;;;;;;;;;;;x
+FF92_9785505_TITLE;The United Boer Republics of South Africa;;;;;;;;;;;;;x
+FF92_9785505_DESC;The representatives of the united districts have proclaimed a common South African state. The federal constitution remains in force, and the republics retain their place within the union. The national assembly will now speak for the interior and the southern ports, administer their common obligations and represent them abroad. The new flag is raised as the delegates pledge themselves to the preservation of the republic and its laws.;;;;;;;;;;;;;x
+ff92_form_duchy;Proclaim the Grand-Duchy of Afrikaania;;;;;;;;;;;;;x
+ff92_form_duchy_title;Proclaim the Grand-Duchy of Afrikaania;;;;;;;;;;;;;x
+ff92_form_duchy_desc;Complete the work of the congress once Kaapstad, Port Elizabeth, Durban, Pietermaritzburg, Bloemfontein and Pretoria are held by the union. The country must be independent and at peace, with funds for the national administration and no outstanding diplomatic delegation. The existing constitution will remain in force. The Duke must have been crowned before the grand-ducal proclamation.;;;;;;;;;;;;;x
+ff92_form_republic;Unite the Boer Republics of South Africa;;;;;;;;;;;;;x
+ff92_form_republic_title;Unite the Boer Republics of South Africa;;;;;;;;;;;;;x
+ff92_form_republic_desc;Complete the work of the congress once Kaapstad, Port Elizabeth, Durban, Pietermaritzburg, Bloemfontein and Pretoria are held by the union. The country must be independent and at peace, with funds for the national administration and no outstanding diplomatic delegation. The existing constitution will remain in force.;;;;;;;;;;;;;x
+FF92_CAPITAL_4003;Kaapstad;;;;;;;;;;;;;x
+FF92_CAPITAL_2105;Pretoria;;;;;;;;;;;;;x
+FF92_CAPITAL_2101;Bloemfontein;;;;;;;;;;;;;x
+FF92_CAPITAL_KEEP;Retain the present seat of government.;;;;;;;;;;;;;x
+FF92_9785506_TITLE;The Seat of the United Government;;;;;;;;;;;;;x
+FF92_9785506_DESC;The union must decide where its national institutions will sit. Kaapstad offers the port and the offices of the old Cape administration, Pretoria stands at the heart of the northern districts, and Bloemfontein provides a meeting place between north and south. The choice concerns the seat of government, not the rights guaranteed to the provinces by the constitution.;;;;;;;;;;;;;x
+FF92_CAMPAIGN_RECOVER;Rebuild our strength and observe the peace.;;;;;;;;;;;;;x
+FF92_9785507_TITLE;The Southern Campaign Ends Without a Settlement;;;;;;;;;;;;;x
+FF92_9785507_DESC;The armies have stood down without securing the southern convention. The national mandate survives, but the treasury and the commandos need time to recover. Ministers must rebuild their position before contemplating another campaign.;;;;;;;;;;;;;x
+FF92_EXECUTE_CONVENTION;Send the commissioners.;;;;;;;;;;;;;x
+FF92_9785508_TITLE;The Convention Awaits Execution;;;;;;;;;;;;;x
+FF92_9785508_DESC;The signed convention is ready for the transfer of the southern administrations.;;;;;;;;;;;;;x
+FF92_REGISTER_PROVINCES;Complete the provincial registers.;;;;;;;;;;;;;x
+FF92_9785509_TITLE;The Provincial Registers of the Union;;;;;;;;;;;;;x
+FF92_9785509_DESC;The inherited districts are to be entered in the national registers and administered as provinces of the united state. The treasury will reconcile the former colonial offices with the institutions established by the charter.;;;;;;;;;;;;;x
+ff92_southern_settlement;Southern African Settlement;;;;;;;;;;;;;x
+ff92_southern_settlement_short;Enforce the Southern Convention;;;;;;;;;;;;;x
+ff92_southern_settlement_desc;Require Britain to transfer its Cape and Natal possessions to the united Boer government.;;;;;;;;;;;;;x
+ff92_southern_settlement_setup;The union claims the British possessions of the Cape and Natal.;;;;;;;;;;;;;x
+ff92_southern_settlement_po_desc;Britain will relinquish its possessions in the Cape and Natal to the union.;;;;;;;;;;;;;x
+FF92_SOUTHERN_WAR;The War for South African Unification;;;;;;;;;;;;;x
+NORMAL_FF92_SOUTHERN_WAR;The War for South African Unification;;;;;;;;;;;;;x
+AGRESSION_FF92_SOUTHERN_WAR;The War for South African Unification;;;;;;;;;;;;;x
+ff92_ff84_accounts;Establish the Union Audit Office;;;;;;;;;;;;;x
+ff92_ff84_accounts_title;Establish the Union Audit Office;;;;;;;;;;;;;x
+ff92_ff84_accounts_desc;The union's collectors have brought ledgers written under different rules and currencies. Auditors will standardise receipts, investigate arrears and publish what each district contributes to common defence. The work should make revenue more predictable, but it will also expose old exemptions and disputed obligations. Ministers must earn confidence by applying the same rules to northern and southern officers.;;;;;;;;;;;;;x
+ff92_ff84_courts;One Law Across the Vaal;;;;;;;;;;;;;x
+ff92_ff84_courts_title;One Law Across the Vaal;;;;;;;;;;;;;x
+ff92_ff84_courts_desc;Litigants can no longer be sent from one district to another because its magistrate follows a different procedure. A common court of appeal will retain Roman-Dutch law while publishing rules for records, evidence and jurisdiction. Local magistrates keep their ordinary duties, appeals and disputes between districts will be heard under the authority of the united government. The new court is intended to replace personal mediation by commandants with a civil institution.;;;;;;;;;;;;;x
+ff92_ff84_schools;Teachers for the United Districts;;;;;;;;;;;;;x
+ff92_ff84_schools_title;Teachers for the United Districts;;;;;;;;;;;;;x
+ff92_ff84_schools_desc;The school board has begun recruiting teachers and preparing Dutch textbooks for the district schools. Distance remains a greater obstacle than any proclamation: farm families cannot always spare a child for a long journey to town. Grants will therefore support small local schools as well as the training of teachers. The common curriculum gives the younger generation a language of public affairs shared by both banks of the Vaal.;;;;;;;;;;;;;x
+ff92_ff84_commandos;The Quartermaster and the Commando;;;;;;;;;;;;;x
+ff92_ff84_commandos_title;The Quartermaster and the Commando;;;;;;;;;;;;;x
+ff92_ff84_commandos_desc;A common command is of little use if each district brings ammunition that another cannot replenish. The quartermaster's office will keep standard inventories, arrange contracts and map the routes by which provisions reach the commandos. Burghers remain responsible for service through their districts, but training and supplies will answer to a common plan. The reform strengthens what the union can sustain in the field without turning every farmer into a permanent soldier.;;;;;;;;;;;;;x
+ff92_ff84_health;Clean Water for the Market Towns;;;;;;;;;;;;;x
+ff92_ff84_health_title;Clean Water for the Market Towns;;;;;;;;;;;;;x
+ff92_ff84_health_desc;Growing market towns draw families into streets built without drains or reliable water supplies. District boards will inspect wells, organise refuse collection and maintain small medical stations along the busiest routes. The appropriation pays for continuing services as well as construction. Officials cannot promise that disease will disappear, but clean water and accessible treatment can make the new towns less vulnerable to recurring epidemics.;;;;;;;;;;;;;x
+ff92_ff84_rail;Rails Between the Two Administrations;;;;;;;;;;;;;x
+ff92_ff84_rail_title;Rails Between the Two Administrations;;;;;;;;;;;;;x
+ff92_ff84_rail_desc;Engineers have laid their proposals before the Volksraad. A trunk route must connect the northern markets with the southern towns before traffic can be offered to a coastal railway. Surveying gradients and arranging wayleaves will require negotiations with landowners, building the line itself still depends on available technology, capital and materials. The government will fund a transport commission and coordinate freight facilities rather than proclaim a railway into existence.;;;;;;;;;;;;;x
+ff92_ff84_negotiate_basotho;Convene a Basotho Boundary Commission;;;;;;;;;;;;;x
+ff92_ff84_negotiate_basotho_title;Convene a Basotho Boundary Commission;;;;;;;;;;;;;x
+ff92_ff84_negotiate_basotho_desc;From 1860, the Union proposes a joint boundary commission. Acceptance cedes Thaba Nchu to the united government when it is held by the independent Basotho kingdom, while recognising Basotho sovereignty beyond the agreed line. The commission will record cattle claims and market access. Refusal leaves the border unchanged.;;;;;;;;;;;;;x
+ff92_ff84_negotiate_portugal;Negotiate Access to Portuguese Ports;;;;;;;;;;;;;x
+ff92_ff84_negotiate_portugal_title;Negotiate Access to Portuguese Ports;;;;;;;;;;;;;x
+ff92_ff84_negotiate_portugal_desc;The union seeks a commercial route to the Portuguese coast. Its delegation proposes published transit charges, protection for merchants and a commission to examine a future railway connection. Portugal would retain its ports and territory, the agreement offers trade rather than a sale or military guarantee. A useful arrangement could reduce the inland government's reliance on Cape routes, but Lisbon may prefer to reserve its freedom to set customs charges.;;;;;;;;;;;;;x
+ff92_ff84_negotiate_dutch;Invite a Dutch Educational Mission;;;;;;;;;;;;;x
+ff92_ff84_negotiate_dutch_title;Invite a Dutch Educational Mission;;;;;;;;;;;;;x
+ff92_ff84_negotiate_dutch_desc;The union has requested teachers, technical advice and commercial contacts from the Netherlands. Dutch remains the language of its court records and much of its education, but the delegation has stressed that cultural ties do not confer sovereignty. The convention would support teacher recruitment and easier dealings between merchants. It would also recognise Dutch settlers as part of the union's civic community. The Netherlands must decide whether the proposed undertaking justifies a continuing official mission.;;;;;;;;;;;;;x
+ff92_ff84_programme;Review the Programme of the United Government;;;;;;;;;;;;;x
+ff92_ff84_programme_title;Review the Programme of the United Government;;;;;;;;;;;;;x
+ff92_ff84_programme_desc;Read the council's programme for the united districts, including constitutional administration, negotiations and mineral development.;;;;;;;;;;;;;x
+ff92_ff87_frontier_charter;Set the Union's Frontier Policy;;;;;;;;;;;;;x
+ff92_ff87_frontier_charter_title;Set the Union's Frontier Policy;;;;;;;;;;;;;x
+ff92_ff87_frontier_charter_desc;The united council must decide how to meet the governments beyond its boundaries. Some burghers call for common districts under one legislature. Others propose treaties that bind neighbouring councils to the union while preserving their local authority. Republican delegates favour accession to the Volksraad, while the ducal ministers can build a wider association under the constitutional crown. The charter will guide our envoys and the terms they present.;;;;;;;;;;;;;x
+ff92_ff87_griqua_west;Negotiate with Griqualand West;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_title;Negotiate with Griqualand West;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_desc;The western Griqua government controls the approaches to the Orange and the routes used by cattle traders. Its captains seek guarantees for land titles and existing debts. Union delegates propose a joint convention over customs and political authority, knowing that a demand for accession may turn the river crossings into a military frontier.;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_integrate;Complete the Griqualand West District Settlement;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_integrate_title;Complete the Griqualand West District Settlement;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff92_ff87_kholokoe;Negotiate with Kholokoe;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_title;Negotiate with Kholokoe;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_desc;The Kholokoe communities occupy a contested frontier among farms, grazing grounds and mountain approaches. Their leaders have resisted the reduction of their authority to a clause in a Boer land register. The council must decide whether to negotiate protected local administration or demand incorporation, and the union must be prepared for a refusal.;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_integrate;Complete the Kholokoe District Settlement;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_integrate_title;Complete the Kholokoe District Settlement;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff92_ff87_transvaal;Negotiate with Transvaal;;;;;;;;;;;;;x
+ff92_ff87_transvaal_title;Negotiate with Transvaal;;;;;;;;;;;;;x
+ff92_ff87_transvaal_desc;A separate Transvaal administration has emerged among the northern burghers. The continued existence of two Boer legislatures raises disputes over commando service, debt and the authority of district officers. Envoys from the united government propose that the northern council join the same constitutional settlement, with representation and recognition of its lawful obligations.;;;;;;;;;;;;;x
+ff92_ff87_transvaal_integrate;Complete the Transvaal District Settlement;;;;;;;;;;;;;x
+ff92_ff87_transvaal_integrate_title;Complete the Transvaal District Settlement;;;;;;;;;;;;;x
+ff92_ff87_transvaal_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff92_ff87_lydenburg;Negotiate with Lydenburg;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_title;Negotiate with Lydenburg;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_desc;The eastern burghers insist that distant officials cannot understand their mountain roads and frontier trading posts. Lydenburg's council wants a secure voice in the common government before it gives up separate authority. The union's delegates arrive with articles covering representation, local courts and the upkeep of the eastern roads.;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_integrate;Complete the Lydenburg District Settlement;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_integrate_title;Complete the Lydenburg District Settlement;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg;Negotiate with Zoutpansberg;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_title;Negotiate with Zoutpansberg;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_desc;The northern district government lives with long supply routes and a difficult frontier. Its burghers fear being taxed for southern projects while their own roads and commandos lack support. The union offers a place in its common institutions, but northern officers will demand a clear account of the benefits and obligations of accession.;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_integrate;Complete the Zoutpansberg District Settlement;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_integrate_title;Complete the Zoutpansberg District Settlement;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff92_ff87_griqua_east;Negotiate with Griqualand East;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_title;Negotiate with Griqualand East;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_desc;The eastern Griqua administration rests on migration agreements and the authority of its captains. Union delegates seek a compact over the mountain approaches and coastal trade. Existing communities will expect their recognised land titles to survive any settlement, and the captains may prefer independence to either accession or a protectorate.;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_integrate;Complete the Griqualand East District Settlement;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_integrate_title;Complete the Griqualand East District Settlement;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff92_ff87_basotho;Negotiate with Basotho;;;;;;;;;;;;;x
+ff92_ff87_basotho_title;Negotiate with Basotho;;;;;;;;;;;;;x
+ff92_ff87_basotho_desc;Basotho strongholds command the mountain approaches and shelter a government that has survived repeated frontier pressures. The union seeks a permanent settlement before outside protection closes the question. A protected association would leave the mountain council in place, while a demand for accession would challenge its sovereignty. A refused demand may lead to a costly mountain campaign rather than a quick march.;;;;;;;;;;;;;x
+ff92_ff87_basotho_integrate;Complete the Basotho District Settlement;;;;;;;;;;;;;x
+ff92_ff87_basotho_integrate_title;Complete the Basotho District Settlement;;;;;;;;;;;;;x
+ff92_ff87_basotho_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff92_ff87_swazi;Negotiate with Swaziland;;;;;;;;;;;;;x
+ff92_ff87_swazi_title;Negotiate with Swaziland;;;;;;;;;;;;;x
+ff92_ff87_swazi_desc;The Swazi council has balanced the interests of neighbouring rulers and traders while defending its own institutions. The union now presents a charter for either accession or protected association. The councillors recognise the united government's strength but dispute its right to decide their future. Ministers will have to choose whether an unfavourable answer ends the mission or begins a campaign.;;;;;;;;;;;;;x
+ff92_ff87_swazi_integrate;Complete the Swaziland District Settlement;;;;;;;;;;;;;x
+ff92_ff87_swazi_integrate_title;Complete the Swaziland District Settlement;;;;;;;;;;;;;x
+ff92_ff87_swazi_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff92_ff87_zulu;Negotiate with Zululand;;;;;;;;;;;;;x
+ff92_ff87_zulu_title;Negotiate with Zululand;;;;;;;;;;;;;x
+ff92_ff87_zulu_desc;The Zulu monarchy remains a substantial power on the eastern frontier. Cattle movements, trading routes and the security of the border have become subjects of repeated complaints. The union proposes a binding political settlement, but the royal council has little reason to surrender its independence merely because the Boer districts have agreed on a constitution. An expedition would face organised resistance and the attention of Britain.;;;;;;;;;;;;;x
+ff92_ff87_zulu_integrate;Complete the Zululand District Settlement;;;;;;;;;;;;;x
+ff92_ff87_zulu_integrate_title;Complete the Zululand District Settlement;;;;;;;;;;;;;x
+ff92_ff87_zulu_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff92_ff87_gaza;Negotiate with Gaza;;;;;;;;;;;;;x
+ff92_ff87_gaza_title;Negotiate with Gaza;;;;;;;;;;;;;x
+ff92_ff87_gaza_desc;The Gaza government controls districts along the routes towards the southern Mozambique coast. Union merchants want secure access for wagons and produce without relying entirely on foreign port officials. The envoys propose the transfer of the southern corridor under a defined boundary agreement. The demand concerns the southern districts and leaves the northern kingdom and Portuguese possessions outside the proposed settlement.;;;;;;;;;;;;;x
+ff92_ff87_gaza_integrate;Complete the Gaza District Settlement;;;;;;;;;;;;;x
+ff92_ff87_gaza_integrate_title;Complete the Gaza District Settlement;;;;;;;;;;;;;x
+ff92_ff87_gaza_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff92_ff87_shangaan;Negotiate with Shangaan;;;;;;;;;;;;;x
+ff92_ff87_shangaan_title;Negotiate with Shangaan;;;;;;;;;;;;;x
+ff92_ff87_shangaan_desc;The Shangaan government has inherited a frontier divided by rival claims and uncertain trading arrangements. The union seeks a settled route through the southern districts to the Mozambique coast. Its proposed convention concerns the corridor alone, with the northern administration left intact. Refusal would force the union to decide whether commercial access justifies another frontier war.;;;;;;;;;;;;;x
+ff92_ff87_shangaan_integrate;Complete the Shangaan District Settlement;;;;;;;;;;;;;x
+ff92_ff87_shangaan_integrate_title;Complete the Shangaan District Settlement;;;;;;;;;;;;;x
+ff92_ff87_shangaan_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff92_ff87_accession_griqua_west;Invite Griqualand West to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_griqua_west_title;Invite Griqualand West to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_griqua_west_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff92_ff87_accession_kholokoe;Invite Kholokoe to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_kholokoe_title;Invite Kholokoe to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_kholokoe_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff92_ff87_accession_transvaal;Invite Transvaal to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_transvaal_title;Invite Transvaal to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_transvaal_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff92_ff87_accession_lydenburg;Invite Lydenburg to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_lydenburg_title;Invite Lydenburg to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_lydenburg_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff92_ff87_accession_zoutpansberg;Invite Zoutpansberg to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_zoutpansberg_title;Invite Zoutpansberg to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_zoutpansberg_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff92_ff87_accession_griqua_east;Invite Griqualand East to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_griqua_east_title;Invite Griqualand East to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_griqua_east_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff92_ff87_accession_basotho;Invite Basotho to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_basotho_title;Invite Basotho to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_basotho_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff92_ff87_accession_swazi;Invite Swaziland to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_swazi_title;Invite Swaziland to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_swazi_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff92_ff87_accession_zulu;Invite Zululand to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_zulu_title;Invite Zululand to Full Accession;;;;;;;;;;;;;x
+ff92_ff87_accession_zulu_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff92_ff87_recall_mission;Recall an Unanswered Frontier Mission;;;;;;;;;;;;;x
+ff92_ff87_recall_mission_title;Recall an Unanswered Frontier Mission;;;;;;;;;;;;;x
+ff92_ff87_recall_mission_desc;If a mission has not produced an answer, the council can recall its envoys after the waiting period and recover the unused reserve. No war or territorial transfer follows from the recall.;;;;;;;;;;;;;x
+ff92_ff87_republic_congress;The Burghers' Frontier Congress;;;;;;;;;;;;;x
+ff92_ff87_republic_congress_title;The Burghers' Frontier Congress;;;;;;;;;;;;;x
+ff92_ff87_republic_congress_desc;Delegates from the united districts have called a congress over commando obligations and the admission of new communities. They insist that expansion must bring a public register of debts and service, rather than leave district commandants to negotiate incompatible arrangements. The elected government can fund a permanent committee for frontier supplies and reports to the Volksraad.;;;;;;;;;;;;;x
+ff92_ff87_ducal_council;A Ducal Council for Frontier Affairs;;;;;;;;;;;;;x
+ff92_ff87_ducal_council_title;A Ducal Council for Frontier Affairs;;;;;;;;;;;;;x
+ff92_ff87_ducal_council_desc;The constitutional ducal government has proposed a council of ministers and district delegates to administer its frontier treaties. Its purpose is to reconcile the local authority of protected councils with the obligations of the united state. A funded office will keep the treaty registers and provide a common channel for diplomatic correspondence, while the elected legislature retains control of expenditure.;;;;;;;;;;;;;x
+ff92_ff89_orange_invite;Invite a Candidate from the House of Orange-Nassau;;;;;;;;;;;;;x
+ff92_ff89_orange_invite_title;Invite a Candidate from the House of Orange-Nassau;;;;;;;;;;;;;x
+ff92_ff89_orange_invite_desc;The council can send a delegation to the Dutch court requesting a candidate from the House of Orange-Nassau. The invitation offers the constitutional ducal office, with the legislature retaining control of taxation and ministerial government. The foreign court may decline. Agreement provides a nominee, whose coronation must still be funded and approved by the union.;;;;;;;;;;;;;x
+ff92_ff89_hohenzollern_invite;Invite a Candidate from the House of Hohenzollern;;;;;;;;;;;;;x
+ff92_ff89_hohenzollern_invite_title;Invite a Candidate from the House of Hohenzollern;;;;;;;;;;;;;x
+ff92_ff89_hohenzollern_invite_desc;The council can send a delegation to the Prussian court requesting a candidate from the House of Hohenzollern. The invitation offers the constitutional ducal office, with the legislature retaining control of taxation and ministerial government. The foreign court may decline. Agreement provides a nominee, whose coronation must still be funded and approved by the union.;;;;;;;;;;;;;x
+ff92_ff89_belgian_invite;Invite a Candidate from the Belgian House of Saxe-Coburg and Gotha;;;;;;;;;;;;;x
+ff92_ff89_belgian_invite_title;Invite a Candidate from the Belgian House of Saxe-Coburg and Gotha;;;;;;;;;;;;;x
+ff92_ff89_belgian_invite_desc;The council can send a delegation to the Belgian court requesting a candidate from the Belgian House of Saxe-Coburg and Gotha. The invitation offers the constitutional ducal office, with the legislature retaining control of taxation and ministerial government. The foreign court may decline. Agreement provides a nominee, whose coronation must still be funded and approved by the union.;;;;;;;;;;;;;x
+ff92_ff89_british_invite;Invite a Candidate from the British royal family;;;;;;;;;;;;;x
+ff92_ff89_british_invite_title;Invite a Candidate from the British royal family;;;;;;;;;;;;;x
+ff92_ff89_british_invite_desc;The council can send a delegation to the British court requesting a candidate from the British royal family. The invitation offers the constitutional ducal office, with the legislature retaining control of taxation and ministerial government. The foreign court may decline. Agreement provides a nominee, whose coronation must still be funded and approved by the union.;;;;;;;;;;;;;x
+ff92_ff89_local_nominee;Nominate a Duke from the United Districts;;;;;;;;;;;;;x
+ff92_ff89_local_nominee_title;Nominate a Duke from the United Districts;;;;;;;;;;;;;x
+ff92_ff89_local_nominee_desc;The council can choose a burgher from the united districts for the constitutional ducal office. This places the responsibility for the dynasty at home and requires no foreign invitation. The nominee must still swear the constitution at a separately funded coronation.;;;;;;;;;;;;;x
+ff92_ff89_coronation;Crown the Duke of the United Boer Duchies;;;;;;;;;;;;;x
+ff92_ff89_coronation_title;Crown the Duke of the United Boer Duchies;;;;;;;;;;;;;x
+ff92_ff89_coronation_desc;The nominee will swear the constitution before delegates from the Orange, Vaal and northern districts. The legislature must fund the ceremony and civil-list arrangements. The completed coronation will be announced to foreign governments, while the union retains its existing constitution and diplomatic position.;;;;;;;;;;;;;x
+ff92_ff89_recall_envoys;Recall the Ducal Delegation;;;;;;;;;;;;;x
+ff92_ff89_recall_envoys_title;Recall the Ducal Delegation;;;;;;;;;;;;;x
+ff92_ff89_recall_envoys_desc;A mission that has not produced an answer can be recalled once the waiting period has elapsed. The unused reserve will return to the treasury, and the council can reopen nominations.;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_griqua_west_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_kholokoe_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_transvaal_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_transvaal_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_transvaal_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_transvaal_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_transvaal_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_transvaal_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_transvaal_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_transvaal_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_transvaal_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_transvaal_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_lydenburg_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_zoutpansberg_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_griqua_east_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_basotho_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_basotho_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_basotho_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_basotho_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_basotho_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_basotho_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_basotho_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_basotho_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_basotho_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_basotho_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_swazi_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_swazi_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_swazi_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_swazi_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_swazi_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_swazi_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_swazi_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_swazi_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_swazi_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_swazi_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_zulu_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_zulu_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_zulu_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_zulu_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_zulu_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff92_ff87_zulu_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_zulu_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_zulu_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_zulu_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_zulu_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff92_ff87_gaza_settlement;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff92_ff87_gaza_settlement_short;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff92_ff87_gaza_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_gaza_settlement_setup;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff92_ff87_gaza_settlement_po_desc;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff92_ff87_shangaan_settlement;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff92_ff87_shangaan_settlement_short;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff92_ff87_shangaan_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff92_ff87_shangaan_settlement_setup;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff92_ff87_shangaan_settlement_po_desc;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff92_delegation_abroad;The Southern Delegation;;;;;;;;;;;;;x
+ff92_delegation_abroad_desc;Envoys are conducting negotiations over the southern convention.;;;;;;;;;;;;;x
+ff92_campaign_recovery;Recovering From the Southern Campaign;;;;;;;;;;;;;x
+ff92_campaign_recovery_desc;The government is rebuilding its finances and military organisation after the campaign.;;;;;;;;;;;;;x
+ff92_national_administration;The United National Administration;;;;;;;;;;;;;x
+ff92_national_administration_desc;The provincial offices are being integrated under the national constitution.;;;;;;;;;;;;;x
+SAF_ff84_constitutional_duchies;Grand-Duchy of Afrikaania;;;;;;;;;;;;;x
+SAF_ff84_constitutional_duchies_ADJ;Afrikaanian;;;;;;;;;;;;;x
+SAF_slot4;Grand-Duchy of Afrikaania;;;;;;;;;;;;;x
+SAF_slot4_ADJ;Afrikaanian;;;;;;;;;;;;;x
+SAF_ff84_union_republic;The United Boer Republics;;;;;;;;;;;;;x
+SAF_ff84_union_republic_ADJ;South African;;;;;;;;;;;;;x
+SAF_slot3;The United Boer Republics;;;;;;;;;;;;;x
+SAF_slot3_ADJ;South African;;;;;;;;;;;;;x
+ff84_constitutional_duchies_ruler;Mister Prime Minister;;;;;;;;;;;;;x
+ff84_union_republic_ruler;President;;;;;;;;;;;;;x
+ff92_treaty_delivery;The Convention Commissioners;;;;;;;;;;;;;x
+ff92_treaty_delivery_desc;Commissioners are preparing the transfer of the southern administrations.;;;;;;;;;;;;;x

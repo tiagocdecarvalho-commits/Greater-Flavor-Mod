@@ -1,0 +1,690 @@
+ff87_frontier_charter_title;Set the Union's Frontier Policy;;;;;;;;;;;;;x
+ff87_frontier_charter_desc;The united council must decide how to meet the governments beyond its boundaries. Some burghers call for common districts under one legislature. Others propose treaties that bind neighbouring councils to the union while preserving their local authority. Republican delegates favour accession to the Volksraad, while the ducal ministers can build a wider association under the constitutional crown. The charter will guide our envoys and the terms they present.;;;;;;;;;;;;;x
+ff87_frontier_charter;Set the Union's Frontier Policy;;;;;;;;;;;;;x
+FF87_INTEGRATION;Seek accession to our common legislature.;;;;;;;;;;;;;x
+FF87_ASSOCIATION;Build an association of protected councils.;;;;;;;;;;;;;x
+FF87_9785298_TITLE;A Charter for the Frontier;;;;;;;;;;;;;x
+FF87_9785298_DESC;The unity achieved at Winburg gives the government influence beyond the Vaal, but neighbouring councils have their own land titles, political obligations and claims to independence. An accession programme would seek to bring districts under the common legislature. An association of protectorates would extend the union's diplomatic authority while retaining local rulers and assemblies. The ministers ask the council to choose a guiding policy before paying for missions and frontier expeditions. Neither charter itself transfers land or compels another government to agree.;;;;;;;;;;;;;x
+ff87_griqua_west_title;Negotiate with Griqualand West;;;;;;;;;;;;;x
+ff87_griqua_west_desc;The western Griqua government controls the approaches to the Orange and the routes used by cattle traders. Its captains seek guarantees for land titles and existing debts. Union delegates propose a joint convention over customs and political authority, knowing that a demand for accession may turn the river crossings into a military frontier.;;;;;;;;;;;;;x
+ff87_griqua_west;Negotiate with Griqualand West;;;;;;;;;;;;;x
+FF87_griqua_west_ACCEPT;Sign the articles and receive the union delegation.;;;;;;;;;;;;;x
+FF87_griqua_west_REFUSE;Preserve our independence and reject the articles.;;;;;;;;;;;;;x
+FF87_9785299_TITLE;The Griqualand West Convention;;;;;;;;;;;;;x
+FF87_9785299_DESC;The western Griqua government controls the approaches to the Orange and the routes used by cattle traders. Its captains seek guarantees for land titles and existing debts. Union delegates propose a joint convention over customs and political authority, knowing that a demand for accession may turn the river crossings into a military frontier. The delegates will return with the council's answer. Agreement will put the articles into effect. Refusal will leave the union to decide whether to withdraw its demand or seek an enforced settlement.;;;;;;;;;;;;;x
+FF87_griqua_west_WAR;Enforce the articles with the commandos.;;;;;;;;;;;;;x
+FF87_griqua_west_WITHDRAW;Recall the mission and leave the frontier at peace.;;;;;;;;;;;;;x
+FF87_9785300_TITLE;The Griqualand West Delegation Returns;;;;;;;;;;;;;x
+FF87_9785300_DESC;The western Griqua government controls the approaches to the Orange and the routes used by cattle traders. Its captains seek guarantees for land titles and existing debts. Union delegates propose a joint convention over customs and political authority, knowing that a demand for accession may turn the river crossings into a military frontier. The council has rejected the proposed articles. Our envoys have no authority to bind it further. The ministers can end the mission and recover the unused expedition reserve, or maintain the demand and send the commandos. No campaign begins until the union orders it.;;;;;;;;;;;;;x
+FF87_griqua_west_RECORD;Record the settlement and bring the accounts before the council.;;;;;;;;;;;;;x
+FF87_9785301_TITLE;The Griqualand West Frontier Settlement;;;;;;;;;;;;;x
+FF87_9785301_DESC;The delegates and district officers have returned to the common council. The frontier settlement must now be recorded in the public registers. Territory or authority actually secured by agreement or enforced peace will be administered under the charter. If the demand failed, the council will close the expedition account and leave any further proposal to a later session. Incorporation is followed by a period of district administration before the government may seek permanent provincial recognition.;;;;;;;;;;;;;x
+FF87_griqua_west_SIGNED;Publish the articles and receive the district accounts.;;;;;;;;;;;;;x
+FF87_9785302_TITLE;Articles Signed with Griqualand West;;;;;;;;;;;;;x
+FF87_9785302_DESC;The western Griqua government controls the approaches to the Orange and the routes used by cattle traders. Its captains seek guarantees for land titles and existing debts. Union delegates propose a joint convention over customs and political authority, knowing that a demand for accession may turn the river crossings into a military frontier. The signed articles have entered into effect. The ministry will publish the new boundary and administrative obligations. Local officers will submit their accounts to the union, while the legislature considers roads, courts and representation in the districts concerned.;;;;;;;;;;;;;x
+ff87_griqua_west_integrate_title;Complete the Griqualand West District Settlement;;;;;;;;;;;;;x
+ff87_griqua_west_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff87_griqua_west_integrate;Complete the Griqualand West District Settlement;;;;;;;;;;;;;x
+ff87_griqua_west_integration_wait;District Administration;;;;;;;;;;;;;x
+ff87_griqua_west_integration_wait_desc;The new districts are completing their accounts and representation before provincial recognition.;;;;;;;;;;;;;x
+ff87_griqua_west_retry;Frontier Negotiations Suspended;;;;;;;;;;;;;x
+ff87_griqua_west_retry_desc;The council has closed the previous mission and will reconsider the frontier after a period of recovery.;;;;;;;;;;;;;x
+ff87_kholokoe_title;Negotiate with Kholokoe;;;;;;;;;;;;;x
+ff87_kholokoe_desc;The Kholokoe communities occupy a contested frontier among farms, grazing grounds and mountain approaches. Their leaders have resisted the reduction of their authority to a clause in a Boer land register. The council must decide whether to negotiate protected local administration or demand incorporation, and the union must be prepared for a refusal.;;;;;;;;;;;;;x
+ff87_kholokoe;Negotiate with Kholokoe;;;;;;;;;;;;;x
+FF87_kholokoe_ACCEPT;Sign the articles and receive the union delegation.;;;;;;;;;;;;;x
+FF87_kholokoe_REFUSE;Preserve our independence and reject the articles.;;;;;;;;;;;;;x
+FF87_9785303_TITLE;The Kholokoe Frontier Council;;;;;;;;;;;;;x
+FF87_9785303_DESC;The Kholokoe communities occupy a contested frontier among farms, grazing grounds and mountain approaches. Their leaders have resisted the reduction of their authority to a clause in a Boer land register. The council must decide whether to negotiate protected local administration or demand incorporation, and the union must be prepared for a refusal. The delegates will return with the council's answer. Agreement will put the articles into effect. Refusal will leave the union to decide whether to withdraw its demand or seek an enforced settlement.;;;;;;;;;;;;;x
+FF87_kholokoe_WAR;Enforce the articles with the commandos.;;;;;;;;;;;;;x
+FF87_kholokoe_WITHDRAW;Recall the mission and leave the frontier at peace.;;;;;;;;;;;;;x
+FF87_9785304_TITLE;The Kholokoe Delegation Returns;;;;;;;;;;;;;x
+FF87_9785304_DESC;The Kholokoe communities occupy a contested frontier among farms, grazing grounds and mountain approaches. Their leaders have resisted the reduction of their authority to a clause in a Boer land register. The council must decide whether to negotiate protected local administration or demand incorporation, and the union must be prepared for a refusal. The council has rejected the proposed articles. Our envoys have no authority to bind it further. The ministers can end the mission and recover the unused expedition reserve, or maintain the demand and send the commandos. No campaign begins until the union orders it.;;;;;;;;;;;;;x
+FF87_kholokoe_RECORD;Record the settlement and bring the accounts before the council.;;;;;;;;;;;;;x
+FF87_9785305_TITLE;The Kholokoe Frontier Settlement;;;;;;;;;;;;;x
+FF87_9785305_DESC;The delegates and district officers have returned to the common council. The frontier settlement must now be recorded in the public registers. Territory or authority actually secured by agreement or enforced peace will be administered under the charter. If the demand failed, the council will close the expedition account and leave any further proposal to a later session. Incorporation is followed by a period of district administration before the government may seek permanent provincial recognition.;;;;;;;;;;;;;x
+FF87_kholokoe_SIGNED;Publish the articles and receive the district accounts.;;;;;;;;;;;;;x
+FF87_9785306_TITLE;Articles Signed with Kholokoe;;;;;;;;;;;;;x
+FF87_9785306_DESC;The Kholokoe communities occupy a contested frontier among farms, grazing grounds and mountain approaches. Their leaders have resisted the reduction of their authority to a clause in a Boer land register. The council must decide whether to negotiate protected local administration or demand incorporation, and the union must be prepared for a refusal. The signed articles have entered into effect. The ministry will publish the new boundary and administrative obligations. Local officers will submit their accounts to the union, while the legislature considers roads, courts and representation in the districts concerned.;;;;;;;;;;;;;x
+ff87_kholokoe_integrate_title;Complete the Kholokoe District Settlement;;;;;;;;;;;;;x
+ff87_kholokoe_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff87_kholokoe_integrate;Complete the Kholokoe District Settlement;;;;;;;;;;;;;x
+ff87_kholokoe_integration_wait;District Administration;;;;;;;;;;;;;x
+ff87_kholokoe_integration_wait_desc;The new districts are completing their accounts and representation before provincial recognition.;;;;;;;;;;;;;x
+ff87_kholokoe_retry;Frontier Negotiations Suspended;;;;;;;;;;;;;x
+ff87_kholokoe_retry_desc;The council has closed the previous mission and will reconsider the frontier after a period of recovery.;;;;;;;;;;;;;x
+ff87_transvaal_title;Negotiate with Transvaal;;;;;;;;;;;;;x
+ff87_transvaal_desc;A separate Transvaal administration has emerged among the northern burghers. The continued existence of two Boer legislatures raises disputes over commando service, debt and the authority of district officers. Envoys from the united government propose that the northern council join the same constitutional settlement, with representation and recognition of its lawful obligations.;;;;;;;;;;;;;x
+ff87_transvaal;Negotiate with Transvaal;;;;;;;;;;;;;x
+FF87_transvaal_ACCEPT;Sign the articles and receive the union delegation.;;;;;;;;;;;;;x
+FF87_transvaal_REFUSE;Preserve our independence and reject the articles.;;;;;;;;;;;;;x
+FF87_9785307_TITLE;One Charter North of the Vaal;;;;;;;;;;;;;x
+FF87_9785307_DESC;A separate Transvaal administration has emerged among the northern burghers. The continued existence of two Boer legislatures raises disputes over commando service, debt and the authority of district officers. Envoys from the united government propose that the northern council join the same constitutional settlement, with representation and recognition of its lawful obligations. The delegates will return with the council's answer. Agreement will put the articles into effect. Refusal will leave the union to decide whether to withdraw its demand or seek an enforced settlement.;;;;;;;;;;;;;x
+FF87_transvaal_WAR;Enforce the articles with the commandos.;;;;;;;;;;;;;x
+FF87_transvaal_WITHDRAW;Recall the mission and leave the frontier at peace.;;;;;;;;;;;;;x
+FF87_9785308_TITLE;The Transvaal Delegation Returns;;;;;;;;;;;;;x
+FF87_9785308_DESC;A separate Transvaal administration has emerged among the northern burghers. The continued existence of two Boer legislatures raises disputes over commando service, debt and the authority of district officers. Envoys from the united government propose that the northern council join the same constitutional settlement, with representation and recognition of its lawful obligations. The council has rejected the proposed articles. Our envoys have no authority to bind it further. The ministers can end the mission and recover the unused expedition reserve, or maintain the demand and send the commandos. No campaign begins until the union orders it.;;;;;;;;;;;;;x
+FF87_transvaal_RECORD;Record the settlement and bring the accounts before the council.;;;;;;;;;;;;;x
+FF87_9785309_TITLE;The Transvaal Frontier Settlement;;;;;;;;;;;;;x
+FF87_9785309_DESC;The delegates and district officers have returned to the common council. The frontier settlement must now be recorded in the public registers. Territory or authority actually secured by agreement or enforced peace will be administered under the charter. If the demand failed, the council will close the expedition account and leave any further proposal to a later session. Incorporation is followed by a period of district administration before the government may seek permanent provincial recognition.;;;;;;;;;;;;;x
+FF87_transvaal_SIGNED;Publish the articles and receive the district accounts.;;;;;;;;;;;;;x
+FF87_9785310_TITLE;Articles Signed with Transvaal;;;;;;;;;;;;;x
+FF87_9785310_DESC;A separate Transvaal administration has emerged among the northern burghers. The continued existence of two Boer legislatures raises disputes over commando service, debt and the authority of district officers. Envoys from the united government propose that the northern council join the same constitutional settlement, with representation and recognition of its lawful obligations. The signed articles have entered into effect. The ministry will publish the new boundary and administrative obligations. Local officers will submit their accounts to the union, while the legislature considers roads, courts and representation in the districts concerned.;;;;;;;;;;;;;x
+ff87_transvaal_integrate_title;Complete the Transvaal District Settlement;;;;;;;;;;;;;x
+ff87_transvaal_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff87_transvaal_integrate;Complete the Transvaal District Settlement;;;;;;;;;;;;;x
+ff87_transvaal_integration_wait;District Administration;;;;;;;;;;;;;x
+ff87_transvaal_integration_wait_desc;The new districts are completing their accounts and representation before provincial recognition.;;;;;;;;;;;;;x
+ff87_transvaal_retry;Frontier Negotiations Suspended;;;;;;;;;;;;;x
+ff87_transvaal_retry_desc;The council has closed the previous mission and will reconsider the frontier after a period of recovery.;;;;;;;;;;;;;x
+ff87_lydenburg_title;Negotiate with Lydenburg;;;;;;;;;;;;;x
+ff87_lydenburg_desc;The eastern burghers insist that distant officials cannot understand their mountain roads and frontier trading posts. Lydenburg's council wants a secure voice in the common government before it gives up separate authority. The union's delegates arrive with articles covering representation, local courts and the upkeep of the eastern roads.;;;;;;;;;;;;;x
+ff87_lydenburg;Negotiate with Lydenburg;;;;;;;;;;;;;x
+FF87_lydenburg_ACCEPT;Sign the articles and receive the union delegation.;;;;;;;;;;;;;x
+FF87_lydenburg_REFUSE;Preserve our independence and reject the articles.;;;;;;;;;;;;;x
+FF87_9785311_TITLE;The Lydenburg Articles;;;;;;;;;;;;;x
+FF87_9785311_DESC;The eastern burghers insist that distant officials cannot understand their mountain roads and frontier trading posts. Lydenburg's council wants a secure voice in the common government before it gives up separate authority. The union's delegates arrive with articles covering representation, local courts and the upkeep of the eastern roads. The delegates will return with the council's answer. Agreement will put the articles into effect. Refusal will leave the union to decide whether to withdraw its demand or seek an enforced settlement.;;;;;;;;;;;;;x
+FF87_lydenburg_WAR;Enforce the articles with the commandos.;;;;;;;;;;;;;x
+FF87_lydenburg_WITHDRAW;Recall the mission and leave the frontier at peace.;;;;;;;;;;;;;x
+FF87_9785312_TITLE;The Lydenburg Delegation Returns;;;;;;;;;;;;;x
+FF87_9785312_DESC;The eastern burghers insist that distant officials cannot understand their mountain roads and frontier trading posts. Lydenburg's council wants a secure voice in the common government before it gives up separate authority. The union's delegates arrive with articles covering representation, local courts and the upkeep of the eastern roads. The council has rejected the proposed articles. Our envoys have no authority to bind it further. The ministers can end the mission and recover the unused expedition reserve, or maintain the demand and send the commandos. No campaign begins until the union orders it.;;;;;;;;;;;;;x
+FF87_lydenburg_RECORD;Record the settlement and bring the accounts before the council.;;;;;;;;;;;;;x
+FF87_9785313_TITLE;The Lydenburg Frontier Settlement;;;;;;;;;;;;;x
+FF87_9785313_DESC;The delegates and district officers have returned to the common council. The frontier settlement must now be recorded in the public registers. Territory or authority actually secured by agreement or enforced peace will be administered under the charter. If the demand failed, the council will close the expedition account and leave any further proposal to a later session. Incorporation is followed by a period of district administration before the government may seek permanent provincial recognition.;;;;;;;;;;;;;x
+FF87_lydenburg_SIGNED;Publish the articles and receive the district accounts.;;;;;;;;;;;;;x
+FF87_9785314_TITLE;Articles Signed with Lydenburg;;;;;;;;;;;;;x
+FF87_9785314_DESC;The eastern burghers insist that distant officials cannot understand their mountain roads and frontier trading posts. Lydenburg's council wants a secure voice in the common government before it gives up separate authority. The union's delegates arrive with articles covering representation, local courts and the upkeep of the eastern roads. The signed articles have entered into effect. The ministry will publish the new boundary and administrative obligations. Local officers will submit their accounts to the union, while the legislature considers roads, courts and representation in the districts concerned.;;;;;;;;;;;;;x
+ff87_lydenburg_integrate_title;Complete the Lydenburg District Settlement;;;;;;;;;;;;;x
+ff87_lydenburg_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff87_lydenburg_integrate;Complete the Lydenburg District Settlement;;;;;;;;;;;;;x
+ff87_lydenburg_integration_wait;District Administration;;;;;;;;;;;;;x
+ff87_lydenburg_integration_wait_desc;The new districts are completing their accounts and representation before provincial recognition.;;;;;;;;;;;;;x
+ff87_lydenburg_retry;Frontier Negotiations Suspended;;;;;;;;;;;;;x
+ff87_lydenburg_retry_desc;The council has closed the previous mission and will reconsider the frontier after a period of recovery.;;;;;;;;;;;;;x
+ff87_zoutpansberg_title;Negotiate with Zoutpansberg;;;;;;;;;;;;;x
+ff87_zoutpansberg_desc;The northern district government lives with long supply routes and a difficult frontier. Its burghers fear being taxed for southern projects while their own roads and commandos lack support. The union offers a place in its common institutions, but northern officers will demand a clear account of the benefits and obligations of accession.;;;;;;;;;;;;;x
+ff87_zoutpansberg;Negotiate with Zoutpansberg;;;;;;;;;;;;;x
+FF87_zoutpansberg_ACCEPT;Sign the articles and receive the union delegation.;;;;;;;;;;;;;x
+FF87_zoutpansberg_REFUSE;Preserve our independence and reject the articles.;;;;;;;;;;;;;x
+FF87_9785315_TITLE;The Northern Districts Convention;;;;;;;;;;;;;x
+FF87_9785315_DESC;The northern district government lives with long supply routes and a difficult frontier. Its burghers fear being taxed for southern projects while their own roads and commandos lack support. The union offers a place in its common institutions, but northern officers will demand a clear account of the benefits and obligations of accession. The delegates will return with the council's answer. Agreement will put the articles into effect. Refusal will leave the union to decide whether to withdraw its demand or seek an enforced settlement.;;;;;;;;;;;;;x
+FF87_zoutpansberg_WAR;Enforce the articles with the commandos.;;;;;;;;;;;;;x
+FF87_zoutpansberg_WITHDRAW;Recall the mission and leave the frontier at peace.;;;;;;;;;;;;;x
+FF87_9785316_TITLE;The Zoutpansberg Delegation Returns;;;;;;;;;;;;;x
+FF87_9785316_DESC;The northern district government lives with long supply routes and a difficult frontier. Its burghers fear being taxed for southern projects while their own roads and commandos lack support. The union offers a place in its common institutions, but northern officers will demand a clear account of the benefits and obligations of accession. The council has rejected the proposed articles. Our envoys have no authority to bind it further. The ministers can end the mission and recover the unused expedition reserve, or maintain the demand and send the commandos. No campaign begins until the union orders it.;;;;;;;;;;;;;x
+FF87_zoutpansberg_RECORD;Record the settlement and bring the accounts before the council.;;;;;;;;;;;;;x
+FF87_9785317_TITLE;The Zoutpansberg Frontier Settlement;;;;;;;;;;;;;x
+FF87_9785317_DESC;The delegates and district officers have returned to the common council. The frontier settlement must now be recorded in the public registers. Territory or authority actually secured by agreement or enforced peace will be administered under the charter. If the demand failed, the council will close the expedition account and leave any further proposal to a later session. Incorporation is followed by a period of district administration before the government may seek permanent provincial recognition.;;;;;;;;;;;;;x
+FF87_zoutpansberg_SIGNED;Publish the articles and receive the district accounts.;;;;;;;;;;;;;x
+FF87_9785318_TITLE;Articles Signed with Zoutpansberg;;;;;;;;;;;;;x
+FF87_9785318_DESC;The northern district government lives with long supply routes and a difficult frontier. Its burghers fear being taxed for southern projects while their own roads and commandos lack support. The union offers a place in its common institutions, but northern officers will demand a clear account of the benefits and obligations of accession. The signed articles have entered into effect. The ministry will publish the new boundary and administrative obligations. Local officers will submit their accounts to the union, while the legislature considers roads, courts and representation in the districts concerned.;;;;;;;;;;;;;x
+ff87_zoutpansberg_integrate_title;Complete the Zoutpansberg District Settlement;;;;;;;;;;;;;x
+ff87_zoutpansberg_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff87_zoutpansberg_integrate;Complete the Zoutpansberg District Settlement;;;;;;;;;;;;;x
+ff87_zoutpansberg_integration_wait;District Administration;;;;;;;;;;;;;x
+ff87_zoutpansberg_integration_wait_desc;The new districts are completing their accounts and representation before provincial recognition.;;;;;;;;;;;;;x
+ff87_zoutpansberg_retry;Frontier Negotiations Suspended;;;;;;;;;;;;;x
+ff87_zoutpansberg_retry_desc;The council has closed the previous mission and will reconsider the frontier after a period of recovery.;;;;;;;;;;;;;x
+ff87_griqua_east_title;Negotiate with Griqualand East;;;;;;;;;;;;;x
+ff87_griqua_east_desc;The eastern Griqua administration rests on migration agreements and the authority of its captains. Union delegates seek a compact over the mountain approaches and coastal trade. Existing communities will expect their recognised land titles to survive any settlement, and the captains may prefer independence to either accession or a protectorate.;;;;;;;;;;;;;x
+ff87_griqua_east;Negotiate with Griqualand East;;;;;;;;;;;;;x
+FF87_griqua_east_ACCEPT;Sign the articles and receive the union delegation.;;;;;;;;;;;;;x
+FF87_griqua_east_REFUSE;Preserve our independence and reject the articles.;;;;;;;;;;;;;x
+FF87_9785319_TITLE;The Eastern Griqua Delegation;;;;;;;;;;;;;x
+FF87_9785319_DESC;The eastern Griqua administration rests on migration agreements and the authority of its captains. Union delegates seek a compact over the mountain approaches and coastal trade. Existing communities will expect their recognised land titles to survive any settlement, and the captains may prefer independence to either accession or a protectorate. The delegates will return with the council's answer. Agreement will put the articles into effect. Refusal will leave the union to decide whether to withdraw its demand or seek an enforced settlement.;;;;;;;;;;;;;x
+FF87_griqua_east_WAR;Enforce the articles with the commandos.;;;;;;;;;;;;;x
+FF87_griqua_east_WITHDRAW;Recall the mission and leave the frontier at peace.;;;;;;;;;;;;;x
+FF87_9785320_TITLE;The Griqualand East Delegation Returns;;;;;;;;;;;;;x
+FF87_9785320_DESC;The eastern Griqua administration rests on migration agreements and the authority of its captains. Union delegates seek a compact over the mountain approaches and coastal trade. Existing communities will expect their recognised land titles to survive any settlement, and the captains may prefer independence to either accession or a protectorate. The council has rejected the proposed articles. Our envoys have no authority to bind it further. The ministers can end the mission and recover the unused expedition reserve, or maintain the demand and send the commandos. No campaign begins until the union orders it.;;;;;;;;;;;;;x
+FF87_griqua_east_RECORD;Record the settlement and bring the accounts before the council.;;;;;;;;;;;;;x
+FF87_9785321_TITLE;The Griqualand East Frontier Settlement;;;;;;;;;;;;;x
+FF87_9785321_DESC;The delegates and district officers have returned to the common council. The frontier settlement must now be recorded in the public registers. Territory or authority actually secured by agreement or enforced peace will be administered under the charter. If the demand failed, the council will close the expedition account and leave any further proposal to a later session. Incorporation is followed by a period of district administration before the government may seek permanent provincial recognition.;;;;;;;;;;;;;x
+FF87_griqua_east_SIGNED;Publish the articles and receive the district accounts.;;;;;;;;;;;;;x
+FF87_9785322_TITLE;Articles Signed with Griqualand East;;;;;;;;;;;;;x
+FF87_9785322_DESC;The eastern Griqua administration rests on migration agreements and the authority of its captains. Union delegates seek a compact over the mountain approaches and coastal trade. Existing communities will expect their recognised land titles to survive any settlement, and the captains may prefer independence to either accession or a protectorate. The signed articles have entered into effect. The ministry will publish the new boundary and administrative obligations. Local officers will submit their accounts to the union, while the legislature considers roads, courts and representation in the districts concerned.;;;;;;;;;;;;;x
+ff87_griqua_east_integrate_title;Complete the Griqualand East District Settlement;;;;;;;;;;;;;x
+ff87_griqua_east_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff87_griqua_east_integrate;Complete the Griqualand East District Settlement;;;;;;;;;;;;;x
+ff87_griqua_east_integration_wait;District Administration;;;;;;;;;;;;;x
+ff87_griqua_east_integration_wait_desc;The new districts are completing their accounts and representation before provincial recognition.;;;;;;;;;;;;;x
+ff87_griqua_east_retry;Frontier Negotiations Suspended;;;;;;;;;;;;;x
+ff87_griqua_east_retry_desc;The council has closed the previous mission and will reconsider the frontier after a period of recovery.;;;;;;;;;;;;;x
+ff87_basotho_title;Negotiate with Basotho;;;;;;;;;;;;;x
+ff87_basotho_desc;Basotho strongholds command the mountain approaches and shelter a government that has survived repeated frontier pressures. The union seeks a permanent settlement before outside protection closes the question. A protected association would leave the mountain council in place, while a demand for accession would challenge its sovereignty. A refused demand may lead to a costly mountain campaign rather than a quick march.;;;;;;;;;;;;;x
+ff87_basotho;Negotiate with Basotho;;;;;;;;;;;;;x
+FF87_basotho_ACCEPT;Sign the articles and receive the union delegation.;;;;;;;;;;;;;x
+FF87_basotho_REFUSE;Preserve our independence and reject the articles.;;;;;;;;;;;;;x
+FF87_9785323_TITLE;The Mountain Frontier Conference;;;;;;;;;;;;;x
+FF87_9785323_DESC;Basotho strongholds command the mountain approaches and shelter a government that has survived repeated frontier pressures. The union seeks a permanent settlement before outside protection closes the question. A protected association would leave the mountain council in place, while a demand for accession would challenge its sovereignty. A refused demand may lead to a costly mountain campaign rather than a quick march. The delegates will return with the council's answer. Agreement will put the articles into effect. Refusal will leave the union to decide whether to withdraw its demand or seek an enforced settlement.;;;;;;;;;;;;;x
+FF87_basotho_WAR;Enforce the articles with the commandos.;;;;;;;;;;;;;x
+FF87_basotho_WITHDRAW;Recall the mission and leave the frontier at peace.;;;;;;;;;;;;;x
+FF87_9785324_TITLE;The Basotho Delegation Returns;;;;;;;;;;;;;x
+FF87_9785324_DESC;Basotho strongholds command the mountain approaches and shelter a government that has survived repeated frontier pressures. The union seeks a permanent settlement before outside protection closes the question. A protected association would leave the mountain council in place, while a demand for accession would challenge its sovereignty. A refused demand may lead to a costly mountain campaign rather than a quick march. The council has rejected the proposed articles. Our envoys have no authority to bind it further. The ministers can end the mission and recover the unused expedition reserve, or maintain the demand and send the commandos. No campaign begins until the union orders it.;;;;;;;;;;;;;x
+FF87_basotho_RECORD;Record the settlement and bring the accounts before the council.;;;;;;;;;;;;;x
+FF87_9785325_TITLE;The Basotho Frontier Settlement;;;;;;;;;;;;;x
+FF87_9785325_DESC;The delegates and district officers have returned to the common council. The frontier settlement must now be recorded in the public registers. Territory or authority actually secured by agreement or enforced peace will be administered under the charter. If the demand failed, the council will close the expedition account and leave any further proposal to a later session. Incorporation is followed by a period of district administration before the government may seek permanent provincial recognition.;;;;;;;;;;;;;x
+FF87_basotho_SIGNED;Publish the articles and receive the district accounts.;;;;;;;;;;;;;x
+FF87_9785326_TITLE;Articles Signed with Basotho;;;;;;;;;;;;;x
+FF87_9785326_DESC;Basotho strongholds command the mountain approaches and shelter a government that has survived repeated frontier pressures. The union seeks a permanent settlement before outside protection closes the question. A protected association would leave the mountain council in place, while a demand for accession would challenge its sovereignty. A refused demand may lead to a costly mountain campaign rather than a quick march. The signed articles have entered into effect. The ministry will publish the new boundary and administrative obligations. Local officers will submit their accounts to the union, while the legislature considers roads, courts and representation in the districts concerned.;;;;;;;;;;;;;x
+ff87_basotho_integrate_title;Complete the Basotho District Settlement;;;;;;;;;;;;;x
+ff87_basotho_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff87_basotho_integrate;Complete the Basotho District Settlement;;;;;;;;;;;;;x
+ff87_basotho_integration_wait;District Administration;;;;;;;;;;;;;x
+ff87_basotho_integration_wait_desc;The new districts are completing their accounts and representation before provincial recognition.;;;;;;;;;;;;;x
+ff87_basotho_retry;Frontier Negotiations Suspended;;;;;;;;;;;;;x
+ff87_basotho_retry_desc;The council has closed the previous mission and will reconsider the frontier after a period of recovery.;;;;;;;;;;;;;x
+ff87_swazi_title;Negotiate with Swaziland;;;;;;;;;;;;;x
+ff87_swazi_desc;The Swazi council has balanced the interests of neighbouring rulers and traders while defending its own institutions. The union now presents a charter for either accession or protected association. The councillors recognise the united government's strength but dispute its right to decide their future. Ministers will have to choose whether an unfavourable answer ends the mission or begins a campaign.;;;;;;;;;;;;;x
+ff87_swazi;Negotiate with Swaziland;;;;;;;;;;;;;x
+FF87_swazi_ACCEPT;Sign the articles and receive the union delegation.;;;;;;;;;;;;;x
+FF87_swazi_REFUSE;Preserve our independence and reject the articles.;;;;;;;;;;;;;x
+FF87_9785327_TITLE;The Swazi Council and the Union;;;;;;;;;;;;;x
+FF87_9785327_DESC;The Swazi council has balanced the interests of neighbouring rulers and traders while defending its own institutions. The union now presents a charter for either accession or protected association. The councillors recognise the united government's strength but dispute its right to decide their future. Ministers will have to choose whether an unfavourable answer ends the mission or begins a campaign. The delegates will return with the council's answer. Agreement will put the articles into effect. Refusal will leave the union to decide whether to withdraw its demand or seek an enforced settlement.;;;;;;;;;;;;;x
+FF87_swazi_WAR;Enforce the articles with the commandos.;;;;;;;;;;;;;x
+FF87_swazi_WITHDRAW;Recall the mission and leave the frontier at peace.;;;;;;;;;;;;;x
+FF87_9785328_TITLE;The Swaziland Delegation Returns;;;;;;;;;;;;;x
+FF87_9785328_DESC;The Swazi council has balanced the interests of neighbouring rulers and traders while defending its own institutions. The union now presents a charter for either accession or protected association. The councillors recognise the united government's strength but dispute its right to decide their future. Ministers will have to choose whether an unfavourable answer ends the mission or begins a campaign. The council has rejected the proposed articles. Our envoys have no authority to bind it further. The ministers can end the mission and recover the unused expedition reserve, or maintain the demand and send the commandos. No campaign begins until the union orders it.;;;;;;;;;;;;;x
+FF87_swazi_RECORD;Record the settlement and bring the accounts before the council.;;;;;;;;;;;;;x
+FF87_9785329_TITLE;The Swaziland Frontier Settlement;;;;;;;;;;;;;x
+FF87_9785329_DESC;The delegates and district officers have returned to the common council. The frontier settlement must now be recorded in the public registers. Territory or authority actually secured by agreement or enforced peace will be administered under the charter. If the demand failed, the council will close the expedition account and leave any further proposal to a later session. Incorporation is followed by a period of district administration before the government may seek permanent provincial recognition.;;;;;;;;;;;;;x
+FF87_swazi_SIGNED;Publish the articles and receive the district accounts.;;;;;;;;;;;;;x
+FF87_9785330_TITLE;Articles Signed with Swaziland;;;;;;;;;;;;;x
+FF87_9785330_DESC;The Swazi council has balanced the interests of neighbouring rulers and traders while defending its own institutions. The union now presents a charter for either accession or protected association. The councillors recognise the united government's strength but dispute its right to decide their future. Ministers will have to choose whether an unfavourable answer ends the mission or begins a campaign. The signed articles have entered into effect. The ministry will publish the new boundary and administrative obligations. Local officers will submit their accounts to the union, while the legislature considers roads, courts and representation in the districts concerned.;;;;;;;;;;;;;x
+ff87_swazi_integrate_title;Complete the Swaziland District Settlement;;;;;;;;;;;;;x
+ff87_swazi_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff87_swazi_integrate;Complete the Swaziland District Settlement;;;;;;;;;;;;;x
+ff87_swazi_integration_wait;District Administration;;;;;;;;;;;;;x
+ff87_swazi_integration_wait_desc;The new districts are completing their accounts and representation before provincial recognition.;;;;;;;;;;;;;x
+ff87_swazi_retry;Frontier Negotiations Suspended;;;;;;;;;;;;;x
+ff87_swazi_retry_desc;The council has closed the previous mission and will reconsider the frontier after a period of recovery.;;;;;;;;;;;;;x
+ff87_zulu_title;Negotiate with Zululand;;;;;;;;;;;;;x
+ff87_zulu_desc;The Zulu monarchy remains a substantial power on the eastern frontier. Cattle movements, trading routes and the security of the border have become subjects of repeated complaints. The union proposes a binding political settlement, but the royal council has little reason to surrender its independence merely because the Boer districts have agreed on a constitution. An expedition would face organised resistance and the attention of Britain.;;;;;;;;;;;;;x
+ff87_zulu;Negotiate with Zululand;;;;;;;;;;;;;x
+FF87_zulu_ACCEPT;Sign the articles and receive the union delegation.;;;;;;;;;;;;;x
+FF87_zulu_REFUSE;Preserve our independence and reject the articles.;;;;;;;;;;;;;x
+FF87_9785331_TITLE;The Zululand Frontier Mission;;;;;;;;;;;;;x
+FF87_9785331_DESC;The Zulu monarchy remains a substantial power on the eastern frontier. Cattle movements, trading routes and the security of the border have become subjects of repeated complaints. The union proposes a binding political settlement, but the royal council has little reason to surrender its independence merely because the Boer districts have agreed on a constitution. An expedition would face organised resistance and the attention of Britain. The delegates will return with the council's answer. Agreement will put the articles into effect. Refusal will leave the union to decide whether to withdraw its demand or seek an enforced settlement.;;;;;;;;;;;;;x
+FF87_zulu_WAR;Enforce the articles with the commandos.;;;;;;;;;;;;;x
+FF87_zulu_WITHDRAW;Recall the mission and leave the frontier at peace.;;;;;;;;;;;;;x
+FF87_9785332_TITLE;The Zululand Delegation Returns;;;;;;;;;;;;;x
+FF87_9785332_DESC;The Zulu monarchy remains a substantial power on the eastern frontier. Cattle movements, trading routes and the security of the border have become subjects of repeated complaints. The union proposes a binding political settlement, but the royal council has little reason to surrender its independence merely because the Boer districts have agreed on a constitution. An expedition would face organised resistance and the attention of Britain. The council has rejected the proposed articles. Our envoys have no authority to bind it further. The ministers can end the mission and recover the unused expedition reserve, or maintain the demand and send the commandos. No campaign begins until the union orders it.;;;;;;;;;;;;;x
+FF87_zulu_RECORD;Record the settlement and bring the accounts before the council.;;;;;;;;;;;;;x
+FF87_9785333_TITLE;The Zululand Frontier Settlement;;;;;;;;;;;;;x
+FF87_9785333_DESC;The delegates and district officers have returned to the common council. The frontier settlement must now be recorded in the public registers. Territory or authority actually secured by agreement or enforced peace will be administered under the charter. If the demand failed, the council will close the expedition account and leave any further proposal to a later session. Incorporation is followed by a period of district administration before the government may seek permanent provincial recognition.;;;;;;;;;;;;;x
+FF87_zulu_SIGNED;Publish the articles and receive the district accounts.;;;;;;;;;;;;;x
+FF87_9785334_TITLE;Articles Signed with Zululand;;;;;;;;;;;;;x
+FF87_9785334_DESC;The Zulu monarchy remains a substantial power on the eastern frontier. Cattle movements, trading routes and the security of the border have become subjects of repeated complaints. The union proposes a binding political settlement, but the royal council has little reason to surrender its independence merely because the Boer districts have agreed on a constitution. An expedition would face organised resistance and the attention of Britain. The signed articles have entered into effect. The ministry will publish the new boundary and administrative obligations. Local officers will submit their accounts to the union, while the legislature considers roads, courts and representation in the districts concerned.;;;;;;;;;;;;;x
+ff87_zulu_integrate_title;Complete the Zululand District Settlement;;;;;;;;;;;;;x
+ff87_zulu_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff87_zulu_integrate;Complete the Zululand District Settlement;;;;;;;;;;;;;x
+ff87_zulu_integration_wait;District Administration;;;;;;;;;;;;;x
+ff87_zulu_integration_wait_desc;The new districts are completing their accounts and representation before provincial recognition.;;;;;;;;;;;;;x
+ff87_zulu_retry;Frontier Negotiations Suspended;;;;;;;;;;;;;x
+ff87_zulu_retry_desc;The council has closed the previous mission and will reconsider the frontier after a period of recovery.;;;;;;;;;;;;;x
+ff87_gaza_title;Negotiate with Gaza;;;;;;;;;;;;;x
+ff87_gaza_desc;The Gaza government controls districts along the routes towards the southern Mozambique coast. Union merchants want secure access for wagons and produce without relying entirely on foreign port officials. The envoys propose the transfer of the southern corridor under a defined boundary agreement. The demand concerns the southern districts and leaves the northern kingdom and Portuguese possessions outside the proposed settlement.;;;;;;;;;;;;;x
+ff87_gaza;Negotiate with Gaza;;;;;;;;;;;;;x
+FF87_gaza_ACCEPT;Sign the articles and receive the union delegation.;;;;;;;;;;;;;x
+FF87_gaza_REFUSE;Preserve our independence and reject the articles.;;;;;;;;;;;;;x
+FF87_9785335_TITLE;A Passage to the Southern Mozambique Coast;;;;;;;;;;;;;x
+FF87_9785335_DESC;The Gaza government controls districts along the routes towards the southern Mozambique coast. Union merchants want secure access for wagons and produce without relying entirely on foreign port officials. The envoys propose the transfer of the southern corridor under a defined boundary agreement. The demand concerns the southern districts and leaves the northern kingdom and Portuguese possessions outside the proposed settlement. The delegates will return with the council's answer. Agreement will put the articles into effect. Refusal will leave the union to decide whether to withdraw its demand or seek an enforced settlement.;;;;;;;;;;;;;x
+FF87_gaza_WAR;Enforce the articles with the commandos.;;;;;;;;;;;;;x
+FF87_gaza_WITHDRAW;Recall the mission and leave the frontier at peace.;;;;;;;;;;;;;x
+FF87_9785336_TITLE;The Gaza Delegation Returns;;;;;;;;;;;;;x
+FF87_9785336_DESC;The Gaza government controls districts along the routes towards the southern Mozambique coast. Union merchants want secure access for wagons and produce without relying entirely on foreign port officials. The envoys propose the transfer of the southern corridor under a defined boundary agreement. The demand concerns the southern districts and leaves the northern kingdom and Portuguese possessions outside the proposed settlement. The council has rejected the proposed articles. Our envoys have no authority to bind it further. The ministers can end the mission and recover the unused expedition reserve, or maintain the demand and send the commandos. No campaign begins until the union orders it.;;;;;;;;;;;;;x
+FF87_gaza_RECORD;Record the settlement and bring the accounts before the council.;;;;;;;;;;;;;x
+FF87_9785337_TITLE;The Gaza Frontier Settlement;;;;;;;;;;;;;x
+FF87_9785337_DESC;The delegates and district officers have returned to the common council. The frontier settlement must now be recorded in the public registers. Territory or authority actually secured by agreement or enforced peace will be administered under the charter. If the demand failed, the council will close the expedition account and leave any further proposal to a later session. Incorporation is followed by a period of district administration before the government may seek permanent provincial recognition.;;;;;;;;;;;;;x
+FF87_gaza_SIGNED;Publish the articles and receive the district accounts.;;;;;;;;;;;;;x
+FF87_9785338_TITLE;Articles Signed with Gaza;;;;;;;;;;;;;x
+FF87_9785338_DESC;The Gaza government controls districts along the routes towards the southern Mozambique coast. Union merchants want secure access for wagons and produce without relying entirely on foreign port officials. The envoys propose the transfer of the southern corridor under a defined boundary agreement. The demand concerns the southern districts and leaves the northern kingdom and Portuguese possessions outside the proposed settlement. The signed articles have entered into effect. The ministry will publish the new boundary and administrative obligations. Local officers will submit their accounts to the union, while the legislature considers roads, courts and representation in the districts concerned.;;;;;;;;;;;;;x
+ff87_gaza_integrate_title;Complete the Gaza District Settlement;;;;;;;;;;;;;x
+ff87_gaza_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff87_gaza_integrate;Complete the Gaza District Settlement;;;;;;;;;;;;;x
+ff87_gaza_integration_wait;District Administration;;;;;;;;;;;;;x
+ff87_gaza_integration_wait_desc;The new districts are completing their accounts and representation before provincial recognition.;;;;;;;;;;;;;x
+ff87_gaza_retry;Frontier Negotiations Suspended;;;;;;;;;;;;;x
+ff87_gaza_retry_desc;The council has closed the previous mission and will reconsider the frontier after a period of recovery.;;;;;;;;;;;;;x
+ff87_shangaan_title;Negotiate with Shangaan;;;;;;;;;;;;;x
+ff87_shangaan_desc;The Shangaan government has inherited a frontier divided by rival claims and uncertain trading arrangements. The union seeks a settled route through the southern districts to the Mozambique coast. Its proposed convention concerns the corridor alone, with the northern administration left intact. Refusal would force the union to decide whether commercial access justifies another frontier war.;;;;;;;;;;;;;x
+ff87_shangaan;Negotiate with Shangaan;;;;;;;;;;;;;x
+FF87_shangaan_ACCEPT;Sign the articles and receive the union delegation.;;;;;;;;;;;;;x
+FF87_shangaan_REFUSE;Preserve our independence and reject the articles.;;;;;;;;;;;;;x
+FF87_9785339_TITLE;The Southern Corridor and the Shangaan Council;;;;;;;;;;;;;x
+FF87_9785339_DESC;The Shangaan government has inherited a frontier divided by rival claims and uncertain trading arrangements. The union seeks a settled route through the southern districts to the Mozambique coast. Its proposed convention concerns the corridor alone, with the northern administration left intact. Refusal would force the union to decide whether commercial access justifies another frontier war. The delegates will return with the council's answer. Agreement will put the articles into effect. Refusal will leave the union to decide whether to withdraw its demand or seek an enforced settlement.;;;;;;;;;;;;;x
+FF87_shangaan_WAR;Enforce the articles with the commandos.;;;;;;;;;;;;;x
+FF87_shangaan_WITHDRAW;Recall the mission and leave the frontier at peace.;;;;;;;;;;;;;x
+FF87_9785340_TITLE;The Shangaan Delegation Returns;;;;;;;;;;;;;x
+FF87_9785340_DESC;The Shangaan government has inherited a frontier divided by rival claims and uncertain trading arrangements. The union seeks a settled route through the southern districts to the Mozambique coast. Its proposed convention concerns the corridor alone, with the northern administration left intact. Refusal would force the union to decide whether commercial access justifies another frontier war. The council has rejected the proposed articles. Our envoys have no authority to bind it further. The ministers can end the mission and recover the unused expedition reserve, or maintain the demand and send the commandos. No campaign begins until the union orders it.;;;;;;;;;;;;;x
+FF87_shangaan_RECORD;Record the settlement and bring the accounts before the council.;;;;;;;;;;;;;x
+FF87_9785341_TITLE;The Shangaan Frontier Settlement;;;;;;;;;;;;;x
+FF87_9785341_DESC;The delegates and district officers have returned to the common council. The frontier settlement must now be recorded in the public registers. Territory or authority actually secured by agreement or enforced peace will be administered under the charter. If the demand failed, the council will close the expedition account and leave any further proposal to a later session. Incorporation is followed by a period of district administration before the government may seek permanent provincial recognition.;;;;;;;;;;;;;x
+FF87_shangaan_SIGNED;Publish the articles and receive the district accounts.;;;;;;;;;;;;;x
+FF87_9785342_TITLE;Articles Signed with Shangaan;;;;;;;;;;;;;x
+FF87_9785342_DESC;The Shangaan government has inherited a frontier divided by rival claims and uncertain trading arrangements. The union seeks a settled route through the southern districts to the Mozambique coast. Its proposed convention concerns the corridor alone, with the northern administration left intact. Refusal would force the union to decide whether commercial access justifies another frontier war. The signed articles have entered into effect. The ministry will publish the new boundary and administrative obligations. Local officers will submit their accounts to the union, while the legislature considers roads, courts and representation in the districts concerned.;;;;;;;;;;;;;x
+ff87_shangaan_integrate_title;Complete the Shangaan District Settlement;;;;;;;;;;;;;x
+ff87_shangaan_integrate_desc;After years of district accounts and frontier administration, the council can fund courts, survey offices and representation for the acquired districts. Only land already owned by the union will receive provincial recognition. Protected governments remain separate until they agree to accession.;;;;;;;;;;;;;x
+ff87_shangaan_integrate;Complete the Shangaan District Settlement;;;;;;;;;;;;;x
+ff87_shangaan_integration_wait;District Administration;;;;;;;;;;;;;x
+ff87_shangaan_integration_wait_desc;The new districts are completing their accounts and representation before provincial recognition.;;;;;;;;;;;;;x
+ff87_shangaan_retry;Frontier Negotiations Suspended;;;;;;;;;;;;;x
+ff87_shangaan_retry_desc;The council has closed the previous mission and will reconsider the frontier after a period of recovery.;;;;;;;;;;;;;x
+ff87_accession_griqua_west_title;Invite Griqualand West to Full Accession;;;;;;;;;;;;;x
+ff87_accession_griqua_west_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff87_accession_griqua_west;Invite Griqualand West to Full Accession;;;;;;;;;;;;;x
+FF87_ACCESS_griqua_west;Accept seats in the common legislature.;;;;;;;;;;;;;x
+FF87_REMAIN_griqua_west;Keep our council under the existing protection treaty.;;;;;;;;;;;;;x
+FF87_9785388_TITLE;Accession to the United Legislature;;;;;;;;;;;;;x
+FF87_9785388_DESC;The union has offered our protected council seats in its common legislature. Accession would end our separate diplomatic administration and carry local titles and obligations into the united government. Remaining under protection keeps the existing council and its treaty obligations. The delegates ask for an answer before new survey and administrative funds are committed.;;;;;;;;;;;;;x
+ff87_accession_kholokoe_title;Invite Kholokoe to Full Accession;;;;;;;;;;;;;x
+ff87_accession_kholokoe_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff87_accession_kholokoe;Invite Kholokoe to Full Accession;;;;;;;;;;;;;x
+FF87_ACCESS_kholokoe;Accept seats in the common legislature.;;;;;;;;;;;;;x
+FF87_REMAIN_kholokoe;Keep our council under the existing protection treaty.;;;;;;;;;;;;;x
+FF87_9785389_TITLE;Accession to the United Legislature;;;;;;;;;;;;;x
+FF87_9785389_DESC;The union has offered our protected council seats in its common legislature. Accession would end our separate diplomatic administration and carry local titles and obligations into the united government. Remaining under protection keeps the existing council and its treaty obligations. The delegates ask for an answer before new survey and administrative funds are committed.;;;;;;;;;;;;;x
+ff87_accession_transvaal_title;Invite Transvaal to Full Accession;;;;;;;;;;;;;x
+ff87_accession_transvaal_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff87_accession_transvaal;Invite Transvaal to Full Accession;;;;;;;;;;;;;x
+FF87_ACCESS_transvaal;Accept seats in the common legislature.;;;;;;;;;;;;;x
+FF87_REMAIN_transvaal;Keep our council under the existing protection treaty.;;;;;;;;;;;;;x
+FF87_9785390_TITLE;Accession to the United Legislature;;;;;;;;;;;;;x
+FF87_9785390_DESC;The union has offered our protected council seats in its common legislature. Accession would end our separate diplomatic administration and carry local titles and obligations into the united government. Remaining under protection keeps the existing council and its treaty obligations. The delegates ask for an answer before new survey and administrative funds are committed.;;;;;;;;;;;;;x
+ff87_accession_lydenburg_title;Invite Lydenburg to Full Accession;;;;;;;;;;;;;x
+ff87_accession_lydenburg_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff87_accession_lydenburg;Invite Lydenburg to Full Accession;;;;;;;;;;;;;x
+FF87_ACCESS_lydenburg;Accept seats in the common legislature.;;;;;;;;;;;;;x
+FF87_REMAIN_lydenburg;Keep our council under the existing protection treaty.;;;;;;;;;;;;;x
+FF87_9785391_TITLE;Accession to the United Legislature;;;;;;;;;;;;;x
+FF87_9785391_DESC;The union has offered our protected council seats in its common legislature. Accession would end our separate diplomatic administration and carry local titles and obligations into the united government. Remaining under protection keeps the existing council and its treaty obligations. The delegates ask for an answer before new survey and administrative funds are committed.;;;;;;;;;;;;;x
+ff87_accession_zoutpansberg_title;Invite Zoutpansberg to Full Accession;;;;;;;;;;;;;x
+ff87_accession_zoutpansberg_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff87_accession_zoutpansberg;Invite Zoutpansberg to Full Accession;;;;;;;;;;;;;x
+FF87_ACCESS_zoutpansberg;Accept seats in the common legislature.;;;;;;;;;;;;;x
+FF87_REMAIN_zoutpansberg;Keep our council under the existing protection treaty.;;;;;;;;;;;;;x
+FF87_9785392_TITLE;Accession to the United Legislature;;;;;;;;;;;;;x
+FF87_9785392_DESC;The union has offered our protected council seats in its common legislature. Accession would end our separate diplomatic administration and carry local titles and obligations into the united government. Remaining under protection keeps the existing council and its treaty obligations. The delegates ask for an answer before new survey and administrative funds are committed.;;;;;;;;;;;;;x
+ff87_accession_griqua_east_title;Invite Griqualand East to Full Accession;;;;;;;;;;;;;x
+ff87_accession_griqua_east_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff87_accession_griqua_east;Invite Griqualand East to Full Accession;;;;;;;;;;;;;x
+FF87_ACCESS_griqua_east;Accept seats in the common legislature.;;;;;;;;;;;;;x
+FF87_REMAIN_griqua_east;Keep our council under the existing protection treaty.;;;;;;;;;;;;;x
+FF87_9785393_TITLE;Accession to the United Legislature;;;;;;;;;;;;;x
+FF87_9785393_DESC;The union has offered our protected council seats in its common legislature. Accession would end our separate diplomatic administration and carry local titles and obligations into the united government. Remaining under protection keeps the existing council and its treaty obligations. The delegates ask for an answer before new survey and administrative funds are committed.;;;;;;;;;;;;;x
+ff87_accession_basotho_title;Invite Basotho to Full Accession;;;;;;;;;;;;;x
+ff87_accession_basotho_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff87_accession_basotho;Invite Basotho to Full Accession;;;;;;;;;;;;;x
+FF87_ACCESS_basotho;Accept seats in the common legislature.;;;;;;;;;;;;;x
+FF87_REMAIN_basotho;Keep our council under the existing protection treaty.;;;;;;;;;;;;;x
+FF87_9785394_TITLE;Accession to the United Legislature;;;;;;;;;;;;;x
+FF87_9785394_DESC;The union has offered our protected council seats in its common legislature. Accession would end our separate diplomatic administration and carry local titles and obligations into the united government. Remaining under protection keeps the existing council and its treaty obligations. The delegates ask for an answer before new survey and administrative funds are committed.;;;;;;;;;;;;;x
+ff87_accession_swazi_title;Invite Swaziland to Full Accession;;;;;;;;;;;;;x
+ff87_accession_swazi_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff87_accession_swazi;Invite Swaziland to Full Accession;;;;;;;;;;;;;x
+FF87_ACCESS_swazi;Accept seats in the common legislature.;;;;;;;;;;;;;x
+FF87_REMAIN_swazi;Keep our council under the existing protection treaty.;;;;;;;;;;;;;x
+FF87_9785395_TITLE;Accession to the United Legislature;;;;;;;;;;;;;x
+FF87_9785395_DESC;The union has offered our protected council seats in its common legislature. Accession would end our separate diplomatic administration and carry local titles and obligations into the united government. Remaining under protection keeps the existing council and its treaty obligations. The delegates ask for an answer before new survey and administrative funds are committed.;;;;;;;;;;;;;x
+ff87_accession_zulu_title;Invite Zululand to Full Accession;;;;;;;;;;;;;x
+ff87_accession_zulu_desc;The protected council can be invited to exchange its separate administration for seats in the united legislature. Our envoys must obtain its consent, and existing land registers will be carried into the common administration. A refusal leaves the protectorate intact.;;;;;;;;;;;;;x
+ff87_accession_zulu;Invite Zululand to Full Accession;;;;;;;;;;;;;x
+FF87_ACCESS_zulu;Accept seats in the common legislature.;;;;;;;;;;;;;x
+FF87_REMAIN_zulu;Keep our council under the existing protection treaty.;;;;;;;;;;;;;x
+FF87_9785396_TITLE;Accession to the United Legislature;;;;;;;;;;;;;x
+FF87_9785396_DESC;The union has offered our protected council seats in its common legislature. Accession would end our separate diplomatic administration and carry local titles and obligations into the united government. Remaining under protection keeps the existing council and its treaty obligations. The delegates ask for an answer before new survey and administrative funds are committed.;;;;;;;;;;;;;x
+ff87_mission_wait;Frontier Mission in Progress;;;;;;;;;;;;;x
+ff87_mission_wait_desc;Envoys have reserved a frontier mission budget and are awaiting the council response.;;;;;;;;;;;;;x
+ff87_accession_wait;Accession Proposals Suspended;;;;;;;;;;;;;x
+ff87_accession_wait_desc;Protected councils will not reconsider full accession immediately after a mission.;;;;;;;;;;;;;x
+ff87_recall_mission_title;Recall an Unanswered Frontier Mission;;;;;;;;;;;;;x
+ff87_recall_mission_desc;If a mission has not produced an answer, the council can recall its envoys after the waiting period and recover the unused reserve. No war or territorial transfer follows from the recall.;;;;;;;;;;;;;x
+ff87_recall_mission;Recall an Unanswered Frontier Mission;;;;;;;;;;;;;x
+FF87_GRIQUA_WEST_WAR;The Griqualand West Frontier War;;;;;;;;;;;;;x
+ff87_griqua_west_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff87_griqua_west_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_griqua_west_settlement_short_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_griqua_west_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff87_griqua_west_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_griqua_west_protection_short_desc;Establish Union Protection;;;;;;;;;;;;;x
+FF87_KHOLOKOE_WAR;The Kholokoe Frontier War;;;;;;;;;;;;;x
+ff87_kholokoe_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff87_kholokoe_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_kholokoe_settlement_short_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_kholokoe_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff87_kholokoe_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_kholokoe_protection_short_desc;Establish Union Protection;;;;;;;;;;;;;x
+FF87_TRANSVAAL_WAR;The Transvaal Frontier War;;;;;;;;;;;;;x
+ff87_transvaal_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff87_transvaal_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_transvaal_settlement_short_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_transvaal_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff87_transvaal_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_transvaal_protection_short_desc;Establish Union Protection;;;;;;;;;;;;;x
+FF87_LYDENBURG_WAR;The Lydenburg Frontier War;;;;;;;;;;;;;x
+ff87_lydenburg_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff87_lydenburg_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_lydenburg_settlement_short_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_lydenburg_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff87_lydenburg_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_lydenburg_protection_short_desc;Establish Union Protection;;;;;;;;;;;;;x
+FF87_ZOUTPANSBERG_WAR;The Zoutpansberg Frontier War;;;;;;;;;;;;;x
+ff87_zoutpansberg_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff87_zoutpansberg_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_zoutpansberg_settlement_short_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_zoutpansberg_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff87_zoutpansberg_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_zoutpansberg_protection_short_desc;Establish Union Protection;;;;;;;;;;;;;x
+FF87_GRIQUA_EAST_WAR;The Griqualand East Frontier War;;;;;;;;;;;;;x
+ff87_griqua_east_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff87_griqua_east_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_griqua_east_settlement_short_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_griqua_east_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff87_griqua_east_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_griqua_east_protection_short_desc;Establish Union Protection;;;;;;;;;;;;;x
+FF87_BASOTHO_WAR;The Basotho Frontier War;;;;;;;;;;;;;x
+ff87_basotho_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff87_basotho_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_basotho_settlement_short_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_basotho_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff87_basotho_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_basotho_protection_short_desc;Establish Union Protection;;;;;;;;;;;;;x
+FF87_SWAZI_WAR;The Swaziland Frontier War;;;;;;;;;;;;;x
+ff87_swazi_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff87_swazi_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_swazi_settlement_short_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_swazi_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff87_swazi_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_swazi_protection_short_desc;Establish Union Protection;;;;;;;;;;;;;x
+FF87_ZULU_WAR;The Zululand Frontier War;;;;;;;;;;;;;x
+ff87_zulu_settlement;Accession to the United Government;;;;;;;;;;;;;x
+ff87_zulu_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_zulu_settlement_short_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_zulu_protection;Establish Union Protection;;;;;;;;;;;;;x
+ff87_zulu_protection_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_zulu_protection_short_desc;Establish Union Protection;;;;;;;;;;;;;x
+FF87_GAZA_WAR;The Gaza Frontier War;;;;;;;;;;;;;x
+ff87_gaza_settlement;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff87_gaza_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_gaza_settlement_short_desc;Secure the Southern Corridor;;;;;;;;;;;;;x
+FF87_SHANGAAN_WAR;The Shangaan Frontier War;;;;;;;;;;;;;x
+ff87_shangaan_settlement;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff87_shangaan_settlement_desc;Enforce the frontier articles presented by the united government.;;;;;;;;;;;;;x
+ff87_shangaan_settlement_short_desc;Secure the Southern Corridor;;;;;;;;;;;;;x
+NORMAL_FF48_DIMAWE_WAR_NAME;$ORDER$$FIRST$-$SECOND$ Dimawe Border War;;;;;;;;;;;;;x
+AGRESSION_FF48_DIMAWE_WAR_NAME;$ORDER$$FIRST$-$SECOND$ Dimawe Border War;;;;;;;;;;;;;x
+ff48_dimawe_border_title;Cede BaMangwato Transvaal;;;;;;;;;;;;;x
+ff48_dimawe_border_short_desc;Cede BaMangwato Transvaal;;;;;;;;;;;;;x
+NORMAL_FF53_GAZA_WAR;$ORDER$$FIRST$-$SECOND$ Eastern Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF53_GAZA_WAR;$ORDER$$FIRST$-$SECOND$ Eastern Frontier War;;;;;;;;;;;;;x
+ff53_nkomazi_border_title;Cede Nkomazi;;;;;;;;;;;;;x
+ff53_nkomazi_border_short_desc;Cede Nkomazi;;;;;;;;;;;;;x
+ff53_gaza_corridor_title;Eastern Corridor Settlement;;;;;;;;;;;;;x
+ff53_gaza_corridor_short_desc;Eastern Corridor Settlement;;;;;;;;;;;;;x
+NORMAL_FF63_BOER_WAR;The First Boer War;;;;;;;;;;;;;x
+AGRESSION_FF63_BOER_WAR;The First Boer War;;;;;;;;;;;;;x
+ff63_restore_transvaal_title;Restore Transvaal Independence;;;;;;;;;;;;;x
+ff63_restore_transvaal_short_desc;Restore Transvaal Independence;;;;;;;;;;;;;x
+ff63_coastal_settlement_title;The Cape Capitulation Conference;;;;;;;;;;;;;x
+ff63_coastal_settlement_short_desc;The Cape Capitulation Conference;;;;;;;;;;;;;x
+NORMAL_FF63_TEMBE_WAR;The Tembe Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF63_TEMBE_WAR;The Tembe Frontier War;;;;;;;;;;;;;x
+ff63_tembe_claim_title;Claim the Tembe District;;;;;;;;;;;;;x
+ff63_tembe_claim_short_desc;Claim the Tembe District;;;;;;;;;;;;;x
+ff64_british_transvaal_conference_title;Conference of Pretoria: Imperial Settlement;;;;;;;;;;;;;x
+ff64_british_transvaal_conference_short_desc;Conference of Pretoria: Imperial Settlement;;;;;;;;;;;;;x
+ff64_british_transvaal_conference_desc;Conference of Pretoria: Imperial Settlement;;;;;;;;;;;;;x
+ff65_boerwar_conquest_title;Boer War: Conquest;;;;;;;;;;;;;x
+ff65_boerwar_conquest_short_desc;Boer War: Conquest;;;;;;;;;;;;;x
+ff65_boerwar_resistance_title;Boer War: Repel the Invasion;;;;;;;;;;;;;x
+ff65_boerwar_resistance_short_desc;Boer War: Repel the Invasion;;;;;;;;;;;;;x
+NORMAL_FF71_SWAZI_WAR;The $ORDER$$FIRST$-$SECOND$ War over Swaziland;;;;;;;;;;;;;x
+AGRESSION_FF71_SWAZI_WAR;The $ORDER$$FIRST$-$SECOND$ War over Swaziland;;;;;;;;;;;;;x
+ff71_swazi_conquest_title;Incorporate Swaziland;;;;;;;;;;;;;x
+ff71_swazi_conquest_short_desc;Incorporate Swaziland;;;;;;;;;;;;;x
+ff71_swazi_conquest_desc;Incorporate Swaziland;;;;;;;;;;;;;x
+NORMAL_FF75_GRIQUA_WAR;The $FIRST$-$SECOND$ War over Griqualand West;;;;;;;;;;;;;x
+AGRESSION_FF75_GRIQUA_WAR;The $FIRST$-$SECOND$ War over Griqualand West;;;;;;;;;;;;;x
+ff75_griqua_conquest_title;Incorporate Griqualand West;;;;;;;;;;;;;x
+ff75_griqua_conquest_short_desc;Incorporate Griqualand West;;;;;;;;;;;;;x
+NORMAL_FF75_BASOTHO_WAR;The $FIRST$-$SECOND$ War over Basutoland;;;;;;;;;;;;;x
+AGRESSION_FF75_BASOTHO_WAR;The $FIRST$-$SECOND$ War over Basutoland;;;;;;;;;;;;;x
+ff75_basotho_conquest_title;Incorporate Basutoland;;;;;;;;;;;;;x
+ff75_basotho_conquest_short_desc;Incorporate Basutoland;;;;;;;;;;;;;x
+NORMAL_FF77_GAZA_WAR;The $FIRST$-$SECOND$ Gaza War;;;;;;;;;;;;;x
+AGRESSION_FF77_GAZA_WAR;The $FIRST$-$SECOND$ Gaza War;;;;;;;;;;;;;x
+ff77_gaza_conquest_title;Incorporate Gaza;;;;;;;;;;;;;x
+ff77_gaza_conquest_short_desc;Incorporate Gaza;;;;;;;;;;;;;x
+NORMAL_FF77_SHANGAAN_WAR;The $FIRST$-$SECOND$ Shangaan War;;;;;;;;;;;;;x
+AGRESSION_FF77_SHANGAAN_WAR;The $FIRST$-$SECOND$ Shangaan War;;;;;;;;;;;;;x
+ff77_shangaan_conquest_title;Incorporate Shangaan;;;;;;;;;;;;;x
+ff77_shangaan_conquest_short_desc;Incorporate Shangaan;;;;;;;;;;;;;x
+NORMAL_FF77_BAMANGWATO_WAR;The $FIRST$-$SECOND$ Bamangwato War;;;;;;;;;;;;;x
+AGRESSION_FF77_BAMANGWATO_WAR;The $FIRST$-$SECOND$ Bamangwato War;;;;;;;;;;;;;x
+ff77_bamangwato_conquest_title;Incorporate Bamangwato;;;;;;;;;;;;;x
+ff77_bamangwato_conquest_short_desc;Incorporate Bamangwato;;;;;;;;;;;;;x
+NORMAL_FF77_BATAWANA_WAR;The $FIRST$-$SECOND$ baTawana War;;;;;;;;;;;;;x
+AGRESSION_FF77_BATAWANA_WAR;The $FIRST$-$SECOND$ baTawana War;;;;;;;;;;;;;x
+ff77_batawana_conquest_title;Incorporate baTawana;;;;;;;;;;;;;x
+ff77_batawana_conquest_short_desc;Incorporate baTawana;;;;;;;;;;;;;x
+NORMAL_FF77_MTHWAKAZI_WAR;The $FIRST$-$SECOND$ Mthwakazi War;;;;;;;;;;;;;x
+AGRESSION_FF77_MTHWAKAZI_WAR;The $FIRST$-$SECOND$ Mthwakazi War;;;;;;;;;;;;;x
+ff77_mthwakazi_conquest_title;Incorporate Mthwakazi;;;;;;;;;;;;;x
+ff77_mthwakazi_conquest_short_desc;Incorporate Mthwakazi;;;;;;;;;;;;;x
+NORMAL_FF77_DUMA_WAR;The $FIRST$-$SECOND$ Duma War;;;;;;;;;;;;;x
+AGRESSION_FF77_DUMA_WAR;The $FIRST$-$SECOND$ Duma War;;;;;;;;;;;;;x
+ff77_duma_conquest_title;Incorporate Duma;;;;;;;;;;;;;x
+ff77_duma_conquest_short_desc;Incorporate Duma;;;;;;;;;;;;;x
+NORMAL_FF82_SECOND_BOER_WAR;The Second Boer War;;;;;;;;;;;;;x
+AGRESSION_FF82_SECOND_BOER_WAR;The Second Boer War;;;;;;;;;;;;;x
+ff82_british_conference_title;The Vereeniging Settlement;;;;;;;;;;;;;x
+ff82_british_conference_short_desc;The Vereeniging Settlement;;;;;;;;;;;;;x
+ff82_boer_union_title;The United Republics Convention;;;;;;;;;;;;;x
+ff82_boer_union_short_desc;The United Republics Convention;;;;;;;;;;;;;x
+ff82_kaap_conference_title;The Kaap Conference;;;;;;;;;;;;;x
+ff82_kaap_conference_short_desc;The Kaap Conference;;;;;;;;;;;;;x
+NORMAL_FF82_GKE_WAR;The Griqualand East Campaign;;;;;;;;;;;;;x
+AGRESSION_FF82_GKE_WAR;The Griqualand East Campaign;;;;;;;;;;;;;x
+ff82_gke_conquest_title;Incorporate Griqualand East;;;;;;;;;;;;;x
+ff82_gke_conquest_short_desc;Incorporate Griqualand East;;;;;;;;;;;;;x
+NORMAL_FF84_CIVIL_WAR;The Boer Civil War;;;;;;;;;;;;;x
+AGRESSION_FF84_CIVIL_WAR;The Boer Civil War;;;;;;;;;;;;;x
+ff84_restore_union_title;Restore the United Government;;;;;;;;;;;;;x
+NORMAL_FF84_INDEPENDENCE_WAR;The War for the United Charter;;;;;;;;;;;;;x
+AGRESSION_FF84_INDEPENDENCE_WAR;The War for the United Charter;;;;;;;;;;;;;x
+ff84_union_independence_title;Recognise the United Charter;;;;;;;;;;;;;x
+NORMAL_FF86_KLIP_WAR;The Klip River War;;;;;;;;;;;;;x
+AGRESSION_FF86_KLIP_WAR;The Klip River War;;;;;;;;;;;;;x
+ff86_british_klip_settlement_title;The Klip River and Orange Settlement;;;;;;;;;;;;;x
+NORMAL_FF87_GRIQUA_WEST_WAR;The Griqualand West Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_GRIQUA_WEST_WAR;The Griqualand West Frontier War;;;;;;;;;;;;;x
+ff87_griqua_west_settlement_title;Accession to the United Government;;;;;;;;;;;;;x
+ff87_griqua_west_protection_title;Establish Union Protection;;;;;;;;;;;;;x
+NORMAL_FF87_KHOLOKOE_WAR;The Kholokoe Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_KHOLOKOE_WAR;The Kholokoe Frontier War;;;;;;;;;;;;;x
+ff87_kholokoe_settlement_title;Accession to the United Government;;;;;;;;;;;;;x
+ff87_kholokoe_protection_title;Establish Union Protection;;;;;;;;;;;;;x
+NORMAL_FF87_TRANSVAAL_WAR;The Transvaal Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_TRANSVAAL_WAR;The Transvaal Frontier War;;;;;;;;;;;;;x
+ff87_transvaal_settlement_title;Accession to the United Government;;;;;;;;;;;;;x
+ff87_transvaal_protection_title;Establish Union Protection;;;;;;;;;;;;;x
+NORMAL_FF87_LYDENBURG_WAR;The Lydenburg Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_LYDENBURG_WAR;The Lydenburg Frontier War;;;;;;;;;;;;;x
+ff87_lydenburg_settlement_title;Accession to the United Government;;;;;;;;;;;;;x
+ff87_lydenburg_protection_title;Establish Union Protection;;;;;;;;;;;;;x
+NORMAL_FF87_ZOUTPANSBERG_WAR;The Zoutpansberg Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_ZOUTPANSBERG_WAR;The Zoutpansberg Frontier War;;;;;;;;;;;;;x
+ff87_zoutpansberg_settlement_title;Accession to the United Government;;;;;;;;;;;;;x
+ff87_zoutpansberg_protection_title;Establish Union Protection;;;;;;;;;;;;;x
+NORMAL_FF87_GRIQUA_EAST_WAR;The Griqualand East Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_GRIQUA_EAST_WAR;The Griqualand East Frontier War;;;;;;;;;;;;;x
+ff87_griqua_east_settlement_title;Accession to the United Government;;;;;;;;;;;;;x
+ff87_griqua_east_protection_title;Establish Union Protection;;;;;;;;;;;;;x
+NORMAL_FF87_BASOTHO_WAR;The Basotho Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_BASOTHO_WAR;The Basotho Frontier War;;;;;;;;;;;;;x
+ff87_basotho_settlement_title;Accession to the United Government;;;;;;;;;;;;;x
+ff87_basotho_protection_title;Establish Union Protection;;;;;;;;;;;;;x
+NORMAL_FF87_SWAZI_WAR;The Swaziland Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_SWAZI_WAR;The Swaziland Frontier War;;;;;;;;;;;;;x
+ff87_swazi_settlement_title;Accession to the United Government;;;;;;;;;;;;;x
+ff87_swazi_protection_title;Establish Union Protection;;;;;;;;;;;;;x
+NORMAL_FF87_ZULU_WAR;The Zululand Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_ZULU_WAR;The Zululand Frontier War;;;;;;;;;;;;;x
+ff87_zulu_settlement_title;Accession to the United Government;;;;;;;;;;;;;x
+ff87_zulu_protection_title;Establish Union Protection;;;;;;;;;;;;;x
+NORMAL_FF87_GAZA_WAR;The Gaza Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_GAZA_WAR;The Gaza Frontier War;;;;;;;;;;;;;x
+ff87_gaza_settlement_title;Secure the Southern Corridor;;;;;;;;;;;;;x
+NORMAL_FF87_SHANGAAN_WAR;The Shangaan Frontier War;;;;;;;;;;;;;x
+AGRESSION_FF87_SHANGAAN_WAR;The Shangaan Frontier War;;;;;;;;;;;;;x
+ff87_shangaan_settlement_title;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff48_dimawe_border_short;Cede BaMangwato Transvaal;;;;;;;;;;;;;x
+ff48_dimawe_border_setup;Cede BaMangwato Transvaal;;;;;;;;;;;;;x
+ff48_dimawe_border_po_desc;Cede BaMangwato Transvaal;;;;;;;;;;;;;x
+ff53_nkomazi_border_short;Cede Nkomazi;;;;;;;;;;;;;x
+ff53_nkomazi_border_setup;Cede Nkomazi;;;;;;;;;;;;;x
+ff53_nkomazi_border_po_desc;Cede Nkomazi;;;;;;;;;;;;;x
+ff53_gaza_corridor_short;Eastern Corridor Settlement;;;;;;;;;;;;;x
+ff53_gaza_corridor_setup;Eastern Corridor Settlement;;;;;;;;;;;;;x
+ff53_gaza_corridor_po_desc;Eastern Corridor Settlement;;;;;;;;;;;;;x
+ff63_restore_transvaal_short;Restore Transvaal Independence;;;;;;;;;;;;;x
+ff63_restore_transvaal_setup;Restore Transvaal Independence;;;;;;;;;;;;;x
+ff63_restore_transvaal_po_desc;Restore Transvaal Independence;;;;;;;;;;;;;x
+ff63_coastal_settlement_short;The Cape Capitulation Conference;;;;;;;;;;;;;x
+ff63_coastal_settlement_setup;The Cape Capitulation Conference;;;;;;;;;;;;;x
+ff63_coastal_settlement_po_desc;The Cape Capitulation Conference;;;;;;;;;;;;;x
+ff63_tembe_claim_short;Claim the Tembe District;;;;;;;;;;;;;x
+ff63_tembe_claim_setup;Claim the Tembe District;;;;;;;;;;;;;x
+ff63_tembe_claim_po_desc;Claim the Tembe District;;;;;;;;;;;;;x
+ff64_british_transvaal_conference_short;Conference of Pretoria: Imperial Settlement;;;;;;;;;;;;;x
+ff64_british_transvaal_conference_setup;Conference of Pretoria: Imperial Settlement;;;;;;;;;;;;;x
+ff64_british_transvaal_conference_po_desc;Conference of Pretoria: Imperial Settlement;;;;;;;;;;;;;x
+ff65_boerwar_conquest_short;Boer War: Conquest;;;;;;;;;;;;;x
+ff65_boerwar_conquest_setup;Boer War: Conquest;;;;;;;;;;;;;x
+ff65_boerwar_conquest_po_desc;Boer War: Conquest;;;;;;;;;;;;;x
+ff65_boerwar_resistance_short;Boer War: Repel the Invasion;;;;;;;;;;;;;x
+ff65_boerwar_resistance_setup;Boer War: Repel the Invasion;;;;;;;;;;;;;x
+ff65_boerwar_resistance_po_desc;Boer War: Repel the Invasion;;;;;;;;;;;;;x
+ff71_swazi_conquest_short;Incorporate Swaziland;;;;;;;;;;;;;x
+ff71_swazi_conquest_setup;Incorporate Swaziland;;;;;;;;;;;;;x
+ff71_swazi_conquest_po_desc;Incorporate Swaziland;;;;;;;;;;;;;x
+ff75_griqua_conquest_short;Incorporate Griqualand West;;;;;;;;;;;;;x
+ff75_griqua_conquest_setup;Incorporate Griqualand West;;;;;;;;;;;;;x
+ff75_griqua_conquest_po_desc;Incorporate Griqualand West;;;;;;;;;;;;;x
+ff75_basotho_conquest_short;Incorporate Basutoland;;;;;;;;;;;;;x
+ff75_basotho_conquest_setup;Incorporate Basutoland;;;;;;;;;;;;;x
+ff75_basotho_conquest_po_desc;Incorporate Basutoland;;;;;;;;;;;;;x
+ff77_gaza_conquest_short;Incorporate Gaza;;;;;;;;;;;;;x
+ff77_gaza_conquest_setup;Incorporate Gaza;;;;;;;;;;;;;x
+ff77_gaza_conquest_po_desc;Incorporate Gaza;;;;;;;;;;;;;x
+ff77_shangaan_conquest_short;Incorporate Shangaan;;;;;;;;;;;;;x
+ff77_shangaan_conquest_setup;Incorporate Shangaan;;;;;;;;;;;;;x
+ff77_shangaan_conquest_po_desc;Incorporate Shangaan;;;;;;;;;;;;;x
+ff77_bamangwato_conquest_short;Incorporate Bamangwato;;;;;;;;;;;;;x
+ff77_bamangwato_conquest_setup;Incorporate Bamangwato;;;;;;;;;;;;;x
+ff77_bamangwato_conquest_po_desc;Incorporate Bamangwato;;;;;;;;;;;;;x
+ff77_batawana_conquest_short;Incorporate baTawana;;;;;;;;;;;;;x
+ff77_batawana_conquest_setup;Incorporate baTawana;;;;;;;;;;;;;x
+ff77_batawana_conquest_po_desc;Incorporate baTawana;;;;;;;;;;;;;x
+ff77_mthwakazi_conquest_short;Incorporate Mthwakazi;;;;;;;;;;;;;x
+ff77_mthwakazi_conquest_setup;Incorporate Mthwakazi;;;;;;;;;;;;;x
+ff77_mthwakazi_conquest_po_desc;Incorporate Mthwakazi;;;;;;;;;;;;;x
+ff77_duma_conquest_short;Incorporate Duma;;;;;;;;;;;;;x
+ff77_duma_conquest_setup;Incorporate Duma;;;;;;;;;;;;;x
+ff77_duma_conquest_po_desc;Incorporate Duma;;;;;;;;;;;;;x
+ff82_british_conference_short;The Vereeniging Settlement;;;;;;;;;;;;;x
+ff82_british_conference_setup;The Vereeniging Settlement;;;;;;;;;;;;;x
+ff82_british_conference_po_desc;The Vereeniging Settlement;;;;;;;;;;;;;x
+ff82_boer_union_short;The United Republics Convention;;;;;;;;;;;;;x
+ff82_boer_union_setup;The United Republics Convention;;;;;;;;;;;;;x
+ff82_boer_union_po_desc;The United Republics Convention;;;;;;;;;;;;;x
+ff82_kaap_conference_short;The Kaap Conference;;;;;;;;;;;;;x
+ff82_kaap_conference_setup;The Kaap Conference;;;;;;;;;;;;;x
+ff82_kaap_conference_po_desc;The Kaap Conference;;;;;;;;;;;;;x
+ff82_gke_conquest_short;Incorporate Griqualand East;;;;;;;;;;;;;x
+ff82_gke_conquest_setup;Incorporate Griqualand East;;;;;;;;;;;;;x
+ff82_gke_conquest_po_desc;Incorporate Griqualand East;;;;;;;;;;;;;x
+ff84_restore_union_short;Restore the United Government;;;;;;;;;;;;;x
+ff84_restore_union_setup;Restore the United Government;;;;;;;;;;;;;x
+ff84_restore_union_po_desc;Restore the United Government;;;;;;;;;;;;;x
+ff84_union_independence_short;Recognise the United Charter;;;;;;;;;;;;;x
+ff84_union_independence_setup;Recognise the United Charter;;;;;;;;;;;;;x
+ff84_union_independence_po_desc;Recognise the United Charter;;;;;;;;;;;;;x
+ff86_british_klip_settlement_short;The Klip River and Orange Settlement;;;;;;;;;;;;;x
+ff86_british_klip_settlement_setup;The Klip River and Orange Settlement;;;;;;;;;;;;;x
+ff86_british_klip_settlement_po_desc;The Klip River and Orange Settlement;;;;;;;;;;;;;x
+ff87_griqua_west_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff87_griqua_west_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff87_griqua_west_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_griqua_west_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff87_griqua_west_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff87_griqua_west_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff87_kholokoe_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff87_kholokoe_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff87_kholokoe_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_kholokoe_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff87_kholokoe_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff87_kholokoe_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff87_transvaal_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff87_transvaal_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff87_transvaal_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_transvaal_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff87_transvaal_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff87_transvaal_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff87_lydenburg_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff87_lydenburg_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff87_lydenburg_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_lydenburg_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff87_lydenburg_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff87_lydenburg_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff87_zoutpansberg_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff87_zoutpansberg_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff87_zoutpansberg_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_zoutpansberg_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff87_zoutpansberg_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff87_zoutpansberg_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff87_griqua_east_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff87_griqua_east_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff87_griqua_east_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_griqua_east_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff87_griqua_east_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff87_griqua_east_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff87_basotho_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff87_basotho_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff87_basotho_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_basotho_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff87_basotho_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff87_basotho_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff87_swazi_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff87_swazi_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff87_swazi_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_swazi_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff87_swazi_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff87_swazi_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff87_zulu_settlement_short;Accession to the United Government;;;;;;;;;;;;;x
+ff87_zulu_settlement_setup;Accession to the United Government;;;;;;;;;;;;;x
+ff87_zulu_settlement_po_desc;Accession to the United Government;;;;;;;;;;;;;x
+ff87_zulu_protection_short;Establish Union Protection;;;;;;;;;;;;;x
+ff87_zulu_protection_setup;Establish Union Protection;;;;;;;;;;;;;x
+ff87_zulu_protection_po_desc;Establish Union Protection;;;;;;;;;;;;;x
+ff87_gaza_settlement_short;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff87_gaza_settlement_setup;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff87_gaza_settlement_po_desc;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff87_shangaan_settlement_short;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff87_shangaan_settlement_setup;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff87_shangaan_settlement_po_desc;Secure the Southern Corridor;;;;;;;;;;;;;x
+ff87_republic_congress;The Burghers' Frontier Congress;;;;;;;;;;;;;x
+ff87_republic_congress_title;The Burghers' Frontier Congress;;;;;;;;;;;;;x
+ff87_republic_congress_desc;Delegates from the united districts have called a congress over commando obligations and the admission of new communities. They insist that expansion must bring a public register of debts and service, rather than leave district commandants to negotiate incompatible arrangements. The elected government can fund a permanent committee for frontier supplies and reports to the Volksraad.;;;;;;;;;;;;;x
+ff87_burgher_frontier_congress;The Burghers' Frontier Congress;;;;;;;;;;;;;x
+ff87_burgher_frontier_congress_desc;Delegates from the united districts have called a congress over commando obligations and the admission of new communities. They insist that expansion must bring a public register of debts and service, rather than leave district commandants to negotiate incompatible arrangements. The elected government can fund a permanent committee for frontier supplies and reports to the Volksraad.;;;;;;;;;;;;;x
+FF87_9785400_TITLE;The Burghers' Frontier Congress;;;;;;;;;;;;;x
+FF87_9785400_DESC;Delegates from the united districts have called a congress over commando obligations and the admission of new communities. They insist that expansion must bring a public register of debts and service, rather than leave district commandants to negotiate incompatible arrangements. The elected government can fund a permanent committee for frontier supplies and reports to the Volksraad.;;;;;;;;;;;;;x
+FF87_9785400_OPT;Fund the council and publish its duties.;;;;;;;;;;;;;x
+ff87_ducal_council;A Ducal Council for Frontier Affairs;;;;;;;;;;;;;x
+ff87_ducal_council_title;A Ducal Council for Frontier Affairs;;;;;;;;;;;;;x
+ff87_ducal_council_desc;The constitutional ducal government has proposed a council of ministers and district delegates to administer its frontier treaties. Its purpose is to reconcile the local authority of protected councils with the obligations of the united state. A funded office will keep the treaty registers and provide a common channel for diplomatic correspondence, while the elected legislature retains control of expenditure.;;;;;;;;;;;;;x
+ff87_ducal_frontier_council;A Ducal Council for Frontier Affairs;;;;;;;;;;;;;x
+ff87_ducal_frontier_council_desc;The constitutional ducal government has proposed a council of ministers and district delegates to administer its frontier treaties. Its purpose is to reconcile the local authority of protected councils with the obligations of the united state. A funded office will keep the treaty registers and provide a common channel for diplomatic correspondence, while the elected legislature retains control of expenditure.;;;;;;;;;;;;;x
+FF87_9785401_TITLE;A Ducal Council for Frontier Affairs;;;;;;;;;;;;;x
+FF87_9785401_DESC;The constitutional ducal government has proposed a council of ministers and district delegates to administer its frontier treaties. Its purpose is to reconcile the local authority of protected councils with the obligations of the united state. A funded office will keep the treaty registers and provide a common channel for diplomatic correspondence, while the elected legislature retains control of expenditure.;;;;;;;;;;;;;x
+FF87_9785401_OPT;Fund the council and publish its duties.;;;;;;;;;;;;;x

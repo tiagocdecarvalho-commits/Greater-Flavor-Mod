@@ -1,0 +1,176 @@
+country_event = { id = 9784983 title = "FF71_DEMAND_TITLE" desc = "FF71_DEMAND_DESC" picture = "boer_war"
+ is_triggered_only = yes immediate = { set_country_flag = ff71_ultimatum_received }
+ option = { name = "FF71_DEMAND_ACCEPT" ai_chance = { factor = 15 }
+ SUA = { set_country_flag = ff73_swazi_acceptance }
+ TRN = { random_owned = { limit = { owner = { has_country_flag = ff71_swazi_request_pending is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } } } owner = { TRN = { set_country_flag = ff71_swazi_acceptance country_event = { id = 9784984 days = 1 } } } } }
+ SAF = { random_owned = { limit = { owner = { has_country_flag = ff71_swazi_request_pending is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } } } owner = { SAF = { set_country_flag = ff71_swazi_acceptance country_event = { id = 9784984 days = 1 } } } } }
+ }
+ option = { name = "FF71_DEMAND_REFUSE" ai_chance = { factor = 85 }
+ SUA = { set_country_flag = ff73_swazi_refusal }
+ TRN = { random_owned = { limit = { owner = { has_country_flag = ff71_swazi_request_pending is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } } } owner = { TRN = { set_country_flag = ff71_swazi_refusal country_event = { id = 9784985 days = 1 } } } } }
+ SAF = { random_owned = { limit = { owner = { has_country_flag = ff71_swazi_request_pending is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } } } owner = { SAF = { set_country_flag = ff71_swazi_refusal country_event = { id = 9784985 days = 1 } } } } }
+ }
+}
+
+
+country_event = { id = 9784984 title = "FF71_ACCEPT_TITLE" desc = "FF71_ACCEPT_DESC" picture = "boer_war"
+ trigger = { OR = { tag = TRN tag = SAF } is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff71_swazi_acceptance has_country_flag = ff71_swazi_request_pending NOT = { has_country_flag = ff71_swazi_integrated } SUA = { exists = yes } } mean_time_to_happen = { days = 1 }
+ option = { name = "FF71_ACCEPT_OPT0" ai_chance = { factor = 100 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff71_swazi_acceptance has_country_flag = ff71_swazi_request_pending SUA = { exists = yes war = no OR = { is_vassal = no vassal_of = TRN } } } } owner = {
+ SUA = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } set_province_flag = ff71_swazi_acquired } random_owned = { limit = { owner = { ai = no } } owner = { change_tag_no_core_switch = TRN } } }
+ TRN = { release_vassal = SUA inherit = SUA }
+ TRN = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } add_core = TRN add_core = SAF remove_core = SUA }
+ random_owned = { limit = { province_id = 2114 } change_province_name = "Bremersdorp" }
+ random_owned = { limit = { province_id = 3648 } change_province_name = "Bergland" }
+ random_owned = { limit = { province_id = 4025 } change_province_name = "Piet Retief" }
+ }
+ TRN = { clr_country_flag = ff71_swazi_request_pending set_country_flag = ff71_swazi_integrated badboy = 2 prestige = 3 }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff71_swazi_acceptance has_country_flag = ff71_swazi_request_pending SUA = { exists = yes war = no OR = { is_vassal = no vassal_of = SAF } } } } owner = {
+ SUA = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } set_province_flag = ff71_swazi_acquired } random_owned = { limit = { owner = { ai = no } } owner = { change_tag_no_core_switch = SAF } } }
+ SAF = { release_vassal = SUA inherit = SUA }
+ SAF = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } add_core = SAF add_core = SAF remove_core = SUA }
+ random_owned = { limit = { province_id = 2114 } change_province_name = "Bremersdorp" }
+ random_owned = { limit = { province_id = 3648 } change_province_name = "Bergland" }
+ random_owned = { limit = { province_id = 4025 } change_province_name = "Piet Retief" }
+ }
+ SAF = { clr_country_flag = ff71_swazi_request_pending set_country_flag = ff71_swazi_integrated badboy = 2 prestige = 3 }
+ } }
+ }
+}
+
+
+country_event = { id = 9784985 title = "FF71_REFUSAL_TITLE" desc = "FF71_REFUSAL_DESC" picture = "boer_war"
+ trigger = { OR = { tag = TRN tag = SAF } is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff71_swazi_refusal has_country_flag = ff71_swazi_request_pending NOT = { has_country_flag = ff73_swazi_war_paid } SUA = { exists = yes war = no OR = { is_vassal = no vassal_of = THIS } } }
+ mean_time_to_happen = { days = 1 }
+ option = { name = "FF71_REFUSAL_WAR" ai_chance = { factor = 100 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } NOT = { war_with = SUA } has_country_flag = ff71_swazi_refusal OR = { has_country_flag = ff71_swazi_request_pending has_country_flag = ff71_swazi_campaign } SUA = { exists = yes OR = { is_vassal = no vassal_of = TRN } } } } owner = {
+  SUA = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } set_province_flag = ff71_swazi_acquired } end_war = SUA }
+  TRN = { release_vassal = SUA leave_alliance = SUA }
+  TRN = { random_owned = { limit = { owner = { NOT = { has_country_flag = ff73_swazi_war_paid } } } owner = { TRN = { badboy = 8 set_country_flag = ff73_swazi_war_paid } } } }
+  TRN = { clr_country_flag = ff71_swazi_request_pending set_country_flag = ff71_swazi_campaign
+   casus_belli = { target = SUA type = ff71_swazi_conquest months = 60 }
+   war = { target = SUA attacker_goal = { casus_belli = ff71_swazi_conquest } defender_goal = { casus_belli = status_quo } call_ally = no }
+  }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } NOT = { war_with = SUA } has_country_flag = ff71_swazi_refusal OR = { has_country_flag = ff71_swazi_request_pending has_country_flag = ff71_swazi_campaign } SUA = { exists = yes OR = { is_vassal = no vassal_of = SAF } } } } owner = {
+  SUA = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } set_province_flag = ff71_swazi_acquired } end_war = SUA }
+  SAF = { release_vassal = SUA leave_alliance = SUA }
+  SAF = { random_owned = { limit = { owner = { NOT = { has_country_flag = ff73_swazi_war_paid } } } owner = { SAF = { badboy = 8 set_country_flag = ff73_swazi_war_paid } } } }
+  SAF = { clr_country_flag = ff71_swazi_request_pending set_country_flag = ff71_swazi_campaign
+   casus_belli = { target = SUA type = ff71_swazi_conquest months = 60 }
+   war = { target = SUA attacker_goal = { casus_belli = ff71_swazi_conquest } defender_goal = { casus_belli = status_quo } call_ally = no }
+  }
+ } }
+ }
+ option = { name = "FF71_REFUSAL_WITHDRAW" ai_chance = { factor = 0 } clr_country_flag = ff71_swazi_request_pending clr_country_flag = ff71_swazi_refusal set_country_flag = ff73_swazi_withdrawn prestige = -3 }
+}
+
+
+country_event = { id = 9784987 title = "FF71_MOUNTAINS_TITLE" desc = "FF71_MOUNTAINS_DESC" picture = "boer_war"
+ trigger = { OR = { tag = TRN tag = SAF } is_vassal = no has_country_flag = ff71_swazi_campaign NOT = { exists = SUA } NOT = { has_country_flag = ff71_swazi_integrated } any_owned_province = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } war = no NOT = { has_country_flag = ff71_swazi_aftermath_popup } } mean_time_to_happen = { days = 1 }
+ immediate = { set_country_flag = ff71_swazi_aftermath_popup }
+ option = { name = "FF71_MOUNTAINS_EXPULSION" ai_chance = { factor = 10 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no has_country_flag = ff71_swazi_campaign NOT = { exists = SUA } NOT = { has_country_flag = ff71_swazi_integrated } war = no } } owner = {
+ TRN = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } add_core = TRN add_core = SAF remove_core = SUA }
+ random_owned = { limit = { province_id = 2114 } change_province_name = "Bremersdorp" }
+ random_owned = { limit = { province_id = 3648 } change_province_name = "Bergland" }
+ random_owned = { limit = { province_id = 4025 } change_province_name = "Piet Retief" }
+ }
+ TRN = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } }
+  any_pop = { limit = { has_pop_culture = nguni } reduce_pop = 0.8 militancy = 2 consciousness = 1 }
+  add_province_modifier = { name = ff71_coercive_frontier duration = 1825 } add_province_modifier = { name = ff71_settlement_frontier duration = 1825 }
+ }
+ any_owned = { limit = { NOT = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } has_province_flag = ff71_swazi_acquired } clr_province_flag = ff71_swazi_acquired }
+ badboy = 5 prestige = -10 set_country_flag = ff71_swazi_integrated
+ }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no has_country_flag = ff71_swazi_campaign NOT = { exists = SUA } NOT = { has_country_flag = ff71_swazi_integrated } war = no } } owner = {
+ SAF = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } add_core = SAF add_core = SAF remove_core = SUA }
+ random_owned = { limit = { province_id = 2114 } change_province_name = "Bremersdorp" }
+ random_owned = { limit = { province_id = 3648 } change_province_name = "Bergland" }
+ random_owned = { limit = { province_id = 4025 } change_province_name = "Piet Retief" }
+ }
+ SAF = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } }
+  any_pop = { limit = { has_pop_culture = nguni } reduce_pop = 0.8 militancy = 2 consciousness = 1 }
+  add_province_modifier = { name = ff71_coercive_frontier duration = 1825 } add_province_modifier = { name = ff71_settlement_frontier duration = 1825 }
+ }
+ any_owned = { limit = { NOT = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } has_province_flag = ff71_swazi_acquired } clr_province_flag = ff71_swazi_acquired }
+ badboy = 5 prestige = -10 set_country_flag = ff71_swazi_integrated
+ }
+ } }
+ }
+ option = { name = "FF71_MOUNTAINS_TOLERATE" ai_chance = { factor = 35 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no has_country_flag = ff71_swazi_campaign NOT = { exists = SUA } NOT = { has_country_flag = ff71_swazi_integrated } war = no } } owner = {
+ TRN = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } add_core = TRN add_core = SAF remove_core = SUA }
+ random_owned = { limit = { province_id = 2114 } change_province_name = "Bremersdorp" }
+ random_owned = { limit = { province_id = 3648 } change_province_name = "Bergland" }
+ random_owned = { limit = { province_id = 4025 } change_province_name = "Piet Retief" }
+ }
+ TRN = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } }
+  any_pop = { limit = { has_pop_culture = nguni } reduce_pop = 0.9 militancy = 2 consciousness = 1 }
+  add_province_modifier = { name = ff71_unchecked_violence duration = 1825 } add_province_modifier = { name = ff71_settlement_frontier duration = 1825 }
+ }
+ any_owned = { limit = { NOT = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } has_province_flag = ff71_swazi_acquired } clr_province_flag = ff71_swazi_acquired }
+ badboy = 2 prestige = -5 set_country_flag = ff71_swazi_integrated
+ }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no has_country_flag = ff71_swazi_campaign NOT = { exists = SUA } NOT = { has_country_flag = ff71_swazi_integrated } war = no } } owner = {
+ SAF = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } add_core = SAF add_core = SAF remove_core = SUA }
+ random_owned = { limit = { province_id = 2114 } change_province_name = "Bremersdorp" }
+ random_owned = { limit = { province_id = 3648 } change_province_name = "Bergland" }
+ random_owned = { limit = { province_id = 4025 } change_province_name = "Piet Retief" }
+ }
+ SAF = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } }
+  any_pop = { limit = { has_pop_culture = nguni } reduce_pop = 0.9 militancy = 2 consciousness = 1 }
+  add_province_modifier = { name = ff71_unchecked_violence duration = 1825 } add_province_modifier = { name = ff71_settlement_frontier duration = 1825 }
+ }
+ any_owned = { limit = { NOT = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } has_province_flag = ff71_swazi_acquired } clr_province_flag = ff71_swazi_acquired }
+ badboy = 2 prestige = -5 set_country_flag = ff71_swazi_integrated
+ }
+ } }
+ }
+ option = { name = "FF71_MOUNTAINS_PROTECT" ai_chance = { factor = 55 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no has_country_flag = ff71_swazi_campaign NOT = { exists = SUA } NOT = { has_country_flag = ff71_swazi_integrated } war = no } } owner = {
+ TRN = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } add_core = TRN add_core = SAF remove_core = SUA }
+ random_owned = { limit = { province_id = 2114 } change_province_name = "Bremersdorp" }
+ random_owned = { limit = { province_id = 3648 } change_province_name = "Bergland" }
+ random_owned = { limit = { province_id = 4025 } change_province_name = "Piet Retief" }
+ }
+ TRN = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } }
+  any_pop = { limit = { has_pop_culture = nguni } reduce_pop = 0.98 militancy = -1 consciousness = 1 }
+  add_province_modifier = { name = ff71_protected_frontier duration = 1825 } add_province_modifier = { name = ff71_settlement_frontier duration = 1825 }
+ }
+ any_owned = { limit = { NOT = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } has_province_flag = ff71_swazi_acquired } clr_province_flag = ff71_swazi_acquired }
+ money = -2000 set_country_flag = ff71_swazi_integrated
+ }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no has_country_flag = ff71_swazi_campaign NOT = { exists = SUA } NOT = { has_country_flag = ff71_swazi_integrated } war = no } } owner = {
+ SAF = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } add_core = SAF add_core = SAF remove_core = SUA }
+ random_owned = { limit = { province_id = 2114 } change_province_name = "Bremersdorp" }
+ random_owned = { limit = { province_id = 3648 } change_province_name = "Bergland" }
+ random_owned = { limit = { province_id = 4025 } change_province_name = "Piet Retief" }
+ }
+ SAF = { any_owned = { limit = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } }
+  any_pop = { limit = { has_pop_culture = nguni } reduce_pop = 0.98 militancy = -1 consciousness = 1 }
+  add_province_modifier = { name = ff71_protected_frontier duration = 1825 } add_province_modifier = { name = ff71_settlement_frontier duration = 1825 }
+ }
+ any_owned = { limit = { NOT = { OR = { province_id = 2114 province_id = 3648 province_id = 4025 } } has_province_flag = ff71_swazi_acquired } clr_province_flag = ff71_swazi_acquired }
+ money = -2000 set_country_flag = ff71_swazi_integrated
+ }
+ } }
+ }
+}
+
+
+country_event = {
+ id = 9784988 title = "FF71_RESTORE_TITLE" desc = "FF71_RESTORE_DESC" picture = "boer_war"
+ trigger = { tag = BTV vassal_of = ENG has_country_flag = ff63_british_occupation NOT = { exists = TRN } NOT = { has_country_flag = ff93_registers_recorded } NOT = { has_country_flag = ff63_liberation_started } }
+ mean_time_to_happen = { days = 1 }
+ immediate = { set_country_flag = ff93_registers_recorded set_country_flag = ff80_occupation_registers_corrected
+ any_owned = { add_core = BTV remove_core = TRN remove_core = POT remove_core = VLK }
+ TRN = { all_core = { add_core = BTV remove_core = TRN } }
+ set_country_flag = ff80_historical_occupation }
+ option = { name = "FF71_RESTORE_OPT0" ai_chance = { factor = 100 } }
+}
+

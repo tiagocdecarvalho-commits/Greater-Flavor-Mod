@@ -1,0 +1,100 @@
+cvs3_campaign_commissariat;The Campaign Commissariat;;;;;;;;;;;;;x
+cvs3_army_works;Integration of the Royal Army;;;;;;;;;;;;;x
+cvs3_army_integrated;The Unified Army Establishment;;;;;;;;;;;;;x
+cvs3_navy_works;Integration of the Royal Navy;;;;;;;;;;;;;x
+cvs3_navy_integrated;The Unified Naval Establishment;;;;;;;;;;;;;x
+cvs3_civil_works;Commission for the New Provinces;;;;;;;;;;;;;x
+cvs3_civil_integrated;A Common Civil Administration;;;;;;;;;;;;;x
+cvs3_volunteer_officers;Veterans of the Southern Army;;;;;;;;;;;;;x
+cvs3_ricasoli_ministry;The Ricasoli Ministry;;;;;;;;;;;;;x
+cvs3_savoy_origin;The Savoy National Crown;;;;;;;;;;;;;x
+cvs3_support_volunteers;Cooperation with the Volunteers;;;;;;;;;;;;;x
+cvs3_restrain_volunteers;Distance from the Volunteers;;;;;;;;;;;;;x
+cvs3_aid_received;Piedmontese Supplies Received;;;;;;;;;;;;;x
+cvs3_rome_aspiration;Rome as the National Aspiration;;;;;;;;;;;;;x
+cvs3_rome_caution;Consolidation Before Rome;;;;;;;;;;;;;x
+cvs3_cavour_return_title;Cavour Returns to Government;;;;;;;;;;;;;x
+cvs3_cavour_return_desc;The settlement of the war has left the future of central Italy unresolved. Cavour offers to return to office and seek a European understanding for the national cause. The king must decide whether to restore his ministry.;;;;;;;;;;;;;x
+cvs3_cavour_return_done;Cavour Returns to Government: settled;;;;;;;;;;;;;x
+cvs3_cavour_return_seen;Cavour Returns to Government: presented;;;;;;;;;;;;;x
+cvs3_cavour_return_yes;Recall Cavour.;;;;;;;;;;;;;x
+cvs3_cavour_return_no;Retain the present ministry.;;;;;;;;;;;;;x
+cvs3_central_title;The Central Italian Settlement;;;;;;;;;;;;;x
+cvs3_central_desc;The agreement with France has redrawn the frontier and opened a new phase of union in central Italy. Ministers now face the work of reconciling the new provinces with the kingdom, while the surrender of Nice and Savoy divides patriotic opinion.;;;;;;;;;;;;;x
+cvs3_central_done;The Central Italian Settlement: settled;;;;;;;;;;;;;x
+cvs3_central_seen;The Central Italian Settlement: presented;;;;;;;;;;;;;x
+cvs3_central_ack;Begin the work of union.;;;;;;;;;;;;;x
+cvs3_volunteers_title;The King and the Volunteers;;;;;;;;;;;;;x
+cvs3_volunteers_desc;Garibaldi has established an expeditionary government in Sicily. His advance offers an opening for Italian union, but an independent revolutionary command may outrun royal diplomacy. Turin can allow discreet cooperation or insist on keeping its distance.;;;;;;;;;;;;;x
+cvs3_volunteers_done;The King and the Volunteers: settled;;;;;;;;;;;;;x
+cvs3_volunteers_seen;The King and the Volunteers: presented;;;;;;;;;;;;;x
+cvs3_volunteers_support;Permit discreet cooperation.;;;;;;;;;;;;;x
+cvs3_volunteers_caution;Keep royal policy separate.;;;;;;;;;;;;;x
+cvs3_aid_title;Supply Garibaldi's Expedition;;;;;;;;;;;;;x
+cvs3_aid_desc;Send stores and financial assistance to the expeditionary government. Support strengthens its ability to maintain a campaign; its troops must still win their battles.;;;;;;;;;;;;;x
+cvs3_aid_funded;Supply Garibaldi's Expedition: funded;;;;;;;;;;;;;x
+cvs3_aid_receipt_title;Supplies from Piedmont;;;;;;;;;;;;;x
+cvs3_aid_receipt_desc;Stores and funds from Piedmont have reached the expeditionary government. Royal support draws the volunteers closer to Turin without settling the political future of their conquests.;;;;;;;;;;;;;x
+cvs3_aid_receipt_done;Supplies from Piedmont: settled;;;;;;;;;;;;;x
+cvs3_aid_receipt_seen;Supplies from Piedmont: presented;;;;;;;;;;;;;x
+cvs3_aid_receipt_ack;Put the supplies to use.;;;;;;;;;;;;;x
+cvs3_papal_supply_title;Supply the Campaign in Umbria and the Marches;;;;;;;;;;;;;x
+cvs3_papal_supply_desc;Support the army operating against the Papal government with a dedicated commissariat. The campaign must be settled through the war and its peace terms; the ministry has made no promise of an advance on Rome.;;;;;;;;;;;;;x
+cvs3_papal_supply_funded;Supply the Campaign in Umbria and the Marches: funded;;;;;;;;;;;;;x
+cvs3_marches_title;Umbria and the Marches Under Royal Authority;;;;;;;;;;;;;x
+cvs3_marches_desc;The crown now possesses Perugia and Ancona, while Rome remains beyond its administration. The new provinces provide a link between northern and southern Italy, but their incorporation has sharpened the dispute with the Papacy.;;;;;;;;;;;;;x
+cvs3_marches_done;Umbria and the Marches Under Royal Authority: settled;;;;;;;;;;;;;x
+cvs3_marches_seen;Umbria and the Marches Under Royal Authority: presented;;;;;;;;;;;;;x
+cvs3_marches_ack;Establish the civil administration.;;;;;;;;;;;;;x
+cvs3_handover_title;The Southern Handover;;;;;;;;;;;;;x
+cvs3_handover_desc;The southern plebiscites have been accepted and royal authority has succeeded the expeditionary government. The volunteers helped secure the union; ministers must now decide how their officers and soldiers will enter the national establishment.;;;;;;;;;;;;;x
+cvs3_handover_done;The Southern Handover: settled;;;;;;;;;;;;;x
+cvs3_handover_seen;The Southern Handover: presented;;;;;;;;;;;;;x
+cvs3_handover_ack;Prepare a common establishment.;;;;;;;;;;;;;x
+cvs3_parliament_title;The Parliament of the Kingdom of Italy;;;;;;;;;;;;;x
+cvs3_parliament_desc;Representatives of the united provinces assemble beneath the Statuto. The royal title expresses the union already achieved, while the elected Chamber still rests on a restricted franchise. The new kingdom now needs institutions capable of governing its wider territory.;;;;;;;;;;;;;x
+cvs3_parliament_done;The Parliament of the Kingdom of Italy: settled;;;;;;;;;;;;;x
+cvs3_parliament_seen;The Parliament of the Kingdom of Italy: presented;;;;;;;;;;;;;x
+cvs3_parliament_ack;Open the work of the national parliament.;;;;;;;;;;;;;x
+cvs3_cavour_death_title;The Death of Cavour;;;;;;;;;;;;;x
+cvs3_cavour_death_desc;Cavour has died, leaving the crown without the minister who linked parliamentary government to the national cause. Bettino Ricasoli offers continuity with the constitutional ministry; a court appointment would place greater weight on the king's personal confidence.;;;;;;;;;;;;;x
+cvs3_cavour_death_done;The Death of Cavour: settled;;;;;;;;;;;;;x
+cvs3_cavour_death_seen;The Death of Cavour: presented;;;;;;;;;;;;;x
+cvs3_cavour_death_ricasoli;Entrust the ministry to Ricasoli.;;;;;;;;;;;;;x
+cvs3_cavour_death_court;Choose a ministry of royal confidence.;;;;;;;;;;;;;x
+cvs3_army_title;Unify the Royal Army Establishment;;;;;;;;;;;;;x
+cvs3_army_desc;Bring the inherited armies under common regulations, supply arrangements and officer administration. Integration demands sustained work before the new establishment can operate effectively.;;;;;;;;;;;;;x
+cvs3_army_funded;Unify the Royal Army Establishment: funded;;;;;;;;;;;;;x
+cvs3_army_open_title;A Common Army Establishment;;;;;;;;;;;;;x
+cvs3_army_open_desc;The funded integration programme has completed its first work. Common regulations and supply arrangements now support the royal army, though the experience of its soldiers will still be earned in service.;;;;;;;;;;;;;x
+cvs3_army_open_done;A Common Army Establishment: settled;;;;;;;;;;;;;x
+cvs3_army_open_seen;A Common Army Establishment: presented;;;;;;;;;;;;;x
+cvs3_army_open_ack;Put the common establishment into service.;;;;;;;;;;;;;x
+cvs3_officers_title;Officers of the Southern Army;;;;;;;;;;;;;x
+cvs3_officers_desc;Veterans of the volunteer army seek places in the royal establishment. Admission after examination could retain their experience, while strict reliance on existing regular commissions would preserve the professional hierarchy.;;;;;;;;;;;;;x
+cvs3_officers_done;Officers of the Southern Army: settled;;;;;;;;;;;;;x
+cvs3_officers_seen;Officers of the Southern Army: presented;;;;;;;;;;;;;x
+cvs3_officers_examine;Examine the volunteers for royal commissions.;;;;;;;;;;;;;x
+cvs3_officers_regular;Preserve the regular hierarchy.;;;;;;;;;;;;;x
+cvs3_navy_title;Integrate the Regia Marina;;;;;;;;;;;;;x
+cvs3_navy_desc;Unify naval careers, training and supply across the inherited fleets. Genoa and Naples must support a common service before its ships can act as a coherent national navy.;;;;;;;;;;;;;x
+cvs3_navy_funded;Integrate the Regia Marina: funded;;;;;;;;;;;;;x
+cvs3_navy_open_title;One Naval Establishment;;;;;;;;;;;;;x
+cvs3_navy_open_desc;The funded naval integration programme has established common training and supply arrangements. The fleet can now draw on a shared service, while further expansion will depend on shipbuilding and the naval budget.;;;;;;;;;;;;;x
+cvs3_navy_open_done;One Naval Establishment: settled;;;;;;;;;;;;;x
+cvs3_navy_open_seen;One Naval Establishment: presented;;;;;;;;;;;;;x
+cvs3_navy_open_ack;Commission the common naval establishment.;;;;;;;;;;;;;x
+cvs3_civil_title;Convene a Commission for the New Provinces;;;;;;;;;;;;;x
+cvs3_civil_desc;Commission a survey of local laws, offices and public obligations in the newly united kingdom. Reconciling their records will take time, but offers a basis for a common civil administration.;;;;;;;;;;;;;x
+cvs3_civil_funded;Convene a Commission for the New Provinces: funded;;;;;;;;;;;;;x
+cvs3_civil_open_title;The Commission Reports;;;;;;;;;;;;;x
+cvs3_civil_open_desc;The commission has completed its survey of the new provinces. Ministers now possess a common account of offices and obligations from which to administer the kingdom. The settlement does not erase local grievances or settle the wider southern question.;;;;;;;;;;;;;x
+cvs3_civil_open_done;The Commission Reports: settled;;;;;;;;;;;;;x
+cvs3_civil_open_seen;The Commission Reports: presented;;;;;;;;;;;;;x
+cvs3_civil_open_ack;Apply the commission's work.;;;;;;;;;;;;;x
+cvs3_rome_title;Rome and the National Parliament;;;;;;;;;;;;;x
+cvs3_rome_desc;Rome remains under Papal rule. Deputies can affirm it as the national aspiration, accepting friction with the Pope and France, or concentrate on consolidating the kingdom already united. A parliamentary declaration cannot itself change possession of the city.;;;;;;;;;;;;;x
+cvs3_rome_done;Rome and the National Parliament: settled;;;;;;;;;;;;;x
+cvs3_rome_seen;Rome and the National Parliament: presented;;;;;;;;;;;;;x
+cvs3_rome_claim;Affirm Rome as the national aspiration.;;;;;;;;;;;;;x
+cvs3_rome_wait;Consolidate the present kingdom.;;;;;;;;;;;;;x

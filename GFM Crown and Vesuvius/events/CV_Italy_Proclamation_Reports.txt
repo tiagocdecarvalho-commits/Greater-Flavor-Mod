@@ -1,0 +1,435 @@
+country_event = {
+    id = 9861725
+    title = "cvh_report_recovery_title"
+    desc = "cvh_report_recovery_desc"
+    picture = "Celebration"
+    is_triggered_only = yes
+    option = {
+        name = "cvh_report_recovery_ack"
+        ai_chance = {
+            factor = 100
+        }
+        ITA = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = ITA
+                        ai = yes
+                        war = no
+                        capital = 720
+                        year = 1861
+                        NOT = {
+                            year = 1862
+                        }
+                        has_country_flag = cvh_proclamation_authorised
+                        has_country_flag = cvg_southern_plebiscites_ratified
+                        SAR = {
+                            exists = yes
+                            ai = yes
+                            war = no
+                            is_vassal = no
+                            num_of_cities = 1
+                            NOT = {
+                                any_owned_province = {
+                                    OR = {
+                                        NOT = {
+                                            controlled_by = SAR
+                                        }
+                                        NOT = {
+                                            OR = {
+                                                province_id = 751
+                                                province_id = 752
+                                                province_id = 3397
+                                                province_id = 3398
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                owner = {
+                    ITA = {
+                        inherit = SAR
+                        set_country_flag = cvh_1861_settlement
+                    }
+                    ITA = {
+                        random_owned = {
+                            limit = {
+                                owner = {
+                                    NOT = {
+                                        has_global_flag = cvh_italian_proclamation_report_sent
+                                    }
+                                }
+                            }
+                            owner = {
+                                set_global_flag = cvh_italian_proclamation_report_sent
+                                ITA = {
+                                    random_owned = {
+                                        limit = {
+                                            owner = {
+                                                ITA = {
+                                                    exists = yes
+                                                    capital = 720
+                                                    OR = {
+                                                        has_country_flag = cvh_proclamation_authorised
+                                                        has_country_flag = cvs3_savoy_origin
+                                                    }
+                                                    OR = {
+                                                        government = absolute_monarchy
+                                                        government = hms_government
+                                                        government = prussian_constitutionalism
+                                                        government = absolute_empire
+                                                        government = semi_constitutional_empire
+                                                        government = constitutional_empire
+                                                        government = cvi_absolute_monarchy
+                                                        government = cvi_semi_monarchy
+                                                        government = cvi_constitutional_monarchy
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        owner = {
+                                            any_country = {
+                                                limit = {
+                                                    exists = yes
+                                                    NOT = {
+                                                        tag = ITA
+                                                        tag = TIE
+                                                        tag = CLN
+                                                        tag = REB
+                                                        has_country_flag = cvh_italian_proclamation_report_received
+                                                    }
+                                                }
+                                                set_country_flag = cvh_italian_proclamation_report_received
+                                                country_event = {
+                                                    id = 9861726
+                                                    days = 1
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                ITA = {
+                                    random_owned = {
+                                        limit = {
+                                            owner = {
+                                                NOT = {
+                                                    ITA = {
+                                                        exists = yes
+                                                        capital = 720
+                                                        OR = {
+                                                            has_country_flag = cvh_proclamation_authorised
+                                                            has_country_flag = cvs3_savoy_origin
+                                                        }
+                                                        OR = {
+                                                            government = absolute_monarchy
+                                                            government = hms_government
+                                                            government = prussian_constitutionalism
+                                                            government = absolute_empire
+                                                            government = semi_constitutional_empire
+                                                            government = constitutional_empire
+                                                            government = cvi_absolute_monarchy
+                                                            government = cvi_semi_monarchy
+                                                            government = cvi_constitutional_monarchy
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        owner = {
+                                            any_country = {
+                                                limit = {
+                                                    exists = yes
+                                                    NOT = {
+                                                        tag = ITA
+                                                        tag = TIE
+                                                        tag = CLN
+                                                        tag = REB
+                                                        has_country_flag = cvh_italian_proclamation_report_received
+                                                    }
+                                                }
+                                                set_country_flag = cvh_italian_proclamation_report_received
+                                                country_event = {
+                                                    id = 9861727
+                                                    days = 1
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9861726
+    title = "cvh_report_savoy_title"
+    desc = "cvh_report_savoy_desc"
+    picture = "Celebration"
+    is_triggered_only = yes
+    option = {
+        name = "cvh_report_ack"
+        ai_chance = {
+            factor = 100
+        }
+    }
+}
+country_event = {
+    id = 9861727
+    title = "cvh_report_union_title"
+    desc = "cvh_report_union_desc"
+    picture = "Celebration"
+    is_triggered_only = yes
+    option = {
+        name = "cvh_report_ack"
+        ai_chance = {
+            factor = 100
+        }
+    }
+}
+country_event = {
+    id = 9861728
+    title = "cvh_report_chanceries_title"
+    desc = "cvh_report_chanceries_desc"
+    picture = "Celebration"
+    trigger = {
+        OR = {
+            tag = ITA
+            tag = TIE
+        }
+        NOT = {
+            has_global_flag = cvh_italian_proclamation_report_sent
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvh_report_chanceries_ack"
+        ai_chance = {
+            factor = 100
+        }
+        ITA = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = {
+                            has_global_flag = cvh_italian_proclamation_report_sent
+                        }
+                    }
+                }
+                owner = {
+                    set_global_flag = cvh_italian_proclamation_report_sent
+                    ITA = {
+                        random_owned = {
+                            limit = {
+                                owner = {
+                                    ITA = {
+                                        exists = yes
+                                        capital = 720
+                                        OR = {
+                                            has_country_flag = cvh_proclamation_authorised
+                                            has_country_flag = cvs3_savoy_origin
+                                        }
+                                        OR = {
+                                            government = absolute_monarchy
+                                            government = hms_government
+                                            government = prussian_constitutionalism
+                                            government = absolute_empire
+                                            government = semi_constitutional_empire
+                                            government = constitutional_empire
+                                            government = cvi_absolute_monarchy
+                                            government = cvi_semi_monarchy
+                                            government = cvi_constitutional_monarchy
+                                        }
+                                    }
+                                }
+                            }
+                            owner = {
+                                any_country = {
+                                    limit = {
+                                        exists = yes
+                                        NOT = {
+                                            tag = ITA
+                                            tag = TIE
+                                            tag = CLN
+                                            tag = REB
+                                            has_country_flag = cvh_italian_proclamation_report_received
+                                        }
+                                    }
+                                    set_country_flag = cvh_italian_proclamation_report_received
+                                    country_event = {
+                                        id = 9861726
+                                        days = 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    ITA = {
+                        random_owned = {
+                            limit = {
+                                owner = {
+                                    NOT = {
+                                        ITA = {
+                                            exists = yes
+                                            capital = 720
+                                            OR = {
+                                                has_country_flag = cvh_proclamation_authorised
+                                                has_country_flag = cvs3_savoy_origin
+                                            }
+                                            OR = {
+                                                government = absolute_monarchy
+                                                government = hms_government
+                                                government = prussian_constitutionalism
+                                                government = absolute_empire
+                                                government = semi_constitutional_empire
+                                                government = constitutional_empire
+                                                government = cvi_absolute_monarchy
+                                                government = cvi_semi_monarchy
+                                                government = cvi_constitutional_monarchy
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            owner = {
+                                any_country = {
+                                    limit = {
+                                        exists = yes
+                                        NOT = {
+                                            tag = ITA
+                                            tag = TIE
+                                            tag = CLN
+                                            tag = REB
+                                            has_country_flag = cvh_italian_proclamation_report_received
+                                        }
+                                    }
+                                    set_country_flag = cvh_italian_proclamation_report_received
+                                    country_event = {
+                                        id = 9861727
+                                        days = 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        TIE = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = {
+                            has_global_flag = cvh_italian_proclamation_report_sent
+                        }
+                    }
+                }
+                owner = {
+                    set_global_flag = cvh_italian_proclamation_report_sent
+                    TIE = {
+                        random_owned = {
+                            limit = {
+                                owner = {
+                                    ITA = {
+                                        exists = yes
+                                        capital = 720
+                                        OR = {
+                                            has_country_flag = cvh_proclamation_authorised
+                                            has_country_flag = cvs3_savoy_origin
+                                        }
+                                        OR = {
+                                            government = absolute_monarchy
+                                            government = hms_government
+                                            government = prussian_constitutionalism
+                                            government = absolute_empire
+                                            government = semi_constitutional_empire
+                                            government = constitutional_empire
+                                            government = cvi_absolute_monarchy
+                                            government = cvi_semi_monarchy
+                                            government = cvi_constitutional_monarchy
+                                        }
+                                    }
+                                }
+                            }
+                            owner = {
+                                any_country = {
+                                    limit = {
+                                        exists = yes
+                                        NOT = {
+                                            tag = ITA
+                                            tag = TIE
+                                            tag = CLN
+                                            tag = REB
+                                            has_country_flag = cvh_italian_proclamation_report_received
+                                        }
+                                    }
+                                    set_country_flag = cvh_italian_proclamation_report_received
+                                    country_event = {
+                                        id = 9861726
+                                        days = 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    TIE = {
+                        random_owned = {
+                            limit = {
+                                owner = {
+                                    NOT = {
+                                        ITA = {
+                                            exists = yes
+                                            capital = 720
+                                            OR = {
+                                                has_country_flag = cvh_proclamation_authorised
+                                                has_country_flag = cvs3_savoy_origin
+                                            }
+                                            OR = {
+                                                government = absolute_monarchy
+                                                government = hms_government
+                                                government = prussian_constitutionalism
+                                                government = absolute_empire
+                                                government = semi_constitutional_empire
+                                                government = constitutional_empire
+                                                government = cvi_absolute_monarchy
+                                                government = cvi_semi_monarchy
+                                                government = cvi_constitutional_monarchy
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            owner = {
+                                any_country = {
+                                    limit = {
+                                        exists = yes
+                                        NOT = {
+                                            tag = ITA
+                                            tag = TIE
+                                            tag = CLN
+                                            tag = REB
+                                            has_country_flag = cvh_italian_proclamation_report_received
+                                        }
+                                    }
+                                    set_country_flag = cvh_italian_proclamation_report_received
+                                    country_event = {
+                                        id = 9861727
+                                        days = 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+country_event = { id = 9860007 title = "cv_rail_opening_title" desc = "cv_rail_opening_desc" picture = "cvi_portici" is_triggered_only = yes immediate = {  } option = { name = "cv_rail_opening_a" ai_chance = { factor = 80 } } }

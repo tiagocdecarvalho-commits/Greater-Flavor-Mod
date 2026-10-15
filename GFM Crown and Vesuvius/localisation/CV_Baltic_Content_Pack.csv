@@ -1,0 +1,548 @@
+cvb_provincial_programme_title;Lay a Provincial Programme Before the Landtag;;;;;;;;;;;;;x
+cvb_provincial_programme_desc;The provincial estates govern beneath the imperial crown, but their privileges alone cannot settle the questions of land, schooling and language. Lay a programme before the Landtag and determine whose support its administration will seek.;;;;;;;;;;;;;x
+cvb_loyal;Preserve our rights through loyal provincial service.;;;;;;;;;;;;;x
+cvb_german;Build the province around its German institutions.;;;;;;;;;;;;;x
+cvb_native;Give the provincial peoples a place in public life.;;;;;;;;;;;;;x
+cvb_programme_title;The Provincial Estates Deliberate;;;;;;;;;;;;;x
+cvb_programme_desc;The emperor confirms the old rights of the province, while the Landtag speaks for a narrow circle of matriculated families. Beyond its chamber, merchants seek roads and credit, peasants seek secure farms and instruction in their own language. The estates must decide whether to preserve their accustomed bargain with St Petersburg, enlarge the German institutions upon which their authority rests, or admit the emerging provincial public to a share in government.;;;;;;;;;;;;;x
+cvb_agricultural_credit;Agricultural Credit;;;;;;;;;;;;;x
+cvb_agricultural_credit_desc;Provincial credit supports improvements on working farms.;;;;;;;;;;;;;x
+cvb_credit_title;Establish Provincial Agricultural Credit;;;;;;;;;;;;;x
+cvb_credit_desc;Place an agricultural credit proposal before the estates. A funded commission can support estate lending or secure village purchases, the Landtag will choose how its appropriation is used.;;;;;;;;;;;;;x
+cvb_secure_tenure;Secure Farm Tenure;;;;;;;;;;;;;x
+cvb_secure_tenure_desc;A provincial survey and purchase commission record stable farm holdings.;;;;;;;;;;;;;x
+cvb_tenure_title;Record Tenant Purchase and Farm Boundaries;;;;;;;;;;;;;x
+cvb_tenure_desc;Fund a provincial survey and place its terms before the estates. The commission can record secure purchases or settle disputed holdings and finance improvements to working farms.;;;;;;;;;;;;;x
+cvb_port_works;Baltic Port Works;;;;;;;;;;;;;x
+cvb_port_works_desc;Improved quays and warehouses support commerce and urban employment.;;;;;;;;;;;;;x
+cvb_ports_title;Improve the Baltic Commercial Ports;;;;;;;;;;;;;x
+cvb_ports_desc;Reserve funds for a commercial works programme. The Landtag can concentrate on permanent quays and warehouses or connect a smaller harbour programme with rural improvements.;;;;;;;;;;;;;x
+cvb_parish_schools;Parish School Endowments;;;;;;;;;;;;;x
+cvb_parish_schools_desc;Regular endowments support instruction across the province.;;;;;;;;;;;;;x
+cvb_parish_title;Endow the Parish Schools;;;;;;;;;;;;;x
+cvb_parish_desc;Reserve an endowment for parish instruction. The estates will decide whether to support established teaching or join it to wider provision of vernacular books.;;;;;;;;;;;;;x
+cvb_representative_diet;Representative Provincial Diet;;;;;;;;;;;;;x
+cvb_representative_diet_desc;Town and rural deputies share the business of the provincial estates.;;;;;;;;;;;;;x
+cvb_diet_title;Open the Landtag to Town and Rural Deputies;;;;;;;;;;;;;x
+cvb_diet_desc;Place the representation of towns and communes before the provincial estates. A funded programme can admit elected deputies or establish consultative committees under the existing franchise.;;;;;;;;;;;;;x
+cvb_german_schools_title;Endow German Schools and Technical Chairs;;;;;;;;;;;;;x
+cvb_german_schools_desc;Reserve an endowment for German teaching and technical chairs. The Landtag can concentrate its support on German institutions or combine them with broader provincial studentships.;;;;;;;;;;;;;x
+cvb_settlement_charters;German Settlement Charters;;;;;;;;;;;;;x
+cvb_settlement_charters_desc;Commercial employment and secure contracts support settlers in the provincial towns.;;;;;;;;;;;;;x
+cvb_contract_waiting;Settlement Contract Under Review;;;;;;;;;;;;;x
+cvb_contract_waiting_desc;Berlin is considering a funded provincial settlement contract.;;;;;;;;;;;;;x
+cvb_settlers_est_title;Offer Employment to German Artisans;;;;;;;;;;;;;x
+cvb_settlers_est_desc;The provincial port works can employ skilled families from Germany. Offer a funded settlement contract to Berlin. Acceptance depends on the Prussian government and an available artisan community, refusal returns the reserved appropriation.;;;;;;;;;;;;;x
+cvb_contract_accept_EST;Permit the artisan community to take the contract.;;;;;;;;;;;;;x
+cvb_contract_decline_EST;Decline the contract and return its appropriation.;;;;;;;;;;;;;x
+cvb_contract_est_title;A Settlement Contract for Estland;;;;;;;;;;;;;x
+cvb_contract_est_desc;Provincial merchants offer employment and a settlement contract to a community of Prussian artisans. The proposal strengthens German society beyond the frontier, but our government must weigh its relations with Russia and the claims of employers at home. Families can take the contract if a suitable community is available, the provincial appropriation remains refundable if no agreement is made.;;;;;;;;;;;;;x
+cvb_settlers_ubd_title;Offer Employment to German Artisans;;;;;;;;;;;;;x
+cvb_settlers_ubd_desc;The provincial port works can employ skilled families from Germany. Offer a funded settlement contract to Berlin. Acceptance depends on the Prussian government and an available artisan community, refusal returns the reserved appropriation.;;;;;;;;;;;;;x
+cvb_contract_accept_UBD;Permit the artisan community to take the contract.;;;;;;;;;;;;;x
+cvb_contract_decline_UBD;Decline the contract and return its appropriation.;;;;;;;;;;;;;x
+cvb_contract_ubd_title;A Settlement Contract for Livonia;;;;;;;;;;;;;x
+cvb_contract_ubd_desc;Provincial merchants offer employment and a settlement contract to a community of Prussian artisans. The proposal strengthens German society beyond the frontier, but our government must weigh its relations with Russia and the claims of employers at home. Families can take the contract if a suitable community is available, the provincial appropriation remains refundable if no agreement is made.;;;;;;;;;;;;;x
+cvb_settlers_lat_title;Offer Employment to German Artisans;;;;;;;;;;;;;x
+cvb_settlers_lat_desc;The provincial port works can employ skilled families from Germany. Offer a funded settlement contract to Berlin. Acceptance depends on the Prussian government and an available artisan community, refusal returns the reserved appropriation.;;;;;;;;;;;;;x
+cvb_contract_accept_LAT;Permit the artisan community to take the contract.;;;;;;;;;;;;;x
+cvb_contract_decline_LAT;Decline the contract and return its appropriation.;;;;;;;;;;;;;x
+cvb_contract_lat_title;A Settlement Contract for Courland and Semigallia;;;;;;;;;;;;;x
+cvb_contract_lat_desc;Provincial merchants offer employment and a settlement contract to a community of Prussian artisans. The proposal strengthens German society beyond the frontier, but our government must weigh its relations with Russia and the claims of employers at home. Families can take the contract if a suitable community is available, the provincial appropriation remains refundable if no agreement is made.;;;;;;;;;;;;;x
+cvb_settlers_welcome;Honour the settlement contracts.;;;;;;;;;;;;;x
+cvb_settlers_received_title;German Artisans Reach the Provincial Port;;;;;;;;;;;;;x
+cvb_settlers_received_desc;The contracted community has reached the provincial port. Employers provide work and the provincial office records its settlement. These families strengthen the German-speaking towns, the surrounding countryside retains its own languages and institutions.;;;;;;;;;;;;;x
+cvb_settlers_close;Close the contract and recover the reserve.;;;;;;;;;;;;;x
+cvb_settlers_refused_title;The Settlement Contract Is Withdrawn;;;;;;;;;;;;;x
+cvb_settlers_refused_desc;Berlin has declined the proposed settlement, or no suitable artisan community is available. The provincial office closes the contract and returns the reserved appropriation. Port employment remains open to ordinary migration.;;;;;;;;;;;;;x
+cvb_contract_recover;Withdraw the unanswered contract.;;;;;;;;;;;;;x
+cvb_contract_expired_title;The Settlement Appropriation Returns;;;;;;;;;;;;;x
+cvb_contract_expired_desc;The proposed settlement has not received a timely reply. The provincial office withdraws the contract and returns the reserved appropriation. Any later reply must refer to a new agreement.;;;;;;;;;;;;;x
+cvb_institutions_est_modifier;Reval Guild Endowments;;;;;;;;;;;;;x
+cvb_institutions_est_modifier_desc;An endowment supports the province's established German institutions and commercial life.;;;;;;;;;;;;;x
+cvb_institutions_est_title;Endow Reval's German Civic Institutions;;;;;;;;;;;;;x
+cvb_institutions_est_desc;Reserve a civic endowment for Reval. The Landtag will choose between established German institutions and a commercial programme open to a broader provincial public.;;;;;;;;;;;;;x
+cvb_institutions_ubd_modifier;Dorpat University Chairs;;;;;;;;;;;;;x
+cvb_institutions_ubd_modifier_desc;An endowment supports the province's established German institutions and commercial life.;;;;;;;;;;;;;x
+cvb_institutions_ubd_title;Endow the German Chairs at Dorpat;;;;;;;;;;;;;x
+cvb_institutions_ubd_desc;Place a funded endowment for Dorpat before the estates. The commission can support established German chairs or widen access through provincial studentships and parish instruction.;;;;;;;;;;;;;x
+cvb_institutions_lat_modifier;Couronian Estate Commission;;;;;;;;;;;;;x
+cvb_institutions_lat_modifier_desc;An endowment supports the province's established German institutions and commercial life.;;;;;;;;;;;;;x
+cvb_institutions_lat_title;Restore a Couronian Estate Commission;;;;;;;;;;;;;x
+cvb_institutions_lat_desc;Fund a Couronian estate commission and put its duties before the Landtag. Deputies can preserve established institutions or direct the commission towards secure tenant purchases.;;;;;;;;;;;;;x
+cvb_german_question_title;Declare Our Place in the German Nation;;;;;;;;;;;;;x
+cvb_german_question_desc;Baltic German institutions do not themselves confer a claim to lead Germany. Let the independent estates adopt an explicit German national mandate. This opens the existing German proclamation to our government, whose territorial and diplomatic requirements must still be met.;;;;;;;;;;;;;x
+cvb_appeal_pending;Baltic Appeal Under Review;;;;;;;;;;;;;x
+cvb_appeal_pending_desc;The German government is considering the Baltic request for support.;;;;;;;;;;;;;x
+cvb_appeal_est_title;Appeal to Germany for a Defensive Convention;;;;;;;;;;;;;x
+cvb_appeal_est_desc;A German connection may help an independent Baltic government withstand Russia. Ask for a defensive convention. Berlin can accept or decline, support requires an explicit agreement, and our government must still defend its own country.;;;;;;;;;;;;;x
+cvb_appeal_accept_EST;Agree to a defensive convention.;;;;;;;;;;;;;x
+cvb_appeal_decline_EST;Leave the Baltic government to its own defence.;;;;;;;;;;;;;x
+cvb_appeal_answer_est_title;The Baltic Government Appeals to Berlin;;;;;;;;;;;;;x
+cvb_appeal_answer_est_desc;An independent Baltic government asks us to defend its liberties against Russia. German language and institutions give its deputies a claim upon our attention, but a convention could make their frontier our responsibility. The government must weigh Russian relations, the balance of power and the prospect of a wider war. Shared culture does not oblige us to accept the appeal.;;;;;;;;;;;;;x
+cvb_appeal_ubd_title;Appeal to Germany for a Defensive Convention;;;;;;;;;;;;;x
+cvb_appeal_ubd_desc;A German connection may help an independent Baltic government withstand Russia. Ask for a defensive convention. Berlin can accept or decline, support requires an explicit agreement, and our government must still defend its own country.;;;;;;;;;;;;;x
+cvb_appeal_accept_UBD;Agree to a defensive convention.;;;;;;;;;;;;;x
+cvb_appeal_decline_UBD;Leave the Baltic government to its own defence.;;;;;;;;;;;;;x
+cvb_appeal_answer_ubd_title;The Baltic Government Appeals to Berlin;;;;;;;;;;;;;x
+cvb_appeal_answer_ubd_desc;An independent Baltic government asks us to defend its liberties against Russia. German language and institutions give its deputies a claim upon our attention, but a convention could make their frontier our responsibility. The government must weigh Russian relations, the balance of power and the prospect of a wider war. Shared culture does not oblige us to accept the appeal.;;;;;;;;;;;;;x
+cvb_appeal_lat_title;Appeal to Germany for a Defensive Convention;;;;;;;;;;;;;x
+cvb_appeal_lat_desc;A German connection may help an independent Baltic government withstand Russia. Ask for a defensive convention. Berlin can accept or decline, support requires an explicit agreement, and our government must still defend its own country.;;;;;;;;;;;;;x
+cvb_appeal_accept_LAT;Agree to a defensive convention.;;;;;;;;;;;;;x
+cvb_appeal_decline_LAT;Leave the Baltic government to its own defence.;;;;;;;;;;;;;x
+cvb_appeal_answer_lat_title;The Baltic Government Appeals to Berlin;;;;;;;;;;;;;x
+cvb_appeal_answer_lat_desc;An independent Baltic government asks us to defend its liberties against Russia. German language and institutions give its deputies a claim upon our attention, but a convention could make their frontier our responsibility. The government must weigh Russian relations, the balance of power and the prospect of a wider war. Shared culture does not oblige us to accept the appeal.;;;;;;;;;;;;;x
+cvb_convention_ack;Ratify the defensive convention.;;;;;;;;;;;;;x
+cvb_convention_granted_title;Berlin Agrees to a Defensive Convention;;;;;;;;;;;;;x
+cvb_convention_granted_desc;Berlin has agreed to a defensive convention. The alliance connects our security with German diplomacy, but it does not decide the struggle with Russia. Our government retains responsibility for its forces and for the political settlement it asks its people to defend.;;;;;;;;;;;;;x
+cvb_convention_close;Continue our own preparations.;;;;;;;;;;;;;x
+cvb_convention_refused_title;Berlin Declines the Baltic Appeal;;;;;;;;;;;;;x
+cvb_convention_refused_desc;Berlin declines the proposed defensive convention. Its government will not make the Baltic frontier its responsibility under the present circumstances. The provincial government must rely upon its own preparations and upon agreements among the Baltic estates.;;;;;;;;;;;;;x
+cvb_convention_expire;Close the unanswered appeal.;;;;;;;;;;;;;x
+cvb_convention_expired_title;The Baltic Appeal Remains Unanswered;;;;;;;;;;;;;x
+cvb_convention_expired_desc;No convention has followed our appeal. The government closes the request and resumes its own defensive preparations. Relations with Germany remain a matter for ordinary diplomacy.;;;;;;;;;;;;;x
+cvb_provincial_defense;Provincial Defence Council;;;;;;;;;;;;;x
+cvb_provincial_defense_desc;Local councils coordinate supplies and the defence of provincial liberties.;;;;;;;;;;;;;x
+cvb_landwehr_title;Organise a Provincial Defence Council;;;;;;;;;;;;;x
+cvb_landwehr_desc;Reserve funds for a provincial defence council. The Landtag will choose between an officer-led supply administration and shared responsibility through town and parish militia boards.;;;;;;;;;;;;;x
+cvb_independence_est_title;Put Provincial Independence Before the Estates;;;;;;;;;;;;;x
+cvb_independence_est_desc;A declaration of independence would break the bargain under which the emperor protects our provincial laws. The estates must decide whether to renounce imperial allegiance and face Russia, or continue their work beneath the crown.;;;;;;;;;;;;;x
+cvb_declare_EST;Renounce imperial allegiance and defend the province.;;;;;;;;;;;;;x
+cvb_remain_EST;Continue under the imperial crown.;;;;;;;;;;;;;x
+cvb_declaration_est_title;The Estates of Estland Consider Independence;;;;;;;;;;;;;x
+cvb_declaration_est_desc;The provincial estates can no longer obtain the assurances they seek from St Petersburg. Deputies propose that the province assume responsibility for its own laws, revenues and defence. Such a declaration will change the government beneath which we live and invite an imperial demand for submission. The decision belongs to the estates: the council cannot make it in their name.;;;;;;;;;;;;;x
+cvb_russian_reconquest_EST;Restore imperial authority.;;;;;;;;;;;;;x
+cvb_russian_recognise_EST;Recognise the provincial declaration.;;;;;;;;;;;;;x
+cvb_russian_answer_est_title;Provincial Independence in Estland;;;;;;;;;;;;;x
+cvb_russian_answer_est_desc;The provincial estates have renounced imperial allegiance. Their declaration challenges the emperor's sovereignty and the position of the other Baltic provinces. The ministry can recognise the new government or demand its submission. A refusal commits Russia to restore its authority by arms, rather than leaving the declaration unanswered.;;;;;;;;;;;;;x
+cvb_independence_ack_EST;Prepare the congress of the Baltic estates.;;;;;;;;;;;;;x
+cvb_independent_est_title;Independence Secured;;;;;;;;;;;;;x
+cvb_independent_est_desc;Imperial hostilities have ended and the province retains its own government. The settlement leaves the provincial languages and institutions in place. Delegates will now meet to consider a common constitution, whose terms must be accepted by each participating diet before any administration passes into a united government.;;;;;;;;;;;;;x
+cvb_integration_accept_EST;Accept the common imperial administration.;;;;;;;;;;;;;x
+cvb_integration_charter_EST;Petition for a renewed provincial charter.;;;;;;;;;;;;;x
+cvb_integration_resist_EST;Call the Baltic estates together and resist.;;;;;;;;;;;;;x
+cvb_integration_est_title;The Provincial Administration Faces Integration;;;;;;;;;;;;;x
+cvb_integration_est_desc;St Petersburg is abolishing the Baltic Governor-Generalship and placing the province more directly beneath the imperial ministries. The governorates already belong to Russia, the present demand concerns their separate administration. The estates may accept incorporation into the common imperial administration, ask for a renewed charter, or invite the neighbouring provinces to resist together. A refusal cannot preserve provincial liberties without the means to defend them.;;;;;;;;;;;;;x
+cvb_charter_grant_EST;Confirm the provincial charter.;;;;;;;;;;;;;x
+cvb_charter_deny_EST;Return the final demand for integration.;;;;;;;;;;;;;x
+cvb_charter_est_title;The Estates Petition for a Renewed Charter;;;;;;;;;;;;;x
+cvb_charter_est_desc;The estates ask the emperor to retain their separate administration beneath a renewed provincial charter. They offer loyal service, but the ministries object that such an exception would weaken the programme of integration. The crown can confirm the charter or return a final demand for compliance.;;;;;;;;;;;;;x
+cvb_final_accept_EST;Accept integration.;;;;;;;;;;;;;x
+cvb_final_resist_EST;Defend our provincial liberties together.;;;;;;;;;;;;;x
+cvb_charter_denied_est_title;The Imperial Ministry Refuses the Charter;;;;;;;;;;;;;x
+cvb_charter_denied_est_desc;The ministry refuses to retain the separate provincial administration. Its reply leaves the estates a choice between accepting integration and making good their claim to resist. Deputies must now decide whether the province will surrender its administration or defend it with the neighbouring Baltic diets.;;;;;;;;;;;;;x
+cvb_independence_ubd_title;Put Provincial Independence Before the Estates;;;;;;;;;;;;;x
+cvb_independence_ubd_desc;A declaration of independence would break the bargain under which the emperor protects our provincial laws. The estates must decide whether to renounce imperial allegiance and face Russia, or continue their work beneath the crown.;;;;;;;;;;;;;x
+cvb_declare_UBD;Renounce imperial allegiance and defend the province.;;;;;;;;;;;;;x
+cvb_remain_UBD;Continue under the imperial crown.;;;;;;;;;;;;;x
+cvb_declaration_ubd_title;The Estates of Livonia Consider Independence;;;;;;;;;;;;;x
+cvb_declaration_ubd_desc;The provincial estates can no longer obtain the assurances they seek from St Petersburg. Deputies propose that the province assume responsibility for its own laws, revenues and defence. Such a declaration will change the government beneath which we live and invite an imperial demand for submission. The decision belongs to the estates: the council cannot make it in their name.;;;;;;;;;;;;;x
+cvb_russian_reconquest_UBD;Restore imperial authority.;;;;;;;;;;;;;x
+cvb_russian_recognise_UBD;Recognise the provincial declaration.;;;;;;;;;;;;;x
+cvb_russian_answer_ubd_title;Provincial Independence in Livonia;;;;;;;;;;;;;x
+cvb_russian_answer_ubd_desc;The provincial estates have renounced imperial allegiance. Their declaration challenges the emperor's sovereignty and the position of the other Baltic provinces. The ministry can recognise the new government or demand its submission. A refusal commits Russia to restore its authority by arms, rather than leaving the declaration unanswered.;;;;;;;;;;;;;x
+cvb_independence_ack_UBD;Prepare the congress of the Baltic estates.;;;;;;;;;;;;;x
+cvb_independent_ubd_title;Independence Secured;;;;;;;;;;;;;x
+cvb_independent_ubd_desc;Imperial hostilities have ended and the province retains its own government. The settlement leaves the provincial languages and institutions in place. Delegates will now meet to consider a common constitution, whose terms must be accepted by each participating diet before any administration passes into a united government.;;;;;;;;;;;;;x
+cvb_integration_accept_UBD;Accept the common imperial administration.;;;;;;;;;;;;;x
+cvb_integration_charter_UBD;Petition for a renewed provincial charter.;;;;;;;;;;;;;x
+cvb_integration_resist_UBD;Call the Baltic estates together and resist.;;;;;;;;;;;;;x
+cvb_integration_ubd_title;The Provincial Administration Faces Integration;;;;;;;;;;;;;x
+cvb_integration_ubd_desc;St Petersburg is abolishing the Baltic Governor-Generalship and placing the province more directly beneath the imperial ministries. The governorates already belong to Russia, the present demand concerns their separate administration. The estates may accept incorporation into the common imperial administration, ask for a renewed charter, or invite the neighbouring provinces to resist together. A refusal cannot preserve provincial liberties without the means to defend them.;;;;;;;;;;;;;x
+cvb_charter_grant_UBD;Confirm the provincial charter.;;;;;;;;;;;;;x
+cvb_charter_deny_UBD;Return the final demand for integration.;;;;;;;;;;;;;x
+cvb_charter_ubd_title;The Estates Petition for a Renewed Charter;;;;;;;;;;;;;x
+cvb_charter_ubd_desc;The estates ask the emperor to retain their separate administration beneath a renewed provincial charter. They offer loyal service, but the ministries object that such an exception would weaken the programme of integration. The crown can confirm the charter or return a final demand for compliance.;;;;;;;;;;;;;x
+cvb_final_accept_UBD;Accept integration.;;;;;;;;;;;;;x
+cvb_final_resist_UBD;Defend our provincial liberties together.;;;;;;;;;;;;;x
+cvb_charter_denied_ubd_title;The Imperial Ministry Refuses the Charter;;;;;;;;;;;;;x
+cvb_charter_denied_ubd_desc;The ministry refuses to retain the separate provincial administration. Its reply leaves the estates a choice between accepting integration and making good their claim to resist. Deputies must now decide whether the province will surrender its administration or defend it with the neighbouring Baltic diets.;;;;;;;;;;;;;x
+cvb_independence_lat_title;Put Provincial Independence Before the Estates;;;;;;;;;;;;;x
+cvb_independence_lat_desc;A declaration of independence would break the bargain under which the emperor protects our provincial laws. The estates must decide whether to renounce imperial allegiance and face Russia, or continue their work beneath the crown.;;;;;;;;;;;;;x
+cvb_declare_LAT;Renounce imperial allegiance and defend the province.;;;;;;;;;;;;;x
+cvb_remain_LAT;Continue under the imperial crown.;;;;;;;;;;;;;x
+cvb_declaration_lat_title;The Estates of Courland and Semigallia Consider Independence;;;;;;;;;;;;;x
+cvb_declaration_lat_desc;The provincial estates can no longer obtain the assurances they seek from St Petersburg. Deputies propose that the province assume responsibility for its own laws, revenues and defence. Such a declaration will change the government beneath which we live and invite an imperial demand for submission. The decision belongs to the estates: the council cannot make it in their name.;;;;;;;;;;;;;x
+cvb_russian_reconquest_LAT;Restore imperial authority.;;;;;;;;;;;;;x
+cvb_russian_recognise_LAT;Recognise the provincial declaration.;;;;;;;;;;;;;x
+cvb_russian_answer_lat_title;Provincial Independence in Courland and Semigallia;;;;;;;;;;;;;x
+cvb_russian_answer_lat_desc;The provincial estates have renounced imperial allegiance. Their declaration challenges the emperor's sovereignty and the position of the other Baltic provinces. The ministry can recognise the new government or demand its submission. A refusal commits Russia to restore its authority by arms, rather than leaving the declaration unanswered.;;;;;;;;;;;;;x
+cvb_independence_ack_LAT;Prepare the congress of the Baltic estates.;;;;;;;;;;;;;x
+cvb_independent_lat_title;Independence Secured;;;;;;;;;;;;;x
+cvb_independent_lat_desc;Imperial hostilities have ended and the province retains its own government. The settlement leaves the provincial languages and institutions in place. Delegates will now meet to consider a common constitution, whose terms must be accepted by each participating diet before any administration passes into a united government.;;;;;;;;;;;;;x
+cvb_integration_accept_LAT;Accept the common imperial administration.;;;;;;;;;;;;;x
+cvb_integration_charter_LAT;Petition for a renewed provincial charter.;;;;;;;;;;;;;x
+cvb_integration_resist_LAT;Call the Baltic estates together and resist.;;;;;;;;;;;;;x
+cvb_integration_lat_title;The Provincial Administration Faces Integration;;;;;;;;;;;;;x
+cvb_integration_lat_desc;St Petersburg is abolishing the Baltic Governor-Generalship and placing the province more directly beneath the imperial ministries. The governorates already belong to Russia, the present demand concerns their separate administration. The estates may accept incorporation into the common imperial administration, ask for a renewed charter, or invite the neighbouring provinces to resist together. A refusal cannot preserve provincial liberties without the means to defend them.;;;;;;;;;;;;;x
+cvb_charter_grant_LAT;Confirm the provincial charter.;;;;;;;;;;;;;x
+cvb_charter_deny_LAT;Return the final demand for integration.;;;;;;;;;;;;;x
+cvb_charter_lat_title;The Estates Petition for a Renewed Charter;;;;;;;;;;;;;x
+cvb_charter_lat_desc;The estates ask the emperor to retain their separate administration beneath a renewed provincial charter. They offer loyal service, but the ministries object that such an exception would weaken the programme of integration. The crown can confirm the charter or return a final demand for compliance.;;;;;;;;;;;;;x
+cvb_final_accept_LAT;Accept integration.;;;;;;;;;;;;;x
+cvb_final_resist_LAT;Defend our provincial liberties together.;;;;;;;;;;;;;x
+cvb_charter_denied_lat_title;The Imperial Ministry Refuses the Charter;;;;;;;;;;;;;x
+cvb_charter_denied_lat_desc;The ministry refuses to retain the separate provincial administration. Its reply leaves the estates a choice between accepting integration and making good their claim to resist. Deputies must now decide whether the province will surrender its administration or defend it with the neighbouring Baltic diets.;;;;;;;;;;;;;x
+cvb_charter_thanks;Continue the provincial administration.;;;;;;;;;;;;;x
+cvb_charter_confirmed_title;The Provincial Charter Is Confirmed;;;;;;;;;;;;;x
+cvb_charter_confirmed_desc;The emperor confirms a separate provincial administration. The Landtag retains its duties beneath the imperial crown, its liberties now rest upon the renewed charter and the political bargain made in St Petersburg. Reform and provincial independence remain questions for future diets.;;;;;;;;;;;;;x
+cvb_successors_ack;Record the national claims beneath imperial government.;;;;;;;;;;;;;x
+cvb_national_successors_title;The Separate Provincial Administrations End;;;;;;;;;;;;;x
+cvb_national_successors_desc;The three provincial administrations have passed beneath the imperial ministries. Their separate German governments no longer provide a basis for provincial sovereignty. Estonian and Latvian national claims endure across the former governorate boundaries, while Baltic German communities remain among the inhabitants of the integrated provinces.;;;;;;;;;;;;;x
+cvb_congress_duchy_est_title;Convene the Estates for a United Baltic Duchy;;;;;;;;;;;;;x
+cvb_congress_duchy_est_desc;Invite the neighbouring Baltic diets to a common settlement. Accession requires their agreement and secure provincial capitals, a foreign puppet government or an explicit refusal cannot be annexed by the congress.;;;;;;;;;;;;;x
+cvb_congress_kingdom_est_title;Convene the Estates for a Kingdom of Livonia;;;;;;;;;;;;;x
+cvb_congress_kingdom_est_desc;Invite the neighbouring Baltic diets to a common settlement. Accession requires their agreement and secure provincial capitals, a foreign puppet government or an explicit refusal cannot be annexed by the congress.;;;;;;;;;;;;;x
+cvb_congress_confederation_est_title;Convene the Estates for a Baltic Confederation;;;;;;;;;;;;;x
+cvb_congress_confederation_est_desc;Invite the neighbouring Baltic diets to a common settlement. Accession requires their agreement and secure provincial capitals, a foreign puppet government or an explicit refusal cannot be annexed by the congress.;;;;;;;;;;;;;x
+cvb_join_EST_UBD;Accept accession to the common government.;;;;;;;;;;;;;x
+cvb_refuse_EST_UBD;Retain our separate provincial government.;;;;;;;;;;;;;x
+cvb_invitation_est_ubd_title;The Baltic Estates Invite Livonia;;;;;;;;;;;;;x
+cvb_invitation_est_ubd_desc;The neighbouring provincial government proposes a common Baltic settlement. Its congress would combine revenues and defence while admitting our estates to the new government. Accession would end the separate provincial administration. The diet may accept that bargain or retain its own government, no authority outside this chamber can give its assent.;;;;;;;;;;;;;x
+cvb_join_EST_LAT;Accept accession to the common government.;;;;;;;;;;;;;x
+cvb_refuse_EST_LAT;Retain our separate provincial government.;;;;;;;;;;;;;x
+cvb_invitation_est_lat_title;The Baltic Estates Invite Courland and Semigallia;;;;;;;;;;;;;x
+cvb_invitation_est_lat_desc;The neighbouring provincial government proposes a common Baltic settlement. Its congress would combine revenues and defence while admitting our estates to the new government. Accession would end the separate provincial administration. The diet may accept that bargain or retain its own government, no authority outside this chamber can give its assent.;;;;;;;;;;;;;x
+cvb_union_ratify_EST_duchy;Ratify the accession and establish the common government.;;;;;;;;;;;;;x
+cvb_union_est_duchy_title;The Common Baltic Settlement;;;;;;;;;;;;;x
+cvb_union_est_duchy_desc;The provincial diets have accepted accession and their capitals are secure. Their agreement establishes one treasury and a common defence, but the form of government follows the settlement proposed by the convening estates. Provincial administrations now pass into the united government, whose responsibilities extend to German towns and to the Estonian and Latvian countryside alike.;;;;;;;;;;;;;x
+cvb_union_ratify_EST_kingdom;Ratify the accession and establish the common government.;;;;;;;;;;;;;x
+cvb_union_est_kingdom_title;The Common Baltic Settlement;;;;;;;;;;;;;x
+cvb_union_est_kingdom_desc;The provincial diets have accepted accession and their capitals are secure. Their agreement establishes one treasury and a common defence, but the form of government follows the settlement proposed by the convening estates. Provincial administrations now pass into the united government, whose responsibilities extend to German towns and to the Estonian and Latvian countryside alike.;;;;;;;;;;;;;x
+cvb_union_ratify_EST_confederation;Ratify the accession and establish the common government.;;;;;;;;;;;;;x
+cvb_union_est_confederation_title;The Common Baltic Settlement;;;;;;;;;;;;;x
+cvb_union_est_confederation_desc;The provincial diets have accepted accession and their capitals are secure. Their agreement establishes one treasury and a common defence, but the form of government follows the settlement proposed by the convening estates. Provincial administrations now pass into the united government, whose responsibilities extend to German towns and to the Estonian and Latvian countryside alike.;;;;;;;;;;;;;x
+cvb_congress_close_EST;Close the congress and retain our government.;;;;;;;;;;;;;x
+cvb_congress_failed_est_title;The Accession Congress Fails;;;;;;;;;;;;;x
+cvb_congress_failed_est_desc;A provincial diet has refused accession. The proposed common government therefore lacks the consent upon which its settlement rests. The convening estates must close the congress and retain their own administration. A province that has rejected imperial integration must now decide its own defence.;;;;;;;;;;;;;x
+cvb_congress_duchy_ubd_title;Convene the Estates for a United Baltic Duchy;;;;;;;;;;;;;x
+cvb_congress_duchy_ubd_desc;Invite the neighbouring Baltic diets to a common settlement. Accession requires their agreement and secure provincial capitals, a foreign puppet government or an explicit refusal cannot be annexed by the congress.;;;;;;;;;;;;;x
+cvb_congress_kingdom_ubd_title;Convene the Estates for a Kingdom of Livonia;;;;;;;;;;;;;x
+cvb_congress_kingdom_ubd_desc;Invite the neighbouring Baltic diets to a common settlement. Accession requires their agreement and secure provincial capitals, a foreign puppet government or an explicit refusal cannot be annexed by the congress.;;;;;;;;;;;;;x
+cvb_congress_confederation_ubd_title;Convene the Estates for a Baltic Confederation;;;;;;;;;;;;;x
+cvb_congress_confederation_ubd_desc;Invite the neighbouring Baltic diets to a common settlement. Accession requires their agreement and secure provincial capitals, a foreign puppet government or an explicit refusal cannot be annexed by the congress.;;;;;;;;;;;;;x
+cvb_join_UBD_EST;Accept accession to the common government.;;;;;;;;;;;;;x
+cvb_refuse_UBD_EST;Retain our separate provincial government.;;;;;;;;;;;;;x
+cvb_invitation_ubd_est_title;The Baltic Estates Invite Estland;;;;;;;;;;;;;x
+cvb_invitation_ubd_est_desc;The neighbouring provincial government proposes a common Baltic settlement. Its congress would combine revenues and defence while admitting our estates to the new government. Accession would end the separate provincial administration. The diet may accept that bargain or retain its own government, no authority outside this chamber can give its assent.;;;;;;;;;;;;;x
+cvb_join_UBD_LAT;Accept accession to the common government.;;;;;;;;;;;;;x
+cvb_refuse_UBD_LAT;Retain our separate provincial government.;;;;;;;;;;;;;x
+cvb_invitation_ubd_lat_title;The Baltic Estates Invite Courland and Semigallia;;;;;;;;;;;;;x
+cvb_invitation_ubd_lat_desc;The neighbouring provincial government proposes a common Baltic settlement. Its congress would combine revenues and defence while admitting our estates to the new government. Accession would end the separate provincial administration. The diet may accept that bargain or retain its own government, no authority outside this chamber can give its assent.;;;;;;;;;;;;;x
+cvb_union_ratify_UBD_duchy;Ratify the accession and establish the common government.;;;;;;;;;;;;;x
+cvb_union_ubd_duchy_title;The Common Baltic Settlement;;;;;;;;;;;;;x
+cvb_union_ubd_duchy_desc;The provincial diets have accepted accession and their capitals are secure. Their agreement establishes one treasury and a common defence, but the form of government follows the settlement proposed by the convening estates. Provincial administrations now pass into the united government, whose responsibilities extend to German towns and to the Estonian and Latvian countryside alike.;;;;;;;;;;;;;x
+cvb_union_ratify_UBD_kingdom;Ratify the accession and establish the common government.;;;;;;;;;;;;;x
+cvb_union_ubd_kingdom_title;The Common Baltic Settlement;;;;;;;;;;;;;x
+cvb_union_ubd_kingdom_desc;The provincial diets have accepted accession and their capitals are secure. Their agreement establishes one treasury and a common defence, but the form of government follows the settlement proposed by the convening estates. Provincial administrations now pass into the united government, whose responsibilities extend to German towns and to the Estonian and Latvian countryside alike.;;;;;;;;;;;;;x
+cvb_union_ratify_UBD_confederation;Ratify the accession and establish the common government.;;;;;;;;;;;;;x
+cvb_union_ubd_confederation_title;The Common Baltic Settlement;;;;;;;;;;;;;x
+cvb_union_ubd_confederation_desc;The provincial diets have accepted accession and their capitals are secure. Their agreement establishes one treasury and a common defence, but the form of government follows the settlement proposed by the convening estates. Provincial administrations now pass into the united government, whose responsibilities extend to German towns and to the Estonian and Latvian countryside alike.;;;;;;;;;;;;;x
+cvb_congress_close_UBD;Close the congress and retain our government.;;;;;;;;;;;;;x
+cvb_congress_failed_ubd_title;The Accession Congress Fails;;;;;;;;;;;;;x
+cvb_congress_failed_ubd_desc;A provincial diet has refused accession. The proposed common government therefore lacks the consent upon which its settlement rests. The convening estates must close the congress and retain their own administration. A province that has rejected imperial integration must now decide its own defence.;;;;;;;;;;;;;x
+cvb_congress_duchy_lat_title;Convene the Estates for a United Baltic Duchy;;;;;;;;;;;;;x
+cvb_congress_duchy_lat_desc;Invite the neighbouring Baltic diets to a common settlement. Accession requires their agreement and secure provincial capitals, a foreign puppet government or an explicit refusal cannot be annexed by the congress.;;;;;;;;;;;;;x
+cvb_congress_kingdom_lat_title;Convene the Estates for a Kingdom of Livonia;;;;;;;;;;;;;x
+cvb_congress_kingdom_lat_desc;Invite the neighbouring Baltic diets to a common settlement. Accession requires their agreement and secure provincial capitals, a foreign puppet government or an explicit refusal cannot be annexed by the congress.;;;;;;;;;;;;;x
+cvb_congress_confederation_lat_title;Convene the Estates for a Baltic Confederation;;;;;;;;;;;;;x
+cvb_congress_confederation_lat_desc;Invite the neighbouring Baltic diets to a common settlement. Accession requires their agreement and secure provincial capitals, a foreign puppet government or an explicit refusal cannot be annexed by the congress.;;;;;;;;;;;;;x
+cvb_join_LAT_EST;Accept accession to the common government.;;;;;;;;;;;;;x
+cvb_refuse_LAT_EST;Retain our separate provincial government.;;;;;;;;;;;;;x
+cvb_invitation_lat_est_title;The Baltic Estates Invite Estland;;;;;;;;;;;;;x
+cvb_invitation_lat_est_desc;The neighbouring provincial government proposes a common Baltic settlement. Its congress would combine revenues and defence while admitting our estates to the new government. Accession would end the separate provincial administration. The diet may accept that bargain or retain its own government, no authority outside this chamber can give its assent.;;;;;;;;;;;;;x
+cvb_join_LAT_UBD;Accept accession to the common government.;;;;;;;;;;;;;x
+cvb_refuse_LAT_UBD;Retain our separate provincial government.;;;;;;;;;;;;;x
+cvb_invitation_lat_ubd_title;The Baltic Estates Invite Livonia;;;;;;;;;;;;;x
+cvb_invitation_lat_ubd_desc;The neighbouring provincial government proposes a common Baltic settlement. Its congress would combine revenues and defence while admitting our estates to the new government. Accession would end the separate provincial administration. The diet may accept that bargain or retain its own government, no authority outside this chamber can give its assent.;;;;;;;;;;;;;x
+cvb_union_ratify_LAT_duchy;Ratify the accession and establish the common government.;;;;;;;;;;;;;x
+cvb_union_lat_duchy_title;The Common Baltic Settlement;;;;;;;;;;;;;x
+cvb_union_lat_duchy_desc;The provincial diets have accepted accession and their capitals are secure. Their agreement establishes one treasury and a common defence, but the form of government follows the settlement proposed by the convening estates. Provincial administrations now pass into the united government, whose responsibilities extend to German towns and to the Estonian and Latvian countryside alike.;;;;;;;;;;;;;x
+cvb_union_ratify_LAT_kingdom;Ratify the accession and establish the common government.;;;;;;;;;;;;;x
+cvb_union_lat_kingdom_title;The Common Baltic Settlement;;;;;;;;;;;;;x
+cvb_union_lat_kingdom_desc;The provincial diets have accepted accession and their capitals are secure. Their agreement establishes one treasury and a common defence, but the form of government follows the settlement proposed by the convening estates. Provincial administrations now pass into the united government, whose responsibilities extend to German towns and to the Estonian and Latvian countryside alike.;;;;;;;;;;;;;x
+cvb_union_ratify_LAT_confederation;Ratify the accession and establish the common government.;;;;;;;;;;;;;x
+cvb_union_lat_confederation_title;The Common Baltic Settlement;;;;;;;;;;;;;x
+cvb_union_lat_confederation_desc;The provincial diets have accepted accession and their capitals are secure. Their agreement establishes one treasury and a common defence, but the form of government follows the settlement proposed by the convening estates. Provincial administrations now pass into the united government, whose responsibilities extend to German towns and to the Estonian and Latvian countryside alike.;;;;;;;;;;;;;x
+cvb_congress_close_LAT;Close the congress and retain our government.;;;;;;;;;;;;;x
+cvb_congress_failed_lat_title;The Accession Congress Fails;;;;;;;;;;;;;x
+cvb_congress_failed_lat_desc;A provincial diet has refused accession. The proposed common government therefore lacks the consent upon which its settlement rests. The convening estates must close the congress and retain their own administration. A province that has rejected imperial integration must now decide its own defence.;;;;;;;;;;;;;x
+cvb_charter_duchy_title;Revise the Ducal Articles;;;;;;;;;;;;;x
+cvb_charter_duchy_desc;The united government must settle the authority of crown and chamber. Place a revision before the estates, retaining the country's agreed settlement while determining how ministers answer for its administration.;;;;;;;;;;;;;x
+cvb_parliament_duchy;Make ministers answer to the elected chamber.;;;;;;;;;;;;;x
+cvb_semi_duchy;Retain the crown and the representative estates.;;;;;;;;;;;;;x
+cvb_absolute_duchy;Reserve sovereign authority to the crown.;;;;;;;;;;;;;x
+cvb_constitution_duchy_title;Crown and Chamber;;;;;;;;;;;;;x
+cvb_constitution_duchy_desc;The settlement established a united country, it did not settle every claim of crown and chamber. Deputies propose that ministers answer to an elected legislature. Conservative estates instead defend the crown's right to appoint its government, while another faction would restore unrestricted royal authority. Each proposal preserves the united settlement but changes the manner in which it is governed.;;;;;;;;;;;;;x
+cvb_charter_kingdom_title;Revise the Royal Constitution;;;;;;;;;;;;;x
+cvb_charter_kingdom_desc;The united government must settle the authority of crown and chamber. Place a revision before the estates, retaining the country's agreed settlement while determining how ministers answer for its administration.;;;;;;;;;;;;;x
+cvb_parliament_kingdom;Make ministers answer to the elected chamber.;;;;;;;;;;;;;x
+cvb_semi_kingdom;Retain the crown and the representative estates.;;;;;;;;;;;;;x
+cvb_absolute_kingdom;Reserve sovereign authority to the crown.;;;;;;;;;;;;;x
+cvb_constitution_kingdom_title;Crown and Chamber;;;;;;;;;;;;;x
+cvb_constitution_kingdom_desc;The settlement established a united country, it did not settle every claim of crown and chamber. Deputies propose that ministers answer to an elected legislature. Conservative estates instead defend the crown's right to appoint its government, while another faction would restore unrestricted royal authority. Each proposal preserves the united settlement but changes the manner in which it is governed.;;;;;;;;;;;;;x
+cvb_vernacular_assembly_title;Convene the Provincial National Assembly;;;;;;;;;;;;;x
+cvb_vernacular_assembly_desc;Independence permits the provincial peoples to frame their own government. Let elected deputies establish a national assembly while preserving civil rights for the German towns and other established communities.;;;;;;;;;;;;;x
+cvb_congress_resume;Resume the provincial administration.;;;;;;;;;;;;;x
+cvb_congress_cleanup_title;The Provincial Diet Resumes Its Business;;;;;;;;;;;;;x
+cvb_congress_cleanup_desc;The common congress has ended without an accession requiring this diet's participation. Its delegates return to the province and resume the business of their own administration. The question of integration or independence remains with the provincial government.;;;;;;;;;;;;;x
+cvb_restore_diets_title;Restore the Baltic Provincial Diets;;;;;;;;;;;;;x
+cvb_restore_diets_desc;The imperial administration can restore separate provincial governments under renewed charters. This reverses the administrative integration, the restored diets will again decide their own programme and their allegiance to the crown.;;;;;;;;;;;;;x
+cvb_restore_russia;Continue as the imperial government.;;;;;;;;;;;;;x
+cvb_restore_livonia;Lead the restored Livonian government.;;;;;;;;;;;;;x
+cvb_restoration_title;Separate Provincial Government Restored;;;;;;;;;;;;;x
+cvb_restoration_desc;The imperial government restores the provincial diets under renewed charters. Their administrations resume responsibility for local business beneath the Russian crown. A participant may continue in imperial government or take charge of Livonia, where the restored estates must decide whether their future lies in loyal service or renewed resistance.;;;;;;;;;;;;;x
+cvb_lutheran_statute_a;Preserve the consistories and strengthen parish teaching.;;;;;;;;;;;;;x
+cvb_lutheran_statute_b;Entrust the settlement to the existing patrons.;;;;;;;;;;;;;x
+cvb_lutheran_statute_title;The Imperial Lutheran Statute;;;;;;;;;;;;;x
+cvb_lutheran_statute_desc;A new imperial statute brings the Lutheran churches under a common framework. In the Baltic provinces, its provisions meet an established world of consistories, estate patronage and parish schools. German remains prominent in church administration, while congregations hear their pastors in Estonian or Latvian. The provincial estates must consider how to preserve their institutions while giving parishioners a clearer place within them. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_livland_conversion_a;Hear the petitions and investigate the land grievances.;;;;;;;;;;;;;x
+cvb_livland_conversion_b;Defend the authority of the Lutheran patrons.;;;;;;;;;;;;;x
+cvb_livland_conversion_title;Petitions Beyond the Lutheran Parish;;;;;;;;;;;;;x
+cvb_livland_conversion_desc;Across Livland, peasants are approaching Orthodox clergy with questions about conversion. Around Pernau, hopes of obtaining land mingle with religious conviction and disappointment with existing tenancy. Lutheran pastors and estate owners fear that an appeal to another church will also bring imperial officials into their dealings with the countryside. The petitions expose grievances that a dispute over doctrine alone cannot settle, and the provincial authorities must decide how to hear them.;;;;;;;;;;;;;x
+cvb_livland_agrarian_law_a;Publish clear contracts and assist the surveys.;;;;;;;;;;;;;x
+cvb_livland_agrarian_law_b;Leave implementation with the Landtag and estate owners.;;;;;;;;;;;;;x
+cvb_livland_agrarian_law_title;A New Basis for Livland Tenancy;;;;;;;;;;;;;x
+cvb_livland_agrarian_law_desc;Livland's agrarian legislation opens a firmer path toward leased and purchased peasant farms. Emancipation gave personal freedom without ownership of the land, and many families still depend upon agreements with the manor. The new arrangements must now be translated into surveys, contracts and practical access to credit. Riga's commercial circles see opportunities in the change, while the Landtag debates how far estate owners should retain control over its implementation. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_estland_agrarian_law_a;Explain the law in the parishes and review the contracts.;;;;;;;;;;;;;x
+cvb_estland_agrarian_law_b;Let the estate administrations direct the transition.;;;;;;;;;;;;;x
+cvb_estland_agrarian_law_title;The Estland Peasant Law;;;;;;;;;;;;;x
+cvb_estland_agrarian_law_desc;Estland's new peasant law promises changes in the relationship between farm and manor. Its provisions concern landholding and obligations, but their application will depend upon surveys and agreements that cannot be completed at once. Copies reach parish officials as families ask what the law means for the labour they still owe. In Reval, the estates face a practical question: whether to explain the settlement openly or allow each manor to interpret it for its tenants. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_mahtra_a;Restore order and review the disputed labour demands.;;;;;;;;;;;;;x
+cvb_mahtra_b;Make an example of those who resisted the manors.;;;;;;;;;;;;;x
+cvb_mahtra_title;The Disturbances at Mahtra;;;;;;;;;;;;;x
+cvb_mahtra_desc;Refusal of labour services has spread through parts of northern Estland. At Mahtra, confrontation between peasants and soldiers has ended in bloodshed, and news of the clash reaches Reval. The dispute grew from conflicting expectations about the peasant law and the obligations still demanded by the manors. Officials now face both the restoration of order and an explanation of the grievances behind it. Punishment alone will leave those questions in the countryside. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_perno_postimees_a;Encourage subscriptions in the parish schools.;;;;;;;;;;;;;x
+cvb_perno_postimees_b;Keep its circulation under close provincial supervision.;;;;;;;;;;;;;x
+cvb_perno_postimees_title;The News in Estonian;;;;;;;;;;;;;x
+cvb_perno_postimees_desc;Johann Voldemar Jannsen's Perno Postimees has begun appearing in Pernau. The weekly addresses Estonian readers in a language familiar from their homes and parishes, bringing local concerns into conversation with events further afield. Copies can pass between households and schoolrooms long after their first reading. Some provincial patrons welcome the prospect of useful instruction, others worry that a continuing vernacular newspaper will give public grievances a voice beyond the supervision of the manor. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_kalevipoeg_a;Help libraries and teachers obtain the new edition.;;;;;;;;;;;;;x
+cvb_kalevipoeg_b;Leave its reception to the learned societies.;;;;;;;;;;;;;x
+cvb_kalevipoeg_title;Kalevipoeg Reaches a Wider Readership;;;;;;;;;;;;;x
+cvb_kalevipoeg_desc;Friedrich Reinhold Kreutzwald's Kalevipoeg has appeared in an Estonian popular edition, printed at Kuopio in Finland. The work previously reached learned readers through instalments published in Dorpat, accompanied by a German translation. Kreutzwald, writing from Võru, has shaped inherited tales into a literary epic. Teachers and readers now discuss how it might reach a broader public. Its appearance gives Estonian literature a prominent work without resolving the arguments over language and education. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_petersburg_latvian_press_a;Permit discussion and answer the readers' concerns.;;;;;;;;;;;;;x
+cvb_petersburg_latvian_press_b;Restrict distribution through the provincial authorities.;;;;;;;;;;;;;x
+cvb_petersburg_latvian_press_title;Latvian Pages from St Petersburg;;;;;;;;;;;;;x
+cvb_petersburg_latvian_press_desc;Peterburgas Avizes is being published in St Petersburg, and its Latvian pages are finding readers in Courland. Young Latvian writers discuss learning, economic advancement and the standing of their language alongside German and Russian. The newspaper's place of publication lies outside the province, but its arguments enter shops, schools and parish conversations around Mitau. Estate authorities must decide whether to answer these aspirations or treat their circulation chiefly as a problem of supervision.;;;;;;;;;;;;;x
+cvb_estland_private_code_a;Explain the private-law settlement to the parishes.;;;;;;;;;;;;;x
+cvb_estland_private_code_b;Celebrate the provincial tradition through the estates.;;;;;;;;;;;;;x
+cvb_estland_private_code_title;Estland and the Baltic Private Code;;;;;;;;;;;;;x
+cvb_estland_private_code_desc;Imperial approval has been given to the codification of Baltic private law. In Reval, lawyers examine how the collected rules will govern property, inheritance and private agreements when they enter force. The work preserves provincial distinctions within imperial authority, rather than creating a new political constitution. Members of the Estland estates celebrate the recognition of their legal traditions, while parish representatives ask whether those traditions can now be explained beyond the courts. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_livland_private_code_a;Make practical explanations available beyond the courts.;;;;;;;;;;;;;x
+cvb_livland_private_code_b;Affirm the guardianship of the provincial institutions.;;;;;;;;;;;;;x
+cvb_livland_private_code_title;Riga Reviews the Baltic Private Code;;;;;;;;;;;;;x
+cvb_livland_private_code_desc;The newly approved Baltic private-law code has become a subject of discussion among Riga's lawyers and merchants. Collected rules for property, inheritance and agreements promise a more accessible reference when the settlement enters force. Provincial distinctions remain important, as do the different legal positions of estates, townspeople and peasants. The Livland authorities can present the work as a practical guide to private dealings, or chiefly as confirmation of the institutions that have guarded local law. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_courland_private_code_a;Publish explanations for the towns and parishes.;;;;;;;;;;;;;x
+cvb_courland_private_code_b;Honour the legal inheritance through the Landtag.;;;;;;;;;;;;;x
+cvb_courland_private_code_title;Courland's Laws in the Provincial Code;;;;;;;;;;;;;x
+cvb_courland_private_code_desc;Courland's private-law traditions have been collected within the approved Baltic codification. At Mitau, advocates prepare for its application to property, inheritance and agreements. The former duchy's legal inheritance remains visible, but the code operates under the emperor's authority and does not restore ducal sovereignty. Estate representatives regard the work as a recognition of continuity. Others hope that clearer explanations will help townspeople and rural households understand the obligations that shape their dealings. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_estland_communes_a;Provide practical guidance to the community officers.;;;;;;;;;;;;;x
+cvb_estland_communes_b;Keep the communities under close estate supervision.;;;;;;;;;;;;;x
+cvb_estland_communes_title;The Estland Rural Communities;;;;;;;;;;;;;x
+cvb_estland_communes_desc;New rules for rural community administration give parish households a more defined part in managing their local affairs. In Estland, the change reaches villages where communal business has long been entangled with the authority of the manor. Representatives must learn procedures, keep accounts and speak for their neighbours. The noble provincial institutions continue, but another place for public responsibility is taking shape. Officials in Reval must decide how readily to assist these local administrations. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_livland_communes_a;Explain the procedures in the languages of the parishes.;;;;;;;;;;;;;x
+cvb_livland_communes_b;Rely upon the manors to supervise communal business.;;;;;;;;;;;;;x
+cvb_livland_communes_title;Public Business in the Livland Parishes;;;;;;;;;;;;;x
+cvb_livland_communes_desc;The rural community reform is bringing new administrative duties to Livland's parishes. Estonian and Latvian households encounter similar questions about representation, accounts and the conduct of local business, although language and custom differ across the province. Around Dorpat, teachers and parish officers can help explain the procedures. The change offers experience in public affairs without replacing the entire provincial order. Its success will depend upon how communities and estate authorities work together. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_courland_communes_a;Assist the officers and explain their responsibilities.;;;;;;;;;;;;;x
+cvb_courland_communes_b;Place their work under the scrutiny of the estates.;;;;;;;;;;;;;x
+cvb_courland_communes_title;Courland's Community Officers;;;;;;;;;;;;;x
+cvb_courland_communes_desc;Rural community reform requires Courland's households to take a more organized part in local administration. Beyond Mitau, community officers must learn how to record decisions, account for common resources and represent their neighbours. These duties give Latvian villagers experience in public business while the provincial estates retain their own institutions. The authorities can offer instruction and clearer procedures, or regard each new communal office chiefly as another responsibility to be watched by the manor. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_estonian_song_festival_a;Welcome the choirs and assist the organizers.;;;;;;;;;;;;;x
+cvb_estonian_song_festival_b;Permit the gathering under strict official supervision.;;;;;;;;;;;;;x
+cvb_estonian_song_festival_title;Voices Gather in Dorpat;;;;;;;;;;;;;x
+cvb_estonian_song_festival_desc;Estonian choirs are gathering in Dorpat for a general song festival. Jannsen and the Vanemuine society have helped bring parish singers into a public celebration associated with the anniversary of emancipation. The occasion also prompts disagreement: some welcome the familiar choral forms, while others demand a stronger place for Estonian expression. Permission, rehearsal and travel have brought the gathering into being. Its lasting influence will depend upon the associations and confidence that the singers carry home. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_latvian_song_festival_a;Welcome the singers and assist the festival.;;;;;;;;;;;;;x
+cvb_latvian_song_festival_b;Keep the gathering within closely supervised bounds.;;;;;;;;;;;;;x
+cvb_latvian_song_festival_title;The Latvian Choirs in Riga;;;;;;;;;;;;;x
+cvb_latvian_song_festival_desc;Riga is hosting the first general Latvian song festival. Singers arrive from different districts, carrying the work of parish teachers and local choirs into a shared public gathering. For Latvian readers already accustomed to newspapers and cultural associations, the festival offers another way to recognize one another beyond the village. Its programme remains a matter of discussion among organizers and patrons. Provincial officials must decide how openly to welcome this growing public presence. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_baltic_municipal_reform_a;Prepare an orderly transition and explain the franchise.;;;;;;;;;;;;;x
+cvb_baltic_municipal_reform_b;Defend the influence of the established councils and guilds.;;;;;;;;;;;;;x
+cvb_baltic_municipal_reform_title;New Municipal Rules for the Baltic Towns;;;;;;;;;;;;;x
+cvb_baltic_municipal_reform_desc;The imperial municipal statute is being extended to the Baltic towns. New elected bodies will conduct municipal business under rules tied to property and taxation, challenging arrangements long guarded by councils and guilds. The reform follows the ending of the common Governor-General's office, but neither measure means that the provinces have only now entered the empire. Town authorities must negotiate the transition, while Estonian and Latvian property holders consider the opportunities offered by the new institutions. Funded proposals require an available treasury appropriation.;;;;;;;;;;;;;x
+cvb_governorate;Provincial Governorate;;;;;;;;;;;;;x
+cvb_governorate_ruler;Your Excellency;;;;;;;;;;;;;x
+EST_cvb_governorate;Governorate of Estland;;;;;;;;;;;;;x
+UBD_cvb_governorate;Governorate of Livonia;;;;;;;;;;;;;x
+LAT_cvb_governorate;Governorate of Courland and Semigallia;;;;;;;;;;;;;x
+cvb_ducal_absolute;Absolute Monarchy;;;;;;;;;;;;;x
+cvb_ducal_absolute_ruler;Your Majesty;;;;;;;;;;;;;x
+EST_cvb_ducal_absolute;Duchy of Estland;;;;;;;;;;;;;x
+UBD_cvb_ducal_absolute;Duchy of Livonia;;;;;;;;;;;;;x
+LAT_cvb_ducal_absolute;Duchy of Courland and Semigallia;;;;;;;;;;;;;x
+cvb_ducal_semi;Semi-Constitutional Monarchy;;;;;;;;;;;;;x
+cvb_ducal_semi_ruler;Your Majesty;;;;;;;;;;;;;x
+EST_cvb_ducal_semi;Duchy of Estland;;;;;;;;;;;;;x
+UBD_cvb_ducal_semi;Duchy of Livonia;;;;;;;;;;;;;x
+LAT_cvb_ducal_semi;Duchy of Courland and Semigallia;;;;;;;;;;;;;x
+cvb_ducal_constitutional;Constitutional Monarchy;;;;;;;;;;;;;x
+cvb_ducal_constitutional_ruler;Mister Prime Minister;;;;;;;;;;;;;x
+EST_cvb_ducal_constitutional;Duchy of Estland;;;;;;;;;;;;;x
+UBD_cvb_ducal_constitutional;Duchy of Livonia;;;;;;;;;;;;;x
+LAT_cvb_ducal_constitutional;Duchy of Courland and Semigallia;;;;;;;;;;;;;x
+cvb_united_duchy;Federal Ducal Monarchy;;;;;;;;;;;;;x
+cvb_united_duchy_ruler;Your Majesty;;;;;;;;;;;;;x
+EST_cvb_united_duchy;United Baltic Duchy;;;;;;;;;;;;;x
+UBD_cvb_united_duchy;United Baltic Duchy;;;;;;;;;;;;;x
+LAT_cvb_united_duchy;United Baltic Duchy;;;;;;;;;;;;;x
+cvb_united_duchy_absolute;Absolute Ducal Monarchy;;;;;;;;;;;;;x
+cvb_united_duchy_absolute_ruler;Your Majesty;;;;;;;;;;;;;x
+EST_cvb_united_duchy_absolute;United Baltic Duchy;;;;;;;;;;;;;x
+UBD_cvb_united_duchy_absolute;United Baltic Duchy;;;;;;;;;;;;;x
+LAT_cvb_united_duchy_absolute;United Baltic Duchy;;;;;;;;;;;;;x
+cvb_united_duchy_constitutional;Constitutional Ducal Monarchy;;;;;;;;;;;;;x
+cvb_united_duchy_constitutional_ruler;Mister Prime Minister;;;;;;;;;;;;;x
+EST_cvb_united_duchy_constitutional;United Baltic Duchy;;;;;;;;;;;;;x
+UBD_cvb_united_duchy_constitutional;United Baltic Duchy;;;;;;;;;;;;;x
+LAT_cvb_united_duchy_constitutional;United Baltic Duchy;;;;;;;;;;;;;x
+cvb_livonian_kingdom;Semi-Constitutional Monarchy;;;;;;;;;;;;;x
+cvb_livonian_kingdom_ruler;Your Majesty;;;;;;;;;;;;;x
+EST_cvb_livonian_kingdom;Kingdom of Livonia;;;;;;;;;;;;;x
+UBD_cvb_livonian_kingdom;Kingdom of Livonia;;;;;;;;;;;;;x
+LAT_cvb_livonian_kingdom;Kingdom of Livonia;;;;;;;;;;;;;x
+cvb_livonian_kingdom_absolute;Absolute Monarchy;;;;;;;;;;;;;x
+cvb_livonian_kingdom_absolute_ruler;Your Majesty;;;;;;;;;;;;;x
+EST_cvb_livonian_kingdom_absolute;Kingdom of Livonia;;;;;;;;;;;;;x
+UBD_cvb_livonian_kingdom_absolute;Kingdom of Livonia;;;;;;;;;;;;;x
+LAT_cvb_livonian_kingdom_absolute;Kingdom of Livonia;;;;;;;;;;;;;x
+cvb_livonian_kingdom_constitutional;Constitutional Monarchy;;;;;;;;;;;;;x
+cvb_livonian_kingdom_constitutional_ruler;Mister Prime Minister;;;;;;;;;;;;;x
+EST_cvb_livonian_kingdom_constitutional;Kingdom of Livonia;;;;;;;;;;;;;x
+UBD_cvb_livonian_kingdom_constitutional;Kingdom of Livonia;;;;;;;;;;;;;x
+LAT_cvb_livonian_kingdom_constitutional;Kingdom of Livonia;;;;;;;;;;;;;x
+cvb_confederation;Federal Republic;;;;;;;;;;;;;x
+cvb_confederation_ruler;President;;;;;;;;;;;;;x
+EST_cvb_confederation;Baltic Confederation;;;;;;;;;;;;;x
+UBD_cvb_confederation;Baltic Confederation;;;;;;;;;;;;;x
+LAT_cvb_confederation;Baltic Confederation;;;;;;;;;;;;;x
+UBD_democracy;Baltic Republic;;;;;;;;;;;;;x
+UBD_radical_republic;Baltic Republic;;;;;;;;;;;;;x
+UBD_presidential_dictatorship;Baltic Republic;;;;;;;;;;;;;x
+cvb_pack;Pack;;;;;;;;;;;;;x
+cvb_policy_chosen;Policy chosen;;;;;;;;;;;;;x
+cvb_programme_queued;Programme queued;;;;;;;;;;;;;x
+cvb_settlement_pending;Settlement pending;;;;;;;;;;;;;x
+cvb_settlement_done;Settlement done;;;;;;;;;;;;;x
+cvb_german_appeal_pending;German appeal pending;;;;;;;;;;;;;x
+cvb_german_appeal_answered;German appeal answered;;;;;;;;;;;;;x
+cvb_german_convention;German convention;;;;;;;;;;;;;x
+cvb_independence_declared;Independence declared;;;;;;;;;;;;;x
+cvb_integration_waiting;Integration waiting;;;;;;;;;;;;;x
+cvb_independence_recognised;Independence recognised;;;;;;;;;;;;;x
+cvb_independence_settled;Independence settled;;;;;;;;;;;;;x
+cvb_integration_decided;Integration decided;;;;;;;;;;;;;x
+cvb_congress_invited;Congress invited;;;;;;;;;;;;;x
+cvb_congress_convener;Congress convener;;;;;;;;;;;;;x
+cvb_integrated_est;Integrated est;;;;;;;;;;;;;x
+cvb_united;United;;;;;;;;;;;;;x
+cvb_joint_resistance;Joint resistance;;;;;;;;;;;;;x
+cvb_charter_renewed;Charter renewed;;;;;;;;;;;;;x
+cvb_congress_agreed;Congress agreed;;;;;;;;;;;;;x
+cvb_congress_refused;Congress refused;;;;;;;;;;;;;x
+cvb_congress_rejected;Congress rejected;;;;;;;;;;;;;x
+cvb_union_duchy;Union duchy;;;;;;;;;;;;;x
+cvb_union_kingdom;Union kingdom;;;;;;;;;;;;;x
+cvb_union_confederation;Union confederation;;;;;;;;;;;;;x
+cvb_settlement_duchy;Settlement duchy;;;;;;;;;;;;;x
+cvb_settlement_kingdom;Settlement kingdom;;;;;;;;;;;;;x
+cvb_settlement_confederation;Settlement confederation;;;;;;;;;;;;;x
+cvb_german_mandate;German mandate;;;;;;;;;;;;;x
+cvb_declaration_pending;Declaration pending;;;;;;;;;;;;;x
+cvb_postwar_conference_pending;Postwar conference pending;;;;;;;;;;;;;x
+cvb_liberation_leader;Liberation leader;;;;;;;;;;;;;x
+cvb_liberation_participant;Liberation participant;;;;;;;;;;;;;x
+cvb_liberation_from_est;Liberation from est;;;;;;;;;;;;;x
+cvb_liberation_from_ubd;Liberation from ubd;;;;;;;;;;;;;x
+cvb_liberation_from_lat;Liberation from lat;;;;;;;;;;;;;x
+cvb_liberation_invited_est;Liberation invited est;;;;;;;;;;;;;x
+cvb_liberation_invited_ubd;Liberation invited ubd;;;;;;;;;;;;;x
+cvb_liberation_invited_lat;Liberation invited lat;;;;;;;;;;;;;x
+cvb_liberation_declined;Liberation declined;;;;;;;;;;;;;x
+cvb_outbreak_recorded;Outbreak recorded;;;;;;;;;;;;;x
+cvb_postwar_conference_offered;Postwar conference offered;;;;;;;;;;;;;x
+cvb_postwar_delegates_invited;Postwar delegates invited;;;;;;;;;;;;;x
+cvb_postwar_delegates_answered;Postwar delegates answered;;;;;;;;;;;;;x
+cvb_separate_settlement;Separate settlement;;;;;;;;;;;;;x
+cvb_separate_acknowledged;Separate acknowledged;;;;;;;;;;;;;x
+cvb_legacy_conference_recovered;Legacy conference recovered;;;;;;;;;;;;;x
+cvb_legacy_united_conference_pending;Legacy united conference pending;;;;;;;;;;;;;x
+cvb_legacy_united_conference_complete;Legacy united conference complete;;;;;;;;;;;;;x
+cvb_capital_reverse;Capital reverse;;;;;;;;;;;;;x
+cvb_capital_recovered;Capital recovered;;;;;;;;;;;;;x
+cvb_credit_funding_pending;Reserved Provincial Appropriation;;;;;;;;;;;;;x
+cvb_tenure_funding_pending;Reserved Provincial Appropriation;;;;;;;;;;;;;x
+cvb_ports_funding_pending;Reserved Provincial Appropriation;;;;;;;;;;;;;x
+cvb_parish_funding_pending;Reserved Provincial Appropriation;;;;;;;;;;;;;x
+cvb_diet_funding_pending;Reserved Provincial Appropriation;;;;;;;;;;;;;x
+cvb_german_schools_funding_pending;Reserved Provincial Appropriation;;;;;;;;;;;;;x
+cvb_institutions_est_funding_pending;Reserved Provincial Appropriation;;;;;;;;;;;;;x
+cvb_institutions_ubd_funding_pending;Reserved Provincial Appropriation;;;;;;;;;;;;;x
+cvb_institutions_lat_funding_pending;Reserved Provincial Appropriation;;;;;;;;;;;;;x
+cvb_landwehr_funding_pending;Reserved Provincial Appropriation;;;;;;;;;;;;;x
+cvb_restore_funding_pending;Reserved Restoration Appropriation;;;;;;;;;;;;;x
+cvb_integrated_ubd;Integrated ubd;;;;;;;;;;;;;x
+cvb_integrated_lat;Integrated lat;;;;;;;;;;;;;x
+cvb_native_successors_ready;Native successors ready;;;;;;;;;;;;;x
+cvb_constitution_revised;Constitution revised;;;;;;;;;;;;;x
+cvb_lutheran_statute_seen;Lutheran statute seen;;;;;;;;;;;;;x
+cvb_parish_teaching_supported;Parish teaching supported;;;;;;;;;;;;;x
+cvb_church_patronage_preserved;Church patronage preserved;;;;;;;;;;;;;x
+cvb_livland_conversion_seen;Livland conversion seen;;;;;;;;;;;;;x
+cvb_conversion_petitions_heard;Conversion petitions heard;;;;;;;;;;;;;x
+cvb_conversion_patronage_defended;Conversion patronage defended;;;;;;;;;;;;;x
+cvb_livland_agrarian_law_seen;Livland agrarian law seen;;;;;;;;;;;;;x
+cvb_livland_tenancy_safeguards;Livland tenancy safeguards;;;;;;;;;;;;;x
+cvb_livland_estate_implementation;Livland estate implementation;;;;;;;;;;;;;x
+cvb_estland_agrarian_law_seen;Estland agrarian law seen;;;;;;;;;;;;;x
+cvb_estland_peasant_law_explained;Estland peasant law explained;;;;;;;;;;;;;x
+cvb_estland_estate_transition;Estland estate transition;;;;;;;;;;;;;x
+cvb_mahtra_seen;Mahtra seen;;;;;;;;;;;;;x
+cvb_mahtra_labour_review;Mahtra labour review;;;;;;;;;;;;;x
+cvb_mahtra_punitive_response;Mahtra punitive response;;;;;;;;;;;;;x
+cvb_perno_postimees_seen;Perno postimees seen;;;;;;;;;;;;;x
+cvb_perno_readership_supported;Perno readership supported;;;;;;;;;;;;;x
+cvb_perno_press_supervised;Perno press supervised;;;;;;;;;;;;;x
+cvb_kalevipoeg_seen;Kalevipoeg seen;;;;;;;;;;;;;x
+cvb_kalevipoeg_public_readership;Kalevipoeg public readership;;;;;;;;;;;;;x
+cvb_kalevipoeg_learned_reception;Kalevipoeg learned reception;;;;;;;;;;;;;x
+cvb_petersburg_latvian_press_seen;Petersburg latvian press seen;;;;;;;;;;;;;x
+cvb_latvian_press_discussion;Latvian press discussion;;;;;;;;;;;;;x
+cvb_latvian_press_restricted;Latvian press restricted;;;;;;;;;;;;;x
+cvb_estland_private_code_seen;Estland private code seen;;;;;;;;;;;;;x
+cvb_estland_code_explained;Estland code explained;;;;;;;;;;;;;x
+cvb_estland_code_estates;Estland code estates;;;;;;;;;;;;;x
+cvb_livland_private_code_seen;Livland private code seen;;;;;;;;;;;;;x
+cvb_livland_code_explained;Livland code explained;;;;;;;;;;;;;x
+cvb_livland_code_estates;Livland code estates;;;;;;;;;;;;;x
+cvb_courland_private_code_seen;Courland private code seen;;;;;;;;;;;;;x
+cvb_courland_code_explained;Courland code explained;;;;;;;;;;;;;x
+cvb_courland_code_estates;Courland code estates;;;;;;;;;;;;;x
+cvb_estland_communes_seen;Estland communes seen;;;;;;;;;;;;;x
+cvb_estland_communes_supported;Estland communes supported;;;;;;;;;;;;;x
+cvb_estland_communes_supervised;Estland communes supervised;;;;;;;;;;;;;x
+cvb_livland_communes_seen;Livland communes seen;;;;;;;;;;;;;x
+cvb_livland_communes_supported;Livland communes supported;;;;;;;;;;;;;x
+cvb_livland_communes_supervised;Livland communes supervised;;;;;;;;;;;;;x
+cvb_courland_communes_seen;Courland communes seen;;;;;;;;;;;;;x
+cvb_courland_communes_supported;Courland communes supported;;;;;;;;;;;;;x
+cvb_courland_communes_supervised;Courland communes supervised;;;;;;;;;;;;;x
+cvb_estonian_song_festival_seen;Estonian song festival seen;;;;;;;;;;;;;x
+cvb_estonian_festival_supported;Estonian festival supported;;;;;;;;;;;;;x
+cvb_estonian_festival_supervised;Estonian festival supervised;;;;;;;;;;;;;x
+cvb_latvian_song_festival_seen;Latvian song festival seen;;;;;;;;;;;;;x
+cvb_latvian_festival_supported;Latvian festival supported;;;;;;;;;;;;;x
+cvb_latvian_festival_supervised;Latvian festival supervised;;;;;;;;;;;;;x
+cvb_baltic_municipal_reform_seen;Baltic municipal reform seen;;;;;;;;;;;;;x
+cvb_municipal_transition_prepared;Municipal transition prepared;;;;;;;;;;;;;x
+cvb_municipal_old_interests_defended;Municipal old interests defended;;;;;;;;;;;;;x
+cvb_credit_done;Credit done;;;;;;;;;;;;;x
+cvb_tenure_done;Tenure done;;;;;;;;;;;;;x
+cvb_ports_done;Ports done;;;;;;;;;;;;;x
+cvb_parish_done;Parish done;;;;;;;;;;;;;x
+cvb_diet_done;Diet done;;;;;;;;;;;;;x
+cvb_german_schools_done;German schools done;;;;;;;;;;;;;x
+cvb_institutions_est_done;Institutions est done;;;;;;;;;;;;;x
+cvb_institutions_ubd_done;Institutions ubd done;;;;;;;;;;;;;x
+cvb_institutions_lat_done;Institutions lat done;;;;;;;;;;;;;x
+cvb_landwehr_done;Landwehr done;;;;;;;;;;;;;x
+cvb_national_assembly;National assembly;;;;;;;;;;;;;x

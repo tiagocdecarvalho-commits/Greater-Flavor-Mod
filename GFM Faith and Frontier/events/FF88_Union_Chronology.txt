@@ -1,0 +1,976 @@
+country_event = {
+	id = 9785410
+	title = "FF88_9785410_TITLE"
+	desc = "FF88_9785410_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_victory
+		NOT = {
+			has_country_flag = ff86_peaceful_union
+		}
+		NOT = {
+			has_country_flag = ff88_british_union_pending
+		}
+		NOT = {
+			year = 1852
+		}
+		war = no
+		OR = {
+			is_vassal = no
+			vassal_of = ENG
+		}
+		NOT = {
+			has_country_flag = ff88_popup_9785410
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff88_popup_9785410
+	}
+	option = {
+		name = "FF88_9785410_OPT"
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_victory
+						NOT = {
+							has_country_flag = ff86_peaceful_union
+						}
+						NOT = {
+							has_country_flag = ff88_british_union_pending
+						}
+						NOT = {
+							year = 1852
+						}
+						war = no
+						OR = {
+							is_vassal = no
+							vassal_of = ENG
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff88_british_union_pending
+					ENG = {
+						create_vassal = VLK
+					}
+					add_country_modifier = {
+						name = ff88_southern_resistance
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785411
+	title = "FF88_9785411_TITLE"
+	desc = "FF88_9785411_DESC"
+	picture = "treaty"
+	major = yes
+	trigger = {
+		tag = ENG
+		year = 1852
+		war = no
+		VLK = {
+			has_country_flag = ff88_british_union_pending
+			war = no
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+			NOT = {
+				has_country_flag = ff88_sand_river_signed
+			}
+		}
+		NOT = {
+			has_country_flag = ff88_popup_9785411
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff88_popup_9785411
+	}
+	option = {
+		name = "FF88_9785411_OPT"
+		ENG = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = ENG
+						year = 1852
+						war = no
+						VLK = {
+							has_country_flag = ff88_british_union_pending
+							war = no
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+							NOT = {
+								has_country_flag = ff88_sand_river_signed
+							}
+						}
+					}
+				}
+				owner = {
+					release_vassal = VLK
+					VLK = {
+						set_country_flag = ff88_sand_river_signed
+						set_country_flag = ff84_recognised
+						set_country_flag = ff42_sand_river_recognised
+						relation = {
+							who = ENG
+							value = 75
+						}
+						add_country_modifier = {
+							name = ff84_recognised
+							duration = -1
+						}
+						country_event = {
+							id = 9785412
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785412
+	title = "FF88_9785412_TITLE"
+	desc = "FF88_9785412_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF88_9785412_OPT"
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						has_country_flag = ff88_sand_river_signed
+						NOT = {
+							has_country_flag = ff88_independence_report
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff88_independence_report
+					prestige = 5
+					political_reform = no_slavery
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785413
+	title = "FF88_9785413_TITLE"
+	desc = "FF88_9785413_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		year = 1855
+		war = no
+		NOT = {
+			has_country_flag = ff88_south_pacified
+		}
+		NOT = {
+			has_country_flag = ff88_popup_9785413
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff88_popup_9785413
+	}
+	option = {
+		name = "FF88_9785413_OPT"
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						NOT = {
+							has_country_flag = ff88_south_pacified
+						}
+						year = 1855
+						war = no
+					}
+				}
+				owner = {
+					any_owned = {
+						add_core = VLK
+						remove_core = POT
+						remove_core = ORA
+						remove_core = TRN
+						remove_core = WBG
+						remove_core = UTR
+						remove_core = LYD
+						remove_core = ZPB
+						remove_province_modifier = ff88_southern_resistance_local
+					}
+					remove_country_modifier = ff88_southern_resistance
+					set_country_flag = ff88_south_pacified
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785414
+	title = "FF88_9785414_TITLE"
+	desc = "FF88_9785414_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		has_country_flag = ff88_south_pacified
+		war = no
+		any_owned_province = {
+			OR = {
+				is_core = POT
+				is_core = ORA
+				is_core = TRN
+				is_core = WBG
+				is_core = UTR
+				is_core = LYD
+				is_core = ZPB
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff88_popup_9785414
+	}
+	option = {
+		name = "FF88_9785414_OPT"
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						has_country_flag = ff88_south_pacified
+					}
+				}
+				owner = {
+					any_owned = {
+						add_core = VLK
+						remove_core = POT
+						remove_core = ORA
+						remove_core = TRN
+						remove_core = WBG
+						remove_core = UTR
+						remove_core = LYD
+						remove_core = ZPB
+						remove_province_modifier = ff88_southern_resistance_local
+					}
+					remove_country_modifier = ff88_southern_resistance
+					set_country_flag = ff88_south_pacified
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785420
+	title = "FF88_FF42_ZPB_UNION_TITLE"
+	desc = "FF88_FF42_ZPB_UNION_DESC"
+	picture = "ffv5_sister_republics"
+	trigger = {
+		tag = ZPB
+		year = 1857
+		NOT = {
+			year = 1862
+		}
+		VLK = {
+			exists = yes
+			war = no
+			is_vassal = no
+		}
+		is_vassal = no
+		war = no
+		NOT = {
+			has_country_flag = ff42_zpb_union_decided
+		}
+		VLK = {
+			has_country_flag = ff84_union_path
+			is_vassal = no
+		}
+		NOT = {
+			exists = TRN
+		}
+	}
+	mean_time_to_happen = {
+		months = 3
+	}
+	option = {
+		name = "FF88_FF42_ZPB_UNION_OPT_HIST"
+		ai_chance = {
+			factor = 100
+		}
+		set_country_flag = ff42_zpb_union_decided
+		set_country_flag = ff42_zpb_associated_with_zar
+		VLK = {
+			create_vassal = ZPB
+			relation = {
+				who = ZPB
+				value = 100
+			}
+		}
+		add_country_modifier = {
+			name = ff42_zoutpansberg_autonomy
+			duration = -1
+		}
+		VLK = {
+			country_event = {
+				id = 9785422
+				days = 1
+			}
+		}
+		prestige = 1
+	}
+	option = {
+		name = "FF88_FF42_ZPB_UNION_OPT_INDEPENDENT"
+		ai_chance = {
+			factor = 0
+		}
+		set_country_flag = ff42_zpb_union_decided
+		relation = {
+			who = VLK
+			value = -30
+		}
+		prestige = 2
+	}
+}
+country_event = {
+	id = 9785421
+	title = "FF88_FF42_CIVIL_WAR_CRISIS_TITLE"
+	desc = "FF88_FF42_CIVIL_WAR_CRISIS_DESC"
+	picture = "boer_army"
+	trigger = {
+		tag = VLK
+		year = 1862
+		OR = {
+			year = 1863
+			month = 9
+		}
+		NOT = {
+			year = 1864
+		}
+		OR = {
+			is_our_vassal = ZPB
+			AND = {
+				NOT = {
+					exists = ZPB
+				}
+				OR = {
+					owns = 2110
+					owns = 4020
+				}
+			}
+		}
+		war = no
+		NOT = {
+			has_country_flag = ff42_civil_war_resolved
+		}
+		NOT = {
+			has_country_flag = ff42_civil_war_started
+		}
+		VLK = {
+			has_country_flag = ff84_union_path
+			is_vassal = no
+		}
+		NOT = {
+			exists = TRN
+		}
+	}
+	mean_time_to_happen = {
+		months = 3
+	}
+	option = {
+		name = "FF88_FF42_CIVIL_WAR_CRISIS_OPT_HIST"
+		ai_chance = {
+			factor = 90
+		}
+		set_country_flag = ff42_civil_war_started
+		remove_country_modifier = ff42_zpb_sar_compact
+		ZPB = {
+			remove_country_modifier = ff42_zpb_sar_compact
+		}
+		add_country_modifier = {
+			name = ff42_transvaal_civil_war
+			duration = 1095
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						exists = ZPB
+					}
+				}
+			}
+			owner = {
+				any_owned = {
+					limit = {
+						OR = {
+							province_id = 2110
+							province_id = 4020
+						}
+						controlled_by = VLK
+					}
+					add_core = ZPB
+					secede_province = ZPB
+				}
+				ZPB = {
+					government = democracy
+					civilized = yes
+					treasury = 2000
+					random_owned = {
+						limit = {
+							is_core = ZPB
+						}
+						sub_unit = {
+							type = irregular
+							value = current
+						}
+					}
+				}
+			}
+		}
+		release_vassal = ZPB
+		ZPB = {
+			set_country_flag = ff42_schoeman_rebellion
+			add_country_modifier = {
+				name = ff42_transvaal_civil_war
+				duration = 1095
+			}
+			country_event = 9785423
+		}
+		war = {
+			target = ZPB
+			attacker_goal = {
+				casus_belli = ff88_northern_restoration
+			}
+			call_ally = no
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	}
+	option = {
+		name = "FF88_FF42_CIVIL_WAR_CRISIS_OPT_COMPROMISE"
+		ai_chance = {
+			factor = 10
+		}
+		set_country_flag = ff42_civil_war_resolved
+		remove_country_modifier = ff42_zpb_sar_compact
+		ZPB = {
+			remove_country_modifier = ff42_zpb_sar_compact
+		}
+		add_country_modifier = {
+			name = ff42_post_civil_war_reconciliation
+			duration = 1825
+		}
+		prestige = -1
+		relation = {
+			who = ZPB
+			value = 40
+		}
+	}
+}
+country_event = {
+	id = 9785422
+	title = "FF88_FF42_ZPB_COMPACT_TITLE"
+	desc = "FF88_FF42_ZPB_COMPACT_DESC"
+	picture = "ffv5_sister_republics"
+	major = yes
+	news = yes
+	news_desc_long = "FF42_ZPB_COMPACT_NEWS_LONG"
+	news_desc_medium = "FF42_ZPB_COMPACT_NEWS_MEDIUM"
+	news_desc_short = "FF42_ZPB_COMPACT_NEWS_SHORT"
+	trigger = {
+		tag = VLK
+		year = 1857
+		NOT = {
+			year = 1862
+		}
+		ZPB = {
+			exists = yes
+			is_vassal = yes
+			vassal_of = VLK
+		}
+		NOT = {
+			has_country_flag = ff42_zpb_compact_reported
+		}
+		VLK = {
+			has_country_flag = ff84_union_path
+			is_vassal = no
+		}
+		NOT = {
+			exists = TRN
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff42_zpb_compact_reported
+	}
+	option = {
+		name = "FF88_FF42_ZPB_COMPACT_OPT_FUND"
+		ai_chance = {
+			factor = 100
+		}
+		add_country_modifier = {
+			name = ff42_zpb_sar_compact
+			duration = 1825
+		}
+		ZPB = {
+			add_country_modifier = {
+				name = ff42_zpb_sar_compact
+				duration = 1825
+			}
+		}
+		set_country_flag = ff42_zpb_compact_funded
+		ZPB = {
+			set_country_flag = ff42_zpb_compact_funded
+		}
+		relation = {
+			who = ZPB
+			value = 50
+		}
+		prestige = 1
+	}
+	option = {
+		name = "FF88_FF42_ZPB_COMPACT_LIMITED_OPT"
+		ai_chance = {
+			factor = 0
+		}
+		relation = {
+			who = ZPB
+			value = 25
+		}
+		prestige = 0.5
+	}
+}
+country_event = {
+	id = 9785423
+	title = "FF88_FF42_SCHOEMAN_REBELLION_TITLE"
+	desc = "FF88_FF42_SCHOEMAN_REBELLION_DESC"
+	picture = "boer_war"
+	is_triggered_only = yes
+	option = {
+		name = "FF88_FF42_SCHOEMAN_REBELLION_OPT"
+		add_country_modifier = {
+			name = ff42_zoutpansberg_autonomy
+			duration = 730
+		}
+		prestige = 2
+		any_pop = {
+			limit = {
+				culture = boer
+			}
+			militancy = 0.5
+			consciousness = 0.3
+		}
+	}
+}
+country_event = {
+	id = 9785424
+	title = "FF88_FF42_KAREE_ARMISTICE_TITLE"
+	desc = "FF88_FF42_KAREE_ARMISTICE_DESC"
+	picture = "boer_war"
+	trigger = {
+		tag = VLK
+		year = 1864
+		NOT = {
+			year = 1866
+		}
+		war_with = ZPB
+		ZPB = {
+			exists = yes
+		}
+		has_country_flag = ff42_civil_war_started
+		NOT = {
+			has_country_flag = ff42_civil_war_resolved
+		}
+		NOT = {
+			has_country_flag = ff431_armistice_refused
+		}
+		VLK = {
+			has_country_flag = ff84_union_path
+			is_vassal = no
+		}
+		NOT = {
+			exists = TRN
+		}
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	option = {
+		name = "FF88_FF42_KAREE_ARMISTICE_OPT_HIST"
+		ai_chance = {
+			factor = 95
+		}
+		set_country_flag = ff42_civil_war_resolved
+		end_war = ZPB
+		ZPB = {
+			any_owned = {
+				add_core = VLK
+			}
+		}
+		ZPB = {
+			random_owned = {
+				limit = {
+					owner = {
+						ai = no
+					}
+				}
+				owner = {
+					change_tag_no_core_switch = VLK
+				}
+			}
+		}
+		inherit = ZPB
+		remove_country_modifier = ff42_transvaal_civil_war
+		add_country_modifier = {
+			name = ff42_post_civil_war_reconciliation
+			duration = 1825
+		}
+		prestige = 2
+		plurality = 1
+	}
+	option = {
+		name = "FF88_FF42_KAREE_ARMISTICE_OPT_CONTINUE"
+		ai_chance = {
+			factor = 5
+		}
+		set_country_flag = ff431_armistice_refused
+		prestige = 1
+	}
+}
+country_event = {
+	id = 9785425
+	title = "FF88_FF42_ZPB_PEACEFUL_INCORPORATION_TITLE"
+	desc = "FF88_FF42_ZPB_PEACEFUL_INCORPORATION_DESC"
+	picture = "ffv5_sister_republics"
+	trigger = {
+		tag = VLK
+		year = 1864
+		NOT = {
+			year = 1867
+		}
+		war = no
+		ZPB = {
+			exists = yes
+			war = no
+		}
+		OR = {
+			is_our_vassal = ZPB
+			AND = {
+				has_country_flag = ff42_civil_war_started
+				ZPB = {
+					is_vassal = no
+					has_country_flag = ff42_schoeman_rebellion
+				}
+			}
+		}
+		NOT = {
+			has_country_flag = ff42_zpb_incorporated
+		}
+		NOT = {
+			has_country_flag = ff431_armistice_refused
+		}
+		VLK = {
+			has_country_flag = ff84_union_path
+			is_vassal = no
+		}
+		NOT = {
+			exists = TRN
+		}
+	}
+	mean_time_to_happen = {
+		months = 4
+	}
+	option = {
+		name = "FF88_FF42_ZPB_PEACEFUL_INCORPORATION_OPT_HIST"
+		ai_chance = {
+			factor = 90
+		}
+		set_country_flag = ff42_zpb_incorporated
+		ZPB = {
+			any_owned = {
+				add_core = VLK
+			}
+		}
+		ZPB = {
+			random_owned = {
+				limit = {
+					owner = {
+						ai = no
+					}
+				}
+				owner = {
+					change_tag_no_core_switch = VLK
+				}
+			}
+		}
+		inherit = ZPB
+		add_country_modifier = {
+			name = ff42_post_civil_war_reconciliation
+			duration = 1095
+		}
+		prestige = 2
+	}
+	option = {
+		name = "FF88_FF42_ZPB_PEACEFUL_INCORPORATION_OPT_AUTONOMY"
+		ai_chance = {
+			factor = 10
+		}
+		set_country_flag = ff42_zpb_incorporated
+		relation = {
+			who = ZPB
+			value = 50
+		}
+		prestige = 1
+	}
+}
+country_event = {
+	id = 9785426
+	title = "FF88_FF50_UTR_TITLE"
+	desc = "FF88_FF50_UTR_DESC"
+	picture = "pioneer_wagons"
+	trigger = {
+		tag = UTR
+		year = 1857
+		NOT = {
+			year = 1859
+		}
+		war = no
+		LYD = {
+			exists = yes
+			war = no
+		}
+		NOT = {
+			has_country_flag = ff50_utrecht_refused
+		}
+		VLK = {
+			has_country_flag = ff84_union_path
+			is_vassal = no
+		}
+		NOT = {
+			exists = TRN
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "FF88_FF50_UTR_ACCEPT"
+		ai_chance = {
+			factor = 100
+		}
+		LYD = {
+			any_owned = {
+				add_core = UTR
+				remove_core = LYD
+				remove_core = VLK
+				remove_core = SAF
+			}
+			all_core = {
+				remove_core = LYD
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						ai = no
+					}
+				}
+				owner = {
+					change_tag_no_core_switch = UTR
+				}
+			}
+		}
+		VLK = {
+			release_vassal = LYD
+		}
+		inherit = LYD
+		set_country_flag = ff50_lydenburg_joined_utrecht
+		set_country_flag = ff50_utrecht_joined_lydenburg
+		set_global_flag = ff50_lydenburg_joined_utrecht
+		set_global_flag = ff50_utrecht_joined_lydenburg
+	}
+	option = {
+		name = "FF88_FF50_REFUSE"
+		ai_chance = {
+			factor = 0
+		}
+		set_country_flag = ff50_utrecht_refused
+		prestige = 1
+	}
+}
+country_event = {
+	id = 9785427
+	title = "FF88_FF50_LYD_TITLE"
+	desc = "FF88_FF50_LYD_DESC"
+	picture = "pioneer_wagons"
+	trigger = {
+		tag = UTR
+		year = 1860
+		NOT = {
+			year = 1862
+		}
+		war = no
+		VLK = {
+			exists = yes
+			war = no
+			is_vassal = no
+		}
+		NOT = {
+			has_country_flag = ff50_utrecht_sar_refused
+		}
+		VLK = {
+			has_country_flag = ff84_union_path
+			is_vassal = no
+		}
+		NOT = {
+			exists = TRN
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "FF88_FF50_JOIN_TRN"
+		ai_chance = {
+			factor = 100
+		}
+		any_owned = {
+			add_core = VLK
+			remove_core = UTR
+			remove_core = LYD
+		}
+		all_core = {
+			remove_core = UTR
+			remove_core = LYD
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					ai = no
+				}
+			}
+			owner = {
+				change_tag_no_core_switch = VLK
+			}
+		}
+		VLK = {
+			release_vassal = UTR
+			inherit = UTR
+			prestige = 1
+		}
+		set_country_flag = ff50_utrecht_integrated
+		set_country_flag = ff50_lydenburg_integrated
+		set_global_flag = ff50_utrecht_integrated
+		set_global_flag = ff50_lydenburg_integrated
+	}
+	option = {
+		name = "FF88_FF50_REFUSE"
+		ai_chance = {
+			factor = 0
+		}
+		set_country_flag = ff50_utrecht_sar_refused
+		prestige = 1
+	}
+}
+country_event = {
+	id = 9785428
+	title = "FF88_FF50_UTR_FALLBACK_TITLE"
+	desc = "FF88_FF50_UTR_FALLBACK_DESC"
+	picture = "pioneer_wagons"
+	trigger = {
+		tag = LYD
+		year = 1860
+		NOT = {
+			year = 1862
+		}
+		war = no
+		VLK = {
+			exists = yes
+			war = no
+			is_vassal = no
+		}
+		NOT = {
+			has_country_flag = ff50_lydenburg_refused
+		}
+		VLK = {
+			has_country_flag = ff84_union_path
+			is_vassal = no
+		}
+		NOT = {
+			exists = TRN
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "FF88_FF50_JOIN_TRN"
+		ai_chance = {
+			factor = 100
+		}
+		any_owned = {
+			add_core = VLK
+			remove_core = LYD
+			remove_core = UTR
+		}
+		all_core = {
+			remove_core = LYD
+			remove_core = UTR
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					ai = no
+				}
+			}
+			owner = {
+				change_tag_no_core_switch = VLK
+			}
+		}
+		VLK = {
+			release_vassal = LYD
+			inherit = LYD
+			prestige = 1
+		}
+		set_country_flag = ff50_lydenburg_integrated
+		set_global_flag = ff50_lydenburg_integrated
+	}
+	option = {
+		name = "FF88_FF50_REFUSE"
+		ai_chance = {
+			factor = 0
+		}
+		set_country_flag = ff50_lydenburg_refused
+		prestige = 1
+	}
+}

@@ -1,0 +1,483 @@
+political_decisions = {
+    russo_japanese_war = {
+        picture = attack_on_port_arthur
+        potential = {
+            tag = JAP
+            civilized = yes
+            OR = {
+                1481 = {
+                    owned_by = RUS
+                }
+                AND = {
+                    1481 = {
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                    1082 = {
+                        owned_by = RUS
+                    }
+                    RUS = {
+                        has_country_flag = liaodong_crisis
+                    }
+                }
+                AND = {
+                    1481 = {
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                    1082 = {
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                    1080 = {
+                        owned_by = RUS
+                    }
+                    RUS = {
+                        has_country_flag = liaodong_crisis
+                    }
+                }
+                AND = {
+                    1481 = {
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                    1082 = {
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                    1080 = {
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                    1072 = {
+                        owned_by = RUS
+                    }
+                    RUS = {
+                        has_country_flag = liaodong_crisis
+                    }
+                }
+            }
+            NOT = {
+                has_country_flag = only_one_war_with_russia
+            }
+            NOT = {
+                has_global_flag = cvrj_route
+            }
+        }
+        allow = {
+            has_country_modifier = fukoku_kyohei
+            war = no
+            OR = {
+                ai = yes
+                NOT = {
+                    relation = {
+                        who = RUS
+                        value = 100
+                    }
+                    alliance_with = RUS
+                }
+            }
+            OR = {
+                has_country_flag = negotiate_ganghwa_treaty
+                JAP = {
+                    any_owned_province = {
+                        is_core = KOR
+                    }
+                }
+                KOR = {
+                    vassal_of = THIS
+                }
+                KOR = {
+                    in_sphere = THIS
+                }
+                diplomatic_influence = {
+                    who = KOR
+                    value = 50
+                }
+            }
+        }
+        effect = {
+            RUS = {
+                country_event = 784518
+            }
+            add_country_modifier = {
+                name = aggression_against_russia
+                duration = 580
+            }
+            set_global_flag = russo_japanese_war
+            set_country_flag = only_one_war_with_russia
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                NOT = {
+                    year = 1905
+                    war = yes
+                    war_exhaustion = 25
+                    has_country_flag = otsu_incident
+                }
+            }
+        }
+    }
+    remove_jap_and_rus_military_access = {
+        potential = {
+            has_country_flag = humble_access_giver
+            OR = {
+                tag = QNG
+                tag = TPG
+                tag = CHI
+                tag = MCK
+                tag = HUI
+                tag = KMT
+                tag = KOR
+            }
+            JAP = {
+                war = no
+                military_access = THIS
+            }
+            RUS = {
+                war = no
+                military_access = THIS
+            }
+            OR = {
+                has_global_flag = rjw_over
+                NOT = {
+                    JAP = {
+                        has_country_modifier = aggression_against_russia
+                    }
+                }
+            }
+            NOT = {
+                has_country_flag = military_access_canceled
+            }
+        }
+        allow = {
+            NOT = {
+                vassal_of = JAP
+                vassal_of = RUS
+                in_sphere = JAP
+                in_sphere = RUS
+            }
+        }
+        effect = {
+            clr_country_flag = humble_access_giver
+            any_country = {
+                limit = {
+                    OR = {
+                        tag = JAP
+                        tag = RUS
+                        has_country_flag = participating_in_rj_war
+                    }
+                    exists = yes
+                }
+                end_military_access = THIS
+                country_event = 666611
+            }
+            set_country_flag = military_access_canceled
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    invade_manchuria = {
+        picture = manchuria_map
+        potential = {
+            has_global_flag = rjw_over
+            OR = {
+                tag = JAP
+                tag = RUS
+            }
+            has_country_flag = rj_war_victor
+            OR = {
+                QNG = {
+                    any_owned_province = {
+                        is_core = MCK
+                    }
+                }
+                TPG = {
+                    any_owned_province = {
+                        is_core = MCK
+                    }
+                }
+                CHI = {
+                    any_owned_province = {
+                        is_core = MCK
+                    }
+                }
+                HUI = {
+                    any_owned_province = {
+                        is_core = MCK
+                    }
+                }
+                KMT = {
+                    any_owned_province = {
+                        is_core = MCK
+                    }
+                }
+                MCK = {
+                    any_owned_province = {
+                        is_core = MCK
+                    }
+                }
+            }
+            NOT = {
+                has_country_flag = invading_manchuria
+                has_global_flag = annexed_manchuria
+                has_country_flag = mck_organized
+                has_country_flag = yellow_russia_project
+            }
+            NOT = {
+                has_global_flag = cvrj_result
+            }
+        }
+        allow = {
+            OR = {
+                QNG = {
+                    any_owned_province = {
+                        is_core = MCK
+                    }
+                    NOT = {
+                        relation = {
+                            who = THIS
+                            value = 100
+                        }
+                    }
+                }
+                TPG = {
+                    any_owned_province = {
+                        is_core = MCK
+                    }
+                    NOT = {
+                        relation = {
+                            who = THIS
+                            value = 100
+                        }
+                    }
+                }
+                CHI = {
+                    any_owned_province = {
+                        is_core = MCK
+                    }
+                    NOT = {
+                        relation = {
+                            who = THIS
+                            value = 100
+                        }
+                    }
+                }
+                HUI = {
+                    any_owned_province = {
+                        is_core = MCK
+                    }
+                    NOT = {
+                        relation = {
+                            who = THIS
+                            value = 100
+                        }
+                    }
+                }
+                KMT = {
+                    any_owned_province = {
+                        is_core = MCK
+                    }
+                    NOT = {
+                        relation = {
+                            who = THIS
+                            value = 100
+                        }
+                    }
+                }
+                MCK = {
+                    any_owned_province = {
+                        is_core = MCK
+                    }
+                    NOT = {
+                        relation = {
+                            who = THIS
+                            value = 100
+                        }
+                    }
+                }
+            }
+            war = no
+        }
+        effect = {
+            badboy = 10
+            any_country = {
+                limit = {
+                    OR = {
+                        tag = MCK
+                        tag = KMT
+                        tag = HUI
+                        tag = CHI
+                        tag = TPG
+                        tag = QNG
+                    }
+                    any_owned_province = {
+                        is_core = MCK
+                    }
+                }
+                country_event = 666605
+            }
+            set_country_flag = invading_manchuria
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    annex_manchuria = {
+        picture = korea_and_manchuria
+        potential = {
+            has_country_flag = invading_manchuria
+            war = no
+            NOT = {
+                has_global_flag = annexed_manchuria
+            }
+            NOT = {
+                has_global_flag = cvrj_result
+            }
+        }
+        allow = {
+            OR = {
+                QNG = {
+                    is_disarmed = yes
+                    truce_with = THIS
+                    has_country_flag = being_invaded_for_manchuria
+                }
+                TPG = {
+                    is_disarmed = yes
+                    truce_with = THIS
+                    has_country_flag = being_invaded_for_manchuria
+                }
+                CHI = {
+                    is_disarmed = yes
+                    truce_with = THIS
+                    has_country_flag = being_invaded_for_manchuria
+                }
+                HUI = {
+                    is_disarmed = yes
+                    truce_with = THIS
+                    has_country_flag = being_invaded_for_manchuria
+                }
+                KMT = {
+                    is_disarmed = yes
+                    truce_with = THIS
+                    has_country_flag = being_invaded_for_manchuria
+                }
+                MCK = {
+                    is_disarmed = yes
+                    truce_with = THIS
+                    has_country_flag = being_invaded_for_manchuria
+                }
+            }
+        }
+        effect = {
+            random_country = {
+                limit = {
+                    OR = {
+                        AND = {
+                            primary_culture = han_chinese
+                            any_owned_province = {
+                                is_core = MCK
+                            }
+                        }
+                        AND = {
+                            primary_culture = manchu
+                            any_owned_province = {
+                                is_core = MCK
+                            }
+                        }
+                    }
+                    has_country_flag = being_invaded_for_manchuria
+                    is_disarmed = yes
+                    truce_with = THIS
+                }
+                any_owned = {
+                    limit = {
+                        is_core = MCK
+                    }
+                    secede_province = THIS
+                }
+                clr_country_flag = being_invaded_for_manchuria
+            }
+            clr_country_flag = invading_manchuria
+            set_global_flag = annexed_manchuria
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    expel_russians_from_far_east = {
+        picture = russian_vladivostok
+        potential = {
+            has_country_flag = rj_war_victor
+            tag = JAP
+            NOT = {
+                has_global_flag = japan_trying_to_expel_the_russians
+                has_global_flag = russians_expelled_far_east
+            }
+        }
+        allow = {
+            nationalism_n_imperialism = 1
+            war = no
+            NOT = {
+                government = democracy
+            }
+        }
+        effect = {
+            set_global_flag = japan_trying_to_expel_the_russians
+            any_owned = {
+                limit = {
+                    OR = {
+                        is_core = KAM
+                        is_core = BRY
+                        is_core = LSK
+                        is_core = YAK
+                        region = RUS_1075
+                        region = JAP_1086
+                        province_id = 1088
+                        province_id = 1089
+                        province_id = 1086
+                        province_id = 1083
+                        province_id = 1082
+                        province_id = 2617
+                        province_id = 1085
+                        province_id = 1084
+                    }
+                }
+                add_province_modifier = {
+                    name = nationalist_agitation
+                    duration = 1095
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

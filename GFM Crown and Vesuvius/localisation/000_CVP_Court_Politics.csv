@@ -1,0 +1,145 @@
+cvp_royal_ministry;The Royal Council;;;;;;;;;;;;;x
+cvp_royal_ministry_desc;The king entrusts administration to ministers responsible to the crown. Their commission depends on the governing party and royal institutions.;;;;;;;;;;;;;x
+cvp_reform_commission;Filangieri's Commission;;;;;;;;;;;;;x
+cvp_reform_commission_desc;The prince of Satriano brings his military and technical experience to an inquiry into administration and the petitions of the provinces.;;;;;;;;;;;;;x
+cvp_settimo_deputation;Settimo's Sicilian Deputation;;;;;;;;;;;;;x
+cvp_settimo_deputation_desc;Palermo's delegates negotiate separate administration within a common crown. Their cooperation depends on the guarantees offered to the island.;;;;;;;;;;;;;x
+cvp_troya_ministry;The Troya Ministry;;;;;;;;;;;;;x
+cvp_troya_ministry_desc;The constitutional publicist directs a ministry committed to representative government. Its authority rests on the parliamentary and political circumstances under which it was appointed.;;;;;;;;;;;;;x
+cvp_santangelo;Nicola Santangelo;;;;;;;;;;;;;x
+cvp_santangelo_desc;The Interior minister directs the kingdom's civil administration under the royal council.;;;;;;;;;;;;;x
+cvp_filangieri;Carlo Filangieri;;;;;;;;;;;;;x
+cvp_filangieri_desc;The prince of Satriano advises on administration and the organisation of the armed services.;;;;;;;;;;;;;x
+cvp_settimo;Ruggero Settimo;;;;;;;;;;;;;x
+cvp_settimo_desc;The Sicilian statesman represents the island's constitutional and administrative claims.;;;;;;;;;;;;;x
+cvp_troya;Carlo Troya;;;;;;;;;;;;;x
+cvp_troya_desc;The scholar and constitutional publicist has been called to form a ministry.;;;;;;;;;;;;;x
+cvp_calvi;Pasquale Calvi;;;;;;;;;;;;;x
+cvp_calvi_desc;The republican publicist serves on the provisional constituent administration. An elected constitution must establish its permanent offices.;;;;;;;;;;;;;x
+cvp_court_appointment_interval;A Ministry Recently Appointed;;;;;;;;;;;;;x
+cvp_court_appointment_interval_desc;The new ministers must organise their offices before another change of administration can be made.;;;;;;;;;;;;;x
+cvp_court_ratification;Articles Awaiting Ratification;;;;;;;;;;;;;x
+cvp_court_ratification_desc;The proposed settlement awaits a formal act. Its sponsors and political conditions must remain in place until it is ratified.;;;;;;;;;;;;;x
+cvp_court_royal_settlement;The Royal Administrative Settlement;;;;;;;;;;;;;x
+cvp_court_royal_settlement_desc;A loyal council and the district commands have renewed their obligations to the crown.;;;;;;;;;;;;;x
+cvp_court_charter_settlement;The Southern Constitutional Charter;;;;;;;;;;;;;x
+cvp_court_charter_settlement_desc;Public guarantees place ministerial government and representation on a lasting footing.;;;;;;;;;;;;;x
+cvp_court_federal_settlement;The Compact of the Two Shores;;;;;;;;;;;;;x
+cvp_court_federal_settlement_desc;The island and mainland maintain distinct institutions under a common constitutional crown.;;;;;;;;;;;;;x
+cvp_court_republic_settlement;The Neapolitan Constituent Settlement;;;;;;;;;;;;;x
+cvp_court_republic_settlement_desc;The provisional republic has committed itself to representative institutions and an Italian constituent programme.;;;;;;;;;;;;;x
+cvp_open_court_title;Open the Council on Ministers and the Constitution;;;;;;;;;;;;;x
+cvp_open_court_desc;Bring the conduct of government before the royal council. Appointments, public petitions and the claims of Sicily will shape the institutions offered to the kingdom. Each programme must acquire support and be formally ratified.;;;;;;;;;;;;;x
+cvp_court_opened_ack;Let the appointments and their commissions be recorded.;;;;;;;;;;;;;x
+cvp_court_opened_title;The Ministers before the Crown;;;;;;;;;;;;;x
+cvp_court_opened_desc;The business of the council has outgrown the routine appointment of officials. Petitions reach Naples from the provinces, while Palermo asks who shall conduct the affairs of the island. The king can entrust these questions to royal administrators, commission an inquiry into reform, or invite a Sicilian deputation. The ministers appointed will influence which proposals can be brought forward. A constitution or an agreement with the island will require a separate act of ratification.;;;;;;;;;;;;;x
+cvp_appoint_royal_title;Appoint the Royal Council;;;;;;;;;;;;;x
+cvp_appoint_royal_desc;Entrust the offices to men of the crown, charged with civil administration and the execution of royal orders. The council answers to the king even as individual ministers leave office. Its first business will be to secure the assurances of the district commands.;;;;;;;;;;;;;x
+cvp_appoint_reform_title;Commission Filangieri to Examine Reform;;;;;;;;;;;;;x
+cvp_appoint_reform_desc;Call the prince of Satriano to examine administration, public instruction and the petitions of the provinces. The commission will draw on his experience in the armed services, but reform must also find support among those who seek representation.;;;;;;;;;;;;;x
+cvp_appoint_regional_title;Invite Settimo to a Sicilian Deputation;;;;;;;;;;;;;x
+cvp_appoint_regional_desc;Invite Ruggero Settimo and delegates from Palermo to discuss the island's administration. A common crown cannot settle the question by decree alone: the delegates must accept its guarantees, and Naples must retain authority to carry them into effect. The resulting agreement can become the foundation of a wider federal settlement.;;;;;;;;;;;;;x
+cvp_appoint_troya_title;Call Troya to Form a Constitutional Ministry;;;;;;;;;;;;;x
+cvp_appoint_troya_desc;The constitutional publicist can form a ministry and place the petitions for representation before the crown. His historical ministry belongs to the spring of the constitutional crisis. Here its continuance will depend on the political settlement and governing party.;;;;;;;;;;;;;x
+cvp_court_appointment_ack;Publish the commissions and receive the ministers.;;;;;;;;;;;;;x
+cvp_court_appointment_title;The Commission of the Ministry;;;;;;;;;;;;;x
+cvp_court_appointment_desc;The ministers receive their commissions and the offices prepare new instructions. The court expects them to conduct the programme on which they were called: royal administration, an inquiry into reform, or negotiations with the island. Their authority may end if the governing party or constitution changes. Petitions already heard and agreements already made remain matters of public record.;;;;;;;;;;;;;x
+cvp_court_petitions_title;Receive the Petitions for Representation;;;;;;;;;;;;;x
+cvp_court_petitions_desc;Let the reforming ministers receive provincial petitions and examine the powers of representative institutions. The proposal requires a political constituency, appointing sympathetic officials alone cannot supply one.;;;;;;;;;;;;;x
+cvp_court_petitions_ack;Enter the petitioners' demands in the council record.;;;;;;;;;;;;;x
+cvp_court_petitions_reply_title;The Petitions Reach the Council;;;;;;;;;;;;;x
+cvp_court_petitions_reply_desc;The deputations ask that taxation, public expenditure and the making of laws be discussed by representatives of the provinces. The ministers have assembled a constituency for their proposal, they must now persuade the crown to bind itself to a charter. The petitions establish the programme, but leave the form of government to a formal settlement.;;;;;;;;;;;;;x
+cvp_court_order_title;Seek Assurances from the District Commands;;;;;;;;;;;;;x
+cvp_court_order_desc;Ask the commanders and provincial authorities to confirm their obligations to the crown. Inspections and consultations can support royal government, although they cannot remove the political demands of the inhabitants.;;;;;;;;;;;;;x
+cvp_court_commands_ack;Receive the assurances and examine the royal settlement.;;;;;;;;;;;;;x
+cvp_court_commands_title;The Commands Answer the Crown;;;;;;;;;;;;;x
+cvp_court_commands_desc;The district commanders have acknowledged their commissions and submitted their accounts. Their assurances strengthen the council's proposal for undivided royal government. Public petitions and the affairs of Sicily remain before the court, military obedience is an instrument of government, rather than a settlement of those questions.;;;;;;;;;;;;;x
+cvp_court_island_title;Submit Articles for Sicilian Administration;;;;;;;;;;;;;x
+cvp_court_island_desc;Offer the deputation distinct island administration and guarantees for local institutions within the common crown. Settimo's cooperation would depart from the later historical refusal. An agreement must be ratified and carried into the constitution.;;;;;;;;;;;;;x
+cvp_court_island_accept;Bind the crown to the articles.;;;;;;;;;;;;;x
+cvp_court_island_reject;Withdraw the guarantees and close the deputation.;;;;;;;;;;;;;x
+cvp_court_island_reply_title;The Sicilian Deputation Examines the Articles;;;;;;;;;;;;;x
+cvp_court_island_reply_desc;The delegates distinguish local administration from independence. The draft preserves a common crown while entrusting the island's affairs to its own institutions. Settimo's participation gives the negotiations standing in Palermo, but the guarantees must become law. The court can bind itself to them or abandon the offer and answer the discontent which follows.;;;;;;;;;;;;;x
+cvp_court_reopen_island_title;Reopen the Negotiations with Palermo;;;;;;;;;;;;;x
+cvp_court_reopen_island_desc;Withdraw the earlier refusal and invite the delegates to consider renewed guarantees. The island must be under our administration for the proposed institutions to have authority.;;;;;;;;;;;;;x
+cvp_court_networks_title;Permit the Constitutional Societies to Organise;;;;;;;;;;;;;x
+cvp_court_networks_desc;Allow petitioners and publicists to organise meetings on representative government. Some will press beyond a charter towards a constituent assembly. The societies give republican organisation a foundation, while the crown must decide how far it will permit the debate to proceed.;;;;;;;;;;;;;x
+cvp_court_societies_ack;Receive their resolutions and watch the provincial meetings.;;;;;;;;;;;;;x
+cvp_court_societies_title;The Societies Debate a Constituent Assembly;;;;;;;;;;;;;x
+cvp_court_societies_desc;The permission to meet has brought together advocates of a charter, provincial reform and a constituent assembly. Their aims are not identical. The ministers must reckon with an organised opposition which can petition within the monarchy or, in a grave crisis, demand that the crown give way. The societies have acquired a political presence, they have not acquired control of the state.;;;;;;;;;;;;;x
+cvp_court_crisis_ack;Bring the available settlements before the council.;;;;;;;;;;;;;x
+cvp_court_crisis_title;The Crown and the Constitutional Crisis;;;;;;;;;;;;;x
+cvp_court_crisis_desc;Public demands now reach beyond the ordinary conduct of the offices. The council must answer the petitioners, the provincial authorities and the claims of the island. A loyal ministry can defend royal authority, reformers can submit a charter, an accepted island agreement can become a federal compact. Where republican organisation and a serious breakdown of authority coincide, a constituent movement may challenge the monarchy itself. Each course requires the support shown in the decisions before the government.;;;;;;;;;;;;;x
+cvp_court_preserve_title;Prepare the Royal Administrative Settlement;;;;;;;;;;;;;x
+cvp_court_preserve_desc;The royal council and district commands can establish an undivided administrative programme. Existing constitutional or federal commitments must be respected. Ratification will establish the crown's mandate for its later Italian programme.;;;;;;;;;;;;;x
+cvp_court_charter_title;Prepare a Lasting Constitutional Charter;;;;;;;;;;;;;x
+cvp_court_charter_desc;The reform ministry can submit a charter on the foundation of the provincial petitions. Representation and ministerial government will become lasting institutions upon ratification. The ministry and its political support must remain in place until then.;;;;;;;;;;;;;x
+cvp_court_federal_title;Prepare the Compact of the Two Shores;;;;;;;;;;;;;x
+cvp_court_federal_desc;Carry the accepted Sicilian guarantees into a common constitutional compact. The two shores will retain distinct institutions under their crown, and that settlement can support a wider Italian federal programme.;;;;;;;;;;;;;x
+cvp_court_constituent_title;Convene a Republican Constituent Committee;;;;;;;;;;;;;x
+cvp_court_constituent_desc;The organised societies and the breakdown of royal authority have opened a constituent challenge. Call a committee around Pasquale Calvi's republican programme. Ratification will replace the monarchy with a provisional representative republic, the assembly will inherit existing public obligations.;;;;;;;;;;;;;x
+cvp_court_articles_ack;Examine the conditions for ratification.;;;;;;;;;;;;;x
+cvp_court_articles_title;The Proposed Articles of Government;;;;;;;;;;;;;x
+cvp_court_articles_desc;The sponsors have placed their articles before the offices. The instrument awaits ratification under the political circumstances in which it was prepared. Ministers must retain their commission, the island undertakings must have the authority of Palermo, and a constituent challenge must retain its organised support. Until the formal act is made, the kingdom continues under its existing institutions.;;;;;;;;;;;;;x
+cvp_court_ratify_title;Ratify the Articles of Government;;;;;;;;;;;;;x
+cvp_court_ratify_desc;Give the prepared articles the authority of law. The settlement establishes the government's political programme and its later terms for Italian leadership. Ministers may subsequently leave office, the ratified institutions and public obligations remain.;;;;;;;;;;;;;x
+cvp_court_ratified_absolute_ack;Publish the act and instruct the offices.;;;;;;;;;;;;;x
+cvp_court_ratified_absolute_title;The Royal Settlement Ratified;;;;;;;;;;;;;x
+cvp_court_ratified_absolute_desc;The king has ratified the administrative articles and received the assurances of the commands. Royal government now has an explicit programme, with the offices responsible for carrying it into effect. Industrial development can strengthen its resources, while Italian leadership will require diplomacy and success in the field.;;;;;;;;;;;;;x
+cvp_court_ratified_constitutional_ack;Publish the act and instruct the offices.;;;;;;;;;;;;;x
+cvp_court_ratified_constitutional_title;The Southern Charter Ratified;;;;;;;;;;;;;x
+cvp_court_ratified_constitutional_desc;The charter binds the government to representative institutions and establishes the authority of its ministers. The crown remains, but the political programme now rests on the statute rather than the personal favour of a council. Naples can offer its constitutional settlement to other Italian states.;;;;;;;;;;;;;x
+cvp_court_ratified_federal_ack;Publish the act and instruct the offices.;;;;;;;;;;;;;x
+cvp_court_ratified_federal_title;The Compact of the Two Shores Ratified;;;;;;;;;;;;;x
+cvp_court_ratified_federal_desc;The island guarantees have become part of the constitution. The common crown must conduct its affairs through the compact and respect the institutions of both shores. A later ministry inherits these obligations. The southern government can now offer federal accession articles in the Italian struggle.;;;;;;;;;;;;;x
+cvp_court_ratified_republican_ack;Publish the act and instruct the offices.;;;;;;;;;;;;;x
+cvp_court_ratified_republican_title;The Neapolitan Constituent Government;;;;;;;;;;;;;x
+cvp_court_ratified_republican_desc;The constituent committee has assumed provisional authority and the monarchy has been displaced. Calvi's Italian republican programme gives the assembly a national object, while elections must give the new institutions a permanent foundation. The government at Naples inherits the country's treaties and public obligations. Its contest for Italian leadership will proceed under republican articles.;;;;;;;;;;;;;x
+cvp_court_dismissed_0_ack;Record the departure and maintain the institutions.;;;;;;;;;;;;;x
+cvp_court_dismissed_0_title;The Ministry Gives Up Its Commission;;;;;;;;;;;;;x
+cvp_court_dismissed_0_desc;The governing circumstances under which the ministers received their commission have changed, or the commission's period has ended. The offices must now receive another administration. A petition already entered, an agreement already made and a constitution already ratified remain on the public record. Any unfinished proposal must retain its own sponsors before it can become law.;;;;;;;;;;;;;x
+cvp_court_dismissed_1_ack;Record the departure and maintain the institutions.;;;;;;;;;;;;;x
+cvp_court_dismissed_1_title;The Ministry Gives Up Its Commission;;;;;;;;;;;;;x
+cvp_court_dismissed_1_desc;The governing circumstances under which the ministers received their commission have changed, or the commission's period has ended. The offices must now receive another administration. A petition already entered, an agreement already made and a constitution already ratified remain on the public record. Any unfinished proposal must retain its own sponsors before it can become law.;;;;;;;;;;;;;x
+cvp_court_dismissed_2_ack;Record the departure and maintain the institutions.;;;;;;;;;;;;;x
+cvp_court_dismissed_2_title;The Ministry Gives Up Its Commission;;;;;;;;;;;;;x
+cvp_court_dismissed_2_desc;The governing circumstances under which the ministers received their commission have changed, or the commission's period has ended. The offices must now receive another administration. A petition already entered, an agreement already made and a constitution already ratified remain on the public record. Any unfinished proposal must retain its own sponsors before it can become law.;;;;;;;;;;;;;x
+cvp_court_dismissed_3_ack;Record the departure and maintain the institutions.;;;;;;;;;;;;;x
+cvp_court_dismissed_3_title;The Ministry Gives Up Its Commission;;;;;;;;;;;;;x
+cvp_court_dismissed_3_desc;The governing circumstances under which the ministers received their commission have changed, or the commission's period has ended. The offices must now receive another administration. A petition already entered, an agreement already made and a constitution already ratified remain on the public record. Any unfinished proposal must retain its own sponsors before it can become law.;;;;;;;;;;;;;x
+cvp_court_santangelo_departure_ack;Receive the outgoing minister's papers.;;;;;;;;;;;;;x
+cvp_court_santangelo_departure_title;Santangelo Leaves the Interior Office;;;;;;;;;;;;;x
+cvp_court_santangelo_departure_desc;Santangelo's direction of Interior affairs has ended. The royal council continues to conduct the king's administration, but the office must be entrusted to a successor. Its assurances and any ratified settlement remain binding.;;;;;;;;;;;;;x
+cvp_court_federal_suspended_ack;Record the suspension and preserve the undertaking.;;;;;;;;;;;;;x
+cvp_court_federal_suspended_title;The Island Compact Cannot Be Carried into Effect;;;;;;;;;;;;;x
+cvp_court_federal_suspended_desc;The government can no longer administer the accepted island guarantees. Without authority at Palermo, or after a rupture of the agreement itself, the compact cannot furnish a mandate for Italian federal leadership. The offices suspend its benefits. The federal undertaking remains on the public record, but its institutions must be restored and their articles renewed before the programme can proceed.;;;;;;;;;;;;;x
+cvp_court_restore_compact_title;Renew the Compact after the Island Rupture;;;;;;;;;;;;;x
+cvp_court_restore_compact_desc;Restore the common administration after the loss of the island or the failure of its former agreement. The Sicilian provinces must be under our government and the separatist state must have ceased to exist. Renewed articles restore the island institutions and the federal mandate.;;;;;;;;;;;;;x
+cvp_court_lapse_ack;Close the unratified proposal.;;;;;;;;;;;;;x
+cvp_court_lapse_title;The Articles Lose Their Sponsors;;;;;;;;;;;;;x
+cvp_court_lapse_desc;The unratified articles no longer have the sponsors or political circumstances required to carry them into effect. The offices close the proposal. The government's existing constitution and earlier public undertakings remain in force, and a fresh proposal can be made when its conditions are restored.;;;;;;;;;;;;;x
+cvp_court_mission_closed_ack;Communicate the disposition of the papers.;;;;;;;;;;;;;x
+cvp_court_mission_closed_title;The Deputations Return to Their Constituents;;;;;;;;;;;;;x
+cvp_court_mission_closed_desc;The offices have closed or renewed a deputation's business. A proposal whose sponsors have left office must be submitted again under the new administration. A renewed island offer will receive its own answer. Ministers record the disposition so that the petitioners know whether their business remains before the government.;;;;;;;;;;;;;x
+cvp_court_started;The council on ministers has been opened;;;;;;;;;;;;;x
+cvp_southern_origin;Government established through the southern political programme;;;;;;;;;;;;;x
+cvp_neapolitan_republic;The Neapolitan constituent republic established;;;;;;;;;;;;;x
+cvp_court_pending;Articles of government await ratification;;;;;;;;;;;;;x
+cvp_court_petitions_pending;Provincial petitions under examination;;;;;;;;;;;;;x
+cvp_court_petitions_heard;Provincial petitions for representation heard;;;;;;;;;;;;;x
+cvp_court_army_assured;The district commands have given their assurances;;;;;;;;;;;;;x
+cvp_court_island_pending;Sicilian articles under negotiation;;;;;;;;;;;;;x
+cvp_court_island_agreed;The Sicilian articles accepted;;;;;;;;;;;;;x
+cvp_court_island_refused;The Sicilian guarantees withdrawn;;;;;;;;;;;;;x
+cvp_court_networks_ready;Constitutional societies organised;;;;;;;;;;;;;x
+cvp_court_crisis_seen;The constitutional crisis has reached the council;;;;;;;;;;;;;x
+cvp_court_offer_absolute;Royal articles prepared;;;;;;;;;;;;;x
+cvp_court_settled_absolute;Royal articles ratified;;;;;;;;;;;;;x
+cvp_court_offer_constitutional;Constitutional articles prepared;;;;;;;;;;;;;x
+cvp_court_settled_constitutional;Constitutional articles ratified;;;;;;;;;;;;;x
+cvp_court_offer_federal;Federal articles prepared;;;;;;;;;;;;;x
+cvp_court_settled_federal;Federal articles ratified;;;;;;;;;;;;;x
+cvp_court_offer_republican;Republican articles prepared;;;;;;;;;;;;;x
+cvp_court_settled_republican;Republican articles ratified;;;;;;;;;;;;;x
+cva_republican;Southern republican Italian programme;;;;;;;;;;;;;x
+cva_republican_ready;Republican constituent settlement established;;;;;;;;;;;;;x

@@ -1,0 +1,28 @@
+country_event = { id = 9784990 title = "FF73_SWAZI_TITLE" desc = "FF73_SWAZI_DESC" picture = "boer_war"
+ trigger = { OR = { tag = TRN tag = SAF } is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } has_country_flag = ff71_swazi_demand_issued NOT = { has_country_flag = ff71_swazi_integrated } NOT = { has_country_flag = ff73_swazi_withdrawn } NOT = { has_country_flag = ff73_swazi_orders_recovered } NOT = { war_with = SUA } SUA = { exists = yes OR = { is_vassal = no vassal_of = THIS } } OR = { has_country_flag = ff71_swazi_refusal has_country_flag = ff71_swazi_campaign SUA = { has_country_flag = ff71_swazi_campaign } } }
+ mean_time_to_happen = { days = 1 }
+ option = { name = "FF73_SWAZI_OPT0" ai_chance = { factor = 100 }
+  SUA = { end_war = SUA clr_country_flag = ff71_swazi_campaign }
+  set_country_flag = ff73_swazi_orders_recovered set_country_flag = ff71_swazi_refusal set_country_flag = ff71_swazi_request_pending
+  country_event = { id = 9784985 days = 1 }
+ }
+}
+country_event = { id = 9784991 title = "FF73_CAPE_TITLE" desc = "FF73_CAPE_DESC" picture = "boer_war"
+ trigger = { tag = TRN is_vassal = no NOT = { war_with = ENG } has_country_flag = ff67_full_cape_victory NOT = { has_country_flag = ff73_full_territory_delivered } } mean_time_to_happen = { days = 1 }
+ option = { name = "FF73_CAPE_OPT0" ai_chance = { factor = 100 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no NOT = { war_with = ENG } has_country_flag = ff67_full_cape_victory NOT = { has_country_flag = ff73_full_territory_delivered } } } owner = {
+  ENG = { any_owned = { limit = { OR = { region = ENG_2083 region = ENG_2087 region = ENG_2092 region = ENG_2096 region = ZUL_2113 } } add_core = TRN add_core = SAF secede_province = TRN } }
+  SAF = { random_owned = { limit = { owner = { vassal_of = ENG } } owner = { any_owned = { limit = { OR = { region = ENG_2083 region = ENG_2087 region = ENG_2092 region = ENG_2096 region = ZUL_2113 } } add_core = TRN add_core = SAF secede_province = TRN } } } }
+ ZUL = { any_owned = { add_core = TRN add_core = SAF } random_owned = { limit = { owner = { ai = no } } owner = { change_tag_no_core_switch = TRN } } end_war = TRN }
+ ENG = { release_vassal = ZUL } TRN = { end_war = ZUL release_vassal = ZUL inherit = ZUL }
+ TSN = { any_owned = { add_core = TRN add_core = SAF } random_owned = { limit = { owner = { ai = no } } owner = { change_tag_no_core_switch = TRN } } end_war = TRN }
+ ENG = { release_vassal = TSN } TRN = { end_war = TSN release_vassal = TSN inherit = TSN }
+ ENG = { release_vassal = SUA } SUA = { end_war = TRN }
+ TRN = { random_owned = { limit = { owner = { SUA = { exists = yes } } } owner = { TRN = { end_war = SUA create_vassal = SUA } } } }
+ ENG = { release_vassal = BSH } BSH = { end_war = TRN }
+ TRN = { random_owned = { limit = { owner = { BSH = { exists = yes } } } owner = { TRN = { end_war = BSH create_vassal = BSH } } } }
+ TRN = { set_country_flag = ff73_full_territory_delivered set_country_flag = ff67_full_cape_victory set_country_flag = ff63_first_war_settled clr_country_flag = ff63_liberation_active clr_country_flag = ff63_victory_pending }
+ ENG = { set_country_flag = ff67_cape_capitulation country_event = { id = 9784966 days = 1 } }
+ } }
+ }
+}

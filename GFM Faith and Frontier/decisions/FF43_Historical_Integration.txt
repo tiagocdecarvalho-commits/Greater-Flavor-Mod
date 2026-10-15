@@ -1,0 +1,118 @@
+political_decisions = {
+ ff43_philippolis_purchase = {
+  potential = { tag = ORA year = 1861 ZOU = { owns = 2103 } NOT = { has_country_flag = ff43_philippolis_offered } }
+  allow = { war = no is_vassal = no money = 400 ZOU = { war = no controls = 2103 } }
+  effect = { treasury = -400 set_country_flag = ff62_philippolis_paid_400 set_country_flag = ff43_philippolis_offered set_country_flag = ff43_philippolis_pending ZOU = { country_event = 9784310 } }
+  ai_will_do = { factor = 1 }
+ }
+
+
+ ff43_cape_land_commission = {
+  potential = { tag = ENG year = 1840 owns = 2087 NOT = { has_country_flag = ff43_cape_commission } }
+  allow = { war = no money = 20000 }
+  effect = { treasury = -20000 set_country_flag = ff43_cape_commission add_country_modifier = { name = ff43_land_commission duration = 1825 } }
+  ai_will_do = { factor = 1 }
+ }
+
+ ff43_diamond_claims_hearing = {
+  potential = { tag = ENG year = 1871 owns = 2094 NOT = { has_country_flag = ff43_diamond_hearing } }
+  allow = { war = no controls = 2094 money = 15000 }
+  effect = { treasury = -15000 set_country_flag = ff43_diamond_hearing 2094 = { add_core = GKW add_province_modifier = { name = ff43_registered_claims duration = 1825 } } 4010 = { add_core = GKW } }
+  ai_will_do = { factor = 1 }
+ }
+
+ ff43_dutch_cape_exchange = {
+  potential = { tag = NET year = 1840 owns = 2087 NOT = { has_country_flag = ff43_dutch_exchange } }
+  allow = { war = no controls = 2087 money = 20000 }
+  effect = { treasury = -20000 set_country_flag = ff43_dutch_exchange 2087 = { add_province_modifier = { name = ff43_cape_exchange duration = 3650 } } }
+  ai_will_do = { factor = 1 }
+ }
+
+ ff43_dutch_cape_schools = {
+  potential = { tag = NET year = 1850 owns = 2087 NOT = { has_country_flag = ff43_dutch_schools } }
+  allow = { war = no controls = 2087 money = 30000 education_spending = 0.5 }
+  effect = { treasury = -30000 set_country_flag = ff43_dutch_schools add_country_modifier = { name = ff43_cape_teachers duration = -1 } }
+  ai_will_do = { factor = 1 }
+ }
+
+ ff43_district_ora = {
+  potential = { tag = ORA year = 1840 NOT = { year = 1848 } NOT = { has_country_flag = ff43_district_ora } }
+  allow = { war = no money = 7500 owns = 2102 owns = 4008 }
+  effect = { treasury = -7500 set_country_flag = ff43_district_ora 2102 = { add_core = THIS } 4008 = { add_core = THIS } add_country_modifier = { name = ff43_registered_districts duration = 3650 } }
+  ai_will_do = { factor = 1 }
+ }
+
+ ff43_district_pot = {
+  potential = { tag = POT year = 1840 NOT = { has_country_flag = ff43_district_pot } }
+  allow = { war = no money = 7500 owns = 4005 owns = 2107 }
+  effect = { treasury = -7500 set_country_flag = ff43_district_pot 4005 = { add_core = THIS } 2107 = { add_core = THIS } add_country_modifier = { name = ff43_registered_districts duration = 3650 } }
+  ai_will_do = { factor = 1 }
+ }
+
+ ff43_district_vlk = {
+  potential = { tag = VLK year = 1840 NOT = { has_country_flag = ff43_district_vlk } }
+  allow = { war = no money = 7500 owns = 4005 owns = 2107 owns = 2106 }
+  effect = { treasury = -7500 set_country_flag = ff43_district_vlk 4005 = { add_core = THIS } 2107 = { add_core = THIS } 2106 = { add_core = THIS } add_country_modifier = { name = ff43_registered_districts duration = 3650 } }
+  ai_will_do = { factor = 1 }
+ }
+
+ ff43_district_zpb = {
+  potential = { tag = ZPB year = 1840 NOT = { has_country_flag = ff43_district_zpb } }
+  allow = { war = no money = 7500 owns = 4020 owns = 2110 }
+  effect = { treasury = -7500 set_country_flag = ff43_district_zpb 4020 = { add_core = THIS } 2110 = { add_core = THIS } add_country_modifier = { name = ff43_registered_districts duration = 3650 } }
+  ai_will_do = { factor = 1 }
+ }
+
+ ff43_zoutpansberg_agreement = {
+  potential = { tag = ZPB year = 1848 NOT = { year = 1858 } owns = 4020 PCF = { owns = 2110 } NOT = { has_country_flag = ff43_northern_offer } }
+  allow = { war = no is_vassal = no money = 12000 relation = { who = PCF value = 75 } PCF = { war = no is_vassal = no controls = 2110 } }
+  effect = { treasury = -12000 set_country_flag = ff43_northern_offer set_country_flag = ff43_northern_pending PCF = { country_event = 9784312 } }
+  ai_will_do = { factor = 1 }
+ }
+
+ ff43_frontier_settlement_pot = {
+  potential = { tag = POT year = 1850 NOT = { year = 1880 } owns = 4005 2074 = { empty = yes } NOT = { has_country_flag = ff43_frontier_settlement_pot } }
+  allow = { war = no is_vassal = no money = 25000 prestige = 10 military_score = 5 medicine = 1 2074 = { empty = yes any_neighbor_province = { owned_by = THIS } } }
+  effect = { treasury = -25000 badboy = 2 set_country_flag = ff43_frontier_settlement_pot 2074 = { secede_province = THIS add_province_modifier = { name = ff43_frontier_outlay duration = 1825 } } }
+  ai_will_do = { factor = 0 }
+ }
+
+ ff43_frontier_settlement_vlk = {
+  potential = { tag = VLK year = 1850 NOT = { year = 1880 } owns = 2106 2074 = { empty = yes } NOT = { has_country_flag = ff43_frontier_settlement_vlk } }
+  allow = { war = no is_vassal = no money = 25000 prestige = 10 military_score = 5 medicine = 1 2074 = { empty = yes any_neighbor_province = { owned_by = THIS } } }
+  effect = { treasury = -25000 badboy = 2 set_country_flag = ff43_frontier_settlement_vlk 2074 = { secede_province = THIS add_province_modifier = { name = ff43_frontier_outlay duration = 1825 } } }
+  ai_will_do = { factor = 0 }
+ }
+
+ ff43_frontier_settlement_zpb = {
+  potential = { tag = ZPB year = 1850 NOT = { year = 1880 } owns = 4020 3969 = { empty = yes } NOT = { has_country_flag = ff43_frontier_settlement_zpb } }
+  allow = { war = no is_vassal = no money = 25000 prestige = 10 military_score = 5 medicine = 1 3969 = { empty = yes any_neighbor_province = { owned_by = THIS } } }
+  effect = { treasury = -25000 badboy = 2 set_country_flag = ff43_frontier_settlement_zpb 3969 = { secede_province = THIS add_province_modifier = { name = ff43_frontier_outlay duration = 1825 } } }
+  ai_will_do = { factor = 0 }
+ }
+
+ ff43_claims_ora = {
+ potential = { tag = ORA year = 1838 NOT = { year = 1848 } owns = 2102 OR = { NOT = { owns = 2101 } NOT = { owns = 4009 } } NOT = { has_country_flag = ff43_claims_ora } }
+ allow = { war = no OR = { is_vassal = no vassal_of = ENG } money = 5000 military_score = 3 prestige = 2 }
+ effect = { treasury = -5000 badboy = 2 set_country_flag = ff43_claims_ora 2101 = { add_core = THIS } 4009 = { add_core = THIS } }
+ ai_will_do = { factor = 0.3 }
+ }
+ ff43_claims_pot = {
+ potential = { tag = POT year = 1840 NOT = { year = 1853 } owns = 4005 OR = { NOT = { owns = 2106 } NOT = { owns = 2107 } } NOT = { has_country_flag = ff43_claims_pot } }
+ allow = { war = no OR = { is_vassal = no vassal_of = ENG } money = 5000 military_score = 3 prestige = 2 }
+ effect = { treasury = -5000 badboy = 2 set_country_flag = ff43_claims_pot 2106 = { add_core = THIS } 2107 = { add_core = THIS } }
+ ai_will_do = { factor = 0.3 }
+ }
+ ff43_claims_vlk = {
+ potential = { tag = VLK year = 1844 NOT = { year = 1853 } owns = 4005 OR = { NOT = { owns = 2105 } NOT = { owns = 2106 } NOT = { owns = 2107 } } NOT = { has_country_flag = ff43_claims_vlk } }
+ allow = { war = no OR = { is_vassal = no vassal_of = ENG } money = 5000 military_score = 3 prestige = 2 }
+ effect = { treasury = -5000 badboy = 2 set_country_flag = ff43_claims_vlk 2105 = { add_core = THIS } 2106 = { add_core = THIS } 2107 = { add_core = THIS } }
+ ai_will_do = { factor = 0.3 }
+ }
+ ff43_claims_zpb = {
+ potential = { tag = ZPB year = 1848 NOT = { year = 1864 } owns = 4020 OR = { NOT = { owns = 2110 } } NOT = { has_country_flag = ff43_claims_zpb } }
+ allow = { war = no OR = { is_vassal = no vassal_of = ENG } money = 5000 military_score = 3 prestige = 2 }
+ effect = { treasury = -5000 badboy = 2 set_country_flag = ff43_claims_zpb 2110 = { add_core = THIS } }
+ ai_will_do = { factor = 0.3 }
+ }
+}

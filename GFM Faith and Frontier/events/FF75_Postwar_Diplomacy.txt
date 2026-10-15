@@ -1,0 +1,122 @@
+country_event = { id = 9785100 title = "FF75_GRIQUA_DEMAND_TITLE" desc = "FF75_GRIQUA_DEMAND_DESC" picture = "boer_war" 
+ trigger = { tag = GKW NOT = { has_country_flag = ff75_griqua_answer } OR = { TRN = { has_country_flag = ff75_griqua_pending } SAF = { has_country_flag = ff75_griqua_pending } } } mean_time_to_happen = { days = 1 }
+ option = { name = "FF75_DEMAND_ACCEPT" ai_chance = { factor = 45 } GKW = { set_country_flag = ff75_griqua_answer }
+ TRN = { random_owned = { limit = { owner = { is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff75_griqua_pending GKW = { exists = yes OR = { is_vassal = no vassal_of = TRN } } } } owner = { TRN = { set_country_flag = ff75_griqua_accept country_event = { id = 9785101 days = 1 } } } } }
+ SAF = { random_owned = { limit = { owner = { is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff75_griqua_pending GKW = { exists = yes OR = { is_vassal = no vassal_of = SAF } } } } owner = { SAF = { set_country_flag = ff75_griqua_accept country_event = { id = 9785101 days = 1 } } } } }
+ }
+ option = { name = "FF75_DEMAND_REFUSE" ai_chance = { factor = 55 } GKW = { set_country_flag = ff75_griqua_answer }
+ TRN = { random_owned = { limit = { owner = { is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff75_griqua_pending GKW = { exists = yes OR = { is_vassal = no vassal_of = TRN } } } } owner = { TRN = { set_country_flag = ff75_griqua_refuse country_event = { id = 9785102 days = 1 } } } } }
+ SAF = { random_owned = { limit = { owner = { is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff75_griqua_pending GKW = { exists = yes OR = { is_vassal = no vassal_of = SAF } } } } owner = { SAF = { set_country_flag = ff75_griqua_refuse country_event = { id = 9785102 days = 1 } } } } }
+ }
+}
+country_event = { id = 9785101 title = "FF75_GRIQUA_ACCEPT_TITLE" desc = "FF75_GRIQUA_ACCEPT_DESC" picture = "boer_war" fire_only_once = yes major = yes
+ trigger = { OR = { tag = TRN tag = SAF } is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff75_griqua_pending has_country_flag = ff75_griqua_accept NOT = { has_country_flag = ff75_griqua_integrated } GKW = { exists = yes war = no OR = { is_vassal = no vassal_of = THIS } } } mean_time_to_happen = { days = 1 }
+ option = { name = "FF75_UNION_ACCEPT" ai_chance = { factor = 100 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff75_griqua_pending has_country_flag = ff75_griqua_accept GKW = { exists = yes OR = { is_vassal = no vassal_of = TRN } } } } owner = {
+ GKW = { any_owned = { set_province_flag = ff75_griqua_acquired add_core = TRN add_core = SAF } random_owned = { limit = { owner = { ai = no } } owner = { change_tag_no_core_switch = TRN } } }
+ TRN = { release_vassal = GKW inherit = GKW clr_country_flag = ff75_griqua_pending set_country_flag = ff75_griqua_peaceful set_country_flag = ff75_griqua_campaign country_event = { id = 9785103 days = 1 } }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff75_griqua_pending has_country_flag = ff75_griqua_accept GKW = { exists = yes OR = { is_vassal = no vassal_of = SAF } } } } owner = {
+ GKW = { any_owned = { set_province_flag = ff75_griqua_acquired add_core = SAF add_core = SAF } random_owned = { limit = { owner = { ai = no } } owner = { change_tag_no_core_switch = SAF } } }
+ SAF = { release_vassal = GKW inherit = GKW clr_country_flag = ff75_griqua_pending set_country_flag = ff75_griqua_peaceful set_country_flag = ff75_griqua_campaign country_event = { id = 9785103 days = 1 } }
+ } }
+ }
+}
+country_event = { id = 9785102 title = "FF75_GRIQUA_REFUSE_TITLE" desc = "FF75_GRIQUA_REFUSE_DESC" picture = "boer_war" 
+ trigger = { OR = { tag = TRN tag = SAF } is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } NOT = { war_with = GKW } has_country_flag = ff75_griqua_pending has_country_flag = ff75_griqua_refuse GKW = { exists = yes war = no OR = { is_vassal = no vassal_of = THIS } } NOT = { has_country_flag = ff77_griqua_refusal_shown } } mean_time_to_happen = { days = 1 } immediate = { set_country_flag = ff77_griqua_refusal_shown }
+ option = { name = "FF75_LAUNCH_CAMPAIGN" ai_chance = { factor = 65 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } NOT = { war_with = GKW } has_country_flag = ff75_griqua_pending has_country_flag = ff75_griqua_refuse GKW = { exists = yes OR = { is_vassal = no vassal_of = TRN } } } } owner = {
+ GKW = { any_owned = { set_province_flag = ff75_griqua_acquired } }
+ TRN = { release_vassal = GKW leave_alliance = GKW clr_country_flag = ff75_griqua_pending set_country_flag = ff75_griqua_campaign badboy = 8 casus_belli = { target = GKW type = ff75_griqua_conquest months = 60 } diplomatic_influence = { who = GKW value = -200 } country_event = { id = 9785130 days = 2 } }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } NOT = { war_with = GKW } has_country_flag = ff75_griqua_pending has_country_flag = ff75_griqua_refuse GKW = { exists = yes OR = { is_vassal = no vassal_of = SAF } } } } owner = {
+ GKW = { any_owned = { set_province_flag = ff75_griqua_acquired } }
+ SAF = { release_vassal = GKW leave_alliance = GKW clr_country_flag = ff75_griqua_pending set_country_flag = ff75_griqua_campaign badboy = 8 casus_belli = { target = GKW type = ff75_griqua_conquest months = 60 } diplomatic_influence = { who = GKW value = -200 } country_event = { id = 9785130 days = 2 } }
+ } }
+ }
+ option = { name = "FF75_KEEP_PEACE" ai_chance = { factor = 35 }
+ TRN = { random_owned = { limit = { owner = { has_country_flag = ff75_griqua_pending } } owner = { TRN = { clr_country_flag = ff75_griqua_pending prestige = -2 } } } }
+ SAF = { random_owned = { limit = { owner = { has_country_flag = ff75_griqua_pending } } owner = { SAF = { clr_country_flag = ff75_griqua_pending prestige = -2 } } } }
+ }
+}
+country_event = { id = 9785103 title = "FF75_GRIQUA_SETTLEMENT_TITLE" desc = "FF75_GRIQUA_SETTLEMENT_DESC" picture = "boer_war" fire_only_once = yes major = yes
+ trigger = { OR = { tag = TRN tag = SAF } is_vassal = no war = no has_country_flag = ff75_griqua_campaign NOT = { exists = GKW } NOT = { has_country_flag = ff75_griqua_integrated } NOT = { has_country_flag = ff75_griqua_settlement_shown } any_owned_province = { has_province_flag = ff75_griqua_acquired } } mean_time_to_happen = { days = 1 }
+ immediate = { set_country_flag = ff75_griqua_settlement_shown }
+ option = { name = "FF75_SETTLE_COUNCILS" ai_chance = { factor = 60 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no war = no has_country_flag = ff75_griqua_campaign NOT = { exists = GKW } NOT = { has_country_flag = ff75_griqua_integrated } } } owner = {
+ TRN = { any_owned = { limit = { has_province_flag = ff75_griqua_acquired } add_core = TRN add_core = SAF remove_core = GKW add_province_modifier = { name = ff75_local_councils duration = 1825 } } money = -3000 prestige = 5 set_country_flag = ff75_griqua_integrated }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no war = no has_country_flag = ff75_griqua_campaign NOT = { exists = GKW } NOT = { has_country_flag = ff75_griqua_integrated } } } owner = {
+ SAF = { any_owned = { limit = { has_province_flag = ff75_griqua_acquired } add_core = SAF add_core = SAF remove_core = GKW add_province_modifier = { name = ff75_local_councils duration = 1825 } } money = -3000 prestige = 5 set_country_flag = ff75_griqua_integrated }
+ } }
+ }
+ option = { name = "FF75_SETTLE_COMMON" ai_chance = { factor = 40 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no war = no has_country_flag = ff75_griqua_campaign NOT = { exists = GKW } NOT = { has_country_flag = ff75_griqua_integrated } } } owner = {
+ TRN = { any_owned = { limit = { has_province_flag = ff75_griqua_acquired } add_core = TRN add_core = SAF remove_core = GKW add_province_modifier = { name = ff75_common_administration duration = 1825 } } money = -6000 prestige = 5 set_country_flag = ff75_griqua_integrated }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no war = no has_country_flag = ff75_griqua_campaign NOT = { exists = GKW } NOT = { has_country_flag = ff75_griqua_integrated } } } owner = {
+ SAF = { any_owned = { limit = { has_province_flag = ff75_griqua_acquired } add_core = SAF add_core = SAF remove_core = GKW add_province_modifier = { name = ff75_common_administration duration = 1825 } } money = -6000 prestige = 5 set_country_flag = ff75_griqua_integrated }
+ } }
+ }
+}
+country_event = { id = 9785110 title = "FF75_BASOTHO_DEMAND_TITLE" desc = "FF75_BASOTHO_DEMAND_DESC" picture = "boer_war" 
+ trigger = { tag = BSH NOT = { has_country_flag = ff75_basotho_answer } OR = { TRN = { has_country_flag = ff75_basotho_pending } SAF = { has_country_flag = ff75_basotho_pending } } } mean_time_to_happen = { days = 1 }
+ option = { name = "FF75_DEMAND_ACCEPT" ai_chance = { factor = 25 } BSH = { set_country_flag = ff75_basotho_answer }
+ TRN = { random_owned = { limit = { owner = { is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff75_basotho_pending BSH = { exists = yes OR = { is_vassal = no vassal_of = TRN } } } } owner = { TRN = { set_country_flag = ff75_basotho_accept country_event = { id = 9785111 days = 1 } } } } }
+ SAF = { random_owned = { limit = { owner = { is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff75_basotho_pending BSH = { exists = yes OR = { is_vassal = no vassal_of = SAF } } } } owner = { SAF = { set_country_flag = ff75_basotho_accept country_event = { id = 9785111 days = 1 } } } } }
+ }
+ option = { name = "FF75_DEMAND_REFUSE" ai_chance = { factor = 75 } BSH = { set_country_flag = ff75_basotho_answer }
+ TRN = { random_owned = { limit = { owner = { is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff75_basotho_pending BSH = { exists = yes OR = { is_vassal = no vassal_of = TRN } } } } owner = { TRN = { set_country_flag = ff75_basotho_refuse country_event = { id = 9785112 days = 1 } } } } }
+ SAF = { random_owned = { limit = { owner = { is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff75_basotho_pending BSH = { exists = yes OR = { is_vassal = no vassal_of = SAF } } } } owner = { SAF = { set_country_flag = ff75_basotho_refuse country_event = { id = 9785112 days = 1 } } } } }
+ }
+}
+country_event = { id = 9785111 title = "FF75_BASOTHO_ACCEPT_TITLE" desc = "FF75_BASOTHO_ACCEPT_DESC" picture = "boer_war" fire_only_once = yes major = yes
+ trigger = { OR = { tag = TRN tag = SAF } is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff75_basotho_pending has_country_flag = ff75_basotho_accept NOT = { has_country_flag = ff75_basotho_integrated } BSH = { exists = yes war = no OR = { is_vassal = no vassal_of = THIS } } } mean_time_to_happen = { days = 1 }
+ option = { name = "FF75_UNION_ACCEPT" ai_chance = { factor = 100 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff75_basotho_pending has_country_flag = ff75_basotho_accept BSH = { exists = yes OR = { is_vassal = no vassal_of = TRN } } } } owner = {
+ BSH = { any_owned = { set_province_flag = ff75_basotho_acquired add_core = TRN add_core = SAF } random_owned = { limit = { owner = { ai = no } } owner = { change_tag_no_core_switch = TRN } } }
+ TRN = { release_vassal = BSH inherit = BSH clr_country_flag = ff75_basotho_pending set_country_flag = ff75_basotho_peaceful set_country_flag = ff75_basotho_campaign country_event = { id = 9785113 days = 1 } }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } war = no has_country_flag = ff75_basotho_pending has_country_flag = ff75_basotho_accept BSH = { exists = yes OR = { is_vassal = no vassal_of = SAF } } } } owner = {
+ BSH = { any_owned = { set_province_flag = ff75_basotho_acquired add_core = SAF add_core = SAF } random_owned = { limit = { owner = { ai = no } } owner = { change_tag_no_core_switch = SAF } } }
+ SAF = { release_vassal = BSH inherit = BSH clr_country_flag = ff75_basotho_pending set_country_flag = ff75_basotho_peaceful set_country_flag = ff75_basotho_campaign country_event = { id = 9785113 days = 1 } }
+ } }
+ }
+}
+country_event = { id = 9785112 title = "FF75_BASOTHO_REFUSE_TITLE" desc = "FF75_BASOTHO_REFUSE_DESC" picture = "boer_war" 
+ trigger = { OR = { tag = TRN tag = SAF } is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } NOT = { war_with = BSH } has_country_flag = ff75_basotho_pending has_country_flag = ff75_basotho_refuse BSH = { exists = yes war = no OR = { is_vassal = no vassal_of = THIS } } NOT = { has_country_flag = ff77_basotho_refusal_shown } } mean_time_to_happen = { days = 1 } immediate = { set_country_flag = ff77_basotho_refusal_shown }
+ option = { name = "FF75_LAUNCH_CAMPAIGN" ai_chance = { factor = 65 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } NOT = { war_with = BSH } has_country_flag = ff75_basotho_pending has_country_flag = ff75_basotho_refuse BSH = { exists = yes OR = { is_vassal = no vassal_of = TRN } } } } owner = {
+ BSH = { any_owned = { set_province_flag = ff75_basotho_acquired } }
+ TRN = { release_vassal = BSH leave_alliance = BSH clr_country_flag = ff75_basotho_pending set_country_flag = ff75_basotho_campaign badboy = 8 casus_belli = { target = BSH type = ff75_basotho_conquest months = 60 } diplomatic_influence = { who = BSH value = -200 } country_event = { id = 9785131 days = 2 } }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no has_country_flag = ff63_first_war_settled OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } NOT = { war_with = BSH } has_country_flag = ff75_basotho_pending has_country_flag = ff75_basotho_refuse BSH = { exists = yes OR = { is_vassal = no vassal_of = SAF } } } } owner = {
+ BSH = { any_owned = { set_province_flag = ff75_basotho_acquired } }
+ SAF = { release_vassal = BSH leave_alliance = BSH clr_country_flag = ff75_basotho_pending set_country_flag = ff75_basotho_campaign badboy = 8 casus_belli = { target = BSH type = ff75_basotho_conquest months = 60 } diplomatic_influence = { who = BSH value = -200 } country_event = { id = 9785131 days = 2 } }
+ } }
+ }
+ option = { name = "FF75_KEEP_PEACE" ai_chance = { factor = 35 }
+ TRN = { random_owned = { limit = { owner = { has_country_flag = ff75_basotho_pending } } owner = { TRN = { clr_country_flag = ff75_basotho_pending prestige = -2 } } } }
+ SAF = { random_owned = { limit = { owner = { has_country_flag = ff75_basotho_pending } } owner = { SAF = { clr_country_flag = ff75_basotho_pending prestige = -2 } } } }
+ }
+}
+country_event = { id = 9785113 title = "FF75_BASOTHO_SETTLEMENT_TITLE" desc = "FF75_BASOTHO_SETTLEMENT_DESC" picture = "boer_war" fire_only_once = yes major = yes
+ trigger = { OR = { tag = TRN tag = SAF } is_vassal = no war = no has_country_flag = ff75_basotho_campaign NOT = { exists = BSH } NOT = { has_country_flag = ff75_basotho_integrated } NOT = { has_country_flag = ff75_basotho_settlement_shown } any_owned_province = { has_province_flag = ff75_basotho_acquired } } mean_time_to_happen = { days = 1 }
+ immediate = { set_country_flag = ff75_basotho_settlement_shown }
+ option = { name = "FF75_SETTLE_COUNCILS" ai_chance = { factor = 60 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no war = no has_country_flag = ff75_basotho_campaign NOT = { exists = BSH } NOT = { has_country_flag = ff75_basotho_integrated } } } owner = {
+ TRN = { any_owned = { limit = { has_province_flag = ff75_basotho_acquired } add_core = TRN add_core = SAF remove_core = BSH add_province_modifier = { name = ff75_local_councils duration = 1825 } } money = -3000 prestige = 5 set_country_flag = ff75_basotho_integrated }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no war = no has_country_flag = ff75_basotho_campaign NOT = { exists = BSH } NOT = { has_country_flag = ff75_basotho_integrated } } } owner = {
+ SAF = { any_owned = { limit = { has_province_flag = ff75_basotho_acquired } add_core = SAF add_core = SAF remove_core = BSH add_province_modifier = { name = ff75_local_councils duration = 1825 } } money = -3000 prestige = 5 set_country_flag = ff75_basotho_integrated }
+ } }
+ }
+ option = { name = "FF75_SETTLE_COMMON" ai_chance = { factor = 40 }
+ random_owned = { limit = { owner = { tag = TRN is_vassal = no war = no has_country_flag = ff75_basotho_campaign NOT = { exists = BSH } NOT = { has_country_flag = ff75_basotho_integrated } } } owner = {
+ TRN = { any_owned = { limit = { has_province_flag = ff75_basotho_acquired } add_core = TRN add_core = SAF remove_core = BSH add_province_modifier = { name = ff75_common_administration duration = 1825 } } money = -6000 prestige = 5 set_country_flag = ff75_basotho_integrated }
+ } }
+ random_owned = { limit = { owner = { tag = SAF is_vassal = no war = no has_country_flag = ff75_basotho_campaign NOT = { exists = BSH } NOT = { has_country_flag = ff75_basotho_integrated } } } owner = {
+ SAF = { any_owned = { limit = { has_province_flag = ff75_basotho_acquired } add_core = SAF add_core = SAF remove_core = BSH add_province_modifier = { name = ff75_common_administration duration = 1825 } } money = -6000 prestige = 5 set_country_flag = ff75_basotho_integrated }
+ } }
+ }
+}

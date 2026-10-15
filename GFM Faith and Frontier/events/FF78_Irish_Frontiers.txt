@@ -1,0 +1,39 @@
+country_event = { id = 9785180 title = "FF78_IRISH_ORDERS_TITLE" desc = "FF78_IRISH_ORDERS_DESC" picture = "treaty"
+ trigger = { tag = ENG has_country_flag = ff78_irish_campaign NOT = { war_with = IRE } NOT = { has_country_flag = ff78_irish_launch_shown } IRE = { exists = yes is_vassal = no } } mean_time_to_happen = { days = 1 } immediate = { set_country_flag = ff78_irish_launch_shown }
+ option = { name = "FF78_IRISH_DECLARE" ai_chance = { factor = 100 } ENG = { random_owned = { limit = { owner = { tag = ENG has_country_flag = ff78_irish_campaign NOT = { war_with = IRE } IRE = { exists = yes is_vassal = no } } } owner = { ENG = { leave_alliance = IRE casus_belli = { target = IRE type = make_puppet months = 60 } war = { target = IRE attacker_goal = { casus_belli = make_puppet } defender_goal = { casus_belli = humiliate_no_infamy } call_ally = no } } } } } }
+}
+country_event = { id = 9785181 title = "FF78_IRISH_ORDERS_TITLE" desc = "FF78_IRISH_REPAIR_DESC" picture = "treaty"
+ trigger = { tag = IRE war_with = IRE ENG = { exists = yes has_country_flag = ff67_british_republic } NOT = { has_country_flag = ff78_irish_selfwar_repaired } NOT = { has_country_flag = ff78_irish_repair_shown } } mean_time_to_happen = { days = 1 } immediate = { set_country_flag = ff78_irish_repair_shown }
+ option = { name = "FF78_IRISH_REPAIR" ai_chance = { factor = 100 } IRE = { end_war = IRE set_country_flag = ff78_irish_selfwar_repaired } ENG = { set_country_flag = ff67_irish_question_resolved set_country_flag = ff78_irish_campaign clr_country_flag = ff78_irish_launch_shown country_event = { id = 9785180 days = 2 } } }
+}
+country_event = { id = 9785182 title = "FF78_NAMIBIA_TITLE" desc = "FF78_NAMIBIA_DESC" picture = "cape_map"
+ trigger = { tag = SAF primary_culture = boer is_vassal = no has_country_flag = ff67_full_cape_victory owns = 2083 NOT = { has_country_flag = ff78_namibia_reserved } } mean_time_to_happen = { days = 1 }
+ immediate = { SAF = { set_country_flag = ff78_namibia_reserved
+ SAF = { random_owned = { limit = { owner = { 2078 = { empty = yes } } } owner = { 2078 = { add_core = SAF set_province_flag = ff78_namibian_reserved secede_province = SAF } } } }
+ SAF = { random_owned = { limit = { owner = { 2079 = { empty = yes } } } owner = { 2079 = { add_core = SAF set_province_flag = ff78_namibian_reserved secede_province = SAF } } } }
+ SAF = { random_owned = { limit = { owner = { 2080 = { empty = yes } } } owner = { 2080 = { add_core = SAF set_province_flag = ff78_namibian_reserved secede_province = SAF } } } }
+ SAF = { random_owned = { limit = { owner = { 2081 = { empty = yes } } } owner = { 2081 = { add_core = SAF set_province_flag = ff78_namibian_reserved secede_province = SAF } } } }
+ SAF = { random_owned = { limit = { owner = { 2082 = { empty = yes } } } owner = { 2082 = { add_core = SAF set_province_flag = ff78_namibian_reserved secede_province = SAF } } } }
+ SAF = { random_owned = { limit = { owner = { 2084 = { empty = yes } } } owner = { 2084 = { add_core = SAF set_province_flag = ff78_namibian_reserved secede_province = SAF } } } }
+ SAF = { random_owned = { limit = { owner = { 2085 = { empty = yes } } } owner = { 2085 = { add_core = SAF set_province_flag = ff78_namibian_reserved secede_province = SAF } } } }
+ SAF = { random_owned = { limit = { owner = { 2086 = { empty = yes } } } owner = { 2086 = { add_core = SAF set_province_flag = ff78_namibian_reserved secede_province = SAF } } } }
+ SAF = { random_owned = { limit = { owner = { 3895 = { empty = yes } } } owner = { 3895 = { add_core = SAF set_province_flag = ff78_namibian_reserved secede_province = SAF } } } }
+ SAF = { random_owned = { limit = { owner = { 4012 = { empty = yes } } } owner = { 4012 = { add_core = SAF set_province_flag = ff78_namibian_reserved secede_province = SAF } } } }
+ SAF = { random_owned = { limit = { owner = { 4014 = { empty = yes } } } owner = { 4014 = { add_core = SAF set_province_flag = ff78_namibian_reserved secede_province = SAF } } } }
+ SAF = { random_owned = { limit = { owner = { 4013 = { empty = yes } } } owner = { 4013 = { add_core = SAF set_province_flag = ff78_namibian_reserved secede_province = SAF } } } }
+ } }
+ option = { name = "FF78_NAMIBIA_OPT" ai_chance = { factor = 100 } }
+}
+country_event = { id = 9785183 title = "FF78_NAMIBIA_WORKS_TITLE" desc = "FF78_NAMIBIA_WORKS_DESC" picture = "cape_map" is_triggered_only = yes
+ option = { name = "FF78_NAMIBIA_ROADS" ai_chance = { factor = 60 } SAF = { any_owned = { limit = { has_province_flag = ff78_namibian_reserved } add_province_modifier = { name = ff76_survey_roads duration = 1825 } } } }
+ option = { name = "FF78_NAMIBIA_STATIONS" ai_chance = { factor = 40 } SAF = { any_owned = { limit = { has_province_flag = ff78_namibian_reserved } add_province_modifier = { name = ff77_frontier_admin duration = 1825 } } } }
+}
+country_event = { id = 9785184 title = "FF78_RHODESIA_TITLE" desc = "FF78_RHODESIA_DESC" picture = "pioneer_column" is_triggered_only = yes
+ option = { name = "FF78_RHODESIA_OPT" ai_chance = { factor = 100 } SAF = {
+ random_owned = { limit = { owner = { 2068 = { empty = yes } } } owner = { 2068 = { add_core = SAF set_province_flag = ff78_rhodesian_column secede_province = SAF add_province_modifier = { name = ff77_frontier_admin duration = 1825 } } } }
+ random_owned = { limit = { owner = { 2070 = { empty = yes } } } owner = { 2070 = { add_core = SAF set_province_flag = ff78_rhodesian_column secede_province = SAF add_province_modifier = { name = ff77_frontier_admin duration = 1825 } } } }
+ random_owned = { limit = { owner = { 2635 = { empty = yes } } } owner = { 2635 = { add_core = SAF set_province_flag = ff78_rhodesian_column secede_province = SAF add_province_modifier = { name = ff77_frontier_admin duration = 1825 } } } }
+ random_owned = { limit = { owner = { 3714 = { empty = yes } } } owner = { 3714 = { add_core = SAF set_province_flag = ff78_rhodesian_column secede_province = SAF add_province_modifier = { name = ff77_frontier_admin duration = 1825 } } } }
+ random_owned = { limit = { owner = { 2056 = { empty = yes } } } owner = { 2056 = { add_core = SAF set_province_flag = ff78_rhodesian_column secede_province = SAF add_province_modifier = { name = ff77_frontier_admin duration = 1825 } } } }
+ set_country_flag = ff78_rhodesian_column_done prestige = 5 } }
+}

@@ -1,0 +1,116 @@
+# Faith and Frontier - South African colonial reorganisation
+# Province renaming is now integrated into GFM's automatic V2ME renaming system.
+# Event IDs 9782350-9782351 intentionally retired: they used one-shot mass renaming.
+
+# Colonial reorganisation after direct annexation: keep the SAF tag while changing its presentation.
+country_event = {
+ id = 9782352
+ title = "FFR_FRENCH_SAF_TITLE"
+ desc = "FFR_FRENCH_SAF_DESC"
+ picture = "cape_colony"
+ trigger = {
+  primary_culture = french
+  year = 1850
+  SAF = { exists = no }
+  owns = 2087
+  OR = { owns = 2096 owns = 2101 owns = 2105 owns = 2111 }
+  NOT = { has_country_flag = ffr_french_saf_offered }
+ }
+ mean_time_to_happen = { days = 45 }
+ option = {
+  name = "FFR_FRENCH_SAF_OPT0"
+  ai_chance = { factor = 85 }
+  set_country_flag = ffr_french_saf_offered
+  release_vassal = SAF
+  SAF = {
+   government = colonial_company_2
+   add_accepted_culture = french
+   set_country_flag = french_accepted
+   set_country_flag = post_colonial_country
+  }
+  create_alliance = SAF
+  diplomatic_influence = { who = SAF value = 400 }
+  prestige = 2
+ }
+ option = {
+  name = "FFR_FRENCH_SAF_OPT1"
+  ai_chance = { factor = 15 }
+  set_country_flag = ffr_french_saf_offered
+  prestige = -1
+ }
+}
+
+country_event = {
+ id = 9782353
+ title = "FFR_GERMAN_SAF_TITLE"
+ desc = "FFR_GERMAN_SAF_DESC"
+ picture = "german_east_africa_company"
+ trigger = {
+  OR = { primary_culture = north_german primary_culture = south_german }
+  year = 1850
+  SAF = { exists = no }
+  owns = 2087
+  OR = { owns = 2096 owns = 2101 owns = 2105 owns = 2111 }
+  NOT = { has_country_flag = ffr_german_saf_offered }
+ }
+ mean_time_to_happen = { days = 45 }
+ option = {
+  name = "FFR_GERMAN_SAF_OPT0"
+  ai_chance = { factor = 85 }
+  set_country_flag = ffr_german_saf_offered
+  release_vassal = SAF
+  SAF = {
+   government = colonial_company_3
+   add_accepted_culture = north_german
+   add_accepted_culture = south_german
+   set_country_flag = german_accepted
+   set_country_flag = post_colonial_country
+  }
+  create_alliance = SAF
+  diplomatic_influence = { who = SAF value = 400 }
+  prestige = 2
+ }
+ option = {
+  name = "FFR_GERMAN_SAF_OPT1"
+  ai_chance = { factor = 15 }
+  set_country_flag = ffr_german_saf_offered
+  prestige = -1
+ }
+}
+
+country_event = {
+ id = 9782354
+ title = "FFR_DUTCH_SAF_TITLE"
+ desc = "FFR_DUTCH_SAF_DESC"
+ picture = "cape_colony"
+ trigger = {
+  primary_culture = dutch
+  year = 1850
+  SAF = { exists = no }
+  owns = 2087
+  OR = { owns = 2096 owns = 2101 owns = 2105 owns = 2111 }
+  NOT = { has_country_flag = ffr_dutch_saf_offered }
+ }
+ mean_time_to_happen = { days = 45 }
+ option = {
+  name = "FFR_DUTCH_SAF_OPT0"
+  ai_chance = { factor = 90 }
+  set_country_flag = ffr_dutch_saf_offered
+  release_vassal = SAF
+  SAF = {
+   government = colonial_company_4
+   add_accepted_culture = dutch
+   set_country_flag = dutch_accepted
+   set_country_flag = post_colonial_country
+  }
+  create_alliance = SAF
+  diplomatic_influence = { who = SAF value = 400 }
+  prestige = 2
+ }
+ option = {
+  name = "FFR_DUTCH_SAF_OPT1"
+  ai_chance = { factor = 10 }
+  set_country_flag = ffr_dutch_saf_offered
+  prestige = -1
+ }
+}

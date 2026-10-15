@@ -1,0 +1,1 @@
+country_event = { id = 9860011 title = "cv_us_declined_title" desc = "cv_us_declined_desc" picture = "Administration" is_triggered_only = yes immediate = {  } option = { name = "cv_us_declined_a" ai_chance = { factor = 80 } random_owned = { limit = { owner = { tag = SIC has_country_flag = cv_us_pending } } owner = { clr_country_flag = cv_us_pending treasury = 2500 } } } }

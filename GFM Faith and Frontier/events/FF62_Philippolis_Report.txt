@@ -1,0 +1,8 @@
+country_event = {
+ id = 9784867 major = yes
+ title = "FF62_PHILIPPOLIS_REPORT_TITLE" desc = "FF62_PHILIPPOLIS_REPORT_DESC" picture = "ffv4_griqua_east"
+ trigger = { tag = ORA owns = 2103 has_global_flag = ff43_philippolis_settled NOT = { has_global_flag = ff62_philippolis_reported } }
+ mean_time_to_happen = { days = 1 }
+ immediate = { set_global_flag = ff62_philippolis_reported }
+ option = { name = "FF62_PHILIPPOLIS_REPORT_OK" ai_chance = { factor = 100 } }
+}

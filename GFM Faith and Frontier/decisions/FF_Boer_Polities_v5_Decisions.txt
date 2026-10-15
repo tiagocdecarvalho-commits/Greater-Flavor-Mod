@@ -1,0 +1,75 @@
+# Faith and Frontier v5 - Local Boer polity decisions
+political_decisions = {
+
+ ffv5_found_grey_college = {
+  picture = ffv5_grey_college_decision
+  potential = { tag = ORA year = 1855 NOT = { has_country_flag = ffv5_grey_college } }
+  allow = { war = no money = 10000 }
+  effect = { treasury = -10000 set_country_flag = ffv5_grey_college add_country_modifier = { name = ffv5_grey_college duration = -1 } research_points = 150 prestige = 1 }
+  ai_will_do = { factor = 0.8 }
+ }
+
+ ffv5_bloemfontein_telegraph = {
+  picture = ffv5_orange_telegraph_decision
+  potential = { tag = ORA year = 1878 owns = 2101 NOT = { has_country_flag = ffv5_bloemfontein_telegraph } }
+  allow = { war = no money = 10000 }
+  effect = { treasury = -10000 set_country_flag = ffv5_bloemfontein_telegraph add_country_modifier = { name = ffv5_bloemfontein_telegraph duration = -1 } 2101 = { infrastructure = 1 } prestige = 1 }
+  ai_will_do = { factor = 0.9 }
+ }
+
+ ffv5_state_gymnasium_pretoria = {
+  picture = ffv5_state_gymnasium_decision
+  potential = { tag = TRN year = 1893 owns = 2105 NOT = { has_country_flag = ffv5_state_gymnasium } }
+  allow = { war = no money = 11000 }
+  effect = { treasury = -11000 set_country_flag = ffv5_state_gymnasium add_country_modifier = { name = ffv5_state_gymnasium duration = -1 } research_points = 200 prestige = 1 }
+  ai_will_do = { factor = 0.85 }
+ }
+
+ ffv5_standardise_the_commandos = {
+  picture = ffv5_commando_decision
+  potential = { tag = TRN year = 1881 NOT = { has_country_flag = ffv5_commandos_standardised } }
+  allow = { war = no money = 4500 }
+  effect = { treasury = -4500 set_country_flag = ffv5_commandos_standardised add_country_modifier = { name = ffv5_mauser_commandos duration = 3650 } prestige = 1 }
+  ai_will_do = { factor = 0.9 }
+ }
+
+ ffv5_fortify_port_natal = {
+  picture = ffv5_port_natal_decision
+  potential = { tag = NAL owns = 2111 year = 1840 NOT = { has_country_flag = ffv5_port_natal_fortified } }
+  allow = { war = no money = 4000 }
+  effect = { treasury = -4000 set_country_flag = ffv5_port_natal_fortified 2111 = { add_province_modifier = { name = ffv5_port_natal_fortifications duration = -1 } } prestige = 1 }
+  ai_will_do = { factor = 0.8 }
+ }
+
+ ffv5_consolidate_surviving_natalia = {
+  picture = ffv5_natalia_survival_decision
+  potential = { tag = NAL year = 1845 is_vassal = no has_country_flag = ffv5_natalia_survival_settlement NOT = { has_country_flag = ffv5_natalia_consolidated } }
+  allow = { war = no money = 5000 prestige = 1 }
+  effect = { treasury = -5000 set_country_flag = ffv5_natalia_consolidated add_country_modifier = { name = ffv5_natalia_survivor_state duration = 3650 } prestige = 2 }
+  ai_will_do = { factor = 1 }
+ }
+
+ ffv5_nrb_seek_foreign_recognition = {
+  picture = ffv5_new_republic_recognition_decision
+  potential = { tag = NRB year = 1884 NOT = { year = 1891 } NOT = { has_country_flag = ffv5_nrb_recognition_decision } }
+  allow = { war = no prestige = 1 OR = { relation = { who = GER value = 50 } relation = { who = POR value = 50 } } }
+  effect = { set_country_flag = ffv5_nrb_recognition_decision add_country_modifier = { name = ffv5_new_republic_recognised duration = 3650 } relation = { who = GER value = 20 } relation = { who = POR value = 20 } prestige = 2 }
+  ai_will_do = { factor = 0.8 }
+ }
+
+ ffv5_nrb_join_the_zar = {
+  picture = ffv5_join_zar_decision
+  potential = { tag = NRB year = 1887 TRN = { exists = yes } NOT = { has_country_flag = ffv5_nrb_refused_union } }
+  allow = { war = no relation = { who = TRN value = 120 } TRN = { war = no } }
+  effect = { prestige = 1 TRN = { prestige = 1 inherit = THIS } }
+  ai_will_do = { factor = 0.7 }
+ }
+
+ ffv5_call_general_raad = {
+  picture = ffv5_general_raad_decision
+  potential = { tag = VLK NOT = { has_country_flag = ffv5_general_raad_called } }
+  allow = { war = no money = 3000 }
+  effect = { treasury = -3000 set_country_flag = ffv5_general_raad_called add_country_modifier = { name = ffv5_general_raad duration = -1 } plurality = 1 prestige = 1 }
+  ai_will_do = { factor = 0.8 }
+ }
+}

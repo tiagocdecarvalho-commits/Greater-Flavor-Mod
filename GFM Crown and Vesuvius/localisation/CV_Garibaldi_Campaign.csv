@@ -1,0 +1,56 @@
+cvg_landing_title;Garibaldi Lands in Sicily;;;;;;;;;;;;;x
+cvg_landing_desc;Garibaldi and his volunteers have reached western Sicily. Local recruits gather around the landing, while the royal government prepares to fight for the island. The expedition establishes a provisional administration and assembles its army in the Palermo district. Its advance now depends on the force in the field and the support found in each occupied district.;;;;;;;;;;;;;x
+cvg_landing_fight;Defend the kingdom and confront the expedition.;;;;;;;;;;;;;x
+cvg_landing_play;Join Garibaldi and lead the expedition.;;;;;;;;;;;;;x
+cvg_growth_title;The Volunteers Establish Local Committees;;;;;;;;;;;;;x
+cvg_growth_desc;Volunteer forces have occupied a royal district. Local committees displace Bourbon officials and recognise the expedition's provisional administration. The transfer follows military possession. Districts still held by the royal army remain outside its authority.;;;;;;;;;;;;;x
+cvg_growth_ack;Recognise the administration behind the advancing army.;;;;;;;;;;;;;x
+cvg_island_title;Sicilian Volunteers Join the Expedition;;;;;;;;;;;;;x
+cvg_island_desc;The expedition holds Messina and Catania. Local volunteers can now assemble behind its lines, drawing support from districts that the army has secured. Their arrival strengthens the force preparing to cross the strait.;;;;;;;;;;;;;x
+cvg_island_ack;Muster the island volunteers in Messina.;;;;;;;;;;;;;x
+cvg_mainland_title;Volunteers Gather in Calabria;;;;;;;;;;;;;x
+cvg_mainland_desc;The expedition has secured Reggio Calabria. Local supporters rally to the provisional command and help establish a mainland recruiting base. The road to Naples must still be won from the royal forces.;;;;;;;;;;;;;x
+cvg_mainland_ack;Muster the mainland volunteers in Reggio.;;;;;;;;;;;;;x
+cvg_naples_title;Bourbon Authority Loses Naples;;;;;;;;;;;;;x
+cvg_naples_desc;The expedition holds Naples, but the royal government must still decide whether to recognise its defeat. Remaining officers may continue resistance, or the ministers may surrender the kingdom's administration to the provisional command. A settlement will place the southern union before Turin.;;;;;;;;;;;;;x
+cvg_naples_surrender;Recognise the defeat and surrender the administration.;;;;;;;;;;;;;x
+cvg_naples_resist;Rally the remaining forces and continue resistance.;;;;;;;;;;;;;x
+cvg_offer_title;The Southern Plebiscites;;;;;;;;;;;;;x
+cvg_offer_desc;Bourbon authority has fallen and the provisional administration holds the southern capital. Delegates now propose union under the House of Savoy. The expedition may offer the settlement to Turin, but the Piedmontese crown must still accept it before an Italian kingdom can be proclaimed.;;;;;;;;;;;;;x
+cvg_offer_accept;Offer the southern union to Turin.;;;;;;;;;;;;;x
+cvg_offer_play;Offer the union and continue under the Savoyard crown.;;;;;;;;;;;;;x
+cvg_offer_decline;Keep the provisional southern government independent.;;;;;;;;;;;;;x
+cvg_ratify_title;Turin Receives the Southern Plebiscites;;;;;;;;;;;;;x
+cvg_ratify_desc;The provisional government has approved union and asks the Savoyard crown to accept the southern provinces. Ratification transfers its administration and military establishments to Piedmont and opens the existing proclamation of Italy. The crown can also refuse the proposed settlement.;;;;;;;;;;;;;x
+cvg_ratify_accept;Accept the union and prepare the proclamation of Italy.;;;;;;;;;;;;;x
+cvg_ratify_decline;Decline the proposed southern union.;;;;;;;;;;;;;x
+cvg_close_title;The Expedition's Mission Changes;;;;;;;;;;;;;x
+cvg_close_desc;An Italian government already exists. The expedition's separate route to a Savoyard proclamation has closed, and the provisional administration must settle its future through the ordinary diplomatic and military system.;;;;;;;;;;;;;x
+cvg_close_ack;Close the expedition's unification mission.;;;;;;;;;;;;;x
+cvg_war_repair_title;The Expedition Confronts Bourbon Rule;;;;;;;;;;;;;x
+cvg_war_repair_desc;The provisional command settles its dispute with Turin and directs the expedition against the Bourbon kingdom. Palermo remains the expedition's base, and the royal army must now confront the volunteers on the island.;;;;;;;;;;;;;x
+cvg_war_repair_ack;Settle with Turin and confront the royal army.;;;;;;;;;;;;;x
+cvg_muster_recovery_title;The Palermo Volunteers Assemble;;;;;;;;;;;;;x
+cvg_muster_recovery_desc;The expedition's provisional command gathers the volunteers and local recruits at Palermo. Existing formations remain in service as the new contingents prepare to face the royal army.;;;;;;;;;;;;;x
+cvg_muster_recovery_ack;Bring the Palermo contingents into the field.;;;;;;;;;;;;;x
+cvg_command_recovery_title;Garibaldi Takes Command of the Volunteer Army;;;;;;;;;;;;;x
+cvg_command_recovery_desc;The scattered volunteer companies assemble at Palermo. Garibaldi brings the veterans and new recruits under a common command, while the provisional ministry opens its stores to the expedition. The army must carry the struggle beyond its landing ground before the royal forces can concentrate against it.;;;;;;;;;;;;;x
+cvg_command_recovery_ack;Rally the volunteers under Garibaldi.;;;;;;;;;;;;;x
+cvg_volunteer_army;The Volunteer Army;;;;;;;;;;;;;x
+cvg_volunteer_army_desc;Veteran officers organise the volunteers, local committees maintain their supplies, and the provisional command prepares the army for a rapid advance.;;;;;;;;;;;;;x
+cvg_offensive_title;The Road to Naples;;;;;;;;;;;;;x
+cvg_offensive_desc;The occupation of Sicily has not settled the fate of the Bourbon crown. Garibaldi orders the expedition to prepare for the crossing to Calabria. The campaign must now confront the royal government on the mainland and carry the question of Italian union to Naples.;;;;;;;;;;;;;x
+cvg_offensive_ack;Carry the campaign onto the mainland.;;;;;;;;;;;;;x
+cvg_victory_title;The Bourbon Kingdom Has Fallen;;;;;;;;;;;;;x
+cvg_victory_desc;The peace settlement has transferred the Bourbon territories to the expedition, including Naples. The provisional administration must now restore order and arrange the consultation that will decide the southern provinces' place in the Italian kingdom.;;;;;;;;;;;;;x
+cvg_victory_ack;Prepare the southern settlement.;;;;;;;;;;;;;x
+cvg_settlement_title;The Expedition Ends in a Settlement;;;;;;;;;;;;;x
+cvg_settlement_desc;The renewed campaign has ended without the fall of the Bourbon crown. The provisional government must settle its administration on the island and release the volunteers from their expeditionary mandate. Further questions of Italian union will return to the ordinary councils and diplomatic negotiations.;;;;;;;;;;;;;x
+cvg_settlement_ack;Close the expeditionary mandate.;;;;;;;;;;;;;x
+cvg_commander_title;Garibaldi Takes the Field;;;;;;;;;;;;;x
+cvg_commander_desc;The provisional command entrusts the volunteer army to Giuseppe Garibaldi. Veteran officers gather around him as the expedition prepares to carry the struggle beyond its landing ground.;;;;;;;;;;;;;x
+cvg_commander_ack;Entrust the expedition to Garibaldi.;;;;;;;;;;;;;x
+cvg_central_italy_title;The Plebiscites of Umbria and the Marches;;;;;;;;;;;;;x
+cvg_central_italy_desc;With the southern settlement accepted, the Italian government asks the Pope to recognise the votes in Umbria and the Marches. Rome would remain under papal government, while Perugia and Ancona join the kingdom. France may later arrange a separate guarantee for the Holy See.;;;;;;;;;;;;;x
+cvg_central_italy_accept;Recognise the plebiscites and preserve Rome.;;;;;;;;;;;;;x
+cvg_central_italy_refuse;Reject the transfer and retain the provinces.;;;;;;;;;;;;;x

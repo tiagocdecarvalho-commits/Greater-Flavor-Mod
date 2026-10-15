@@ -1,0 +1,36 @@
+FF100_9785222_TITLE;The British Ultimatum to the Boer Union;;;;;;;;;;;;;x
+FF100_9785222_DESC;The Rand has drawn foreign capital and labour into the interior, while imperial officials press their scheme for a South African settlement under British authority. The surviving Boer union has a common government and will answer as one state. Negotiations over sovereignty have failed. The colonial frontier is now a theatre of war; victory alone will determine the terms of the conference.;;;;;;;;;;;;;x
+FF100_9785222_OPT0;The commandos must defend the union.;;;;;;;;;;;;;x
+FF100_9785223_TITLE;Oranje Joins the Union in War;;;;;;;;;;;;;x
+FF100_9785223_DESC;The Orange government considers the attack on the neighbouring Boer union a threat to its own independence. Its commandants muster the burghers, and the alliance becomes a military commitment. British forces now face resistance from both governments.;;;;;;;;;;;;;x
+FF100_9785223_OPT0;Stand beside the union.;;;;;;;;;;;;;x
+FF100_9785225_TITLE;The Union's Cape Peace Conference;;;;;;;;;;;;;x
+FF100_9785225_DESC;British resistance has been overcome and the colonial administration can no longer hold its southern possessions. The conference records the withdrawal of imperial authority from the Cape and the coastal districts. The Boer union keeps its existing constitution, whether republican or ducal. The settlement opens the question of a wider South African state, but its proclamation must follow the union's own institutions.;;;;;;;;;;;;;x
+FF100_9785225_OPT0;Ratify the settlement under our existing constitution.;;;;;;;;;;;;;x
+FF100_9785226_TITLE;The British Settlement with the Boer Union;;;;;;;;;;;;;x
+FF100_9785226_DESC;The union's field resistance has been defeated and the peace commissioners have accepted British authority. Its districts enter the imperial administration; any separate Orange government that joined the war is included in the settlement. The civil service must restore transport, receive surrendered arms and begin the difficult work of reconstruction.;;;;;;;;;;;;;x
+FF100_9785226_OPT0;Carry the terms of peace into effect.;;;;;;;;;;;;;x
+FF100_9785227_TITLE;Reconstruction in the Former Union;;;;;;;;;;;;;x
+FF100_9785227_DESC;The war has left farms abandoned and local administration disordered. Officials must decide how to divide their effort between relief for the inhabitants and the restoration of the revenue offices. Peace cannot endure through military orders alone.;;;;;;;;;;;;;x
+FF100_9785227_OPT0;Give relief and repairs priority.;;;;;;;;;;;;;x
+FF100_9785227_OPT1;Re-establish the civil administration.;;;;;;;;;;;;;x
+FF100_9785228_TITLE;British Withdrawal from the Southern Settlement;;;;;;;;;;;;;x
+FF100_9785228_DESC;The conference has settled the colonial dispute in favour of the Boer union. Imperial officials and the remaining garrisons receive orders to withdraw from the ceded districts. London must accept the loss of its South African position without extending the colonial defeat into a domestic revolution.;;;;;;;;;;;;;x
+FF100_9785228_OPT0;Execute the withdrawal.;;;;;;;;;;;;;x
+FF100_9785229_TITLE;The Union Commandos Muster;;;;;;;;;;;;;x
+FF100_9785229_DESC;District commandants call the burghers to their assembly points. The union's common government coordinates supplies and railway movements, while local officers retain responsibility for their men. The mobilisation puts the constitutional settlement to a practical test: the northern and southern districts must now sustain the same campaign.;;;;;;;;;;;;;x
+FF100_9785229_OPT0;Send the commandos to their appointed stations.;;;;;;;;;;;;;x
+ff100_union_cape_conference;Convene the Union's Cape Peace Conference;;;;;;;;;;;;;x
+ff100_union_cape_conference_desc;With the British colonial districts occupied, summon commissioners to settle the frontier and the withdrawal of imperial authority. The union will retain its own constitutional government.;;;;;;;;;;;;;x
+ff100_british_union_conference;Conclude the Peace with the Boer Union;;;;;;;;;;;;;x
+ff100_british_union_conference_desc;The union and any Orange government that joined its war have been defeated. Convene a conference to establish British administration and begin reconstruction.;;;;;;;;;;;;;x
+FF100_SECOND_UNION_WAR;The Second Anglo-Boer War;;;;;;;;;;;;;x
+FF100_FIRST_ARMISTICE_TITLE;The Union's War Has Ended;;;;;;;;;;;;;x
+FF100_FIRST_ARMISTICE_DESC;The fighting with Britain has ended without the union enforcing its proposed convention. The administration records the armistice and closes the wartime arrangements. The actual treaty determines whether the union retains its independence or stands under British protection; the cessation of hostilities grants no further colonial territory.;;;;;;;;;;;;;x
+FF100_RECORD_ARMISTICE;Record the terms of the armistice.;;;;;;;;;;;;;x
+FF100_HISTORICAL_REGISTER_TITLE;The Registers of the Pretoria Settlement;;;;;;;;;;;;;x
+FF100_HISTORICAL_REGISTER_DESC;The convention restored the Transvaal government in the interior. It did not cede Natal or Zululand to the republic. Officials correct the treaty register so that later dealings with Britain proceed from the settlement actually made.;;;;;;;;;;;;;x
+FF100_CORRECT_REGISTER;Record the restoration of the interior republic.;;;;;;;;;;;;;x
+FF50_UTR_ACCEPT;Unite the eastern districts under Utrecht.;;;;;;;;;;;;;x
+FF50_UTR_TITLE;Lydenburg Joins Utrecht;;;;;;;;;;;;;x
+FF50_UTR_DESC;The eastern burgher communities have agreed to conduct their common affairs through the Utrecht republic. The Lydenburg raad brings its districts into the united administration, while negotiations with the South African Republic continue. Local officers retain responsibility for their farms and settlements under the common government.;;;;;;;;;;;;;x

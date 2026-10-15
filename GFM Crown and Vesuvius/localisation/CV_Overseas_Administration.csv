@@ -1,0 +1,407 @@
+cvo2_organize_sia_title;Organize the Siam Administration;;;;;;;;;;;;;x
+cvo2_organize_sia_desc;Establish a separate colonial administration in the districts under our rule. Its territorial claims will provide a basis for a future protectorate. The crown may retain direct administration or subsequently release the territory.;;;;;;;;;;;;;x
+cvo2_organize_phl_title;Organize the Filippine Administration;;;;;;;;;;;;;x
+cvo2_organize_phl_desc;Establish a separate colonial administration in the districts under our rule. Its territorial claims will provide a basis for a future protectorate. The crown may retain direct administration or subsequently release the territory.;;;;;;;;;;;;;x
+cvo2_organize_swk_title;Organize the Sarawak Administration;;;;;;;;;;;;;x
+cvo2_organize_swk_desc;Establish a separate colonial administration in the districts under our rule. Its territorial claims will provide a basis for a future protectorate. The crown may retain direct administration or subsequently release the territory.;;;;;;;;;;;;;x
+cvo2_organize_sul_title;Organize the Sulu Administration;;;;;;;;;;;;;x
+cvo2_organize_sul_desc;Establish a separate colonial administration in the districts under our rule. Its territorial claims will provide a basis for a future protectorate. The crown may retain direct administration or subsequently release the territory.;;;;;;;;;;;;;x
+cvo2_organize_wsa_title;Organize the Sahara Occidentale Administration;;;;;;;;;;;;;x
+cvo2_organize_wsa_desc;Establish a separate colonial administration in the districts under our rule. Its territorial claims will provide a basis for a future protectorate. The crown may retain direct administration or subsequently release the territory.;;;;;;;;;;;;;x
+cvo2_organize_gab_title;Organize the Gabone Administration;;;;;;;;;;;;;x
+cvo2_organize_gab_desc;Establish a separate colonial administration in the districts under our rule. Its territorial claims will provide a basis for a future protectorate. The crown may retain direct administration or subsequently release the territory.;;;;;;;;;;;;;x
+cvo2_organize_rig_title;Organize the Guiana Administration;;;;;;;;;;;;;x
+cvo2_organize_rig_desc;Establish a separate colonial administration in the districts under our rule. Its territorial claims will provide a basis for a future protectorate. The crown may retain direct administration or subsequently release the territory.;;;;;;;;;;;;;x
+cvo2_organize_eqg_title;Organize the Guinea Equatoriale Administration;;;;;;;;;;;;;x
+cvo2_organize_eqg_desc;Establish a separate colonial administration in the districts under our rule. Its territorial claims will provide a basis for a future protectorate. The crown may retain direct administration or subsequently release the territory.;;;;;;;;;;;;;x
+cvo2_organize_loa_title;Organize the Congo Administration;;;;;;;;;;;;;x
+cvo2_organize_loa_desc;Establish a separate colonial administration in the districts under our rule. Its territorial claims will provide a basis for a future protectorate. The crown may retain direct administration or subsequently release the territory.;;;;;;;;;;;;;x
+cvo2_organize_cmr_title;Organize the Camerun Administration;;;;;;;;;;;;;x
+cvo2_organize_cmr_desc;Establish a separate colonial administration in the districts under our rule. Its territorial claims will provide a basis for a future protectorate. The crown may retain direct administration or subsequently release the territory.;;;;;;;;;;;;;x
+cvo2_port_3364_title;Negotiate a Treaty Port at Sanmen;;;;;;;;;;;;;x
+cvo2_port_3364_desc;Our envoys propose an Italian commercial enclave at Sanmen. The Chinese government must agree to the cession. A refusal or an unanswered proposal returns the reserved funds to the treasury.;;;;;;;;;;;;;x
+cvo2_port_3364_offer_title;An Italian Proposal for Sanmen;;;;;;;;;;;;;x
+cvo2_port_3364_offer_desc;Italy seeks a coastal enclave at Sanmen. Its envoys offer compensation and commercial relations in exchange for sovereignty over the port. Acceptance transfers the district to Italian administration.;;;;;;;;;;;;;x
+cvo2_port_3364_accept;Conclude the treaty.;;;;;;;;;;;;;x
+cvo2_port_3364_reject;Retain our sovereignty.;;;;;;;;;;;;;x
+cvo2_port_3364_accepted_title;The Treaty of Sanmen;;;;;;;;;;;;;x
+cvo2_port_3364_accepted_desc;The Chinese government has accepted our proposal. The port passes to Italian administration under the new treaty.;;;;;;;;;;;;;x
+cvo2_port_3364_refused_title;The Sanmen Proposal Has Ended;;;;;;;;;;;;;x
+cvo2_port_3364_refused_desc;The proposed cession could not be concluded. The reserved funds have returned to the treasury.;;;;;;;;;;;;;x
+cvo2_port_3364_expiry_title;The Sanmen Negotiations;;;;;;;;;;;;;x
+cvo2_port_3364_expiry_desc;The ministry has closed this diplomatic file. Any funds still reserved for an unanswered offer return to the treasury.;;;;;;;;;;;;;x
+cvo2_port_3364_waiting;Treaty-port delegation abroad;;;;;;;;;;;;;x
+cvo2_port_1608_title;Negotiate a Treaty Port at Ningbo;;;;;;;;;;;;;x
+cvo2_port_1608_desc;Our envoys propose an Italian commercial enclave at Ningbo. The Chinese government must agree to the cession. A refusal or an unanswered proposal returns the reserved funds to the treasury.;;;;;;;;;;;;;x
+cvo2_port_1608_offer_title;An Italian Proposal for Ningbo;;;;;;;;;;;;;x
+cvo2_port_1608_offer_desc;Italy seeks a coastal enclave at Ningbo. Its envoys offer compensation and commercial relations in exchange for sovereignty over the port. Acceptance transfers the district to Italian administration.;;;;;;;;;;;;;x
+cvo2_port_1608_accept;Conclude the treaty.;;;;;;;;;;;;;x
+cvo2_port_1608_reject;Retain our sovereignty.;;;;;;;;;;;;;x
+cvo2_port_1608_accepted_title;The Treaty of Ningbo;;;;;;;;;;;;;x
+cvo2_port_1608_accepted_desc;The Chinese government has accepted our proposal. The port passes to Italian administration under the new treaty.;;;;;;;;;;;;;x
+cvo2_port_1608_refused_title;The Ningbo Proposal Has Ended;;;;;;;;;;;;;x
+cvo2_port_1608_refused_desc;The proposed cession could not be concluded. The reserved funds have returned to the treasury.;;;;;;;;;;;;;x
+cvo2_port_1608_expiry_title;The Ningbo Negotiations;;;;;;;;;;;;;x
+cvo2_port_1608_expiry_desc;The ministry has closed this diplomatic file. Any funds still reserved for an unanswered offer return to the treasury.;;;;;;;;;;;;;x
+cvo2_port_1608_waiting;Treaty-port delegation abroad;;;;;;;;;;;;;x
+cvo2_ack;Record the dispatch.;;;;;;;;;;;;;x
+cvo2_government_absolute_monarchy;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_absolute_monarchy_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_absolute_monarchy;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_absolute_monarchy_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_absolute_monarchy;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_absolute_monarchy_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_absolute_monarchy;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_absolute_monarchy_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_absolute_monarchy;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_absolute_monarchy_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_absolute_monarchy;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_absolute_monarchy_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_absolute_monarchy;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_absolute_monarchy_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_absolute_monarchy;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_absolute_monarchy_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_absolute_monarchy;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_absolute_monarchy_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_absolute_monarchy;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_absolute_monarchy_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_prussian_constitutionalism;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_prussian_constitutionalism_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_prussian_constitutionalism;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_prussian_constitutionalism_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_prussian_constitutionalism;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_prussian_constitutionalism_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_prussian_constitutionalism;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_prussian_constitutionalism_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_prussian_constitutionalism;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_prussian_constitutionalism_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_prussian_constitutionalism;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_prussian_constitutionalism_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_prussian_constitutionalism;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_prussian_constitutionalism_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_prussian_constitutionalism;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_prussian_constitutionalism_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_prussian_constitutionalism;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_prussian_constitutionalism_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_prussian_constitutionalism;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_prussian_constitutionalism_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_hms_government;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_hms_government_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_hms_government;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_hms_government_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_hms_government;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_hms_government_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_hms_government;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_hms_government_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_hms_government;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_hms_government_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_hms_government;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_hms_government_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_hms_government;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_hms_government_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_hms_government;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_hms_government_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_hms_government;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_hms_government_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_hms_government;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_hms_government_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_democracy;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_democracy_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_democracy;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_democracy_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_democracy;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_democracy_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_democracy;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_democracy_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_democracy;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_democracy_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_democracy;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_democracy_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_democracy;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_democracy_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_democracy;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_democracy_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_democracy;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_democracy_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_democracy;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_democracy_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_colonial_company;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_colonial_company_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_colonial_company;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_colonial_company_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_colonial_company;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_colonial_company_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_colonial_company;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_colonial_company_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_colonial_company;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_colonial_company_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_colonial_company;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_colonial_company_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_colonial_company;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_colonial_company_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_colonial_company;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_colonial_company_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_colonial_company;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_colonial_company_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_colonial_company;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_colonial_company_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_colonial_company_2;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_colonial_company_2_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_colonial_company_2;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_colonial_company_2_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_colonial_company_2;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_colonial_company_2_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_colonial_company_2;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_colonial_company_2_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_colonial_company_2;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_colonial_company_2_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_colonial_company_2;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_colonial_company_2_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_colonial_company_2;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_colonial_company_2_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_colonial_company_2;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_colonial_company_2_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_colonial_company_2;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_colonial_company_2_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_colonial_company_2;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_colonial_company_2_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_colonial_company_3;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_colonial_company_3_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_colonial_company_3;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_colonial_company_3_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_colonial_company_3;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_colonial_company_3_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_colonial_company_3;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_colonial_company_3_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_colonial_company_3;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_colonial_company_3_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_colonial_company_3;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_colonial_company_3_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_colonial_company_3;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_colonial_company_3_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_colonial_company_3;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_colonial_company_3_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_colonial_company_3;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_colonial_company_3_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_colonial_company_3;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_colonial_company_3_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_colonial_company_4;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_colonial_company_4_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_colonial_company_4;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_colonial_company_4_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_colonial_company_4;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_colonial_company_4_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_colonial_company_4;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_colonial_company_4_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_colonial_company_4;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_colonial_company_4_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_colonial_company_4;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_colonial_company_4_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_colonial_company_4;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_colonial_company_4_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_colonial_company_4;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_colonial_company_4_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_colonial_company_4;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_colonial_company_4_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_colonial_company_4;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_colonial_company_4_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_proletarian_dictatorship;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_proletarian_dictatorship_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_proletarian_dictatorship;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_proletarian_dictatorship_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_proletarian_dictatorship;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_proletarian_dictatorship_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_proletarian_dictatorship;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_proletarian_dictatorship_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_proletarian_dictatorship;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_proletarian_dictatorship_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_proletarian_dictatorship;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_proletarian_dictatorship_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_proletarian_dictatorship;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_proletarian_dictatorship_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_proletarian_dictatorship;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_proletarian_dictatorship_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_proletarian_dictatorship;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_proletarian_dictatorship_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_proletarian_dictatorship;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_proletarian_dictatorship_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_presidential_dictatorship;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_presidential_dictatorship_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_presidential_dictatorship;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_presidential_dictatorship_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_presidential_dictatorship;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_presidential_dictatorship_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_presidential_dictatorship;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_presidential_dictatorship_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_presidential_dictatorship;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_presidential_dictatorship_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_presidential_dictatorship;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_presidential_dictatorship_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_presidential_dictatorship;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_presidential_dictatorship_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_presidential_dictatorship;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_presidential_dictatorship_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_presidential_dictatorship;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_presidential_dictatorship_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_presidential_dictatorship;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_presidential_dictatorship_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_radical_republic;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_radical_republic_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_radical_republic;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_radical_republic_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_radical_republic;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_radical_republic_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_radical_republic;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_radical_republic_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_radical_republic;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_radical_republic_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_radical_republic;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_radical_republic_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_radical_republic;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_radical_republic_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_radical_republic;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_radical_republic_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_radical_republic;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_radical_republic_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_radical_republic;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_radical_republic_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_fascist_dictatorship;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_fascist_dictatorship_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_fascist_dictatorship;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_fascist_dictatorship_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_fascist_dictatorship;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_fascist_dictatorship_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_fascist_dictatorship;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_fascist_dictatorship_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_fascist_dictatorship;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_fascist_dictatorship_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_fascist_dictatorship;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_fascist_dictatorship_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_fascist_dictatorship;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_fascist_dictatorship_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_fascist_dictatorship;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_fascist_dictatorship_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_fascist_dictatorship;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_fascist_dictatorship_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_fascist_dictatorship;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_fascist_dictatorship_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_theocracy;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_theocracy_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_theocracy;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_theocracy_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_theocracy;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_theocracy_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_theocracy;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_theocracy_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_theocracy;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_theocracy_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_theocracy;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_theocracy_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_theocracy;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_theocracy_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_theocracy;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_theocracy_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_theocracy;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_theocracy_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_theocracy;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_theocracy_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_prov_gov_conservative;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_prov_gov_conservative_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_prov_gov_conservative;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_prov_gov_conservative_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_prov_gov_conservative;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_prov_gov_conservative_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_prov_gov_conservative;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_prov_gov_conservative_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_prov_gov_conservative;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_prov_gov_conservative_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_prov_gov_conservative;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_prov_gov_conservative_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_prov_gov_conservative;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_prov_gov_conservative_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_prov_gov_conservative;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_prov_gov_conservative_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_prov_gov_conservative;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_prov_gov_conservative_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_prov_gov_conservative;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_prov_gov_conservative_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_prov_gov_liberal;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_prov_gov_liberal_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_prov_gov_liberal;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_prov_gov_liberal_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_prov_gov_liberal;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_prov_gov_liberal_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_prov_gov_liberal;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_prov_gov_liberal_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_prov_gov_liberal;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_prov_gov_liberal_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_prov_gov_liberal;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_prov_gov_liberal_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_prov_gov_liberal;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_prov_gov_liberal_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_prov_gov_liberal;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_prov_gov_liberal_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_prov_gov_liberal;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_prov_gov_liberal_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_prov_gov_liberal;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_prov_gov_liberal_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_absolute_empire;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_absolute_empire_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_absolute_empire;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_absolute_empire_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_absolute_empire;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_absolute_empire_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_absolute_empire;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_absolute_empire_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_absolute_empire;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_absolute_empire_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_absolute_empire;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_absolute_empire_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_absolute_empire;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_absolute_empire_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_absolute_empire;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_absolute_empire_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_absolute_empire;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_absolute_empire_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_absolute_empire;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_absolute_empire_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_semi_constitutional_empire;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_semi_constitutional_empire_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_semi_constitutional_empire;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_semi_constitutional_empire_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_semi_constitutional_empire;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_semi_constitutional_empire_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_semi_constitutional_empire;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_semi_constitutional_empire_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_semi_constitutional_empire;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_semi_constitutional_empire_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_semi_constitutional_empire;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_semi_constitutional_empire_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_semi_constitutional_empire;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_semi_constitutional_empire_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_semi_constitutional_empire;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_semi_constitutional_empire_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_semi_constitutional_empire;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_semi_constitutional_empire_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_semi_constitutional_empire;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_semi_constitutional_empire_ADJ;Camerunese;;;;;;;;;;;;;x
+cvo2_government_constitutional_empire;Italian Protectorate;;;;;;;;;;;;;x
+cvo2_government_constitutional_empire_ruler;Governor;;;;;;;;;;;;;x
+SIA_cvo2_government_constitutional_empire;Protettorato del Siam;;;;;;;;;;;;;x
+SIA_cvo2_government_constitutional_empire_ADJ;Siamese;;;;;;;;;;;;;x
+PHL_cvo2_government_constitutional_empire;Governatorato delle Filippine;;;;;;;;;;;;;x
+PHL_cvo2_government_constitutional_empire_ADJ;Filippino;;;;;;;;;;;;;x
+SWK_cvo2_government_constitutional_empire;Protettorato del Sarawak;;;;;;;;;;;;;x
+SWK_cvo2_government_constitutional_empire_ADJ;Sarawakiano;;;;;;;;;;;;;x
+SUL_cvo2_government_constitutional_empire;Protettorato di Sulu;;;;;;;;;;;;;x
+SUL_cvo2_government_constitutional_empire_ADJ;Suluano;;;;;;;;;;;;;x
+WSA_cvo2_government_constitutional_empire;Protettorato del Sahara Occidentale;;;;;;;;;;;;;x
+WSA_cvo2_government_constitutional_empire_ADJ;Sahariano;;;;;;;;;;;;;x
+MOR_cvo2_government_constitutional_empire;Protettorato del Marocco;;;;;;;;;;;;;x
+MOR_cvo2_government_constitutional_empire_ADJ;Marocchino;;;;;;;;;;;;;x
+ALD_cvo2_government_constitutional_empire;Protettorato d'Algeria;;;;;;;;;;;;;x
+ALD_cvo2_government_constitutional_empire_ADJ;Algerino;;;;;;;;;;;;;x
+LOA_cvo2_government_constitutional_empire;Protettorato del Congo;;;;;;;;;;;;;x
+LOA_cvo2_government_constitutional_empire_ADJ;Congolese;;;;;;;;;;;;;x
+CMR_cvo2_government_constitutional_empire;Protettorato del Camerun;;;;;;;;;;;;;x
+CMR_cvo2_government_constitutional_empire_ADJ;Camerunese;;;;;;;;;;;;;x

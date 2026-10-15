@@ -1,0 +1,255 @@
+cvcs_direction_title;The Crown and the Overseas Question;;;;;;;;;;;;;;x
+cvcs_direction_desc;The court must decide where to commit ships, officers and revenue. An African campaign would challenge the Moroccan state, while a domestic programme would let the kingdom recover. The Philippine crown lands can be addressed separately.;;;;;;;;;;;;;;x
+cvcs_direction_africa;Prepare an African Reconquista.;;;;;;;;;;;;;;x
+cvcs_direction_home;Rebuild the kingdom first.;;;;;;;;;;;;;;x
+cvcs_religion_title;Church, Crown and Civil Authority;;;;;;;;;;;;;;x
+cvcs_religion_desc;The royal council has received rival proposals for religious government. One would restore an inquisitorial tribunal and empower clergy in colonial administration. Opponents warn that coercive jurisdiction would deepen local resistance and estrange foreign courts. The other proposal maintains a privileged Church under ordinary royal law.;;;;;;;;;;;;;;x
+cvcs_religion_office;Restore the Holy Office under royal authority.;;;;;;;;;;;;;;x
+cvcs_religion_ordinary;Keep ecclesiastical matters under ordinary law.;;;;;;;;;;;;;;x
+cvcs_royal_accounts_title;Set the African Expedition Accounts;;;;;;;;;;;;;;x
+cvcs_royal_accounts_desc;Create an audited fund for charts, supplies and the fleet. This is preparation for a possible campaign, not a declaration of war.;;;;;;;;;;;;;;x
+cvcs_straits_depots_title;Provision the Strait Depots;;;;;;;;;;;;;;x
+cvcs_straits_depots_desc;Stock the Spanish shore with naval stores and establish a supply office for the Moroccan coast. The court still has to authorize a campaign.;;;;;;;;;;;;;;x
+cvcs_straits_campaign_title;Authorize the Campaign for Tangier;;;;;;;;;;;;;;x
+cvcs_straits_campaign_desc;Declare war on Morocco with Tangier as the stated territorial demand. Morocco retains its land unless the demand is secured in a peace settlement.;;;;;;;;;;;;;;x
+cvcs_coast_won_title;The Tangier Settlement;;;;;;;;;;;;;;x
+cvcs_coast_won_desc;The kingdom holds Tangier after a peace with Morocco. The cabinet must choose how to govern the new coast. Communities, religious authorities and merchants will judge the new administration by its conduct.;;;;;;;;;;;;;;x
+cvcs_coast_won_council;Convene local councils and a civil administration.;;;;;;;;;;;;;;x
+cvcs_coast_won_military;Place the coast under military and clerical authority.;;;;;;;;;;;;;;x
+cvcs_coast_lost_title;The Moroccan Campaign Ends;;;;;;;;;;;;;;x
+cvcs_coast_lost_desc;The war has ended without a Spanish settlement in Tangier. The ministry closes the expedition accounts and confronts the political cost of failure.;;;;;;;;;;;;;;x
+cvcs_coast_lost_ack;Receive the campaign report.;;;;;;;;;;;;;;x
+cvcs_moroccan_missions_title;Establish the Moroccan Mission Courts;;;;;;;;;;;;;;x
+cvcs_moroccan_missions_desc;The Holy Office proposes new tribunals and schools in the Spanish-held coast. Its reach depends on actual Spanish administration. Local residents will resist coercive rule, and neighboring states will scrutinize it.;;;;;;;;;;;;;;x
+cvcs_moroccan_schools_title;Fund Schools on the Moroccan Coast;;;;;;;;;;;;;;x
+cvcs_moroccan_schools_desc;Support teachers, interpreters and municipal offices in Spanish-held Moroccan districts. The programme works gradually and cannot itself claim new land.;;;;;;;;;;;;;;x
+cvcs_moroccan_inland_title;Press the Moroccan Interior;;;;;;;;;;;;;;x
+cvcs_moroccan_inland_desc;Authorize a new war for the Marrakesh state. This larger campaign requires the Tangier coast and must still be won through a peace settlement.;;;;;;;;;;;;;;x
+cvcs_inland_won_title;Administration Beyond the Coast;;;;;;;;;;;;;;x
+cvcs_inland_won_desc;The kingdom now holds Marrakesh after a separate settlement. A wider occupation requires roads, civil offices and a continuing response to local opposition.;;;;;;;;;;;;;;x
+cvcs_inland_won_ack;Open a provincial administration.;;;;;;;;;;;;;;x
+cvcs_inland_lost_title;The Inland Campaign Ends;;;;;;;;;;;;;;x
+cvcs_inland_lost_desc;The war has ended without the inland territorial settlement. The court must account for the expedition before considering new demands.;;;;;;;;;;;;;;x
+cvcs_inland_lost_ack;Close the expedition account.;;;;;;;;;;;;;;x
+cvcs_maghreb_title;The Limits of the African Crown;;;;;;;;;;;;;;x
+cvcs_maghreb_desc;Spanish ministers have proposed a wider Maghreb dominion. French and British interests, Moroccan sovereignty and the costs of governing the occupied districts now place limits on that ambition. The royal council can consolidate its actual holdings or seek further claims through ordinary diplomacy and war.;;;;;;;;;;;;;;x
+cvcs_maghreb_ack;Consolidate the territory we actually govern.;;;;;;;;;;;;;;x
+cvcs_phl_charter_title;Issue a Philippine Royal Charter;;;;;;;;;;;;;;x
+cvcs_phl_charter_desc;Establish a royal council for the Philippine provinces, with representation from local municipalities and the existing Spanish and Filipino communities. The charter funds administration; it does not create settlers.;;;;;;;;;;;;;;x
+cvcs_phl_schools_title;Schools and Teachers in Manila;;;;;;;;;;;;;;x
+cvcs_phl_schools_desc;The provincial administration proposes teacher training and local schools. Instruction in Spanish can expand without extinguishing the languages used in Filipino households.;;;;;;;;;;;;;;x
+cvcs_phl_schools_fund;Fund the schools and teacher colleges.;;;;;;;;;;;;;;x
+cvcs_phl_schools_defer;Defer the school programme.;;;;;;;;;;;;;;x
+cvcs_phl_council_title;Recognize the Hispano-Filipino Councils;;;;;;;;;;;;;;x
+cvcs_phl_council_desc;After the charter and school programme, crown officials can recognize the Hispano-Filipino communities already represented in the islands. Their accepted status opens offices and civic institutions, while other grievances and independence movements can still arise.;;;;;;;;;;;;;;x
+cvcs_phl_reform_title;The Philippine Reform Movement;;;;;;;;;;;;;;x
+cvcs_phl_reform_desc;Writers and municipal leaders are demanding representation and legal reform. The royal charter gives them an institutional route, but the government must decide whether to hear their petitions. This does not prevent later nationalist organizing.;;;;;;;;;;;;;;x
+cvcs_phl_reform_hear;Hear the petitions in the royal council.;;;;;;;;;;;;;;x
+cvcs_phl_reform_silence;Suppress the petition campaign.;;;;;;;;;;;;;;x
+cvcs_morocco_coast;Tangier Settlement;;;;;;;;;;;;;;x
+cvcs_morocco_coast_desc;Demand the Moroccan-held lands in the Tangier state through a peace treaty.;;;;;;;;;;;;;;x
+cvcs_morocco_inland;Marrakesh Settlement;;;;;;;;;;;;;;x
+cvcs_morocco_inland_desc;Demand the Moroccan-held lands in the Marrakesh state through a peace treaty.;;;;;;;;;;;;;;x
+CVCS_MOROCCO_WAR;The Moroccan Campaign;;;;;;;;;;;;;;x
+CVCS_MOROCCO_WAR_war;The Moroccan Campaign;;;;;;;;;;;;;;x
+cvcs_logistics;African Expedition Accounts;;;;;;;;;;;;;;x
+cvcs_depots;Strait Depots;;;;;;;;;;;;;;x
+cvcs_coastal_schools;Moroccan Coastal Schools;;;;;;;;;;;;;;x
+cvcs_coastal_missions;Mission Courts on the Moroccan Coast;;;;;;;;;;;;;;x
+cvcs_philippine_charter;Philippine Royal Charter;;;;;;;;;;;;;;x
+cvcs_philippine_schools;Philippine Teacher Colleges;;;;;;;;;;;;;;x
+cvcs_philippine_council;Hispano-Filipino Councils;;;;;;;;;;;;;;x
+cvcs_morocco_mission_legacy;Mission Courts Established;;;;;;;;;;;;;;x
+cvcs_local_policy_title;The Moroccan Littoral and Its Authorities;;;;;;;;;;;;;;x
+cvcs_local_policy_desc;The Sultan's appointed qaids, port merchants and local Rif leaders do not speak with one voice. A Spanish foothold can be supplied through recognized officials and negotiated contracts, through private coastal brokers, or by funding rivals against the Moroccan court. Each choice changes the trust the crown can expect beyond its walls.;;;;;;;;;;;;;;x
+cvcs_policy_qaids;Negotiate with appointed qaids and local councils.;;;;;;;;;;;;;;x
+cvcs_policy_brokers;Contract with port merchants and brokers.;;;;;;;;;;;;;;x
+cvcs_policy_rivals;Finance rival leaders and frontier auxiliaries.;;;;;;;;;;;;;;x
+cvcs_treaty_record;Record the bounded coastal cession.;;;;;;;;;;;;;;x
+cvcs_council_admin;Open a local council and customs office.;;;;;;;;;;;;;;x
+cvcs_garrison_admin;Place the plaza under a royal garrison.;;;;;;;;;;;;;;x
+cvcs_terrain_ack;The geography shapes the campaign.;;;;;;;;;;;;;;x
+cvcs_atlantic_plain_title;The Atlantic Coastal Plains;;;;;;;;;;;;;;x
+cvcs_atlantic_plain_desc;The Gharb and Doukkala shore offers broader cultivated approaches than the Rif coast. Roads and supplies can move through these districts more readily.;;;;;;;;;;;;;;x
+cvcs_rif_resistance_title;The Rif Passes;;;;;;;;;;;;;;x
+cvcs_rif_resistance_desc;The narrow Mediterranean shore rises toward the Rif. Forts on the coast do not control the mountain routes or the communities beyond them.;;;;;;;;;;;;;;x
+cvcs_qaid_compacts_modifier;Compacts with Moroccan Qaids;;;;;;;;;;;;;;x
+cvcs_coastal_brokers_modifier;Coastal Brokers;;;;;;;;;;;;;;x
+cvcs_rival_patronage_modifier;Patronage of Local Rivals;;;;;;;;;;;;;;x
+cvcs_local_compact;Local Compacts;;;;;;;;;;;;;;x
+cvcs_broker_port;Merchant and Port Agreements;;;;;;;;;;;;;;x
+cvcs_frontier_unrest;Frontier Rivalries and Resistance;;;;;;;;;;;;;;x
+cvcs_coastal_council;Coastal Council;;;;;;;;;;;;;;x
+cvcs_garrison_rule;Royal Garrison Rule;;;;;;;;;;;;;;x
+cvcs_atlantic_plain;Atlantic Coastal Plain;;;;;;;;;;;;;;x
+cvcs_rif_resistance;Rif Mountain Approaches;;;;;;;;;;;;;;x
+cvcs_displaced_households;Displaced Households and Ruined Villages;;;;;;;;;;;;;;x
+cvcs_extend_moroccan_schools;Open Schools in Newly Acquired Plazas;;;;;;;;;;;;;;x
+cvcs_extend_moroccan_schools_title;Open Schools in Newly Acquired Plazas;;;;;;;;;;;;;;x
+cvcs_extend_moroccan_schools_desc;Send teachers and interpreters to coastal districts acquired after the first school programme. Cultural change depends on sustained local administration.;;;;;;;;;;;;;;x
+cvcs_extend_moroccan_missions;Extend the Mission Courts to New Plazas;;;;;;;;;;;;;;x
+cvcs_extend_moroccan_missions_title;Extend the Mission Courts to New Plazas;;;;;;;;;;;;;;x
+cvcs_extend_moroccan_missions_desc;The Holy Office would establish courts in recently acquired districts. Coercive jurisdiction will fuel resistance and alarm neighboring governments.;;;;;;;;;;;;;;x
+cvcs_campaign_ifni_spc;Press a Separate Treaty for Ifni;;;;;;;;;;;;;;x
+cvcs_campaign_ifni_spc_title;Press a Separate Treaty for Ifni;;;;;;;;;;;;;;x
+cvcs_campaign_ifni_spc_desc;The court can open a separate campaign for the Ifni plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_ifni_spc;Ifni Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_ifni_spc_desc;Demand only the Ifni coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_campaign_ifni_ibr;Press a Separate Treaty for Ifni;;;;;;;;;;;;;;x
+cvcs_campaign_ifni_ibr_title;Press a Separate Treaty for Ifni;;;;;;;;;;;;;;x
+cvcs_campaign_ifni_ibr_desc;The court can open a separate campaign for the Ifni plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_ifni_ibr;Ifni Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_ifni_ibr_desc;Demand only the Ifni coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_campaign_ifni_spa;Press a Separate Treaty for Ifni;;;;;;;;;;;;;;x
+cvcs_campaign_ifni_spa_title;Press a Separate Treaty for Ifni;;;;;;;;;;;;;;x
+cvcs_campaign_ifni_spa_desc;The court can open a separate campaign for the Ifni plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_ifni_spa;Ifni Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_ifni_spa_desc;Demand only the Ifni coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_treaty_ifni_title;The Ifni Peace Articles;;;;;;;;;;;;;;x
+cvcs_treaty_ifni_desc;The peace articles grant the bounded Ifni district to the Spanish crown. Moroccan towns and territories beyond that district remain under their previous sovereigns.;;;;;;;;;;;;;;x
+cvcs_garrison_ifni_title;Government of Ifni;;;;;;;;;;;;;;x
+cvcs_garrison_ifni_desc;The Spanish crown now holds Ifni. The court must appoint civil and military authorities while dealing with the inhabitants and their own institutions.;;;;;;;;;;;;;;x
+cvcs_clear_ifni;Clear the Villages Outside Ifni;;;;;;;;;;;;;;x
+cvcs_clear_ifni_title;Clear the Villages Outside Ifni;;;;;;;;;;;;;;x
+cvcs_clear_ifni_desc;An armed clearance around Ifni would burn homes and displace households. Fields, trade and relations with Moroccan authorities would suffer, and local resistance would harden.;;;;;;;;;;;;;;x
+cvcs_campaign_tetouan_spc;Press a Separate Treaty for Tetuán;;;;;;;;;;;;;;x
+cvcs_campaign_tetouan_spc_title;Press a Separate Treaty for Tetuán;;;;;;;;;;;;;;x
+cvcs_campaign_tetouan_spc_desc;The court can open a separate campaign for the Tetuán plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_tetouan_spc;Tetuán Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_tetouan_spc_desc;Demand only the Tetuán coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_campaign_tetouan_ibr;Press a Separate Treaty for Tetuán;;;;;;;;;;;;;;x
+cvcs_campaign_tetouan_ibr_title;Press a Separate Treaty for Tetuán;;;;;;;;;;;;;;x
+cvcs_campaign_tetouan_ibr_desc;The court can open a separate campaign for the Tetuán plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_tetouan_ibr;Tetuán Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_tetouan_ibr_desc;Demand only the Tetuán coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_campaign_tetouan_spa;Press a Separate Treaty for Tetuán;;;;;;;;;;;;;;x
+cvcs_campaign_tetouan_spa_title;Press a Separate Treaty for Tetuán;;;;;;;;;;;;;;x
+cvcs_campaign_tetouan_spa_desc;The court can open a separate campaign for the Tetuán plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_tetouan_spa;Tetuán Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_tetouan_spa_desc;Demand only the Tetuán coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_treaty_tetouan_title;The Tetuán Peace Articles;;;;;;;;;;;;;;x
+cvcs_treaty_tetouan_desc;The peace articles grant the bounded Tetuán district to the Spanish crown. Moroccan towns and territories beyond that district remain under their previous sovereigns.;;;;;;;;;;;;;;x
+cvcs_garrison_tetouan_title;Government of Tetuán;;;;;;;;;;;;;;x
+cvcs_garrison_tetouan_desc;The Spanish crown now holds Tetuán. The court must appoint civil and military authorities while dealing with the inhabitants and their own institutions.;;;;;;;;;;;;;;x
+cvcs_clear_tetouan;Clear the Villages Outside Tetuán;;;;;;;;;;;;;;x
+cvcs_clear_tetouan_title;Clear the Villages Outside Tetuán;;;;;;;;;;;;;;x
+cvcs_clear_tetouan_desc;An armed clearance around Tetuán would burn homes and displace households. Fields, trade and relations with Moroccan authorities would suffer, and local resistance would harden.;;;;;;;;;;;;;;x
+cvcs_campaign_tangier_spc;Press a Separate Treaty for Tánger;;;;;;;;;;;;;;x
+cvcs_campaign_tangier_spc_title;Press a Separate Treaty for Tánger;;;;;;;;;;;;;;x
+cvcs_campaign_tangier_spc_desc;The court can open a separate campaign for the Tánger plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_tangier_spc;Tánger Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_tangier_spc_desc;Demand only the Tánger coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_campaign_tangier_ibr;Press a Separate Treaty for Tánger;;;;;;;;;;;;;;x
+cvcs_campaign_tangier_ibr_title;Press a Separate Treaty for Tánger;;;;;;;;;;;;;;x
+cvcs_campaign_tangier_ibr_desc;The court can open a separate campaign for the Tánger plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_tangier_ibr;Tánger Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_tangier_ibr_desc;Demand only the Tánger coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_campaign_tangier_spa;Press a Separate Treaty for Tánger;;;;;;;;;;;;;;x
+cvcs_campaign_tangier_spa_title;Press a Separate Treaty for Tánger;;;;;;;;;;;;;;x
+cvcs_campaign_tangier_spa_desc;The court can open a separate campaign for the Tánger plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_tangier_spa;Tánger Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_tangier_spa_desc;Demand only the Tánger coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_treaty_tangier_title;The Tánger Peace Articles;;;;;;;;;;;;;;x
+cvcs_treaty_tangier_desc;The peace articles grant the bounded Tánger district to the Spanish crown. Moroccan towns and territories beyond that district remain under their previous sovereigns.;;;;;;;;;;;;;;x
+cvcs_garrison_tangier_title;Government of Tánger;;;;;;;;;;;;;;x
+cvcs_garrison_tangier_desc;The Spanish crown now holds Tánger. The court must appoint civil and military authorities while dealing with the inhabitants and their own institutions.;;;;;;;;;;;;;;x
+cvcs_clear_tangier;Clear the Villages Outside Tánger;;;;;;;;;;;;;;x
+cvcs_clear_tangier_title;Clear the Villages Outside Tánger;;;;;;;;;;;;;;x
+cvcs_clear_tangier_desc;An armed clearance around Tánger would burn homes and displace households. Fields, trade and relations with Moroccan authorities would suffer, and local resistance would harden.;;;;;;;;;;;;;;x
+cvcs_campaign_casablanca_spc;Press a Separate Treaty for Casablanca;;;;;;;;;;;;;;x
+cvcs_campaign_casablanca_spc_title;Press a Separate Treaty for Casablanca;;;;;;;;;;;;;;x
+cvcs_campaign_casablanca_spc_desc;The court can open a separate campaign for the Casablanca plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_casablanca_spc;Casablanca Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_casablanca_spc_desc;Demand only the Casablanca coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_campaign_casablanca_ibr;Press a Separate Treaty for Casablanca;;;;;;;;;;;;;;x
+cvcs_campaign_casablanca_ibr_title;Press a Separate Treaty for Casablanca;;;;;;;;;;;;;;x
+cvcs_campaign_casablanca_ibr_desc;The court can open a separate campaign for the Casablanca plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_casablanca_ibr;Casablanca Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_casablanca_ibr_desc;Demand only the Casablanca coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_campaign_casablanca_spa;Press a Separate Treaty for Casablanca;;;;;;;;;;;;;;x
+cvcs_campaign_casablanca_spa_title;Press a Separate Treaty for Casablanca;;;;;;;;;;;;;;x
+cvcs_campaign_casablanca_spa_desc;The court can open a separate campaign for the Casablanca plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_casablanca_spa;Casablanca Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_casablanca_spa_desc;Demand only the Casablanca coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_treaty_casablanca_title;The Casablanca Peace Articles;;;;;;;;;;;;;;x
+cvcs_treaty_casablanca_desc;The peace articles grant the bounded Casablanca district to the Spanish crown. Moroccan towns and territories beyond that district remain under their previous sovereigns.;;;;;;;;;;;;;;x
+cvcs_garrison_casablanca_title;Government of Casablanca;;;;;;;;;;;;;;x
+cvcs_garrison_casablanca_desc;The Spanish crown now holds Casablanca. The court must appoint civil and military authorities while dealing with the inhabitants and their own institutions.;;;;;;;;;;;;;;x
+cvcs_clear_casablanca;Clear the Villages Outside Casablanca;;;;;;;;;;;;;;x
+cvcs_clear_casablanca_title;Clear the Villages Outside Casablanca;;;;;;;;;;;;;;x
+cvcs_clear_casablanca_desc;An armed clearance around Casablanca would burn homes and displace households. Fields, trade and relations with Moroccan authorities would suffer, and local resistance would harden.;;;;;;;;;;;;;;x
+cvcs_campaign_safi_spc;Press a Separate Treaty for Safí;;;;;;;;;;;;;;x
+cvcs_campaign_safi_spc_title;Press a Separate Treaty for Safí;;;;;;;;;;;;;;x
+cvcs_campaign_safi_spc_desc;The court can open a separate campaign for the Safí plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_safi_spc;Safí Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_safi_spc_desc;Demand only the Safí coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_campaign_safi_ibr;Press a Separate Treaty for Safí;;;;;;;;;;;;;;x
+cvcs_campaign_safi_ibr_title;Press a Separate Treaty for Safí;;;;;;;;;;;;;;x
+cvcs_campaign_safi_ibr_desc;The court can open a separate campaign for the Safí plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_safi_ibr;Safí Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_safi_ibr_desc;Demand only the Safí coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_campaign_safi_spa;Press a Separate Treaty for Safí;;;;;;;;;;;;;;x
+cvcs_campaign_safi_spa_title;Press a Separate Treaty for Safí;;;;;;;;;;;;;;x
+cvcs_campaign_safi_spa_desc;The court can open a separate campaign for the Safí plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_safi_spa;Safí Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_safi_spa_desc;Demand only the Safí coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_treaty_safi_title;The Safí Peace Articles;;;;;;;;;;;;;;x
+cvcs_treaty_safi_desc;The peace articles grant the bounded Safí district to the Spanish crown. Moroccan towns and territories beyond that district remain under their previous sovereigns.;;;;;;;;;;;;;;x
+cvcs_garrison_safi_title;Government of Safí;;;;;;;;;;;;;;x
+cvcs_garrison_safi_desc;The Spanish crown now holds Safí. The court must appoint civil and military authorities while dealing with the inhabitants and their own institutions.;;;;;;;;;;;;;;x
+cvcs_clear_safi;Clear the Villages Outside Safí;;;;;;;;;;;;;;x
+cvcs_clear_safi_title;Clear the Villages Outside Safí;;;;;;;;;;;;;;x
+cvcs_clear_safi_desc;An armed clearance around Safí would burn homes and displace households. Fields, trade and relations with Moroccan authorities would suffer, and local resistance would harden.;;;;;;;;;;;;;;x
+cvcs_campaign_mogador_spc;Press a Separate Treaty for Mogador;;;;;;;;;;;;;;x
+cvcs_campaign_mogador_spc_title;Press a Separate Treaty for Mogador;;;;;;;;;;;;;;x
+cvcs_campaign_mogador_spc_desc;The court can open a separate campaign for the Mogador plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_mogador_spc;Mogador Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_mogador_spc_desc;Demand only the Mogador coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_campaign_mogador_ibr;Press a Separate Treaty for Mogador;;;;;;;;;;;;;;x
+cvcs_campaign_mogador_ibr_title;Press a Separate Treaty for Mogador;;;;;;;;;;;;;;x
+cvcs_campaign_mogador_ibr_desc;The court can open a separate campaign for the Mogador plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_mogador_ibr;Mogador Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_mogador_ibr_desc;Demand only the Mogador coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_campaign_mogador_spa;Press a Separate Treaty for Mogador;;;;;;;;;;;;;;x
+cvcs_campaign_mogador_spa_title;Press a Separate Treaty for Mogador;;;;;;;;;;;;;;x
+cvcs_campaign_mogador_spa_desc;The court can open a separate campaign for the Mogador plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_mogador_spa;Mogador Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_mogador_spa_desc;Demand only the Mogador coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_treaty_mogador_title;The Mogador Peace Articles;;;;;;;;;;;;;;x
+cvcs_treaty_mogador_desc;The peace articles grant the bounded Mogador district to the Spanish crown. Moroccan towns and territories beyond that district remain under their previous sovereigns.;;;;;;;;;;;;;;x
+cvcs_garrison_mogador_title;Government of Mogador;;;;;;;;;;;;;;x
+cvcs_garrison_mogador_desc;The Spanish crown now holds Mogador. The court must appoint civil and military authorities while dealing with the inhabitants and their own institutions.;;;;;;;;;;;;;;x
+cvcs_clear_mogador;Clear the Villages Outside Mogador;;;;;;;;;;;;;;x
+cvcs_clear_mogador_title;Clear the Villages Outside Mogador;;;;;;;;;;;;;;x
+cvcs_clear_mogador_desc;An armed clearance around Mogador would burn homes and displace households. Fields, trade and relations with Moroccan authorities would suffer, and local resistance would harden.;;;;;;;;;;;;;;x
+cvcs_campaign_agadir_spc;Press a Separate Treaty for Agadir;;;;;;;;;;;;;;x
+cvcs_campaign_agadir_spc_title;Press a Separate Treaty for Agadir;;;;;;;;;;;;;;x
+cvcs_campaign_agadir_spc_desc;The court can open a separate campaign for the Agadir plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_agadir_spc;Agadir Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_agadir_spc_desc;Demand only the Agadir coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_campaign_agadir_ibr;Press a Separate Treaty for Agadir;;;;;;;;;;;;;;x
+cvcs_campaign_agadir_ibr_title;Press a Separate Treaty for Agadir;;;;;;;;;;;;;;x
+cvcs_campaign_agadir_ibr_desc;The court can open a separate campaign for the Agadir plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_agadir_ibr;Agadir Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_agadir_ibr_desc;Demand only the Agadir coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_campaign_agadir_spa;Press a Separate Treaty for Agadir;;;;;;;;;;;;;;x
+cvcs_campaign_agadir_spa_title;Press a Separate Treaty for Agadir;;;;;;;;;;;;;;x
+cvcs_campaign_agadir_spa_desc;The court can open a separate campaign for the Agadir plaza. The war goal grants only that province if accepted in a peace; the Moroccan hinterland remains outside the settlement.;;;;;;;;;;;;;;x
+cvcs_port_agadir_spa;Agadir Coastal Cession;;;;;;;;;;;;;;x
+cvcs_port_agadir_spa_desc;Demand only the Agadir coastal district in the peace treaty.;;;;;;;;;;;;;;x
+cvcs_treaty_agadir_title;The Agadir Peace Articles;;;;;;;;;;;;;;x
+cvcs_treaty_agadir_desc;The peace articles grant the bounded Agadir district to the Spanish crown. Moroccan towns and territories beyond that district remain under their previous sovereigns.;;;;;;;;;;;;;;x
+cvcs_garrison_agadir_title;Government of Agadir;;;;;;;;;;;;;;x
+cvcs_garrison_agadir_desc;The Spanish crown now holds Agadir. The court must appoint civil and military authorities while dealing with the inhabitants and their own institutions.;;;;;;;;;;;;;;x
+cvcs_clear_agadir;Clear the Villages Outside Agadir;;;;;;;;;;;;;;x
+cvcs_clear_agadir_title;Clear the Villages Outside Agadir;;;;;;;;;;;;;;x
+cvcs_clear_agadir_desc;An armed clearance around Agadir would burn homes and displace households. Fields, trade and relations with Moroccan authorities would suffer, and local resistance would harden.;;;;;;;;;;;;;;x
+cvcs_royal_accounts;Set the African Expedition Accounts;;;;;;;;;;;;;;x
+cvcs_straits_depots;Provision the Strait Depots;;;;;;;;;;;;;;x
+cvcs_moroccan_schools;Fund Schools on the Moroccan Coast;;;;;;;;;;;;;;x
+cvcs_moroccan_missions;Establish the Moroccan Mission Courts;;;;;;;;;;;;;;x
+cvcs_phl_charter;Issue a Philippine Royal Charter;;;;;;;;;;;;;;x
+cvcs_phl_council;Recognize the Hispano-Filipino Councils;;;;;;;;;;;;;;x
+cvcs_open_spanish_council_title;Convene the Overseas Council;;;;;;;;;;;;;;x
+cvcs_open_spanish_council_desc;The court can review Spain’s overseas commitments after the succession. Its council will choose whether to prepare an African campaign or concentrate on domestic recovery; the Philippine provinces can be addressed separately.;;;;;;;;;;;;;;x
+cvcs_open_spanish_council;Convene the Overseas Council;;;;;;;;;;;;;;x

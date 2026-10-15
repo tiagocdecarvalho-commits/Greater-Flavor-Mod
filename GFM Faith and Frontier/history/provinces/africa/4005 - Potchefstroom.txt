@@ -1,0 +1,12 @@
+owner = MAT
+controller = MAT
+add_core = MAT
+trade_goods = cattle
+life_rating = 30
+terrain = savanna
+1836.1.1 = {
+add_core = TRN
+}
+
+# Faith and Frontier 3: Potchefstroom
+1838.1.1 = { add_core = POT }

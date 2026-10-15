@@ -1,0 +1,5445 @@
+political_decisions = {
+	ff102_record_frontier_claim = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			NOT = {
+				has_country_flag = ff102_claims_recorded
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						NOT = {
+							has_country_flag = ff102_claims_recorded
+						}
+						war = no
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff102_claims_recorded
+						country_event = {
+							id = 9786600
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_convene_4028 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			NOT = {
+				owns = 4028
+			}
+			NOT = {
+				has_country_flag = ff102_mission_pending
+			}
+			4028 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					exists = yes
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+					NOT = {
+						has_country_flag = ff102_withdrawn
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						NOT = {
+							owns = 4028
+						}
+						NOT = {
+							has_country_flag = ff102_mission_pending
+						}
+						4028 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								exists = yes
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+								NOT = {
+									has_country_flag = ff102_withdrawn
+								}
+							}
+						}
+						war = no
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff102_mission_pending
+						4028 = {
+							owner = {
+								set_country_flag = ff102_recipient
+								set_country_flag = ff102_offer_waiting
+								clr_country_flag = ff102_offer_shown
+								country_event = {
+									id = 9786601
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_convene_4029 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			NOT = {
+				owns = 4029
+			}
+			NOT = {
+				has_country_flag = ff102_mission_pending
+			}
+			4029 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					exists = yes
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+					NOT = {
+						has_country_flag = ff102_withdrawn
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						NOT = {
+							owns = 4029
+						}
+						NOT = {
+							has_country_flag = ff102_mission_pending
+						}
+						4029 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								exists = yes
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+								NOT = {
+									has_country_flag = ff102_withdrawn
+								}
+							}
+						}
+						war = no
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff102_mission_pending
+						4029 = {
+							owner = {
+								set_country_flag = ff102_recipient
+								set_country_flag = ff102_offer_waiting
+								clr_country_flag = ff102_offer_shown
+								country_event = {
+									id = 9786601
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_convene_4030 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			NOT = {
+				owns = 4030
+			}
+			NOT = {
+				has_country_flag = ff102_mission_pending
+			}
+			4030 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					exists = yes
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+					NOT = {
+						has_country_flag = ff102_withdrawn
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						NOT = {
+							owns = 4030
+						}
+						NOT = {
+							has_country_flag = ff102_mission_pending
+						}
+						4030 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								exists = yes
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+								NOT = {
+									has_country_flag = ff102_withdrawn
+								}
+							}
+						}
+						war = no
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff102_mission_pending
+						4030 = {
+							owner = {
+								set_country_flag = ff102_recipient
+								set_country_flag = ff102_offer_waiting
+								clr_country_flag = ff102_offer_shown
+								country_event = {
+									id = 9786601
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_convene_4031 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			NOT = {
+				owns = 4031
+			}
+			NOT = {
+				has_country_flag = ff102_mission_pending
+			}
+			4031 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					exists = yes
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+					NOT = {
+						has_country_flag = ff102_withdrawn
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						NOT = {
+							owns = 4031
+						}
+						NOT = {
+							has_country_flag = ff102_mission_pending
+						}
+						4031 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								exists = yes
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+								NOT = {
+									has_country_flag = ff102_withdrawn
+								}
+							}
+						}
+						war = no
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff102_mission_pending
+						4031 = {
+							owner = {
+								set_country_flag = ff102_recipient
+								set_country_flag = ff102_offer_waiting
+								clr_country_flag = ff102_offer_shown
+								country_event = {
+									id = 9786601
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_convene_4032 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			NOT = {
+				owns = 4032
+			}
+			NOT = {
+				has_country_flag = ff102_mission_pending
+			}
+			4032 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					exists = yes
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+					NOT = {
+						has_country_flag = ff102_withdrawn
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						NOT = {
+							owns = 4032
+						}
+						NOT = {
+							has_country_flag = ff102_mission_pending
+						}
+						4032 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								exists = yes
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+								NOT = {
+									has_country_flag = ff102_withdrawn
+								}
+							}
+						}
+						war = no
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff102_mission_pending
+						4032 = {
+							owner = {
+								set_country_flag = ff102_recipient
+								set_country_flag = ff102_offer_waiting
+								clr_country_flag = ff102_offer_shown
+								country_event = {
+									id = 9786601
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_convene_4033 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			NOT = {
+				owns = 4033
+			}
+			NOT = {
+				has_country_flag = ff102_mission_pending
+			}
+			4033 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					exists = yes
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+					NOT = {
+						has_country_flag = ff102_withdrawn
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						NOT = {
+							owns = 4033
+						}
+						NOT = {
+							has_country_flag = ff102_mission_pending
+						}
+						4033 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								exists = yes
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+								NOT = {
+									has_country_flag = ff102_withdrawn
+								}
+							}
+						}
+						war = no
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff102_mission_pending
+						4033 = {
+							owner = {
+								set_country_flag = ff102_recipient
+								set_country_flag = ff102_offer_waiting
+								clr_country_flag = ff102_offer_shown
+								country_event = {
+									id = 9786601
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_convene_2074 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			NOT = {
+				owns = 2074
+			}
+			NOT = {
+				has_country_flag = ff102_mission_pending
+			}
+			2074 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					exists = yes
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+					NOT = {
+						has_country_flag = ff102_withdrawn
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						NOT = {
+							owns = 2074
+						}
+						NOT = {
+							has_country_flag = ff102_mission_pending
+						}
+						2074 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								exists = yes
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+								NOT = {
+									has_country_flag = ff102_withdrawn
+								}
+							}
+						}
+						war = no
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff102_mission_pending
+						2074 = {
+							owner = {
+								set_country_flag = ff102_recipient
+								set_country_flag = ff102_offer_waiting
+								clr_country_flag = ff102_offer_shown
+								country_event = {
+									id = 9786601
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_convene_4034 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			NOT = {
+				owns = 4034
+			}
+			NOT = {
+				has_country_flag = ff102_mission_pending
+			}
+			4034 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					exists = yes
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+					NOT = {
+						has_country_flag = ff102_withdrawn
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						NOT = {
+							owns = 4034
+						}
+						NOT = {
+							has_country_flag = ff102_mission_pending
+						}
+						4034 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								exists = yes
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+								NOT = {
+									has_country_flag = ff102_withdrawn
+								}
+							}
+						}
+						war = no
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff102_mission_pending
+						4034 = {
+							owner = {
+								set_country_flag = ff102_recipient
+								set_country_flag = ff102_offer_waiting
+								clr_country_flag = ff102_offer_shown
+								country_event = {
+									id = 9786601
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_convene_2574 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			NOT = {
+				owns = 2574
+			}
+			NOT = {
+				has_country_flag = ff102_mission_pending
+			}
+			2574 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					exists = yes
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+					NOT = {
+						has_country_flag = ff102_withdrawn
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						NOT = {
+							owns = 2574
+						}
+						NOT = {
+							has_country_flag = ff102_mission_pending
+						}
+						2574 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								exists = yes
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+								NOT = {
+									has_country_flag = ff102_withdrawn
+								}
+							}
+						}
+						war = no
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff102_mission_pending
+						2574 = {
+							owner = {
+								set_country_flag = ff102_recipient
+								set_country_flag = ff102_offer_waiting
+								clr_country_flag = ff102_offer_shown
+								country_event = {
+									id = 9786601
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_convene_3882 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			NOT = {
+				owns = 3882
+			}
+			NOT = {
+				has_country_flag = ff102_mission_pending
+			}
+			3882 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					exists = yes
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+					NOT = {
+						has_country_flag = ff102_withdrawn
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						NOT = {
+							owns = 3882
+						}
+						NOT = {
+							has_country_flag = ff102_mission_pending
+						}
+						3882 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								exists = yes
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+								NOT = {
+									has_country_flag = ff102_withdrawn
+								}
+							}
+						}
+						war = no
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff102_mission_pending
+						3882 = {
+							owner = {
+								set_country_flag = ff102_recipient
+								set_country_flag = ff102_offer_waiting
+								clr_country_flag = ff102_offer_shown
+								country_event = {
+									id = 9786601
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_convene_4035 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			NOT = {
+				owns = 4035
+			}
+			NOT = {
+				has_country_flag = ff102_mission_pending
+			}
+			4035 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					exists = yes
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+					NOT = {
+						has_country_flag = ff102_withdrawn
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						NOT = {
+							owns = 4035
+						}
+						NOT = {
+							has_country_flag = ff102_mission_pending
+						}
+						4035 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								exists = yes
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+								NOT = {
+									has_country_flag = ff102_withdrawn
+								}
+							}
+						}
+						war = no
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff102_mission_pending
+						4035 = {
+							owner = {
+								set_country_flag = ff102_recipient
+								set_country_flag = ff102_offer_waiting
+								clr_country_flag = ff102_offer_shown
+								country_event = {
+									id = 9786601
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_convene_4036 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			NOT = {
+				owns = 4036
+			}
+			NOT = {
+				has_country_flag = ff102_mission_pending
+			}
+			4036 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					exists = yes
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+					NOT = {
+						has_country_flag = ff102_withdrawn
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						NOT = {
+							owns = 4036
+						}
+						NOT = {
+							has_country_flag = ff102_mission_pending
+						}
+						4036 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								exists = yes
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+								NOT = {
+									has_country_flag = ff102_withdrawn
+								}
+							}
+						}
+						war = no
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff102_mission_pending
+						4036 = {
+							owner = {
+								set_country_flag = ff102_recipient
+								set_country_flag = ff102_offer_waiting
+								clr_country_flag = ff102_offer_shown
+								country_event = {
+									id = 9786601
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_convene_4037 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			NOT = {
+				owns = 4037
+			}
+			NOT = {
+				has_country_flag = ff102_mission_pending
+			}
+			4037 = {
+				NOT = {
+					empty = yes
+				}
+				owner = {
+					exists = yes
+					NOT = {
+						tag = SAF
+					}
+					war = no
+					is_vassal = no
+					NOT = {
+						has_country_flag = ff102_withdrawn
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 1000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						NOT = {
+							owns = 4037
+						}
+						NOT = {
+							has_country_flag = ff102_mission_pending
+						}
+						4037 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								exists = yes
+								NOT = {
+									tag = SAF
+								}
+								war = no
+								is_vassal = no
+								NOT = {
+									has_country_flag = ff102_withdrawn
+								}
+							}
+						}
+						war = no
+						money = 1000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1000
+						set_country_flag = ff102_mission_pending
+						4037 = {
+							owner = {
+								set_country_flag = ff102_recipient
+								set_country_flag = ff102_offer_waiting
+								clr_country_flag = ff102_offer_shown
+								country_event = {
+									id = 9786601
+									days = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_enforce_frontier_convention = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			has_country_flag = ff102_mission_pending
+			has_country_flag = ff102_campaign
+			OR = {
+				4028 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						war_with = SAF
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						NOT = {
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+								NOT = {
+									controlled_by = SAF
+								}
+							}
+						}
+					}
+				}
+				4029 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						war_with = SAF
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						NOT = {
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+								NOT = {
+									controlled_by = SAF
+								}
+							}
+						}
+					}
+				}
+				4030 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						war_with = SAF
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						NOT = {
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+								NOT = {
+									controlled_by = SAF
+								}
+							}
+						}
+					}
+				}
+				4031 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						war_with = SAF
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						NOT = {
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+								NOT = {
+									controlled_by = SAF
+								}
+							}
+						}
+					}
+				}
+				4032 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						war_with = SAF
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						NOT = {
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+								NOT = {
+									controlled_by = SAF
+								}
+							}
+						}
+					}
+				}
+				4033 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						war_with = SAF
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						NOT = {
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+								NOT = {
+									controlled_by = SAF
+								}
+							}
+						}
+					}
+				}
+				4034 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						war_with = SAF
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						NOT = {
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+								NOT = {
+									controlled_by = SAF
+								}
+							}
+						}
+					}
+				}
+				4035 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						war_with = SAF
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						NOT = {
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+								NOT = {
+									controlled_by = SAF
+								}
+							}
+						}
+					}
+				}
+				4036 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						war_with = SAF
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						NOT = {
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+								NOT = {
+									controlled_by = SAF
+								}
+							}
+						}
+					}
+				}
+				4037 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						war_with = SAF
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						NOT = {
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+								NOT = {
+									controlled_by = SAF
+								}
+							}
+						}
+					}
+				}
+				2074 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						war_with = SAF
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						NOT = {
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+								NOT = {
+									controlled_by = SAF
+								}
+							}
+						}
+					}
+				}
+				2574 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						war_with = SAF
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						NOT = {
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+								NOT = {
+									controlled_by = SAF
+								}
+							}
+						}
+					}
+				}
+				3882 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						war_with = SAF
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						NOT = {
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+								NOT = {
+									controlled_by = SAF
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			money = 4000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						has_country_flag = ff102_mission_pending
+						has_country_flag = ff102_campaign
+						OR = {
+							4028 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									war_with = SAF
+									any_owned_province = {
+										OR = {
+											province_id = 4028
+											province_id = 4029
+											province_id = 4030
+											province_id = 4031
+											province_id = 4032
+											province_id = 4033
+											province_id = 4034
+											province_id = 4035
+											province_id = 4036
+											province_id = 4037
+											province_id = 2074
+											province_id = 2574
+											province_id = 3882
+										}
+									}
+									NOT = {
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+											NOT = {
+												controlled_by = SAF
+											}
+										}
+									}
+								}
+							}
+							4029 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									war_with = SAF
+									any_owned_province = {
+										OR = {
+											province_id = 4028
+											province_id = 4029
+											province_id = 4030
+											province_id = 4031
+											province_id = 4032
+											province_id = 4033
+											province_id = 4034
+											province_id = 4035
+											province_id = 4036
+											province_id = 4037
+											province_id = 2074
+											province_id = 2574
+											province_id = 3882
+										}
+									}
+									NOT = {
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+											NOT = {
+												controlled_by = SAF
+											}
+										}
+									}
+								}
+							}
+							4030 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									war_with = SAF
+									any_owned_province = {
+										OR = {
+											province_id = 4028
+											province_id = 4029
+											province_id = 4030
+											province_id = 4031
+											province_id = 4032
+											province_id = 4033
+											province_id = 4034
+											province_id = 4035
+											province_id = 4036
+											province_id = 4037
+											province_id = 2074
+											province_id = 2574
+											province_id = 3882
+										}
+									}
+									NOT = {
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+											NOT = {
+												controlled_by = SAF
+											}
+										}
+									}
+								}
+							}
+							4031 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									war_with = SAF
+									any_owned_province = {
+										OR = {
+											province_id = 4028
+											province_id = 4029
+											province_id = 4030
+											province_id = 4031
+											province_id = 4032
+											province_id = 4033
+											province_id = 4034
+											province_id = 4035
+											province_id = 4036
+											province_id = 4037
+											province_id = 2074
+											province_id = 2574
+											province_id = 3882
+										}
+									}
+									NOT = {
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+											NOT = {
+												controlled_by = SAF
+											}
+										}
+									}
+								}
+							}
+							4032 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									war_with = SAF
+									any_owned_province = {
+										OR = {
+											province_id = 4028
+											province_id = 4029
+											province_id = 4030
+											province_id = 4031
+											province_id = 4032
+											province_id = 4033
+											province_id = 4034
+											province_id = 4035
+											province_id = 4036
+											province_id = 4037
+											province_id = 2074
+											province_id = 2574
+											province_id = 3882
+										}
+									}
+									NOT = {
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+											NOT = {
+												controlled_by = SAF
+											}
+										}
+									}
+								}
+							}
+							4033 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									war_with = SAF
+									any_owned_province = {
+										OR = {
+											province_id = 4028
+											province_id = 4029
+											province_id = 4030
+											province_id = 4031
+											province_id = 4032
+											province_id = 4033
+											province_id = 4034
+											province_id = 4035
+											province_id = 4036
+											province_id = 4037
+											province_id = 2074
+											province_id = 2574
+											province_id = 3882
+										}
+									}
+									NOT = {
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+											NOT = {
+												controlled_by = SAF
+											}
+										}
+									}
+								}
+							}
+							4034 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									war_with = SAF
+									any_owned_province = {
+										OR = {
+											province_id = 4028
+											province_id = 4029
+											province_id = 4030
+											province_id = 4031
+											province_id = 4032
+											province_id = 4033
+											province_id = 4034
+											province_id = 4035
+											province_id = 4036
+											province_id = 4037
+											province_id = 2074
+											province_id = 2574
+											province_id = 3882
+										}
+									}
+									NOT = {
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+											NOT = {
+												controlled_by = SAF
+											}
+										}
+									}
+								}
+							}
+							4035 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									war_with = SAF
+									any_owned_province = {
+										OR = {
+											province_id = 4028
+											province_id = 4029
+											province_id = 4030
+											province_id = 4031
+											province_id = 4032
+											province_id = 4033
+											province_id = 4034
+											province_id = 4035
+											province_id = 4036
+											province_id = 4037
+											province_id = 2074
+											province_id = 2574
+											province_id = 3882
+										}
+									}
+									NOT = {
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+											NOT = {
+												controlled_by = SAF
+											}
+										}
+									}
+								}
+							}
+							4036 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									war_with = SAF
+									any_owned_province = {
+										OR = {
+											province_id = 4028
+											province_id = 4029
+											province_id = 4030
+											province_id = 4031
+											province_id = 4032
+											province_id = 4033
+											province_id = 4034
+											province_id = 4035
+											province_id = 4036
+											province_id = 4037
+											province_id = 2074
+											province_id = 2574
+											province_id = 3882
+										}
+									}
+									NOT = {
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+											NOT = {
+												controlled_by = SAF
+											}
+										}
+									}
+								}
+							}
+							4037 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									war_with = SAF
+									any_owned_province = {
+										OR = {
+											province_id = 4028
+											province_id = 4029
+											province_id = 4030
+											province_id = 4031
+											province_id = 4032
+											province_id = 4033
+											province_id = 4034
+											province_id = 4035
+											province_id = 4036
+											province_id = 4037
+											province_id = 2074
+											province_id = 2574
+											province_id = 3882
+										}
+									}
+									NOT = {
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+											NOT = {
+												controlled_by = SAF
+											}
+										}
+									}
+								}
+							}
+							2074 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									war_with = SAF
+									any_owned_province = {
+										OR = {
+											province_id = 4028
+											province_id = 4029
+											province_id = 4030
+											province_id = 4031
+											province_id = 4032
+											province_id = 4033
+											province_id = 4034
+											province_id = 4035
+											province_id = 4036
+											province_id = 4037
+											province_id = 2074
+											province_id = 2574
+											province_id = 3882
+										}
+									}
+									NOT = {
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+											NOT = {
+												controlled_by = SAF
+											}
+										}
+									}
+								}
+							}
+							2574 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									war_with = SAF
+									any_owned_province = {
+										OR = {
+											province_id = 4028
+											province_id = 4029
+											province_id = 4030
+											province_id = 4031
+											province_id = 4032
+											province_id = 4033
+											province_id = 4034
+											province_id = 4035
+											province_id = 4036
+											province_id = 4037
+											province_id = 2074
+											province_id = 2574
+											province_id = 3882
+										}
+									}
+									NOT = {
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+											NOT = {
+												controlled_by = SAF
+											}
+										}
+									}
+								}
+							}
+							3882 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									war_with = SAF
+									any_owned_province = {
+										OR = {
+											province_id = 4028
+											province_id = 4029
+											province_id = 4030
+											province_id = 4031
+											province_id = 4032
+											province_id = 4033
+											province_id = 4034
+											province_id = 4035
+											province_id = 4036
+											province_id = 4037
+											province_id = 2074
+											province_id = 2574
+											province_id = 3882
+										}
+									}
+									NOT = {
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+											NOT = {
+												controlled_by = SAF
+											}
+										}
+									}
+								}
+							}
+						}
+						money = 4000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -4000
+						any_country = {
+							limit = {
+								has_country_flag = ff102_recipient
+								has_country_flag = ff102_campaign_owner
+								war_with = SAF
+								any_owned_province = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+								}
+								NOT = {
+									any_owned_province = {
+										OR = {
+											province_id = 4028
+											province_id = 4029
+											province_id = 4030
+											province_id = 4031
+											province_id = 4032
+											province_id = 4033
+											province_id = 4034
+											province_id = 4035
+											province_id = 4036
+											province_id = 4037
+											province_id = 2074
+											province_id = 2574
+											province_id = 3882
+										}
+										NOT = {
+											controlled_by = SAF
+										}
+									}
+								}
+							}
+							set_country_flag = ff102_convention_imposed
+							clr_country_flag = ff102_recipient
+							clr_country_flag = ff102_offer_waiting
+							clr_country_flag = ff102_offer_shown
+							clr_country_flag = ff102_campaign_owner
+							clr_country_flag = ff102_cb_terms_accepted
+							any_owned = {
+								limit = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+									controlled_by = SAF
+								}
+								set_province_flag = ff102_acquired
+								add_core = SAF
+								secede_province = SAF
+							}
+							end_war = SAF
+						}
+						clr_country_flag = ff102_mission_pending
+						clr_country_flag = ff102_reply_pending
+						clr_country_flag = ff102_accepted
+						clr_country_flag = ff102_terms
+						clr_country_flag = ff102_refused
+						clr_country_flag = ff102_revision_sent
+						clr_country_flag = ff102_campaign
+						clr_country_flag = ff102_lapse_notice
+						clr_country_flag = ff102_native_peace_pending
+						country_event = {
+							id = 9786603
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff102_recall_frontier_delegation = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			has_country_flag = ff102_mission_pending
+			NOT = {
+				has_country_flag = ff102_campaign
+			}
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						has_country_flag = ff102_mission_pending
+						NOT = {
+							has_country_flag = ff102_campaign
+						}
+						war = no
+					}
+				}
+				owner = {
+					SAF = {
+						any_country = {
+							limit = {
+								has_country_flag = ff102_recipient
+							}
+							clr_country_flag = ff102_recipient
+							clr_country_flag = ff102_offer_waiting
+							clr_country_flag = ff102_offer_shown
+							clr_country_flag = ff102_campaign_owner
+							clr_country_flag = ff102_cb_terms_accepted
+						}
+						clr_country_flag = ff102_mission_pending
+						clr_country_flag = ff102_reply_pending
+						clr_country_flag = ff102_accepted
+						clr_country_flag = ff102_terms
+						clr_country_flag = ff102_refused
+						clr_country_flag = ff102_revision_sent
+						clr_country_flag = ff102_campaign
+						clr_country_flag = ff102_lapse_notice
+						clr_country_flag = ff102_native_peace_pending
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	ff102_survey_4028 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4028 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff102_surveyed_4028
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4028 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff102_surveyed_4028
+						}
+						war = no
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff102_surveyed_4028
+						country_event = {
+							id = 9786610
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_outpost_4028 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			year = 1904
+			4028 = {
+				empty = yes
+			}
+			has_country_flag = ff102_surveyed_4028
+		}
+		allow = {
+			war = no
+			money = 6000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						year = 1904
+						4028 = {
+							empty = yes
+						}
+						has_country_flag = ff102_surveyed_4028
+						war = no
+						money = 6000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -6000
+						4028 = {
+							secede_province = SAF
+							add_core = SAF
+							set_province_flag = ff102_acquired
+							set_province_flag = ff102_outpost
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_works_4028 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4028 = {
+				owned_by = SAF
+				controlled_by = SAF
+				has_province_flag = ff102_acquired
+				NOT = {
+					has_province_flag = ff102_works_funded
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4028 = {
+							owned_by = SAF
+							controlled_by = SAF
+							has_province_flag = ff102_acquired
+							NOT = {
+								has_province_flag = ff102_works_funded
+							}
+						}
+						war = no
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						4028 = {
+							set_province_flag = ff102_works_funded
+							add_province_modifier = {
+								name = ff102_frontier_works
+								duration = 1825
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_survey_4029 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4029 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff102_surveyed_4029
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4029 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff102_surveyed_4029
+						}
+						war = no
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff102_surveyed_4029
+						country_event = {
+							id = 9786611
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_outpost_4029 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			year = 1904
+			4029 = {
+				empty = yes
+			}
+			has_country_flag = ff102_surveyed_4029
+		}
+		allow = {
+			war = no
+			money = 6000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						year = 1904
+						4029 = {
+							empty = yes
+						}
+						has_country_flag = ff102_surveyed_4029
+						war = no
+						money = 6000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -6000
+						4029 = {
+							secede_province = SAF
+							add_core = SAF
+							set_province_flag = ff102_acquired
+							set_province_flag = ff102_outpost
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_works_4029 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4029 = {
+				owned_by = SAF
+				controlled_by = SAF
+				has_province_flag = ff102_acquired
+				NOT = {
+					has_province_flag = ff102_works_funded
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4029 = {
+							owned_by = SAF
+							controlled_by = SAF
+							has_province_flag = ff102_acquired
+							NOT = {
+								has_province_flag = ff102_works_funded
+							}
+						}
+						war = no
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						4029 = {
+							set_province_flag = ff102_works_funded
+							add_province_modifier = {
+								name = ff102_frontier_works
+								duration = 1825
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_survey_4030 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4030 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff102_surveyed_4030
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4030 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff102_surveyed_4030
+						}
+						war = no
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff102_surveyed_4030
+						country_event = {
+							id = 9786612
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_outpost_4030 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			year = 1904
+			4030 = {
+				empty = yes
+			}
+			has_country_flag = ff102_surveyed_4030
+		}
+		allow = {
+			war = no
+			money = 6000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						year = 1904
+						4030 = {
+							empty = yes
+						}
+						has_country_flag = ff102_surveyed_4030
+						war = no
+						money = 6000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -6000
+						4030 = {
+							secede_province = SAF
+							add_core = SAF
+							set_province_flag = ff102_acquired
+							set_province_flag = ff102_outpost
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_works_4030 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4030 = {
+				owned_by = SAF
+				controlled_by = SAF
+				has_province_flag = ff102_acquired
+				NOT = {
+					has_province_flag = ff102_works_funded
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4030 = {
+							owned_by = SAF
+							controlled_by = SAF
+							has_province_flag = ff102_acquired
+							NOT = {
+								has_province_flag = ff102_works_funded
+							}
+						}
+						war = no
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						4030 = {
+							set_province_flag = ff102_works_funded
+							add_province_modifier = {
+								name = ff102_frontier_works
+								duration = 1825
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_survey_4031 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4031 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff102_surveyed_4031
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4031 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff102_surveyed_4031
+						}
+						war = no
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff102_surveyed_4031
+						country_event = {
+							id = 9786613
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_outpost_4031 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			year = 1904
+			4031 = {
+				empty = yes
+			}
+			has_country_flag = ff102_surveyed_4031
+		}
+		allow = {
+			war = no
+			money = 6000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						year = 1904
+						4031 = {
+							empty = yes
+						}
+						has_country_flag = ff102_surveyed_4031
+						war = no
+						money = 6000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -6000
+						4031 = {
+							secede_province = SAF
+							add_core = SAF
+							set_province_flag = ff102_acquired
+							set_province_flag = ff102_outpost
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_works_4031 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4031 = {
+				owned_by = SAF
+				controlled_by = SAF
+				has_province_flag = ff102_acquired
+				NOT = {
+					has_province_flag = ff102_works_funded
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4031 = {
+							owned_by = SAF
+							controlled_by = SAF
+							has_province_flag = ff102_acquired
+							NOT = {
+								has_province_flag = ff102_works_funded
+							}
+						}
+						war = no
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						4031 = {
+							set_province_flag = ff102_works_funded
+							add_province_modifier = {
+								name = ff102_frontier_works
+								duration = 1825
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_survey_4032 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4032 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff102_surveyed_4032
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4032 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff102_surveyed_4032
+						}
+						war = no
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff102_surveyed_4032
+						country_event = {
+							id = 9786614
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_outpost_4032 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			year = 1904
+			4032 = {
+				empty = yes
+			}
+			has_country_flag = ff102_surveyed_4032
+		}
+		allow = {
+			war = no
+			money = 6000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						year = 1904
+						4032 = {
+							empty = yes
+						}
+						has_country_flag = ff102_surveyed_4032
+						war = no
+						money = 6000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -6000
+						4032 = {
+							secede_province = SAF
+							add_core = SAF
+							set_province_flag = ff102_acquired
+							set_province_flag = ff102_outpost
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_works_4032 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4032 = {
+				owned_by = SAF
+				controlled_by = SAF
+				has_province_flag = ff102_acquired
+				NOT = {
+					has_province_flag = ff102_works_funded
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4032 = {
+							owned_by = SAF
+							controlled_by = SAF
+							has_province_flag = ff102_acquired
+							NOT = {
+								has_province_flag = ff102_works_funded
+							}
+						}
+						war = no
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						4032 = {
+							set_province_flag = ff102_works_funded
+							add_province_modifier = {
+								name = ff102_frontier_works
+								duration = 1825
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_survey_4033 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4033 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff102_surveyed_4033
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4033 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff102_surveyed_4033
+						}
+						war = no
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff102_surveyed_4033
+						country_event = {
+							id = 9786615
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_outpost_4033 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			year = 1904
+			4033 = {
+				empty = yes
+			}
+			has_country_flag = ff102_surveyed_4033
+		}
+		allow = {
+			war = no
+			money = 6000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						year = 1904
+						4033 = {
+							empty = yes
+						}
+						has_country_flag = ff102_surveyed_4033
+						war = no
+						money = 6000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -6000
+						4033 = {
+							secede_province = SAF
+							add_core = SAF
+							set_province_flag = ff102_acquired
+							set_province_flag = ff102_outpost
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_works_4033 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4033 = {
+				owned_by = SAF
+				controlled_by = SAF
+				has_province_flag = ff102_acquired
+				NOT = {
+					has_province_flag = ff102_works_funded
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4033 = {
+							owned_by = SAF
+							controlled_by = SAF
+							has_province_flag = ff102_acquired
+							NOT = {
+								has_province_flag = ff102_works_funded
+							}
+						}
+						war = no
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						4033 = {
+							set_province_flag = ff102_works_funded
+							add_province_modifier = {
+								name = ff102_frontier_works
+								duration = 1825
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_survey_2074 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			2074 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff102_surveyed_2074
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						2074 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff102_surveyed_2074
+						}
+						war = no
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff102_surveyed_2074
+						country_event = {
+							id = 9786616
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_outpost_2074 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			year = 1904
+			2074 = {
+				empty = yes
+			}
+			has_country_flag = ff102_surveyed_2074
+		}
+		allow = {
+			war = no
+			money = 6000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						year = 1904
+						2074 = {
+							empty = yes
+						}
+						has_country_flag = ff102_surveyed_2074
+						war = no
+						money = 6000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -6000
+						2074 = {
+							secede_province = SAF
+							add_core = SAF
+							set_province_flag = ff102_acquired
+							set_province_flag = ff102_outpost
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_works_2074 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			2074 = {
+				owned_by = SAF
+				controlled_by = SAF
+				has_province_flag = ff102_acquired
+				NOT = {
+					has_province_flag = ff102_works_funded
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						2074 = {
+							owned_by = SAF
+							controlled_by = SAF
+							has_province_flag = ff102_acquired
+							NOT = {
+								has_province_flag = ff102_works_funded
+							}
+						}
+						war = no
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						2074 = {
+							set_province_flag = ff102_works_funded
+							add_province_modifier = {
+								name = ff102_frontier_works
+								duration = 1825
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_survey_4034 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4034 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff102_surveyed_4034
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4034 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff102_surveyed_4034
+						}
+						war = no
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff102_surveyed_4034
+						country_event = {
+							id = 9786617
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_outpost_4034 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			year = 1904
+			4034 = {
+				empty = yes
+			}
+			has_country_flag = ff102_surveyed_4034
+		}
+		allow = {
+			war = no
+			money = 6000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						year = 1904
+						4034 = {
+							empty = yes
+						}
+						has_country_flag = ff102_surveyed_4034
+						war = no
+						money = 6000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -6000
+						4034 = {
+							secede_province = SAF
+							add_core = SAF
+							set_province_flag = ff102_acquired
+							set_province_flag = ff102_outpost
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_works_4034 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4034 = {
+				owned_by = SAF
+				controlled_by = SAF
+				has_province_flag = ff102_acquired
+				NOT = {
+					has_province_flag = ff102_works_funded
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4034 = {
+							owned_by = SAF
+							controlled_by = SAF
+							has_province_flag = ff102_acquired
+							NOT = {
+								has_province_flag = ff102_works_funded
+							}
+						}
+						war = no
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						4034 = {
+							set_province_flag = ff102_works_funded
+							add_province_modifier = {
+								name = ff102_frontier_works
+								duration = 1825
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_survey_2574 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			2574 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff102_surveyed_2574
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						2574 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff102_surveyed_2574
+						}
+						war = no
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff102_surveyed_2574
+						country_event = {
+							id = 9786618
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_outpost_2574 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			year = 1904
+			2574 = {
+				empty = yes
+			}
+			has_country_flag = ff102_surveyed_2574
+		}
+		allow = {
+			war = no
+			money = 6000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						year = 1904
+						2574 = {
+							empty = yes
+						}
+						has_country_flag = ff102_surveyed_2574
+						war = no
+						money = 6000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -6000
+						2574 = {
+							secede_province = SAF
+							add_core = SAF
+							set_province_flag = ff102_acquired
+							set_province_flag = ff102_outpost
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_works_2574 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			2574 = {
+				owned_by = SAF
+				controlled_by = SAF
+				has_province_flag = ff102_acquired
+				NOT = {
+					has_province_flag = ff102_works_funded
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						2574 = {
+							owned_by = SAF
+							controlled_by = SAF
+							has_province_flag = ff102_acquired
+							NOT = {
+								has_province_flag = ff102_works_funded
+							}
+						}
+						war = no
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						2574 = {
+							set_province_flag = ff102_works_funded
+							add_province_modifier = {
+								name = ff102_frontier_works
+								duration = 1825
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_survey_3882 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			3882 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff102_surveyed_3882
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						3882 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff102_surveyed_3882
+						}
+						war = no
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff102_surveyed_3882
+						country_event = {
+							id = 9786619
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_outpost_3882 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			year = 1904
+			3882 = {
+				empty = yes
+			}
+			has_country_flag = ff102_surveyed_3882
+		}
+		allow = {
+			war = no
+			money = 6000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						year = 1904
+						3882 = {
+							empty = yes
+						}
+						has_country_flag = ff102_surveyed_3882
+						war = no
+						money = 6000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -6000
+						3882 = {
+							secede_province = SAF
+							add_core = SAF
+							set_province_flag = ff102_acquired
+							set_province_flag = ff102_outpost
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_works_3882 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			3882 = {
+				owned_by = SAF
+				controlled_by = SAF
+				has_province_flag = ff102_acquired
+				NOT = {
+					has_province_flag = ff102_works_funded
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						3882 = {
+							owned_by = SAF
+							controlled_by = SAF
+							has_province_flag = ff102_acquired
+							NOT = {
+								has_province_flag = ff102_works_funded
+							}
+						}
+						war = no
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						3882 = {
+							set_province_flag = ff102_works_funded
+							add_province_modifier = {
+								name = ff102_frontier_works
+								duration = 1825
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_survey_4035 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4035 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff102_surveyed_4035
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4035 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff102_surveyed_4035
+						}
+						war = no
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff102_surveyed_4035
+						country_event = {
+							id = 9786621
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_outpost_4035 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			year = 1904
+			4035 = {
+				empty = yes
+			}
+			has_country_flag = ff102_surveyed_4035
+		}
+		allow = {
+			war = no
+			money = 6000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						year = 1904
+						4035 = {
+							empty = yes
+						}
+						has_country_flag = ff102_surveyed_4035
+						war = no
+						money = 6000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -6000
+						4035 = {
+							secede_province = SAF
+							add_core = SAF
+							set_province_flag = ff102_acquired
+							set_province_flag = ff102_outpost
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_works_4035 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4035 = {
+				owned_by = SAF
+				controlled_by = SAF
+				has_province_flag = ff102_acquired
+				NOT = {
+					has_province_flag = ff102_works_funded
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4035 = {
+							owned_by = SAF
+							controlled_by = SAF
+							has_province_flag = ff102_acquired
+							NOT = {
+								has_province_flag = ff102_works_funded
+							}
+						}
+						war = no
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						4035 = {
+							set_province_flag = ff102_works_funded
+							add_province_modifier = {
+								name = ff102_frontier_works
+								duration = 1825
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_survey_4036 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4036 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff102_surveyed_4036
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4036 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff102_surveyed_4036
+						}
+						war = no
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff102_surveyed_4036
+						country_event = {
+							id = 9786622
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_outpost_4036 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			year = 1904
+			4036 = {
+				empty = yes
+			}
+			has_country_flag = ff102_surveyed_4036
+		}
+		allow = {
+			war = no
+			money = 6000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						year = 1904
+						4036 = {
+							empty = yes
+						}
+						has_country_flag = ff102_surveyed_4036
+						war = no
+						money = 6000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -6000
+						4036 = {
+							secede_province = SAF
+							add_core = SAF
+							set_province_flag = ff102_acquired
+							set_province_flag = ff102_outpost
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_works_4036 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4036 = {
+				owned_by = SAF
+				controlled_by = SAF
+				has_province_flag = ff102_acquired
+				NOT = {
+					has_province_flag = ff102_works_funded
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4036 = {
+							owned_by = SAF
+							controlled_by = SAF
+							has_province_flag = ff102_acquired
+							NOT = {
+								has_province_flag = ff102_works_funded
+							}
+						}
+						war = no
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						4036 = {
+							set_province_flag = ff102_works_funded
+							add_province_modifier = {
+								name = ff102_frontier_works
+								duration = 1825
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_survey_4037 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4037 = {
+				empty = yes
+			}
+			NOT = {
+				has_country_flag = ff102_surveyed_4037
+			}
+		}
+		allow = {
+			war = no
+			money = 1500
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4037 = {
+							empty = yes
+						}
+						NOT = {
+							has_country_flag = ff102_surveyed_4037
+						}
+						war = no
+						money = 1500
+					}
+				}
+				owner = {
+					SAF = {
+						money = -1500
+						set_country_flag = ff102_surveyed_4037
+						country_event = {
+							id = 9786623
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_outpost_4037 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			year = 1904
+			4037 = {
+				empty = yes
+			}
+			has_country_flag = ff102_surveyed_4037
+		}
+		allow = {
+			war = no
+			money = 6000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						year = 1904
+						4037 = {
+							empty = yes
+						}
+						has_country_flag = ff102_surveyed_4037
+						war = no
+						money = 6000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -6000
+						4037 = {
+							secede_province = SAF
+							add_core = SAF
+							set_province_flag = ff102_acquired
+							set_province_flag = ff102_outpost
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff102_works_4037 = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff82_boer_victory
+			has_global_flag = ff82_second_war_finished
+			NOT = {
+				has_country_flag = ff82_second_war_defeat
+			}
+			year = 1903
+			has_country_flag = ff102_claims_recorded
+			4037 = {
+				owned_by = SAF
+				controlled_by = SAF
+				has_province_flag = ff102_acquired
+				NOT = {
+					has_province_flag = ff102_works_funded
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 5000
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						4037 = {
+							owned_by = SAF
+							controlled_by = SAF
+							has_province_flag = ff102_acquired
+							NOT = {
+								has_province_flag = ff102_works_funded
+							}
+						}
+						war = no
+						money = 5000
+					}
+				}
+				owner = {
+					SAF = {
+						money = -5000
+						4037 = {
+							set_province_flag = ff102_works_funded
+							add_province_modifier = {
+								name = ff102_frontier_works
+								duration = 1825
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+}

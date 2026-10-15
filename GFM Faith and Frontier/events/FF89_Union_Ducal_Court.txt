@@ -1,0 +1,1137 @@
+country_event = {
+	id = 9785450
+	title = "FF89_9785450_TITLE"
+	desc = "FF89_9785450_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		government = ff84_constitutional_duchies
+		NOT = {
+			has_country_flag = ff89_regency
+		}
+		NOT = {
+			has_country_flag = ff89_duke_crowned
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "FF89_REGENCY"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+						NOT = {
+							has_country_flag = ff89_regency
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff89_regency
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785451
+	title = "FF89_9785451_TITLE"
+	desc = "FF89_9785451_DESC"
+	picture = "treaty"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF89_orange_YES"
+		ai_chance = {
+			factor = 70
+		}
+		NET = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET
+						OR = {
+							government = hms_government
+							government = absolute_monarchy
+							government = prussian_constitutionalism
+						}
+						VLK = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							has_country_flag = ff89_orange_pending
+							has_country_flag = ff89_invitation_pending
+							NOT = {
+								has_country_flag = ff89_nominee
+							}
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						clr_country_flag = ff89_invitation_pending
+						clr_country_flag = ff89_orange_pending
+						remove_country_modifier = ff89_envoys_wait
+						set_country_flag = ff89_nominee
+						set_country_flag = ff89_orange_nominee
+						relation = {
+							who = NET
+							value = 50
+						}
+						country_event = {
+							id = 9785452
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF89_orange_NO"
+		ai_chance = {
+			factor = 30
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+						has_country_flag = ff89_orange_pending
+						has_country_flag = ff89_invitation_pending
+						NOT = {
+							has_country_flag = ff89_nominee
+						}
+						NOT = {
+							has_country_flag = ff89_duke_crowned
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff89_invitation_pending
+					clr_country_flag = ff89_orange_pending
+					remove_country_modifier = ff89_envoys_wait
+					money = 1000
+					add_country_modifier = {
+						name = ff89_orange_pause
+						duration = 730
+					}
+					country_event = {
+						id = 9785453
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785452
+	title = "FF89_9785452_TITLE"
+	desc = "FF89_9785452_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF89_orange_RECEIVE"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+						has_country_flag = ff89_orange_nominee
+						NOT = {
+							has_country_flag = ff89_orange_received
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff89_orange_received
+					prestige = 1
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785453
+	title = "FF89_9785453_TITLE"
+	desc = "FF89_9785453_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF89_orange_ACK"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+					}
+				}
+				owner = {
+					set_country_flag = ff89_last_refusal_received
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785454
+	title = "FF89_9785454_TITLE"
+	desc = "FF89_9785454_DESC"
+	picture = "treaty"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF89_hohenzollern_YES"
+		ai_chance = {
+			factor = 50
+		}
+		PRU = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = PRU
+						OR = {
+							government = hms_government
+							government = absolute_monarchy
+							government = prussian_constitutionalism
+						}
+						VLK = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							has_country_flag = ff89_hohenzollern_pending
+							has_country_flag = ff89_invitation_pending
+							NOT = {
+								has_country_flag = ff89_nominee
+							}
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						clr_country_flag = ff89_invitation_pending
+						clr_country_flag = ff89_hohenzollern_pending
+						remove_country_modifier = ff89_envoys_wait
+						set_country_flag = ff89_nominee
+						set_country_flag = ff89_hohenzollern_nominee
+						relation = {
+							who = PRU
+							value = 50
+						}
+						country_event = {
+							id = 9785455
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF89_hohenzollern_NO"
+		ai_chance = {
+			factor = 50
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+						has_country_flag = ff89_hohenzollern_pending
+						has_country_flag = ff89_invitation_pending
+						NOT = {
+							has_country_flag = ff89_nominee
+						}
+						NOT = {
+							has_country_flag = ff89_duke_crowned
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff89_invitation_pending
+					clr_country_flag = ff89_hohenzollern_pending
+					remove_country_modifier = ff89_envoys_wait
+					money = 1000
+					add_country_modifier = {
+						name = ff89_hohenzollern_pause
+						duration = 730
+					}
+					country_event = {
+						id = 9785456
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785455
+	title = "FF89_9785455_TITLE"
+	desc = "FF89_9785455_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF89_hohenzollern_RECEIVE"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+						has_country_flag = ff89_hohenzollern_nominee
+						NOT = {
+							has_country_flag = ff89_hohenzollern_received
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff89_hohenzollern_received
+					prestige = 1
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785456
+	title = "FF89_9785456_TITLE"
+	desc = "FF89_9785456_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF89_hohenzollern_ACK"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+					}
+				}
+				owner = {
+					set_country_flag = ff89_last_refusal_received
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785457
+	title = "FF89_9785457_TITLE"
+	desc = "FF89_9785457_DESC"
+	picture = "treaty"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF89_belgian_YES"
+		ai_chance = {
+			factor = 65
+		}
+		BEL = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = BEL
+						OR = {
+							government = hms_government
+							government = absolute_monarchy
+							government = prussian_constitutionalism
+						}
+						VLK = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							has_country_flag = ff89_belgian_pending
+							has_country_flag = ff89_invitation_pending
+							NOT = {
+								has_country_flag = ff89_nominee
+							}
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						clr_country_flag = ff89_invitation_pending
+						clr_country_flag = ff89_belgian_pending
+						remove_country_modifier = ff89_envoys_wait
+						set_country_flag = ff89_nominee
+						set_country_flag = ff89_belgian_nominee
+						relation = {
+							who = BEL
+							value = 50
+						}
+						country_event = {
+							id = 9785458
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF89_belgian_NO"
+		ai_chance = {
+			factor = 35
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+						has_country_flag = ff89_belgian_pending
+						has_country_flag = ff89_invitation_pending
+						NOT = {
+							has_country_flag = ff89_nominee
+						}
+						NOT = {
+							has_country_flag = ff89_duke_crowned
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff89_invitation_pending
+					clr_country_flag = ff89_belgian_pending
+					remove_country_modifier = ff89_envoys_wait
+					money = 1000
+					add_country_modifier = {
+						name = ff89_belgian_pause
+						duration = 730
+					}
+					country_event = {
+						id = 9785459
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785458
+	title = "FF89_9785458_TITLE"
+	desc = "FF89_9785458_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF89_belgian_RECEIVE"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+						has_country_flag = ff89_belgian_nominee
+						NOT = {
+							has_country_flag = ff89_belgian_received
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff89_belgian_received
+					prestige = 1
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785459
+	title = "FF89_9785459_TITLE"
+	desc = "FF89_9785459_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF89_belgian_ACK"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+					}
+				}
+				owner = {
+					set_country_flag = ff89_last_refusal_received
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785460
+	title = "FF89_9785460_TITLE"
+	desc = "FF89_9785460_DESC"
+	picture = "treaty"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF89_british_YES"
+		ai_chance = {
+			factor = 45
+		}
+		ENG = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = ENG
+						OR = {
+							government = hms_government
+							government = absolute_monarchy
+							government = prussian_constitutionalism
+						}
+						VLK = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							has_country_flag = ff89_british_pending
+							has_country_flag = ff89_invitation_pending
+							NOT = {
+								has_country_flag = ff89_nominee
+							}
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+						}
+					}
+				}
+				owner = {
+					VLK = {
+						clr_country_flag = ff89_invitation_pending
+						clr_country_flag = ff89_british_pending
+						remove_country_modifier = ff89_envoys_wait
+						set_country_flag = ff89_nominee
+						set_country_flag = ff89_british_nominee
+						relation = {
+							who = ENG
+							value = 50
+						}
+						country_event = {
+							id = 9785461
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF89_british_NO"
+		ai_chance = {
+			factor = 55
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+						has_country_flag = ff89_british_pending
+						has_country_flag = ff89_invitation_pending
+						NOT = {
+							has_country_flag = ff89_nominee
+						}
+						NOT = {
+							has_country_flag = ff89_duke_crowned
+						}
+					}
+				}
+				owner = {
+					clr_country_flag = ff89_invitation_pending
+					clr_country_flag = ff89_british_pending
+					remove_country_modifier = ff89_envoys_wait
+					money = 1000
+					add_country_modifier = {
+						name = ff89_british_pause
+						duration = 730
+					}
+					country_event = {
+						id = 9785462
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785461
+	title = "FF89_9785461_TITLE"
+	desc = "FF89_9785461_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF89_british_RECEIVE"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+						has_country_flag = ff89_british_nominee
+						NOT = {
+							has_country_flag = ff89_british_received
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff89_british_received
+					prestige = 1
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785462
+	title = "FF89_9785462_TITLE"
+	desc = "FF89_9785462_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF89_british_ACK"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+					}
+				}
+				owner = {
+					set_country_flag = ff89_last_refusal_received
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785463
+	title = "FF89_9785463_TITLE"
+	desc = "FF89_9785463_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF89_LOCAL_RECEIVE"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+						has_country_flag = ff89_local_nominee
+						NOT = {
+							has_country_flag = ff89_local_received
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff89_local_received
+					prestige = 1
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785464
+	title = "FF89_9785464_TITLE"
+	desc = "FF89_9785464_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF89_CROWN"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+						has_country_flag = ff89_coronation_funded
+						NOT = {
+							has_country_flag = ff89_duke_crowned
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff89_duke_crowned
+					clr_country_flag = ff89_regency
+					clr_country_flag = ff89_nominee
+					clr_country_flag = ff89_coronation_funded
+					prestige = 5
+					add_country_modifier = {
+						name = ff89_crowned_duke
+						duration = -1
+					}
+					country_event = {
+						id = 9785465
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785465
+	title = "FF89_9785465_TITLE"
+	desc = "FF89_9785465_DESC"
+	picture = "treaty"
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "FF89_FOREIGN_CROWN"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+						has_country_flag = ff89_duke_crowned
+						NOT = {
+							has_country_flag = ff89_coronation_reported
+						}
+					}
+				}
+				owner = {
+					set_country_flag = ff89_coronation_reported
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785470
+	title = "FF89_9785470_TITLE"
+	desc = "FF89_9785470_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		has_country_flag = ff84_accounts_funded
+		NOT = {
+			has_country_flag = ff84_accounts_done
+		}
+		OR = {
+			is_vassal = no
+			vassal_of = ENG
+		}
+		NOT = {
+			has_country_flag = ff89_recovered_ff84_accounts_funded
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff89_recovered_ff84_accounts_funded
+	}
+	option = {
+		name = "FF89_RECOVER_0"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						has_country_flag = ff84_accounts_funded
+						NOT = {
+							has_country_flag = ff84_accounts_done
+						}
+						OR = {
+							is_vassal = no
+							vassal_of = ENG
+						}
+					}
+				}
+				owner = {
+					country_event = {
+						id = 9785268
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785471
+	title = "FF89_9785471_TITLE"
+	desc = "FF89_9785471_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		has_country_flag = ff84_courts_funded
+		NOT = {
+			has_country_flag = ff84_courts_done
+		}
+		is_vassal = no
+		NOT = {
+			has_country_flag = ff89_recovered_ff84_courts_funded
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff89_recovered_ff84_courts_funded
+	}
+	option = {
+		name = "FF89_RECOVER_1"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						has_country_flag = ff84_courts_funded
+						NOT = {
+							has_country_flag = ff84_courts_done
+						}
+						is_vassal = no
+					}
+				}
+				owner = {
+					country_event = {
+						id = 9785269
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785472
+	title = "FF89_9785472_TITLE"
+	desc = "FF89_9785472_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		has_country_flag = ff84_schools_funded
+		NOT = {
+			has_country_flag = ff84_schools_done
+		}
+		is_vassal = no
+		NOT = {
+			has_country_flag = ff89_recovered_ff84_schools_funded
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff89_recovered_ff84_schools_funded
+	}
+	option = {
+		name = "FF89_RECOVER_2"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						has_country_flag = ff84_schools_funded
+						NOT = {
+							has_country_flag = ff84_schools_done
+						}
+						is_vassal = no
+					}
+				}
+				owner = {
+					country_event = {
+						id = 9785270
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785473
+	title = "FF89_9785473_TITLE"
+	desc = "FF89_9785473_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		has_country_flag = ff84_commandos_funded
+		NOT = {
+			has_country_flag = ff84_commandos_done
+		}
+		is_vassal = no
+		NOT = {
+			has_country_flag = ff89_recovered_ff84_commandos_funded
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff89_recovered_ff84_commandos_funded
+	}
+	option = {
+		name = "FF89_RECOVER_3"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						has_country_flag = ff84_commandos_funded
+						NOT = {
+							has_country_flag = ff84_commandos_done
+						}
+						is_vassal = no
+					}
+				}
+				owner = {
+					country_event = {
+						id = 9785271
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785474
+	title = "FF89_9785474_TITLE"
+	desc = "FF89_9785474_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		has_country_flag = ff84_health_funded
+		NOT = {
+			has_country_flag = ff84_health_done
+		}
+		is_vassal = no
+		NOT = {
+			has_country_flag = ff89_recovered_ff84_health_funded
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff89_recovered_ff84_health_funded
+	}
+	option = {
+		name = "FF89_RECOVER_4"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						has_country_flag = ff84_health_funded
+						NOT = {
+							has_country_flag = ff84_health_done
+						}
+						is_vassal = no
+					}
+				}
+				owner = {
+					country_event = {
+						id = 9785272
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785475
+	title = "FF89_9785475_TITLE"
+	desc = "FF89_9785475_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		has_country_flag = ff84_rail_funded
+		NOT = {
+			has_country_flag = ff84_rail_done
+		}
+		is_vassal = no
+		NOT = {
+			has_country_flag = ff89_recovered_ff84_rail_funded
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff89_recovered_ff84_rail_funded
+	}
+	option = {
+		name = "FF89_RECOVER_5"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						has_country_flag = ff84_rail_funded
+						NOT = {
+							has_country_flag = ff84_rail_done
+						}
+						is_vassal = no
+					}
+				}
+				owner = {
+					country_event = {
+						id = 9785273
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9785480
+	title = "FF89_9785480_TITLE"
+	desc = "FF89_9785480_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = VLK
+		has_country_flag = ff84_union_path
+		government = ff84_constitutional_duchies
+		has_country_flag = ff89_coronation_funded
+		NOT = {
+			has_country_flag = ff89_duke_crowned
+		}
+		NOT = {
+			has_country_flag = ff89_crown_recovery
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = ff89_crown_recovery
+	}
+	option = {
+		name = "FF89_RECOVER_CROWN"
+		ai_chance = {
+			factor = 100
+		}
+		VLK = {
+			random_owned = {
+				limit = {
+					owner = {
+						tag = VLK
+						has_country_flag = ff84_union_path
+						government = ff84_constitutional_duchies
+						has_country_flag = ff89_coronation_funded
+						NOT = {
+							has_country_flag = ff89_duke_crowned
+						}
+					}
+				}
+				owner = {
+					country_event = {
+						id = 9785464
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}

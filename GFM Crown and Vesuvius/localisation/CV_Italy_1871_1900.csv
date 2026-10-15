@@ -1,0 +1,609 @@
+cvs5_fiscal_discipline;Ministerial Fiscal Discipline;;;;;;;;;;;;;x
+cvs5_transformism;The Parliamentary Centre;;;;;;;;;;;;;x
+cvs5_education;Municipal Attendance and Teacher Grants;;;;;;;;;;;;;x
+cvs5_technical;Technical Apprenticeships;;;;;;;;;;;;;x
+cvs5_capital;The National Capital Administration;;;;;;;;;;;;;x
+cvs5_railways;Railway Operating Conventions;;;;;;;;;;;;;x
+cvs5_naval_industry;Armour and Marine Engineering Contracts;;;;;;;;;;;;;x
+cvs5_electricity;Municipal Electric Supply;;;;;;;;;;;;;x
+cvs5_steel;Strategic Steel Contracts;;;;;;;;;;;;;x
+cvs5_motor;Experimental Motor Engineering;;;;;;;;;;;;;x
+cvs5_health;Municipal Water and Sanitation;;;;;;;;;;;;;x
+cvs5_cholera;Cholera Emergency;;;;;;;;;;;;;x
+cvs5_tariff;Industrial and Grain Protection;;;;;;;;;;;;;x
+cvs5_export_loss;Disrupted French Export Markets;;;;;;;;;;;;;x
+cvs5_bank_crisis;Crisis of Confidence in the Issuing Banks;;;;;;;;;;;;;x
+cvs5_bank;Supervision of the Issuing Banks;;;;;;;;;;;;;x
+cvs5_agrarian_unrest;Agrarian Associations and Strikes;;;;;;;;;;;;;x
+cvs5_siege;Exceptional Military Administration;;;;;;;;;;;;;x
+cvs5_arbitration;Agrarian Arbitration Offices;;;;;;;;;;;;;x
+cvs5_bread;Dear Bread and Urban Distress;;;;;;;;;;;;;x
+cvs5_relief;Emergency Food Relief;;;;;;;;;;;;;x
+cvs5_repression;The Memory of the Milan Repression;;;;;;;;;;;;;x
+cvs5_restrictions;Exceptional Public Order Measures;;;;;;;;;;;;;x
+cvs5_consular;Consular Protection for Emigrants;;;;;;;;;;;;;x
+cvs5_land_credit;Tenant Credit and Agrarian Mediation;;;;;;;;;;;;;x
+cvs5_regional;Provincial Fiscal Compacts;;;;;;;;;;;;;x
+cvs5_central;The Royal Prefectures;;;;;;;;;;;;;x
+cvs5_shipping;Mediterranean Mail and Shipping Contracts;;;;;;;;;;;;;x
+cvs5_rome_question_title;Rome and the Catholic Electorate;;;;;;;;;;;;;x
+cvs5_rome_question_desc;The ministries are installed in Rome, but possession of the capital has not reconciled the Holy See to the kingdom. Catholic associations debate participation in national politics while the crown insists on civil sovereignty. A patient administrative settlement must coexist with a continuing religious dispute.;;;;;;;;;;;;;x
+cvs5_rome_question_done;Rome and the Catholic Electorate: concluded;;;;;;;;;;;;;x
+cvs5_rome_question_seen;Rome and the Catholic Electorate: presented;;;;;;;;;;;;;x
+cvs5_rome_question_law;Maintain civil authority and the guarantees.;;;;;;;;;;;;;x
+cvs5_rome_question_accommodate;Encourage practical local accommodation.;;;;;;;;;;;;;x
+cvs5_rome_works_works;Equip the National Capital: Preparatory Works;;;;;;;;;;;;;x
+cvs5_rome_works_title;Equip the National Capital;;;;;;;;;;;;;x
+cvs5_rome_works_desc;Prepare offices, records and services for the national administration in Rome. Building a capital also exposes public finance to contractors and property speculation.;;;;;;;;;;;;;x
+cvs5_rome_works_taken;Equip the National Capital: enacted;;;;;;;;;;;;;x
+cvs5_rome_works_ready_title;Equip the National Capital: In Operation;;;;;;;;;;;;;x
+cvs5_rome_works_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_rome_works_ready_done;Equip the National Capital: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_rome_works_ready_seen;Equip the National Capital: In Operation: presented;;;;;;;;;;;;;x
+cvs5_rome_works_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_lanza_title;The Cabinet and the Railway Question;;;;;;;;;;;;;x
+cvs5_lanza_desc;Railway policy and the demands of fiscal consolidation are dividing the parliamentary majority. The crown can seek another conservative ministry committed to retrenchment, or leave room for an opposition programme. A change of ministers cannot itself balance the treasury.;;;;;;;;;;;;;x
+cvs5_lanza_done;The Cabinet and the Railway Question: concluded;;;;;;;;;;;;;x
+cvs5_lanza_seen;The Cabinet and the Railway Question: presented;;;;;;;;;;;;;x
+cvs5_lanza_right;Seek a ministry of fiscal consolidation.;;;;;;;;;;;;;x
+cvs5_lanza_opposition;Open negotiations with the opposition.;;;;;;;;;;;;;x
+cvs5_left_title;The Parliamentary Revolution;;;;;;;;;;;;;x
+cvs5_left_desc;The Historical Left offers a broader reform programme as the old governing coalition fractures over railways and taxation. Depretis seeks support among deputies who favor education and a wider electorate. This is a parliamentary realignment, not a social revolution.;;;;;;;;;;;;;x
+cvs5_left_done;The Parliamentary Revolution: concluded;;;;;;;;;;;;;x
+cvs5_left_seen;The Parliamentary Revolution: presented;;;;;;;;;;;;;x
+cvs5_left_left;Entrust the reform programme to the Left.;;;;;;;;;;;;;x
+cvs5_left_right;Retain a conservative parliamentary ministry.;;;;;;;;;;;;;x
+cvs5_schools_works;Implement the Coppino School Programme: Preparatory Works;;;;;;;;;;;;;x
+cvs5_schools_title;Implement the Coppino School Programme;;;;;;;;;;;;;x
+cvs5_schools_desc;Strengthen compulsory elementary attendance through municipal grants, trained teachers and inspections. Rural poverty and uneven local resources remain barriers to attendance even after the law is adopted.;;;;;;;;;;;;;x
+cvs5_schools_taken;Implement the Coppino School Programme: enacted;;;;;;;;;;;;;x
+cvs5_schools_ready_title;Implement the Coppino School Programme: In Operation;;;;;;;;;;;;;x
+cvs5_schools_ready_desc;Municipal inspectors and teachers are beginning their work. Attendance obligations now have practical support, but literacy will develop through schooling rather than an immediate administrative decree.;;;;;;;;;;;;;x
+cvs5_schools_ready_done;Implement the Coppino School Programme: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_schools_ready_seen;Implement the Coppino School Programme: In Operation: presented;;;;;;;;;;;;;x
+cvs5_schools_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_franchise_title;Broaden the Electoral Franchise;;;;;;;;;;;;;x
+cvs5_franchise_desc;Lower the fiscal barriers to parliamentary participation. The proposed electorate remains limited, with literacy and economic qualifications still excluding much of the population.;;;;;;;;;;;;;x
+cvs5_franchise_taken;Broaden the Electoral Franchise: enacted;;;;;;;;;;;;;x
+cvs5_transformism_title;Trasformismo and the Governing Majority;;;;;;;;;;;;;x
+cvs5_transformism_desc;Depretis invites moderate deputies across the old party divide to sustain a broad parliamentary centre. The arrangement can stabilize legislation, but bargaining over patronage risks blurring responsibility and weakening effective opposition.;;;;;;;;;;;;;x
+cvs5_transformism_done;Trasformismo and the Governing Majority: concluded;;;;;;;;;;;;;x
+cvs5_transformism_seen;Trasformismo and the Governing Majority: presented;;;;;;;;;;;;;x
+cvs5_transformism_centre;Build a broad parliamentary centre.;;;;;;;;;;;;;x
+cvs5_transformism_parties;Defend clearer government and opposition lines.;;;;;;;;;;;;;x
+cvs5_rails_works;Negotiate Railway Operating Conventions: Preparatory Works;;;;;;;;;;;;;x
+cvs5_rails_title;Negotiate Railway Operating Conventions;;;;;;;;;;;;;x
+cvs5_rails_desc;Reorganize the management of the railway networks through operating conventions and public supervision. This concerns administration and investment commitments, not the instant construction of tracks.;;;;;;;;;;;;;x
+cvs5_rails_taken;Negotiate Railway Operating Conventions: enacted;;;;;;;;;;;;;x
+cvs5_rails_ready_title;Negotiate Railway Operating Conventions: In Operation;;;;;;;;;;;;;x
+cvs5_rails_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_rails_ready_done;Negotiate Railway Operating Conventions: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_rails_ready_seen;Negotiate Railway Operating Conventions: In Operation: presented;;;;;;;;;;;;;x
+cvs5_rails_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_technical_works;Support Industrial Rubber and Technical Training: Preparatory Works;;;;;;;;;;;;;x
+cvs5_technical_title;Support Industrial Rubber and Technical Training;;;;;;;;;;;;;x
+cvs5_technical_desc;Milanese entrepreneurs are developing rubber goods and engineering workshops. Encourage skilled workers and industrial research without assuming that a small new enterprise already possesses a mass-production tire industry.;;;;;;;;;;;;;x
+cvs5_technical_taken;Support Industrial Rubber and Technical Training: enacted;;;;;;;;;;;;;x
+cvs5_technical_ready_title;Support Industrial Rubber and Technical Training: In Operation;;;;;;;;;;;;;x
+cvs5_technical_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_technical_ready_done;Support Industrial Rubber and Technical Training: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_technical_ready_seen;Support Industrial Rubber and Technical Training: In Operation: presented;;;;;;;;;;;;;x
+cvs5_technical_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_electric_works;Support Electric Lighting in Milan: Preparatory Works;;;;;;;;;;;;;x
+cvs5_electric_title;Support Electric Lighting in Milan;;;;;;;;;;;;;x
+cvs5_electric_desc;Back municipal contracts and engineering work for an electric supply around the city centre. The Santa Radegonda initiative represents an early local network, with heavy dependence on machinery, finance and reliable operation.;;;;;;;;;;;;;x
+cvs5_electric_taken;Support Electric Lighting in Milan: enacted;;;;;;;;;;;;;x
+cvs5_electric_ready_title;Support Electric Lighting in Milan: In Operation;;;;;;;;;;;;;x
+cvs5_electric_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_electric_ready_done;Support Electric Lighting in Milan: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_electric_ready_seen;Support Electric Lighting in Milan: In Operation: presented;;;;;;;;;;;;;x
+cvs5_electric_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_terni_works;Support Strategic Steelmaking at Terni: Preparatory Works;;;;;;;;;;;;;x
+cvs5_terni_title;Support Strategic Steelmaking at Terni;;;;;;;;;;;;;x
+cvs5_terni_desc;Place public contracts for armor and heavy engineering with the emerging steel industry in Umbria. Naval independence demands capital and technical skill as well as furnaces, and the contracts tie public finance to industrial development.;;;;;;;;;;;;;x
+cvs5_terni_taken;Support Strategic Steelmaking at Terni: enacted;;;;;;;;;;;;;x
+cvs5_terni_ready_title;Support Strategic Steelmaking at Terni: In Operation;;;;;;;;;;;;;x
+cvs5_terni_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_terni_ready_done;Support Strategic Steelmaking at Terni: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_terni_ready_seen;Support Strategic Steelmaking at Terni: In Operation: presented;;;;;;;;;;;;;x
+cvs5_terni_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_naval_works;Fund Brin's Naval Industrial Programme: Preparatory Works;;;;;;;;;;;;;x
+cvs5_naval_title;Fund Brin's Naval Industrial Programme;;;;;;;;;;;;;x
+cvs5_naval_desc;Coordinate naval design, heavy machinery and armor procurement. The fleet must share the treasury with education, transport and public health, while ships still need to be ordered and built through the normal yards.;;;;;;;;;;;;;x
+cvs5_naval_taken;Fund Brin's Naval Industrial Programme: enacted;;;;;;;;;;;;;x
+cvs5_naval_ready_title;Fund Brin's Naval Industrial Programme: In Operation;;;;;;;;;;;;;x
+cvs5_naval_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_naval_ready_done;Fund Brin's Naval Industrial Programme: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_naval_ready_seen;Fund Brin's Naval Industrial Programme: In Operation: presented;;;;;;;;;;;;;x
+cvs5_naval_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_fiat_works;Support Turin's Motor Engineering Workshops: Preparatory Works;;;;;;;;;;;;;x
+cvs5_fiat_title;Support Turin's Motor Engineering Workshops;;;;;;;;;;;;;x
+cvs5_fiat_desc;A new group of investors is organizing automobile manufacture in Turin. Experimental workshops and trained engineers can establish a promising foundation, but motor transport remains a small and uncertain business.;;;;;;;;;;;;;x
+cvs5_fiat_taken;Support Turin's Motor Engineering Workshops: enacted;;;;;;;;;;;;;x
+cvs5_fiat_ready_title;Support Turin's Motor Engineering Workshops: In Operation;;;;;;;;;;;;;x
+cvs5_fiat_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_fiat_ready_done;Support Turin's Motor Engineering Workshops: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_fiat_ready_seen;Support Turin's Motor Engineering Workshops: In Operation: presented;;;;;;;;;;;;;x
+cvs5_fiat_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_cholera_title;Cholera in Naples;;;;;;;;;;;;;x
+cvs5_cholera_desc;An epidemic has exposed the dangers of overcrowding and inadequate water and drainage in Naples. Municipal officials demand a sustained public-health response. Emergency assistance can relieve distress, but rebuilding urban services requires a separate funded programme.;;;;;;;;;;;;;x
+cvs5_cholera_done;Cholera in Naples: concluded;;;;;;;;;;;;;x
+cvs5_cholera_seen;Cholera in Naples: presented;;;;;;;;;;;;;x
+cvs5_cholera_aid;Coordinate relief through the municipality.;;;;;;;;;;;;;x
+cvs5_cholera_local;Leave the immediate response to local institutions.;;;;;;;;;;;;;x
+cvs5_sanitation_works;Rebuild Naples' Water and Sanitation: Preparatory Works;;;;;;;;;;;;;x
+cvs5_sanitation_title;Rebuild Naples' Water and Sanitation;;;;;;;;;;;;;x
+cvs5_sanitation_desc;Finance drainage, water supply and municipal engineering after the epidemic. Urban renewal must be supervised to limit speculation and the displacement of poor households.;;;;;;;;;;;;;x
+cvs5_sanitation_taken;Rebuild Naples' Water and Sanitation: enacted;;;;;;;;;;;;;x
+cvs5_sanitation_ready_title;Rebuild Naples' Water and Sanitation: In Operation;;;;;;;;;;;;;x
+cvs5_sanitation_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_sanitation_ready_done;Rebuild Naples' Water and Sanitation: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_sanitation_ready_seen;Rebuild Naples' Water and Sanitation: In Operation: presented;;;;;;;;;;;;;x
+cvs5_sanitation_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_tariff_title;Protection or Export Markets?;;;;;;;;;;;;;x
+cvs5_tariff_desc;Industrialists and grain producers press for stronger protection. Exporters of wine, oil, citrus and silk warn that trading partners may retaliate. Ministers must choose which interests to support rather than treating a tariff as a benefit to every branch of production.;;;;;;;;;;;;;x
+cvs5_tariff_done;Protection or Export Markets?: concluded;;;;;;;;;;;;;x
+cvs5_tariff_seen;Protection or Export Markets?: presented;;;;;;;;;;;;;x
+cvs5_tariff_protect;Back industrial and grain protection.;;;;;;;;;;;;;x
+cvs5_tariff_trade;Preserve access to foreign markets.;;;;;;;;;;;;;x
+cvs5_customs_title;A Customs Dispute with France;;;;;;;;;;;;;x
+cvs5_customs_desc;French commercial interests have answered our protectionist course with pressure of their own. Exporting districts face a loss of markets. Retaining the tariff preserves favored domestic interests, while compromise can reduce the confrontation.;;;;;;;;;;;;;x
+cvs5_customs_done;A Customs Dispute with France: concluded;;;;;;;;;;;;;x
+cvs5_customs_seen;A Customs Dispute with France: presented;;;;;;;;;;;;;x
+cvs5_customs_stand;Maintain the tariff despite the dispute.;;;;;;;;;;;;;x
+cvs5_customs_compromise;Seek a commercial compromise.;;;;;;;;;;;;;x
+cvs5_depretis_title;After Depretis;;;;;;;;;;;;;x
+cvs5_depretis_desc;The death of Depretis closes a long period of parliamentary management. Crispi argues for a more forceful executive and an assertive foreign policy. The crown can support his programme or preserve a more restrained parliamentary balance.;;;;;;;;;;;;;x
+cvs5_depretis_done;After Depretis: concluded;;;;;;;;;;;;;x
+cvs5_depretis_seen;After Depretis: presented;;;;;;;;;;;;;x
+cvs5_depretis_crispi;Give Crispi a parliamentary mandate.;;;;;;;;;;;;;x
+cvs5_depretis_restrain;Support a ministry of parliamentary restraint.;;;;;;;;;;;;;x
+cvs5_code_title;Bring the Zanardelli Code into Force;;;;;;;;;;;;;x
+cvs5_code_desc;Adopt a common liberal criminal code, abolishing the death penalty in ordinary criminal law and distinguishing peaceful labor action from criminal violence. Military law and the practical use of police power remain separate questions.;;;;;;;;;;;;;x
+cvs5_code_taken;Bring the Zanardelli Code into Force: enacted;;;;;;;;;;;;;x
+cvs5_crispi_fall_title;The Cost of an Assertive Ministry;;;;;;;;;;;;;x
+cvs5_crispi_fall_desc;Military expenditure and disputes within the parliamentary majority have weakened Crispi's position. The crown must choose between seeking a different coalition and retaining an increasingly contested executive.;;;;;;;;;;;;;x
+cvs5_crispi_fall_done;The Cost of an Assertive Ministry: concluded;;;;;;;;;;;;;x
+cvs5_crispi_fall_seen;The Cost of an Assertive Ministry: presented;;;;;;;;;;;;;x
+cvs5_crispi_fall_new;Seek a new parliamentary majority.;;;;;;;;;;;;;x
+cvs5_crispi_fall_keep;Retain the ministry.;;;;;;;;;;;;;x
+cvs5_labor_title;Labor Organizes at Genoa;;;;;;;;;;;;;x
+cvs5_labor_desc;Socialist organizers seek a national political party alongside trade unions and local associations. Their movement is not identical to anarchism or every rural protest. The government can tolerate lawful organization or rely more heavily on police surveillance.;;;;;;;;;;;;;x
+cvs5_labor_done;Labor Organizes at Genoa: concluded;;;;;;;;;;;;;x
+cvs5_labor_seen;Labor Organizes at Genoa: presented;;;;;;;;;;;;;x
+cvs5_labor_legal;Protect lawful political organization.;;;;;;;;;;;;;x
+cvs5_labor_watch;Expand political surveillance.;;;;;;;;;;;;;x
+cvs5_bank_scandal_title;The Banca Romana Scandal;;;;;;;;;;;;;x
+cvs5_bank_scandal_desc;Investigations into the note issue and property lending of the Banca Romana have exposed irregular accounts and damaging political connections. Confidence in the issuing banks is shaken. An open inquiry risks ministers' reputations, while concealment leaves the financial problem unresolved.;;;;;;;;;;;;;x
+cvs5_bank_scandal_done;The Banca Romana Scandal: concluded;;;;;;;;;;;;;x
+cvs5_bank_scandal_seen;The Banca Romana Scandal: presented;;;;;;;;;;;;;x
+cvs5_bank_scandal_inquiry;Open a parliamentary inquiry.;;;;;;;;;;;;;x
+cvs5_bank_scandal_conceal;Contain the inquiry within the ministry.;;;;;;;;;;;;;x
+cvs5_bank_reform_works;Reorganize the Issuing Banks: Preparatory Works;;;;;;;;;;;;;x
+cvs5_bank_reform_title;Reorganize the Issuing Banks;;;;;;;;;;;;;x
+cvs5_bank_reform_desc;Create a consolidated Bank of Italy from the Banca Nazionale and the two Tuscan issuing banks, liquidate the Banca Romana and strengthen supervision. The banks of Naples and Sicily retain their distinct issuing privileges under the new settlement.;;;;;;;;;;;;;x
+cvs5_bank_reform_taken;Reorganize the Issuing Banks: enacted;;;;;;;;;;;;;x
+cvs5_bank_reform_ready_title;Reorganize the Issuing Banks: In Operation;;;;;;;;;;;;;x
+cvs5_bank_reform_ready_desc;The banking reorganization has entered operation. Supervision and consolidated reserves offer a firmer foundation, while the southern issuing banks remain distinct. The reform does not remove the political responsibility exposed by the scandal.;;;;;;;;;;;;;x
+cvs5_bank_reform_ready_done;Reorganize the Issuing Banks: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_bank_reform_ready_seen;Reorganize the Issuing Banks: In Operation: presented;;;;;;;;;;;;;x
+cvs5_bank_reform_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_bank_cabinet_title;The Scandal Reaches the Cabinet;;;;;;;;;;;;;x
+cvs5_bank_cabinet_desc;The banking inquiry has compromised the government's authority. Crispi offers a return to strong executive direction, while other deputies demand a ministry tied more closely to parliamentary scrutiny.;;;;;;;;;;;;;x
+cvs5_bank_cabinet_done;The Scandal Reaches the Cabinet: concluded;;;;;;;;;;;;;x
+cvs5_bank_cabinet_seen;The Scandal Reaches the Cabinet: presented;;;;;;;;;;;;;x
+cvs5_bank_cabinet_crispi;Recall Crispi to form a ministry.;;;;;;;;;;;;;x
+cvs5_bank_cabinet_review;Seek a ministry committed to scrutiny.;;;;;;;;;;;;;x
+cvs5_fasci_title;The Fasci Siciliani;;;;;;;;;;;;;x
+cvs5_fasci_desc;Peasant leagues, miners and urban workers are organizing around rents, wages and local taxation. Their grievances differ from the legitimist resistance of the unification years. Landowners demand protection, while the leagues seek recognition and arbitration.;;;;;;;;;;;;;x
+cvs5_fasci_done;The Fasci Siciliani: concluded;;;;;;;;;;;;;x
+cvs5_fasci_seen;The Fasci Siciliani: presented;;;;;;;;;;;;;x
+cvs5_fasci_talk;Recognize the grievances and begin mediation.;;;;;;;;;;;;;x
+cvs5_fasci_police;Treat the leagues as a public-order threat.;;;;;;;;;;;;;x
+cvs5_siege_title;The Sicilian Emergency;;;;;;;;;;;;;x
+cvs5_siege_desc;The cabinet has chosen coercion against the Sicilian leagues. Military jurisdiction and arrests may break their public organization, but suppression will not settle the underlying conflicts over land and work. Ministers can still retreat toward civil mediation.;;;;;;;;;;;;;x
+cvs5_siege_done;The Sicilian Emergency: concluded;;;;;;;;;;;;;x
+cvs5_siege_seen;The Sicilian Emergency: presented;;;;;;;;;;;;;x
+cvs5_siege_siege;Authorize exceptional military administration.;;;;;;;;;;;;;x
+cvs5_siege_civil;Return the dispute to civil mediation.;;;;;;;;;;;;;x
+cvs5_sicilian_arbitration_works;Establish Agrarian Arbitration in Sicily: Preparatory Works;;;;;;;;;;;;;x
+cvs5_sicilian_arbitration_title;Establish Agrarian Arbitration in Sicily;;;;;;;;;;;;;x
+cvs5_sicilian_arbitration_desc;Create civil offices to mediate leases, wages and local grievances. A settlement must face both organized workers and influential landowners, and cannot promise the disappearance of agrarian conflict.;;;;;;;;;;;;;x
+cvs5_sicilian_arbitration_taken;Establish Agrarian Arbitration in Sicily: enacted;;;;;;;;;;;;;x
+cvs5_sicilian_arbitration_ready_title;Establish Agrarian Arbitration in Sicily: In Operation;;;;;;;;;;;;;x
+cvs5_sicilian_arbitration_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_sicilian_arbitration_ready_done;Establish Agrarian Arbitration in Sicily: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_sicilian_arbitration_ready_seen;Establish Agrarian Arbitration in Sicily: In Operation: presented;;;;;;;;;;;;;x
+cvs5_sicilian_arbitration_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_bread_title;Dear Bread and the Cities;;;;;;;;;;;;;x
+cvs5_bread_desc;Urban households are struggling with expensive bread and political tension. Local demonstrations demand relief, while officials fear that gatherings will spread beyond their control. Emergency food policy and military policing offer sharply different responses.;;;;;;;;;;;;;x
+cvs5_bread_done;Dear Bread and the Cities: concluded;;;;;;;;;;;;;x
+cvs5_bread_seen;Dear Bread and the Cities: presented;;;;;;;;;;;;;x
+cvs5_bread_relief;Prioritize food relief and civil negotiation.;;;;;;;;;;;;;x
+cvs5_bread_army;Place public order in military hands.;;;;;;;;;;;;;x
+cvs5_milan_title;The Milan Military Repression;;;;;;;;;;;;;x
+cvs5_milan_desc;The military emergency has ended in lethal repression of the demonstrations. Reports of force against civilians have deepened the political crisis. The crown must decide whether to defend the command publicly or demand an inquiry.;;;;;;;;;;;;;x
+cvs5_milan_done;The Milan Military Repression: concluded;;;;;;;;;;;;;x
+cvs5_milan_seen;The Milan Military Repression: presented;;;;;;;;;;;;;x
+cvs5_milan_decorate;Publicly endorse the military command.;;;;;;;;;;;;;x
+cvs5_milan_investigate;Order an inquiry into the use of force.;;;;;;;;;;;;;x
+cvs5_pelloux_title;The Public Security Bills;;;;;;;;;;;;;x
+cvs5_pelloux_desc;Pelloux's supporters seek exceptional restrictions on the press, meetings and political organization. Opponents challenge the attempt to govern through emergency powers. The conflict tests the practical boundaries of the Statuto and parliamentary government.;;;;;;;;;;;;;x
+cvs5_pelloux_done;The Public Security Bills: concluded;;;;;;;;;;;;;x
+cvs5_pelloux_seen;The Public Security Bills: presented;;;;;;;;;;;;;x
+cvs5_pelloux_restrict;Press the exceptional legislation.;;;;;;;;;;;;;x
+cvs5_pelloux_compromise;Defend parliamentary procedure and compromise.;;;;;;;;;;;;;x
+cvs5_constitutional_turn_title;A Return to Parliamentary Government;;;;;;;;;;;;;x
+cvs5_constitutional_turn_desc;Opposition to exceptional measures has made the governing majority untenable. The crown can withdraw the restrictions and seek a ministry within ordinary parliamentary practice. The dispute leaves a lasting question about the monarchy's political role.;;;;;;;;;;;;;x
+cvs5_constitutional_turn_done;A Return to Parliamentary Government: concluded;;;;;;;;;;;;;x
+cvs5_constitutional_turn_seen;A Return to Parliamentary Government: presented;;;;;;;;;;;;;x
+cvs5_constitutional_turn_withdraw;Withdraw the exceptional measures.;;;;;;;;;;;;;x
+cvs5_constitutional_turn_insist;Persist with the exceptional course.;;;;;;;;;;;;;x
+cvs5_succession_title;The Death of Victor Emmanuel II;;;;;;;;;;;;;x
+cvs5_succession_desc;Victor Emmanuel II has died. Umberto succeeds to a kingdom whose institutions extend far beyond the old Sardinian state, but regional divisions and the Roman Question remain unsettled. The succession preserves the monarchy's legal continuity.;;;;;;;;;;;;;x
+cvs5_succession_done;The Death of Victor Emmanuel II: concluded;;;;;;;;;;;;;x
+cvs5_succession_seen;The Death of Victor Emmanuel II: presented;;;;;;;;;;;;;x
+cvs5_succession_king;Recognize Umberto as king.;;;;;;;;;;;;;x
+cvs5_passanante_title;The Attempt on the King at Naples;;;;;;;;;;;;;x
+cvs5_passanante_desc;An attacker has attempted to strike the king during a public appearance in Naples. The attempt has failed. Ministers debate whether the incident justifies broad political policing or should be handled through ordinary criminal proceedings.;;;;;;;;;;;;;x
+cvs5_passanante_done;The Attempt on the King at Naples: concluded;;;;;;;;;;;;;x
+cvs5_passanante_seen;The Attempt on the King at Naples: presented;;;;;;;;;;;;;x
+cvs5_passanante_law;Proceed under ordinary criminal law.;;;;;;;;;;;;;x
+cvs5_passanante_police;Expand precautions around the crown.;;;;;;;;;;;;;x
+cvs5_acciarito_title;Another Attempt on Umberto;;;;;;;;;;;;;x
+cvs5_acciarito_desc;Another attack on the king has failed. Police officials demand wider preventive powers, while critics warn against making political opinion itself a crime. The crown's security and the limits of public authority again meet in the courts.;;;;;;;;;;;;;x
+cvs5_acciarito_done;Another Attempt on Umberto: concluded;;;;;;;;;;;;;x
+cvs5_acciarito_seen;Another Attempt on Umberto: presented;;;;;;;;;;;;;x
+cvs5_acciarito_court;Let the courts try the attacker.;;;;;;;;;;;;;x
+cvs5_acciarito_watch;Strengthen preventive policing.;;;;;;;;;;;;;x
+cvs5_monza_title;The Assassination of Umberto I;;;;;;;;;;;;;x
+cvs5_monza_desc;Umberto has been assassinated at Monza by Gaetano Bresci. The killing ends the reign amid bitter disputes about public order and the crown's place in politics. Victor Emmanuel III succeeds under the existing constitutional settlement.;;;;;;;;;;;;;x
+cvs5_monza_done;The Assassination of Umberto I: concluded;;;;;;;;;;;;;x
+cvs5_monza_seen;The Assassination of Umberto I: presented;;;;;;;;;;;;;x
+cvs5_monza_continuity;Maintain the constitutional succession.;;;;;;;;;;;;;x
+cvs5_rerum_title;Rerum Novarum and the Social Question;;;;;;;;;;;;;x
+cvs5_rerum_desc;The papal encyclical addresses labor, property and the responsibilities of employers and public authority. Catholic social associations find new grounds for organization. Its publication does not resolve the Roman Question or turn church and state into a single institution.;;;;;;;;;;;;;x
+cvs5_rerum_done;Rerum Novarum and the Social Question: concluded;;;;;;;;;;;;;x
+cvs5_rerum_seen;Rerum Novarum and the Social Question: presented;;;;;;;;;;;;;x
+cvs5_rerum_ack;Allow the social debate to develop.;;;;;;;;;;;;;x
+cvs5_emigrants_works;Strengthen Consular Protection for Emigrants: Preparatory Works;;;;;;;;;;;;;x
+cvs5_emigrants_title;Strengthen Consular Protection for Emigrants;;;;;;;;;;;;;x
+cvs5_emigrants_desc;Expand the capacity of consulates to advise emigrants, investigate abuses by agents and maintain contact with communities abroad. This protects people who move through the normal migration system, rather than directing entire populations to colonial settlements.;;;;;;;;;;;;;x
+cvs5_emigrants_taken;Strengthen Consular Protection for Emigrants: enacted;;;;;;;;;;;;;x
+cvs5_emigrants_ready_title;Strengthen Consular Protection for Emigrants: In Operation;;;;;;;;;;;;;x
+cvs5_emigrants_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_emigrants_ready_done;Strengthen Consular Protection for Emigrants: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_emigrants_ready_seen;Strengthen Consular Protection for Emigrants: In Operation: presented;;;;;;;;;;;;;x
+cvs5_emigrants_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_bourbon_navy_works;Develop the Royal Southern Dockyards: Preparatory Works;;;;;;;;;;;;;x
+cvs5_bourbon_navy_title;Develop the Royal Southern Dockyards;;;;;;;;;;;;;x
+cvs5_bourbon_navy_desc;Coordinate the yards of Naples, Palermo and Messina with technical schools and suppliers. A maritime monarchy requires trained engineers and sustained contracts, not merely a claim to a naval tradition.;;;;;;;;;;;;;x
+cvs5_bourbon_navy_taken;Develop the Royal Southern Dockyards: enacted;;;;;;;;;;;;;x
+cvs5_bourbon_navy_ready_title;Develop the Royal Southern Dockyards: In Operation;;;;;;;;;;;;;x
+cvs5_bourbon_navy_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_bourbon_navy_ready_done;Develop the Royal Southern Dockyards: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_bourbon_navy_ready_seen;Develop the Royal Southern Dockyards: In Operation: presented;;;;;;;;;;;;;x
+cvs5_bourbon_navy_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_bourbon_land_works;Establish Royal Agrarian Credit Offices: Preparatory Works;;;;;;;;;;;;;x
+cvs5_bourbon_land_title;Establish Royal Agrarian Credit Offices;;;;;;;;;;;;;x
+cvs5_bourbon_land_desc;Offer supervised credit and mediation to tenants and small cultivators. The crown must confront local patronage and the influence of large landowners if reform is to reach the countryside.;;;;;;;;;;;;;x
+cvs5_bourbon_land_taken;Establish Royal Agrarian Credit Offices: enacted;;;;;;;;;;;;;x
+cvs5_bourbon_land_ready_title;Establish Royal Agrarian Credit Offices: In Operation;;;;;;;;;;;;;x
+cvs5_bourbon_land_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_bourbon_land_ready_done;Establish Royal Agrarian Credit Offices: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_bourbon_land_ready_seen;Establish Royal Agrarian Credit Offices: In Operation: presented;;;;;;;;;;;;;x
+cvs5_bourbon_land_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_bourbon_regions_title;The Crown and the Provinces;;;;;;;;;;;;;x
+cvs5_bourbon_regions_desc;Unification has brought distinct legal traditions and regional elites under the Bourbon crown. Provincial compacts may secure cooperation at the expense of central uniformity. Royal prefectures promise firmer administration but expose the dynasty to resistance against central control.;;;;;;;;;;;;;x
+cvs5_bourbon_regions_done;The Crown and the Provinces: concluded;;;;;;;;;;;;;x
+cvs5_bourbon_regions_seen;The Crown and the Provinces: presented;;;;;;;;;;;;;x
+cvs5_bourbon_regions_compact;Negotiate provincial fiscal compacts.;;;;;;;;;;;;;x
+cvs5_bourbon_regions_prefects;Strengthen the royal prefectures.;;;;;;;;;;;;;x
+cvs5_bourbon_shipping_works;Contract Mediterranean Mail and Steamship Services: Preparatory Works;;;;;;;;;;;;;x
+cvs5_bourbon_shipping_title;Contract Mediterranean Mail and Steamship Services;;;;;;;;;;;;;x
+cvs5_bourbon_shipping_desc;Connect southern ports and existing overseas stations through regular commercial contracts. Subsidies may strengthen maritime services, but distant settlements still require security, employment and willing migrants.;;;;;;;;;;;;;x
+cvs5_bourbon_shipping_taken;Contract Mediterranean Mail and Steamship Services: enacted;;;;;;;;;;;;;x
+cvs5_bourbon_shipping_ready_title;Contract Mediterranean Mail and Steamship Services: In Operation;;;;;;;;;;;;;x
+cvs5_bourbon_shipping_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_bourbon_shipping_ready_done;Contract Mediterranean Mail and Steamship Services: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_bourbon_shipping_ready_seen;Contract Mediterranean Mail and Steamship Services: In Operation: presented;;;;;;;;;;;;;x
+cvs5_bourbon_shipping_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_bourbon_emigrants_works;Create a Royal Emigrant Protection Service: Preparatory Works;;;;;;;;;;;;;x
+cvs5_bourbon_emigrants_title;Create a Royal Emigrant Protection Service;;;;;;;;;;;;;x
+cvs5_bourbon_emigrants_desc;The maritime crown can assist emigrants through port inspections and consular representation. Overseas ambitions do not remove rural poverty or oblige families to settle in royal possessions.;;;;;;;;;;;;;x
+cvs5_bourbon_emigrants_taken;Create a Royal Emigrant Protection Service: enacted;;;;;;;;;;;;;x
+cvs5_bourbon_emigrants_ready_title;Create a Royal Emigrant Protection Service: In Operation;;;;;;;;;;;;;x
+cvs5_bourbon_emigrants_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_bourbon_emigrants_ready_done;Create a Royal Emigrant Protection Service: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_bourbon_emigrants_ready_seen;Create a Royal Emigrant Protection Service: In Operation: presented;;;;;;;;;;;;;x
+cvs5_bourbon_emigrants_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_bourbon_social_title;Catholic Associations and the Royal Social Policy;;;;;;;;;;;;;x
+cvs5_bourbon_social_desc;Catholic associations call for practical action on working conditions, mutual aid and rural poverty. Royal patronage can support these institutions, but landowners and industrial employers remain powerful interests within the monarchy.;;;;;;;;;;;;;x
+cvs5_bourbon_social_done;Catholic Associations and the Royal Social Policy: concluded;;;;;;;;;;;;;x
+cvs5_bourbon_social_seen;Catholic Associations and the Royal Social Policy: presented;;;;;;;;;;;;;x
+cvs5_bourbon_social_associations;Recognize lawful mutual-aid associations.;;;;;;;;;;;;;x
+cvs5_bourbon_social_patronage;Keep social initiatives under close royal patronage.;;;;;;;;;;;;;x
+cvs5_milling_reduction;The Reduced Milling Duty;;;;;;;;;;;;;x
+cvs5_milling_reduce_title;Begin the Reduction of the Milling Duty;;;;;;;;;;;;;x
+cvs5_milling_reduce_desc;Reduce the burden of the milling tax while preparing its eventual repeal. The cabinet must replace the lost receipts or accept a tighter budget for its other programmes.;;;;;;;;;;;;;x
+cvs5_milling_reduce_taken;Begin the Reduction of the Milling Duty: enacted;;;;;;;;;;;;;x
+cvs5_milling_end_title;The Milling Duty Is Abolished;;;;;;;;;;;;;x
+cvs5_milling_end_desc;The staged reduction of the milling duty has reached its conclusion. Abolition removes an unpopular burden on staple food, but the treasury can no longer rely on its receipts.;;;;;;;;;;;;;x
+cvs5_milling_end_done;The Milling Duty Is Abolished: concluded;;;;;;;;;;;;;x
+cvs5_milling_end_seen;The Milling Duty Is Abolished: presented;;;;;;;;;;;;;x
+cvs5_milling_end_end;Complete the repeal.;;;;;;;;;;;;;x
+cvs5_fiscal_achievement_title;The Consolidation of Public Finance;;;;;;;;;;;;;x
+cvs5_fiscal_achievement_desc;The treasury has accumulated a substantial reserve under a policy of fiscal restraint. Ministers can recognize this achievement without treating a reserve as proof that every future budget will balance. New commitments will compete for the funds already gathered.;;;;;;;;;;;;;x
+cvs5_fiscal_achievement_done;The Consolidation of Public Finance: concluded;;;;;;;;;;;;;x
+cvs5_fiscal_achievement_seen;The Consolidation of Public Finance: presented;;;;;;;;;;;;;x
+cvs5_fiscal_achievement_prudent;Preserve a prudent fiscal course.;;;;;;;;;;;;;x
+cvs5_negotiation;Diplomatic Negotiations;;;;;;;;;;;;;x
+cvs5_alliance_term;The Continental Agreement;;;;;;;;;;;;;x
+cvs5_frontier;Eritrean Frontier Administration;;;;;;;;;;;;;x
+cvs5_ethiopian_supply;Ethiopian Campaign Supply Service;;;;;;;;;;;;;x
+cvs5_restraint;A Restricted Colonial Commitment;;;;;;;;;;;;;x
+cvs5_commercial;Overseas Commercial Representation;;;;;;;;;;;;;x
+cvs5_tunis_title;France Establishes Itself in Tunisia;;;;;;;;;;;;;x
+cvs5_tunis_desc;French control of Tunisia has narrowed Italy's room for maneuver in the central Mediterranean. Commercial communities and naval planners demand an answer. Closer relations with the continental powers offer one response, while accommodation with France remains possible.;;;;;;;;;;;;;x
+cvs5_tunis_done;France Establishes Itself in Tunisia: concluded;;;;;;;;;;;;;x
+cvs5_tunis_seen;France Establishes Itself in Tunisia: presented;;;;;;;;;;;;;x
+cvs5_tunis_continental;Explore a continental diplomatic alignment.;;;;;;;;;;;;;x
+cvs5_tunis_france;Seek accommodation with France.;;;;;;;;;;;;;x
+cvs5_alliance_title;Propose the Triple Alliance;;;;;;;;;;;;;x
+cvs5_alliance_desc;Seek a continental agreement with Germany and Austria. Both governments must consent. The historical defensive understanding leaves the Austrian frontier dispute unresolved and does not promise support for a confrontation with Britain.;;;;;;;;;;;;;x
+cvs5_alliance_taken;Propose the Triple Alliance: enacted;;;;;;;;;;;;;x
+cvs5_alliance_ger_title;An Italian Proposal for a Continental Agreement;;;;;;;;;;;;;x
+cvs5_alliance_ger_desc;Italy seeks an agreement with Germany and Austria. Participation may deter rivals, but it also creates obligations toward a state with its own Mediterranean ambitions and unresolved frontier grievances. Each prospective partner retains the right to refuse.;;;;;;;;;;;;;x
+cvs5_alliance_ger_done;An Italian Proposal for a Continental Agreement: concluded;;;;;;;;;;;;;x
+cvs5_alliance_ger_seen;An Italian Proposal for a Continental Agreement: presented;;;;;;;;;;;;;x
+cvs5_alliance_ger_accept;Consent to the proposed agreement.;;;;;;;;;;;;;x
+cvs5_alliance_ger_refuse;Decline the agreement.;;;;;;;;;;;;;x
+cvs5_alliance_aus_title;An Italian Proposal for a Continental Agreement;;;;;;;;;;;;;x
+cvs5_alliance_aus_desc;Italy seeks an agreement with Germany and Austria. Participation may deter rivals, but it also creates obligations toward a state with its own Mediterranean ambitions and unresolved frontier grievances. Each prospective partner retains the right to refuse.;;;;;;;;;;;;;x
+cvs5_alliance_aus_done;An Italian Proposal for a Continental Agreement: concluded;;;;;;;;;;;;;x
+cvs5_alliance_aus_seen;An Italian Proposal for a Continental Agreement: presented;;;;;;;;;;;;;x
+cvs5_alliance_aus_accept;Consent to the proposed agreement.;;;;;;;;;;;;;x
+cvs5_alliance_aus_refuse;Decline the agreement.;;;;;;;;;;;;;x
+cvs5_alliance_ratified_title;The Continental Agreement Is Ratified;;;;;;;;;;;;;x
+cvs5_alliance_ratified_desc;Germany and Austria have both accepted the proposal. Italy joins their alliance while retaining its unresolved frontier interests. The agreement rests on continuing diplomatic cooperation, and the cabinet will review its position when the initial term expires.;;;;;;;;;;;;;x
+cvs5_alliance_ratified_done;The Continental Agreement Is Ratified: concluded;;;;;;;;;;;;;x
+cvs5_alliance_ratified_seen;The Continental Agreement Is Ratified: presented;;;;;;;;;;;;;x
+cvs5_alliance_ratified_ratify;Ratify the agreement.;;;;;;;;;;;;;x
+cvs5_alliance_failed_title;The Continental Negotiations Close;;;;;;;;;;;;;x
+cvs5_alliance_failed_desc;The negotiations have ended without a joint agreement. A refusal, a change of circumstances or the expiry of the talks has prevented ratification. No alliance has been created by the proposal.;;;;;;;;;;;;;x
+cvs5_alliance_failed_done;The Continental Negotiations Close: concluded;;;;;;;;;;;;;x
+cvs5_alliance_failed_seen;The Continental Negotiations Close: presented;;;;;;;;;;;;;x
+cvs5_alliance_failed_close;Close the negotiations.;;;;;;;;;;;;;x
+cvs5_alliance_review_title;Reviewing the Continental Commitment;;;;;;;;;;;;;x
+cvs5_alliance_review_desc;The original diplomatic term has elapsed. Austria remains both a partner and a potential rival on the Italian frontier. The cabinet can sustain the alliance if relations still permit it, or withdraw from the arrangements it accepted.;;;;;;;;;;;;;x
+cvs5_alliance_review_done;Reviewing the Continental Commitment: concluded;;;;;;;;;;;;;x
+cvs5_alliance_review_seen;Reviewing the Continental Commitment: presented;;;;;;;;;;;;;x
+cvs5_alliance_review_renew;Continue cooperation where the alliances survive.;;;;;;;;;;;;;x
+cvs5_alliance_review_leave;Withdraw from the continental commitment.;;;;;;;;;;;;;x
+cvs5_assab_title;Purchase the Assab Establishment;;;;;;;;;;;;;x
+cvs5_assab_desc;Seek a sovereign coastal establishment from the Afar government. The earlier Rubattino venture was a private commercial arrangement. State acquisition requires a separate agreement and does not entitle Italy to the Eritrean hinterland.;;;;;;;;;;;;;x
+cvs5_assab_taken;Purchase the Assab Establishment: enacted;;;;;;;;;;;;;x
+cvs5_assab_wait;Purchase the Assab Establishment: Awaiting a Reply;;;;;;;;;;;;;x
+cvs5_assab_reply_title;An Italian Proposal Concerning the Port;;;;;;;;;;;;;x
+cvs5_assab_reply_desc;Italian representatives offer payment for the specified coastal establishment. Acceptance transfers that port alone. Refusal preserves sovereignty and returns the deposited funds to the Italian government.;;;;;;;;;;;;;x
+cvs5_assab_reply_done;An Italian Proposal Concerning the Port: concluded;;;;;;;;;;;;;x
+cvs5_assab_reply_seen;An Italian Proposal Concerning the Port: presented;;;;;;;;;;;;;x
+cvs5_assab_reply_accept;Accept the limited transfer.;;;;;;;;;;;;;x
+cvs5_assab_reply_refuse;Retain sovereignty over the port.;;;;;;;;;;;;;x
+cvs5_assab_receipt_title;Purchase the Assab Establishment: Agreement Concluded;;;;;;;;;;;;;x
+cvs5_assab_receipt_desc;The local government has accepted the agreement and the transfer has been completed. Administration must now be organized for the port. The agreement conveys no automatic title to neighboring districts.;;;;;;;;;;;;;x
+cvs5_assab_receipt_done;Purchase the Assab Establishment: Agreement Concluded: concluded;;;;;;;;;;;;;x
+cvs5_assab_receipt_seen;Purchase the Assab Establishment: Agreement Concluded: presented;;;;;;;;;;;;;x
+cvs5_assab_receipt_receive;Receive the coastal establishment.;;;;;;;;;;;;;x
+cvs5_assab_closed_title;Purchase the Assab Establishment: Negotiations Closed;;;;;;;;;;;;;x
+cvs5_assab_closed_desc;The proposal has expired or been declined. The reserved funds are returned where the negotiation remained outstanding. Any later acquisition must follow a new diplomatic or military course.;;;;;;;;;;;;;x
+cvs5_assab_closed_done;Purchase the Assab Establishment: Negotiations Closed: concluded;;;;;;;;;;;;;x
+cvs5_assab_closed_seen;Purchase the Assab Establishment: Negotiations Closed: presented;;;;;;;;;;;;;x
+cvs5_assab_closed_close;Close the file.;;;;;;;;;;;;;x
+cvs5_massawa_consultation;British Consultation over Massawa;;;;;;;;;;;;;x
+cvs5_massawa_consent_title;Consult Britain over Massawa;;;;;;;;;;;;;x
+cvs5_massawa_consent_desc;Discuss a limited Italian establishment at Massawa with Britain before approaching Egypt. British consent offers diplomatic cover but cannot by itself transfer Egyptian sovereignty.;;;;;;;;;;;;;x
+cvs5_massawa_consent_taken;Consult Britain over Massawa: enacted;;;;;;;;;;;;;x
+cvs5_massawa_britain_title;Italy Seeks British Support in the Red Sea;;;;;;;;;;;;;x
+cvs5_massawa_britain_desc;Italy proposes to negotiate for Massawa. London can consent to the approach or oppose it. Egypt must still decide whether to transfer the port, and the understanding does not authorize the annexation of neighboring African states.;;;;;;;;;;;;;x
+cvs5_massawa_britain_done;Italy Seeks British Support in the Red Sea: concluded;;;;;;;;;;;;;x
+cvs5_massawa_britain_seen;Italy Seeks British Support in the Red Sea: presented;;;;;;;;;;;;;x
+cvs5_massawa_britain_yes;Accept a limited Italian approach.;;;;;;;;;;;;;x
+cvs5_massawa_britain_no;Oppose an Italian establishment.;;;;;;;;;;;;;x
+cvs5_massawa_british_report_title;The British Position on Massawa;;;;;;;;;;;;;x
+cvs5_massawa_british_report_desc;The consultation with Britain is concluded. Egyptian consent is still necessary before a port can change hands. If British support was withheld or the consultation expired, the proposed route remains closed.;;;;;;;;;;;;;x
+cvs5_massawa_british_report_done;The British Position on Massawa: concluded;;;;;;;;;;;;;x
+cvs5_massawa_british_report_seen;The British Position on Massawa: presented;;;;;;;;;;;;;x
+cvs5_massawa_british_report_ack;Record the diplomatic position.;;;;;;;;;;;;;x
+cvs5_massawa_title;Negotiate an Egyptian Transfer of Massawa;;;;;;;;;;;;;x
+cvs5_massawa_desc;Offer Egypt a limited agreement for the port following British diplomatic consent. The proposal does not convey sovereignty over the neighboring highlands or authorize an advance into Ethiopia.;;;;;;;;;;;;;x
+cvs5_massawa_taken;Negotiate an Egyptian Transfer of Massawa: enacted;;;;;;;;;;;;;x
+cvs5_massawa_wait;Negotiate an Egyptian Transfer of Massawa: Awaiting a Reply;;;;;;;;;;;;;x
+cvs5_massawa_reply_title;An Italian Proposal Concerning the Port;;;;;;;;;;;;;x
+cvs5_massawa_reply_desc;Italian representatives offer payment for the specified coastal establishment. Acceptance transfers that port alone. Refusal preserves sovereignty and returns the deposited funds to the Italian government.;;;;;;;;;;;;;x
+cvs5_massawa_reply_done;An Italian Proposal Concerning the Port: concluded;;;;;;;;;;;;;x
+cvs5_massawa_reply_seen;An Italian Proposal Concerning the Port: presented;;;;;;;;;;;;;x
+cvs5_massawa_reply_accept;Accept the limited transfer.;;;;;;;;;;;;;x
+cvs5_massawa_reply_refuse;Retain sovereignty over the port.;;;;;;;;;;;;;x
+cvs5_massawa_receipt_title;Negotiate an Egyptian Transfer of Massawa: Agreement Concluded;;;;;;;;;;;;;x
+cvs5_massawa_receipt_desc;The local government has accepted the agreement and the transfer has been completed. Administration must now be organized for the port. The agreement conveys no automatic title to neighboring districts.;;;;;;;;;;;;;x
+cvs5_massawa_receipt_done;Negotiate an Egyptian Transfer of Massawa: Agreement Concluded: concluded;;;;;;;;;;;;;x
+cvs5_massawa_receipt_seen;Negotiate an Egyptian Transfer of Massawa: Agreement Concluded: presented;;;;;;;;;;;;;x
+cvs5_massawa_receipt_receive;Receive the coastal establishment.;;;;;;;;;;;;;x
+cvs5_massawa_closed_title;Negotiate an Egyptian Transfer of Massawa: Negotiations Closed;;;;;;;;;;;;;x
+cvs5_massawa_closed_desc;The proposal has expired or been declined. The reserved funds are returned where the negotiation remained outstanding. Any later acquisition must follow a new diplomatic or military course.;;;;;;;;;;;;;x
+cvs5_massawa_closed_done;Negotiate an Egyptian Transfer of Massawa: Negotiations Closed: concluded;;;;;;;;;;;;;x
+cvs5_massawa_closed_seen;Negotiate an Egyptian Transfer of Massawa: Negotiations Closed: presented;;;;;;;;;;;;;x
+cvs5_massawa_closed_close;Close the file.;;;;;;;;;;;;;x
+cvs5_eritrea_works;Organize the Eritrean Coastal Administration: Preparatory Works;;;;;;;;;;;;;x
+cvs5_eritrea_title;Organize the Eritrean Coastal Administration;;;;;;;;;;;;;x
+cvs5_eritrea_desc;Coordinate the existing coastal possessions under a single colonial administration. The organization covers only districts already held by Italy. Ethiopian sovereignty and disputed frontiers require separate diplomacy or an actual war settlement.;;;;;;;;;;;;;x
+cvs5_eritrea_taken;Organize the Eritrean Coastal Administration: enacted;;;;;;;;;;;;;x
+cvs5_eritrea_ready_title;Organize the Eritrean Coastal Administration: In Operation;;;;;;;;;;;;;x
+cvs5_eritrea_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_eritrea_ready_done;Organize the Eritrean Coastal Administration: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_eritrea_ready_seen;Organize the Eritrean Coastal Administration: In Operation: presented;;;;;;;;;;;;;x
+cvs5_eritrea_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_wuchale_title;Negotiate with the Ethiopian Court;;;;;;;;;;;;;x
+cvs5_wuchale_desc;Offer trade and diplomatic cooperation to the Ethiopian government. Ministers disagree over whether Italian mediation abroad should be optional or obligatory. The Ethiopian court must answer, and a treaty cannot simply be assumed to create a protectorate.;;;;;;;;;;;;;x
+cvs5_wuchale_taken;Negotiate with the Ethiopian Court: enacted;;;;;;;;;;;;;x
+cvs5_ethiopia_wait;Negotiations with the Ethiopian Court;;;;;;;;;;;;;x
+cvs5_ethiopia_reply_title;Italy Proposes a Diplomatic Treaty;;;;;;;;;;;;;x
+cvs5_ethiopia_reply_desc;Italy offers commercial cooperation and diplomatic mediation. The Ethiopian government may accept assistance while preserving its own relations with other powers, or reject the treaty altogether. Neither choice surrenders Ethiopian independence.;;;;;;;;;;;;;x
+cvs5_ethiopia_reply_done;Italy Proposes a Diplomatic Treaty: concluded;;;;;;;;;;;;;x
+cvs5_ethiopia_reply_seen;Italy Proposes a Diplomatic Treaty: presented;;;;;;;;;;;;;x
+cvs5_ethiopia_reply_trade;Accept cooperation while preserving diplomatic independence.;;;;;;;;;;;;;x
+cvs5_ethiopia_reply_decline;Decline the proposed treaty.;;;;;;;;;;;;;x
+cvs5_interpretation_title;The Disputed Meaning of the Ethiopian Treaty;;;;;;;;;;;;;x
+cvs5_interpretation_desc;The Ethiopian court understands Italian diplomatic assistance as optional. Advocates of expansion in Rome wish to treat it as an exclusive obligation. Respecting the Ethiopian reading preserves the agreement. An exclusive claim will provoke a diplomatic dispute rather than create a protectorate.;;;;;;;;;;;;;x
+cvs5_interpretation_done;The Disputed Meaning of the Ethiopian Treaty: concluded;;;;;;;;;;;;;x
+cvs5_interpretation_seen;The Disputed Meaning of the Ethiopian Treaty: presented;;;;;;;;;;;;;x
+cvs5_interpretation_respect;Recognize independent Ethiopian diplomacy.;;;;;;;;;;;;;x
+cvs5_interpretation_claim;Assert an exclusive diplomatic claim.;;;;;;;;;;;;;x
+cvs5_ethiopia_expired_title;Negotiations with Ethiopia End;;;;;;;;;;;;;x
+cvs5_ethiopia_expired_desc;The proposed agreement has been declined or has failed to reach a timely settlement. No protectorate or diplomatic obligation has been created.;;;;;;;;;;;;;x
+cvs5_ethiopia_expired_done;Negotiations with Ethiopia End: concluded;;;;;;;;;;;;;x
+cvs5_ethiopia_expired_seen;Negotiations with Ethiopia End: presented;;;;;;;;;;;;;x
+cvs5_ethiopia_expired_close;End the negotiations.;;;;;;;;;;;;;x
+cvs5_ethiopia_rejection_title;Reject the Italian Protectorate Claim;;;;;;;;;;;;;x
+cvs5_ethiopia_rejection_desc;Italy has interpreted diplomatic assistance as an exclusive right to conduct Ethiopian foreign relations. The Ethiopian government rejects that interpretation and asserts its right to deal directly with other powers.;;;;;;;;;;;;;x
+cvs5_ethiopia_rejection_done;Reject the Italian Protectorate Claim: concluded;;;;;;;;;;;;;x
+cvs5_ethiopia_rejection_seen;Reject the Italian Protectorate Claim: presented;;;;;;;;;;;;;x
+cvs5_ethiopia_rejection_reject;Defend independent diplomacy.;;;;;;;;;;;;;x
+cvs5_ethiopia_escalate_title;Press the Disputed Ethiopian Claim;;;;;;;;;;;;;x
+cvs5_ethiopia_escalate_desc;Prepare to enforce the rejected diplomatic claim. This creates a limited diplomatic pretext, not a conquered Ethiopia. Any war must be fought through the normal military and peace systems.;;;;;;;;;;;;;x
+cvs5_ethiopia_escalate_taken;Press the Disputed Ethiopian Claim: enacted;;;;;;;;;;;;;x
+cvs5_ethiopia_campaign_title;The Ethiopian Campaign;;;;;;;;;;;;;x
+cvs5_ethiopia_campaign_desc;Italy is now fighting Ethiopia. Distance, transport and supply constrain the expedition, while the Ethiopian government mobilizes to defend its independence. Political expectations in Rome do not determine the result in the field.;;;;;;;;;;;;;x
+cvs5_ethiopia_campaign_done;The Ethiopian Campaign: concluded;;;;;;;;;;;;;x
+cvs5_ethiopia_campaign_seen;The Ethiopian Campaign: presented;;;;;;;;;;;;;x
+cvs5_ethiopia_campaign_campaign;Record the commitment of the expedition.;;;;;;;;;;;;;x
+cvs5_ethiopia_supply_works;Support the Ethiopian Expedition: Preparatory Works;;;;;;;;;;;;;x
+cvs5_ethiopia_supply_title;Support the Ethiopian Expedition;;;;;;;;;;;;;x
+cvs5_ethiopia_supply_desc;Improve transport and supply for the forces committed in the Horn of Africa. Preparations support the army without manufacturing a battle result or creating regiments outside normal recruitment.;;;;;;;;;;;;;x
+cvs5_ethiopia_supply_taken;Support the Ethiopian Expedition: enacted;;;;;;;;;;;;;x
+cvs5_ethiopia_supply_ready_title;Support the Ethiopian Expedition: In Operation;;;;;;;;;;;;;x
+cvs5_ethiopia_supply_ready_desc;The funded preparations have been completed. The institutions can begin their work, although their success still depends on local administration, employment and the resources of the kingdom.;;;;;;;;;;;;;x
+cvs5_ethiopia_supply_ready_done;Support the Ethiopian Expedition: In Operation: concluded;;;;;;;;;;;;;x
+cvs5_ethiopia_supply_ready_seen;Support the Ethiopian Expedition: In Operation: presented;;;;;;;;;;;;;x
+cvs5_ethiopia_supply_ready_open;Put the programme into operation.;;;;;;;;;;;;;x
+cvs5_frontier_reverse_title;A Reverse on the Eritrean Frontier;;;;;;;;;;;;;x
+cvs5_frontier_reverse_desc;The expedition has encountered a serious operational reverse near the coastal frontier. Reports expose the danger of dispersed detachments and inadequate support. Ministers can reconsider inland ambitions or accept the political cost of continuing the campaign.;;;;;;;;;;;;;x
+cvs5_frontier_reverse_done;A Reverse on the Eritrean Frontier: concluded;;;;;;;;;;;;;x
+cvs5_frontier_reverse_seen;A Reverse on the Eritrean Frontier: presented;;;;;;;;;;;;;x
+cvs5_frontier_reverse_review;Demand a review of the expedition.;;;;;;;;;;;;;x
+cvs5_frontier_reverse_continue;Maintain the commitment despite the reverse.;;;;;;;;;;;;;x
+cvs5_ethiopia_peace_title;After the Ethiopian War;;;;;;;;;;;;;x
+cvs5_ethiopia_peace_desc;The fighting with Ethiopia has ended. The settlement must be judged by the territory and independence actually retained, rather than by the cabinet's original claims. An independent Ethiopian government remains entitled to conduct its own diplomacy.;;;;;;;;;;;;;x
+cvs5_ethiopia_peace_done;After the Ethiopian War: concluded;;;;;;;;;;;;;x
+cvs5_ethiopia_peace_seen;After the Ethiopian War: presented;;;;;;;;;;;;;x
+cvs5_ethiopia_peace_recognize;Abandon the exclusive diplomatic claim.;;;;;;;;;;;;;x
+cvs5_ethiopia_peace_revise;Review the expedition without a new commitment.;;;;;;;;;;;;;x
+cvs5_ethiopia_subject_title;An Ethiopian Protectorate Established by the Peace;;;;;;;;;;;;;x
+cvs5_ethiopia_subject_desc;The actual war settlement has placed Ethiopia under Italian protection. Such a position requires administration and cooperation with local institutions. A treaty claim alone could never have produced this result.;;;;;;;;;;;;;x
+cvs5_ethiopia_subject_done;An Ethiopian Protectorate Established by the Peace: concluded;;;;;;;;;;;;;x
+cvs5_ethiopia_subject_seen;An Ethiopian Protectorate Established by the Peace: presented;;;;;;;;;;;;;x
+cvs5_ethiopia_subject_settle;Implement the actual settlement.;;;;;;;;;;;;;x
+cvs5_hby_wait;Negotiations with Hobyo;;;;;;;;;;;;;x
+cvs5_hby_title;Negotiate a Protectorate with Hobyo;;;;;;;;;;;;;x
+cvs5_hby_desc;Offer a treaty preserving the local ruler and internal administration while placing foreign relations under Italian protection. The ruler can refuse. The agreement conveys no automatic sovereignty over neighboring communities.;;;;;;;;;;;;;x
+cvs5_hby_taken;Negotiate a Protectorate with Hobyo: enacted;;;;;;;;;;;;;x
+cvs5_hby_reply_title;An Italian Treaty Offer to Hobyo;;;;;;;;;;;;;x
+cvs5_hby_reply_desc;An Italian mission offers protection and a subsidy in return for control of foreign relations. The ruler and local administration would remain in place. Refusal leaves the country independent.;;;;;;;;;;;;;x
+cvs5_hby_reply_done;An Italian Treaty Offer to Hobyo: concluded;;;;;;;;;;;;;x
+cvs5_hby_reply_seen;An Italian Treaty Offer to Hobyo: presented;;;;;;;;;;;;;x
+cvs5_hby_reply_accept;Accept protection with local administration.;;;;;;;;;;;;;x
+cvs5_hby_reply_refuse;Preserve independent foreign relations.;;;;;;;;;;;;;x
+cvs5_hby_report_title;The Hobyo Negotiations Conclude;;;;;;;;;;;;;x
+cvs5_hby_report_desc;The diplomatic exchange is complete. An accepted treaty preserves the local government as a subject. A refusal or expired proposal creates no territorial entitlement, and unused funds are returned.;;;;;;;;;;;;;x
+cvs5_hby_report_done;The Hobyo Negotiations Conclude: concluded;;;;;;;;;;;;;x
+cvs5_hby_report_seen;The Hobyo Negotiations Conclude: presented;;;;;;;;;;;;;x
+cvs5_hby_report_ack;Record the result.;;;;;;;;;;;;;x
+cvs5_maj_wait;Negotiations with Majeerteen;;;;;;;;;;;;;x
+cvs5_maj_title;Negotiate a Protectorate with Majeerteen;;;;;;;;;;;;;x
+cvs5_maj_desc;Offer a treaty preserving the local ruler and internal administration while placing foreign relations under Italian protection. The ruler can refuse. The agreement conveys no automatic sovereignty over neighboring communities.;;;;;;;;;;;;;x
+cvs5_maj_taken;Negotiate a Protectorate with Majeerteen: enacted;;;;;;;;;;;;;x
+cvs5_maj_reply_title;An Italian Treaty Offer to Majeerteen;;;;;;;;;;;;;x
+cvs5_maj_reply_desc;An Italian mission offers protection and a subsidy in return for control of foreign relations. The ruler and local administration would remain in place. Refusal leaves the country independent.;;;;;;;;;;;;;x
+cvs5_maj_reply_done;An Italian Treaty Offer to Majeerteen: concluded;;;;;;;;;;;;;x
+cvs5_maj_reply_seen;An Italian Treaty Offer to Majeerteen: presented;;;;;;;;;;;;;x
+cvs5_maj_reply_accept;Accept protection with local administration.;;;;;;;;;;;;;x
+cvs5_maj_reply_refuse;Preserve independent foreign relations.;;;;;;;;;;;;;x
+cvs5_maj_report_title;The Majeerteen Negotiations Conclude;;;;;;;;;;;;;x
+cvs5_maj_report_desc;The diplomatic exchange is complete. An accepted treaty preserves the local government as a subject. A refusal or expired proposal creates no territorial entitlement, and unused funds are returned.;;;;;;;;;;;;;x
+cvs5_maj_report_done;The Majeerteen Negotiations Conclude: concluded;;;;;;;;;;;;;x
+cvs5_maj_report_seen;The Majeerteen Negotiations Conclude: presented;;;;;;;;;;;;;x
+cvs5_maj_report_ack;Record the result.;;;;;;;;;;;;;x
+cvs5_boxer_title;The Expedition in China;;;;;;;;;;;;;x
+cvs5_boxer_desc;Italy is participating in the conflict in China. Naval transport, supply and cooperation with the other intervening powers shape the expedition. Any later concession must follow the actual diplomatic settlement, rather than being awarded in advance.;;;;;;;;;;;;;x
+cvs5_boxer_done;The Expedition in China: concluded;;;;;;;;;;;;;x
+cvs5_boxer_seen;The Expedition in China: presented;;;;;;;;;;;;;x
+cvs5_boxer_support;Coordinate the existing expedition.;;;;;;;;;;;;;x
+cvs5_crete_title;The Cretan Question and the Fleet;;;;;;;;;;;;;x
+cvs5_crete_desc;Unrest around Crete has brought Mediterranean diplomacy and naval preparedness together. Italy can support an international approach or keep its fleet outside the immediate dispute. A statement of policy does not itself annex the island or settle its constitutional future.;;;;;;;;;;;;;x
+cvs5_crete_done;The Cretan Question and the Fleet: concluded;;;;;;;;;;;;;x
+cvs5_crete_seen;The Cretan Question and the Fleet: presented;;;;;;;;;;;;;x
+cvs5_crete_concert;Support cooperation with the Mediterranean powers.;;;;;;;;;;;;;x
+cvs5_crete_reserve;Reserve the fleet for other commitments.;;;;;;;;;;;;;x
+cvs5_benadir_wait;Negotiations for Benadir Commercial Access;;;;;;;;;;;;;x
+cvs5_benadir_title;Seek a Benadir Commercial Concession;;;;;;;;;;;;;x
+cvs5_benadir_desc;Negotiate access to the Benadir coast with its existing Omani or Zanzibari government. A commercial concession supports shipping and representation. It does not annex the coast or give Italy sovereignty over the inland Somali communities.;;;;;;;;;;;;;x
+cvs5_benadir_taken;Seek a Benadir Commercial Concession: enacted;;;;;;;;;;;;;x
+cvs5_benadir_reply_title;An Italian Commercial Proposal for Benadir;;;;;;;;;;;;;x
+cvs5_benadir_reply_desc;Italian representatives propose a paid commercial concession on the coast. The proposal leaves sovereignty and inland communities outside the agreement. The government can accept the offer or retain exclusive control of commercial access.;;;;;;;;;;;;;x
+cvs5_benadir_reply_done;An Italian Commercial Proposal for Benadir: concluded;;;;;;;;;;;;;x
+cvs5_benadir_reply_seen;An Italian Commercial Proposal for Benadir: presented;;;;;;;;;;;;;x
+cvs5_benadir_reply_accept;Authorize limited commercial access.;;;;;;;;;;;;;x
+cvs5_benadir_reply_refuse;Decline the concession.;;;;;;;;;;;;;x
+cvs5_benadir_report_title;The Benadir Commercial Negotiations Conclude;;;;;;;;;;;;;x
+cvs5_benadir_report_desc;The negotiation has concluded. An accepted contract provides a temporary commercial presence under the coastal government's sovereignty. Refused and expired requests leave the coast unchanged and return the reserved funds.;;;;;;;;;;;;;x
+cvs5_benadir_report_done;The Benadir Commercial Negotiations Conclude: concluded;;;;;;;;;;;;;x
+cvs5_benadir_report_seen;The Benadir Commercial Negotiations Conclude: presented;;;;;;;;;;;;;x
+cvs5_benadir_report_record;Record the commercial settlement.;;;;;;;;;;;;;x
+cvs5_right;Right;;;;;;;;;;;;;x
+cvs5_left;Left;;;;;;;;;;;;;x
+cvs5_protected;Protected;;;;;;;;;;;;;x
+cvs5_crispi;Crispi;;;;;;;;;;;;;x
+cvs5_crispi_retired;Crispi retired;;;;;;;;;;;;;x
+cvs5_bank_inquiry;Bank inquiry;;;;;;;;;;;;;x
+cvs5_sicilian_talks;Sicilian talks;;;;;;;;;;;;;x
+cvs5_sicilian_emergency;Sicilian emergency;;;;;;;;;;;;;x
+cvs5_siege_ordered;Siege ordered;;;;;;;;;;;;;x
+cvs5_milan_emergency;Milan emergency;;;;;;;;;;;;;x
+cvs5_crown_repression;Crown repression;;;;;;;;;;;;;x
+cvs5_pelloux;Pelloux;;;;;;;;;;;;;x
+cvs5_umberto;Umberto;;;;;;;;;;;;;x
+cvs5_victor_emmanuel_iii;Victor emmanuel iii;;;;;;;;;;;;;x
+cvs5_regional_compacts;Regional compacts;;;;;;;;;;;;;x
+cvs5_prefectures;Prefectures;;;;;;;;;;;;;x
+cvs5_alliance_pending;Alliance pending;;;;;;;;;;;;;x
+cvs5_ger_consent;Ger consent;;;;;;;;;;;;;x
+cvs5_alliance_refused;Alliance refused;;;;;;;;;;;;;x
+cvs5_aus_consent;Aus consent;;;;;;;;;;;;;x
+cvs5_alliance_active;Alliance active;;;;;;;;;;;;;x
+cvs5_assab_pending;Assab pending;;;;;;;;;;;;;x
+cvs5_assab_bought;Assab bought;;;;;;;;;;;;;x
+cvs5_assab_refused;Assab refused;;;;;;;;;;;;;x
+cvs5_massawa_pending;Massawa pending;;;;;;;;;;;;;x
+cvs5_british_massawa_yes;British massawa yes;;;;;;;;;;;;;x
+cvs5_british_massawa_no;British massawa no;;;;;;;;;;;;;x
+cvs5_massawa_bought;Massawa bought;;;;;;;;;;;;;x
+cvs5_massawa_refused;Massawa refused;;;;;;;;;;;;;x
+cvs5_ethiopia_pending;Ethiopia pending;;;;;;;;;;;;;x
+cvs5_ethiopia_trade;Ethiopia trade;;;;;;;;;;;;;x
+cvs5_ethiopia_declined;Ethiopia declined;;;;;;;;;;;;;x
+cvs5_ethiopia_sovereignty;Ethiopia sovereignty;;;;;;;;;;;;;x
+cvs5_ethiopia_disputed;Ethiopia disputed;;;;;;;;;;;;;x
+cvs5_ethiopia_rejected;Ethiopia rejected;;;;;;;;;;;;;x
+cvs5_ethiopia_war;Ethiopia war;;;;;;;;;;;;;x
+cvs5_ethiopia_reverse;Ethiopia reverse;;;;;;;;;;;;;x
+cvs5_ethiopia_escalated;Ethiopia escalated;;;;;;;;;;;;;x
+cvs5_hby_pending;Hby pending;;;;;;;;;;;;;x
+cvs5_hby_accepted;Hby accepted;;;;;;;;;;;;;x
+cvs5_hby_refused;Hby refused;;;;;;;;;;;;;x
+cvs5_maj_pending;Maj pending;;;;;;;;;;;;;x
+cvs5_maj_accepted;Maj accepted;;;;;;;;;;;;;x
+cvs5_maj_refused;Maj refused;;;;;;;;;;;;;x
+cvs5_benadir_pending;Benadir pending;;;;;;;;;;;;;x
+cvs5_benadir_accepted;Benadir accepted;;;;;;;;;;;;;x
+cvs5_benadir_refused;Benadir refused;;;;;;;;;;;;;x

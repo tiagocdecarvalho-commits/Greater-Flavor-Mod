@@ -1,0 +1,195 @@
+#CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;x
+cvw_northern_veterans;Veterans of the Northern Expedition;;;;;;;;;;;;;x
+cvw_northern_veterans_desc;Service beside the northern insurgents has strengthened the army and the southern claim to a national role.;;;;;;;;;;;;;x
+cvw_italian_primacy;The Southern Italian Initiative;;;;;;;;;;;;;x
+cvw_italian_primacy_desc;A treaty has established southern leadership. Envoys may now seek the accession of the Italian courts, whose consent and foreign ties still matter.;;;;;;;;;;;;;x
+cvw_defeat;The Crown Checked in Italy;;;;;;;;;;;;;x
+cvw_defeat_desc;The failed challenge has weakened the ministry and stirred opposition to its Italian ambitions.;;;;;;;;;;;;;x
+cvw_papal_dispute;The Dispute over the Papal Provinces;;;;;;;;;;;;;x
+cvw_papal_dispute_desc;The court has challenged papal temporal authority outside Rome. Catholic opinion and foreign diplomacy are divided.;;;;;;;;;;;;;x
+cvw_1848_expedition_title;Keep the Expedition in Northern Italy;;;;;;;;;;;;;x
+cvw_1848_expedition_desc;The northern rising presents a choice between domestic retreat and an Italian campaign. Keep the expedition in the field and declare war on Austria for the liberation of Lombardy and Venetia. Victory would restore those lands to their Italian states, leaving their later political settlement open. The crown must secure the south and arrange military access before its army can march north.;;;;;;;;;;;;;x
+cvw_northern_liberation;Liberation of Northern Italy;;;;;;;;;;;;;x
+cvw_northern_liberation_short;Liberation of Northern Italy;;;;;;;;;;;;;x
+cvw_northern_liberation_desc;Enforce the liberation of Austrian-held Lombard and Venetian core provinces. The liberated states remain independent of Naples.;;;;;;;;;;;;;x
+cvw_northern_liberation_war;The War for the Liberation of Northern Italy;;;;;;;;;;;;;x
+cvw_north_success_ack;Welcome the veterans and send envoys north.;;;;;;;;;;;;;x
+cvw_north_success_title;The Northern Expedition Vindicated;;;;;;;;;;;;;x
+cvw_north_success_desc;Austria has accepted the liberation terms. The Lombard and Venetian lands covered by the treaty pass to their own states. The expedition has won Naples a place in the national struggle, but no northern court has thereby surrendered its independence.;;;;;;;;;;;;;x
+cvw_north_failure_ack;Receive the army and account for the campaign.;;;;;;;;;;;;;x
+cvw_north_failure_title;The Expedition Returns without a Settlement;;;;;;;;;;;;;x
+cvw_north_failure_desc;The northern campaign has ended without the liberation terms being accepted. The army returns to a kingdom still divided over the expedition. Ministers must explain why its sacrifices did not secure a northern settlement.;;;;;;;;;;;;;x
+cvw_brothers_federal_title;Defend the Federal Initiative against Piedmont;;;;;;;;;;;;;x
+cvw_brothers_federal_desc;Fight for the Italian national settlement under our chosen political programme. Southern victory establishes leadership and annexes the remaining Savoyard kingdom through the scripted peace articles. Foreign alliances and protection remain active, and previously ceded foreign territory is excluded.;;;;;;;;;;;;;x
+cvw_brothers_absolute_title;Challenge Savoy for the Italian Crown;;;;;;;;;;;;;x
+cvw_brothers_absolute_desc;Fight for the Italian national settlement under our chosen political programme. Southern victory establishes leadership and annexes the remaining Savoyard kingdom through the scripted peace articles. Foreign alliances and protection remain active, and previously ceded foreign territory is excluded.;;;;;;;;;;;;;x
+cvw_brothers_constitutional_title;Contest the Leadership of Constitutional Italy;;;;;;;;;;;;;x
+cvw_brothers_constitutional_desc;Fight for the Italian national settlement under our chosen political programme. Southern victory establishes leadership and annexes the remaining Savoyard kingdom through the scripted peace articles. Foreign alliances and protection remain active, and previously ceded foreign territory is excluded.;;;;;;;;;;;;;x
+cvw_brothers;Italian Brothers War;;;;;;;;;;;;;x
+cvw_brothers_short;Italian Brothers War;;;;;;;;;;;;;x
+cvw_brothers_desc;Enforce this Brothers' War term in the peace settlement to establish southern leadership and incorporate the remaining Savoyard kingdom through the peace articles. The Savoyard sphere is broken. Territory already ceded to another country remains outside the settlement.;;;;;;;;;;;;;x
+cvw_brothers_war;The Italian Brothers' War;;;;;;;;;;;;;x
+cvw_primacy_ack;Prepare the accession proposals.;;;;;;;;;;;;;x
+cvw_primacy_title;The Italian Initiative Passes to Naples;;;;;;;;;;;;;x
+cvw_primacy_desc;The treaty has established the southern initiative and binds the defeated Savoyard kingdom to incorporation. The annexation articles will be implemented after the Papal and northern diplomatic offices confirm the peace. The other Italian courts retain their own accession choices.;;;;;;;;;;;;;x
+cvw_brothers_loss_ack;The ministry must answer for the defeat.;;;;;;;;;;;;;x
+cvw_brothers_loss_title;The Southern Challenge Has Failed;;;;;;;;;;;;;x
+cvw_brothers_loss_desc;The war has ended without southern recognition. If Piedmont enforced its own leadership demand, the southern Italian sphere has been broken in turn. The court must confront the failure of its campaign, and the planned accession initiative cannot proceed on the strength of this war.;;;;;;;;;;;;;x
+cvw_papal_demand_title;Demand a Settlement in the Papal Provinces;;;;;;;;;;;;;x
+cvw_papal_demand_desc;Demand Benevento, Pontecorvo, Perugia and Ancona where they remain papal, with the remaining Papal State placed under southern protection. The Pope may accept or refuse, opening a war claim. France may oppose the proposal. A later Roman settlement will require victory over Piedmont and guarantees for the Holy See.;;;;;;;;;;;;;x
+cvw_papal_federal_title;Offer a Federal Settlement to Rome;;;;;;;;;;;;;x
+cvw_papal_federal_desc;Offer regional guarantees for Benevento, Pontecorvo, Perugia and Ancona, with the remaining Papal State becoming a protected member under the southern crown. Refusal can lead to a war claim. The Pope retains his government, while any later integration requires victory over Piedmont and guarantees for the Holy See.;;;;;;;;;;;;;x
+cvw_papal_no;Reject the territorial demand.;;;;;;;;;;;;;x
+cvw_papal_yes;Accept the protectorate and cede the agreed provinces.;;;;;;;;;;;;;x
+cvw_papal_reply_title;The Southern Proposal for the Papal Provinces;;;;;;;;;;;;;x
+cvw_papal_reply_desc;Naples demands Benevento, Pontecorvo, Perugia and Ancona wherever they remain under papal rule. The remaining Papal State would retain its Pope and government as a dependent principality under southern protection. Federal envoys offer regional guarantees, while the other programmes propose central administration for the ceded provinces. Refusal may lead to war and French intervention.;;;;;;;;;;;;;x
+cvw_papal_press;Maintain the claim.;;;;;;;;;;;;;x
+cvw_papal_drop;Withdraw the demand.;;;;;;;;;;;;;x
+cvw_papal_refusal_title;The Pope Rejects the Demand;;;;;;;;;;;;;x
+cvw_papal_refusal_desc;The Pope has rejected the provincial articles and southern protection. His answer is now before our ministers. We can withdraw the demand or maintain the claim. A war to enforce it still requires our active Italian mandate, independence and control of Naples. Victory must secure the Papal settlement as a peace term: the agreed provinces would pass to our government and the remaining Papal State would become a protected principality. France retains its freedom to intervene.;;;;;;;;;;;;;x
+cvw_papal_provinces;Papal Territorial and Protectorate Settlement;;;;;;;;;;;;;x
+cvw_papal_provinces_short;Papal Protectorate Settlement;;;;;;;;;;;;;x
+cvw_papal_provinces_desc;Cede Papal-held Benevento, Pontecorvo, Perugia and Ancona to the southern crown and place the remaining Papal State under its protection.;;;;;;;;;;;;;x
+cvw_papal_provinces_war;The Papal Settlement War;;;;;;;;;;;;;x
+cvw_papal_terms_ack;Establish the provincial administration.;;;;;;;;;;;;;x
+cvw_papal_terms_title;The Papal Provincial Settlement;;;;;;;;;;;;;x
+cvw_papal_terms_desc;Benevento, Pontecorvo, Perugia and Ancona have passed to Naples wherever they were held by the Pope. The remaining Papal State retains its theocratic government under southern protection. Its temporal administration will remain separate until a further Roman agreement follows victory over Piedmont. Land belonging to other states is outside these articles.;;;;;;;;;;;;;x
+cvw_france_protest;Protest the threat to the Papal States.;;;;;;;;;;;;;x
+cvw_france_reserve;Reserve our position.;;;;;;;;;;;;;x
+cvw_france_title;The Southern Demand upon Rome;;;;;;;;;;;;;x
+cvw_france_desc;Naples has challenged papal temporal authority outside Rome. Our government must decide whether to protest or reserve its position. This diplomatic response leaves our existing alliances, protection and freedom of action intact.;;;;;;;;;;;;;x
+cvw_french_reply_ack;Take the French position into account.;;;;;;;;;;;;;x
+cvw_french_reply_title;Paris Protests the Papal Demand;;;;;;;;;;;;;x
+cvw_french_reply_desc;French ministers have protested our challenge to papal temporal authority. Relations have deteriorated, and the court must weigh the danger of French intervention. The protest leaves French alliances and protection in force.;;;;;;;;;;;;;x
+cvw_french_reserve_ack;Continue the diplomatic exchanges.;;;;;;;;;;;;;x
+cvw_french_reserve_title;Paris Reserves Its Position;;;;;;;;;;;;;x
+cvw_french_reserve_desc;French ministers have declined to protest the proposal immediately. Their restraint is an opening for diplomacy, not a promise of neutrality. Existing alliances and sphere protection remain in force.;;;;;;;;;;;;;x
+cvw_offer_federal_title;Offer Federal Accession Articles;;;;;;;;;;;;;x
+cvw_offer_federal_desc;Naples offers entry into an Italian federation under the Bourbon crown, with regional institutions protected by the federal settlement. Acceptance authorises incorporation into the southern state when the articles are ratified. Refusal preserves independence. Foreign subjects and states protected by another sphere cannot join through these negotiations.;;;;;;;;;;;;;x
+cvw_accept_federal;Accept the articles and authorise incorporation.;;;;;;;;;;;;;x
+cvw_refuse_federal;Retain our independent state.;;;;;;;;;;;;;x
+cvw_accession_federal_title;The Federal Accession Articles;;;;;;;;;;;;;x
+cvw_accession_federal_desc;Naples offers entry into an Italian federation under the Bourbon crown, with regional institutions protected by the federal settlement. Acceptance authorises incorporation into the southern state when the articles are ratified. Refusal preserves independence.;;;;;;;;;;;;;x
+cvw_offer_absolute_title;Offer Bourbon Dynastic Accession;;;;;;;;;;;;;x
+cvw_offer_absolute_desc;Naples offers incorporation under the undivided Bourbon crown. The existing court must surrender sovereignty, and ministers would answer to the southern monarch. Acceptance authorises annexation when Naples ratifies the articles. Refusal preserves independence. Foreign subjects and states protected by another sphere cannot join through these negotiations.;;;;;;;;;;;;;x
+cvw_accept_absolute;Accept the articles and authorise incorporation.;;;;;;;;;;;;;x
+cvw_refuse_absolute;Retain our independent state.;;;;;;;;;;;;;x
+cvw_accession_absolute_title;The Bourbon Dynastic Accession;;;;;;;;;;;;;x
+cvw_accession_absolute_desc;Naples offers incorporation under the undivided Bourbon crown. The existing court must surrender sovereignty, and ministers would answer to the southern monarch. Acceptance authorises annexation when Naples ratifies the articles. Refusal preserves independence.;;;;;;;;;;;;;x
+cvw_offer_constitutional_title;Offer the Common Italian Statute;;;;;;;;;;;;;x
+cvw_offer_constitutional_desc;Naples offers incorporation into a centralized constitutional kingdom under the Bourbon crown. Regional sovereignty would pass to the common government and its constitutional institutions. Acceptance authorises annexation when the articles are ratified. Refusal preserves independence. Foreign subjects and states protected by another sphere cannot join through these negotiations.;;;;;;;;;;;;;x
+cvw_accept_constitutional;Accept the articles and authorise incorporation.;;;;;;;;;;;;;x
+cvw_refuse_constitutional;Retain our independent state.;;;;;;;;;;;;;x
+cvw_accession_constitutional_title;The Common Italian Statute;;;;;;;;;;;;;x
+cvw_accession_constitutional_desc;Naples offers incorporation into a centralized constitutional kingdom under the Bourbon crown. Regional sovereignty would pass to the common government and its constitutional institutions. Acceptance authorises annexation when the articles are ratified. Refusal preserves independence.;;;;;;;;;;;;;x
+cvw_ratify_sar_title;Ratify the Accession of Piedmont;;;;;;;;;;;;;x
+cvw_ratify_sar_desc;Piedmont has accepted the articles offered under our current political programme. Ratification incorporates its territory into the southern state. A federal crown will preserve regional institutions, a constitutional crown will apply the common statute, and an absolute crown will govern through royal administration.;;;;;;;;;;;;;x
+cvw_reply_sar_ack;Record the answer and instruct our envoys.;;;;;;;;;;;;;x
+cvw_reply_sar_title;Piedmont Accepts the Accession Articles;;;;;;;;;;;;;x
+cvw_reply_sar_desc;Piedmont has accepted the proposed articles. Its named ratification decision is now available, and ratification will incorporate its territory. War or a new foreign dependency can still prevent completion until the obstacle is resolved.;;;;;;;;;;;;;x
+cvw_refusal_sar_ack;Respect the answer and review our policy.;;;;;;;;;;;;;x
+cvw_refusal_sar_title;Piedmont Refuses Accession;;;;;;;;;;;;;x
+cvw_refusal_sar_desc;Piedmont has rejected the articles and will remain independent. Our envoys cannot ratify an accession without its consent. Further unification must proceed through ordinary diplomacy or a separate lawful war claim.;;;;;;;;;;;;;x
+cvw_ratify_par_title;Ratify the Accession of Parma;;;;;;;;;;;;;x
+cvw_ratify_par_desc;Parma has accepted the articles offered under our current political programme. Ratification incorporates its territory into the southern state. A federal crown will preserve regional institutions, a constitutional crown will apply the common statute, and an absolute crown will govern through royal administration.;;;;;;;;;;;;;x
+cvw_reply_par_ack;Record the answer and instruct our envoys.;;;;;;;;;;;;;x
+cvw_reply_par_title;Parma Accepts the Accession Articles;;;;;;;;;;;;;x
+cvw_reply_par_desc;Parma has accepted the proposed articles. Its named ratification decision is now available, and ratification will incorporate its territory. War or a new foreign dependency can still prevent completion until the obstacle is resolved.;;;;;;;;;;;;;x
+cvw_refusal_par_ack;Respect the answer and review our policy.;;;;;;;;;;;;;x
+cvw_refusal_par_title;Parma Refuses Accession;;;;;;;;;;;;;x
+cvw_refusal_par_desc;Parma has rejected the articles and will remain independent. Our envoys cannot ratify an accession without its consent. Further unification must proceed through ordinary diplomacy or a separate lawful war claim.;;;;;;;;;;;;;x
+cvw_ratify_mod_title;Ratify the Accession of Modena;;;;;;;;;;;;;x
+cvw_ratify_mod_desc;Modena has accepted the articles offered under our current political programme. Ratification incorporates its territory into the southern state. A federal crown will preserve regional institutions, a constitutional crown will apply the common statute, and an absolute crown will govern through royal administration.;;;;;;;;;;;;;x
+cvw_reply_mod_ack;Record the answer and instruct our envoys.;;;;;;;;;;;;;x
+cvw_reply_mod_title;Modena Accepts the Accession Articles;;;;;;;;;;;;;x
+cvw_reply_mod_desc;Modena has accepted the proposed articles. Its named ratification decision is now available, and ratification will incorporate its territory. War or a new foreign dependency can still prevent completion until the obstacle is resolved.;;;;;;;;;;;;;x
+cvw_refusal_mod_ack;Respect the answer and review our policy.;;;;;;;;;;;;;x
+cvw_refusal_mod_title;Modena Refuses Accession;;;;;;;;;;;;;x
+cvw_refusal_mod_desc;Modena has rejected the articles and will remain independent. Our envoys cannot ratify an accession without its consent. Further unification must proceed through ordinary diplomacy or a separate lawful war claim.;;;;;;;;;;;;;x
+cvw_ratify_luc_title;Ratify the Accession of Lucca;;;;;;;;;;;;;x
+cvw_ratify_luc_desc;Lucca has accepted the articles offered under our current political programme. Ratification incorporates its territory into the southern state. A federal crown will preserve regional institutions, a constitutional crown will apply the common statute, and an absolute crown will govern through royal administration.;;;;;;;;;;;;;x
+cvw_reply_luc_ack;Record the answer and instruct our envoys.;;;;;;;;;;;;;x
+cvw_reply_luc_title;Lucca Accepts the Accession Articles;;;;;;;;;;;;;x
+cvw_reply_luc_desc;Lucca has accepted the proposed articles. Its named ratification decision is now available, and ratification will incorporate its territory. War or a new foreign dependency can still prevent completion until the obstacle is resolved.;;;;;;;;;;;;;x
+cvw_refusal_luc_ack;Respect the answer and review our policy.;;;;;;;;;;;;;x
+cvw_refusal_luc_title;Lucca Refuses Accession;;;;;;;;;;;;;x
+cvw_refusal_luc_desc;Lucca has rejected the articles and will remain independent. Our envoys cannot ratify an accession without its consent. Further unification must proceed through ordinary diplomacy or a separate lawful war claim.;;;;;;;;;;;;;x
+cvw_ratify_tus_title;Ratify the Accession of Tuscany;;;;;;;;;;;;;x
+cvw_ratify_tus_desc;Tuscany has accepted the articles offered under our current political programme. Ratification incorporates its territory into the southern state. A federal crown will preserve regional institutions, a constitutional crown will apply the common statute, and an absolute crown will govern through royal administration.;;;;;;;;;;;;;x
+cvw_reply_tus_ack;Record the answer and instruct our envoys.;;;;;;;;;;;;;x
+cvw_reply_tus_title;Tuscany Accepts the Accession Articles;;;;;;;;;;;;;x
+cvw_reply_tus_desc;Tuscany has accepted the proposed articles. Its named ratification decision is now available, and ratification will incorporate its territory. War or a new foreign dependency can still prevent completion until the obstacle is resolved.;;;;;;;;;;;;;x
+cvw_refusal_tus_ack;Respect the answer and review our policy.;;;;;;;;;;;;;x
+cvw_refusal_tus_title;Tuscany Refuses Accession;;;;;;;;;;;;;x
+cvw_refusal_tus_desc;Tuscany has rejected the articles and will remain independent. Our envoys cannot ratify an accession without its consent. Further unification must proceed through ordinary diplomacy or a separate lawful war claim.;;;;;;;;;;;;;x
+cvw_ratify_lom_title;Ratify the Accession of Lombardy;;;;;;;;;;;;;x
+cvw_ratify_lom_desc;Lombardy has accepted the articles offered under our current political programme. Ratification incorporates its territory into the southern state. A federal crown will preserve regional institutions, a constitutional crown will apply the common statute, and an absolute crown will govern through royal administration.;;;;;;;;;;;;;x
+cvw_reply_lom_ack;Record the answer and instruct our envoys.;;;;;;;;;;;;;x
+cvw_reply_lom_title;Lombardy Accepts the Accession Articles;;;;;;;;;;;;;x
+cvw_reply_lom_desc;Lombardy has accepted the proposed articles. Its named ratification decision is now available, and ratification will incorporate its territory. War or a new foreign dependency can still prevent completion until the obstacle is resolved.;;;;;;;;;;;;;x
+cvw_refusal_lom_ack;Respect the answer and review our policy.;;;;;;;;;;;;;x
+cvw_refusal_lom_title;Lombardy Refuses Accession;;;;;;;;;;;;;x
+cvw_refusal_lom_desc;Lombardy has rejected the articles and will remain independent. Our envoys cannot ratify an accession without its consent. Further unification must proceed through ordinary diplomacy or a separate lawful war claim.;;;;;;;;;;;;;x
+cvw_ratify_ven_title;Ratify the Accession of Venetia;;;;;;;;;;;;;x
+cvw_ratify_ven_desc;Venetia has accepted the articles offered under our current political programme. Ratification incorporates its territory into the southern state. A federal crown will preserve regional institutions, a constitutional crown will apply the common statute, and an absolute crown will govern through royal administration.;;;;;;;;;;;;;x
+cvw_reply_ven_ack;Record the answer and instruct our envoys.;;;;;;;;;;;;;x
+cvw_reply_ven_title;Venetia Accepts the Accession Articles;;;;;;;;;;;;;x
+cvw_reply_ven_desc;Venetia has accepted the proposed articles. Its named ratification decision is now available, and ratification will incorporate its territory. War or a new foreign dependency can still prevent completion until the obstacle is resolved.;;;;;;;;;;;;;x
+cvw_refusal_ven_ack;Respect the answer and review our policy.;;;;;;;;;;;;;x
+cvw_refusal_ven_title;Venetia Refuses Accession;;;;;;;;;;;;;x
+cvw_refusal_ven_desc;Venetia has rejected the articles and will remain independent. Our envoys cannot ratify an accession without its consent. Further unification must proceed through ordinary diplomacy or a separate lawful war claim.;;;;;;;;;;;;;x
+cvw_papal_lapse_ack;Close the mission.;;;;;;;;;;;;;x
+cvw_papal_lapse_title;The Papal Negotiation Has Lapsed;;;;;;;;;;;;;x
+cvw_papal_lapse_desc;The proposed settlement can no longer be negotiated on its original terms. The political situation has changed before an answer could be received. The diplomatic mission closes without a territorial agreement.;;;;;;;;;;;;;x
+cvw_proclaim_title;Proclaim the Southern-led Kingdom of Italy;;;;;;;;;;;;;x
+cvw_proclaim_desc;Proclaim the Italian kingdom under the chosen federal, absolute or constitutional programme. Participating territories must be united under our control, apart from the protected Papal principality and the remaining northern questions. The Papal protectorate keeps its government until a separate Roman agreement.;;;;;;;;;;;;;x
+cvw_1848_committed;The northern expedition continued;;;;;;;;;;;;;x
+cvw_1848_victory;Northern liberation terms enforced;;;;;;;;;;;;;x
+cvw_1848_reported;The northern campaign reviewed;;;;;;;;;;;;;x
+cvw_brothers_started;The Italian leadership war undertaken;;;;;;;;;;;;;x
+cvw_unifier;Recognised Italian unification leadership;;;;;;;;;;;;;x
+cvw_defeated;Defeated in the Italian leadership contest;;;;;;;;;;;;;x
+cvw_primacy_reported;Southern Italian primacy acknowledged;;;;;;;;;;;;;x
+cvw_loss_reported;The failed leadership campaign reviewed;;;;;;;;;;;;;x
+cvw_papal_sent;A Papal provincial settlement proposed;;;;;;;;;;;;;x
+cvw_papal_federal_offer;Federal guarantees offered to Rome;;;;;;;;;;;;;x
+cvw_papal_answered;The Papal provincial proposal answered;;;;;;;;;;;;;x
+cvw_papal_refused;The Pope refused the provincial settlement;;;;;;;;;;;;;x
+cvw_papal_accepted;The Papal provincial settlement concluded;;;;;;;;;;;;;x
+cvw_papal_reported;The Papal refusal reviewed;;;;;;;;;;;;;x
+cvw_papal_withdrawn;The demand upon Rome withdrawn;;;;;;;;;;;;;x
+cvw_papal_terms_seen;The provincial settlement acknowledged;;;;;;;;;;;;;x
+cvw_papal_notice;France considered the Papal dispute;;;;;;;;;;;;;x
+cvw_papal_lapsed;The Papal mission closed without agreement;;;;;;;;;;;;;x
+cvw_french_protest;France protested the Papal demand;;;;;;;;;;;;;x
+cvw_french_reserved;France reserved its position on Rome;;;;;;;;;;;;;x
+cvw_french_reported;The French response reviewed;;;;;;;;;;;;;x
+cvw_war_path_federal;Federal mandate for the Italian war;;;;;;;;;;;;;x
+cvw_offered_federal;Federal accession articles offered;;;;;;;;;;;;;x
+cvw_seen_federal;Federal accession articles considered;;;;;;;;;;;;;x
+cvw_consent_federal;Federal accession articles accepted;;;;;;;;;;;;;x
+cvw_refused_federal;Federal accession articles refused;;;;;;;;;;;;;x
+cvw_war_path_absolute;Absolutist mandate for the Italian war;;;;;;;;;;;;;x
+cvw_offered_absolute;Absolutist accession articles offered;;;;;;;;;;;;;x
+cvw_seen_absolute;Absolutist accession articles considered;;;;;;;;;;;;;x
+cvw_consent_absolute;Absolutist accession articles accepted;;;;;;;;;;;;;x
+cvw_refused_absolute;Absolutist accession articles refused;;;;;;;;;;;;;x
+cvw_war_path_constitutional;Constitutional mandate for the Italian war;;;;;;;;;;;;;x
+cvw_offered_constitutional;Constitutional accession articles offered;;;;;;;;;;;;;x
+cvw_seen_constitutional;Constitutional accession articles considered;;;;;;;;;;;;;x
+cvw_consent_constitutional;Constitutional accession articles accepted;;;;;;;;;;;;;x
+cvw_refused_constitutional;Constitutional accession articles refused;;;;;;;;;;;;;x
+cvw_integrated_sar;Piedmont incorporated under the accession articles;;;;;;;;;;;;;x
+cvw_reply_sar;Piedmont accession response reviewed;;;;;;;;;;;;;x
+cvw_integrated_par;Parma incorporated under the accession articles;;;;;;;;;;;;;x
+cvw_reply_par;Parma accession response reviewed;;;;;;;;;;;;;x
+cvw_integrated_mod;Modena incorporated under the accession articles;;;;;;;;;;;;;x
+cvw_reply_mod;Modena accession response reviewed;;;;;;;;;;;;;x
+cvw_integrated_luc;Lucca incorporated under the accession articles;;;;;;;;;;;;;x
+cvw_reply_luc;Lucca accession response reviewed;;;;;;;;;;;;;x
+cvw_integrated_tus;Tuscany incorporated under the accession articles;;;;;;;;;;;;;x
+cvw_reply_tus;Tuscany accession response reviewed;;;;;;;;;;;;;x
+cvw_integrated_lom;Lombardy incorporated under the accession articles;;;;;;;;;;;;;x
+cvw_reply_lom;Lombardy accession response reviewed;;;;;;;;;;;;;x
+cvw_integrated_ven;Venetia incorporated under the accession articles;;;;;;;;;;;;;x
+cvw_reply_ven;Venetia accession response reviewed;;;;;;;;;;;;;x

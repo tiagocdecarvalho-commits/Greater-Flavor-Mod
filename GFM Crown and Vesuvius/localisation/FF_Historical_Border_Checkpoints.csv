@@ -1,0 +1,132 @@
+ff_hai_cp_ack;Acknowledge the diplomatic report.;;;;;;;;;;;;;x
+ff_hai_cp_audit_title;Historical Border Review;;;;;;;;;;;;;x
+ff_hai_cp_audit_desc;The diplomatic records are checked against the territorial agreements in force. Areas affected by player intervention retain their own course.;;;;;;;;;;;;;x
+ff_hai_cp_crimea_title;The Ottoman Declaration against Russia;;;;;;;;;;;;;x
+ff_hai_cp_crimea_desc;The diplomatic milestone of 16 October 1853 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_crimea_allies_title;Britain and France Enter the Crimean War;;;;;;;;;;;;;x
+ff_hai_cp_crimea_allies_desc;The diplomatic milestone of 28 March 1854 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_crimea_sardinia_title;Sardinia Joins the Allied Campaign;;;;;;;;;;;;;x
+ff_hai_cp_crimea_sardinia_desc;The diplomatic milestone of 26 January 1855 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_paris_title;The Treaty of Paris;;;;;;;;;;;;;x
+ff_hai_cp_paris_desc;The diplomatic milestone of 30 March 1856 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_romania_title;The Union of the Danubian Principalities;;;;;;;;;;;;;x
+ff_hai_cp_romania_desc;The diplomatic milestone of 24 January 1859 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_ionian_title;The Ionian Islands Join Greece;;;;;;;;;;;;;x
+ff_hai_cp_ionian_desc;The diplomatic milestone of 21 May 1864 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_eastern_war_title;The Russo-Turkish War;;;;;;;;;;;;;x
+ff_hai_cp_eastern_war_desc;Conclude the conflict through its dated diplomatic settlement.;;;;;;;;;;;;;x
+ff_hai_cp_romania_war_title;Romania Enters the War;;;;;;;;;;;;;x
+ff_hai_cp_romania_war_desc;The diplomatic milestone of 22 May 1877 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_san_stefano_title;The Preliminary Peace of San Stefano;;;;;;;;;;;;;x
+ff_hai_cp_san_stefano_desc;The preliminary agreement proposes an extensive Bulgarian principality. This arrangement is provisional and will be revised by the Congress of Berlin.;;;;;;;;;;;;;x
+ff_hai_cp_berlin_title;The Treaty of Berlin;;;;;;;;;;;;;x
+ff_hai_cp_berlin_desc;The Congress revises the preliminary peace. Romania, Serbia and Montenegro become independent. Bulgaria remains an autonomous principality and Eastern Rumelia a separate Ottoman province. Austria-Hungary administers Bosnia and Herzegovina; Ottoman sovereignty there continues. Macedonia remains Ottoman.;;;;;;;;;;;;;x
+ff_hai_cp_cyprus_title;British Administration in Cyprus;;;;;;;;;;;;;x
+ff_hai_cp_cyprus_desc;The diplomatic milestone of 12 July 1878 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_ulcinj_title;The Handover of Ulcinj;;;;;;;;;;;;;x
+ff_hai_cp_ulcinj_desc;The diplomatic milestone of 26 November 1880 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_thessaly_title;The Convention of Constantinople;;;;;;;;;;;;;x
+ff_hai_cp_thessaly_desc;The Greek-Ottoman convention of 2 July 1881 confirms the new frontier negotiated at Constantinople. Most of Thessaly and the Arta district pass to Greece. Elassona, Ioannina and Metsovo remain under Ottoman government. The agreement protects the property and religious rights of the inhabitants of the ceded districts.;;;;;;;;;;;;;x
+ff_hai_cp_rumelia_title;The Union of Bulgaria and Eastern Rumelia;;;;;;;;;;;;;x
+ff_hai_cp_rumelia_desc;The diplomatic milestone of 6 September 1885 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_serbo_bulgarian_title;The Serbo-Bulgarian War;;;;;;;;;;;;;x
+ff_hai_cp_serbo_bulgarian_desc;The diplomatic milestone of 14 November 1885 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_bucharest_title;The Peace of Bucharest;;;;;;;;;;;;;x
+ff_hai_cp_bucharest_desc;The diplomatic milestone of 3 March 1886 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_greek_war_title;The Greco-Turkish War;;;;;;;;;;;;;x
+ff_hai_cp_greek_war_desc;Conclude the conflict through its dated diplomatic settlement.;;;;;;;;;;;;;x
+ff_hai_cp_greek_peace_title;The Peace of Constantinople;;;;;;;;;;;;;x
+ff_hai_cp_greek_peace_desc;The diplomatic milestone of 4 December 1897 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_crete_title;The Autonomous Cretan State;;;;;;;;;;;;;x
+ff_hai_cp_crete_desc;The island becomes an autonomous Cretan State under nominal Ottoman suzerainty and international protection. Union with Greece has not yet occurred.;;;;;;;;;;;;;x
+ff_hai_cp_pacific_title;The War of the Pacific;;;;;;;;;;;;;x
+ff_hai_cp_pacific_desc;The diplomatic milestone of 5 April 1879 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_ancon_title;The Treaty of Ancon;;;;;;;;;;;;;x
+ff_hai_cp_ancon_desc;Peru cedes Tarapaca to Chile. Tacna and Arica remain under Chilean administration pending a future plebiscite; their sovereignty is not finally settled by this agreement.;;;;;;;;;;;;;x
+ff_hai_cp_bolivian_truce_title;The Chilean-Bolivian Truce;;;;;;;;;;;;;x
+ff_hai_cp_bolivian_truce_desc;The truce leaves the Bolivian littoral under Chilean administration. A definitive sovereignty treaty has yet to be concluded.;;;;;;;;;;;;;x
+ff_hai_cp_alaska_title;The Transfer of Alaska;;;;;;;;;;;;;x
+ff_hai_cp_alaska_desc;The diplomatic milestone of 18 October 1867 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_canada_title;The Canadian Confederation;;;;;;;;;;;;;x
+ff_hai_cp_canada_desc;The diplomatic milestone of 1 July 1867 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_rupert_title;Rupert's Land and the North-West Territory;;;;;;;;;;;;;x
+ff_hai_cp_rupert_desc;The diplomatic milestone of 15 July 1870 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_columbia_title;British Columbia Enters Confederation;;;;;;;;;;;;;x
+ff_hai_cp_columbia_desc;The diplomatic milestone of 20 July 1871 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_pei_title;Prince Edward Island Enters Confederation;;;;;;;;;;;;;x
+ff_hai_cp_pei_desc;The diplomatic milestone of 1 July 1873 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_arctic_title;The Arctic Islands Pass to Canada;;;;;;;;;;;;;x
+ff_hai_cp_arctic_desc;The diplomatic milestone of 1 September 1880 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_heligoland_title;The Transfer of Heligoland;;;;;;;;;;;;;x
+ff_hai_cp_heligoland_desc;The diplomatic milestone of 10 August 1890 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_spanish_war_title;The Spanish-American War;;;;;;;;;;;;;x
+ff_hai_cp_spanish_war_desc;Conclude the conflict through its dated diplomatic settlement.;;;;;;;;;;;;;x
+ff_hai_cp_spanish_peace_title;The Armistice with Spain;;;;;;;;;;;;;x
+ff_hai_cp_spanish_peace_desc;The diplomatic milestone of 12 August 1898 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_puerto_rico_title;The American Administration of Puerto Rico;;;;;;;;;;;;;x
+ff_hai_cp_puerto_rico_desc;The diplomatic milestone of 18 October 1898 takes effect. The territorial and political arrangements are recorded in accordance with the historical settlement.;;;;;;;;;;;;;x
+ff_hai_cp_cuba_title;The American Occupation of Cuba;;;;;;;;;;;;;x
+ff_hai_cp_cuba_desc;Spanish government has ended in Cuba. American military administration begins, pending the establishment of the Cuban republic. Puerto Rico passes to the United States.;;;;;;;;;;;;;x
+ff_hai_cp_crimea_war;Crimean War;;;;;;;;;;;;;x
+ff_hai_cp_crimea_war_short;Crimean War;;;;;;;;;;;;;x
+ff_hai_cp_crimea_war_desc;Conclude the conflict through its dated diplomatic settlement.;;;;;;;;;;;;;x
+FF_HAI_CP_CRIMEA;Crimean War;;;;;;;;;;;;;x
+FF_HAI_CP_CRIMEA_NO_ORDER;Crimean War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_CP_CRIMEA;Crimean War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_CP_CRIMEA_NO_ORDER;Crimean War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_CP_CRIMEA;Crimean War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_CP_CRIMEA_NO_ORDER;Crimean War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_CP_CRIMEA;Crimean War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_CP_CRIMEA_NO_ORDER;Crimean War;;;;;;;;;;;;;x
+ff_hai_cp_eastern_war;Russo-Turkish War;;;;;;;;;;;;;x
+ff_hai_cp_eastern_war_short;Russo-Turkish War;;;;;;;;;;;;;x
+FF_HAI_CP_EAST;Russo-Turkish War;;;;;;;;;;;;;x
+FF_HAI_CP_EAST_NO_ORDER;Russo-Turkish War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_CP_EAST;Russo-Turkish War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_CP_EAST_NO_ORDER;Russo-Turkish War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_CP_EAST;Russo-Turkish War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_CP_EAST_NO_ORDER;Russo-Turkish War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_CP_EAST;Russo-Turkish War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_CP_EAST_NO_ORDER;Russo-Turkish War;;;;;;;;;;;;;x
+ff_hai_cp_pacific_war;War of the Pacific;;;;;;;;;;;;;x
+ff_hai_cp_pacific_war_short;War of the Pacific;;;;;;;;;;;;;x
+ff_hai_cp_pacific_war_desc;Conclude the conflict through its dated diplomatic settlement.;;;;;;;;;;;;;x
+FF_HAI_CP_PACIFIC;War of the Pacific;;;;;;;;;;;;;x
+FF_HAI_CP_PACIFIC_NO_ORDER;War of the Pacific;;;;;;;;;;;;;x
+NORMAL_FF_HAI_CP_PACIFIC;War of the Pacific;;;;;;;;;;;;;x
+NORMAL_FF_HAI_CP_PACIFIC_NO_ORDER;War of the Pacific;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_CP_PACIFIC;War of the Pacific;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_CP_PACIFIC_NO_ORDER;War of the Pacific;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_CP_PACIFIC;War of the Pacific;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_CP_PACIFIC_NO_ORDER;War of the Pacific;;;;;;;;;;;;;x
+ff_hai_cp_serbian_war;Serbo-Bulgarian War;;;;;;;;;;;;;x
+ff_hai_cp_serbian_war_short;Serbo-Bulgarian War;;;;;;;;;;;;;x
+ff_hai_cp_serbian_war_desc;Conclude the conflict through its dated diplomatic settlement.;;;;;;;;;;;;;x
+FF_HAI_CP_SERBIA;Serbo-Bulgarian War;;;;;;;;;;;;;x
+FF_HAI_CP_SERBIA_NO_ORDER;Serbo-Bulgarian War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_CP_SERBIA;Serbo-Bulgarian War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_CP_SERBIA_NO_ORDER;Serbo-Bulgarian War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_CP_SERBIA;Serbo-Bulgarian War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_CP_SERBIA_NO_ORDER;Serbo-Bulgarian War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_CP_SERBIA;Serbo-Bulgarian War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_CP_SERBIA_NO_ORDER;Serbo-Bulgarian War;;;;;;;;;;;;;x
+ff_hai_cp_greek_war;Greco-Turkish War;;;;;;;;;;;;;x
+ff_hai_cp_greek_war_short;Greco-Turkish War;;;;;;;;;;;;;x
+FF_HAI_CP_GREECE;Greco-Turkish War;;;;;;;;;;;;;x
+FF_HAI_CP_GREECE_NO_ORDER;Greco-Turkish War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_CP_GREECE;Greco-Turkish War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_CP_GREECE_NO_ORDER;Greco-Turkish War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_CP_GREECE;Greco-Turkish War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_CP_GREECE_NO_ORDER;Greco-Turkish War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_CP_GREECE;Greco-Turkish War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_CP_GREECE_NO_ORDER;Greco-Turkish War;;;;;;;;;;;;;x
+ff_hai_cp_spanish_war;Spanish-American War;;;;;;;;;;;;;x
+ff_hai_cp_spanish_war_short;Spanish-American War;;;;;;;;;;;;;x
+FF_HAI_CP_SPANISH;Spanish-American War;;;;;;;;;;;;;x
+FF_HAI_CP_SPANISH_NO_ORDER;Spanish-American War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_CP_SPANISH;Spanish-American War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_CP_SPANISH_NO_ORDER;Spanish-American War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_CP_SPANISH;Spanish-American War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_CP_SPANISH_NO_ORDER;Spanish-American War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_CP_SPANISH;Spanish-American War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_CP_SPANISH_NO_ORDER;Spanish-American War;;;;;;;;;;;;;x

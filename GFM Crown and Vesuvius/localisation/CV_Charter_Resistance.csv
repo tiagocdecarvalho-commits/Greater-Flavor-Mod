@@ -1,0 +1,1159 @@
+cvcr_papal_charter_title;Authorize the Apostolic Provincial Charter;;;;;;;;;;;;;x
+cvcr_papal_charter_desc;Entrust provincial schools and public religious instruction to the Church. Privileged schooling can provoke local resistance. The charter may later be withdrawn.;;;;;;;;;;;;;x
+cvcr_withdraw_papal_charter_title;Withdraw the Provincial Church Privileges;;;;;;;;;;;;;x
+cvcr_withdraw_papal_charter_desc;End the privileged provincial charter. Existing wars require their own settlement, but new charter conflicts cease.;;;;;;;;;;;;;x
+cvcr_albania_recovery;Reconstruction in Albania;;;;;;;;;;;;;x
+cvcr_albania_exposure;Provincial charter taking effect;;;;;;;;;;;;;x
+cvcr_albania_damage;Disrupted Administration in Albania;;;;;;;;;;;;;x
+cvcr_albania_mission_title;Extend the Apostolic Charter to Albania;;;;;;;;;;;;;x
+cvcr_albania_mission_desc;Place local mission houses and privileged schools under the charter. Local communities may resist religious coercion. Administration and missionary work will be interrupted by an uprising.;;;;;;;;;;;;;x
+cvcr_albania_recognize_title;The Provincial Charter in Albania;;;;;;;;;;;;;x
+cvcr_albania_recognize_desc;The ministry records the existing mission grant. Reports warn that compulsory religious instruction and privileged schools can become a focus of resistance.;;;;;;;;;;;;;x
+cvcr_albania_recognize_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_wave_1_ITA_title;The Provincial Resistance: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_1_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_1_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_wave_2_ITA_title;The Highland Committees: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_2_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_2_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_wave_3_ITA_title;Schools and Local Authority: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_3_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_3_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_wave_4_ITA_title;A Renewed League of Resistance: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_4_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_4_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_wave_5_ITA_title;The Last Provincial Rising: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_5_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_5_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_launch_ITA_title;The War for Albania;;;;;;;;;;;;;x
+cvcr_albania_launch_ITA_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_albania_launch_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_ita_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_albania_ita_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_albania_ita_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_albania_ita_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_albania_ita_restore;The War of Resistance in Albania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_albania_ita_restore_war;The War of Resistance in Albania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_albania_ita_recognition;The War of Resistance in Albania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_albania_ita_recognition_war;The War of Resistance in Albania;;;;;;;;;;;;;x
+cvcr_albania_interrupted_ITA_title;The Interrupted Rising in Albania;;;;;;;;;;;;;x
+cvcr_albania_interrupted_ITA_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_albania_interrupted_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_victory_ITA_title;The Aftermath in Albania;;;;;;;;;;;;;x
+cvcr_albania_victory_ITA_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_albania_victory_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_peace_ITA_title;An Unsettled Peace in Albania;;;;;;;;;;;;;x
+cvcr_albania_peace_ITA_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_albania_peace_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_returns_ITA_title;The Provincial Returns from Albania;;;;;;;;;;;;;x
+cvcr_albania_returns_ITA_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_albania_returns_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_atrocity_ITA_title;Reports of Reprisals in Albania;;;;;;;;;;;;;x
+cvcr_albania_atrocity_ITA_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_albania_atrocity_ITA_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_albania_atrocity_ITA_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_albania_wave_1_PAP_title;The Provincial Resistance: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_1_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_1_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_wave_2_PAP_title;The Highland Committees: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_2_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_2_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_wave_3_PAP_title;Schools and Local Authority: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_3_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_3_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_wave_4_PAP_title;A Renewed League of Resistance: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_4_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_4_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_wave_5_PAP_title;The Last Provincial Rising: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_5_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_5_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_launch_PAP_title;The War for Albania;;;;;;;;;;;;;x
+cvcr_albania_launch_PAP_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_albania_launch_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_pap_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_albania_pap_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_albania_pap_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_albania_pap_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_albania_pap_restore;The War of Resistance in Albania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_albania_pap_restore_war;The War of Resistance in Albania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_albania_pap_recognition;The War of Resistance in Albania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_albania_pap_recognition_war;The War of Resistance in Albania;;;;;;;;;;;;;x
+cvcr_albania_interrupted_PAP_title;The Interrupted Rising in Albania;;;;;;;;;;;;;x
+cvcr_albania_interrupted_PAP_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_albania_interrupted_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_victory_PAP_title;The Aftermath in Albania;;;;;;;;;;;;;x
+cvcr_albania_victory_PAP_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_albania_victory_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_peace_PAP_title;An Unsettled Peace in Albania;;;;;;;;;;;;;x
+cvcr_albania_peace_PAP_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_albania_peace_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_returns_PAP_title;The Provincial Returns from Albania;;;;;;;;;;;;;x
+cvcr_albania_returns_PAP_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_albania_returns_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_atrocity_PAP_title;Reports of Reprisals in Albania;;;;;;;;;;;;;x
+cvcr_albania_atrocity_PAP_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_albania_atrocity_PAP_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_albania_atrocity_PAP_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_albania_wave_1_TIE_title;The Provincial Resistance: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_1_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_1_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_wave_2_TIE_title;The Highland Committees: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_2_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_2_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_wave_3_TIE_title;Schools and Local Authority: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_3_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_3_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_wave_4_TIE_title;A Renewed League of Resistance: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_4_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_4_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_wave_5_TIE_title;The Last Provincial Rising: Albania;;;;;;;;;;;;;x
+cvcr_albania_wave_5_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_albania_wave_5_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_launch_TIE_title;The War for Albania;;;;;;;;;;;;;x
+cvcr_albania_launch_TIE_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_albania_launch_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_tie_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_albania_tie_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_albania_tie_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_albania_tie_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_albania_tie_restore;The War of Resistance in Albania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_albania_tie_restore_war;The War of Resistance in Albania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_albania_tie_recognition;The War of Resistance in Albania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_albania_tie_recognition_war;The War of Resistance in Albania;;;;;;;;;;;;;x
+cvcr_albania_interrupted_TIE_title;The Interrupted Rising in Albania;;;;;;;;;;;;;x
+cvcr_albania_interrupted_TIE_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_albania_interrupted_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_victory_TIE_title;The Aftermath in Albania;;;;;;;;;;;;;x
+cvcr_albania_victory_TIE_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_albania_victory_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_peace_TIE_title;An Unsettled Peace in Albania;;;;;;;;;;;;;x
+cvcr_albania_peace_TIE_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_albania_peace_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_returns_TIE_title;The Provincial Returns from Albania;;;;;;;;;;;;;x
+cvcr_albania_returns_TIE_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_albania_returns_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_albania_atrocity_TIE_title;Reports of Reprisals in Albania;;;;;;;;;;;;;x
+cvcr_albania_atrocity_TIE_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_albania_atrocity_TIE_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_albania_atrocity_TIE_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_tripolitania_recovery;Reconstruction in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_exposure;Provincial charter taking effect;;;;;;;;;;;;;x
+cvcr_tripolitania_damage;Disrupted Administration in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_mission_title;Extend the Apostolic Charter to Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_mission_desc;Place local mission houses and privileged schools under the charter. Local communities may resist religious coercion. Administration and missionary work will be interrupted by an uprising.;;;;;;;;;;;;;x
+cvcr_tripolitania_recognize_title;The Provincial Charter in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_recognize_desc;The ministry records the existing mission grant. Reports warn that compulsory religious instruction and privileged schools can become a focus of resistance.;;;;;;;;;;;;;x
+cvcr_tripolitania_recognize_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_1_ITA_title;Resistance in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_1_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_1_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_2_ITA_title;Resistance in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_2_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_2_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_3_ITA_title;Resistance in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_3_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_3_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_launch_ITA_title;The War for Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_launch_ITA_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_tripolitania_launch_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_ita_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_tripolitania_ita_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_tripolitania_ita_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_tripolitania_ita_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tripolitania_ita_restore;The War of Resistance in Tripolitania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tripolitania_ita_restore_war;The War of Resistance in Tripolitania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tripolitania_ita_recognition;The War of Resistance in Tripolitania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tripolitania_ita_recognition_war;The War of Resistance in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_interrupted_ITA_title;The Interrupted Rising in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_interrupted_ITA_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_tripolitania_interrupted_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_victory_ITA_title;The Aftermath in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_victory_ITA_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_tripolitania_victory_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_peace_ITA_title;An Unsettled Peace in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_peace_ITA_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_tripolitania_peace_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_returns_ITA_title;The Provincial Returns from Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_returns_ITA_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_tripolitania_returns_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_atrocity_ITA_title;Reports of Reprisals in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_atrocity_ITA_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_tripolitania_atrocity_ITA_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_tripolitania_atrocity_ITA_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_1_PAP_title;Resistance in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_1_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_1_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_2_PAP_title;Resistance in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_2_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_2_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_3_PAP_title;Resistance in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_3_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_3_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_launch_PAP_title;The War for Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_launch_PAP_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_tripolitania_launch_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_pap_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_tripolitania_pap_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_tripolitania_pap_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_tripolitania_pap_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tripolitania_pap_restore;The War of Resistance in Tripolitania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tripolitania_pap_restore_war;The War of Resistance in Tripolitania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tripolitania_pap_recognition;The War of Resistance in Tripolitania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tripolitania_pap_recognition_war;The War of Resistance in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_interrupted_PAP_title;The Interrupted Rising in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_interrupted_PAP_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_tripolitania_interrupted_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_victory_PAP_title;The Aftermath in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_victory_PAP_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_tripolitania_victory_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_peace_PAP_title;An Unsettled Peace in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_peace_PAP_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_tripolitania_peace_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_returns_PAP_title;The Provincial Returns from Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_returns_PAP_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_tripolitania_returns_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_atrocity_PAP_title;Reports of Reprisals in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_atrocity_PAP_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_tripolitania_atrocity_PAP_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_tripolitania_atrocity_PAP_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_1_TIE_title;Resistance in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_1_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_1_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_2_TIE_title;Resistance in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_2_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_2_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_3_TIE_title;Resistance in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_3_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tripolitania_wave_3_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_launch_TIE_title;The War for Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_launch_TIE_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_tripolitania_launch_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_tie_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_tripolitania_tie_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_tripolitania_tie_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_tripolitania_tie_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tripolitania_tie_restore;The War of Resistance in Tripolitania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tripolitania_tie_restore_war;The War of Resistance in Tripolitania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tripolitania_tie_recognition;The War of Resistance in Tripolitania;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tripolitania_tie_recognition_war;The War of Resistance in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_interrupted_TIE_title;The Interrupted Rising in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_interrupted_TIE_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_tripolitania_interrupted_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_victory_TIE_title;The Aftermath in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_victory_TIE_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_tripolitania_victory_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_peace_TIE_title;An Unsettled Peace in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_peace_TIE_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_tripolitania_peace_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_returns_TIE_title;The Provincial Returns from Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_returns_TIE_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_tripolitania_returns_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tripolitania_atrocity_TIE_title;Reports of Reprisals in Tripolitania;;;;;;;;;;;;;x
+cvcr_tripolitania_atrocity_TIE_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_tripolitania_atrocity_TIE_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_tripolitania_atrocity_TIE_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_cyrenaica_recovery;Reconstruction in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_exposure;Provincial charter taking effect;;;;;;;;;;;;;x
+cvcr_cyrenaica_damage;Disrupted Administration in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_mission_title;Extend the Apostolic Charter to Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_mission_desc;Place local mission houses and privileged schools under the charter. Local communities may resist religious coercion. Administration and missionary work will be interrupted by an uprising.;;;;;;;;;;;;;x
+cvcr_cyrenaica_recognize_title;The Provincial Charter in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_recognize_desc;The ministry records the existing mission grant. Reports warn that compulsory religious instruction and privileged schools can become a focus of resistance.;;;;;;;;;;;;;x
+cvcr_cyrenaica_recognize_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_1_ITA_title;Resistance in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_1_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_1_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_2_ITA_title;Resistance in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_2_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_2_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_3_ITA_title;Resistance in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_3_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_3_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_launch_ITA_title;The War for Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_launch_ITA_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_cyrenaica_launch_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_ita_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_cyrenaica_ita_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_cyrenaica_ita_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_cyrenaica_ita_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_cyrenaica_ita_restore;The War of Resistance in Cirenaica;;;;;;;;;;;;;x
+AGGRESSION_cvcr_cyrenaica_ita_restore_war;The War of Resistance in Cirenaica;;;;;;;;;;;;;x
+AGGRESSION_cvcr_cyrenaica_ita_recognition;The War of Resistance in Cirenaica;;;;;;;;;;;;;x
+AGGRESSION_cvcr_cyrenaica_ita_recognition_war;The War of Resistance in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_interrupted_ITA_title;The Interrupted Rising in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_interrupted_ITA_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_cyrenaica_interrupted_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_victory_ITA_title;The Aftermath in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_victory_ITA_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_cyrenaica_victory_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_peace_ITA_title;An Unsettled Peace in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_peace_ITA_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_cyrenaica_peace_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_returns_ITA_title;The Provincial Returns from Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_returns_ITA_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_cyrenaica_returns_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_atrocity_ITA_title;Reports of Reprisals in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_atrocity_ITA_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_cyrenaica_atrocity_ITA_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_cyrenaica_atrocity_ITA_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_1_PAP_title;Resistance in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_1_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_1_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_2_PAP_title;Resistance in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_2_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_2_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_3_PAP_title;Resistance in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_3_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_3_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_launch_PAP_title;The War for Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_launch_PAP_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_cyrenaica_launch_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_pap_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_cyrenaica_pap_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_cyrenaica_pap_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_cyrenaica_pap_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_cyrenaica_pap_restore;The War of Resistance in Cirenaica;;;;;;;;;;;;;x
+AGGRESSION_cvcr_cyrenaica_pap_restore_war;The War of Resistance in Cirenaica;;;;;;;;;;;;;x
+AGGRESSION_cvcr_cyrenaica_pap_recognition;The War of Resistance in Cirenaica;;;;;;;;;;;;;x
+AGGRESSION_cvcr_cyrenaica_pap_recognition_war;The War of Resistance in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_interrupted_PAP_title;The Interrupted Rising in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_interrupted_PAP_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_cyrenaica_interrupted_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_victory_PAP_title;The Aftermath in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_victory_PAP_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_cyrenaica_victory_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_peace_PAP_title;An Unsettled Peace in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_peace_PAP_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_cyrenaica_peace_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_returns_PAP_title;The Provincial Returns from Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_returns_PAP_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_cyrenaica_returns_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_atrocity_PAP_title;Reports of Reprisals in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_atrocity_PAP_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_cyrenaica_atrocity_PAP_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_cyrenaica_atrocity_PAP_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_1_TIE_title;Resistance in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_1_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_1_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_2_TIE_title;Resistance in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_2_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_2_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_3_TIE_title;Resistance in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_3_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_cyrenaica_wave_3_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_launch_TIE_title;The War for Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_launch_TIE_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_cyrenaica_launch_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_tie_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_cyrenaica_tie_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_cyrenaica_tie_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_cyrenaica_tie_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_cyrenaica_tie_restore;The War of Resistance in Cirenaica;;;;;;;;;;;;;x
+AGGRESSION_cvcr_cyrenaica_tie_restore_war;The War of Resistance in Cirenaica;;;;;;;;;;;;;x
+AGGRESSION_cvcr_cyrenaica_tie_recognition;The War of Resistance in Cirenaica;;;;;;;;;;;;;x
+AGGRESSION_cvcr_cyrenaica_tie_recognition_war;The War of Resistance in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_interrupted_TIE_title;The Interrupted Rising in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_interrupted_TIE_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_cyrenaica_interrupted_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_victory_TIE_title;The Aftermath in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_victory_TIE_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_cyrenaica_victory_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_peace_TIE_title;An Unsettled Peace in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_peace_TIE_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_cyrenaica_peace_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_returns_TIE_title;The Provincial Returns from Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_returns_TIE_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_cyrenaica_returns_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_cyrenaica_atrocity_TIE_title;Reports of Reprisals in Cirenaica;;;;;;;;;;;;;x
+cvcr_cyrenaica_atrocity_TIE_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_cyrenaica_atrocity_TIE_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_cyrenaica_atrocity_TIE_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_tunisia_recovery;Reconstruction in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_exposure;Provincial charter taking effect;;;;;;;;;;;;;x
+cvcr_tunisia_damage;Disrupted Administration in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_mission_title;Extend the Apostolic Charter to Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_mission_desc;Place local mission houses and privileged schools under the charter. Local communities may resist religious coercion. Administration and missionary work will be interrupted by an uprising.;;;;;;;;;;;;;x
+cvcr_tunisia_recognize_title;The Provincial Charter in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_recognize_desc;The ministry records the existing mission grant. Reports warn that compulsory religious instruction and privileged schools can become a focus of resistance.;;;;;;;;;;;;;x
+cvcr_tunisia_recognize_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_1_ITA_title;Resistance in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_wave_1_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_1_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_2_ITA_title;Resistance in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_wave_2_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_2_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_3_ITA_title;Resistance in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_wave_3_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_3_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_launch_ITA_title;The War for Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_launch_ITA_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_tunisia_launch_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_ita_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_tunisia_ita_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_tunisia_ita_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_tunisia_ita_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tunisia_ita_restore;The War of Resistance in Tunisia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tunisia_ita_restore_war;The War of Resistance in Tunisia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tunisia_ita_recognition;The War of Resistance in Tunisia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tunisia_ita_recognition_war;The War of Resistance in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_interrupted_ITA_title;The Interrupted Rising in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_interrupted_ITA_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_tunisia_interrupted_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_victory_ITA_title;The Aftermath in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_victory_ITA_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_tunisia_victory_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_peace_ITA_title;An Unsettled Peace in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_peace_ITA_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_tunisia_peace_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_returns_ITA_title;The Provincial Returns from Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_returns_ITA_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_tunisia_returns_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_atrocity_ITA_title;Reports of Reprisals in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_atrocity_ITA_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_tunisia_atrocity_ITA_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_tunisia_atrocity_ITA_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_1_PAP_title;Resistance in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_wave_1_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_1_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_2_PAP_title;Resistance in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_wave_2_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_2_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_3_PAP_title;Resistance in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_wave_3_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_3_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_launch_PAP_title;The War for Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_launch_PAP_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_tunisia_launch_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_pap_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_tunisia_pap_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_tunisia_pap_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_tunisia_pap_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tunisia_pap_restore;The War of Resistance in Tunisia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tunisia_pap_restore_war;The War of Resistance in Tunisia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tunisia_pap_recognition;The War of Resistance in Tunisia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tunisia_pap_recognition_war;The War of Resistance in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_interrupted_PAP_title;The Interrupted Rising in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_interrupted_PAP_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_tunisia_interrupted_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_victory_PAP_title;The Aftermath in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_victory_PAP_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_tunisia_victory_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_peace_PAP_title;An Unsettled Peace in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_peace_PAP_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_tunisia_peace_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_returns_PAP_title;The Provincial Returns from Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_returns_PAP_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_tunisia_returns_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_atrocity_PAP_title;Reports of Reprisals in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_atrocity_PAP_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_tunisia_atrocity_PAP_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_tunisia_atrocity_PAP_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_1_TIE_title;Resistance in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_wave_1_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_1_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_2_TIE_title;Resistance in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_wave_2_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_2_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_3_TIE_title;Resistance in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_wave_3_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_tunisia_wave_3_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_launch_TIE_title;The War for Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_launch_TIE_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_tunisia_launch_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_tie_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_tunisia_tie_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_tunisia_tie_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_tunisia_tie_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tunisia_tie_restore;The War of Resistance in Tunisia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tunisia_tie_restore_war;The War of Resistance in Tunisia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tunisia_tie_recognition;The War of Resistance in Tunisia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_tunisia_tie_recognition_war;The War of Resistance in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_interrupted_TIE_title;The Interrupted Rising in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_interrupted_TIE_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_tunisia_interrupted_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_victory_TIE_title;The Aftermath in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_victory_TIE_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_tunisia_victory_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_peace_TIE_title;An Unsettled Peace in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_peace_TIE_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_tunisia_peace_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_returns_TIE_title;The Provincial Returns from Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_returns_TIE_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_tunisia_returns_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_tunisia_atrocity_TIE_title;Reports of Reprisals in Tunisia;;;;;;;;;;;;;x
+cvcr_tunisia_atrocity_TIE_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_tunisia_atrocity_TIE_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_tunisia_atrocity_TIE_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_morocco_recovery;Reconstruction in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_exposure;Provincial charter taking effect;;;;;;;;;;;;;x
+cvcr_morocco_damage;Disrupted Administration in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_mission_title;Extend the Apostolic Charter to Marocco;;;;;;;;;;;;;x
+cvcr_morocco_mission_desc;Place local mission houses and privileged schools under the charter. Local communities may resist religious coercion. Administration and missionary work will be interrupted by an uprising.;;;;;;;;;;;;;x
+cvcr_morocco_wave_1_ITA_title;Resistance in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_wave_1_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_morocco_wave_1_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_wave_2_ITA_title;Resistance in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_wave_2_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_morocco_wave_2_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_wave_3_ITA_title;Resistance in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_wave_3_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_morocco_wave_3_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_launch_ITA_title;The War for Marocco;;;;;;;;;;;;;x
+cvcr_morocco_launch_ITA_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_morocco_launch_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_ita_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_morocco_ita_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_morocco_ita_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_morocco_ita_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_morocco_ita_restore;The War of Resistance in Marocco;;;;;;;;;;;;;x
+AGGRESSION_cvcr_morocco_ita_restore_war;The War of Resistance in Marocco;;;;;;;;;;;;;x
+AGGRESSION_cvcr_morocco_ita_recognition;The War of Resistance in Marocco;;;;;;;;;;;;;x
+AGGRESSION_cvcr_morocco_ita_recognition_war;The War of Resistance in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_interrupted_ITA_title;The Interrupted Rising in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_interrupted_ITA_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_morocco_interrupted_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_victory_ITA_title;The Aftermath in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_victory_ITA_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_morocco_victory_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_peace_ITA_title;An Unsettled Peace in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_peace_ITA_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_morocco_peace_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_returns_ITA_title;The Provincial Returns from Marocco;;;;;;;;;;;;;x
+cvcr_morocco_returns_ITA_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_morocco_returns_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_atrocity_ITA_title;Reports of Reprisals in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_atrocity_ITA_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_morocco_atrocity_ITA_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_morocco_atrocity_ITA_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_morocco_wave_1_PAP_title;Resistance in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_wave_1_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_morocco_wave_1_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_wave_2_PAP_title;Resistance in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_wave_2_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_morocco_wave_2_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_wave_3_PAP_title;Resistance in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_wave_3_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_morocco_wave_3_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_launch_PAP_title;The War for Marocco;;;;;;;;;;;;;x
+cvcr_morocco_launch_PAP_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_morocco_launch_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_pap_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_morocco_pap_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_morocco_pap_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_morocco_pap_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_morocco_pap_restore;The War of Resistance in Marocco;;;;;;;;;;;;;x
+AGGRESSION_cvcr_morocco_pap_restore_war;The War of Resistance in Marocco;;;;;;;;;;;;;x
+AGGRESSION_cvcr_morocco_pap_recognition;The War of Resistance in Marocco;;;;;;;;;;;;;x
+AGGRESSION_cvcr_morocco_pap_recognition_war;The War of Resistance in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_interrupted_PAP_title;The Interrupted Rising in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_interrupted_PAP_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_morocco_interrupted_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_victory_PAP_title;The Aftermath in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_victory_PAP_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_morocco_victory_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_peace_PAP_title;An Unsettled Peace in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_peace_PAP_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_morocco_peace_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_returns_PAP_title;The Provincial Returns from Marocco;;;;;;;;;;;;;x
+cvcr_morocco_returns_PAP_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_morocco_returns_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_atrocity_PAP_title;Reports of Reprisals in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_atrocity_PAP_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_morocco_atrocity_PAP_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_morocco_atrocity_PAP_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_morocco_wave_1_TIE_title;Resistance in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_wave_1_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_morocco_wave_1_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_wave_2_TIE_title;Resistance in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_wave_2_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_morocco_wave_2_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_wave_3_TIE_title;Resistance in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_wave_3_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_morocco_wave_3_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_launch_TIE_title;The War for Marocco;;;;;;;;;;;;;x
+cvcr_morocco_launch_TIE_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_morocco_launch_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_tie_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_morocco_tie_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_morocco_tie_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_morocco_tie_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_morocco_tie_restore;The War of Resistance in Marocco;;;;;;;;;;;;;x
+AGGRESSION_cvcr_morocco_tie_restore_war;The War of Resistance in Marocco;;;;;;;;;;;;;x
+AGGRESSION_cvcr_morocco_tie_recognition;The War of Resistance in Marocco;;;;;;;;;;;;;x
+AGGRESSION_cvcr_morocco_tie_recognition_war;The War of Resistance in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_interrupted_TIE_title;The Interrupted Rising in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_interrupted_TIE_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_morocco_interrupted_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_victory_TIE_title;The Aftermath in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_victory_TIE_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_morocco_victory_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_peace_TIE_title;An Unsettled Peace in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_peace_TIE_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_morocco_peace_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_returns_TIE_title;The Provincial Returns from Marocco;;;;;;;;;;;;;x
+cvcr_morocco_returns_TIE_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_morocco_returns_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_morocco_atrocity_TIE_title;Reports of Reprisals in Marocco;;;;;;;;;;;;;x
+cvcr_morocco_atrocity_TIE_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_morocco_atrocity_TIE_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_morocco_atrocity_TIE_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_algeria_recovery;Reconstruction in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_exposure;Provincial charter taking effect;;;;;;;;;;;;;x
+cvcr_algeria_damage;Disrupted Administration in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_mission_title;Extend the Apostolic Charter to Algeria;;;;;;;;;;;;;x
+cvcr_algeria_mission_desc;Place local mission houses and privileged schools under the charter. Local communities may resist religious coercion. Administration and missionary work will be interrupted by an uprising.;;;;;;;;;;;;;x
+cvcr_algeria_wave_1_ITA_title;Resistance in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_wave_1_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_algeria_wave_1_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_wave_2_ITA_title;Resistance in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_wave_2_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_algeria_wave_2_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_wave_3_ITA_title;Resistance in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_wave_3_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_algeria_wave_3_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_launch_ITA_title;The War for Algeria;;;;;;;;;;;;;x
+cvcr_algeria_launch_ITA_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_algeria_launch_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_ita_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_algeria_ita_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_algeria_ita_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_algeria_ita_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_algeria_ita_restore;The War of Resistance in Algeria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_algeria_ita_restore_war;The War of Resistance in Algeria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_algeria_ita_recognition;The War of Resistance in Algeria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_algeria_ita_recognition_war;The War of Resistance in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_interrupted_ITA_title;The Interrupted Rising in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_interrupted_ITA_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_algeria_interrupted_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_victory_ITA_title;The Aftermath in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_victory_ITA_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_algeria_victory_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_peace_ITA_title;An Unsettled Peace in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_peace_ITA_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_algeria_peace_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_returns_ITA_title;The Provincial Returns from Algeria;;;;;;;;;;;;;x
+cvcr_algeria_returns_ITA_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_algeria_returns_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_atrocity_ITA_title;Reports of Reprisals in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_atrocity_ITA_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_algeria_atrocity_ITA_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_algeria_atrocity_ITA_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_algeria_wave_1_PAP_title;Resistance in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_wave_1_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_algeria_wave_1_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_wave_2_PAP_title;Resistance in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_wave_2_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_algeria_wave_2_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_wave_3_PAP_title;Resistance in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_wave_3_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_algeria_wave_3_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_launch_PAP_title;The War for Algeria;;;;;;;;;;;;;x
+cvcr_algeria_launch_PAP_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_algeria_launch_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_pap_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_algeria_pap_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_algeria_pap_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_algeria_pap_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_algeria_pap_restore;The War of Resistance in Algeria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_algeria_pap_restore_war;The War of Resistance in Algeria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_algeria_pap_recognition;The War of Resistance in Algeria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_algeria_pap_recognition_war;The War of Resistance in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_interrupted_PAP_title;The Interrupted Rising in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_interrupted_PAP_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_algeria_interrupted_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_victory_PAP_title;The Aftermath in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_victory_PAP_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_algeria_victory_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_peace_PAP_title;An Unsettled Peace in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_peace_PAP_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_algeria_peace_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_returns_PAP_title;The Provincial Returns from Algeria;;;;;;;;;;;;;x
+cvcr_algeria_returns_PAP_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_algeria_returns_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_atrocity_PAP_title;Reports of Reprisals in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_atrocity_PAP_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_algeria_atrocity_PAP_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_algeria_atrocity_PAP_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_algeria_wave_1_TIE_title;Resistance in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_wave_1_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_algeria_wave_1_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_wave_2_TIE_title;Resistance in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_wave_2_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_algeria_wave_2_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_wave_3_TIE_title;Resistance in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_wave_3_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_algeria_wave_3_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_launch_TIE_title;The War for Algeria;;;;;;;;;;;;;x
+cvcr_algeria_launch_TIE_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_algeria_launch_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_tie_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_algeria_tie_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_algeria_tie_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_algeria_tie_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_algeria_tie_restore;The War of Resistance in Algeria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_algeria_tie_restore_war;The War of Resistance in Algeria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_algeria_tie_recognition;The War of Resistance in Algeria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_algeria_tie_recognition_war;The War of Resistance in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_interrupted_TIE_title;The Interrupted Rising in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_interrupted_TIE_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_algeria_interrupted_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_victory_TIE_title;The Aftermath in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_victory_TIE_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_algeria_victory_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_peace_TIE_title;An Unsettled Peace in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_peace_TIE_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_algeria_peace_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_returns_TIE_title;The Provincial Returns from Algeria;;;;;;;;;;;;;x
+cvcr_algeria_returns_TIE_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_algeria_returns_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_algeria_atrocity_TIE_title;Reports of Reprisals in Algeria;;;;;;;;;;;;;x
+cvcr_algeria_atrocity_TIE_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_algeria_atrocity_TIE_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_algeria_atrocity_TIE_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_palestine_recovery;Reconstruction in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_exposure;Provincial charter taking effect;;;;;;;;;;;;;x
+cvcr_palestine_damage;Disrupted Administration in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_mission_title;Extend the Apostolic Charter to Palestina;;;;;;;;;;;;;x
+cvcr_palestine_mission_desc;Place local mission houses and privileged schools under the charter. Local communities may resist religious coercion. Administration and missionary work will be interrupted by an uprising.;;;;;;;;;;;;;x
+cvcr_palestine_wave_1_ITA_title;Resistance in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_wave_1_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_palestine_wave_1_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_wave_2_ITA_title;Resistance in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_wave_2_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_palestine_wave_2_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_wave_3_ITA_title;Resistance in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_wave_3_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_palestine_wave_3_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_launch_ITA_title;The War for Palestina;;;;;;;;;;;;;x
+cvcr_palestine_launch_ITA_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_palestine_launch_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_ita_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_palestine_ita_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_palestine_ita_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_palestine_ita_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_palestine_ita_restore;The War of Resistance in Palestina;;;;;;;;;;;;;x
+AGGRESSION_cvcr_palestine_ita_restore_war;The War of Resistance in Palestina;;;;;;;;;;;;;x
+AGGRESSION_cvcr_palestine_ita_recognition;The War of Resistance in Palestina;;;;;;;;;;;;;x
+AGGRESSION_cvcr_palestine_ita_recognition_war;The War of Resistance in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_interrupted_ITA_title;The Interrupted Rising in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_interrupted_ITA_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_palestine_interrupted_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_victory_ITA_title;The Aftermath in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_victory_ITA_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_palestine_victory_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_peace_ITA_title;An Unsettled Peace in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_peace_ITA_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_palestine_peace_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_returns_ITA_title;The Provincial Returns from Palestina;;;;;;;;;;;;;x
+cvcr_palestine_returns_ITA_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_palestine_returns_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_atrocity_ITA_title;Reports of Reprisals in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_atrocity_ITA_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_palestine_atrocity_ITA_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_palestine_atrocity_ITA_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_palestine_wave_1_PAP_title;Resistance in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_wave_1_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_palestine_wave_1_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_wave_2_PAP_title;Resistance in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_wave_2_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_palestine_wave_2_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_wave_3_PAP_title;Resistance in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_wave_3_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_palestine_wave_3_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_launch_PAP_title;The War for Palestina;;;;;;;;;;;;;x
+cvcr_palestine_launch_PAP_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_palestine_launch_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_pap_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_palestine_pap_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_palestine_pap_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_palestine_pap_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_palestine_pap_restore;The War of Resistance in Palestina;;;;;;;;;;;;;x
+AGGRESSION_cvcr_palestine_pap_restore_war;The War of Resistance in Palestina;;;;;;;;;;;;;x
+AGGRESSION_cvcr_palestine_pap_recognition;The War of Resistance in Palestina;;;;;;;;;;;;;x
+AGGRESSION_cvcr_palestine_pap_recognition_war;The War of Resistance in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_interrupted_PAP_title;The Interrupted Rising in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_interrupted_PAP_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_palestine_interrupted_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_victory_PAP_title;The Aftermath in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_victory_PAP_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_palestine_victory_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_peace_PAP_title;An Unsettled Peace in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_peace_PAP_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_palestine_peace_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_returns_PAP_title;The Provincial Returns from Palestina;;;;;;;;;;;;;x
+cvcr_palestine_returns_PAP_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_palestine_returns_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_atrocity_PAP_title;Reports of Reprisals in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_atrocity_PAP_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_palestine_atrocity_PAP_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_palestine_atrocity_PAP_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_palestine_wave_1_TIE_title;Resistance in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_wave_1_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_palestine_wave_1_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_wave_2_TIE_title;Resistance in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_wave_2_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_palestine_wave_2_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_wave_3_TIE_title;Resistance in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_wave_3_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_palestine_wave_3_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_launch_TIE_title;The War for Palestina;;;;;;;;;;;;;x
+cvcr_palestine_launch_TIE_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_palestine_launch_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_tie_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_palestine_tie_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_palestine_tie_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_palestine_tie_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_palestine_tie_restore;The War of Resistance in Palestina;;;;;;;;;;;;;x
+AGGRESSION_cvcr_palestine_tie_restore_war;The War of Resistance in Palestina;;;;;;;;;;;;;x
+AGGRESSION_cvcr_palestine_tie_recognition;The War of Resistance in Palestina;;;;;;;;;;;;;x
+AGGRESSION_cvcr_palestine_tie_recognition_war;The War of Resistance in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_interrupted_TIE_title;The Interrupted Rising in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_interrupted_TIE_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_palestine_interrupted_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_victory_TIE_title;The Aftermath in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_victory_TIE_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_palestine_victory_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_peace_TIE_title;An Unsettled Peace in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_peace_TIE_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_palestine_peace_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_returns_TIE_title;The Provincial Returns from Palestina;;;;;;;;;;;;;x
+cvcr_palestine_returns_TIE_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_palestine_returns_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_palestine_atrocity_TIE_title;Reports of Reprisals in Palestina;;;;;;;;;;;;;x
+cvcr_palestine_atrocity_TIE_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_palestine_atrocity_TIE_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_palestine_atrocity_TIE_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_syria_recovery;Reconstruction in Siria;;;;;;;;;;;;;x
+cvcr_syria_exposure;Provincial charter taking effect;;;;;;;;;;;;;x
+cvcr_syria_damage;Disrupted Administration in Siria;;;;;;;;;;;;;x
+cvcr_syria_mission_title;Extend the Apostolic Charter to Siria;;;;;;;;;;;;;x
+cvcr_syria_mission_desc;Place local mission houses and privileged schools under the charter. Local communities may resist religious coercion. Administration and missionary work will be interrupted by an uprising.;;;;;;;;;;;;;x
+cvcr_syria_wave_1_ITA_title;Resistance in Siria;;;;;;;;;;;;;x
+cvcr_syria_wave_1_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_syria_wave_1_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_wave_2_ITA_title;Resistance in Siria;;;;;;;;;;;;;x
+cvcr_syria_wave_2_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_syria_wave_2_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_wave_3_ITA_title;Resistance in Siria;;;;;;;;;;;;;x
+cvcr_syria_wave_3_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_syria_wave_3_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_launch_ITA_title;The War for Siria;;;;;;;;;;;;;x
+cvcr_syria_launch_ITA_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_syria_launch_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_ita_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_syria_ita_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_syria_ita_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_syria_ita_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_syria_ita_restore;The War of Resistance in Siria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_syria_ita_restore_war;The War of Resistance in Siria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_syria_ita_recognition;The War of Resistance in Siria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_syria_ita_recognition_war;The War of Resistance in Siria;;;;;;;;;;;;;x
+cvcr_syria_interrupted_ITA_title;The Interrupted Rising in Siria;;;;;;;;;;;;;x
+cvcr_syria_interrupted_ITA_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_syria_interrupted_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_victory_ITA_title;The Aftermath in Siria;;;;;;;;;;;;;x
+cvcr_syria_victory_ITA_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_syria_victory_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_peace_ITA_title;An Unsettled Peace in Siria;;;;;;;;;;;;;x
+cvcr_syria_peace_ITA_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_syria_peace_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_returns_ITA_title;The Provincial Returns from Siria;;;;;;;;;;;;;x
+cvcr_syria_returns_ITA_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_syria_returns_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_atrocity_ITA_title;Reports of Reprisals in Siria;;;;;;;;;;;;;x
+cvcr_syria_atrocity_ITA_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_syria_atrocity_ITA_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_syria_atrocity_ITA_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_syria_wave_1_PAP_title;Resistance in Siria;;;;;;;;;;;;;x
+cvcr_syria_wave_1_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_syria_wave_1_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_wave_2_PAP_title;Resistance in Siria;;;;;;;;;;;;;x
+cvcr_syria_wave_2_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_syria_wave_2_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_wave_3_PAP_title;Resistance in Siria;;;;;;;;;;;;;x
+cvcr_syria_wave_3_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_syria_wave_3_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_launch_PAP_title;The War for Siria;;;;;;;;;;;;;x
+cvcr_syria_launch_PAP_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_syria_launch_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_pap_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_syria_pap_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_syria_pap_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_syria_pap_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_syria_pap_restore;The War of Resistance in Siria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_syria_pap_restore_war;The War of Resistance in Siria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_syria_pap_recognition;The War of Resistance in Siria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_syria_pap_recognition_war;The War of Resistance in Siria;;;;;;;;;;;;;x
+cvcr_syria_interrupted_PAP_title;The Interrupted Rising in Siria;;;;;;;;;;;;;x
+cvcr_syria_interrupted_PAP_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_syria_interrupted_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_victory_PAP_title;The Aftermath in Siria;;;;;;;;;;;;;x
+cvcr_syria_victory_PAP_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_syria_victory_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_peace_PAP_title;An Unsettled Peace in Siria;;;;;;;;;;;;;x
+cvcr_syria_peace_PAP_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_syria_peace_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_returns_PAP_title;The Provincial Returns from Siria;;;;;;;;;;;;;x
+cvcr_syria_returns_PAP_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_syria_returns_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_atrocity_PAP_title;Reports of Reprisals in Siria;;;;;;;;;;;;;x
+cvcr_syria_atrocity_PAP_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_syria_atrocity_PAP_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_syria_atrocity_PAP_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_syria_wave_1_TIE_title;Resistance in Siria;;;;;;;;;;;;;x
+cvcr_syria_wave_1_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_syria_wave_1_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_wave_2_TIE_title;Resistance in Siria;;;;;;;;;;;;;x
+cvcr_syria_wave_2_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_syria_wave_2_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_wave_3_TIE_title;Resistance in Siria;;;;;;;;;;;;;x
+cvcr_syria_wave_3_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_syria_wave_3_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_launch_TIE_title;The War for Siria;;;;;;;;;;;;;x
+cvcr_syria_launch_TIE_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_syria_launch_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_tie_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_syria_tie_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_syria_tie_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_syria_tie_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_syria_tie_restore;The War of Resistance in Siria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_syria_tie_restore_war;The War of Resistance in Siria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_syria_tie_recognition;The War of Resistance in Siria;;;;;;;;;;;;;x
+AGGRESSION_cvcr_syria_tie_recognition_war;The War of Resistance in Siria;;;;;;;;;;;;;x
+cvcr_syria_interrupted_TIE_title;The Interrupted Rising in Siria;;;;;;;;;;;;;x
+cvcr_syria_interrupted_TIE_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_syria_interrupted_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_victory_TIE_title;The Aftermath in Siria;;;;;;;;;;;;;x
+cvcr_syria_victory_TIE_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_syria_victory_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_peace_TIE_title;An Unsettled Peace in Siria;;;;;;;;;;;;;x
+cvcr_syria_peace_TIE_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_syria_peace_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_returns_TIE_title;The Provincial Returns from Siria;;;;;;;;;;;;;x
+cvcr_syria_returns_TIE_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_syria_returns_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_syria_atrocity_TIE_title;Reports of Reprisals in Siria;;;;;;;;;;;;;x
+cvcr_syria_atrocity_TIE_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_syria_atrocity_TIE_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_syria_atrocity_TIE_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_croatia_recovery;Reconstruction in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_exposure;Provincial charter taking effect;;;;;;;;;;;;;x
+cvcr_croatia_damage;Disrupted Administration in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_mission_title;Extend the Apostolic Charter to Croazia;;;;;;;;;;;;;x
+cvcr_croatia_mission_desc;Place local mission houses and privileged schools under the charter. Local communities may resist religious coercion. Administration and missionary work will be interrupted by an uprising.;;;;;;;;;;;;;x
+cvcr_croatia_wave_1_ITA_title;Resistance in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_wave_1_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_croatia_wave_1_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_wave_2_ITA_title;Resistance in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_wave_2_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_croatia_wave_2_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_launch_ITA_title;The War for Croazia;;;;;;;;;;;;;x
+cvcr_croatia_launch_ITA_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_croatia_launch_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_ita_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_croatia_ita_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_croatia_ita_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_croatia_ita_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_croatia_ita_restore;The War of Resistance in Croazia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_croatia_ita_restore_war;The War of Resistance in Croazia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_croatia_ita_recognition;The War of Resistance in Croazia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_croatia_ita_recognition_war;The War of Resistance in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_interrupted_ITA_title;The Interrupted Rising in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_interrupted_ITA_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_croatia_interrupted_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_victory_ITA_title;The Aftermath in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_victory_ITA_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_croatia_victory_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_peace_ITA_title;An Unsettled Peace in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_peace_ITA_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_croatia_peace_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_returns_ITA_title;The Provincial Returns from Croazia;;;;;;;;;;;;;x
+cvcr_croatia_returns_ITA_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_croatia_returns_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_atrocity_ITA_title;Reports of Reprisals in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_atrocity_ITA_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_croatia_atrocity_ITA_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_croatia_atrocity_ITA_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_croatia_wave_1_PAP_title;Resistance in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_wave_1_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_croatia_wave_1_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_wave_2_PAP_title;Resistance in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_wave_2_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_croatia_wave_2_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_launch_PAP_title;The War for Croazia;;;;;;;;;;;;;x
+cvcr_croatia_launch_PAP_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_croatia_launch_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_pap_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_croatia_pap_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_croatia_pap_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_croatia_pap_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_croatia_pap_restore;The War of Resistance in Croazia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_croatia_pap_restore_war;The War of Resistance in Croazia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_croatia_pap_recognition;The War of Resistance in Croazia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_croatia_pap_recognition_war;The War of Resistance in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_interrupted_PAP_title;The Interrupted Rising in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_interrupted_PAP_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_croatia_interrupted_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_victory_PAP_title;The Aftermath in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_victory_PAP_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_croatia_victory_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_peace_PAP_title;An Unsettled Peace in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_peace_PAP_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_croatia_peace_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_returns_PAP_title;The Provincial Returns from Croazia;;;;;;;;;;;;;x
+cvcr_croatia_returns_PAP_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_croatia_returns_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_atrocity_PAP_title;Reports of Reprisals in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_atrocity_PAP_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_croatia_atrocity_PAP_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_croatia_atrocity_PAP_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_croatia_wave_1_TIE_title;Resistance in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_wave_1_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_croatia_wave_1_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_wave_2_TIE_title;Resistance in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_wave_2_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_croatia_wave_2_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_launch_TIE_title;The War for Croazia;;;;;;;;;;;;;x
+cvcr_croatia_launch_TIE_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_croatia_launch_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_tie_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_croatia_tie_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_croatia_tie_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_croatia_tie_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_croatia_tie_restore;The War of Resistance in Croazia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_croatia_tie_restore_war;The War of Resistance in Croazia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_croatia_tie_recognition;The War of Resistance in Croazia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_croatia_tie_recognition_war;The War of Resistance in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_interrupted_TIE_title;The Interrupted Rising in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_interrupted_TIE_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_croatia_interrupted_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_victory_TIE_title;The Aftermath in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_victory_TIE_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_croatia_victory_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_peace_TIE_title;An Unsettled Peace in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_peace_TIE_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_croatia_peace_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_returns_TIE_title;The Provincial Returns from Croazia;;;;;;;;;;;;;x
+cvcr_croatia_returns_TIE_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_croatia_returns_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_croatia_atrocity_TIE_title;Reports of Reprisals in Croazia;;;;;;;;;;;;;x
+cvcr_croatia_atrocity_TIE_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_croatia_atrocity_TIE_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_croatia_atrocity_TIE_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_bosnia_recovery;Reconstruction in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_exposure;Provincial charter taking effect;;;;;;;;;;;;;x
+cvcr_bosnia_damage;Disrupted Administration in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_mission_title;Extend the Apostolic Charter to Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_mission_desc;Place local mission houses and privileged schools under the charter. Local communities may resist religious coercion. Administration and missionary work will be interrupted by an uprising.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_1_ITA_title;Resistance in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_wave_1_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_1_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_2_ITA_title;Resistance in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_wave_2_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_2_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_3_ITA_title;Resistance in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_wave_3_ITA_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_3_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_launch_ITA_title;The War for Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_launch_ITA_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_bosnia_launch_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_ita_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_bosnia_ita_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_bosnia_ita_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_bosnia_ita_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_bosnia_ita_restore;The War of Resistance in Bosnia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_bosnia_ita_restore_war;The War of Resistance in Bosnia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_bosnia_ita_recognition;The War of Resistance in Bosnia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_bosnia_ita_recognition_war;The War of Resistance in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_interrupted_ITA_title;The Interrupted Rising in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_interrupted_ITA_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_bosnia_interrupted_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_victory_ITA_title;The Aftermath in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_victory_ITA_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_bosnia_victory_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_peace_ITA_title;An Unsettled Peace in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_peace_ITA_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_bosnia_peace_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_returns_ITA_title;The Provincial Returns from Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_returns_ITA_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_bosnia_returns_ITA_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_atrocity_ITA_title;Reports of Reprisals in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_atrocity_ITA_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_bosnia_atrocity_ITA_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_bosnia_atrocity_ITA_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_1_PAP_title;Resistance in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_wave_1_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_1_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_2_PAP_title;Resistance in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_wave_2_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_2_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_3_PAP_title;Resistance in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_wave_3_PAP_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_3_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_launch_PAP_title;The War for Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_launch_PAP_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_bosnia_launch_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_pap_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_bosnia_pap_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_bosnia_pap_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_bosnia_pap_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_bosnia_pap_restore;The War of Resistance in Bosnia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_bosnia_pap_restore_war;The War of Resistance in Bosnia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_bosnia_pap_recognition;The War of Resistance in Bosnia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_bosnia_pap_recognition_war;The War of Resistance in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_interrupted_PAP_title;The Interrupted Rising in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_interrupted_PAP_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_bosnia_interrupted_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_victory_PAP_title;The Aftermath in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_victory_PAP_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_bosnia_victory_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_peace_PAP_title;An Unsettled Peace in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_peace_PAP_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_bosnia_peace_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_returns_PAP_title;The Provincial Returns from Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_returns_PAP_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_bosnia_returns_PAP_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_atrocity_PAP_title;Reports of Reprisals in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_atrocity_PAP_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_bosnia_atrocity_PAP_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_bosnia_atrocity_PAP_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_1_TIE_title;Resistance in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_wave_1_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_1_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_2_TIE_title;Resistance in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_wave_2_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_2_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_3_TIE_title;Resistance in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_wave_3_TIE_desc;Local organizers have challenged the privileged religious schools and the foreign administration. A district has broken with the government and raised an armed authority. Its leaders demand recognition. This is an alternate-history crisis arising from the present charter, not a predetermined historical battle.;;;;;;;;;;;;;x
+cvcr_bosnia_wave_3_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_launch_TIE_title;The War for Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_launch_TIE_desc;The insurgent authority has rejected the government's demand for submission. The dispute has become a war over recognition and the restoration of administration.;;;;;;;;;;;;;x
+cvcr_bosnia_launch_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_tie_restore;Restore the Provincial Administration;;;;;;;;;;;;;x
+cvcr_bosnia_tie_restore_desc;End the armed secession and restore administration in the insurgent territory.;;;;;;;;;;;;;x
+cvcr_bosnia_tie_recognition;Recognition of the Insurgent Authority;;;;;;;;;;;;;x
+cvcr_bosnia_tie_recognition_desc;Compel the former ruler to accept the insurgent authority.;;;;;;;;;;;;;x
+AGGRESSION_cvcr_bosnia_tie_restore;The War of Resistance in Bosnia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_bosnia_tie_restore_war;The War of Resistance in Bosnia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_bosnia_tie_recognition;The War of Resistance in Bosnia;;;;;;;;;;;;;x
+AGGRESSION_cvcr_bosnia_tie_recognition_war;The War of Resistance in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_interrupted_TIE_title;The Interrupted Rising in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_interrupted_TIE_desc;The insurgent authority has disappeared before its declaration of war. The ministry closes the emergency register and begins restoring provincial administration.;;;;;;;;;;;;;x
+cvcr_bosnia_interrupted_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_victory_TIE_title;The Aftermath in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_victory_TIE_desc;The armed secession has been defeated. Local returns record deaths and missing residents among the Muslim communities of the district that rose. Families face damaged livelihoods and disrupted institutions. Religious registration is not evidence of private belief, and restored authority does not erase hostility.;;;;;;;;;;;;;x
+cvcr_bosnia_victory_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_peace_TIE_title;An Unsettled Peace in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_peace_TIE_desc;The war has ended without the recorded restoration of the insurgent district. The ministry closes its campaign account. Independence, a negotiated settlement or intervention has interrupted the charter's territorial ambitions.;;;;;;;;;;;;;x
+cvcr_bosnia_peace_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_returns_TIE_title;The Provincial Returns from Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_returns_TIE_desc;The military administration has submitted its final district returns. Complaints of reprisals are referred separately to the ministry.;;;;;;;;;;;;;x
+cvcr_bosnia_returns_TIE_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_bosnia_atrocity_TIE_title;Reports of Reprisals in Bosnia;;;;;;;;;;;;;x
+cvcr_bosnia_atrocity_TIE_desc;Witnesses report that troops and auxiliaries killed Muslim civilians after the fighting ended. These deaths were reprisals, not battlefield losses. The ministry must choose whether to investigate the officers involved and assist survivors or shield the administration from scrutiny.;;;;;;;;;;;;;x
+cvcr_bosnia_atrocity_TIE_investigate;Open an inquiry and compensate the survivors.;;;;;;;;;;;;;x
+cvcr_bosnia_atrocity_TIE_conceal;Shield the officers from an inquiry.;;;;;;;;;;;;;x
+cvcr_maintenance_title;Provincial Register;;;;;;;;;;;;;x
+cvcr_maintenance_desc;The provincial register has been updated.;;;;;;;;;;;;;x
+cvcr_maintenance_ack;Record the report.;;;;;;;;;;;;;x
+cvcr_war_name;The $ORDER$$FIRST$ Provincial War;;;;;;;;;;;;;x

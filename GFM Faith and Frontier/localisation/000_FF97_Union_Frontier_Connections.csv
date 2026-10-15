@@ -1,0 +1,62 @@
+ff97_philippolis_vlk;Demand the Philippolis Settlement;;;;;;;;;;;;;x
+ff97_philippolis_vlk_title;Demand the Philippolis Settlement;;;;;;;;;;;;;x
+ff97_philippolis_vlk_desc;Present a territorial demand for Philippolis after the preservation of the Union. GBP 500 funds the survey and commando mobilisation reserve. Acceptance cedes only Philippolis and begins the Griqua resettlement sequence. Refusal starts a war for that district; losing or a status quo peace grants no territory.;;;;;;;;;;;;;x
+ff97_mabhudu_vlk;Resolve the Mabhudu Coast;;;;;;;;;;;;;x
+ff97_mabhudu_vlk_title;Resolve the Mabhudu Coast;;;;;;;;;;;;;x
+ff97_mabhudu_vlk_desc;With the Zulu question settled, require Mabhudu to enter the united government. GBP 1200 funds the coastal commission and commandos. The crown ministers propose a coastal district under ducal administration; the Volksraad offers representation in the republic. Acceptance incorporates Mabhudu. Refusal starts a war for its incorporation. Foreign protectorates outside the Zulu-Union relationship are excluded.;;;;;;;;;;;;;x
+ff97_philippolis_saf;Demand the Philippolis Settlement;;;;;;;;;;;;;x
+ff97_philippolis_saf_title;Demand the Philippolis Settlement;;;;;;;;;;;;;x
+ff97_philippolis_saf_desc;Present a territorial demand for Philippolis after the preservation of the Union. GBP 500 funds the survey and commando mobilisation reserve. Acceptance cedes only Philippolis and begins the Griqua resettlement sequence. Refusal starts a war for that district; losing or a status quo peace grants no territory.;;;;;;;;;;;;;x
+ff97_mabhudu_saf;Resolve the Mabhudu Coast;;;;;;;;;;;;;x
+ff97_mabhudu_saf_title;Resolve the Mabhudu Coast;;;;;;;;;;;;;x
+ff97_mabhudu_saf_desc;With the Zulu question settled, require Mabhudu to enter the united government. GBP 1200 funds the coastal commission and commandos. The crown ministers propose a coastal district under ducal administration; the Volksraad offers representation in the republic. Acceptance incorporates Mabhudu. Refusal starts a war for its incorporation. Foreign protectorates outside the Zulu-Union relationship are excluded.;;;;;;;;;;;;;x
+FF97_philippolis_ACCEPT;Sign the articles.;;;;;;;;;;;;;x
+FF97_philippolis_REFUSE;Reject the demand and prepare for war.;;;;;;;;;;;;;x
+FF97_9785720_TITLE;The Union Demands Philippolis;;;;;;;;;;;;;x
+FF97_9785720_DESC;The united Boer government demands the Philippolis district. Ceding this district would secure our western communities under a separate Griqualand administration and allow the migration towards Kokstad. Rejecting the demand will bring the Union commandos against us. The rest of our lands are not included in the war goal.;;;;;;;;;;;;;x
+FF97_philippolis_RECORD;Record the settlement and its obligations.;;;;;;;;;;;;;x
+FF97_9785721_TITLE;The Philippolis District Settlement;;;;;;;;;;;;;x
+FF97_9785721_DESC;The district has passed to the Union under the agreed or enforced articles. The commissioners will record its boundaries. Western Griqua communities retain their own administration, while the road towards Kokstad opens for those choosing to migrate.;;;;;;;;;;;;;x
+FF97_philippolis_LOSS;Recall the commission and demobilise.;;;;;;;;;;;;;x
+FF97_9785722_TITLE;The Frontier Demand Has Failed;;;;;;;;;;;;;x
+FF97_9785722_DESC;Peace has ended the campaign without securing the demanded settlement. No province has been ceded under our articles. The commandos must stand down, and the government must wait three years before renewing its demand.;;;;;;;;;;;;;x
+FF97_mabhudu_ACCEPT;Sign the articles.;;;;;;;;;;;;;x
+FF97_mabhudu_REFUSE;Reject the demand and prepare for war.;;;;;;;;;;;;;x
+FF97_9785725_TITLE;The Union Demands a Mabhudu Settlement;;;;;;;;;;;;;x
+FF97_9785725_DESC;The Union government seeks to settle the coast after its dealings with Zululand. Its ministers demand incorporation of Mabhudu, with local administration and representation beneath the united government. We can sign the articles or reject them and face the Union commandos.;;;;;;;;;;;;;x
+FF97_mabhudu_RECORD;Record the settlement and its obligations.;;;;;;;;;;;;;x
+FF97_9785726_TITLE;The Mabhudu Coast Settlement;;;;;;;;;;;;;x
+FF97_9785726_DESC;The coastal settlement is complete. Ducal ministers will appoint district officers under the constitutional crown; republican delegates will organise representation in the Volksraad. Local registers and coastal routes must now be brought into the united administration.;;;;;;;;;;;;;x
+FF97_mabhudu_LOSS;Recall the commission and demobilise.;;;;;;;;;;;;;x
+FF97_9785727_TITLE;The Frontier Demand Has Failed;;;;;;;;;;;;;x
+FF97_9785727_DESC;Peace has ended the campaign without securing the demanded settlement. No province has been ceded under our articles. The commandos must stand down, and the government must wait three years before renewing its demand.;;;;;;;;;;;;;x
+FF97_GRIQUA_FORM;Constitute the western council.;;;;;;;;;;;;;x
+FF97_9785723_TITLE;The Western Griqua Communities;;;;;;;;;;;;;x
+FF97_9785723_DESC;With Philippolis ceded to the united government, the western Griqua districts retain a separate administration. Their council will govern Griqualand West, while the established migration towards Kokstad can proceed when the eastern host agrees.;;;;;;;;;;;;;x
+FF97_THABA_RECORD;Ratify the boundary articles.;;;;;;;;;;;;;x
+FF97_9785724_TITLE;The Thaba Nchu Boundary Articles;;;;;;;;;;;;;x
+FF97_9785724_DESC;The frontier commission has confirmed Thaba Nchu on the Union side of the agreed boundary. The district will pass to the united government, while the Basotho kingdom retains its sovereignty beyond the line.;;;;;;;;;;;;;x
+FF97_9785729_TITLE;The Thaba Nchu Boundary Articles;;;;;;;;;;;;;x
+FF97_9785729_DESC;The frontier commission has confirmed Thaba Nchu on the Union side of the agreed boundary. The district will pass to the united government, while the Basotho kingdom retains its sovereignty beyond the line.;;;;;;;;;;;;;x
+ff97_frontier_retry;Frontier Commission Recalled;;;;;;;;;;;;;x
+ff97_frontier_retry_desc;An unsuccessful campaign prevents another demand for three years.;;;;;;;;;;;;;x
+FF97_PHILIPPOLIS_WAR;The Philippolis District War;;;;;;;;;;;;;x
+NORMAL_FF97_PHILIPPOLIS_WAR;The $FIRST$-$SECOND$ Philippolis District War;;;;;;;;;;;;;x
+AGRESSION_FF97_PHILIPPOLIS_WAR;The $FIRST$-$SECOND$ Philippolis District War;;;;;;;;;;;;;x
+FF97_MABHUDU_WAR;The Mabhudu Coast War;;;;;;;;;;;;;x
+NORMAL_FF97_MABHUDU_WAR;The $FIRST$-$SECOND$ Mabhudu Coast War;;;;;;;;;;;;;x
+AGRESSION_FF97_MABHUDU_WAR;The $FIRST$-$SECOND$ Mabhudu Coast War;;;;;;;;;;;;;x
+ff97_philippolis_vlk_settlement_title;Enforce the Philippolis Articles;;;;;;;;;;;;;x
+ff97_philippolis_vlk_settlement_desc;Enforce only the agreed territorial demand.;;;;;;;;;;;;;x
+ff97_philippolis_vlk_settlement;Enforce the Philippolis Articles;;;;;;;;;;;;;x
+ff97_mabhudu_vlk_settlement_title;Enforce the Mabhudu Articles;;;;;;;;;;;;;x
+ff97_mabhudu_vlk_settlement_desc;Enforce only the agreed territorial demand.;;;;;;;;;;;;;x
+ff97_mabhudu_vlk_settlement;Enforce the Mabhudu Articles;;;;;;;;;;;;;x
+ff97_philippolis_saf_settlement_title;Enforce the Philippolis Articles;;;;;;;;;;;;;x
+ff97_philippolis_saf_settlement_desc;Enforce only the agreed territorial demand.;;;;;;;;;;;;;x
+ff97_philippolis_saf_settlement;Enforce the Philippolis Articles;;;;;;;;;;;;;x
+ff97_mabhudu_saf_settlement_title;Enforce the Mabhudu Articles;;;;;;;;;;;;;x
+ff97_mabhudu_saf_settlement_desc;Enforce only the agreed territorial demand.;;;;;;;;;;;;;x
+ff97_mabhudu_saf_settlement;Enforce the Mabhudu Articles;;;;;;;;;;;;;x
+FF97_SAAN_TITLE;Occupation of the Saan Frontier;;;;;;;;;;;;;x
+FF97_SAAN_DESC;Settler communities and frontier surveyors have established the presence needed to bring the Saan district under our administration. The government will record the new district under its own authority. This expansion follows the frontier conditions already met by our country, without transferring the land to a separate Boer republic.;;;;;;;;;;;;;x

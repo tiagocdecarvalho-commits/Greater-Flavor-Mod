@@ -1,0 +1,55 @@
+cvp_articles_ack;Record the territorial and protective articles.;;;;;;;;;;;;;x
+cvp_articles_title;The Papal Protectorate Articles;;;;;;;;;;;;;x
+cvp_articles_desc;The peace provides for the agreed provincial transfers and a Papal principality under southern protection. Rome retains its Pope and theocratic administration. The provincial articles are now being implemented.;;;;;;;;;;;;;x
+cvw_papal_provinces_setup;$RECIPIENT$ will cede its agreed outlying provinces and become a dependent Papal principality under $ACTOR$.;;;;;;;;;;;;;x
+cvw_brothers_setup;Southern victory breaks the Savoyard sphere and incorporates the remaining Savoyard kingdom. Piedmontese victory instead enforces recognition of its leadership.;;;;;;;;;;;;;x
+cvw_northern_liberation_setup;Austrian-held Lombard and Venetian core provinces will pass to their own Italian states.;;;;;;;;;;;;;x
+cvl_leadership_setup;The defeated Piedmontese crown will recognise the southern Italian initiative, allowing the political compact to be ratified.;;;;;;;;;;;;;x
+cvp_offer;Offer the territorial and protectorate settlement.;;;;;;;;;;;;;x
+cvp_oppose;Continue to oppose the southern terms.;;;;;;;;;;;;;x
+cvp_french_mediation_title;France and the Occupation of the Papal State;;;;;;;;;;;;;x
+cvp_french_mediation_desc;Southern troops hold the entire Papal State. Paris can offer peace on the provincial articles, leaving the Pope in Rome under southern protection, or continue to oppose the settlement. Mediation recognises the military result while reserving the Holy See's religious independence.;;;;;;;;;;;;;x
+cvp_sign;Sign the French-mediated settlement.;;;;;;;;;;;;;x
+cvp_continue;Reject the offer and continue the campaign.;;;;;;;;;;;;;x
+cvp_peace_offer_title;The French Proposal for Rome;;;;;;;;;;;;;x
+cvp_peace_offer_desc;Paris offers to close the Papal campaign on the agreed provincial terms. Benevento, Pontecorvo, Perugia and Ancona would pass to Naples wherever still papal, and the remaining Papal State would become a protected principality. Acceptance ends our participation in the Papal conflict and commits the territorial articles. The occupation must still hold when the agreement is signed.;;;;;;;;;;;;;x
+cvp_offer_closed_ack;Review the military and diplomatic position.;;;;;;;;;;;;;x
+cvp_offer_closed_title;The Mediation Terms No Longer Apply;;;;;;;;;;;;;x
+cvp_offer_closed_desc;The occupation or the southern mandate changed before the proposed agreement could be signed. No peace or territorial transfer has been imposed. Any continuing Papal war must be settled through ordinary peace negotiations.;;;;;;;;;;;;;x
+cvp_french_refusal_ack;Continue negotiations through the peace terms.;;;;;;;;;;;;;x
+cvp_french_refusal_title;France Refuses to Mediate;;;;;;;;;;;;;x
+cvp_french_refusal_desc;Paris refuses to endorse the southern protectorate proposal despite the occupation of the Papal State. The campaign continues, and the provincial and protective articles can still be enforced through the Papal settlement war goal.;;;;;;;;;;;;;x
+cvp_integrate_rome_title;Conclude the Roman and Vatican Settlement;;;;;;;;;;;;;x
+cvp_integrate_rome_desc;Victory over Piedmont permits a final agreement with the protected Pope. Incorporate the remaining Papal provinces while guaranteeing an inviolable Vatican enclave, freedom of worship and the Holy See's diplomatic independence. Federal institutions will respect regional government, while the other programmes extend their common administration. France will receive the guarantees for recognition.;;;;;;;;;;;;;x
+cvp_roman_ack;Publish the guarantees and receive the French response.;;;;;;;;;;;;;x
+cvp_roman_agreement_title;Rome and the Vatican Guarantees;;;;;;;;;;;;;x
+cvp_roman_agreement_desc;The instruments of the Roman agreement have been sealed. The former Papal provinces enter the state's administration, while the Holy See retains an inviolable Vatican enclave, freedom in religious affairs and the conduct of its diplomatic household. Officials preparing to assume their new charges have been instructed to respect those guarantees. For the crown, possession of Rome must be reconciled with the Catholic allegiance of its own subjects and the attention paid to the Pope by foreign courts. Copies of the articles have therefore been sent to Paris. The French answer will show whether the compromise can quiet a question that armies alone could not settle.;;;;;;;;;;;;;x
+cvp_paris_accept;Recognise the guarantees and the Roman settlement.;;;;;;;;;;;;;x
+cvp_paris_object;Maintain our objection to the temporal settlement.;;;;;;;;;;;;;x
+cvp_paris_guarantees_title;The Vatican Guarantees before France;;;;;;;;;;;;;x
+cvp_paris_guarantees_desc;The Italian ambassador has delivered the Roman articles to the French ministry. They announce the incorporation of the Pope's remaining temporal provinces, but reserve an inviolable Vatican enclave and independence for the Holy See in religious and diplomatic affairs. Catholic opinion in France will scrutinise every assurance, and the cabinet must judge whether the agreement affords the Pope sufficient protection. Recognition would permit a reconciliation with the southern government and give the guarantees diplomatic standing. An objection would preserve the French position upon the temporal question, while leaving relations with the Italian cabinet burdened by a settlement already put into effect.;;;;;;;;;;;;;x
+cvp_france_recognised_ack;Record the French answer.;;;;;;;;;;;;;x
+cvp_france_recognised_title;France Recognises the Roman Settlement;;;;;;;;;;;;;x
+cvp_france_recognised_desc;France has accepted the Vatican guarantees as a basis for recognising the incorporation of the former Papal provinces. Relations improve and the religious agreement gains diplomatic standing. The guarantees remain binding on our administration.;;;;;;;;;;;;;x
+cvp_france_objected_ack;Record the French answer.;;;;;;;;;;;;;x
+cvp_france_objected_title;France Objects to the Roman Settlement;;;;;;;;;;;;;x
+cvp_france_objected_desc;Paris considers the Vatican guarantees insufficient to justify the loss of the Pope's wider temporal state. Relations have deteriorated. The territorial agreement remains in force, but French recognition has not been secured.;;;;;;;;;;;;;x
+cvp_vatican_guarantees;The Vatican Guarantees;;;;;;;;;;;;;x
+cvp_vatican_guarantees_desc;The Holy See retains an inviolable enclave and religious and diplomatic independence within the Roman settlement. The surrounding city is administered by the Italian state.;;;;;;;;;;;;;x
+cvp_protectorate;The Papal protectorate established;;;;;;;;;;;;;x
+cvp_treaty_pending;The Papal treaty awaits implementation;;;;;;;;;;;;;x
+cvp_mediation_considered;France considered mediation;;;;;;;;;;;;;x
+cvp_mediation_offered;French mediation offered;;;;;;;;;;;;;x
+cvp_mediation_refused;France refused mediation;;;;;;;;;;;;;x
+cvp_mediation_answered;French mediation answered;;;;;;;;;;;;;x
+cvp_mediation_accepted;The French-mediated peace accepted;;;;;;;;;;;;;x
+cvp_mediation_declined;The French-mediated peace rejected;;;;;;;;;;;;;x
+cvp_offer_lapsed;The mediation terms ceased to apply;;;;;;;;;;;;;x
+cvp_offer_lapse_seen;Lapsed mediation reviewed;;;;;;;;;;;;;x
+cvp_refusal_seen;The French refusal reviewed;;;;;;;;;;;;;x
+cvp_rome_integrated;The Roman and Vatican settlement concluded;;;;;;;;;;;;;x
+cvp_roman_reported;The Vatican guarantees published;;;;;;;;;;;;;x
+cvp_roman_considered;France considered the Vatican guarantees;;;;;;;;;;;;;x
+cvp_france_recognised;France recognised the Roman settlement;;;;;;;;;;;;;x
+cvp_france_objected;France objected to the Roman settlement;;;;;;;;;;;;;x
+cvp_roman_response_seen;The French answer on Rome reviewed;;;;;;;;;;;;;x

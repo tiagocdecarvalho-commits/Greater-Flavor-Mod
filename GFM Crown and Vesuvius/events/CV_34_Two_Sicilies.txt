@@ -1,0 +1,1 @@
+country_event = { id = 9860050 title = "cv_french_opened_title" desc = "cv_french_opened_desc" picture = "bowring_treaty" is_triggered_only = yes immediate = {  } option = { name = "cv_french_opened_a" ai_chance = { factor = 80 } } }

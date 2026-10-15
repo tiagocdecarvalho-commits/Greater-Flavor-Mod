@@ -1,0 +1,10 @@
+owner = KHA
+controller = KHA
+add_core = KHA
+add_core = XHO
+trade_goods = cattle
+terrain = mountain
+life_rating = 35
+
+# Faith and Frontier 3: Griqualand East
+1861.1.1 = { add_core = GKE }

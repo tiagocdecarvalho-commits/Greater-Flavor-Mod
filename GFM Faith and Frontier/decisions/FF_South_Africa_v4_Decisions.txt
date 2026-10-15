@@ -1,0 +1,81 @@
+# Faith and Frontier - South Africa v4 regional decisions
+political_decisions = {
+ ffv4_offer_for_delagoa_bay = {
+  picture = ffv4_delagoa_purchase_decision
+  potential = { OR = { tag = SAF tag = TRN tag = ORA tag = VLK tag = NRB } year = 1868 2049 = { owner = { tag = POR } } NOT = { has_country_flag = ffv4_delagoa_offer_sent } }
+  allow = { war = no money = 12000 relation = { who = POR value = 100 } POR = { war = no } }
+  effect = { set_country_flag = ffv4_delagoa_offer_sent POR = { country_event = 9782520 } }
+  ai_will_do = { factor = 0 }
+ }
+ ffv4_offer_for_southern_mozambique = {
+  picture = ffv4_mozambique_purchase_decision
+  potential = { OR = { tag = SAF tag = TRN tag = ORA tag = VLK } year = 1885 2049 = { owner = { tag = POR } } NOT = { has_country_flag = ffv4_south_moz_offer_sent } }
+  allow = { war = no money = 36000 relation = { who = POR value = 160 } prestige = 25 POR = { war = no } }
+  effect = { set_country_flag = ffv4_south_moz_offer_sent POR = { country_event = 9782521 } }
+  ai_will_do = { factor = 0 }
+ }
+ ffv4_integrate_south_west_africa = {
+  picture = ffv4_namibia_integration_decision
+  potential = { tag = SAF year = 1925 owns = 2078 owns = 2079 owns = 2080 owns = 2081 owns = 2082 owns = 2083 owns = 2084 owns = 4012 owns = 2085 owns = 4014 owns = 2086 owns = 4013 owns = 3895 has_country_flag = ffv4_swa_mandate NOT = { has_country_flag = ffv4_swa_integration_debated } }
+  allow = { war = no prestige = 20 plurality = 25 }
+  effect = { set_country_flag = ffv4_swa_integration_debated country_event = 9782531 }
+  ai_will_do = { factor = 0.3 modifier = { factor = 2 has_country_flag = ffv4_swa_annexationist } }
+ }
+ ffv4_delagoa_free_port = {
+  picture = ffv4_delagoa_purchase_decision
+  potential = { OR = { tag = SAF tag = TRN tag = ORA tag = VLK } owns = 2049 NOT = { has_country_flag = ffv4_delagoa_free_port } }
+  allow = { war = no money = 9000 }
+  effect = { treasury = -9000 set_country_flag = ffv4_delagoa_free_port 2049 = { infrastructure = 1 add_province_modifier = { name = ffv4_delagoa_free_port duration = 3650 } } prestige = 1 }
+  ai_will_do = { factor = 1 }
+ }
+ ffv4_southern_african_customs_union = {
+  picture = ffv4_customs_union_decision
+  potential = { OR = { tag = SAF tag = TRN tag = ORA } year = 1889 NOT = { has_country_flag = ffv4_customs_union } }
+  allow = { war = no prestige = 15 }
+  effect = { set_country_flag = ffv4_customs_union add_country_modifier = { name = ffv4_customs_union duration = -1 } prestige = 2 }
+  ai_will_do = { factor = 0.7 }
+ }
+
+ ffv4_expand_durban_harbour = {
+  picture = ffv4_durban_harbour_decision
+  potential = { OR = { tag = SAF tag = NAL } owns = 2111 year = 1880 NOT = { has_country_flag = ffv4_durban_harbour } }
+  allow = { war = no money = 22000 }
+  effect = { treasury = -22000 set_country_flag = ffv4_durban_harbour 2111 = { infrastructure = 1 add_province_modifier = { name = ffv4_durban_harbour duration = -1 } } prestige = 1 }
+  ai_will_do = { factor = 1 }
+ }
+ ffv4_develop_witwatersrand_deep_levels = {
+  picture = ffv4_rand_deep_mining_decision
+  potential = { OR = { tag = SAF tag = TRN } owns = 2106 year = 1892 NOT = { has_country_flag = ffv4_deep_level_rand } }
+  allow = { war = no money = 32000 }
+  effect = { treasury = -32000 set_country_flag = ffv4_deep_level_rand 2106 = { add_province_modifier = { name = ffv4_deep_level_mining duration = -1 } } prestige = 2 }
+  ai_will_do = { factor = 1 }
+ }
+ ffv4_endow_fort_hare = {
+  picture = ffv4_fort_hare_decision
+  potential = { tag = SAF year = 1916 owns = 2099 has_country_flag = ffv4_fort_hare NOT = { has_country_flag = ffv4_fort_hare_endowment } }
+  allow = { war = no money = 9000 }
+  effect = { treasury = -9000 set_country_flag = ffv4_fort_hare_endowment add_country_modifier = { name = ffv4_fort_hare_endowment duration = -1 } plurality = 1 prestige = 1 }
+  ai_will_do = { factor = 0.8 }
+ }
+ ffv4_memorialise_mendi = {
+  picture = ffv4_mendi_memorial_decision
+  potential = { tag = SAF year = 1918 has_country_flag = ffv4_mendi NOT = { has_country_flag = ffv4_mendi_memorialised } }
+  allow = { war = no money = 2500 }
+  effect = { treasury = -2500 set_country_flag = ffv4_mendi_memorialised add_country_modifier = { name = ffv4_mendi_public_memory duration = -1 } prestige = 1 plurality = 1 }
+  ai_will_do = { factor = 0.8 }
+ }
+ ffv4_electrify_the_rand = {
+  picture = ffv4_rand_electricity_decision
+  potential = { tag = SAF year = 1923 owns = 2106 has_country_flag = ffv4_escom NOT = { has_country_flag = ffv4_rand_electrified } }
+  allow = { war = no money = 14000 }
+  effect = { treasury = -14000 set_country_flag = ffv4_rand_electrified 2106 = { infrastructure = 1 add_province_modifier = { name = ffv4_rand_electrification duration = -1 } } prestige = 1 }
+  ai_will_do = { factor = 1 }
+ }
+ ffv4_develop_south_west_railways = {
+  picture = ffv4_swa_railways_decision
+  potential = { tag = SAF year = 1921 owns = 2078 owns = 2083 has_country_flag = ffv4_swa_mandate NOT = { has_country_flag = ffv4_swa_railways } }
+  allow = { war = no money = 30000 }
+  effect = { treasury = -30000 set_country_flag = ffv4_swa_railways 2078 = { infrastructure = 1 } 2083 = { infrastructure = 1 } 4012 = { infrastructure = 1 } 4013 = { infrastructure = 1 } 4014 = { infrastructure = 1 } add_country_modifier = { name = ffv4_swa_railway_system duration = -1 } prestige = 1 }
+  ai_will_do = { factor = 1 }
+ }
+}

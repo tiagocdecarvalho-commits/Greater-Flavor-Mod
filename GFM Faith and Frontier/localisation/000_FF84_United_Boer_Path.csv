@@ -1,0 +1,215 @@
+FF84_BREAKUP_TITLE;The Union at the Crossroads;;;;;;;;;;;;;x
+FF84_BREAKUP_DESC;The proclamation of British sovereignty between the Orange and Vaal rivers has sharpened a dispute inside our own government. Southern delegates insist that their districts must administer their affairs separately, the northern council fears that separation will unravel the union established by the emigrants. The Volksraad must decide whether to recognise two successor governments or resist the southern secession. Acceptance will leave Potchefstroom in the north and the Orange administration in the south. A campaign to preserve the union will keep the common government in being, but force alone cannot reconcile its districts.;;;;;;;;;;;;;x
+FF84_FIGHT_UNION;The common government must survive: oppose the secession.;;;;;;;;;;;;;x
+FF84_RESTORE;Reopen the councils and begin the work of reconciliation.;;;;;;;;;;;;;x
+FF84_9785264_TITLE;The Union Survives the Civil War;;;;;;;;;;;;;x
+FF84_9785264_DESC;The southern resistance has accepted the authority of the common Volksraad. Commandos are returning to their districts, but the quarrel that brought them into the field cannot be ended by an order to disarm. Magistrates must reopen their offices, disputed levies must be audited, and representatives from the Orange districts must be admitted to the council. The government will begin a period of reintegration before proclaiming its permanent constitution. No northern district is surrendered, and the southern administration is incorporated into the union once more.;;;;;;;;;;;;;x
+FF84_SEPARATE;Recognise the separation and preserve the northern government.;;;;;;;;;;;;;x
+FF84_9785265_TITLE;The Southern Separation Is Recognised;;;;;;;;;;;;;x
+FF84_9785265_DESC;The campaign has ended without restoring the authority of the common government. The northern burghers will retain their districts under the Potchefstroom administration, while the Orange government remains separate. The settlement imposes no cession of northern land to Oranje. What has been lost is the union itself: its common accounts, command and assembly must now be divided. British protection and the conventions governing the successor states will determine the next stage of their affairs.;;;;;;;;;;;;;x
+FF84_REINTEGRATE;Proclaim the United Boer Republics and summon the convention.;;;;;;;;;;;;;x
+FF84_9785266_TITLE;The Reintegration of Oranje Is Complete;;;;;;;;;;;;;x
+FF84_9785266_DESC;The district registers have been reconciled, the southern magistrates have resumed their duties and the Volksraad has accepted a common statement of accounts. The union no longer rests solely on the commandos that defended it. Representatives from both sides of the Vaal now share responsibility for the treasury, courts and public levies. Winburg-Potchefstroom will henceforth be known as the United Boer Republics. A constitutional convention will determine how that common authority is exercised, and whether the districts will continue under elected republican officers or entrust a limited hereditary office with the guardianship of their charter.;;;;;;;;;;;;;x
+FF84_9785267_OPT0;Ratify a federation of republics under elected officers.;;;;;;;;;;;;;x
+FF84_9785267_OPT1;Give an elected presidency a stronger national mandate.;;;;;;;;;;;;;x
+FF84_9785267_OPT2;Establish the United Boer Duchies under a constitutional charter.;;;;;;;;;;;;;x
+FF84_9785267_TITLE;The Charter of the United Government;;;;;;;;;;;;;x
+FF84_9785267_DESC;The convention must answer the question that military victory left unresolved: who may bind the districts of the union? Federal delegates propose elected officers and a council representing the constituent republics. Supporters of a stronger presidency want the treasury and command to answer to one executive. A smaller party argues that a constitutional duke, restrained by ministers and the Volksraad, could stand above rival commandants. The ducal proposal would confer no authority on a foreign sovereign and would not place the union under Dutch or British protection. Every draft requires public accounts and a common legal system, but the balance between local and national power will differ.;;;;;;;;;;;;;x
+ff84_accounts;Establish the Union Audit Office;;;;;;;;;;;;;x
+ff84_accounts_desc;The union's collectors have brought ledgers written under different rules and currencies. Auditors will standardise receipts, investigate arrears and publish what each district contributes to common defence. The work should make revenue more predictable, but it will also expose old exemptions and disputed obligations. Ministers must earn confidence by applying the same rules to northern and southern officers.;;;;;;;;;;;;;x
+FF84_9785268_OK;Put the appropriation to work.;;;;;;;;;;;;;x
+FF84_9785268_TITLE;An Account for Every District;;;;;;;;;;;;;x
+FF84_9785268_DESC;The union's collectors have brought ledgers written under different rules and currencies. Auditors will standardise receipts, investigate arrears and publish what each district contributes to common defence. The work should make revenue more predictable, but it will also expose old exemptions and disputed obligations. Ministers must earn confidence by applying the same rules to northern and southern officers.;;;;;;;;;;;;;x
+ff84_audit;An Account for Every District;;;;;;;;;;;;;x
+ff84_audit_desc;The union's collectors have brought ledgers written under different rules and currencies. Auditors will standardise receipts, investigate arrears and publish what each district contributes to common defence. The work should make revenue more predictable, but it will also expose old exemptions and disputed obligations. Ministers must earn confidence by applying the same rules to northern and southern officers.;;;;;;;;;;;;;x
+ff84_courts;One Law Across the Vaal;;;;;;;;;;;;;x
+ff84_courts_desc;Litigants can no longer be sent from one district to another because its magistrate follows a different procedure. A common court of appeal will retain Roman-Dutch law while publishing rules for records, evidence and jurisdiction. Local magistrates keep their ordinary duties, appeals and disputes between districts will be heard under the authority of the united government. The new court is intended to replace personal mediation by commandants with a civil institution.;;;;;;;;;;;;;x
+FF84_9785269_OK;Put the appropriation to work.;;;;;;;;;;;;;x
+FF84_9785269_TITLE;One Law Across the Vaal;;;;;;;;;;;;;x
+FF84_9785269_DESC;Litigants can no longer be sent from one district to another because its magistrate follows a different procedure. A common court of appeal will retain Roman-Dutch law while publishing rules for records, evidence and jurisdiction. Local magistrates keep their ordinary duties, appeals and disputes between districts will be heard under the authority of the united government. The new court is intended to replace personal mediation by commandants with a civil institution.;;;;;;;;;;;;;x
+ff84_schools;Teachers for the United Districts;;;;;;;;;;;;;x
+ff84_schools_desc;The school board has begun recruiting teachers and preparing Dutch textbooks for the district schools. Distance remains a greater obstacle than any proclamation: farm families cannot always spare a child for a long journey to town. Grants will therefore support small local schools as well as the training of teachers. The common curriculum gives the younger generation a language of public affairs shared by both banks of the Vaal.;;;;;;;;;;;;;x
+FF84_9785270_OK;Put the appropriation to work.;;;;;;;;;;;;;x
+FF84_9785270_TITLE;Teachers for the United Districts;;;;;;;;;;;;;x
+FF84_9785270_DESC;The school board has begun recruiting teachers and preparing Dutch textbooks for the district schools. Distance remains a greater obstacle than any proclamation: farm families cannot always spare a child for a long journey to town. Grants will therefore support small local schools as well as the training of teachers. The common curriculum gives the younger generation a language of public affairs shared by both banks of the Vaal.;;;;;;;;;;;;;x
+ff84_commandos;The Quartermaster and the Commando;;;;;;;;;;;;;x
+ff84_commandos_desc;A common command is of little use if each district brings ammunition that another cannot replenish. The quartermaster's office will keep standard inventories, arrange contracts and map the routes by which provisions reach the commandos. Burghers remain responsible for service through their districts, but training and supplies will answer to a common plan. The reform strengthens what the union can sustain in the field without turning every farmer into a permanent soldier.;;;;;;;;;;;;;x
+FF84_9785271_OK;Put the appropriation to work.;;;;;;;;;;;;;x
+FF84_9785271_TITLE;The Quartermaster and the Commando;;;;;;;;;;;;;x
+FF84_9785271_DESC;A common command is of little use if each district brings ammunition that another cannot replenish. The quartermaster's office will keep standard inventories, arrange contracts and map the routes by which provisions reach the commandos. Burghers remain responsible for service through their districts, but training and supplies will answer to a common plan. The reform strengthens what the union can sustain in the field without turning every farmer into a permanent soldier.;;;;;;;;;;;;;x
+ff84_health;Clean Water for the Market Towns;;;;;;;;;;;;;x
+ff84_health_desc;Growing market towns draw families into streets built without drains or reliable water supplies. District boards will inspect wells, organise refuse collection and maintain small medical stations along the busiest routes. The appropriation pays for continuing services as well as construction. Officials cannot promise that disease will disappear, but clean water and accessible treatment can make the new towns less vulnerable to recurring epidemics.;;;;;;;;;;;;;x
+FF84_9785272_OK;Put the appropriation to work.;;;;;;;;;;;;;x
+FF84_9785272_TITLE;Clean Water for the Market Towns;;;;;;;;;;;;;x
+FF84_9785272_DESC;Growing market towns draw families into streets built without drains or reliable water supplies. District boards will inspect wells, organise refuse collection and maintain small medical stations along the busiest routes. The appropriation pays for continuing services as well as construction. Officials cannot promise that disease will disappear, but clean water and accessible treatment can make the new towns less vulnerable to recurring epidemics.;;;;;;;;;;;;;x
+ff84_rail;Rails Between the Two Administrations;;;;;;;;;;;;;x
+ff84_rail_desc;Engineers have laid their proposals before the Volksraad. A trunk route must connect the northern markets with the southern towns before traffic can be offered to a coastal railway. Surveying gradients and arranging wayleaves will require negotiations with landowners, building the line itself still depends on available technology, capital and materials. The government will fund a transport commission and coordinate freight facilities rather than proclaim a railway into existence.;;;;;;;;;;;;;x
+FF84_9785273_OK;Put the appropriation to work.;;;;;;;;;;;;;x
+FF84_9785273_TITLE;Rails Between the Two Administrations;;;;;;;;;;;;;x
+FF84_9785273_DESC;Engineers have laid their proposals before the Volksraad. A trunk route must connect the northern markets with the southern towns before traffic can be offered to a coastal railway. Surveying gradients and arranging wayleaves will require negotiations with landowners, building the line itself still depends on available technology, capital and materials. The government will fund a transport commission and coordinate freight facilities rather than proclaim a railway into existence.;;;;;;;;;;;;;x
+FF84_9785274_OPT0;Confirm the powers reserved to the districts.;;;;;;;;;;;;;x
+FF84_9785274_OPT1;Fund a permanent national secretariat.;;;;;;;;;;;;;x
+FF84_9785274_TITLE;The Grondwet of the Union;;;;;;;;;;;;;x
+FF84_9785274_DESC;The provisional charter has survived its first years, but the districts still disagree over the division of public power. Marthinus Wessel Pretorius and his supporters argue that a durable united government needs an executive whose duties cannot be frustrated by rival councils. Their opponents insist that local assent is the safeguard against another civil war. The assembly is considering a written allocation of powers: the national government would manage foreign affairs and common defence, while local councils retain ordinary taxation and administration. The question is how far to extend the national authority beyond those shared responsibilities.;;;;;;;;;;;;;x
+FF84_9785275_OPT0;Establish public registers and accountable mineral licences.;;;;;;;;;;;;;x
+FF84_9785275_OPT1;Let private associations organise the prospecting camps.;;;;;;;;;;;;;x
+FF84_9785275_TITLE;The Diamond Fields and the Union Treasury;;;;;;;;;;;;;x
+FF84_9785275_DESC;Reports of diamonds along the Orange River have brought prospectors, dealers and competing claims into the council chamber. A fortunate discovery does not determine who owns the ground, and the government must distinguish private mineral rights from the borders of neighbouring administrations. Delegates propose a licensing office with published fees, others would leave the camps to private associations while the magistrates settle disputes. The union can prepare its treasury and law for a rush, but only the districts where diamonds are found will acquire the new mines.;;;;;;;;;;;;;x
+FF84_9785276_OPT0;Support vernacular publications alongside Dutch education.;;;;;;;;;;;;;x
+FF84_9785276_OPT1;Keep Dutch administration and permit voluntary literary societies.;;;;;;;;;;;;;x
+FF84_9785276_TITLE;A Language for Public Life;;;;;;;;;;;;;x
+FF84_9785276_DESC;Writers and teachers are pressing the government to recognise the spoken language of the farms alongside the Dutch used in official documents. Their case concerns schoolbooks, newspapers and the accessibility of public notices. Magistrates warn that a sudden change could leave the courts without an agreed terminology, supporters reply that a language remains weak while educated people refuse to print it. The council can sponsor publications and dictionaries, or retain Dutch as the sole language of administration while allowing voluntary societies to carry the literary work forward.;;;;;;;;;;;;;x
+FF84_9785277_OPT0;Invest mining revenue in common services and inspection.;;;;;;;;;;;;;x
+FF84_9785277_OPT1;Keep levies light and encourage private investment.;;;;;;;;;;;;;x
+FF84_9785277_TITLE;Gold and the Common Government;;;;;;;;;;;;;x
+FF84_9785277_DESC;The Witwatersrand discoveries are drawing investment and labour towards the northern districts. Their magistrates face a volume of contracts, claims and disputes that the farming republic never anticipated. The united treasury offers an advantage: money raised by mining can support roads and public services across the country. Yet southern delegates will object if they pay for northern towns without a voice in the spending, and mine owners will resist levies they consider arbitrary. The government must decide whether to reinvest in common services or keep the burden on the new industry light.;;;;;;;;;;;;;x
+FF84_9785278_OPT0;Create a measured route to citizenship and national representation.;;;;;;;;;;;;;x
+FF84_9785278_OPT1;Give newcomers a voice in municipal administration first.;;;;;;;;;;;;;x
+FF84_9785278_OPT2;Retain the existing burgher qualification.;;;;;;;;;;;;;x
+FF84_9785278_TITLE;The Petition of the Newcomers;;;;;;;;;;;;;x
+FF84_9785278_DESC;The mining towns contain residents who pay taxes and raise families in the union but have little influence over its assembly. Their petitions ask for a clear route from residence to citizenship. Burghers fear that rapid enfranchisement will hand public policy to men whose allegiance still lies overseas, reformers answer that permanent exclusion gives foreign governments a cause to intervene. Ministers propose either a measured naturalisation statute, local representation before national citizenship, or continued restrictions. The question reaches beyond the mines to the authority of the united constitution itself.;;;;;;;;;;;;;x
+FF84_9785279_OPT0;Seek a regional customs conference on equal terms.;;;;;;;;;;;;;x
+FF84_9785279_OPT1;Prepare the union to defend its charter and borders.;;;;;;;;;;;;;x
+FF84_9785279_OPT2;Invest in administration before seeking new commitments.;;;;;;;;;;;;;x
+FF84_9785279_TITLE;The Union at the Turn of the Century;;;;;;;;;;;;;x
+FF84_9785279_DESC;The government preserved in the civil war now administers a country of mining towns, farms and district institutions. Its foreign relations are shaped by the same resources that have strengthened its treasury. Merchants ask for a regional customs conference, commandants press for more reliable defence, and ministers warn that disputes over citizenship can undo years of diplomacy. The council must set the union's next course. Peace will depend on the terms other governments accept, while preparedness will depend on the resources the Volksraad is willing to provide.;;;;;;;;;;;;;x
+ff84_negotiate_recognition;Request a Convention With Britain;;;;;;;;;;;;;x
+ff84_negotiate_recognition_desc;The union's delegates have asked Britain to settle the legal position of the emigrant government in one convention. They seek recognition of the common assembly and a practical agreement over the frontier, rather than separate negotiations with northern and southern councils. Accepting the proposal would improve relations and permit ordinary commerce across the border. Declining it leaves the union in possession of its territory, but unresolved claims will continue to burden relations with the Cape.;;;;;;;;;;;;;x
+FF84_9785280_ACCEPT;Agree to the proposed convention.;;;;;;;;;;;;;x
+FF84_9785280_REFUSE;Decline the proposed undertaking.;;;;;;;;;;;;;x
+FF84_9785280_TITLE;A Convention With the United Government;;;;;;;;;;;;;x
+FF84_9785280_DESC;The union's delegates have asked Britain to settle the legal position of the emigrant government in one convention. They seek recognition of the common assembly and a practical agreement over the frontier, rather than separate negotiations with northern and southern councils. Accepting the proposal would improve relations and permit ordinary commerce across the border. Declining it leaves the union in possession of its territory, but unresolved claims will continue to burden relations with the Cape.;;;;;;;;;;;;;x
+ff84_recognition_pause;Negotiations Suspended;;;;;;;;;;;;;x
+ff84_recognition_pause_desc;The delegation has returned without an agreement. A renewed proposal must wait until diplomatic contacts have recovered.;;;;;;;;;;;;;x
+ff84_negotiate_basotho;Convene a Basotho Boundary Commission;;;;;;;;;;;;;x
+ff84_negotiate_basotho_desc;From 1860, the Union proposes a joint boundary commission. Acceptance cedes Thaba Nchu to the united government when it is held by the independent Basotho kingdom, while recognising Basotho sovereignty beyond the agreed line. The commission will record cattle claims and market access. Refusal leaves the border unchanged.;;;;;;;;;;;;;x
+FF84_9785281_ACCEPT;Agree to the proposed convention.;;;;;;;;;;;;;x
+FF84_9785281_REFUSE;Decline the proposed undertaking.;;;;;;;;;;;;;x
+FF84_9785281_TITLE;A Commission on the Southern Frontier;;;;;;;;;;;;;x
+FF84_9785281_DESC;From 1860, the Union proposes a joint boundary commission. Acceptance cedes Thaba Nchu to the united government when it is held by the independent Basotho kingdom, while recognising Basotho sovereignty beyond the agreed line. The commission will record cattle claims and market access. Refusal leaves the border unchanged.;;;;;;;;;;;;;x
+ff84_basotho_pause;Negotiations Suspended;;;;;;;;;;;;;x
+ff84_basotho_pause_desc;The delegation has returned without an agreement. A renewed proposal must wait until diplomatic contacts have recovered.;;;;;;;;;;;;;x
+ff84_negotiate_portugal;Negotiate Access to Portuguese Ports;;;;;;;;;;;;;x
+ff84_negotiate_portugal_desc;The union seeks a commercial route to the Portuguese coast. Its delegation proposes published transit charges, protection for merchants and a commission to examine a future railway connection. Portugal would retain its ports and territory, the agreement offers trade rather than a sale or military guarantee. A useful arrangement could reduce the inland government's reliance on Cape routes, but Lisbon may prefer to reserve its freedom to set customs charges.;;;;;;;;;;;;;x
+FF84_9785282_ACCEPT;Agree to the proposed convention.;;;;;;;;;;;;;x
+FF84_9785282_REFUSE;Decline the proposed undertaking.;;;;;;;;;;;;;x
+FF84_9785282_TITLE;Transit for the Inland Union;;;;;;;;;;;;;x
+FF84_9785282_DESC;The union seeks a commercial route to the Portuguese coast. Its delegation proposes published transit charges, protection for merchants and a commission to examine a future railway connection. Portugal would retain its ports and territory, the agreement offers trade rather than a sale or military guarantee. A useful arrangement could reduce the inland government's reliance on Cape routes, but Lisbon may prefer to reserve its freedom to set customs charges.;;;;;;;;;;;;;x
+ff84_portugal_pause;Negotiations Suspended;;;;;;;;;;;;;x
+ff84_portugal_pause_desc;The delegation has returned without an agreement. A renewed proposal must wait until diplomatic contacts have recovered.;;;;;;;;;;;;;x
+ff84_negotiate_dutch;Invite a Dutch Educational Mission;;;;;;;;;;;;;x
+ff84_negotiate_dutch_desc;The union has requested teachers, technical advice and commercial contacts from the Netherlands. Dutch remains the language of its court records and much of its education, but the delegation has stressed that cultural ties do not confer sovereignty. The convention would support teacher recruitment and easier dealings between merchants. It would also recognise Dutch settlers as part of the union's civic community. The Netherlands must decide whether the proposed undertaking justifies a continuing official mission.;;;;;;;;;;;;;x
+FF84_9785283_ACCEPT;Agree to the proposed convention.;;;;;;;;;;;;;x
+FF84_9785283_REFUSE;Decline the proposed undertaking.;;;;;;;;;;;;;x
+FF84_9785283_TITLE;Teachers and Trade Across the Sea;;;;;;;;;;;;;x
+FF84_9785283_DESC;The union has requested teachers, technical advice and commercial contacts from the Netherlands. Dutch remains the language of its court records and much of its education, but the delegation has stressed that cultural ties do not confer sovereignty. The convention would support teacher recruitment and easier dealings between merchants. It would also recognise Dutch settlers as part of the union's civic community. The Netherlands must decide whether the proposed undertaking justifies a continuing official mission.;;;;;;;;;;;;;x
+ff84_dutch_pause;Negotiations Suspended;;;;;;;;;;;;;x
+ff84_dutch_pause_desc;The delegation has returned without an agreement. A renewed proposal must wait until diplomatic contacts have recovered.;;;;;;;;;;;;;x
+FF84_AGREEMENT_REPORT;Publish the articles and instruct the responsible officers.;;;;;;;;;;;;;x
+FF84_9785284_TITLE;The Delegates Return With an Agreement;;;;;;;;;;;;;x
+FF84_9785284_DESC;The delegation has returned with signed articles. The convention recognises the matters entrusted to it without granting foreign officials authority over the union's government. Ministers will publish the terms and instruct the magistrates responsible for carrying them out. An agreement on paper will be judged by its administration: reliable records, predictable treatment of merchants and prompt replies to the other government's officers.;;;;;;;;;;;;;x
+FF84_REFUSAL_REPORT;Record the reply and reconsider our approach in due course.;;;;;;;;;;;;;x
+FF84_9785285_TITLE;The Delegation Returns Without an Agreement;;;;;;;;;;;;;x
+FF84_9785285_DESC;The other government has declined the proposed convention. The delegation's uncommitted budget has been returned to the treasury, and ministers will suspend a renewed approach until relations have had time to recover. The refusal transfers no territory and places the union under no new obligation. Its officers must continue to manage the frontier and commerce under the arrangements already in force.;;;;;;;;;;;;;x
+FF84_9785286_OPT0;Offer commercial cooperation while reserving our sovereignty.;;;;;;;;;;;;;x
+FF84_9785286_OPT1;Reject the proposal and prepare to defend the charter.;;;;;;;;;;;;;x
+FF84_9785286_TITLE;The Cape Confederation Proposal;;;;;;;;;;;;;x
+FF84_9785286_DESC;British officials have renewed discussion of a southern African confederation. They argue that common customs, railways and security require a closer political arrangement, our ministers reply that those practical questions do not entitle a colonial administration to absorb the union. The districts are now accustomed to a common government and will not easily consent to its dissolution. The Volksraad can seek a limited commercial understanding, or reject the proposal and make its resistance clear. Neither answer authorises a foreign governor to enter our offices.;;;;;;;;;;;;;x
+FF84_9785287_OPT0;Keep the dispute at the conference table.;;;;;;;;;;;;;x
+FF84_9785287_OPT1;Defend the charter by force and demand recognition.;;;;;;;;;;;;;x
+FF84_9785287_TITLE;The Sovereignty Debate Returns;;;;;;;;;;;;;x
+FF84_9785287_DESC;The dispute over British influence has reached the council again. Commandants who rejected confederation argue that diplomatic exchanges will never settle the question while officials at the Cape continue to speak of imperial supervision. Merchants warn that a war would close routes on which farms and towns depend. The united government can persist in negotiation, or put its independence to the test by demanding a binding settlement in the field. The latter course risks the very charter it seeks to defend: Britain will seek to impose its protection if it wins.;;;;;;;;;;;;;x
+FF84_INDEPENDENCE_PEACE;Publish the convention and bring the commandos home.;;;;;;;;;;;;;x
+FF84_9785288_TITLE;The Charter Is Recognised in Peace;;;;;;;;;;;;;x
+FF84_9785288_DESC;Britain has accepted a settlement recognising the united government's independence. The commandos return to their districts under a charter that has survived another test, but the ministers know that peace must be sustained through ordinary relations as well as military success. The convention grants no claim to British coastal colonies. Its purpose is to confirm the authority of the union within its own borders and reopen the channels of trade and diplomacy interrupted by the campaign.;;;;;;;;;;;;;x
+FF84_DUKE_LIMIT;Keep a modest civil list and require public accounts.;;;;;;;;;;;;;x
+FF84_DUKE_COURT;Fund a national court under the limits of the charter.;;;;;;;;;;;;;x
+FF84_9785289_TITLE;A Duke Bound by the Charter;;;;;;;;;;;;;x
+FF84_9785289_DESC;The new ducal office has taken its place above the ministry, but the charter gives it duties rather than an unlimited command. Ministers answer to the Volksraad, appropriations require its consent and the constituent districts retain their councils. Courtiers urge a larger establishment to give the office dignity, deputies insist that the union cannot finance ceremony before its courts and schools. The first settlement of the civil list will show whether constitutional restraint is a written promise or a rule applied to the head of state.;;;;;;;;;;;;;x
+FF84_REPUBLIC_ACCOUNT;Require ministers to account before the elected council.;;;;;;;;;;;;;x
+FF84_9785290_TITLE;An Executive Answerable to the Republics;;;;;;;;;;;;;x
+FF84_9785290_DESC;Election returns have brought another disagreement between district delegates and the national ministry. The executive argues that a common government must act promptly, the delegates answer that prompt action still requires published accounts and a lawful appropriation. The republics cannot preserve their union by treating every objection as disloyalty. The Volksraad will establish a committee to question ministers and receive petitions, providing a regular channel for disputes that once brought commandos into the field.;;;;;;;;;;;;;x
+FF84_CHARTER_IDENTITY;Record the constitutional form of the united government.;;;;;;;;;;;;;x
+FF84_9785291_TITLE;The Union Charter and the Government;;;;;;;;;;;;;x
+FF84_9785291_DESC;The public institutions continue under the united charter. The ministry will publish the constitutional title appropriate to the government and preserve the records shared by the constituent districts.;;;;;;;;;;;;;x
+ff84_programme;Review the Programme of the United Government;;;;;;;;;;;;;x
+ff84_programme_desc;Read the council's programme for the united districts, including constitutional administration, negotiations and mineral development.;;;;;;;;;;;;;x
+FF84_REVIEW;Bring the programme before the district representatives.;;;;;;;;;;;;;x
+FF84_9785292_TITLE;The Work Before the United Government;;;;;;;;;;;;;x
+FF84_9785292_DESC;The united government must decide how to finance its next three-year programme. A supplementary appropriation of GBP 500 can pay clerks to reconcile district accounts and support court registers, improving tax collection and administration, or pay teachers and prepare common school registers, improving education. These are temporary grants, not the permanent audit office or school system, which must still be established separately. Keeping expenditure within the existing budget preserves the treasury and tightens collection, but leaves education to advance more slowly. Only one programme can operate at a time.;;;;;;;;;;;;;x
+ff84_enforce_union;Conclude the Civil War: Restore the Union;;;;;;;;;;;;;x
+ff84_enforce_union_desc;Demand the reintegration of the southern government after its districts have been occupied. The common government will remain in VLK and begin civil reconstruction.;;;;;;;;;;;;;x
+ff84_accept_separation;Conclude the Civil War: Accept Separation;;;;;;;;;;;;;x
+ff84_accept_separation_desc;Recognise the southern administration and end the campaign. Potchefstroom retains the northern districts, Oranje receives no northern land.;;;;;;;;;;;;;x
+ff84_fractured_union;A Fractured Union;;;;;;;;;;;;;x
+ff84_fractured_union_desc;Civil war has interrupted the common administration.;;;;;;;;;;;;;x
+ff84_reintegration_wait;Reintegration of the Southern Districts;;;;;;;;;;;;;x
+ff84_reintegration_wait_desc;Registers and accounts must be reconciled before a permanent proclamation.;;;;;;;;;;;;;x
+ff84_reconstruction;Restoring the District Offices;;;;;;;;;;;;;x
+ff84_reconstruction_desc;Civil reconstruction follows the return of the southern districts.;;;;;;;;;;;;;x
+ff84_constitution_wait;Preparing the United Convention;;;;;;;;;;;;;x
+ff84_constitution_wait_desc;Delegates are preparing the permanent constitutional settlement.;;;;;;;;;;;;;x
+ff84_common_treasury;The Common Treasury;;;;;;;;;;;;;x
+ff84_common_treasury_desc;Northern and southern districts now share public accounts.;;;;;;;;;;;;;x
+ff84_federal_charter;The Federal Charter;;;;;;;;;;;;;x
+ff84_federal_charter_desc;District councils share authority through the elected common government.;;;;;;;;;;;;;x
+ff84_presidential_charter;The National Presidency;;;;;;;;;;;;;x
+ff84_presidential_charter_desc;The elected presidency coordinates national administration and defence.;;;;;;;;;;;;;x
+ff84_ducal_settlement;The Ducal Charter;;;;;;;;;;;;;x
+ff84_ducal_settlement_desc;The hereditary office is restrained by ministers, the Volksraad and the district charter.;;;;;;;;;;;;;x
+ff84_reserved_powers;Powers Reserved to the Districts;;;;;;;;;;;;;x
+ff84_reserved_powers_desc;The Grondwet records the division between district and national authority.;;;;;;;;;;;;;x
+ff84_secretariat;The National Secretariat;;;;;;;;;;;;;x
+ff84_secretariat_desc;Permanent clerks coordinate the work of the united government.;;;;;;;;;;;;;x
+ff84_licences;Public Mineral Registers;;;;;;;;;;;;;x
+ff84_licences_desc;Published registers and licence fees improve administration of mining.;;;;;;;;;;;;;x
+ff84_prospectors;Private Prospecting Associations;;;;;;;;;;;;;x
+ff84_prospectors_desc;Private camps organise their contracts under the magistrates.;;;;;;;;;;;;;x
+ff84_language_societies;Language and Literary Societies;;;;;;;;;;;;;x
+ff84_language_societies_desc;The government supports accessible publications and educational work.;;;;;;;;;;;;;x
+ff84_dutch_chancery;Dutch Public Records;;;;;;;;;;;;;x
+ff84_dutch_chancery_desc;The chancery retains a common language for administration and law.;;;;;;;;;;;;;x
+ff84_mining_services;Services for the Mining Towns;;;;;;;;;;;;;x
+ff84_mining_services_desc;Public investment supports the towns transformed by mining.;;;;;;;;;;;;;x
+ff84_mining_enterprise;Encouraging Mining Investment;;;;;;;;;;;;;x
+ff84_mining_enterprise_desc;Predictable and modest levies encourage private mineral investment.;;;;;;;;;;;;;x
+ff84_naturalisation;A Route to Citizenship;;;;;;;;;;;;;x
+ff84_naturalisation_desc;Residents can seek membership of the republic under a published statute.;;;;;;;;;;;;;x
+ff84_municipal_compromise;Municipal Representation;;;;;;;;;;;;;x
+ff84_municipal_compromise_desc;Newcomers have a local channel for their grievances.;;;;;;;;;;;;;x
+ff84_armed_neutrality;Armed Neutrality;;;;;;;;;;;;;x
+ff84_armed_neutrality_desc;The government coordinates preparations to defend its charter.;;;;;;;;;;;;;x
+ff84_public_service;The Public Service Programme;;;;;;;;;;;;;x
+ff84_public_service_desc;Professional administration supports the districts and towns.;;;;;;;;;;;;;x
+ff84_recognised;The British Convention;;;;;;;;;;;;;x
+ff84_recognised_desc;Britain has recognised the united government through a negotiated convention.;;;;;;;;;;;;;x
+ff84_basotho_compact;The Basotho Frontier Commission;;;;;;;;;;;;;x
+ff84_basotho_compact_desc;Boundary records and cattle disputes are addressed through a joint commission.;;;;;;;;;;;;;x
+ff84_portuguese_transit;Portuguese Transit Convention;;;;;;;;;;;;;x
+ff84_portuguese_transit_desc;Published transit arrangements support the inland economy without transferring ports.;;;;;;;;;;;;;x
+ff84_dutch_convention;The Dutch Educational Convention;;;;;;;;;;;;;x
+ff84_dutch_convention_desc;Dutch teachers and commercial contacts support the united districts.;;;;;;;;;;;;;x
+ff84_ducal_court;A Court Under the Charter;;;;;;;;;;;;;x
+ff84_ducal_court_desc;The civil list supports the constitutional head of state.;;;;;;;;;;;;;x
+ff84_parliamentary_accounts;Ministers Before the Volksraad;;;;;;;;;;;;;x
+ff84_parliamentary_accounts_desc;The elected council receives accounts and petitions.;;;;;;;;;;;;;x
+ff84_review_pause;The Programme Before the Districts;;;;;;;;;;;;;x
+ff84_review_pause_desc;The council has recently circulated its programme.;;;;;;;;;;;;;x
+ff84_union_republic;Federal Republic;;;;;;;;;;;;;x
+ff84_constitutional_duchies;Constitutional Duchies;;;;;;;;;;;;;x
+VLK_ff84_union_republic;The United Boer Republics;;;;;;;;;;;;;x
+VLK_ff84_constitutional_duchies;The United Boer Duchies;;;;;;;;;;;;;x
+VLK_ff84_union_republic_ADJ;United Boer;;;;;;;;;;;;;x
+VLK_ff84_constitutional_duchies_ADJ;United Boer;;;;;;;;;;;;;x
+ff84_restore_union;Restore the United Government;;;;;;;;;;;;;x
+ff84_restore_union_desc;Enforce the convention defining the authority and independence of the united government.;;;;;;;;;;;;;x
+ff84_restore_union_short_desc;Restore the United Government;;;;;;;;;;;;;x
+ff84_union_independence;Recognise the United Charter;;;;;;;;;;;;;x
+ff84_union_independence_desc;Enforce the convention defining the authority and independence of the united government.;;;;;;;;;;;;;x
+ff84_union_independence_short_desc;Recognise the United Charter;;;;;;;;;;;;;x
+FF84_CIVIL_WAR;The Boer Civil War;;;;;;;;;;;;;x
+AGRESSION_FF84_CIVIL_WAR;The Boer Civil War;;;;;;;;;;;;;x
+FF84_INDEPENDENCE_WAR;The War for the United Charter;;;;;;;;;;;;;x
+AGRESSION_FF84_INDEPENDENCE_WAR;The War for the United Charter;;;;;;;;;;;;;x
+ff84_commercial_congress;The Commercial Congress;;;;;;;;;;;;;x
+ff84_commercial_congress_desc;The union pursues regional customs agreements through equal diplomatic representation.;;;;;;;;;;;;;x

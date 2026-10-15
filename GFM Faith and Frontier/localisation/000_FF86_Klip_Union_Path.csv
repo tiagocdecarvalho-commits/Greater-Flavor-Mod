@@ -1,0 +1,23 @@
+FF86_BACK_DOWN;Recognise the settlement and withdraw the objection.;;;;;;;;;;;;;x
+FF86_BRITISH_WAR;Defend imperial authority and send the expedition.;;;;;;;;;;;;;x
+FF86_9785293_TITLE;The Union Defends the Klip River Settlers;;;;;;;;;;;;;x
+FF86_9785293_DESC;The Winburg-Potchefstroom government has declared that it will stand behind the settlers of the Klip River Republic. Its council proposes to incorporate their districts into the cross-Vaal union, challenging British authority in Natal. The Cape administration must decide whether the dispute warrants an expedition against the united government or whether to recognise the settlement and avoid a wider frontier war. Withdrawal would leave the emigrant union intact. An enforced imperial settlement would recover Klip River and separate the Orange districts from the northern administration.;;;;;;;;;;;;;x
+FF86_INCORPORATE;Receive the Klip River delegates and preserve our common government.;;;;;;;;;;;;;x
+FF86_9785294_TITLE;The Klip River Settlement Secures the Union;;;;;;;;;;;;;x
+FF86_9785294_DESC;The dispute with Britain has ended without the submission of the emigrant government. The Klip River council will enter the union, and the northern and southern Volksraad delegates will continue under one administration. There will be no division into rival Boer governments. Ministers now have the quieter but essential work of reconciling district accounts, establishing representation and incorporating the new frontier offices. A permanent constitutional convention will follow once that preparation is complete.;;;;;;;;;;;;;x
+FF86_HISTORICAL_LOSS;Accept the settlement and continue in Potchefstroom.;;;;;;;;;;;;;x
+FF86_9785295_TITLE;The Imperial Settlement of Klip River;;;;;;;;;;;;;x
+FF86_9785295_DESC;Britain has imposed its frontier settlement. The Klip River districts pass into British Natal, while the Orange administration is separated from the northern emigrant government under British protection. Potchefstroom continues north of the Vaal. Oranje receives no northern district: the loss is the common government and its claim to Klip River. The successor administrations must now pursue their affairs under the conventions governing the British frontier.;;;;;;;;;;;;;x
+FF86_IMPLEMENT_BRITISH;Send the settlement to the emigrant government.;;;;;;;;;;;;;x
+FF86_9785296_TITLE;The British Conference at the Frontier;;;;;;;;;;;;;x
+FF86_9785296_DESC;The expedition has obtained an imperial settlement. Officers will implement the transfer of Klip River and the separation of the southern government, while the northern districts retain their own administration.;;;;;;;;;;;;;x
+FF86_9785297_TITLE;The Reintegration of the United Districts Is Complete;;;;;;;;;;;;;x
+FF86_9785297_DESC;The council has completed the registers, representation and common accounts of the northern, Orange and Klip River districts. The union preserved through the frontier settlement now rests on civil institutions rather than a temporary agreement among commandants. Winburg-Potchefstroom will be proclaimed the United Boer Republics, and a constitutional convention will decide how its districts share power. Delegates will consider a federation of elected republican officers, a stronger national presidency, or the United Boer Duchies under a limited constitutional head of state. The government remains united: no war between its constituent districts is required.;;;;;;;;;;;;;x
+FF86_KLIP_TITLE;Britain Rejects the Klip River Republic;;;;;;;;;;;;;x
+FF86_KLIP_DESC;Britain refuses to recognise the Klip River Republic. Its settlers have appealed to our common government to stand behind their council and receive their districts into the union. We can accept their incorporation into British Natal, or declare our support and require Britain to answer. The Cape administration may withdraw its objection or send an expedition. A successful defence or a peaceful agreement would preserve the cross-Vaal government, while an imperial victory would separate the Orange administration from Potchefstroom.;;;;;;;;;;;;;x
+FF86_SUPPORT;Stand behind the settlers and seek their entry into the union.;;;;;;;;;;;;;x
+ff86_british_klip_settlement;The Klip River and Orange Settlement;;;;;;;;;;;;;x
+ff86_british_klip_settlement_desc;Recover Klip River and establish the separate Orange and Potchefstroom administrations.;;;;;;;;;;;;;x
+ff86_british_klip_settlement_short_desc;The Klip River Settlement;;;;;;;;;;;;;x
+FF86_KLIP_WAR;The Klip River War;;;;;;;;;;;;;x
+AGRESSION_FF86_KLIP_WAR;The Klip River War;;;;;;;;;;;;;x

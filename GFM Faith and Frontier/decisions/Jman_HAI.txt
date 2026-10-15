@@ -1,0 +1,339 @@
+political_decisions = {
+    QUE_revolt = {
+        picture = vive_le_quebec
+        potential = {
+            ai = no
+            tag = HAI
+            total_amount_of_ships = 10
+            rank = 16
+            58 = {
+                owned_by = ENG
+            }
+            NOT = {
+                exists = QUE
+                has_country_flag = QUE_revolt
+                relation = {
+                    who = ENG
+                    value = 0
+                }
+                has_country_modifier = recently_lost_war
+            }
+        }
+        allow = {
+            money = 75000
+            58 = {
+                average_militancy = 4
+            }
+            NOT = {
+                alliance_with = ENG
+            }
+        }
+        effect = {
+            set_country_flag = QUE_revolt
+            money = -75000
+            ENG = {
+                release = QUE
+                war = {
+                    target = QUE
+                    attacker_goal = {
+                        casus_belli = civil_war
+                    }
+                    defender_goal = {
+                        casus_belli = humiliate_no_infamy
+                    }
+                }
+            }
+            create_alliance = QUE
+            QUE = {
+                capital_scope = {
+                    sub_unit = {
+                        type = infantry
+                        value = current
+                    }
+                    sub_unit = {
+                        type = infantry
+                        value = current
+                    }
+                    sub_unit = {
+                        type = infantry
+                        value = current
+                    }
+                    sub_unit = {
+                        type = infantry
+                        value = current
+                    }
+                    sub_unit = {
+                        type = cavalry
+                        value = current
+                    }
+                    sub_unit = {
+                        type = artillery
+                        value = current
+                    }
+                    sub_unit = {
+                        type = artillery
+                        value = current
+                    }
+                    sub_unit = {
+                        type = artillery
+                        value = current
+                    }
+                    sub_unit = {
+                        type = artillery
+                        value = current
+                    }
+                    sub_unit = {
+                        type = artillery
+                        value = current
+                    }
+                }
+            }
+            relation = {
+                who = ENG
+                value = -200
+            }
+        }
+    }
+    claim_glp_mtq = {
+        picture = claim_the_caribbean
+        potential = {
+            ai = no
+            tag = HAI
+            NOT = {
+                has_country_flag = claim_glp_mtq
+            }
+        }
+        allow = {
+            nationalism_n_imperialism = 1
+            prestige = 25
+            rank = 16
+            NOT = {
+                has_country_modifier = recently_lost_war
+            }
+            total_amount_of_ships = 10
+            2230 = {
+                OR = {
+                    owned_by = THIS
+                    owner = {
+                        NOT = {
+                            relation = {
+                                who = HAI
+                                value = 0
+                            }
+                            alliance_with = HAI
+                        }
+                    }
+                }
+            }
+        }
+        effect = {
+            set_country_flag = claim_glp_mtq
+            badboy = 5
+            FWI = {
+                all_core = {
+                    add_core = HAI
+                }
+            }
+            relation = {
+                who = FRA
+                value = -200
+            }
+        }
+    }
+    form_national_guard = {
+        picture = force_publique
+        potential = {
+            NOT = {
+                has_country_flag = form_national_guard
+            }
+            OR = {
+                tag = HAI
+                AND = {
+                    tag = FWI
+                    has_country_flag = haiti_formed_FWI
+                }
+            }
+        }
+        allow = {
+            money = 100000
+            military_staff_system = 1
+        }
+        effect = {
+            money = -100000
+            set_country_flag = form_national_guard
+            political_reform = mandatory_service
+            add_country_modifier = {
+                name = liberte_or_mort
+                duration = -1
+            }
+        }
+    }
+    found_libreville = {
+        picture = map_gabon
+        potential = {
+            ai = no
+            tag = HAI
+            rank = 16
+            1972 = {
+                OR = {
+                    owned_by = THIS
+                    owner = {
+                        civilized = no
+                    }
+                }
+            }
+            NOT = {
+                has_country_flag = found_libreville
+                has_country_modifier = recently_lost_war
+            }
+        }
+        allow = {
+            invention = mission_to_civilize
+            money = 50000
+            1972 = {
+                owner = {
+                    civilized = no
+                    vassal_of = HAI
+                }
+            }
+        }
+        effect = {
+            set_country_flag = found_libreville
+            treasury = -50000
+            1972 = {
+                secede_province = THIS
+                any_pop = {
+                    literacy = 0.25
+                }
+            }
+            any_pop = {
+                limit = {
+                    culture = afro_caribbean
+                    militancy = 7.5
+                }
+                move_pop = 1972
+            }
+        }
+    }
+    accept_afros = {
+        picture = embrace_minority
+        potential = {
+            year = 1860
+            NOT = {
+                has_country_flag = accept_afros
+            }
+            OR = {
+                tag = HAI
+                AND = {
+                    tag = FWI
+                    has_country_flag = haiti_formed_FWI
+                }
+            }
+        }
+        allow = {
+            revolution_n_counterrevolution = 1
+            social_science = 1
+        }
+        effect = {
+            set_country_flag = accept_afros
+            add_accepted_culture = afro_caribbean
+            add_accepted_culture = afro_american
+            add_accepted_culture = afro_latino
+            add_accepted_culture = afro_french
+            add_accepted_culture = afro_dutch
+            add_accepted_culture = afro_brazilian
+            add_accepted_culture = kreol
+        }
+    }
+}
+political_decisions = {
+    form_french_caribbean = {
+        picture = map_caribbean
+        potential = {
+            tag = HAI
+            FWI = {
+                exists = no
+            }
+            has_country_flag = claim_glp_mtq
+        }
+        allow = {
+            war = no
+            is_vassal = no
+            revolution_n_counterrevolution = 1
+            prestige = 50
+            NOT = {
+                has_country_modifier = recently_lost_war
+            }
+            total_amount_of_ships = 35
+            HAI_2213 = {
+                OR = {
+                    owned_by = THIS
+                    empty = yes
+                }
+            }
+            FWI = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                        owner = {
+                            vassal_of = THIS
+                        }
+                        empty = yes
+                    }
+                }
+            }
+        }
+        effect = {
+            set_country_flag = haiti_formed_FWI
+            badboy = 10
+            change_tag = FWI
+            HAI_2214 = {
+                add_core = FWI
+            }
+            ENG_203 = {
+                add_core = FWI
+            }
+            ENG_2224 = {
+                add_core = FWI
+            }
+            ENG_2228 = {
+                add_core = FWI
+            }
+            SPA_2209 = {
+                add_core = FWI
+            }
+            any_country = {
+                limit = {
+                    any_owned_province = {
+                        OR = {
+                            region = ENG_203
+                            region = ENG_2224
+                            region = ENG_2228
+                            region = SPA_2209
+                        }
+                    }
+                }
+                relation = {
+                    who = FWI
+                    value = -400
+                }
+                diplomatic_influence = {
+                    who = FWI
+                    value = -400
+                }
+                leave_alliance = FWI
+                end_military_access = FWI
+            }
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.6
+            }
+        }
+    }
+}

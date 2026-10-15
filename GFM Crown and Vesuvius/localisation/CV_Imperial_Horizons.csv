@@ -1,0 +1,1181 @@
+cve_opening_0;Reconcile the provinces with the imperial settlement.;;;;;;;;;;;;;x
+cve_opening_1;Build a uniform administration under the crown.;;;;;;;;;;;;;x
+cve_opening_title;The Empire After Victory;;;;;;;;;;;;;x
+cve_opening_desc;The imperial crown has united the Italian governments. The former courts, provincial administrations and armies must now find their place within a common state. Ministers also await instructions concerning Vienna and the Mediterranean.;;;;;;;;;;;;;x
+cve_courts_0;Offer service and recognise provincial traditions.;;;;;;;;;;;;;x
+cve_courts_1;Reserve the highest appointments for imperial loyalists.;;;;;;;;;;;;;x
+cve_courts_title;The Courts That Became Provinces;;;;;;;;;;;;;x
+cve_courts_desc;Former ministers and officers offer service, while displaced dynasties cultivate their adherents. The crown must choose whether imperial loyalty can accommodate provincial traditions.;;;;;;;;;;;;;x
+cve_capital_0;Keep court and government in Florence.;;;;;;;;;;;;;x
+cve_capital_1;Move the government to Rome, retain the Florentine court.;;;;;;;;;;;;;x
+cve_capital_2;Establish court and government in Rome.;;;;;;;;;;;;;x
+cve_capital_title;Florence and Rome;;;;;;;;;;;;;x
+cve_capital_desc;Florence is the home of the dynasty, Rome commands the imagination of the nation. The ministries and the imperial household need not occupy the same city.;;;;;;;;;;;;;x
+cve_pope_0;Offer religious guarantees and reopen negotiations.;;;;;;;;;;;;;x
+cve_pope_1;Assert civil sovereignty while protecting freedom of worship.;;;;;;;;;;;;;x
+cve_pope_title;The Emperor and the Holy Father;;;;;;;;;;;;;x
+cve_pope_desc;The incorporation of the temporal provinces has not settled the position of the papacy. Ministers propose protected ecclesiastical institutions or a unilateral assertion of civil authority.;;;;;;;;;;;;;x
+cve_staff;Unify the staff and the supply services.;;;;;;;;;;;;;x
+cve_staff_desc;The former states have left competing officer traditions and supply systems. Common training and appointments can make their regiments an imperial army.;;;;;;;;;;;;;x
+cve_officers;Integrate provincial officers into common commands.;;;;;;;;;;;;;x
+cve_officers_desc;The former states have left competing officer traditions and supply systems. Common training and appointments can make their regiments an imperial army.;;;;;;;;;;;;;x
+cve_army_title;One Army, Many Uniforms;;;;;;;;;;;;;x
+cve_army_desc;The former states have left competing officer traditions and supply systems. Common training and appointments can make their regiments an imperial army.;;;;;;;;;;;;;x
+cve_army_programme_0;Unify the staff and the supply services.;;;;;;;;;;;;;x
+cve_army_programme_1;Integrate provincial officers into common commands.;;;;;;;;;;;;;x
+cve_army_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cve_army_appropriation_title;One Army, Many Uniforms;;;;;;;;;;;;;x
+cve_army_appropriation_desc;The former states have left competing officer traditions and supply systems. Common training and appointments can make their regiments an imperial army. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cve_dockyards;Prioritise fleet maintenance and dockyard training.;;;;;;;;;;;;;x
+cve_dockyards_desc;Genoa, Livorno and the southern dockyards must support a common fleet. Overseas commitments require repair facilities, trained crews and dependable stores.;;;;;;;;;;;;;x
+cve_shipping;Prioritise merchant shipping and commercial offices.;;;;;;;;;;;;;x
+cve_shipping_desc;Genoa, Livorno and the southern dockyards must support a common fleet. Overseas commitments require repair facilities, trained crews and dependable stores.;;;;;;;;;;;;;x
+cve_navy_title;An Imperial Navy for Distant Seas;;;;;;;;;;;;;x
+cve_navy_desc;Genoa, Livorno and the southern dockyards must support a common fleet. Overseas commitments require repair facilities, trained crews and dependable stores.;;;;;;;;;;;;;x
+cve_navy_programme_0;Prioritise fleet maintenance and dockyard training.;;;;;;;;;;;;;x
+cve_navy_programme_1;Prioritise merchant shipping and commercial offices.;;;;;;;;;;;;;x
+cve_navy_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cve_navy_appropriation_title;An Imperial Navy for Distant Seas;;;;;;;;;;;;;x
+cve_navy_appropriation_desc;Genoa, Livorno and the southern dockyards must support a common fleet. Overseas commitments require repair facilities, trained crews and dependable stores. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cve_industrial_links;Connect industrial districts and commercial ports.;;;;;;;;;;;;;x
+cve_industrial_links_desc;The regional railways must serve a wider national economy. Ministers debate industrial connections and the neglected routes joining southern markets.;;;;;;;;;;;;;x
+cve_provincial_links;Develop provincial markets and feeder connections.;;;;;;;;;;;;;x
+cve_provincial_links_desc;The regional railways must serve a wider national economy. Ministers debate industrial connections and the neglected routes joining southern markets.;;;;;;;;;;;;;x
+cve_railways_title;The National Railway Settlement;;;;;;;;;;;;;x
+cve_railways_desc;The regional railways must serve a wider national economy. Ministers debate industrial connections and the neglected routes joining southern markets.;;;;;;;;;;;;;x
+cve_railways_programme_0;Connect industrial districts and commercial ports.;;;;;;;;;;;;;x
+cve_railways_programme_1;Develop provincial markets and feeder connections.;;;;;;;;;;;;;x
+cve_railways_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cve_railways_appropriation_title;The National Railway Settlement;;;;;;;;;;;;;x
+cve_railways_appropriation_desc;The regional railways must serve a wider national economy. Ministers debate industrial connections and the neglected routes joining southern markets. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cve_workshops;Support technical workshops and apprenticeships.;;;;;;;;;;;;;x
+cve_workshops_desc;Southern communities petition for workshops, schools and more reliable administration. Investment can strengthen integration while competing with military demands.;;;;;;;;;;;;;x
+cve_rural;Support agricultural markets and public instruction.;;;;;;;;;;;;;x
+cve_rural_desc;Southern communities petition for workshops, schools and more reliable administration. Investment can strengthen integration while competing with military demands.;;;;;;;;;;;;;x
+cve_southern_title;Industry Beyond the Northern Cities;;;;;;;;;;;;;x
+cve_southern_desc;Southern communities petition for workshops, schools and more reliable administration. Investment can strengthen integration while competing with military demands.;;;;;;;;;;;;;x
+cve_southern_programme_0;Support technical workshops and apprenticeships.;;;;;;;;;;;;;x
+cve_southern_programme_1;Support agricultural markets and public instruction.;;;;;;;;;;;;;x
+cve_southern_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cve_southern_appropriation_title;Industry Beyond the Northern Cities;;;;;;;;;;;;;x
+cve_southern_appropriation_desc;Southern communities petition for workshops, schools and more reliable administration. Investment can strengthen integration while competing with military demands. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cve_consuls;Establish a commercial consular service.;;;;;;;;;;;;;x
+cve_consuls_desc;Shipping firms need reliable consular assistance abroad. The crown can support commercial representation without assuming direct rule over foreign territories.;;;;;;;;;;;;;x
+cve_interpreters;Train diplomatic and commercial interpreters.;;;;;;;;;;;;;x
+cve_interpreters_desc;Shipping firms need reliable consular assistance abroad. The crown can support commercial representation without assuming direct rule over foreign territories.;;;;;;;;;;;;;x
+cve_consuls_title;Consulates and Merchant Houses;;;;;;;;;;;;;x
+cve_consuls_programme_0;Establish a commercial consular service.;;;;;;;;;;;;;x
+cve_consuls_programme_1;Train diplomatic and commercial interpreters.;;;;;;;;;;;;;x
+cve_consuls_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cve_consuls_appropriation_title;Consulates and Merchant Houses;;;;;;;;;;;;;x
+cve_consuls_appropriation_desc;Shipping firms need reliable consular assistance abroad. The crown can support commercial representation without assuming direct rule over foreign territories. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cve_audits;Audit the colonial service and its contracts.;;;;;;;;;;;;;x
+cve_audits_desc;Overseas commitments require audited accounts and officials answerable to the government. Ministers debate direct administration and negotiated local institutions.;;;;;;;;;;;;;x
+cve_local_rule;Retain local institutions under treaty supervision.;;;;;;;;;;;;;x
+cve_local_rule_desc;Overseas commitments require audited accounts and officials answerable to the government. Ministers debate direct administration and negotiated local institutions.;;;;;;;;;;;;;x
+cve_colonial_admin_title;The Overseas Administration;;;;;;;;;;;;;x
+cve_colonial_admin_desc;Overseas commitments require audited accounts and officials answerable to the government. Ministers debate direct administration and negotiated local institutions.;;;;;;;;;;;;;x
+cve_colonial_admin_programme_0;Audit the colonial service and its contracts.;;;;;;;;;;;;;x
+cve_colonial_admin_programme_1;Retain local institutions under treaty supervision.;;;;;;;;;;;;;x
+cve_colonial_admin_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cve_colonial_admin_appropriation_title;The Overseas Administration;;;;;;;;;;;;;x
+cve_colonial_admin_appropriation_desc;Overseas commitments require audited accounts and officials answerable to the government. Ministers debate direct administration and negotiated local institutions. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cve_reign_0;Seek a durable understanding between the dynasties.;;;;;;;;;;;;;x
+cve_reign_1;Complete the national frontier.;;;;;;;;;;;;;x
+cve_reign_2;Strengthen the maritime and commercial empire.;;;;;;;;;;;;;x
+cve_reign_title;Ferdinando and the Direction of the Empire;;;;;;;;;;;;;x
+cve_reign_desc;The new emperor inherits both the national achievement and its unresolved obligations. His ministers seek a guiding priority while retaining freedom to respond to events.;;;;;;;;;;;;;x
+cve_budget_0;Make room for relief and public representation.;;;;;;;;;;;;;x
+cve_budget_1;Defend the executive settlement and its commitments.;;;;;;;;;;;;;x
+cve_budget_title;Bread, Wages and the Imperial Budget;;;;;;;;;;;;;x
+cve_budget_desc;Rising expectations and overseas expenditure have sharpened the debate over public priorities. Ministers must answer petitions for relief and political participation.;;;;;;;;;;;;;x
+cve_century_0;Consolidate the institutions and commitments we possess.;;;;;;;;;;;;;x
+cve_century_1;Maintain an active diplomatic and maritime policy.;;;;;;;;;;;;;x
+cve_century_title;The Empire at the Turn of the Century;;;;;;;;;;;;;x
+cve_century_desc;A generation has grown up under the Italian imperial crown. Parliament, the court and the provincial councils debate whether the coming century calls for consolidation or further commitments abroad.;;;;;;;;;;;;;x
+cve_austria_0;Pursue a negotiated dynastic settlement.;;;;;;;;;;;;;x
+cve_austria_1;Prepare to enforce the national claim.;;;;;;;;;;;;;x
+cve_austria_2;Maintain armed neutrality and await an opportunity.;;;;;;;;;;;;;x
+cve_austria_title;Two Crowns, One Dynasty, Two National Interests;;;;;;;;;;;;;x
+cve_austria_desc;The House of Lorraine rules Italy, but Vienna still holds Italian provinces. Shared ancestry may open negotiations, it cannot remove the conflict between the two states.;;;;;;;;;;;;;x
+cve_accord_ENG_cooldown;Diplomatic mission: The Anglo-Italian Maritime Convention;;;;;;;;;;;;;x
+cve_accord_ENG_title;The Anglo-Italian Maritime Convention;;;;;;;;;;;;;x
+cve_accord_ENG_desc;Send a funded proposal to Britain. The convention establishes an alliance and reciprocal military access. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_accord_ENG_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_accord_ENG_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_accord_ENG_offer_title;The Anglo-Italian Maritime Convention;;;;;;;;;;;;;x
+cve_accord_ENG_offer_desc;The Italian imperial government has sent a funded delegation. The convention establishes an alliance and reciprocal military access. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_accord_ENG_record;Record the agreement.;;;;;;;;;;;;;x
+cve_accord_ENG_accepted_title;The Anglo-Italian Maritime Convention: Agreement Reached;;;;;;;;;;;;;x
+cve_accord_ENG_accepted_desc;The other government has accepted. The convention establishes an alliance and reciprocal military access. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_accord_ENG_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_accord_ENG_declined_title;The Anglo-Italian Maritime Convention: No Agreement;;;;;;;;;;;;;x
+cve_accord_ENG_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_accord_ENG_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_accord_ENG_timeout_title;The Anglo-Italian Maritime Convention: Mission Review;;;;;;;;;;;;;x
+cve_accord_ENG_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_accord_ENG_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_accord_FRA_cooldown;Diplomatic mission: The Franco-Italian Understanding;;;;;;;;;;;;;x
+cve_accord_FRA_title;The Franco-Italian Understanding;;;;;;;;;;;;;x
+cve_accord_FRA_desc;Send a funded proposal to France. The convention establishes an alliance and reciprocal military access. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_accord_FRA_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_accord_FRA_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_accord_FRA_offer_title;The Franco-Italian Understanding;;;;;;;;;;;;;x
+cve_accord_FRA_offer_desc;The Italian imperial government has sent a funded delegation. The convention establishes an alliance and reciprocal military access. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_accord_FRA_record;Record the agreement.;;;;;;;;;;;;;x
+cve_accord_FRA_accepted_title;The Franco-Italian Understanding: Agreement Reached;;;;;;;;;;;;;x
+cve_accord_FRA_accepted_desc;The other government has accepted. The convention establishes an alliance and reciprocal military access. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_accord_FRA_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_accord_FRA_declined_title;The Franco-Italian Understanding: No Agreement;;;;;;;;;;;;;x
+cve_accord_FRA_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_accord_FRA_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_accord_FRA_timeout_title;The Franco-Italian Understanding: Mission Review;;;;;;;;;;;;;x
+cve_accord_FRA_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_accord_FRA_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_accord_AUS_cooldown;Diplomatic mission: The Convention of the Two Imperial Courts;;;;;;;;;;;;;x
+cve_accord_AUS_title;The Convention of the Two Imperial Courts;;;;;;;;;;;;;x
+cve_accord_AUS_desc;Send a funded proposal to Austria. The convention establishes an alliance and reciprocal military access. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_accord_AUS_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_accord_AUS_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_accord_AUS_offer_title;The Convention of the Two Imperial Courts;;;;;;;;;;;;;x
+cve_accord_AUS_offer_desc;The Italian imperial government has sent a funded delegation. The convention establishes an alliance and reciprocal military access. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_accord_AUS_record;Record the agreement.;;;;;;;;;;;;;x
+cve_accord_AUS_accepted_title;The Convention of the Two Imperial Courts: Agreement Reached;;;;;;;;;;;;;x
+cve_accord_AUS_accepted_desc;The other government has accepted. The convention establishes an alliance and reciprocal military access. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_accord_AUS_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_accord_AUS_declined_title;The Convention of the Two Imperial Courts: No Agreement;;;;;;;;;;;;;x
+cve_accord_AUS_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_accord_AUS_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_accord_AUS_timeout_title;The Convention of the Two Imperial Courts: Mission Review;;;;;;;;;;;;;x
+cve_accord_AUS_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_accord_AUS_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_accord_PRU_cooldown;Diplomatic mission: The Prussian Military Convention;;;;;;;;;;;;;x
+cve_accord_PRU_title;The Prussian Military Convention;;;;;;;;;;;;;x
+cve_accord_PRU_desc;Send a funded proposal to Prussia. The convention establishes an alliance and reciprocal military access. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_accord_PRU_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_accord_PRU_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_accord_PRU_offer_title;The Prussian Military Convention;;;;;;;;;;;;;x
+cve_accord_PRU_offer_desc;The Italian imperial government has sent a funded delegation. The convention establishes an alliance and reciprocal military access. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_accord_PRU_record;Record the agreement.;;;;;;;;;;;;;x
+cve_accord_PRU_accepted_title;The Prussian Military Convention: Agreement Reached;;;;;;;;;;;;;x
+cve_accord_PRU_accepted_desc;The other government has accepted. The convention establishes an alliance and reciprocal military access. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_accord_PRU_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_accord_PRU_declined_title;The Prussian Military Convention: No Agreement;;;;;;;;;;;;;x
+cve_accord_PRU_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_accord_PRU_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_accord_PRU_timeout_title;The Prussian Military Convention: Mission Review;;;;;;;;;;;;;x
+cve_accord_PRU_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_accord_PRU_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_accord_GER_cooldown;Diplomatic mission: The German Military Convention;;;;;;;;;;;;;x
+cve_accord_GER_title;The German Military Convention;;;;;;;;;;;;;x
+cve_accord_GER_desc;Send a funded proposal to Germany. The convention establishes an alliance and reciprocal military access. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_accord_GER_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_accord_GER_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_accord_GER_offer_title;The German Military Convention;;;;;;;;;;;;;x
+cve_accord_GER_offer_desc;The Italian imperial government has sent a funded delegation. The convention establishes an alliance and reciprocal military access. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_accord_GER_record;Record the agreement.;;;;;;;;;;;;;x
+cve_accord_GER_accepted_title;The German Military Convention: Agreement Reached;;;;;;;;;;;;;x
+cve_accord_GER_accepted_desc;The other government has accepted. The convention establishes an alliance and reciprocal military access. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_accord_GER_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_accord_GER_declined_title;The German Military Convention: No Agreement;;;;;;;;;;;;;x
+cve_accord_GER_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_accord_GER_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_accord_GER_timeout_title;The German Military Convention: Mission Review;;;;;;;;;;;;;x
+cve_accord_GER_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_accord_GER_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_lombardy_cooldown;Diplomatic mission: The Lombardy Convention;;;;;;;;;;;;;x
+cve_lombardy_title;The Lombardy Convention;;;;;;;;;;;;;x
+cve_lombardy_desc;Send a funded proposal to Austria. Austria cedes its remaining provinces in Lombardy in exchange for the reserved compensation and an alliance with Italy. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_lombardy_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_lombardy_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_lombardy_offer_title;The Lombardy Convention;;;;;;;;;;;;;x
+cve_lombardy_offer_desc;The Italian imperial government has sent a funded delegation. Austria cedes its remaining provinces in Lombardy in exchange for the reserved compensation and an alliance with Italy. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_lombardy_record;Record the agreement.;;;;;;;;;;;;;x
+cve_lombardy_accepted_title;The Lombardy Convention: Agreement Reached;;;;;;;;;;;;;x
+cve_lombardy_accepted_desc;The other government has accepted. Austria cedes its remaining provinces in Lombardy in exchange for the reserved compensation and an alliance with Italy. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_lombardy_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_lombardy_declined_title;The Lombardy Convention: No Agreement;;;;;;;;;;;;;x
+cve_lombardy_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_lombardy_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_lombardy_timeout_title;The Lombardy Convention: Mission Review;;;;;;;;;;;;;x
+cve_lombardy_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_lombardy_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_venetia_cooldown;Diplomatic mission: The Venetia Convention;;;;;;;;;;;;;x
+cve_venetia_title;The Venetia Convention;;;;;;;;;;;;;x
+cve_venetia_desc;Send a funded proposal to Austria. Austria cedes its remaining provinces in Venetia in exchange for the reserved compensation and an alliance with Italy. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_venetia_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_venetia_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_venetia_offer_title;The Venetia Convention;;;;;;;;;;;;;x
+cve_venetia_offer_desc;The Italian imperial government has sent a funded delegation. Austria cedes its remaining provinces in Venetia in exchange for the reserved compensation and an alliance with Italy. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_venetia_record;Record the agreement.;;;;;;;;;;;;;x
+cve_venetia_accepted_title;The Venetia Convention: Agreement Reached;;;;;;;;;;;;;x
+cve_venetia_accepted_desc;The other government has accepted. Austria cedes its remaining provinces in Venetia in exchange for the reserved compensation and an alliance with Italy. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_venetia_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_venetia_declined_title;The Venetia Convention: No Agreement;;;;;;;;;;;;;x
+cve_venetia_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_venetia_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_venetia_timeout_title;The Venetia Convention: Mission Review;;;;;;;;;;;;;x
+cve_venetia_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_venetia_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_austrian_crisis_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_austrian_crisis_title;The Price of Italian Neutrality;;;;;;;;;;;;;x
+cve_austrian_crisis_desc;Austria is fighting a major German rival. The imperial ministry can renew territorial negotiations or prepare a national war. Neither side has promised an unconditional settlement.;;;;;;;;;;;;;x
+cve_adriatic_cooldown;Diplomatic mission: The Adriatic Conference;;;;;;;;;;;;;x
+cve_adriatic_title;The Adriatic Conference;;;;;;;;;;;;;x
+cve_adriatic_desc;Send a funded proposal to Austria. The two empires recognise their present Adriatic frontier and establish reciprocal access. The conference offers a cooperative alternative to further territorial demands. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_adriatic_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_adriatic_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_adriatic_offer_title;The Adriatic Conference;;;;;;;;;;;;;x
+cve_adriatic_offer_desc;The Italian imperial government has sent a funded delegation. The two empires recognise their present Adriatic frontier and establish reciprocal access. The conference offers a cooperative alternative to further territorial demands. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_adriatic_record;Record the agreement.;;;;;;;;;;;;;x
+cve_adriatic_accepted_title;The Adriatic Conference: Agreement Reached;;;;;;;;;;;;;x
+cve_adriatic_accepted_desc;The other government has accepted. The two empires recognise their present Adriatic frontier and establish reciprocal access. The conference offers a cooperative alternative to further territorial demands. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_adriatic_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_adriatic_declined_title;The Adriatic Conference: No Agreement;;;;;;;;;;;;;x
+cve_adriatic_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_adriatic_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_adriatic_timeout_title;The Adriatic Conference: Mission Review;;;;;;;;;;;;;x
+cve_adriatic_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_adriatic_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_albanian_cooldown;Diplomatic mission: The Albanian Commercial Convention;;;;;;;;;;;;;x
+cve_albanian_title;The Albanian Commercial Convention;;;;;;;;;;;;;x
+cve_albanian_desc;Send a funded proposal to Albania. The convention recognises an independent Albania and establishes an alliance and reciprocal access without transferring its territory. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_albanian_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_albanian_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_albanian_offer_title;The Albanian Commercial Convention;;;;;;;;;;;;;x
+cve_albanian_offer_desc;The Italian imperial government has sent a funded delegation. The convention recognises an independent Albania and establishes an alliance and reciprocal access without transferring its territory. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_albanian_record;Record the agreement.;;;;;;;;;;;;;x
+cve_albanian_accepted_title;The Albanian Commercial Convention: Agreement Reached;;;;;;;;;;;;;x
+cve_albanian_accepted_desc;The other government has accepted. The convention recognises an independent Albania and establishes an alliance and reciprocal access without transferring its territory. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_albanian_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_albanian_declined_title;The Albanian Commercial Convention: No Agreement;;;;;;;;;;;;;x
+cve_albanian_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_albanian_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_albanian_timeout_title;The Albanian Commercial Convention: Mission Review;;;;;;;;;;;;;x
+cve_albanian_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_albanian_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_overseas_0;Give the eastern embassies first attention.;;;;;;;;;;;;;x
+cve_overseas_1;Concentrate on Egypt and the Mediterranean.;;;;;;;;;;;;;x
+cve_overseas_2;Develop the African coastal network.;;;;;;;;;;;;;x
+cve_overseas_title;Italy Looks Across the Sea;;;;;;;;;;;;;x
+cve_overseas_desc;The cabinet considers Siam, Egypt, Libya and Tunisia alongside the African coast. Commercial agreements, protectorates and territorial wars demand different commitments. A chosen priority does not exclude later ventures.;;;;;;;;;;;;;x
+cve_ottoman_libya_cooldown;Diplomatic mission: The Tripolitanian Cession Convention;;;;;;;;;;;;;x
+cve_ottoman_libya_title;The Tripolitanian Cession Convention;;;;;;;;;;;;;x
+cve_ottoman_libya_desc;Send a funded proposal to the Ottoman Empire. The Ottoman government cedes the Libyan provinces it still administers in exchange for compensation. Provinces held by other powers are outside the convention. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_ottoman_libya_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_ottoman_libya_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_ottoman_libya_offer_title;The Tripolitanian Cession Convention;;;;;;;;;;;;;x
+cve_ottoman_libya_offer_desc;The Italian imperial government has sent a funded delegation. The Ottoman government cedes the Libyan provinces it still administers in exchange for compensation. Provinces held by other powers are outside the convention. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_ottoman_libya_record;Record the agreement.;;;;;;;;;;;;;x
+cve_ottoman_libya_accepted_title;The Tripolitanian Cession Convention: Agreement Reached;;;;;;;;;;;;;x
+cve_ottoman_libya_accepted_desc;The other government has accepted. The Ottoman government cedes the Libyan provinces it still administers in exchange for compensation. Provinces held by other powers are outside the convention. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_ottoman_libya_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_ottoman_libya_declined_title;The Tripolitanian Cession Convention: No Agreement;;;;;;;;;;;;;x
+cve_ottoman_libya_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_ottoman_libya_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_ottoman_libya_timeout_title;The Tripolitanian Cession Convention: Mission Review;;;;;;;;;;;;;x
+cve_ottoman_libya_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_ottoman_libya_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_egypt_british_cooldown;Diplomatic mission: The Anglo-Italian Egyptian Understanding;;;;;;;;;;;;;x
+cve_egypt_british_title;The Anglo-Italian Egyptian Understanding;;;;;;;;;;;;;x
+cve_egypt_british_desc;Send a funded proposal to Britain. Britain permits Italy to seek a separate commercial and access agreement with its Egyptian dependency. Egyptian ratification is still required, British protection is not transferred. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_egypt_british_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_egypt_british_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_egypt_british_offer_title;The Anglo-Italian Egyptian Understanding;;;;;;;;;;;;;x
+cve_egypt_british_offer_desc;The Italian imperial government has sent a funded delegation. Britain permits Italy to seek a separate commercial and access agreement with its Egyptian dependency. Egyptian ratification is still required, British protection is not transferred. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_egypt_british_record;Record the agreement.;;;;;;;;;;;;;x
+cve_egypt_british_accepted_title;The Anglo-Italian Egyptian Understanding: Agreement Reached;;;;;;;;;;;;;x
+cve_egypt_british_accepted_desc;The other government has accepted. Britain permits Italy to seek a separate commercial and access agreement with its Egyptian dependency. Egyptian ratification is still required, British protection is not transferred. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_egypt_british_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_egypt_british_declined_title;The Anglo-Italian Egyptian Understanding: No Agreement;;;;;;;;;;;;;x
+cve_egypt_british_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_egypt_british_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_egypt_british_timeout_title;The Anglo-Italian Egyptian Understanding: Mission Review;;;;;;;;;;;;;x
+cve_egypt_british_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_egypt_british_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_egypt_maritime;Egyptian Maritime Convention;;;;;;;;;;;;;x
+cve_egypt_maritime_desc;A ratified convention supports Italian shipping and commercial representation.;;;;;;;;;;;;;x
+cve_egypt_ratification_cooldown;Diplomatic mission: Egyptian Ratification of the Maritime Convention;;;;;;;;;;;;;x
+cve_egypt_ratification_title;Egyptian Ratification of the Maritime Convention;;;;;;;;;;;;;x
+cve_egypt_ratification_desc;Send a funded proposal to Egypt. Egypt grants Italian military access and commercial facilities in exchange for investment, under the understanding already reached with Britain. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_egypt_ratification_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_egypt_ratification_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_egypt_ratification_offer_title;Egyptian Ratification of the Maritime Convention;;;;;;;;;;;;;x
+cve_egypt_ratification_offer_desc;The Italian imperial government has sent a funded delegation. Egypt grants Italian military access and commercial facilities in exchange for investment, under the understanding already reached with Britain. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_egypt_ratification_record;Record the agreement.;;;;;;;;;;;;;x
+cve_egypt_ratification_accepted_title;Egyptian Ratification of the Maritime Convention: Agreement Reached;;;;;;;;;;;;;x
+cve_egypt_ratification_accepted_desc;The other government has accepted. Egypt grants Italian military access and commercial facilities in exchange for investment, under the understanding already reached with Britain. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_egypt_ratification_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_egypt_ratification_declined_title;Egyptian Ratification of the Maritime Convention: No Agreement;;;;;;;;;;;;;x
+cve_egypt_ratification_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_egypt_ratification_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_egypt_ratification_timeout_title;Egyptian Ratification of the Maritime Convention: Mission Review;;;;;;;;;;;;;x
+cve_egypt_ratification_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_egypt_ratification_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_trade_SIA;The Embassy to Bangkok;;;;;;;;;;;;;x
+cve_trade_SIA_desc;Send a funded proposal to Siam. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_trade_SIA_cooldown;Diplomatic mission: The Embassy to Bangkok;;;;;;;;;;;;;x
+cve_trade_SIA_title;The Embassy to Bangkok;;;;;;;;;;;;;x
+cve_trade_SIA_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_trade_SIA_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_trade_SIA_offer_title;The Embassy to Bangkok;;;;;;;;;;;;;x
+cve_trade_SIA_offer_desc;The Italian imperial government has sent a funded delegation. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_trade_SIA_record;Record the agreement.;;;;;;;;;;;;;x
+cve_trade_SIA_accepted_title;The Embassy to Bangkok: Agreement Reached;;;;;;;;;;;;;x
+cve_trade_SIA_accepted_desc;The other government has accepted. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_trade_SIA_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_trade_SIA_declined_title;The Embassy to Bangkok: No Agreement;;;;;;;;;;;;;x
+cve_trade_SIA_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_trade_SIA_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_trade_SIA_timeout_title;The Embassy to Bangkok: Mission Review;;;;;;;;;;;;;x
+cve_trade_SIA_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_trade_SIA_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_protect_SIA_cooldown;Diplomatic mission: The Italian Protectorate Proposal: Siam;;;;;;;;;;;;;x
+cve_protect_SIA_title;The Italian Protectorate Proposal: Siam;;;;;;;;;;;;;x
+cve_protect_SIA_desc;Send a funded proposal to Siam. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_protect_SIA_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_protect_SIA_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_protect_SIA_offer_title;The Italian Protectorate Proposal: Siam;;;;;;;;;;;;;x
+cve_protect_SIA_offer_desc;The Italian imperial government has sent a funded delegation. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_protect_SIA_record;Record the agreement.;;;;;;;;;;;;;x
+cve_protect_SIA_accepted_title;The Italian Protectorate Proposal: Siam: Agreement Reached;;;;;;;;;;;;;x
+cve_protect_SIA_accepted_desc;The other government has accepted. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_protect_SIA_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_protect_SIA_declined_title;The Italian Protectorate Proposal: Siam: No Agreement;;;;;;;;;;;;;x
+cve_protect_SIA_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_protect_SIA_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_protect_SIA_timeout_title;The Italian Protectorate Proposal: Siam: Mission Review;;;;;;;;;;;;;x
+cve_protect_SIA_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_protect_SIA_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_protected_SIA_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_protected_SIA_title;Protectorate Established: Siam;;;;;;;;;;;;;x
+cve_protected_SIA_desc;The foreign ministry confirms the dependent government and its Italian protection. Its domestic administration remains distinct. The agreement brings new responsibilities and attracts the attention of rival powers.;;;;;;;;;;;;;x
+cve_partner_ports;Italian Port Investments;;;;;;;;;;;;;x
+cve_partner_ports_desc;A funded programme supports local commerce.;;;;;;;;;;;;;x
+cve_partner_schools;Italian Educational Mission;;;;;;;;;;;;;x
+cve_partner_schools_desc;A funded programme supports public instruction.;;;;;;;;;;;;;x
+cve_investment_SIA_title;Ports and Public Works: Siam;;;;;;;;;;;;;x
+cve_investment_SIA_desc;The protected government requests investment in its ports and public services. Ministers must choose between commercial development and administrative cooperation.;;;;;;;;;;;;;x
+cve_investment_SIA_programme_0;Fund commercial infrastructure.;;;;;;;;;;;;;x
+cve_investment_SIA_programme_1;Fund schools and administrative training.;;;;;;;;;;;;;x
+cve_investment_SIA_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cve_investment_SIA_appropriation_title;Ports and Public Works: Siam;;;;;;;;;;;;;x
+cve_investment_SIA_appropriation_desc;The protected government requests investment in its ports and public services. Ministers must choose between commercial development and administrative cooperation. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cve_objection_ENG_SIA_recognise;Recognise the settlement and maintain relations.;;;;;;;;;;;;;x
+cve_objection_ENG_SIA_protest;Object to the extension of Italian control.;;;;;;;;;;;;;x
+cve_objection_ENG_SIA_title;The Italian Protectorate in Siam;;;;;;;;;;;;;x
+cve_objection_ENG_SIA_desc;Italy has established a dependent government in a region where our merchants and diplomats have interests. We can recognise the settlement or lodge a formal objection and support diplomatic pressure.;;;;;;;;;;;;;x
+cve_objection_ENG_SIA_noted;The imperial ministry will review the commitment.;;;;;;;;;;;;;x
+cve_objection_ENG_SIA_report_title;Britain: Objection to the Protectorate;;;;;;;;;;;;;x
+cve_objection_ENG_SIA_report_desc;The foreign ministry has received a formal protest against the protectorate. The objecting power may pursue diplomatic or military pressure. Italy must decide whether to retain the commitment or negotiate the protected government's independence.;;;;;;;;;;;;;x
+cve_objection_FRA_SIA_recognise;Recognise the settlement and maintain relations.;;;;;;;;;;;;;x
+cve_objection_FRA_SIA_protest;Object to the extension of Italian control.;;;;;;;;;;;;;x
+cve_objection_FRA_SIA_title;The Italian Protectorate in Siam;;;;;;;;;;;;;x
+cve_objection_FRA_SIA_desc;Italy has established a dependent government in a region where our merchants and diplomats have interests. We can recognise the settlement or lodge a formal objection and support diplomatic pressure.;;;;;;;;;;;;;x
+cve_objection_FRA_SIA_noted;The imperial ministry will review the commitment.;;;;;;;;;;;;;x
+cve_objection_FRA_SIA_report_title;France: Objection to the Protectorate;;;;;;;;;;;;;x
+cve_objection_FRA_SIA_report_desc;The foreign ministry has received a formal protest against the protectorate. The objecting power may pursue diplomatic or military pressure. Italy must decide whether to retain the commitment or negotiate the protected government's independence.;;;;;;;;;;;;;x
+cve_release_SIA_title;Recognise the Independence of Siam;;;;;;;;;;;;;x
+cve_release_SIA_desc;End the protectorate and recognise the government as independent. Existing commercial agreements remain, while the imperial court relinquishes its authority over foreign affairs.;;;;;;;;;;;;;x
+cve_trade_EGY;The Egyptian Commercial Convention;;;;;;;;;;;;;x
+cve_trade_EGY_desc;Send a funded proposal to Egypt. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_trade_EGY_cooldown;Diplomatic mission: The Egyptian Commercial Convention;;;;;;;;;;;;;x
+cve_trade_EGY_title;The Egyptian Commercial Convention;;;;;;;;;;;;;x
+cve_trade_EGY_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_trade_EGY_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_trade_EGY_offer_title;The Egyptian Commercial Convention;;;;;;;;;;;;;x
+cve_trade_EGY_offer_desc;The Italian imperial government has sent a funded delegation. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_trade_EGY_record;Record the agreement.;;;;;;;;;;;;;x
+cve_trade_EGY_accepted_title;The Egyptian Commercial Convention: Agreement Reached;;;;;;;;;;;;;x
+cve_trade_EGY_accepted_desc;The other government has accepted. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_trade_EGY_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_trade_EGY_declined_title;The Egyptian Commercial Convention: No Agreement;;;;;;;;;;;;;x
+cve_trade_EGY_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_trade_EGY_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_trade_EGY_timeout_title;The Egyptian Commercial Convention: Mission Review;;;;;;;;;;;;;x
+cve_trade_EGY_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_trade_EGY_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_protect_EGY_cooldown;Diplomatic mission: The Italian Protectorate Proposal: Egypt;;;;;;;;;;;;;x
+cve_protect_EGY_title;The Italian Protectorate Proposal: Egypt;;;;;;;;;;;;;x
+cve_protect_EGY_desc;Send a funded proposal to Egypt. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_protect_EGY_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_protect_EGY_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_protect_EGY_offer_title;The Italian Protectorate Proposal: Egypt;;;;;;;;;;;;;x
+cve_protect_EGY_offer_desc;The Italian imperial government has sent a funded delegation. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_protect_EGY_record;Record the agreement.;;;;;;;;;;;;;x
+cve_protect_EGY_accepted_title;The Italian Protectorate Proposal: Egypt: Agreement Reached;;;;;;;;;;;;;x
+cve_protect_EGY_accepted_desc;The other government has accepted. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_protect_EGY_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_protect_EGY_declined_title;The Italian Protectorate Proposal: Egypt: No Agreement;;;;;;;;;;;;;x
+cve_protect_EGY_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_protect_EGY_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_protect_EGY_timeout_title;The Italian Protectorate Proposal: Egypt: Mission Review;;;;;;;;;;;;;x
+cve_protect_EGY_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_protect_EGY_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_protected_EGY_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_protected_EGY_title;Protectorate Established: Egypt;;;;;;;;;;;;;x
+cve_protected_EGY_desc;The foreign ministry confirms the dependent government and its Italian protection. Its domestic administration remains distinct. The agreement brings new responsibilities and attracts the attention of rival powers.;;;;;;;;;;;;;x
+cve_investment_EGY_title;Ports and Public Works: Egypt;;;;;;;;;;;;;x
+cve_investment_EGY_desc;The protected government requests investment in its ports and public services. Ministers must choose between commercial development and administrative cooperation.;;;;;;;;;;;;;x
+cve_investment_EGY_programme_0;Fund commercial infrastructure.;;;;;;;;;;;;;x
+cve_investment_EGY_programme_1;Fund schools and administrative training.;;;;;;;;;;;;;x
+cve_investment_EGY_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cve_investment_EGY_appropriation_title;Ports and Public Works: Egypt;;;;;;;;;;;;;x
+cve_investment_EGY_appropriation_desc;The protected government requests investment in its ports and public services. Ministers must choose between commercial development and administrative cooperation. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cve_objection_ENG_EGY_recognise;Recognise the settlement and maintain relations.;;;;;;;;;;;;;x
+cve_objection_ENG_EGY_protest;Object to the extension of Italian control.;;;;;;;;;;;;;x
+cve_objection_ENG_EGY_title;The Italian Protectorate in Egypt;;;;;;;;;;;;;x
+cve_objection_ENG_EGY_desc;Italy has established a dependent government in a region where our merchants and diplomats have interests. We can recognise the settlement or lodge a formal objection and support diplomatic pressure.;;;;;;;;;;;;;x
+cve_objection_ENG_EGY_noted;The imperial ministry will review the commitment.;;;;;;;;;;;;;x
+cve_objection_ENG_EGY_report_title;Britain: Objection to the Protectorate;;;;;;;;;;;;;x
+cve_objection_ENG_EGY_report_desc;The foreign ministry has received a formal protest against the protectorate. The objecting power may pursue diplomatic or military pressure. Italy must decide whether to retain the commitment or negotiate the protected government's independence.;;;;;;;;;;;;;x
+cve_objection_FRA_EGY_recognise;Recognise the settlement and maintain relations.;;;;;;;;;;;;;x
+cve_objection_FRA_EGY_protest;Object to the extension of Italian control.;;;;;;;;;;;;;x
+cve_objection_FRA_EGY_title;The Italian Protectorate in Egypt;;;;;;;;;;;;;x
+cve_objection_FRA_EGY_desc;Italy has established a dependent government in a region where our merchants and diplomats have interests. We can recognise the settlement or lodge a formal objection and support diplomatic pressure.;;;;;;;;;;;;;x
+cve_objection_FRA_EGY_noted;The imperial ministry will review the commitment.;;;;;;;;;;;;;x
+cve_objection_FRA_EGY_report_title;France: Objection to the Protectorate;;;;;;;;;;;;;x
+cve_objection_FRA_EGY_report_desc;The foreign ministry has received a formal protest against the protectorate. The objecting power may pursue diplomatic or military pressure. Italy must decide whether to retain the commitment or negotiate the protected government's independence.;;;;;;;;;;;;;x
+cve_release_EGY_title;Recognise the Independence of Egypt;;;;;;;;;;;;;x
+cve_release_EGY_desc;End the protectorate and recognise the government as independent. Existing commercial agreements remain, while the imperial court relinquishes its authority over foreign affairs.;;;;;;;;;;;;;x
+cve_trade_TUN;The Merchants of Livorno and Tunis;;;;;;;;;;;;;x
+cve_trade_TUN_desc;Send a funded proposal to Tunisia. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_trade_TUN_cooldown;Diplomatic mission: The Merchants of Livorno and Tunis;;;;;;;;;;;;;x
+cve_trade_TUN_title;The Merchants of Livorno and Tunis;;;;;;;;;;;;;x
+cve_trade_TUN_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_trade_TUN_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_trade_TUN_offer_title;The Merchants of Livorno and Tunis;;;;;;;;;;;;;x
+cve_trade_TUN_offer_desc;The Italian imperial government has sent a funded delegation. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_trade_TUN_record;Record the agreement.;;;;;;;;;;;;;x
+cve_trade_TUN_accepted_title;The Merchants of Livorno and Tunis: Agreement Reached;;;;;;;;;;;;;x
+cve_trade_TUN_accepted_desc;The other government has accepted. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_trade_TUN_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_trade_TUN_declined_title;The Merchants of Livorno and Tunis: No Agreement;;;;;;;;;;;;;x
+cve_trade_TUN_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_trade_TUN_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_trade_TUN_timeout_title;The Merchants of Livorno and Tunis: Mission Review;;;;;;;;;;;;;x
+cve_trade_TUN_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_trade_TUN_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_protect_TUN_cooldown;Diplomatic mission: The Italian Protectorate Proposal: Tunisia;;;;;;;;;;;;;x
+cve_protect_TUN_title;The Italian Protectorate Proposal: Tunisia;;;;;;;;;;;;;x
+cve_protect_TUN_desc;Send a funded proposal to Tunisia. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_protect_TUN_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_protect_TUN_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_protect_TUN_offer_title;The Italian Protectorate Proposal: Tunisia;;;;;;;;;;;;;x
+cve_protect_TUN_offer_desc;The Italian imperial government has sent a funded delegation. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_protect_TUN_record;Record the agreement.;;;;;;;;;;;;;x
+cve_protect_TUN_accepted_title;The Italian Protectorate Proposal: Tunisia: Agreement Reached;;;;;;;;;;;;;x
+cve_protect_TUN_accepted_desc;The other government has accepted. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_protect_TUN_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_protect_TUN_declined_title;The Italian Protectorate Proposal: Tunisia: No Agreement;;;;;;;;;;;;;x
+cve_protect_TUN_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_protect_TUN_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_protect_TUN_timeout_title;The Italian Protectorate Proposal: Tunisia: Mission Review;;;;;;;;;;;;;x
+cve_protect_TUN_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_protect_TUN_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_protected_TUN_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_protected_TUN_title;Protectorate Established: Tunisia;;;;;;;;;;;;;x
+cve_protected_TUN_desc;The foreign ministry confirms the dependent government and its Italian protection. Its domestic administration remains distinct. The agreement brings new responsibilities and attracts the attention of rival powers.;;;;;;;;;;;;;x
+cve_investment_TUN_title;Ports and Public Works: Tunisia;;;;;;;;;;;;;x
+cve_investment_TUN_desc;The protected government requests investment in its ports and public services. Ministers must choose between commercial development and administrative cooperation.;;;;;;;;;;;;;x
+cve_investment_TUN_programme_0;Fund commercial infrastructure.;;;;;;;;;;;;;x
+cve_investment_TUN_programme_1;Fund schools and administrative training.;;;;;;;;;;;;;x
+cve_investment_TUN_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cve_investment_TUN_appropriation_title;Ports and Public Works: Tunisia;;;;;;;;;;;;;x
+cve_investment_TUN_appropriation_desc;The protected government requests investment in its ports and public services. Ministers must choose between commercial development and administrative cooperation. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cve_objection_ENG_TUN_recognise;Recognise the settlement and maintain relations.;;;;;;;;;;;;;x
+cve_objection_ENG_TUN_protest;Object to the extension of Italian control.;;;;;;;;;;;;;x
+cve_objection_ENG_TUN_title;The Italian Protectorate in Tunisia;;;;;;;;;;;;;x
+cve_objection_ENG_TUN_desc;Italy has established a dependent government in a region where our merchants and diplomats have interests. We can recognise the settlement or lodge a formal objection and support diplomatic pressure.;;;;;;;;;;;;;x
+cve_objection_ENG_TUN_noted;The imperial ministry will review the commitment.;;;;;;;;;;;;;x
+cve_objection_ENG_TUN_report_title;Britain: Objection to the Protectorate;;;;;;;;;;;;;x
+cve_objection_ENG_TUN_report_desc;The foreign ministry has received a formal protest against the protectorate. The objecting power may pursue diplomatic or military pressure. Italy must decide whether to retain the commitment or negotiate the protected government's independence.;;;;;;;;;;;;;x
+cve_objection_FRA_TUN_recognise;Recognise the settlement and maintain relations.;;;;;;;;;;;;;x
+cve_objection_FRA_TUN_protest;Object to the extension of Italian control.;;;;;;;;;;;;;x
+cve_objection_FRA_TUN_title;The Italian Protectorate in Tunisia;;;;;;;;;;;;;x
+cve_objection_FRA_TUN_desc;Italy has established a dependent government in a region where our merchants and diplomats have interests. We can recognise the settlement or lodge a formal objection and support diplomatic pressure.;;;;;;;;;;;;;x
+cve_objection_FRA_TUN_noted;The imperial ministry will review the commitment.;;;;;;;;;;;;;x
+cve_objection_FRA_TUN_report_title;France: Objection to the Protectorate;;;;;;;;;;;;;x
+cve_objection_FRA_TUN_report_desc;The foreign ministry has received a formal protest against the protectorate. The objecting power may pursue diplomatic or military pressure. Italy must decide whether to retain the commitment or negotiate the protected government's independence.;;;;;;;;;;;;;x
+cve_release_TUN_title;Recognise the Independence of Tunisia;;;;;;;;;;;;;x
+cve_release_TUN_desc;End the protectorate and recognise the government as independent. Existing commercial agreements remain, while the imperial court relinquishes its authority over foreign affairs.;;;;;;;;;;;;;x
+cve_trade_TRI;The Tripolitanian Commercial Convention;;;;;;;;;;;;;x
+cve_trade_TRI_desc;Send a funded proposal to Tripoli. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_trade_TRI_cooldown;Diplomatic mission: The Tripolitanian Commercial Convention;;;;;;;;;;;;;x
+cve_trade_TRI_title;The Tripolitanian Commercial Convention;;;;;;;;;;;;;x
+cve_trade_TRI_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_trade_TRI_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_trade_TRI_offer_title;The Tripolitanian Commercial Convention;;;;;;;;;;;;;x
+cve_trade_TRI_offer_desc;The Italian imperial government has sent a funded delegation. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_trade_TRI_record;Record the agreement.;;;;;;;;;;;;;x
+cve_trade_TRI_accepted_title;The Tripolitanian Commercial Convention: Agreement Reached;;;;;;;;;;;;;x
+cve_trade_TRI_accepted_desc;The other government has accepted. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_trade_TRI_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_trade_TRI_declined_title;The Tripolitanian Commercial Convention: No Agreement;;;;;;;;;;;;;x
+cve_trade_TRI_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_trade_TRI_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_trade_TRI_timeout_title;The Tripolitanian Commercial Convention: Mission Review;;;;;;;;;;;;;x
+cve_trade_TRI_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_trade_TRI_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_protect_TRI_cooldown;Diplomatic mission: The Italian Protectorate Proposal: Tripoli;;;;;;;;;;;;;x
+cve_protect_TRI_title;The Italian Protectorate Proposal: Tripoli;;;;;;;;;;;;;x
+cve_protect_TRI_desc;Send a funded proposal to Tripoli. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_protect_TRI_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_protect_TRI_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_protect_TRI_offer_title;The Italian Protectorate Proposal: Tripoli;;;;;;;;;;;;;x
+cve_protect_TRI_offer_desc;The Italian imperial government has sent a funded delegation. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_protect_TRI_record;Record the agreement.;;;;;;;;;;;;;x
+cve_protect_TRI_accepted_title;The Italian Protectorate Proposal: Tripoli: Agreement Reached;;;;;;;;;;;;;x
+cve_protect_TRI_accepted_desc;The other government has accepted. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_protect_TRI_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_protect_TRI_declined_title;The Italian Protectorate Proposal: Tripoli: No Agreement;;;;;;;;;;;;;x
+cve_protect_TRI_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_protect_TRI_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_protect_TRI_timeout_title;The Italian Protectorate Proposal: Tripoli: Mission Review;;;;;;;;;;;;;x
+cve_protect_TRI_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_protect_TRI_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_protected_TRI_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_protected_TRI_title;Protectorate Established: Tripoli;;;;;;;;;;;;;x
+cve_protected_TRI_desc;The foreign ministry confirms the dependent government and its Italian protection. Its domestic administration remains distinct. The agreement brings new responsibilities and attracts the attention of rival powers.;;;;;;;;;;;;;x
+cve_investment_TRI_title;Ports and Public Works: Tripoli;;;;;;;;;;;;;x
+cve_investment_TRI_desc;The protected government requests investment in its ports and public services. Ministers must choose between commercial development and administrative cooperation.;;;;;;;;;;;;;x
+cve_investment_TRI_programme_0;Fund commercial infrastructure.;;;;;;;;;;;;;x
+cve_investment_TRI_programme_1;Fund schools and administrative training.;;;;;;;;;;;;;x
+cve_investment_TRI_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cve_investment_TRI_appropriation_title;Ports and Public Works: Tripoli;;;;;;;;;;;;;x
+cve_investment_TRI_appropriation_desc;The protected government requests investment in its ports and public services. Ministers must choose between commercial development and administrative cooperation. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cve_objection_ENG_TRI_recognise;Recognise the settlement and maintain relations.;;;;;;;;;;;;;x
+cve_objection_ENG_TRI_protest;Object to the extension of Italian control.;;;;;;;;;;;;;x
+cve_objection_ENG_TRI_title;The Italian Protectorate in Tripoli;;;;;;;;;;;;;x
+cve_objection_ENG_TRI_desc;Italy has established a dependent government in a region where our merchants and diplomats have interests. We can recognise the settlement or lodge a formal objection and support diplomatic pressure.;;;;;;;;;;;;;x
+cve_objection_ENG_TRI_noted;The imperial ministry will review the commitment.;;;;;;;;;;;;;x
+cve_objection_ENG_TRI_report_title;Britain: Objection to the Protectorate;;;;;;;;;;;;;x
+cve_objection_ENG_TRI_report_desc;The foreign ministry has received a formal protest against the protectorate. The objecting power may pursue diplomatic or military pressure. Italy must decide whether to retain the commitment or negotiate the protected government's independence.;;;;;;;;;;;;;x
+cve_objection_FRA_TRI_recognise;Recognise the settlement and maintain relations.;;;;;;;;;;;;;x
+cve_objection_FRA_TRI_protest;Object to the extension of Italian control.;;;;;;;;;;;;;x
+cve_objection_FRA_TRI_title;The Italian Protectorate in Tripoli;;;;;;;;;;;;;x
+cve_objection_FRA_TRI_desc;Italy has established a dependent government in a region where our merchants and diplomats have interests. We can recognise the settlement or lodge a formal objection and support diplomatic pressure.;;;;;;;;;;;;;x
+cve_objection_FRA_TRI_noted;The imperial ministry will review the commitment.;;;;;;;;;;;;;x
+cve_objection_FRA_TRI_report_title;France: Objection to the Protectorate;;;;;;;;;;;;;x
+cve_objection_FRA_TRI_report_desc;The foreign ministry has received a formal protest against the protectorate. The objecting power may pursue diplomatic or military pressure. Italy must decide whether to retain the commitment or negotiate the protected government's independence.;;;;;;;;;;;;;x
+cve_release_TRI_title;Recognise the Independence of Tripoli;;;;;;;;;;;;;x
+cve_release_TRI_desc;End the protectorate and recognise the government as independent. Existing commercial agreements remain, while the imperial court relinquishes its authority over foreign affairs.;;;;;;;;;;;;;x
+cve_trade_ZAN;The Zanzibar Coastal Convention;;;;;;;;;;;;;x
+cve_trade_ZAN_desc;Send a funded proposal to Zanzibar. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_trade_ZAN_cooldown;Diplomatic mission: The Zanzibar Coastal Convention;;;;;;;;;;;;;x
+cve_trade_ZAN_title;The Zanzibar Coastal Convention;;;;;;;;;;;;;x
+cve_trade_ZAN_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_trade_ZAN_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_trade_ZAN_offer_title;The Zanzibar Coastal Convention;;;;;;;;;;;;;x
+cve_trade_ZAN_offer_desc;The Italian imperial government has sent a funded delegation. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_trade_ZAN_record;Record the agreement.;;;;;;;;;;;;;x
+cve_trade_ZAN_accepted_title;The Zanzibar Coastal Convention: Agreement Reached;;;;;;;;;;;;;x
+cve_trade_ZAN_accepted_desc;The other government has accepted. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_trade_ZAN_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_trade_ZAN_declined_title;The Zanzibar Coastal Convention: No Agreement;;;;;;;;;;;;;x
+cve_trade_ZAN_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_trade_ZAN_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_trade_ZAN_timeout_title;The Zanzibar Coastal Convention: Mission Review;;;;;;;;;;;;;x
+cve_trade_ZAN_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_trade_ZAN_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_trade_SOM;The Somali Coastal Convention;;;;;;;;;;;;;x
+cve_trade_SOM_desc;Send a funded proposal to Somalia. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_trade_SOM_cooldown;Diplomatic mission: The Somali Coastal Convention;;;;;;;;;;;;;x
+cve_trade_SOM_title;The Somali Coastal Convention;;;;;;;;;;;;;x
+cve_trade_SOM_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_trade_SOM_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_trade_SOM_offer_title;The Somali Coastal Convention;;;;;;;;;;;;;x
+cve_trade_SOM_offer_desc;The Italian imperial government has sent a funded delegation. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_trade_SOM_record;Record the agreement.;;;;;;;;;;;;;x
+cve_trade_SOM_accepted_title;The Somali Coastal Convention: Agreement Reached;;;;;;;;;;;;;x
+cve_trade_SOM_accepted_desc;The other government has accepted. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_trade_SOM_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_trade_SOM_declined_title;The Somali Coastal Convention: No Agreement;;;;;;;;;;;;;x
+cve_trade_SOM_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_trade_SOM_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_trade_SOM_timeout_title;The Somali Coastal Convention: Mission Review;;;;;;;;;;;;;x
+cve_trade_SOM_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_trade_SOM_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_protect_SOM_cooldown;Diplomatic mission: The Italian Protectorate Proposal: Somalia;;;;;;;;;;;;;x
+cve_protect_SOM_title;The Italian Protectorate Proposal: Somalia;;;;;;;;;;;;;x
+cve_protect_SOM_desc;Send a funded proposal to Somalia. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_protect_SOM_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_protect_SOM_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_protect_SOM_offer_title;The Italian Protectorate Proposal: Somalia;;;;;;;;;;;;;x
+cve_protect_SOM_offer_desc;The Italian imperial government has sent a funded delegation. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_protect_SOM_record;Record the agreement.;;;;;;;;;;;;;x
+cve_protect_SOM_accepted_title;The Italian Protectorate Proposal: Somalia: Agreement Reached;;;;;;;;;;;;;x
+cve_protect_SOM_accepted_desc;The other government has accepted. The local government becomes an Italian dependency and ally, retaining a separate domestic administration under the Italian colonial settlement. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_protect_SOM_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_protect_SOM_declined_title;The Italian Protectorate Proposal: Somalia: No Agreement;;;;;;;;;;;;;x
+cve_protect_SOM_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_protect_SOM_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_protect_SOM_timeout_title;The Italian Protectorate Proposal: Somalia: Mission Review;;;;;;;;;;;;;x
+cve_protect_SOM_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_protect_SOM_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_protected_SOM_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_protected_SOM_title;Protectorate Established: Somalia;;;;;;;;;;;;;x
+cve_protected_SOM_desc;The foreign ministry confirms the dependent government and its Italian protection. Its domestic administration remains distinct. The agreement brings new responsibilities and attracts the attention of rival powers.;;;;;;;;;;;;;x
+cve_investment_SOM_title;Ports and Public Works: Somalia;;;;;;;;;;;;;x
+cve_investment_SOM_desc;The protected government requests investment in its ports and public services. Ministers must choose between commercial development and administrative cooperation.;;;;;;;;;;;;;x
+cve_investment_SOM_programme_0;Fund commercial infrastructure.;;;;;;;;;;;;;x
+cve_investment_SOM_programme_1;Fund schools and administrative training.;;;;;;;;;;;;;x
+cve_investment_SOM_postpone;Return the appropriation and postpone the project.;;;;;;;;;;;;;x
+cve_investment_SOM_appropriation_title;Ports and Public Works: Somalia;;;;;;;;;;;;;x
+cve_investment_SOM_appropriation_desc;The protected government requests investment in its ports and public services. Ministers must choose between commercial development and administrative cooperation. The treasury has reserved the appropriation. Ministers must now settle the programme, if conditions have changed, the funds return to the treasury.;;;;;;;;;;;;;x
+cve_objection_ENG_SOM_recognise;Recognise the settlement and maintain relations.;;;;;;;;;;;;;x
+cve_objection_ENG_SOM_protest;Object to the extension of Italian control.;;;;;;;;;;;;;x
+cve_objection_ENG_SOM_title;The Italian Protectorate in Somalia;;;;;;;;;;;;;x
+cve_objection_ENG_SOM_desc;Italy has established a dependent government in a region where our merchants and diplomats have interests. We can recognise the settlement or lodge a formal objection and support diplomatic pressure.;;;;;;;;;;;;;x
+cve_objection_ENG_SOM_noted;The imperial ministry will review the commitment.;;;;;;;;;;;;;x
+cve_objection_ENG_SOM_report_title;Britain: Objection to the Protectorate;;;;;;;;;;;;;x
+cve_objection_ENG_SOM_report_desc;The foreign ministry has received a formal protest against the protectorate. The objecting power may pursue diplomatic or military pressure. Italy must decide whether to retain the commitment or negotiate the protected government's independence.;;;;;;;;;;;;;x
+cve_objection_FRA_SOM_recognise;Recognise the settlement and maintain relations.;;;;;;;;;;;;;x
+cve_objection_FRA_SOM_protest;Object to the extension of Italian control.;;;;;;;;;;;;;x
+cve_objection_FRA_SOM_title;The Italian Protectorate in Somalia;;;;;;;;;;;;;x
+cve_objection_FRA_SOM_desc;Italy has established a dependent government in a region where our merchants and diplomats have interests. We can recognise the settlement or lodge a formal objection and support diplomatic pressure.;;;;;;;;;;;;;x
+cve_objection_FRA_SOM_noted;The imperial ministry will review the commitment.;;;;;;;;;;;;;x
+cve_objection_FRA_SOM_report_title;France: Objection to the Protectorate;;;;;;;;;;;;;x
+cve_objection_FRA_SOM_report_desc;The foreign ministry has received a formal protest against the protectorate. The objecting power may pursue diplomatic or military pressure. Italy must decide whether to retain the commitment or negotiate the protected government's independence.;;;;;;;;;;;;;x
+cve_release_SOM_title;Recognise the Independence of Somalia;;;;;;;;;;;;;x
+cve_release_SOM_desc;End the protectorate and recognise the government as independent. Existing commercial agreements remain, while the imperial court relinquishes its authority over foreign affairs.;;;;;;;;;;;;;x
+cve_trade_ETH;The Ethiopian Friendship Treaty;;;;;;;;;;;;;x
+cve_trade_ETH_desc;Send a funded proposal to Ethiopia. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_trade_ETH_cooldown;Diplomatic mission: The Ethiopian Friendship Treaty;;;;;;;;;;;;;x
+cve_trade_ETH_title;The Ethiopian Friendship Treaty;;;;;;;;;;;;;x
+cve_trade_ETH_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_trade_ETH_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_trade_ETH_offer_title;The Ethiopian Friendship Treaty;;;;;;;;;;;;;x
+cve_trade_ETH_offer_desc;The Italian imperial government has sent a funded delegation. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_trade_ETH_record;Record the agreement.;;;;;;;;;;;;;x
+cve_trade_ETH_accepted_title;The Ethiopian Friendship Treaty: Agreement Reached;;;;;;;;;;;;;x
+cve_trade_ETH_accepted_desc;The other government has accepted. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_trade_ETH_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_trade_ETH_declined_title;The Ethiopian Friendship Treaty: No Agreement;;;;;;;;;;;;;x
+cve_trade_ETH_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_trade_ETH_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_trade_ETH_timeout_title;The Ethiopian Friendship Treaty: Mission Review;;;;;;;;;;;;;x
+cve_trade_ETH_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_trade_ETH_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_trade_CHI;The Imperial Embassy to China;;;;;;;;;;;;;x
+cve_trade_CHI_desc;Send a funded proposal to China. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_trade_CHI_cooldown;Diplomatic mission: The Imperial Embassy to China;;;;;;;;;;;;;x
+cve_trade_CHI_title;The Imperial Embassy to China;;;;;;;;;;;;;x
+cve_trade_CHI_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_trade_CHI_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_trade_CHI_offer_title;The Imperial Embassy to China;;;;;;;;;;;;;x
+cve_trade_CHI_offer_desc;The Italian imperial government has sent a funded delegation. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_trade_CHI_record;Record the agreement.;;;;;;;;;;;;;x
+cve_trade_CHI_accepted_title;The Imperial Embassy to China: Agreement Reached;;;;;;;;;;;;;x
+cve_trade_CHI_accepted_desc;The other government has accepted. The agreement establishes consular cooperation and grants Italian military access while preserving the independence of the host government. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_trade_CHI_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_trade_CHI_declined_title;The Imperial Embassy to China: No Agreement;;;;;;;;;;;;;x
+cve_trade_CHI_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_trade_CHI_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_trade_CHI_timeout_title;The Imperial Embassy to China: Mission Review;;;;;;;;;;;;;x
+cve_trade_CHI_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_trade_CHI_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_suez_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_suez_title;The Passage Through Suez;;;;;;;;;;;;;x
+cve_suez_desc;The canal has opened a shorter sea route to eastern markets. Commercial houses seek coaling facilities and regular services. Egyptian sovereignty and the interests of other powers still constrain Italian ambitions.;;;;;;;;;;;;;x
+cve_china_station;Chinese Treaty Station;;;;;;;;;;;;;x
+cve_china_station_desc;Send a funded proposal to China. China grants a limited commercial station near Ningbo and military access in exchange for investment. Chinese provincial sovereignty remains intact, the station is represented by a local concession. The foreign government may accept or refuse. Its answer will be reported to the imperial court, an interrupted mission returns its unused appropriation.;;;;;;;;;;;;;x
+cve_china_station_cooldown;Diplomatic mission: A Treaty Station on the Chinese Coast;;;;;;;;;;;;;x
+cve_china_station_title;A Treaty Station on the Chinese Coast;;;;;;;;;;;;;x
+cve_china_station_accept;Accept the proposed articles.;;;;;;;;;;;;;x
+cve_china_station_reject;Decline the proposed articles.;;;;;;;;;;;;;x
+cve_china_station_offer_title;A Treaty Station on the Chinese Coast;;;;;;;;;;;;;x
+cve_china_station_offer_desc;The Italian imperial government has sent a funded delegation. China grants a limited commercial station near Ningbo and military access in exchange for investment. Chinese provincial sovereignty remains intact, the station is represented by a local concession. Acceptance gives effect to the articles, refusal preserves the present position.;;;;;;;;;;;;;x
+cve_china_station_record;Record the agreement.;;;;;;;;;;;;;x
+cve_china_station_accepted_title;A Treaty Station on the Chinese Coast: Agreement Reached;;;;;;;;;;;;;x
+cve_china_station_accepted_desc;The other government has accepted. China grants a limited commercial station near Ningbo and military access in exchange for investment. Chinese provincial sovereignty remains intact, the station is represented by a local concession. The agreed settlement is now in force and relations have improved.;;;;;;;;;;;;;x
+cve_china_station_ack;Review our diplomatic position.;;;;;;;;;;;;;x
+cve_china_station_declined_title;A Treaty Station on the Chinese Coast: No Agreement;;;;;;;;;;;;;x
+cve_china_station_declined_desc;The mission has closed without an agreement. The foreign government refused, or changed circumstances prevented ratification. Unused funds have returned to the treasury. A fresh approach will require a diplomatic interval.;;;;;;;;;;;;;x
+cve_china_station_close;Close any outstanding appropriation.;;;;;;;;;;;;;x
+cve_china_station_timeout_title;A Treaty Station on the Chinese Coast: Mission Review;;;;;;;;;;;;;x
+cve_china_station_timeout_desc;The ministry reviews the delegation. A mission already settled needs no further action. Any unresolved proposal is withdrawn and its reserved funds returned.;;;;;;;;;;;;;x
+cve_china_station_waiting;Delegation awaiting an answer;;;;;;;;;;;;;x
+cve_assab_title;A Station Beyond Suez;;;;;;;;;;;;;x
+cve_assab_desc;Sponsor the native Assab proposal. The local ownership and diplomatic conditions must still permit the existing settlement. The ministry will present the proposal when those conditions hold.;;;;;;;;;;;;;x
+cve_african_review_0;Consolidate the existing coastal and commercial network.;;;;;;;;;;;;;x
+cve_african_review_1;Prepare an expeditionary policy beyond the coast.;;;;;;;;;;;;;x
+cve_african_review_title;The Commission on the African Commitments;;;;;;;;;;;;;x
+cve_african_review_desc;Officials report growing responsibilities along the African routes. The court must decide whether to consolidate local agreements or prepare for further territorial commitments.;;;;;;;;;;;;;x
+cve_war_lombardy_review;Campaign mobilisation and review;;;;;;;;;;;;;x
+cve_war_lombardy_title;The War for Lombardy;;;;;;;;;;;;;x
+cve_war_lombardy_desc;Commit the empire to war and call its allies. Only an enforced settlement grants the stated objective. A white peace or defeat leaves the territorial question unresolved.;;;;;;;;;;;;;x
+cve_war_lombardy_cb;The War for Lombardy;;;;;;;;;;;;;x
+cve_war_lombardy_cb_short;The War for Lombardy;;;;;;;;;;;;;x
+cve_war_lombardy_cb_desc;Enforce the named territorial or protectorate settlement.;;;;;;;;;;;;;x
+CVE_WAR_LOMBARDY_CB;The War for Lombardy;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_LOMBARDY_CB;The War for Lombardy;;;;;;;;;;;;;x
+cve_war_lombardy_peace_report_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_lombardy_peace_report_title;The War for Lombardy: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_lombardy_peace_report_desc;The peace has enforced the imperial objective. The agreed provinces or dependent government now enter the settlement. Further expansion requires a separate diplomatic or military decision.;;;;;;;;;;;;;x
+cve_war_lombardy_closed_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_lombardy_closed_title;The War for Lombardy: An Unresolved Peace;;;;;;;;;;;;;x
+cve_war_lombardy_closed_desc;The war has ended without enforcement of the imperial objective. The court must review its preparations and respect the truce before attempting another campaign.;;;;;;;;;;;;;x
+cve_war_venetia_review;Campaign mobilisation and review;;;;;;;;;;;;;x
+cve_war_venetia_title;The War for Venetia;;;;;;;;;;;;;x
+cve_war_venetia_desc;Commit the empire to war and call its allies. Only an enforced settlement grants the stated objective. A white peace or defeat leaves the territorial question unresolved.;;;;;;;;;;;;;x
+cve_war_venetia_cb;The War for Venetia;;;;;;;;;;;;;x
+cve_war_venetia_cb_short;The War for Venetia;;;;;;;;;;;;;x
+cve_war_venetia_cb_desc;Enforce the named territorial or protectorate settlement.;;;;;;;;;;;;;x
+CVE_WAR_VENETIA_CB;The War for Venetia;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_VENETIA_CB;The War for Venetia;;;;;;;;;;;;;x
+cve_war_venetia_peace_report_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_venetia_peace_report_title;The War for Venetia: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_venetia_peace_report_desc;The peace has enforced the imperial objective. The agreed provinces or dependent government now enter the settlement. Further expansion requires a separate diplomatic or military decision.;;;;;;;;;;;;;x
+cve_war_venetia_closed_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_venetia_closed_title;The War for Venetia: An Unresolved Peace;;;;;;;;;;;;;x
+cve_war_venetia_closed_desc;The war has ended without enforcement of the imperial objective. The court must review its preparations and respect the truce before attempting another campaign.;;;;;;;;;;;;;x
+cve_war_libya_review;Campaign mobilisation and review;;;;;;;;;;;;;x
+cve_war_libya_title;The Italo-Ottoman War for Libya;;;;;;;;;;;;;x
+cve_war_libya_desc;Commit the empire to war and call its allies. Only an enforced settlement grants the stated objective. A white peace or defeat leaves the territorial question unresolved.;;;;;;;;;;;;;x
+cve_war_libya_cb;The Italo-Ottoman War for Libya;;;;;;;;;;;;;x
+cve_war_libya_cb_short;The Italo-Ottoman War for Libya;;;;;;;;;;;;;x
+cve_war_libya_cb_desc;Enforce the named territorial or protectorate settlement.;;;;;;;;;;;;;x
+CVE_WAR_LIBYA_CB;The Italo-Ottoman War for Libya;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_LIBYA_CB;The Italo-Ottoman War for Libya;;;;;;;;;;;;;x
+cve_war_libya_peace_report_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_libya_peace_report_title;The Italo-Ottoman War for Libya: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_libya_peace_report_desc;The peace has enforced the imperial objective. The agreed provinces or dependent government now enter the settlement. Further expansion requires a separate diplomatic or military decision.;;;;;;;;;;;;;x
+cve_war_libya_closed_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_libya_closed_title;The Italo-Ottoman War for Libya: An Unresolved Peace;;;;;;;;;;;;;x
+cve_war_libya_closed_desc;The war has ended without enforcement of the imperial objective. The court must review its preparations and respect the truce before attempting another campaign.;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_review;Campaign mobilisation and review;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_title;The War for the Egyptian Protectorate;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_desc;Commit the empire to war and call its allies. Only an enforced settlement grants the stated objective. A white peace or defeat leaves the territorial question unresolved.;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_cb;The War for the Egyptian Protectorate;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_cb_short;The War for the Egyptian Protectorate;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_cb_desc;Enforce the named territorial or protectorate settlement.;;;;;;;;;;;;;x
+CVE_WAR_EGYPT_OTTOMAN_CB;The War for the Egyptian Protectorate;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_EGYPT_OTTOMAN_CB;The War for the Egyptian Protectorate;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_peace_report_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_peace_report_title;The War for the Egyptian Protectorate: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_peace_report_desc;The peace has enforced the imperial objective. The agreed provinces or dependent government now enter the settlement. Further expansion requires a separate diplomatic or military decision.;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_closed_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_closed_title;The War for the Egyptian Protectorate: An Unresolved Peace;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_closed_desc;The war has ended without enforcement of the imperial objective. The court must review its preparations and respect the truce before attempting another campaign.;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_review;Campaign mobilisation and review;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_title;The Italian Protectorate War: Siam;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_desc;Commit the empire to war and call its allies. Only an enforced settlement grants the stated objective. A white peace or defeat leaves the territorial question unresolved.;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_cb;The Italian Protectorate War: Siam;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_cb_short;The Italian Protectorate War: Siam;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_cb_desc;Enforce the named territorial or protectorate settlement.;;;;;;;;;;;;;x
+CVE_WAR_PROTECTORATE_SIA_CB;The Italian Protectorate War: Siam;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_PROTECTORATE_SIA_CB;The Italian Protectorate War: Siam;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_peace_report_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_peace_report_title;The Italian Protectorate War: Siam: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_peace_report_desc;The peace has enforced the imperial objective. The agreed provinces or dependent government now enter the settlement. Further expansion requires a separate diplomatic or military decision.;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_closed_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_closed_title;The Italian Protectorate War: Siam: An Unresolved Peace;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_closed_desc;The war has ended without enforcement of the imperial objective. The court must review its preparations and respect the truce before attempting another campaign.;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_review;Campaign mobilisation and review;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_title;The Italian Protectorate War: Egypt;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_desc;Commit the empire to war and call its allies. Only an enforced settlement grants the stated objective. A white peace or defeat leaves the territorial question unresolved.;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_cb;The Italian Protectorate War: Egypt;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_cb_short;The Italian Protectorate War: Egypt;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_cb_desc;Enforce the named territorial or protectorate settlement.;;;;;;;;;;;;;x
+CVE_WAR_PROTECTORATE_EGY_CB;The Italian Protectorate War: Egypt;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_PROTECTORATE_EGY_CB;The Italian Protectorate War: Egypt;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_peace_report_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_peace_report_title;The Italian Protectorate War: Egypt: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_peace_report_desc;The peace has enforced the imperial objective. The agreed provinces or dependent government now enter the settlement. Further expansion requires a separate diplomatic or military decision.;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_closed_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_closed_title;The Italian Protectorate War: Egypt: An Unresolved Peace;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_closed_desc;The war has ended without enforcement of the imperial objective. The court must review its preparations and respect the truce before attempting another campaign.;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_review;Campaign mobilisation and review;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_title;The Italian Protectorate War: Tunisia;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_desc;Commit the empire to war and call its allies. Only an enforced settlement grants the stated objective. A white peace or defeat leaves the territorial question unresolved.;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_cb;The Italian Protectorate War: Tunisia;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_cb_short;The Italian Protectorate War: Tunisia;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_cb_desc;Enforce the named territorial or protectorate settlement.;;;;;;;;;;;;;x
+CVE_WAR_PROTECTORATE_TUN_CB;The Italian Protectorate War: Tunisia;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_PROTECTORATE_TUN_CB;The Italian Protectorate War: Tunisia;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_peace_report_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_peace_report_title;The Italian Protectorate War: Tunisia: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_peace_report_desc;The peace has enforced the imperial objective. The agreed provinces or dependent government now enter the settlement. Further expansion requires a separate diplomatic or military decision.;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_closed_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_closed_title;The Italian Protectorate War: Tunisia: An Unresolved Peace;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_closed_desc;The war has ended without enforcement of the imperial objective. The court must review its preparations and respect the truce before attempting another campaign.;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_review;Campaign mobilisation and review;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_title;The Italian Protectorate War: Tripoli;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_desc;Commit the empire to war and call its allies. Only an enforced settlement grants the stated objective. A white peace or defeat leaves the territorial question unresolved.;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_cb;The Italian Protectorate War: Tripoli;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_cb_short;The Italian Protectorate War: Tripoli;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_cb_desc;Enforce the named territorial or protectorate settlement.;;;;;;;;;;;;;x
+CVE_WAR_PROTECTORATE_TRI_CB;The Italian Protectorate War: Tripoli;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_PROTECTORATE_TRI_CB;The Italian Protectorate War: Tripoli;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_peace_report_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_peace_report_title;The Italian Protectorate War: Tripoli: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_peace_report_desc;The peace has enforced the imperial objective. The agreed provinces or dependent government now enter the settlement. Further expansion requires a separate diplomatic or military decision.;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_closed_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_closed_title;The Italian Protectorate War: Tripoli: An Unresolved Peace;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_closed_desc;The war has ended without enforcement of the imperial objective. The court must review its preparations and respect the truce before attempting another campaign.;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_review;Campaign mobilisation and review;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_title;The Italian Protectorate War: Somalia;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_desc;Commit the empire to war and call its allies. Only an enforced settlement grants the stated objective. A white peace or defeat leaves the territorial question unresolved.;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_cb;The Italian Protectorate War: Somalia;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_cb_short;The Italian Protectorate War: Somalia;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_cb_desc;Enforce the named territorial or protectorate settlement.;;;;;;;;;;;;;x
+CVE_WAR_PROTECTORATE_SOM_CB;The Italian Protectorate War: Somalia;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_PROTECTORATE_SOM_CB;The Italian Protectorate War: Somalia;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_peace_report_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_peace_report_title;The Italian Protectorate War: Somalia: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_peace_report_desc;The peace has enforced the imperial objective. The agreed provinces or dependent government now enter the settlement. Further expansion requires a separate diplomatic or military decision.;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_closed_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_closed_title;The Italian Protectorate War: Somalia: An Unresolved Peace;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_closed_desc;The war has ended without enforcement of the imperial objective. The court must review its preparations and respect the truce before attempting another campaign.;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_review;Campaign mobilisation and review;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_title;The Italian Protectorate War: Ethiopia;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_desc;Commit the empire to war and call its allies. Only an enforced settlement grants the stated objective. A white peace or defeat leaves the territorial question unresolved.;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_cb;The Italian Protectorate War: Ethiopia;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_cb_short;The Italian Protectorate War: Ethiopia;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_cb_desc;Enforce the named territorial or protectorate settlement.;;;;;;;;;;;;;x
+CVE_WAR_PROTECTORATE_ETH_CB;The Italian Protectorate War: Ethiopia;;;;;;;;;;;;;x
+NORMAL_CVE_WAR_PROTECTORATE_ETH_CB;The Italian Protectorate War: Ethiopia;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_peace_report_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_peace_report_title;The Italian Protectorate War: Ethiopia: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_peace_report_desc;The peace has enforced the imperial objective. The agreed provinces or dependent government now enter the settlement. Further expansion requires a separate diplomatic or military decision.;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_closed_ok;Record the settlement.;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_closed_title;The Italian Protectorate War: Ethiopia: An Unresolved Peace;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_closed_desc;The war has ended without enforcement of the imperial objective. The court must review its preparations and respect the truce before attempting another campaign.;;;;;;;;;;;;;x
+cve_opening;The Empire After Victory;;;;;;;;;;;;;x
+cve_accommodation;Accommodation;;;;;;;;;;;;;x
+cve_centralisation;Centralisation;;;;;;;;;;;;;x
+cve_courts;The Courts That Became Provinces;;;;;;;;;;;;;x
+cve_capital;Florence and Rome;;;;;;;;;;;;;x
+cve_florentine_capital;Florentine capital;;;;;;;;;;;;;x
+cve_dual_residence;Dual residence;;;;;;;;;;;;;x
+cve_roman_capital;Roman capital;;;;;;;;;;;;;x
+cve_pope;The Emperor and the Holy Father;;;;;;;;;;;;;x
+cve_religious_guarantees;Religious guarantees;;;;;;;;;;;;;x
+cve_army_done;One Army, Many Uniforms completed;;;;;;;;;;;;;x
+cve_army_pending;One Army, Many Uniforms awaiting a reply;;;;;;;;;;;;;x
+cve_navy_done;An Imperial Navy for Distant Seas completed;;;;;;;;;;;;;x
+cve_navy_pending;An Imperial Navy for Distant Seas awaiting a reply;;;;;;;;;;;;;x
+cve_railways_done;The National Railway Settlement completed;;;;;;;;;;;;;x
+cve_railways_pending;The National Railway Settlement awaiting a reply;;;;;;;;;;;;;x
+cve_southern_done;Industry Beyond the Northern Cities completed;;;;;;;;;;;;;x
+cve_southern_pending;Industry Beyond the Northern Cities awaiting a reply;;;;;;;;;;;;;x
+cve_consuls_done;Consulates and Merchant Houses completed;;;;;;;;;;;;;x
+cve_consuls_pending;Consulates and Merchant Houses awaiting a reply;;;;;;;;;;;;;x
+cve_colonial_admin_done;The Overseas Administration completed;;;;;;;;;;;;;x
+cve_colonial_admin_pending;The Overseas Administration awaiting a reply;;;;;;;;;;;;;x
+cve_reign;Ferdinando and the Direction of the Empire;;;;;;;;;;;;;x
+cve_dynastic_priority;Dynastic priority;;;;;;;;;;;;;x
+cve_national_priority;National priority;;;;;;;;;;;;;x
+cve_maritime_priority;Maritime priority;;;;;;;;;;;;;x
+cve_budget;Bread, Wages and the Imperial Budget;;;;;;;;;;;;;x
+cve_century;The Empire at the Turn of the Century;;;;;;;;;;;;;x
+cve_austria;Two Crowns, One Dynasty, Two National Interests;;;;;;;;;;;;;x
+cve_negotiate_austria;Negotiate austria;;;;;;;;;;;;;x
+cve_confront_austria;Confront austria;;;;;;;;;;;;;x
+cve_neutral_austria;Neutral austria;;;;;;;;;;;;;x
+cve_accord_ENG_pending;The Anglo-Italian Maritime Convention awaiting a reply;;;;;;;;;;;;;x
+cve_accord_ENG_done;The Anglo-Italian Maritime Convention completed;;;;;;;;;;;;;x
+cve_accord_ENG_refused;The Anglo-Italian Maritime Convention refused;;;;;;;;;;;;;x
+cve_accord_FRA_pending;The Franco-Italian Understanding awaiting a reply;;;;;;;;;;;;;x
+cve_accord_FRA_done;The Franco-Italian Understanding completed;;;;;;;;;;;;;x
+cve_accord_FRA_refused;The Franco-Italian Understanding refused;;;;;;;;;;;;;x
+cve_accord_AUS_pending;The Convention of the Two Imperial Courts awaiting a reply;;;;;;;;;;;;;x
+cve_accord_AUS_done;The Convention of the Two Imperial Courts completed;;;;;;;;;;;;;x
+cve_accord_AUS_refused;The Convention of the Two Imperial Courts refused;;;;;;;;;;;;;x
+cve_accord_PRU_pending;The Prussian Military Convention awaiting a reply;;;;;;;;;;;;;x
+cve_accord_PRU_done;The Prussian Military Convention completed;;;;;;;;;;;;;x
+cve_accord_PRU_refused;The Prussian Military Convention refused;;;;;;;;;;;;;x
+cve_accord_GER_pending;The German Military Convention awaiting a reply;;;;;;;;;;;;;x
+cve_accord_GER_done;The German Military Convention completed;;;;;;;;;;;;;x
+cve_accord_GER_refused;The German Military Convention refused;;;;;;;;;;;;;x
+cve_lombardy_pending;The Lombardy Convention awaiting a reply;;;;;;;;;;;;;x
+cve_lombardy_done;The Lombardy Convention completed;;;;;;;;;;;;;x
+cve_lombardy_refused;The Lombardy Convention refused;;;;;;;;;;;;;x
+cve_venetia_pending;The Venetia Convention awaiting a reply;;;;;;;;;;;;;x
+cve_venetia_done;The Venetia Convention completed;;;;;;;;;;;;;x
+cve_venetia_refused;The Venetia Convention refused;;;;;;;;;;;;;x
+cve_austrian_crisis;The Price of Italian Neutrality;;;;;;;;;;;;;x
+cve_adriatic_pending;The Adriatic Conference awaiting a reply;;;;;;;;;;;;;x
+cve_adriatic_done;The Adriatic Conference completed;;;;;;;;;;;;;x
+cve_adriatic_refused;The Adriatic Conference refused;;;;;;;;;;;;;x
+cve_albanian_pending;The Albanian Commercial Convention awaiting a reply;;;;;;;;;;;;;x
+cve_albanian_done;The Albanian Commercial Convention completed;;;;;;;;;;;;;x
+cve_albanian_refused;The Albanian Commercial Convention refused;;;;;;;;;;;;;x
+cve_overseas;Italy Looks Across the Sea;;;;;;;;;;;;;x
+cve_eastern_priority;Eastern priority;;;;;;;;;;;;;x
+cve_mediterranean_priority;Mediterranean priority;;;;;;;;;;;;;x
+cve_african_priority;African priority;;;;;;;;;;;;;x
+cve_ottoman_libya_pending;The Tripolitanian Cession Convention awaiting a reply;;;;;;;;;;;;;x
+cve_ottoman_libya_done;The Tripolitanian Cession Convention completed;;;;;;;;;;;;;x
+cve_ottoman_libya_refused;The Tripolitanian Cession Convention refused;;;;;;;;;;;;;x
+cve_egypt_british_pending;The Anglo-Italian Egyptian Understanding awaiting a reply;;;;;;;;;;;;;x
+cve_egypt_british_done;The Anglo-Italian Egyptian Understanding completed;;;;;;;;;;;;;x
+cve_egypt_british_refused;The Anglo-Italian Egyptian Understanding refused;;;;;;;;;;;;;x
+cve_egypt_ratification_pending;Egyptian Ratification of the Maritime Convention awaiting a reply;;;;;;;;;;;;;x
+cve_egypt_ratification_done;Egyptian Ratification of the Maritime Convention completed;;;;;;;;;;;;;x
+cve_egypt_ratification_refused;Egyptian Ratification of the Maritime Convention refused;;;;;;;;;;;;;x
+cve_trade_SIA_pending;The Embassy to Bangkok awaiting a reply;;;;;;;;;;;;;x
+cve_trade_SIA_done;The Embassy to Bangkok completed;;;;;;;;;;;;;x
+cve_trade_SIA_refused;The Embassy to Bangkok refused;;;;;;;;;;;;;x
+cve_protect_SIA_pending;The Italian Protectorate Proposal: Siam awaiting a reply;;;;;;;;;;;;;x
+cve_protect_SIA_done;The Italian Protectorate Proposal: Siam completed;;;;;;;;;;;;;x
+cve_protect_SIA_refused;The Italian Protectorate Proposal: Siam refused;;;;;;;;;;;;;x
+cve_protected_SIA;Protectorate Established: Siam;;;;;;;;;;;;;x
+cve_investment_SIA_done;Ports and Public Works: Siam completed;;;;;;;;;;;;;x
+cve_investment_SIA_pending;Ports and Public Works: Siam awaiting a reply;;;;;;;;;;;;;x
+cve_objection_ENG_SIA;The Italian Protectorate in Siam;;;;;;;;;;;;;x
+cve_objection_FRA_SIA;The Italian Protectorate in Siam;;;;;;;;;;;;;x
+cve_trade_EGY_pending;The Egyptian Commercial Convention awaiting a reply;;;;;;;;;;;;;x
+cve_trade_EGY_done;The Egyptian Commercial Convention completed;;;;;;;;;;;;;x
+cve_trade_EGY_refused;The Egyptian Commercial Convention refused;;;;;;;;;;;;;x
+cve_protect_EGY_pending;The Italian Protectorate Proposal: Egypt awaiting a reply;;;;;;;;;;;;;x
+cve_protect_EGY_done;The Italian Protectorate Proposal: Egypt completed;;;;;;;;;;;;;x
+cve_protect_EGY_refused;The Italian Protectorate Proposal: Egypt refused;;;;;;;;;;;;;x
+cve_protected_EGY;Protectorate Established: Egypt;;;;;;;;;;;;;x
+cve_investment_EGY_done;Ports and Public Works: Egypt completed;;;;;;;;;;;;;x
+cve_investment_EGY_pending;Ports and Public Works: Egypt awaiting a reply;;;;;;;;;;;;;x
+cve_objection_ENG_EGY;The Italian Protectorate in Egypt;;;;;;;;;;;;;x
+cve_objection_FRA_EGY;The Italian Protectorate in Egypt;;;;;;;;;;;;;x
+cve_trade_TUN_pending;The Merchants of Livorno and Tunis awaiting a reply;;;;;;;;;;;;;x
+cve_trade_TUN_done;The Merchants of Livorno and Tunis completed;;;;;;;;;;;;;x
+cve_trade_TUN_refused;The Merchants of Livorno and Tunis refused;;;;;;;;;;;;;x
+cve_protect_TUN_pending;The Italian Protectorate Proposal: Tunisia awaiting a reply;;;;;;;;;;;;;x
+cve_protect_TUN_done;The Italian Protectorate Proposal: Tunisia completed;;;;;;;;;;;;;x
+cve_protect_TUN_refused;The Italian Protectorate Proposal: Tunisia refused;;;;;;;;;;;;;x
+cve_protected_TUN;Protectorate Established: Tunisia;;;;;;;;;;;;;x
+cve_investment_TUN_done;Ports and Public Works: Tunisia completed;;;;;;;;;;;;;x
+cve_investment_TUN_pending;Ports and Public Works: Tunisia awaiting a reply;;;;;;;;;;;;;x
+cve_objection_ENG_TUN;The Italian Protectorate in Tunisia;;;;;;;;;;;;;x
+cve_objection_FRA_TUN;The Italian Protectorate in Tunisia;;;;;;;;;;;;;x
+cve_trade_TRI_pending;The Tripolitanian Commercial Convention awaiting a reply;;;;;;;;;;;;;x
+cve_trade_TRI_done;The Tripolitanian Commercial Convention completed;;;;;;;;;;;;;x
+cve_trade_TRI_refused;The Tripolitanian Commercial Convention refused;;;;;;;;;;;;;x
+cve_protect_TRI_pending;The Italian Protectorate Proposal: Tripoli awaiting a reply;;;;;;;;;;;;;x
+cve_protect_TRI_done;The Italian Protectorate Proposal: Tripoli completed;;;;;;;;;;;;;x
+cve_protect_TRI_refused;The Italian Protectorate Proposal: Tripoli refused;;;;;;;;;;;;;x
+cve_protected_TRI;Protectorate Established: Tripoli;;;;;;;;;;;;;x
+cve_investment_TRI_done;Ports and Public Works: Tripoli completed;;;;;;;;;;;;;x
+cve_investment_TRI_pending;Ports and Public Works: Tripoli awaiting a reply;;;;;;;;;;;;;x
+cve_objection_ENG_TRI;The Italian Protectorate in Tripoli;;;;;;;;;;;;;x
+cve_objection_FRA_TRI;The Italian Protectorate in Tripoli;;;;;;;;;;;;;x
+cve_trade_ZAN_pending;The Zanzibar Coastal Convention awaiting a reply;;;;;;;;;;;;;x
+cve_trade_ZAN_done;The Zanzibar Coastal Convention completed;;;;;;;;;;;;;x
+cve_trade_ZAN_refused;The Zanzibar Coastal Convention refused;;;;;;;;;;;;;x
+cve_trade_SOM_pending;The Somali Coastal Convention awaiting a reply;;;;;;;;;;;;;x
+cve_trade_SOM_done;The Somali Coastal Convention completed;;;;;;;;;;;;;x
+cve_trade_SOM_refused;The Somali Coastal Convention refused;;;;;;;;;;;;;x
+cve_protect_SOM_pending;The Italian Protectorate Proposal: Somalia awaiting a reply;;;;;;;;;;;;;x
+cve_protect_SOM_done;The Italian Protectorate Proposal: Somalia completed;;;;;;;;;;;;;x
+cve_protect_SOM_refused;The Italian Protectorate Proposal: Somalia refused;;;;;;;;;;;;;x
+cve_protected_SOM;Protectorate Established: Somalia;;;;;;;;;;;;;x
+cve_investment_SOM_done;Ports and Public Works: Somalia completed;;;;;;;;;;;;;x
+cve_investment_SOM_pending;Ports and Public Works: Somalia awaiting a reply;;;;;;;;;;;;;x
+cve_objection_ENG_SOM;The Italian Protectorate in Somalia;;;;;;;;;;;;;x
+cve_objection_FRA_SOM;The Italian Protectorate in Somalia;;;;;;;;;;;;;x
+cve_trade_ETH_pending;The Ethiopian Friendship Treaty awaiting a reply;;;;;;;;;;;;;x
+cve_trade_ETH_done;The Ethiopian Friendship Treaty completed;;;;;;;;;;;;;x
+cve_trade_ETH_refused;The Ethiopian Friendship Treaty refused;;;;;;;;;;;;;x
+cve_trade_CHI_pending;The Imperial Embassy to China awaiting a reply;;;;;;;;;;;;;x
+cve_trade_CHI_done;The Imperial Embassy to China completed;;;;;;;;;;;;;x
+cve_trade_CHI_refused;The Imperial Embassy to China refused;;;;;;;;;;;;;x
+cve_suez;The Passage Through Suez;;;;;;;;;;;;;x
+cve_china_station_pending;A Treaty Station on the Chinese Coast awaiting a reply;;;;;;;;;;;;;x
+cve_china_station_done;A Treaty Station on the Chinese Coast completed;;;;;;;;;;;;;x
+cve_china_station_refused;A Treaty Station on the Chinese Coast refused;;;;;;;;;;;;;x
+cve_african_review;The Commission on the African Commitments;;;;;;;;;;;;;x
+cve_coastal_policy;Coastal policy;;;;;;;;;;;;;x
+cve_expeditionary_policy;Expeditionary policy;;;;;;;;;;;;;x
+cve_war_lombardy_victory;The War for Lombardy enforced in the peace;;;;;;;;;;;;;x
+cve_war_lombardy_peace_report;The War for Lombardy: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_lombardy_started;The War for Lombardy underway;;;;;;;;;;;;;x
+cve_war_lombardy_closed;The War for Lombardy reviewed;;;;;;;;;;;;;x
+cve_war_venetia_victory;The War for Venetia enforced in the peace;;;;;;;;;;;;;x
+cve_war_venetia_peace_report;The War for Venetia: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_venetia_started;The War for Venetia underway;;;;;;;;;;;;;x
+cve_war_venetia_closed;The War for Venetia reviewed;;;;;;;;;;;;;x
+cve_war_libya_victory;The Italo-Ottoman War for Libya enforced in the peace;;;;;;;;;;;;;x
+cve_war_libya_peace_report;The Italo-Ottoman War for Libya: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_libya_started;The Italo-Ottoman War for Libya underway;;;;;;;;;;;;;x
+cve_war_libya_closed;The Italo-Ottoman War for Libya reviewed;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_victory;The War for the Egyptian Protectorate enforced in the peace;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_peace_report;The War for the Egyptian Protectorate: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_started;The War for the Egyptian Protectorate underway;;;;;;;;;;;;;x
+cve_war_egypt_ottoman_closed;The War for the Egyptian Protectorate reviewed;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_victory;The Italian Protectorate War: Siam enforced in the peace;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_peace_report;The Italian Protectorate War: Siam: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_started;The Italian Protectorate War: Siam underway;;;;;;;;;;;;;x
+cve_war_protectorate_SIA_closed;The Italian Protectorate War: Siam reviewed;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_victory;The Italian Protectorate War: Egypt enforced in the peace;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_peace_report;The Italian Protectorate War: Egypt: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_started;The Italian Protectorate War: Egypt underway;;;;;;;;;;;;;x
+cve_war_protectorate_EGY_closed;The Italian Protectorate War: Egypt reviewed;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_victory;The Italian Protectorate War: Tunisia enforced in the peace;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_peace_report;The Italian Protectorate War: Tunisia: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_started;The Italian Protectorate War: Tunisia underway;;;;;;;;;;;;;x
+cve_war_protectorate_TUN_closed;The Italian Protectorate War: Tunisia reviewed;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_victory;The Italian Protectorate War: Tripoli enforced in the peace;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_peace_report;The Italian Protectorate War: Tripoli: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_started;The Italian Protectorate War: Tripoli underway;;;;;;;;;;;;;x
+cve_war_protectorate_TRI_closed;The Italian Protectorate War: Tripoli reviewed;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_victory;The Italian Protectorate War: Somalia enforced in the peace;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_peace_report;The Italian Protectorate War: Somalia: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_started;The Italian Protectorate War: Somalia underway;;;;;;;;;;;;;x
+cve_war_protectorate_SOM_closed;The Italian Protectorate War: Somalia reviewed;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_victory;The Italian Protectorate War: Ethiopia enforced in the peace;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_peace_report;The Italian Protectorate War: Ethiopia: Settlement Ratified;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_started;The Italian Protectorate War: Ethiopia underway;;;;;;;;;;;;;x
+cve_war_protectorate_ETH_closed;The Italian Protectorate War: Ethiopia reviewed;;;;;;;;;;;;;x
+cve_assab_sponsored;Assab sponsored;;;;;;;;;;;;;x
+SXI_colonial_company_4;Jinbei;;;;;;;;;;;;;x
+RGA_colonial_company_4;Argelia;;;;;;;;;;;;;x
+MOR_colonial_company_4;Protectorado de Marruecos;;;;;;;;;;;;;x
+BOS_colonial_company_4;Protettorato della Bosnia;;;;;;;;;;;;;x
+CRO_colonial_company_4;Principato di Croazia;;;;;;;;;;;;;x
+MLI_colonial_company_4;Malí;;;;;;;;;;;;;x
+MLW_colonial_company_4;Niassalândia;;;;;;;;;;;;;x
+AST_colonial_company_4;Goshu;;;;;;;;;;;;;x
+NZL_colonial_company_4;Shinsairan;;;;;;;;;;;;;x
+CAN_colonial_company_4;Kanady Namestnichestvo;;;;;;;;;;;;;x
+VTU_colonial_company_4;Kawanazu;;;;;;;;;;;;;x
+MGL_colonial_company_4;Mongolskiy kray;;;;;;;;;;;;;x
+MCK_colonial_company_4;Zheltorossiya;;;;;;;;;;;;;x
+HDJ_colonial_company_4;Ghalamroîeh Sharîf-e Makkeh;;;;;;;;;;;;;x
+CZH_colonial_company_4;Federazione Cecoslovacca;;;;;;;;;;;;;x
+SLV_colonial_company_4;Slovatskoye Knyazhestvo;;;;;;;;;;;;;x
+MRV_colonial_company_4;Moravskoye Knyazhestvo;;;;;;;;;;;;;x
+TRI_colonial_company_4;Protettorato della Libia;;;;;;;;;;;;;x
+SIC_colonial_company_4;Nàpols i Sicília;;;;;;;;;;;;;x
+ETH_colonial_company_4;Regno d'Etiopia;;;;;;;;;;;;;x
+CYR_colonial_company_4;Abu Arish;;;;;;;;;;;;;x
+CYR_colonial_company_4_ADJ;Asiri;;;;;;;;;;;;;x
+KOR_colonial_company_4;Provintsiya Choson;;;;;;;;;;;;;x
+SAF_colonial_company_4;Kaapkolonie;;;;;;;;;;;;;x
+MAD_colonial_company_4;São Lourenço;;;;;;;;;;;;;x
+KNY_colonial_company_4;Chenia;;;;;;;;;;;;;x
+NGR_colonial_company_4;Nigeria;;;;;;;;;;;;;x
+LIT_colonial_company_4;Furstendömet Litauen;;;;;;;;;;;;;x
+LSK_colonial_company_4;Alyaska;;;;;;;;;;;;;x
+MOZ_colonial_company_4;Moçambique;;;;;;;;;;;;;x
+CMR_colonial_company_4;Guinea Oriental;;;;;;;;;;;;;x
+ALD_colonial_company_4;Argelia;;;;;;;;;;;;;x
+NMB_colonial_company_4;Estado de Coissã;;;;;;;;;;;;;x
+SMO_colonial_company_4;Samoa-To;;;;;;;;;;;;;x
+MEE_colonial_company_4;Virreinato de Nueva Espana;;;;;;;;;;;;;x
+YUC_colonial_company_4;Capitania General de Yucatán;;;;;;;;;;;;;x
+VNZ_colonial_company_4;Capitania General de Venezuela;;;;;;;;;;;;;x
+UCA_colonial_company_4;Capitania General de Guatemala;;;;;;;;;;;;;x
+CHL_colonial_company_4;Capitania General de Chile;;;;;;;;;;;;;x
+GCO_colonial_company_4;Virreinato de la Nueva Granada;;;;;;;;;;;;;x
+LPL_colonial_company_4;Virreinato del Rio de la Plata;;;;;;;;;;;;;x
+PBC_colonial_company_4;Virreinato del Peru;;;;;;;;;;;;;x
+CPV_colonial_company_4;Cabo Verde;;;;;;;;;;;;;x
+WSA_colonial_company_4;Posesiones en el Sahara;;;;;;;;;;;;;x
+TUN_colonial_company_4;Protettorato di Tunisia;;;;;;;;;;;;;x
+TRZ_colonial_company_4;Mauritania;;;;;;;;;;;;;x
+SNG_colonial_company_4;Senegal;;;;;;;;;;;;;x
+GMB_colonial_company_4;Rio de Gambia;;;;;;;;;;;;;x
+GBU_colonial_company_4;Guiné-Bissau;;;;;;;;;;;;;x
+SLE_colonial_company_4;Serra Leoa;;;;;;;;;;;;;x
+GNE_colonial_company_4;Guiné;;;;;;;;;;;;;x
+GHN_colonial_company_4;Goudkust;;;;;;;;;;;;;x
+TOG_colonial_company_4;Kolonie Togo;;;;;;;;;;;;;x
+DAH_colonial_company_4;Daomé;;;;;;;;;;;;;x
+EQG_colonial_company_4;Territorio Nacional de Guinea;;;;;;;;;;;;;x
+CNG_colonial_company_4;État indépendant du Congo;;;;;;;;;;;;;x
+CNG_colonial_company_4_ADJ;Congolais;;;;;;;;;;;;;x
+TPT_colonial_company_4;Quivu;;;;;;;;;;;;;x
+BRD_colonial_company_4;Urundi;;;;;;;;;;;;;x
+RWA_colonial_company_4;Ruanda;;;;;;;;;;;;;x
+CRE_colonial_company_4;Creta;;;;;;;;;;;;;x
+CYP_colonial_company_4;Cipro;;;;;;;;;;;;;x
+EGY_colonial_company_4;Regno d'Egitto;;;;;;;;;;;;;x
+SUD_colonial_company_4;Sudan;;;;;;;;;;;;;x
+ANG_colonial_company_4;África Occidental;;;;;;;;;;;;;x
+SRD_colonial_company_4;Cerdeña;;;;;;;;;;;;;x
+SYC_colonial_company_4;Sicilia;;;;;;;;;;;;;x
+DAR_colonial_company_4;Darfur;;;;;;;;;;;;;x
+TIG_colonial_company_4;Colonia Eritrea;;;;;;;;;;;;;x
+AWS_colonial_company_4;Nikolayevka;;;;;;;;;;;;;x
+WRL_colonial_company_4;Somalia Settentrionale;;;;;;;;;;;;;x
+SOM_colonial_company_4;Somalia;;;;;;;;;;;;;x
+MZR_colonial_company_4;Mombasa;;;;;;;;;;;;;x
+CRS_colonial_company_4;Córcega;;;;;;;;;;;;;x
+ZBW_colonial_company_4;Matabeles;;;;;;;;;;;;;x
+SRI_colonial_company_4;Ceylon Kolonie;;;;;;;;;;;;;x
+BUR_colonial_company_4;Birumasho;;;;;;;;;;;;;x
+CAM_colonial_company_4;Kanhosai Okoku;;;;;;;;;;;;;x
+LUA_colonial_company_4;Raosho;;;;;;;;;;;;;x
+IDC_colonial_company_4;Indoshina Hogoryo;;;;;;;;;;;;;x
+PRI_colonial_company_4;Capitanía general de Puerto Rico;;;;;;;;;;;;;x
+NEN_colonial_company_4;Confederatie van Nieuw Engeland;;;;;;;;;;;;;x
+FJN_colonial_company_4;Fukkensho;;;;;;;;;;;;;x
+POR_colonial_company_4;Portugal;;;;;;;;;;;;;x
+ULA_colonial_company_4;Luisiana;;;;;;;;;;;;;x
+AFG_colonial_company_4;Protektorat Afganistana;;;;;;;;;;;;;x
+HND_colonial_company_4;Indokoku;;;;;;;;;;;;;x
+EIC_colonial_company_4;Zuid-Indische Compagnie;;;;;;;;;;;;;x
+TMR_colonial_company_4;Timor-Leste;;;;;;;;;;;;;x
+HAW_colonial_company_4;Hawai-To;;;;;;;;;;;;;x
+PTG_colonial_company_4;Grão-Ducado da Patagônia;;;;;;;;;;;;;x
+HAI_colonial_company_4;Haití;;;;;;;;;;;;;x
+COL_colonial_company_4;Provintsiya Kolumbiya;;;;;;;;;;;;;x
+TEX_colonial_company_4;Provincia de Tejas;;;;;;;;;;;;;x
+ICL_colonial_company_4;Konungariket Island;;;;;;;;;;;;;x
+CAL_colonial_company_4;Koloniya Ross;;;;;;;;;;;;;x
+MAN_colonial_company_4;Nieuw-Nederland;;;;;;;;;;;;;x
+NET_colonial_company_4;Herzogtum der Niederlande;;;;;;;;;;;;;x
+GAB_colonial_company_4;Gabón;;;;;;;;;;;;;x
+LOA_colonial_company_4;Zaire;;;;;;;;;;;;;x
+STP_colonial_company_4;São Tomé e Príncipe;;;;;;;;;;;;;x
+MLT_colonial_company_4;Malta;;;;;;;;;;;;;x
+ION_colonial_company_4;Isole Ionie;;;;;;;;;;;;;x
+RUN_colonial_company_4;Ilhas Mascarhenhas;;;;;;;;;;;;;x
+ZAM_colonial_company_4;Barotze;;;;;;;;;;;;;x
+MLD_colonial_company_4;Morujibu-Shoto;;;;;;;;;;;;;x
+ALB_colonial_company_4;Protettorato d'Albania;;;;;;;;;;;;;x
+SIA_colonial_company_4;Regno del Siam;;;;;;;;;;;;;x
+DAI_colonial_company_4;Etsunan;;;;;;;;;;;;;x
+GUY_colonial_company_4;Surinaamse Kolonie;;;;;;;;;;;;;x
+PNB_colonial_company_4;Nederlands-Brazilië;;;;;;;;;;;;;x
+CRB_colonial_company_4;Antillas Británicas;;;;;;;;;;;;;x
+MTQ_colonial_company_4;Antillas francesas;;;;;;;;;;;;;x
+NAN_colonial_company_4;Nederlandse Antillen;;;;;;;;;;;;;x
+CUB_colonial_company_4;Capitanía general de Cuba;;;;;;;;;;;;;x
+DOM_colonial_company_4;Capitanía general de Santo Domingo;;;;;;;;;;;;;x
+FIJ_colonial_company_4;Hisei;;;;;;;;;;;;;x
+TGA_colonial_company_4;Tonga-Shoto;;;;;;;;;;;;;x
+TMT_colonial_company_4;Tahichi-To;;;;;;;;;;;;;x
+PER_colonial_company_4;Persiya;;;;;;;;;;;;;x
+PHL_colonial_company_4;Hiripin Sotokufu;;;;;;;;;;;;;x
+TAI_colonial_company_4;Takasago Sotokufu;;;;;;;;;;;;;x
+INO_colonial_company_4;Indonishia;;;;;;;;;;;;;x
+MLY_colonial_company_4;Marai;;;;;;;;;;;;;x
+PPG_colonial_company_4;Papua Nyugini-To;;;;;;;;;;;;;x
+KAM_colonial_company_4;Kamusasuka;;;;;;;;;;;;;x
+BRY_colonial_company_4;Buriyato Jichi-Ku;;;;;;;;;;;;;x
+GIZ_colonial_company_4;Kishu Jichi-Seifu;;;;;;;;;;;;;x
+GXI_colonial_company_4;Kosei Jichi-Seifu;;;;;;;;;;;;;x
+HNN_colonial_company_4;Konan Jichi-Seifu;;;;;;;;;;;;;x
+HUI_colonial_company_4;Anki Jichi-Seifu;;;;;;;;;;;;;x
+QNG_colonial_company_4;Dai-Shin Tokanfu;;;;;;;;;;;;;x
+TPG_colonial_company_4;Taihei Tengoku;;;;;;;;;;;;;x
+XBI_colonial_company_4;Seihoku Chiho;;;;;;;;;;;;;x
+XIN_colonial_company_4;Vostochno-Turkestanskiy Kray;;;;;;;;;;;;;x
+YAK_colonial_company_4;Yakuto Jichi-Ku;;;;;;;;;;;;;x
+GRE_colonial_company_4;Regno di Grecia;;;;;;;;;;;;;x
+SAM_colonial_company_4;Igemonía tis Sámou;;;;;;;;;;;;;x
+MCD_colonial_company_4;Politeía tis Makedonías;;;;;;;;;;;;;x
+ANT_colonial_company_4;Dioikitikí Zóni tis Anatolías;;;;;;;;;;;;;x
+PNT_colonial_company_4;Aftónomos Politeía tou Póntou;;;;;;;;;;;;;x
+TUR_colonial_company_4;Tourkikí Aftonomía tis Anatolías;;;;;;;;;;;;;x
+SCA_colonial_company_4;Seryyrossiya;;;;;;;;;;;;;x
+FIN_colonial_company_4;Hertigdömet Finland;;;;;;;;;;;;;x
+KHI_colonial_company_4;Khivinskoye Khanstvo;;;;;;;;;;;;;x
+BUK_colonial_company_4;Bukharskiy Emirat;;;;;;;;;;;;;x
+CLC_colonial_company_4;Cilicia;;;;;;;;;;;;;x
+ROM_colonial_company_4;Dakiyskoye Knyazhestvo;;;;;;;;;;;;;x
+WAL_colonial_company_4;Valakhiya;;;;;;;;;;;;;x
+MOL_colonial_company_4;Moldaviya;;;;;;;;;;;;;x
+SIE_colonial_company_4;Transilvaniya;;;;;;;;;;;;;x
+CRI_colonial_company_4;Tavricheskaya Guberniya;;;;;;;;;;;;;x

@@ -1,0 +1,4024 @@
+country_event = {
+    id = 9924000
+    title = "cvrj_policy_title"
+    desc = "cvrj_policy_desc"
+    picture = "cvrj_russia"
+    trigger = {
+        tag = RUS
+        year = 1896
+        NOT = {
+            year = 1905
+            has_global_flag = russo_japanese_war
+            has_global_flag = rjw_over
+        }
+        exists = JAP
+        is_vassal = no
+        war = no
+        NOT = {
+            has_country_flag = cvrj_policy
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_policy_0"
+        ai_chance = {
+            factor = 90
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        year = 1896
+                        NOT = {
+                            year = 1905
+                            has_global_flag = russo_japanese_war
+                            has_global_flag = rjw_over
+                        }
+                        exists = JAP
+                        is_vassal = no
+                        war = no
+                        NOT = {
+                            has_country_flag = cvrj_policy
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    year = 1896
+                    NOT = {
+                        year = 1905
+                        has_global_flag = russo_japanese_war
+                        has_global_flag = rjw_over
+                    }
+                    exists = JAP
+                    is_vassal = no
+                    war = no
+                    NOT = {
+                        has_country_flag = cvrj_policy
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_policy
+                set_global_flag = cvrj_route
+                set_global_flag = cvrj_historical
+            }
+        }
+    }
+    option = {
+        name = "cvrj_policy_1"
+        ai_chance = {
+            factor = 10
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        year = 1896
+                        NOT = {
+                            year = 1905
+                            has_global_flag = russo_japanese_war
+                            has_global_flag = rjw_over
+                        }
+                        exists = JAP
+                        is_vassal = no
+                        war = no
+                        NOT = {
+                            has_country_flag = cvrj_policy
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    year = 1896
+                    NOT = {
+                        year = 1905
+                        has_global_flag = russo_japanese_war
+                        has_global_flag = rjw_over
+                    }
+                    exists = JAP
+                    is_vassal = no
+                    war = no
+                    NOT = {
+                        has_country_flag = cvrj_policy
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_policy
+                set_global_flag = cvrj_route
+                set_global_flag = cvrj_accommodation
+                relation = {
+                    who = JAP
+                    value = 50
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924001
+    title = "cvrj_railway_title"
+    desc = "cvrj_railway_desc"
+    picture = "cvrj_russia"
+    trigger = {
+        tag = RUS
+        has_global_flag = cvrj_route
+        year = 1896
+        OR = {
+            year = 1897
+            AND = {
+                year = 1896
+                month = 8
+            }
+        }
+        1479 = {
+            owner = {
+                OR = {
+                    tag = QNG
+                    tag = CHI
+                    tag = MCK
+                    tag = TPG
+                }
+            }
+        }
+        NOT = {
+            has_country_flag = cvrj_railway
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_railway_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        has_global_flag = cvrj_route
+                        year = 1896
+                        OR = {
+                            year = 1897
+                            AND = {
+                                year = 1896
+                                month = 8
+                            }
+                        }
+                        1479 = {
+                            owner = {
+                                OR = {
+                                    tag = QNG
+                                    tag = CHI
+                                    tag = MCK
+                                    tag = TPG
+                                }
+                            }
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_railway
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_global_flag = cvrj_route
+                    year = 1896
+                    OR = {
+                        year = 1897
+                        AND = {
+                            year = 1896
+                            month = 8
+                        }
+                    }
+                    1479 = {
+                        owner = {
+                            OR = {
+                                tag = QNG
+                                tag = CHI
+                                tag = MCK
+                                tag = TPG
+                            }
+                        }
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_railway
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_railway
+                1479 = {
+                    owner = {
+                        country_event = {
+                            id = 9924002
+                            days = 1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924002
+    title = "cvrj_china_rail_title"
+    desc = "cvrj_china_rail_desc"
+    picture = "cvrj_russia"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_china_rail_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        OR = {
+                            tag = QNG
+                            tag = CHI
+                            tag = MCK
+                            tag = TPG
+                            tag = HUI
+                            tag = KMT
+                        }
+                        RUS = {
+                            exists = yes
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_china_rail
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        tag = QNG
+                        tag = CHI
+                        tag = MCK
+                        tag = TPG
+                        tag = HUI
+                        tag = KMT
+                    }
+                    RUS = {
+                        exists = yes
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_china_rail
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_china_rail
+                set_global_flag = cvrj_rail_agreed
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = QNG
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            military_access = QNG
+                            relation = {
+                                who = QNG
+                                value = 30
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = CHI
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            military_access = CHI
+                            relation = {
+                                who = CHI
+                                value = 30
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = MCK
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            military_access = MCK
+                            relation = {
+                                who = MCK
+                                value = 30
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = TPG
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            military_access = TPG
+                            relation = {
+                                who = TPG
+                                value = 30
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = HUI
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            military_access = HUI
+                            relation = {
+                                who = HUI
+                                value = 30
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = KMT
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            military_access = KMT
+                            relation = {
+                                who = KMT
+                                value = 30
+                            }
+                        }
+                    }
+                }
+                RUS = {
+                    add_country_modifier = {
+                        name = cvrj_rail_concession
+                        duration = -1
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvrj_china_rail_1"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        tag = QNG
+                        tag = CHI
+                        tag = MCK
+                        tag = TPG
+                        tag = HUI
+                        tag = KMT
+                    }
+                    RUS = {
+                        exists = yes
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_china_rail
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_china_rail
+                set_global_flag = cvrj_china_resisted
+                relation = {
+                    who = RUS
+                    value = -40
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924003
+    title = "cvrj_lease_request_title"
+    desc = "cvrj_lease_request_desc"
+    picture = "cvrj_russia"
+    trigger = {
+        tag = RUS
+        has_global_flag = cvrj_historical
+        war = no
+        is_vassal = no
+        OR = {
+            year = 1899
+            AND = {
+                year = 1898
+                month = 2
+            }
+        }
+        NOT = {
+            owns = 1481
+            has_country_flag = demanded_port_arthur
+        }
+        1481 = {
+            owner = {
+                OR = {
+                    tag = QNG
+                    tag = CHI
+                    tag = MCK
+                    tag = TPG
+                }
+                NOT = {
+                    war_with = RUS
+                }
+            }
+        }
+        NOT = {
+            has_country_flag = cvrj_lease_request
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_lease_request_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        has_global_flag = cvrj_historical
+                        war = no
+                        is_vassal = no
+                        OR = {
+                            year = 1899
+                            AND = {
+                                year = 1898
+                                month = 2
+                            }
+                        }
+                        NOT = {
+                            owns = 1481
+                            has_country_flag = demanded_port_arthur
+                        }
+                        1481 = {
+                            owner = {
+                                OR = {
+                                    tag = QNG
+                                    tag = CHI
+                                    tag = MCK
+                                    tag = TPG
+                                }
+                                NOT = {
+                                    war_with = RUS
+                                }
+                            }
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_lease_request
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_global_flag = cvrj_historical
+                    war = no
+                    is_vassal = no
+                    OR = {
+                        year = 1899
+                        AND = {
+                            year = 1898
+                            month = 2
+                        }
+                    }
+                    NOT = {
+                        owns = 1481
+                        has_country_flag = demanded_port_arthur
+                    }
+                    1481 = {
+                        owner = {
+                            OR = {
+                                tag = QNG
+                                tag = CHI
+                                tag = MCK
+                                tag = TPG
+                            }
+                            NOT = {
+                                war_with = RUS
+                            }
+                        }
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_lease_request
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_lease_request
+                set_country_flag = demanded_port_arthur
+                1481 = {
+                    owner = {
+                        country_event = {
+                            id = 9924004
+                            days = 1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924004
+    title = "cvrj_china_lease_title"
+    desc = "cvrj_china_lease_desc"
+    picture = "cvrj_russia"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_china_lease_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        OR = {
+                            tag = QNG
+                            tag = CHI
+                            tag = MCK
+                            tag = TPG
+                            tag = HUI
+                            tag = KMT
+                        }
+                        owns = 1481
+                        RUS = {
+                            exists = yes
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_china_lease
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        tag = QNG
+                        tag = CHI
+                        tag = MCK
+                        tag = TPG
+                        tag = HUI
+                        tag = KMT
+                    }
+                    owns = 1481
+                    RUS = {
+                        exists = yes
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_china_lease
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_china_lease
+                set_global_flag = cvrj_lease_agreed
+                1481 = {
+                    secede_province = RUS
+                    add_province_modifier = {
+                        name = chinese_treaty_port
+                        duration = -1
+                    }
+                }
+                RUS = {
+                    relation = {
+                        who = JAP
+                        value = -40
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvrj_china_lease_1"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        tag = QNG
+                        tag = CHI
+                        tag = MCK
+                        tag = TPG
+                        tag = HUI
+                        tag = KMT
+                    }
+                    owns = 1481
+                    RUS = {
+                        exists = yes
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_china_lease
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_china_lease
+                set_global_flag = cvrj_china_resisted
+                relation = {
+                    who = RUS
+                    value = -60
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924005
+    title = "cvrj_japan_alarm_title"
+    desc = "cvrj_japan_alarm_desc"
+    picture = "cvrj_japan"
+    trigger = {
+        tag = JAP
+        civilized = yes
+        has_global_flag = cvrj_route
+        year = 1898
+        NOT = {
+            has_country_flag = cvrj_japan_alarm
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_japan_alarm_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = JAP
+                        civilized = yes
+                        has_global_flag = cvrj_route
+                        year = 1898
+                        NOT = {
+                            has_country_flag = cvrj_japan_alarm
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    civilized = yes
+                    has_global_flag = cvrj_route
+                    year = 1898
+                    NOT = {
+                        has_country_flag = cvrj_japan_alarm
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_japan_alarm
+                relation = {
+                    who = RUS
+                    value = -20
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924006
+    title = "cvrj_withdrawal_title"
+    desc = "cvrj_withdrawal_desc"
+    picture = "cvrj_russia"
+    trigger = {
+        tag = RUS
+        has_global_flag = cvrj_historical
+        year = 1902
+        owns = 1481
+        NOT = {
+            has_country_flag = cvrj_withdrawal
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_withdrawal_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        has_global_flag = cvrj_historical
+                        year = 1902
+                        owns = 1481
+                        NOT = {
+                            has_country_flag = cvrj_withdrawal
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_global_flag = cvrj_historical
+                    year = 1902
+                    owns = 1481
+                    NOT = {
+                        has_country_flag = cvrj_withdrawal
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_withdrawal
+                set_global_flag = cvrj_escalation
+                relation = {
+                    who = JAP
+                    value = -40
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvrj_withdrawal_1"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_global_flag = cvrj_historical
+                    year = 1902
+                    owns = 1481
+                    NOT = {
+                        has_country_flag = cvrj_withdrawal
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_withdrawal
+                clr_global_flag = cvrj_historical
+                set_global_flag = cvrj_accommodation
+                relation = {
+                    who = JAP
+                    value = 40
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924007
+    title = "cvrj_negotiations_title"
+    desc = "cvrj_negotiations_desc"
+    picture = "cvrj_japan"
+    trigger = {
+        tag = JAP
+        civilized = yes
+        has_global_flag = cvrj_route
+        year = 1903
+        NOT = {
+            war_with = RUS
+        }
+        NOT = {
+            has_country_flag = cvrj_negotiations
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_negotiations_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = JAP
+                        civilized = yes
+                        has_global_flag = cvrj_route
+                        year = 1903
+                        NOT = {
+                            war_with = RUS
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_negotiations
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    civilized = yes
+                    has_global_flag = cvrj_route
+                    year = 1903
+                    NOT = {
+                        war_with = RUS
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_negotiations
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_negotiations
+                RUS = {
+                    country_event = {
+                        id = 9924008
+                        days = 1
+                    }
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924008
+    title = "cvrj_final_notes_title"
+    desc = "cvrj_final_notes_desc"
+    picture = "cvrj_russia"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_final_notes_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        exists = JAP
+                        NOT = {
+                            war_with = JAP
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_final_notes
+                        }
+                    }
+                }
+            }
+            modifier = {
+                factor = 0
+                has_global_flag = cvrj_accommodation
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    exists = JAP
+                    NOT = {
+                        war_with = JAP
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_final_notes
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_final_notes
+                set_global_flag = cvrj_escalation
+            }
+        }
+    }
+    option = {
+        name = "cvrj_final_notes_1"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    has_global_flag = cvrj_accommodation
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    exists = JAP
+                    NOT = {
+                        war_with = JAP
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_final_notes
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_final_notes
+                set_global_flag = cvrj_accommodation
+                clr_global_flag = cvrj_escalation
+                relation = {
+                    who = JAP
+                    value = 60
+                }
+                JAP = {
+                    country_event = {
+                        id = 9924038
+                        days = 1
+                    }
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924009
+    title = "cvrj_february_title"
+    desc = "cvrj_february_desc"
+    picture = "cvrj_japan"
+    trigger = {
+        tag = JAP
+        civilized = yes
+        is_vassal = no
+        has_global_flag = cvrj_escalation
+        RUS = {
+            exists = yes
+            is_vassal = no
+            owns = 1481
+        }
+        NOT = {
+            has_global_flag = cvrj_accommodation
+            has_global_flag = cvrj_active
+            has_global_flag = cvrj_result
+            has_country_flag = only_one_war_with_russia
+            alliance_with = RUS
+            truce_with = RUS
+        }
+        OR = {
+            year = 1905
+            AND = {
+                year = 1904
+                month = 1
+            }
+        }
+        war = no
+        NOT = {
+            year = 1905
+        }
+        NOT = {
+            has_country_flag = cvrj_february
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_february_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = JAP
+                        civilized = yes
+                        is_vassal = no
+                        has_global_flag = cvrj_escalation
+                        RUS = {
+                            exists = yes
+                            is_vassal = no
+                            owns = 1481
+                        }
+                        NOT = {
+                            has_global_flag = cvrj_accommodation
+                            has_global_flag = cvrj_active
+                            has_global_flag = cvrj_result
+                            has_country_flag = only_one_war_with_russia
+                            alliance_with = RUS
+                            truce_with = RUS
+                        }
+                        OR = {
+                            year = 1905
+                            AND = {
+                                year = 1904
+                                month = 1
+                            }
+                        }
+                        war = no
+                        NOT = {
+                            year = 1905
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_february
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    civilized = yes
+                    is_vassal = no
+                    has_global_flag = cvrj_escalation
+                    RUS = {
+                        exists = yes
+                        is_vassal = no
+                        owns = 1481
+                    }
+                    NOT = {
+                        has_global_flag = cvrj_accommodation
+                        has_global_flag = cvrj_active
+                        has_global_flag = cvrj_result
+                        has_country_flag = only_one_war_with_russia
+                        alliance_with = RUS
+                        truce_with = RUS
+                    }
+                    OR = {
+                        year = 1905
+                        AND = {
+                            year = 1904
+                            month = 1
+                        }
+                    }
+                    war = no
+                    NOT = {
+                        year = 1905
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_february
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_february
+                set_global_flag = cvrj_active
+                set_global_flag = russo_japanese_war
+                set_country_flag = only_one_war_with_russia
+                war = {
+                    target = RUS
+                    attacker_goal = {
+                        casus_belli = cvrj_pacific_settlement
+                    }
+                    defender_goal = {
+                        casus_belli = cvrj_pacific_settlement
+                    }
+                    call_ally = no
+                }
+                RUS = {
+                    country_event = {
+                        id = 9924010
+                        days = 1
+                    }
+                }
+                any_country = {
+                    limit = {
+                        OR = {
+                            tag = QNG
+                            tag = CHI
+                            tag = MCK
+                            tag = TPG
+                            tag = HUI
+                            tag = KMT
+                        }
+                        exists = yes
+                    }
+                    country_event = {
+                        id = 9924011
+                        days = 1
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            KOR = {
+                                exists = yes
+                            }
+                        }
+                    }
+                    owner = {
+                        KOR = {
+                            country_event = {
+                                id = 9924012
+                                days = 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvrj_february_1"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    civilized = yes
+                    is_vassal = no
+                    has_global_flag = cvrj_escalation
+                    RUS = {
+                        exists = yes
+                        is_vassal = no
+                        owns = 1481
+                    }
+                    NOT = {
+                        has_global_flag = cvrj_accommodation
+                        has_global_flag = cvrj_active
+                        has_global_flag = cvrj_result
+                        has_country_flag = only_one_war_with_russia
+                        alliance_with = RUS
+                        truce_with = RUS
+                    }
+                    OR = {
+                        year = 1905
+                        AND = {
+                            year = 1904
+                            month = 1
+                        }
+                    }
+                    war = no
+                    NOT = {
+                        year = 1905
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_february
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_february
+                set_country_flag = cvrj_delayed
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924038
+    title = "cvrj_accommodation_notice_title"
+    desc = "cvrj_accommodation_notice_desc"
+    picture = "cvrj_japan"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_accommodation_notice_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = JAP
+                        has_global_flag = cvrj_accommodation
+                        NOT = {
+                            has_country_flag = cvrj_accommodation_notice
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    has_global_flag = cvrj_accommodation
+                    NOT = {
+                        has_country_flag = cvrj_accommodation_notice
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_accommodation_notice
+                relation = {
+                    who = RUS
+                    value = 40
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924010
+    title = "cvrj_russian_war_title"
+    desc = "cvrj_russian_war_desc"
+    picture = "cvrj_russia"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_russian_war_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        has_global_flag = cvrj_active
+                        war_with = JAP
+                        NOT = {
+                            has_country_flag = cvrj_russian_war
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_global_flag = cvrj_active
+                    war_with = JAP
+                    NOT = {
+                        has_country_flag = cvrj_russian_war
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_russian_war
+                relation = {
+                    who = JAP
+                    value = -100
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924011
+    title = "cvrj_chinese_neutrality_title"
+    desc = "cvrj_chinese_neutrality_desc"
+    picture = "cvrj_japan"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_chinese_neutrality_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        OR = {
+                            tag = QNG
+                            tag = CHI
+                            tag = MCK
+                            tag = TPG
+                            tag = HUI
+                            tag = KMT
+                        }
+                        has_global_flag = cvrj_active
+                        NOT = {
+                            has_country_flag = cvrj_chinese_neutrality
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        tag = QNG
+                        tag = CHI
+                        tag = MCK
+                        tag = TPG
+                        tag = HUI
+                        tag = KMT
+                    }
+                    has_global_flag = cvrj_active
+                    NOT = {
+                        has_country_flag = cvrj_chinese_neutrality
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_chinese_neutrality
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = QNG
+                        }
+                    }
+                    owner = {
+                        JAP = {
+                            military_access = QNG
+                        }
+                        RUS = {
+                            military_access = QNG
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = CHI
+                        }
+                    }
+                    owner = {
+                        JAP = {
+                            military_access = CHI
+                        }
+                        RUS = {
+                            military_access = CHI
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = MCK
+                        }
+                    }
+                    owner = {
+                        JAP = {
+                            military_access = MCK
+                        }
+                        RUS = {
+                            military_access = MCK
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = TPG
+                        }
+                    }
+                    owner = {
+                        JAP = {
+                            military_access = TPG
+                        }
+                        RUS = {
+                            military_access = TPG
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = HUI
+                        }
+                    }
+                    owner = {
+                        JAP = {
+                            military_access = HUI
+                        }
+                        RUS = {
+                            military_access = HUI
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = KMT
+                        }
+                    }
+                    owner = {
+                        JAP = {
+                            military_access = KMT
+                        }
+                        RUS = {
+                            military_access = KMT
+                        }
+                    }
+                }
+                set_country_flag = humble_access_giver
+            }
+        }
+    }
+    option = {
+        name = "cvrj_chinese_neutrality_1"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        tag = QNG
+                        tag = CHI
+                        tag = MCK
+                        tag = TPG
+                        tag = HUI
+                        tag = KMT
+                    }
+                    has_global_flag = cvrj_active
+                    NOT = {
+                        has_country_flag = cvrj_chinese_neutrality
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_chinese_neutrality
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = QNG
+                        }
+                    }
+                    owner = {
+                        JAP = {
+                            end_military_access = QNG
+                        }
+                        RUS = {
+                            end_military_access = QNG
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = CHI
+                        }
+                    }
+                    owner = {
+                        JAP = {
+                            end_military_access = CHI
+                        }
+                        RUS = {
+                            end_military_access = CHI
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = MCK
+                        }
+                    }
+                    owner = {
+                        JAP = {
+                            end_military_access = MCK
+                        }
+                        RUS = {
+                            end_military_access = MCK
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = TPG
+                        }
+                    }
+                    owner = {
+                        JAP = {
+                            end_military_access = TPG
+                        }
+                        RUS = {
+                            end_military_access = TPG
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = HUI
+                        }
+                    }
+                    owner = {
+                        JAP = {
+                            end_military_access = HUI
+                        }
+                        RUS = {
+                            end_military_access = HUI
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = KMT
+                        }
+                    }
+                    owner = {
+                        JAP = {
+                            end_military_access = KMT
+                        }
+                        RUS = {
+                            end_military_access = KMT
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924012
+    title = "cvrj_korean_neutrality_title"
+    desc = "cvrj_korean_neutrality_desc"
+    picture = "cvrj_japan"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_korean_neutrality_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = KOR
+                        has_global_flag = cvrj_active
+                        NOT = {
+                            has_country_flag = cvrj_korean_neutrality
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = KOR
+                    has_global_flag = cvrj_active
+                    NOT = {
+                        has_country_flag = cvrj_korean_neutrality
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_korean_neutrality
+                JAP = {
+                    military_access = KOR
+                }
+                RUS = {
+                    military_access = KOR
+                }
+                set_country_flag = humble_access_giver
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924013
+    title = "cvrj_arthur_fallen_title"
+    desc = "cvrj_arthur_fallen_desc"
+    picture = "cvrj_japan"
+    trigger = {
+        tag = JAP
+        has_global_flag = cvrj_active
+        war_with = RUS
+        1481 = {
+            owned_by = RUS
+            controlled_by = JAP
+            province_control_days = 15
+        }
+        NOT = {
+            has_country_flag = cvrj_arthur_fallen
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_arthur_fallen_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = JAP
+                        has_global_flag = cvrj_active
+                        war_with = RUS
+                        1481 = {
+                            owned_by = RUS
+                            controlled_by = JAP
+                            province_control_days = 15
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_arthur_fallen
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    has_global_flag = cvrj_active
+                    war_with = RUS
+                    1481 = {
+                        owned_by = RUS
+                        controlled_by = JAP
+                        province_control_days = 15
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_arthur_fallen
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_arthur_fallen
+                prestige = 5
+                RUS = {
+                    country_event = {
+                        id = 9924014
+                        days = 1
+                    }
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924014
+    title = "cvrj_arthur_loss_title"
+    desc = "cvrj_arthur_loss_desc"
+    picture = "cvrj_russia"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_arthur_loss_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        has_global_flag = cvrj_active
+                        war_with = JAP
+                        NOT = {
+                            has_country_flag = cvrj_arthur_loss
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_global_flag = cvrj_active
+                    war_with = JAP
+                    NOT = {
+                        has_country_flag = cvrj_arthur_loss
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_arthur_loss
+                any_pop = {
+                    consciousness = 0.3
+                    militancy = 0.5
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924015
+    title = "cvrj_offer_JAP_title"
+    desc = "cvrj_offer_JAP_desc"
+    picture = "cvrj_japan"
+    trigger = {
+        tag = JAP
+        has_global_flag = cvrj_active
+        war_with = RUS
+        year = 1905
+        1481 = {
+            owned_by = RUS
+            controlled_by = JAP
+            province_control_days = 30
+        }
+        OR = {
+            RUS = {
+                war_exhaustion = 20
+            }
+            1087 = {
+                owned_by = RUS
+                controlled_by = JAP
+                province_control_days = 15
+            }
+        }
+        NOT = {
+            has_country_flag = cvrj_offer_JAP
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_offer_JAP_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = JAP
+                        has_global_flag = cvrj_active
+                        war_with = RUS
+                        year = 1905
+                        1481 = {
+                            owned_by = RUS
+                            controlled_by = JAP
+                            province_control_days = 30
+                        }
+                        OR = {
+                            RUS = {
+                                war_exhaustion = 20
+                            }
+                            1087 = {
+                                owned_by = RUS
+                                controlled_by = JAP
+                                province_control_days = 15
+                            }
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_offer_JAP
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    has_global_flag = cvrj_active
+                    war_with = RUS
+                    year = 1905
+                    1481 = {
+                        owned_by = RUS
+                        controlled_by = JAP
+                        province_control_days = 30
+                    }
+                    OR = {
+                        RUS = {
+                            war_exhaustion = 20
+                        }
+                        1087 = {
+                            owned_by = RUS
+                            controlled_by = JAP
+                            province_control_days = 15
+                        }
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_offer_JAP
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_offer_JAP
+                RUS = {
+                    country_event = {
+                        id = 9924016
+                        days = 1
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvrj_offer_JAP_1"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    has_global_flag = cvrj_active
+                    war_with = RUS
+                    year = 1905
+                    1481 = {
+                        owned_by = RUS
+                        controlled_by = JAP
+                        province_control_days = 30
+                    }
+                    OR = {
+                        RUS = {
+                            war_exhaustion = 20
+                        }
+                        1087 = {
+                            owned_by = RUS
+                            controlled_by = JAP
+                            province_control_days = 15
+                        }
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_offer_JAP
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_offer_JAP
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924017
+    title = "cvrj_offer_RUS_title"
+    desc = "cvrj_offer_RUS_desc"
+    picture = "cvrj_russia"
+    trigger = {
+        tag = RUS
+        has_global_flag = cvrj_active
+        war_with = JAP
+        OR = {
+            JAP = {
+                capital_scope = {
+                    controlled_by = RUS
+                    province_control_days = 30
+                }
+            }
+            AND = {
+                1642 = {
+                    owned_by = JAP
+                    controlled_by = RUS
+                    province_control_days = 30
+                }
+                1643 = {
+                    owned_by = JAP
+                    controlled_by = RUS
+                    province_control_days = 30
+                }
+                1644 = {
+                    owned_by = JAP
+                    controlled_by = RUS
+                    province_control_days = 30
+                }
+                JAP = {
+                    war_exhaustion = 30
+                }
+            }
+        }
+        NOT = {
+            has_country_flag = cvrj_offer_RUS
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_offer_RUS_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        has_global_flag = cvrj_active
+                        war_with = JAP
+                        OR = {
+                            JAP = {
+                                capital_scope = {
+                                    controlled_by = RUS
+                                    province_control_days = 30
+                                }
+                            }
+                            AND = {
+                                1642 = {
+                                    owned_by = JAP
+                                    controlled_by = RUS
+                                    province_control_days = 30
+                                }
+                                1643 = {
+                                    owned_by = JAP
+                                    controlled_by = RUS
+                                    province_control_days = 30
+                                }
+                                1644 = {
+                                    owned_by = JAP
+                                    controlled_by = RUS
+                                    province_control_days = 30
+                                }
+                                JAP = {
+                                    war_exhaustion = 30
+                                }
+                            }
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_offer_RUS
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_global_flag = cvrj_active
+                    war_with = JAP
+                    OR = {
+                        JAP = {
+                            capital_scope = {
+                                controlled_by = RUS
+                                province_control_days = 30
+                            }
+                        }
+                        AND = {
+                            1642 = {
+                                owned_by = JAP
+                                controlled_by = RUS
+                                province_control_days = 30
+                            }
+                            1643 = {
+                                owned_by = JAP
+                                controlled_by = RUS
+                                province_control_days = 30
+                            }
+                            1644 = {
+                                owned_by = JAP
+                                controlled_by = RUS
+                                province_control_days = 30
+                            }
+                            JAP = {
+                                war_exhaustion = 30
+                            }
+                        }
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_offer_RUS
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_offer_RUS
+                JAP = {
+                    country_event = {
+                        id = 9924018
+                        days = 1
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvrj_offer_RUS_1"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_global_flag = cvrj_active
+                    war_with = JAP
+                    OR = {
+                        JAP = {
+                            capital_scope = {
+                                controlled_by = RUS
+                                province_control_days = 30
+                            }
+                        }
+                        AND = {
+                            1642 = {
+                                owned_by = JAP
+                                controlled_by = RUS
+                                province_control_days = 30
+                            }
+                            1643 = {
+                                owned_by = JAP
+                                controlled_by = RUS
+                                province_control_days = 30
+                            }
+                            1644 = {
+                                owned_by = JAP
+                                controlled_by = RUS
+                                province_control_days = 30
+                            }
+                            JAP = {
+                                war_exhaustion = 30
+                            }
+                        }
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_offer_RUS
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_offer_RUS
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924016
+    title = "cvrj_rus_offer_received_title"
+    desc = "cvrj_rus_offer_received_desc"
+    picture = "cvrj_russia"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_rus_offer_received_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        JAP = {
+                            has_global_flag = cvrj_active
+                            war_with = RUS
+                            year = 1905
+                            1481 = {
+                                owned_by = RUS
+                                controlled_by = JAP
+                                province_control_days = 30
+                            }
+                            OR = {
+                                RUS = {
+                                    war_exhaustion = 20
+                                }
+                                1087 = {
+                                    owned_by = RUS
+                                    controlled_by = JAP
+                                    province_control_days = 15
+                                }
+                            }
+                            NOT = {
+                                has_country_flag = cvrj_offer_JAP
+                            }
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_rus_offer_received
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    JAP = {
+                        has_global_flag = cvrj_active
+                        war_with = RUS
+                        year = 1905
+                        1481 = {
+                            owned_by = RUS
+                            controlled_by = JAP
+                            province_control_days = 30
+                        }
+                        OR = {
+                            RUS = {
+                                war_exhaustion = 20
+                            }
+                            1087 = {
+                                owned_by = RUS
+                                controlled_by = JAP
+                                province_control_days = 15
+                            }
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_offer_JAP
+                        }
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_rus_offer_received
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_rus_offer_received
+                end_war = JAP
+                set_global_flag = cvrj_result
+                set_global_flag = cvrj_JAP_won
+                clr_global_flag = cvrj_active
+                clr_global_flag = russo_japanese_war
+                set_global_flag = rjw_over
+                JAP = {
+                    set_country_flag = rj_war_victor
+                    set_country_flag = cvrj_victor
+                }
+                RUS = {
+                    set_country_flag = cvrj_defeated
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvrj_rus_offer_received_1"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    JAP = {
+                        has_global_flag = cvrj_active
+                        war_with = RUS
+                        year = 1905
+                        1481 = {
+                            owned_by = RUS
+                            controlled_by = JAP
+                            province_control_days = 30
+                        }
+                        OR = {
+                            RUS = {
+                                war_exhaustion = 20
+                            }
+                            1087 = {
+                                owned_by = RUS
+                                controlled_by = JAP
+                                province_control_days = 15
+                            }
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_offer_JAP
+                        }
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_rus_offer_received
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_rus_offer_received
+                any_pop = {
+                    militancy = 0.5
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924018
+    title = "cvrj_jap_offer_received_title"
+    desc = "cvrj_jap_offer_received_desc"
+    picture = "cvrj_japan"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_jap_offer_received_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = JAP
+                        RUS = {
+                            has_global_flag = cvrj_active
+                            war_with = JAP
+                            OR = {
+                                JAP = {
+                                    capital_scope = {
+                                        controlled_by = RUS
+                                        province_control_days = 30
+                                    }
+                                }
+                                AND = {
+                                    1642 = {
+                                        owned_by = JAP
+                                        controlled_by = RUS
+                                        province_control_days = 30
+                                    }
+                                    1643 = {
+                                        owned_by = JAP
+                                        controlled_by = RUS
+                                        province_control_days = 30
+                                    }
+                                    1644 = {
+                                        owned_by = JAP
+                                        controlled_by = RUS
+                                        province_control_days = 30
+                                    }
+                                    JAP = {
+                                        war_exhaustion = 30
+                                    }
+                                }
+                            }
+                            NOT = {
+                                has_country_flag = cvrj_offer_RUS
+                            }
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_jap_offer_received
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    RUS = {
+                        has_global_flag = cvrj_active
+                        war_with = JAP
+                        OR = {
+                            JAP = {
+                                capital_scope = {
+                                    controlled_by = RUS
+                                    province_control_days = 30
+                                }
+                            }
+                            AND = {
+                                1642 = {
+                                    owned_by = JAP
+                                    controlled_by = RUS
+                                    province_control_days = 30
+                                }
+                                1643 = {
+                                    owned_by = JAP
+                                    controlled_by = RUS
+                                    province_control_days = 30
+                                }
+                                1644 = {
+                                    owned_by = JAP
+                                    controlled_by = RUS
+                                    province_control_days = 30
+                                }
+                                JAP = {
+                                    war_exhaustion = 30
+                                }
+                            }
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_offer_RUS
+                        }
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_jap_offer_received
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_jap_offer_received
+                end_war = RUS
+                set_global_flag = cvrj_result
+                set_global_flag = cvrj_RUS_won
+                clr_global_flag = cvrj_active
+                clr_global_flag = russo_japanese_war
+                set_global_flag = rjw_over
+                RUS = {
+                    set_country_flag = rj_war_victor
+                    set_country_flag = cvrj_victor
+                }
+                JAP = {
+                    set_country_flag = cvrj_defeated
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvrj_jap_offer_received_1"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    RUS = {
+                        has_global_flag = cvrj_active
+                        war_with = JAP
+                        OR = {
+                            JAP = {
+                                capital_scope = {
+                                    controlled_by = RUS
+                                    province_control_days = 30
+                                }
+                            }
+                            AND = {
+                                1642 = {
+                                    owned_by = JAP
+                                    controlled_by = RUS
+                                    province_control_days = 30
+                                }
+                                1643 = {
+                                    owned_by = JAP
+                                    controlled_by = RUS
+                                    province_control_days = 30
+                                }
+                                1644 = {
+                                    owned_by = JAP
+                                    controlled_by = RUS
+                                    province_control_days = 30
+                                }
+                                JAP = {
+                                    war_exhaustion = 30
+                                }
+                            }
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_offer_RUS
+                        }
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_jap_offer_received
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_jap_offer_received
+                any_pop = {
+                    militancy = 0.5
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924019
+    title = "cvrj_undecided_title"
+    desc = "cvrj_undecided_desc"
+    picture = "cvrj_russia"
+    trigger = {
+        tag = RUS
+        has_global_flag = cvrj_active
+        NOT = {
+            war_with = JAP
+            has_global_flag = cvrj_result
+        }
+        NOT = {
+            has_country_flag = cvrj_undecided
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_undecided_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        has_global_flag = cvrj_active
+                        NOT = {
+                            war_with = JAP
+                            has_global_flag = cvrj_result
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_undecided
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_global_flag = cvrj_active
+                    NOT = {
+                        war_with = JAP
+                        has_global_flag = cvrj_result
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_undecided
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_undecided
+                clr_global_flag = cvrj_active
+                clr_global_flag = russo_japanese_war
+                set_global_flag = cvrj_result
+                set_global_flag = rjw_over
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924020
+    title = "cvrj_portsmouth_signed_title"
+    desc = "cvrj_portsmouth_signed_desc"
+    picture = "cvrj_japan"
+    trigger = {
+        tag = JAP
+        has_global_flag = cvrj_JAP_won
+        NOT = {
+            war_with = RUS
+        }
+        NOT = {
+            has_country_flag = cvrj_portsmouth_signed
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_portsmouth_signed_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = JAP
+                        has_global_flag = cvrj_JAP_won
+                        NOT = {
+                            war_with = RUS
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_portsmouth_signed
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    has_global_flag = cvrj_JAP_won
+                    NOT = {
+                        war_with = RUS
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_portsmouth_signed
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_portsmouth_signed
+                RUS = {
+                    any_owned = {
+                        limit = {
+                            OR = {
+                                province_id = 1087
+                                province_id = 1481
+                            }
+                        }
+                        secede_province = JAP
+                    }
+                }
+                prestige = 25
+                RUS = {
+                    prestige = -25
+                    any_pop = {
+                        militancy = 1
+                        consciousness = 0.5
+                    }
+                }
+                set_global_flag = cvrj_portsmouth
+                random_owned = {
+                    limit = {
+                        owner = {
+                            exists = QNG
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            any_owned = {
+                                limit = {
+                                    OR = {
+                                        province_id = 1002
+                                        province_id = 1479
+                                        province_id = 1480
+                                        province_id = 1533
+                                        province_id = 1552
+                                        province_id = 1553
+                                        province_id = 1554
+                                        province_id = 1555
+                                        province_id = 1879
+                                        province_id = 3440
+                                    }
+                                }
+                                secede_province = QNG
+                            }
+                        }
+                        JAP = {
+                            any_owned = {
+                                limit = {
+                                    OR = {
+                                        province_id = 1002
+                                        province_id = 1479
+                                        province_id = 1480
+                                        province_id = 1533
+                                        province_id = 1552
+                                        province_id = 1553
+                                        province_id = 1554
+                                        province_id = 1555
+                                        province_id = 1879
+                                        province_id = 3440
+                                    }
+                                }
+                                secede_province = QNG
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            exists = CHI
+                            NOT = {
+                                exists = QNG
+                            }
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            any_owned = {
+                                limit = {
+                                    OR = {
+                                        province_id = 1002
+                                        province_id = 1479
+                                        province_id = 1480
+                                        province_id = 1533
+                                        province_id = 1552
+                                        province_id = 1553
+                                        province_id = 1554
+                                        province_id = 1555
+                                        province_id = 1879
+                                        province_id = 3440
+                                    }
+                                }
+                                secede_province = CHI
+                            }
+                        }
+                        JAP = {
+                            any_owned = {
+                                limit = {
+                                    OR = {
+                                        province_id = 1002
+                                        province_id = 1479
+                                        province_id = 1480
+                                        province_id = 1533
+                                        province_id = 1552
+                                        province_id = 1553
+                                        province_id = 1554
+                                        province_id = 1555
+                                        province_id = 1879
+                                        province_id = 3440
+                                    }
+                                }
+                                secede_province = CHI
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            exists = MCK
+                            NOT = {
+                                exists = QNG
+                            }
+                            NOT = {
+                                exists = CHI
+                            }
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            any_owned = {
+                                limit = {
+                                    OR = {
+                                        province_id = 1002
+                                        province_id = 1479
+                                        province_id = 1480
+                                        province_id = 1533
+                                        province_id = 1552
+                                        province_id = 1553
+                                        province_id = 1554
+                                        province_id = 1555
+                                        province_id = 1879
+                                        province_id = 3440
+                                    }
+                                }
+                                secede_province = MCK
+                            }
+                        }
+                        JAP = {
+                            any_owned = {
+                                limit = {
+                                    OR = {
+                                        province_id = 1002
+                                        province_id = 1479
+                                        province_id = 1480
+                                        province_id = 1533
+                                        province_id = 1552
+                                        province_id = 1553
+                                        province_id = 1554
+                                        province_id = 1555
+                                        province_id = 1879
+                                        province_id = 3440
+                                    }
+                                }
+                                secede_province = MCK
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            exists = TPG
+                            NOT = {
+                                exists = QNG
+                            }
+                            NOT = {
+                                exists = CHI
+                            }
+                            NOT = {
+                                exists = MCK
+                            }
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            any_owned = {
+                                limit = {
+                                    OR = {
+                                        province_id = 1002
+                                        province_id = 1479
+                                        province_id = 1480
+                                        province_id = 1533
+                                        province_id = 1552
+                                        province_id = 1553
+                                        province_id = 1554
+                                        province_id = 1555
+                                        province_id = 1879
+                                        province_id = 3440
+                                    }
+                                }
+                                secede_province = TPG
+                            }
+                        }
+                        JAP = {
+                            any_owned = {
+                                limit = {
+                                    OR = {
+                                        province_id = 1002
+                                        province_id = 1479
+                                        province_id = 1480
+                                        province_id = 1533
+                                        province_id = 1552
+                                        province_id = 1553
+                                        province_id = 1554
+                                        province_id = 1555
+                                        province_id = 1879
+                                        province_id = 3440
+                                    }
+                                }
+                                secede_province = TPG
+                            }
+                        }
+                    }
+                }
+                any_country = {
+                    limit = {
+                        OR = {
+                            tag = QNG
+                            tag = CHI
+                            tag = MCK
+                            tag = TPG
+                            tag = HUI
+                            tag = KMT
+                        }
+                        exists = yes
+                    }
+                    country_event = {
+                        id = 9924021
+                        days = 1
+                    }
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924021
+    title = "cvrj_china_portsmouth_title"
+    desc = "cvrj_china_portsmouth_desc"
+    picture = "cvrj_japan"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_china_portsmouth_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        OR = {
+                            tag = QNG
+                            tag = CHI
+                            tag = MCK
+                            tag = TPG
+                            tag = HUI
+                            tag = KMT
+                        }
+                        has_global_flag = cvrj_portsmouth
+                        NOT = {
+                            has_country_flag = cvrj_china_portsmouth
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        tag = QNG
+                        tag = CHI
+                        tag = MCK
+                        tag = TPG
+                        tag = HUI
+                        tag = KMT
+                    }
+                    has_global_flag = cvrj_portsmouth
+                    NOT = {
+                        has_country_flag = cvrj_china_portsmouth
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_china_portsmouth
+                set_global_flag = cvrj_china_ratified
+                relation = {
+                    who = JAP
+                    value = 15
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvrj_china_portsmouth_1"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        tag = QNG
+                        tag = CHI
+                        tag = MCK
+                        tag = TPG
+                        tag = HUI
+                        tag = KMT
+                    }
+                    has_global_flag = cvrj_portsmouth
+                    NOT = {
+                        has_country_flag = cvrj_china_portsmouth
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_china_portsmouth
+                relation = {
+                    who = JAP
+                    value = -40
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924022
+    title = "cvrj_russian_treaty_title"
+    desc = "cvrj_russian_treaty_desc"
+    picture = "cvrj_russia"
+    trigger = {
+        tag = RUS
+        has_global_flag = cvrj_RUS_won
+        NOT = {
+            war_with = JAP
+        }
+        NOT = {
+            has_country_flag = cvrj_russian_treaty
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_russian_treaty_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        has_global_flag = cvrj_RUS_won
+                        NOT = {
+                            war_with = JAP
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_russian_treaty
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_global_flag = cvrj_RUS_won
+                    NOT = {
+                        war_with = JAP
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_russian_treaty
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_russian_treaty
+                JAP = {
+                    any_owned = {
+                        limit = {
+                            OR = {
+                                province_id = 1086
+                                province_id = 1087
+                                province_id = 1088
+                                province_id = 1089
+                                province_id = 1642
+                                province_id = 1643
+                                province_id = 1644
+                            }
+                        }
+                        secede_province = RUS
+                    }
+                }
+                set_global_flag = russia_won_rjw
+                prestige = 35
+                JAP = {
+                    prestige = -35
+                }
+                badboy = 10
+                random_owned = {
+                    limit = {
+                        owner = {
+                            KOR = {
+                                vassal_of = JAP
+                            }
+                        }
+                    }
+                    owner = {
+                        JAP = {
+                            release_vassal = KOR
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            KOR = {
+                                exists = no
+                            }
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            any_owned = {
+                                limit = {
+                                    is_core = KOR
+                                }
+                                secede_province = KOR
+                            }
+                        }
+                        JAP = {
+                            any_owned = {
+                                limit = {
+                                    is_core = KOR
+                                }
+                                secede_province = KOR
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            KOR = {
+                                exists = yes
+                                is_greater_power = no
+                                is_vassal = no
+                            }
+                        }
+                    }
+                    owner = {
+                        create_vassal = KOR
+                        create_alliance = KOR
+                        diplomatic_influence = {
+                            who = KOR
+                            value = 800
+                        }
+                        KOR = {
+                            set_country_flag = cvrj_protectorate
+                            country_event = {
+                                id = 9924036
+                                days = 1
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            KOR = {
+                                exists = yes
+                                vassal_of = RUS
+                            }
+                        }
+                    }
+                    owner = {
+                        diplomatic_influence = {
+                            who = KOR
+                            value = 800
+                        }
+                    }
+                }
+                any_country = {
+                    limit = {
+                        OR = {
+                            tag = QNG
+                            tag = CHI
+                            tag = MCK
+                            tag = TPG
+                            tag = HUI
+                            tag = KMT
+                        }
+                        exists = yes
+                        any_owned_province = {
+                            OR = {
+                                region = CHI_1479
+                                region = CHI_1552
+                            }
+                        }
+                    }
+                    set_country_flag = cvrj_manchuria_demanded
+                    country_event = {
+                        id = 9924023
+                        days = 1
+                    }
+                }
+                JAP = {
+                    any_owned = {
+                        limit = {
+                            OR = {
+                                province_id = 1002
+                                province_id = 1479
+                                province_id = 1480
+                                province_id = 1481
+                                province_id = 1533
+                                province_id = 1552
+                                province_id = 1553
+                                province_id = 1554
+                                province_id = 1555
+                                province_id = 1879
+                                province_id = 3440
+                            }
+                        }
+                        secede_province = RUS
+                    }
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924023
+    title = "cvrj_china_russian_peace_title"
+    desc = "cvrj_china_russian_peace_desc"
+    picture = "cvrj_russia"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_china_russian_peace_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        OR = {
+                            tag = QNG
+                            tag = CHI
+                            tag = MCK
+                            tag = TPG
+                            tag = HUI
+                            tag = KMT
+                        }
+                        has_country_flag = cvrj_manchuria_demanded
+                        has_global_flag = cvrj_RUS_won
+                        NOT = {
+                            has_country_flag = cvrj_china_russian_peace
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        tag = QNG
+                        tag = CHI
+                        tag = MCK
+                        tag = TPG
+                        tag = HUI
+                        tag = KMT
+                    }
+                    has_country_flag = cvrj_manchuria_demanded
+                    has_global_flag = cvrj_RUS_won
+                    NOT = {
+                        has_country_flag = cvrj_china_russian_peace
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_china_russian_peace
+                any_owned = {
+                    limit = {
+                        OR = {
+                            province_id = 1002
+                            province_id = 1479
+                            province_id = 1480
+                            province_id = 1481
+                            province_id = 1533
+                            province_id = 1552
+                            province_id = 1553
+                            province_id = 1554
+                            province_id = 1555
+                            province_id = 1879
+                            province_id = 3440
+                        }
+                    }
+                    secede_province = RUS
+                }
+                clr_country_flag = cvrj_manchuria_refused
+                RUS = {
+                    country_event = {
+                        id = 9924025
+                        days = 1
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvrj_china_russian_peace_1"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        tag = QNG
+                        tag = CHI
+                        tag = MCK
+                        tag = TPG
+                        tag = HUI
+                        tag = KMT
+                    }
+                    has_country_flag = cvrj_manchuria_demanded
+                    has_global_flag = cvrj_RUS_won
+                    NOT = {
+                        has_country_flag = cvrj_china_russian_peace
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_china_russian_peace
+                set_country_flag = cvrj_manchuria_refused
+                relation = {
+                    who = RUS
+                    value = -100
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = QNG
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            casus_belli = {
+                                target = QNG
+                                type = cvrj_manchurian_settlement
+                                months = 60
+                            }
+                            country_event = {
+                                id = 9924024
+                                days = 1
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = CHI
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            casus_belli = {
+                                target = CHI
+                                type = cvrj_manchurian_settlement
+                                months = 60
+                            }
+                            country_event = {
+                                id = 9924024
+                                days = 1
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = MCK
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            casus_belli = {
+                                target = MCK
+                                type = cvrj_manchurian_settlement
+                                months = 60
+                            }
+                            country_event = {
+                                id = 9924024
+                                days = 1
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = TPG
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            casus_belli = {
+                                target = TPG
+                                type = cvrj_manchurian_settlement
+                                months = 60
+                            }
+                            country_event = {
+                                id = 9924024
+                                days = 1
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = HUI
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            casus_belli = {
+                                target = HUI
+                                type = cvrj_manchurian_settlement
+                                months = 60
+                            }
+                            country_event = {
+                                id = 9924024
+                                days = 1
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            tag = KMT
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            casus_belli = {
+                                target = KMT
+                                type = cvrj_manchurian_settlement
+                                months = 60
+                            }
+                            country_event = {
+                                id = 9924024
+                                days = 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924024
+    title = "cvrj_china_refusal_notice_title"
+    desc = "cvrj_china_refusal_notice_desc"
+    picture = "cvrj_russia"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_china_refusal_notice_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        has_global_flag = cvrj_RUS_won
+                        NOT = {
+                            has_country_flag = cvrj_china_refusal_notice
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_global_flag = cvrj_RUS_won
+                    NOT = {
+                        has_country_flag = cvrj_china_refusal_notice
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_china_refusal_notice
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924025
+    title = "cvrj_china_accept_notice_title"
+    desc = "cvrj_china_accept_notice_desc"
+    picture = "cvrj_russia"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_china_accept_notice_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        has_global_flag = cvrj_RUS_won
+                        NOT = {
+                            has_country_flag = cvrj_china_accept_notice
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_global_flag = cvrj_RUS_won
+                    NOT = {
+                        has_country_flag = cvrj_china_accept_notice
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_china_accept_notice
+                set_country_flag = cvrj_manchuria_acquired
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924026
+    title = "cvrj_chinese_defeat_title"
+    desc = "cvrj_chinese_defeat_desc"
+    picture = "cvrj_russia"
+    trigger = {
+        OR = {
+            tag = QNG
+            tag = CHI
+            tag = MCK
+            tag = TPG
+            tag = HUI
+            tag = KMT
+        }
+        has_country_flag = cvrj_manchuria_lost
+        NOT = {
+            war_with = RUS
+        }
+        NOT = {
+            has_country_flag = cvrj_chinese_defeat
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_chinese_defeat_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        OR = {
+                            tag = QNG
+                            tag = CHI
+                            tag = MCK
+                            tag = TPG
+                            tag = HUI
+                            tag = KMT
+                        }
+                        has_country_flag = cvrj_manchuria_lost
+                        NOT = {
+                            war_with = RUS
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_chinese_defeat
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        tag = QNG
+                        tag = CHI
+                        tag = MCK
+                        tag = TPG
+                        tag = HUI
+                        tag = KMT
+                    }
+                    has_country_flag = cvrj_manchuria_lost
+                    NOT = {
+                        war_with = RUS
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_chinese_defeat
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_chinese_defeat
+                any_owned = {
+                    limit = {
+                        OR = {
+                            province_id = 1002
+                            province_id = 1479
+                            province_id = 1480
+                            province_id = 1481
+                            province_id = 1533
+                            province_id = 1552
+                            province_id = 1553
+                            province_id = 1554
+                            province_id = 1555
+                            province_id = 1879
+                            province_id = 3440
+                        }
+                    }
+                    secede_province = RUS
+                }
+                clr_country_flag = cvrj_manchuria_refused
+                RUS = {
+                    country_event = {
+                        id = 9924025
+                        days = 1
+                    }
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924027
+    title = "cvrj_korean_treaty_title"
+    desc = "cvrj_korean_treaty_desc"
+    picture = "cvrj_japan"
+    trigger = {
+        tag = JAP
+        has_country_flag = cvrj_portsmouth_signed
+        OR = {
+            year = 1906
+            AND = {
+                year = 1905
+                month = 10
+            }
+        }
+        KOR = {
+            exists = yes
+            OR = {
+                is_vassal = no
+                vassal_of = RUS
+            }
+            is_greater_power = no
+        }
+        NOT = {
+            war_with = KOR
+        }
+        NOT = {
+            has_country_flag = cvrj_korean_treaty
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_korean_treaty_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = JAP
+                        has_country_flag = cvrj_portsmouth_signed
+                        OR = {
+                            year = 1906
+                            AND = {
+                                year = 1905
+                                month = 10
+                            }
+                        }
+                        KOR = {
+                            exists = yes
+                            OR = {
+                                is_vassal = no
+                                vassal_of = RUS
+                            }
+                            is_greater_power = no
+                        }
+                        NOT = {
+                            war_with = KOR
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_korean_treaty
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    has_country_flag = cvrj_portsmouth_signed
+                    OR = {
+                        year = 1906
+                        AND = {
+                            year = 1905
+                            month = 10
+                        }
+                    }
+                    KOR = {
+                        exists = yes
+                        OR = {
+                            is_vassal = no
+                            vassal_of = RUS
+                        }
+                        is_greater_power = no
+                    }
+                    NOT = {
+                        war_with = KOR
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_korean_treaty
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_korean_treaty
+                random_owned = {
+                    limit = {
+                        owner = {
+                            KOR = {
+                                vassal_of = RUS
+                            }
+                        }
+                    }
+                    owner = {
+                        RUS = {
+                            release_vassal = KOR
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            KOR = {
+                                exists = no
+                            }
+                        }
+                    }
+                    owner = {
+                        JAP = {
+                            any_owned = {
+                                limit = {
+                                    is_core = KOR
+                                }
+                                secede_province = KOR
+                            }
+                        }
+                        RUS = {
+                            any_owned = {
+                                limit = {
+                                    is_core = KOR
+                                }
+                                secede_province = KOR
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            KOR = {
+                                exists = yes
+                                is_greater_power = no
+                                is_vassal = no
+                            }
+                        }
+                    }
+                    owner = {
+                        create_vassal = KOR
+                        create_alliance = KOR
+                        diplomatic_influence = {
+                            who = KOR
+                            value = 800
+                        }
+                        KOR = {
+                            set_country_flag = cvrj_protectorate
+                            country_event = {
+                                id = 9924036
+                                days = 1
+                            }
+                        }
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            KOR = {
+                                exists = yes
+                                vassal_of = JAP
+                            }
+                        }
+                    }
+                    owner = {
+                        diplomatic_influence = {
+                            who = KOR
+                            value = 800
+                        }
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvrj_korean_treaty_1"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    has_country_flag = cvrj_portsmouth_signed
+                    OR = {
+                        year = 1906
+                        AND = {
+                            year = 1905
+                            month = 10
+                        }
+                    }
+                    KOR = {
+                        exists = yes
+                        OR = {
+                            is_vassal = no
+                            vassal_of = RUS
+                        }
+                        is_greater_power = no
+                    }
+                    NOT = {
+                        war_with = KOR
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_korean_treaty
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_korean_treaty
+                diplomatic_influence = {
+                    who = KOR
+                    value = 400
+                }
+                relation = {
+                    who = KOR
+                    value = 30
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924036
+    title = "cvrj_korean_protectorate_notice_title"
+    desc = "cvrj_korean_protectorate_notice_desc"
+    picture = "cvrj_japan"
+    is_triggered_only = yes
+    option = {
+        name = "cvrj_korean_protectorate_notice_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = KOR
+                        has_country_flag = cvrj_protectorate
+                        NOT = {
+                            has_country_flag = cvrj_korean_protectorate_notice
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = KOR
+                    has_country_flag = cvrj_protectorate
+                    NOT = {
+                        has_country_flag = cvrj_korean_protectorate_notice
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_korean_protectorate_notice
+                any_pop = {
+                    consciousness = 1
+                    militancy = 1
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924028
+    title = "cvrj_defeat_crisis_title"
+    desc = "cvrj_defeat_crisis_desc"
+    picture = "cvrj_revolution"
+    trigger = {
+        tag = RUS
+        has_country_flag = cvrj_defeated
+        has_global_flag = cvrj_JAP_won
+        NOT = {
+            has_country_flag = cvrj_defeat_crisis
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_defeat_crisis_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        has_country_flag = cvrj_defeated
+                        has_global_flag = cvrj_JAP_won
+                        NOT = {
+                            has_country_flag = cvrj_defeat_crisis
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_country_flag = cvrj_defeated
+                    has_global_flag = cvrj_JAP_won
+                    NOT = {
+                        has_country_flag = cvrj_defeat_crisis
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_defeat_crisis
+                set_global_flag = start_of_1905_revolution
+                any_pop = {
+                    consciousness = 1
+                    militancy = 1
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924029
+    title = "cvrj_manifesto_title"
+    desc = "cvrj_manifesto_desc"
+    picture = "cvrj_revolution"
+    trigger = {
+        tag = RUS
+        has_country_flag = cvrj_defeat_crisis
+        OR = {
+            year = 1906
+            AND = {
+                year = 1905
+                month = 9
+            }
+        }
+        NOT = {
+            has_country_flag = cvrj_manifesto
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_manifesto_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        has_country_flag = cvrj_defeat_crisis
+                        OR = {
+                            year = 1906
+                            AND = {
+                                year = 1905
+                                month = 9
+                            }
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_manifesto
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_country_flag = cvrj_defeat_crisis
+                    OR = {
+                        year = 1906
+                        AND = {
+                            year = 1905
+                            month = 9
+                        }
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_manifesto
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_manifesto
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                government = absolute_empire
+                                government = absolute_monarchy
+                            }
+                        }
+                    }
+                    owner = {
+                        government = semi_constitutional_empire
+                        political_reform = wealth_weighted_voting
+                        political_reform = yes_meeting
+                        political_reform = censored_press
+                        political_reform = harassment
+                    }
+                }
+                set_country_flag = passed_october_manifesto
+                remove_country_modifier = raging_russia
+                remove_country_modifier = paralyzed_tsardom
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924030
+    title = "cvrj_fundamental_laws_title"
+    desc = "cvrj_fundamental_laws_desc"
+    picture = "cvrj_revolution"
+    trigger = {
+        tag = RUS
+        has_country_flag = cvrj_defeat_crisis
+        has_country_flag = passed_october_manifesto
+        OR = {
+            year = 1907
+            AND = {
+                year = 1906
+                month = 3
+            }
+        }
+        NOT = {
+            has_country_flag = cvrj_fundamental_laws
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_fundamental_laws_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = RUS
+                        has_country_flag = cvrj_defeat_crisis
+                        has_country_flag = passed_october_manifesto
+                        OR = {
+                            year = 1907
+                            AND = {
+                                year = 1906
+                                month = 3
+                            }
+                        }
+                        NOT = {
+                            has_country_flag = cvrj_fundamental_laws
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = RUS
+                    has_country_flag = cvrj_defeat_crisis
+                    has_country_flag = passed_october_manifesto
+                    OR = {
+                        year = 1907
+                        AND = {
+                            year = 1906
+                            month = 3
+                        }
+                    }
+                    NOT = {
+                        has_country_flag = cvrj_fundamental_laws
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_fundamental_laws
+                set_country_flag = passed_1906_constitution
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                government = absolute_empire
+                                government = absolute_monarchy
+                            }
+                        }
+                    }
+                    owner = {
+                        government = semi_constitutional_empire
+                    }
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = 9924031
+    title = "cvrj_hibiya_title"
+    desc = "cvrj_hibiya_desc"
+    picture = "cvrj_japan"
+    trigger = {
+        tag = JAP
+        has_country_flag = cvrj_portsmouth_signed
+        NOT = {
+            has_country_flag = cvrj_hibiya
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "cvrj_hibiya_0"
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        tag = JAP
+                        has_country_flag = cvrj_portsmouth_signed
+                        NOT = {
+                            has_country_flag = cvrj_hibiya
+                        }
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    has_country_flag = cvrj_portsmouth_signed
+                    NOT = {
+                        has_country_flag = cvrj_hibiya
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_hibiya
+                any_pop = {
+                    militancy = 1
+                    consciousness = 0.5
+                }
+            }
+        }
+    }
+    option = {
+        name = "cvrj_hibiya_1"
+        ai_chance = {
+            factor = 0
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = JAP
+                    has_country_flag = cvrj_portsmouth_signed
+                    NOT = {
+                        has_country_flag = cvrj_hibiya
+                    }
+                }
+            }
+            owner = {
+                set_country_flag = cvrj_hibiya
+                prestige = -5
+                any_pop = {
+                    consciousness = 1
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,182 @@
+# Southern Mozambique state names; separate from province/core updates.
+country_event = {
+ id = 9784860
+ title = "FF61_COASTAL_STATE_TITLE"
+ desc = "FF61_COASTAL_STATE_DESC"
+ picture = "pioneer_wagons"
+ trigger = {
+  owns = 2049
+  OR = { primary_culture = boer is_culture_group = beneluxian }
+  NOT = { has_global_flag = ff61_coastal_state_boer }
+ }
+ mean_time_to_happen = { days = 1 }
+ # Fixed owned province: no filtered iterator can produce an empty state.
+ # Apply before the popup; the option tooltip contains no renaming effects.
+ immediate = {
+  2049 = { state_scope = { change_region_name = "Zuid-Moojembeek" } }
+  clr_global_flag = ff61_coastal_state_german
+  clr_global_flag = ff61_coastal_state_portuguese
+  clr_global_flag = ff61_coastal_state_catalan
+  clr_global_flag = ff61_coastal_state_french
+  clr_global_flag = ff61_coastal_state_british
+  clr_global_flag = ff61_coastal_state_native
+  set_global_flag = ff61_coastal_state_boer
+ }
+ option = { name = "FF61_COASTAL_STATE_OK" ai_chance = { factor = 100 } }
+}
+
+country_event = {
+ id = 9784861
+ title = "FF61_COASTAL_STATE_TITLE"
+ desc = "FF61_COASTAL_STATE_DESC"
+ picture = "pioneer_wagons"
+ trigger = {
+  owns = 2049
+  OR = { primary_culture = north_german primary_culture = south_german }
+  NOT = { has_global_flag = ff61_coastal_state_german }
+ }
+ mean_time_to_happen = { days = 1 }
+ # Fixed owned province: no filtered iterator can produce an empty state.
+ # Apply before the popup; the option tooltip contains no renaming effects.
+ immediate = {
+  2049 = { state_scope = { change_region_name = "Mosambik" } }
+  clr_global_flag = ff61_coastal_state_boer
+  clr_global_flag = ff61_coastal_state_portuguese
+  clr_global_flag = ff61_coastal_state_catalan
+  clr_global_flag = ff61_coastal_state_french
+  clr_global_flag = ff61_coastal_state_british
+  clr_global_flag = ff61_coastal_state_native
+  set_global_flag = ff61_coastal_state_german
+ }
+ option = { name = "FF61_COASTAL_STATE_OK" ai_chance = { factor = 100 } }
+}
+
+country_event = {
+ id = 9784862
+ title = "FF61_COASTAL_STATE_TITLE"
+ desc = "FF61_COASTAL_STATE_DESC"
+ picture = "pioneer_wagons"
+ trigger = {
+  owns = 2049
+  OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian }
+  NOT = { has_global_flag = ff61_coastal_state_portuguese }
+ }
+ mean_time_to_happen = { days = 1 }
+ # Fixed owned province: no filtered iterator can produce an empty state.
+ # Apply before the popup; the option tooltip contains no renaming effects.
+ immediate = {
+  2049 = { state_scope = { change_region_name = "Lourenço Marques" } }
+  clr_global_flag = ff61_coastal_state_boer
+  clr_global_flag = ff61_coastal_state_german
+  clr_global_flag = ff61_coastal_state_catalan
+  clr_global_flag = ff61_coastal_state_french
+  clr_global_flag = ff61_coastal_state_british
+  clr_global_flag = ff61_coastal_state_native
+  set_global_flag = ff61_coastal_state_portuguese
+ }
+ option = { name = "FF61_COASTAL_STATE_OK" ai_chance = { factor = 100 } }
+}
+
+country_event = {
+ id = 9784863
+ title = "FF61_COASTAL_STATE_TITLE"
+ desc = "FF61_COASTAL_STATE_DESC"
+ picture = "pioneer_wagons"
+ trigger = {
+  owns = 2049
+  primary_culture = catalan
+  NOT = { has_global_flag = ff61_coastal_state_catalan }
+ }
+ mean_time_to_happen = { days = 1 }
+ # Fixed owned province: no filtered iterator can produce an empty state.
+ # Apply before the popup; the option tooltip contains no renaming effects.
+ immediate = {
+  2049 = { state_scope = { change_region_name = "Gaza" } }
+  clr_global_flag = ff61_coastal_state_boer
+  clr_global_flag = ff61_coastal_state_german
+  clr_global_flag = ff61_coastal_state_portuguese
+  clr_global_flag = ff61_coastal_state_french
+  clr_global_flag = ff61_coastal_state_british
+  clr_global_flag = ff61_coastal_state_native
+  set_global_flag = ff61_coastal_state_catalan
+ }
+ option = { name = "FF61_COASTAL_STATE_OK" ai_chance = { factor = 100 } }
+}
+
+country_event = {
+ id = 9784864
+ title = "FF61_COASTAL_STATE_TITLE"
+ desc = "FF61_COASTAL_STATE_DESC"
+ picture = "pioneer_wagons"
+ trigger = {
+  owns = 2049
+  is_culture_group = french
+  NOT = { has_global_flag = ff61_coastal_state_french }
+ }
+ mean_time_to_happen = { days = 1 }
+ # Fixed owned province: no filtered iterator can produce an empty state.
+ # Apply before the popup; the option tooltip contains no renaming effects.
+ immediate = {
+  2049 = { state_scope = { change_region_name = "Gaza" } }
+  clr_global_flag = ff61_coastal_state_boer
+  clr_global_flag = ff61_coastal_state_german
+  clr_global_flag = ff61_coastal_state_portuguese
+  clr_global_flag = ff61_coastal_state_catalan
+  clr_global_flag = ff61_coastal_state_british
+  clr_global_flag = ff61_coastal_state_native
+  set_global_flag = ff61_coastal_state_french
+ }
+ option = { name = "FF61_COASTAL_STATE_OK" ai_chance = { factor = 100 } }
+}
+
+country_event = {
+ id = 9784865
+ title = "FF61_COASTAL_STATE_TITLE"
+ desc = "FF61_COASTAL_STATE_DESC"
+ picture = "pioneer_wagons"
+ trigger = {
+  owns = 2049
+  is_culture_group = british
+  NOT = { has_global_flag = ff61_coastal_state_british }
+ }
+ mean_time_to_happen = { days = 1 }
+ # Fixed owned province: no filtered iterator can produce an empty state.
+ # Apply before the popup; the option tooltip contains no renaming effects.
+ immediate = {
+  2049 = { state_scope = { change_region_name = "Gaza" } }
+  clr_global_flag = ff61_coastal_state_boer
+  clr_global_flag = ff61_coastal_state_german
+  clr_global_flag = ff61_coastal_state_portuguese
+  clr_global_flag = ff61_coastal_state_catalan
+  clr_global_flag = ff61_coastal_state_french
+  clr_global_flag = ff61_coastal_state_native
+  set_global_flag = ff61_coastal_state_british
+ }
+ option = { name = "FF61_COASTAL_STATE_OK" ai_chance = { factor = 100 } }
+}
+
+country_event = {
+ id = 9784866
+ title = "FF61_COASTAL_STATE_TITLE"
+ desc = "FF61_COASTAL_STATE_DESC"
+ picture = "pioneer_wagons"
+ trigger = {
+  owns = 2049
+  NOT = { OR = { primary_culture = boer is_culture_group = beneluxian } OR = { primary_culture = north_german primary_culture = south_german } OR = { primary_culture = portuguese primary_culture = galician primary_culture = brazilian } primary_culture = catalan is_culture_group = french is_culture_group = british }
+  NOT = { has_global_flag = ff61_coastal_state_native }
+ }
+ mean_time_to_happen = { days = 1 }
+ # Fixed owned province: no filtered iterator can produce an empty state.
+ # Apply before the popup; the option tooltip contains no renaming effects.
+ immediate = {
+  2049 = { state_scope = { change_region_name = "Gaza" } }
+  clr_global_flag = ff61_coastal_state_boer
+  clr_global_flag = ff61_coastal_state_german
+  clr_global_flag = ff61_coastal_state_portuguese
+  clr_global_flag = ff61_coastal_state_catalan
+  clr_global_flag = ff61_coastal_state_french
+  clr_global_flag = ff61_coastal_state_british
+  set_global_flag = ff61_coastal_state_native
+ }
+ option = { name = "FF61_COASTAL_STATE_OK" ai_chance = { factor = 100 } }
+}

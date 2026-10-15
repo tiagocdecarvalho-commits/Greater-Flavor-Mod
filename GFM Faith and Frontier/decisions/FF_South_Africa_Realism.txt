@@ -1,0 +1,114 @@
+# Faith and Frontier - South Africa Realism decisions
+political_decisions = {
+
+    ffr_dec_cape_government_railways = {
+        picture = ffv5_general_raad_decision
+        potential = {
+            tag = SAF
+            owns = 2087
+            owns = 2096
+            year = 1873
+            NOT = { has_country_flag = ffr_cape_government_railways }
+        }
+        allow = {
+            war = no
+            money = 25000
+            experimental_railroad = 1
+        }
+        effect = {
+            treasury = -25000
+            set_country_flag = ffr_cape_government_railways
+            add_country_modifier = { name = ffr_cape_government_railways duration = 3650 }
+            2087 = { infrastructure = 1 }
+            4003 = { infrastructure = 1 }
+            2089 = { infrastructure = 1 }
+            4001 = { infrastructure = 1 }
+            4002 = { infrastructure = 1 }
+            2090 = { infrastructure = 1 }
+            2091 = { infrastructure = 1 }
+            4018 = { infrastructure = 1 }
+            4019 = { infrastructure = 1 }
+            2092 = { infrastructure = 1 }
+            2096 = { infrastructure = 1 }
+            4017 = { infrastructure = 1 }
+            2097 = { infrastructure = 1 }
+            prestige = 2
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    ffr_dec_chamber_of_mines = {
+        picture = ffv5_general_raad_decision
+        potential = {
+            OR = { tag = SAF tag = TRN tag = ORA primary_culture = boer }
+            year = 1889
+            OR = { owns = 2094 owns = 2106 any_owned_province = { trade_goods = precious_metal } }
+            NOT = { has_country_flag = ffr_chamber_of_mines }
+        }
+        allow = {
+            war = no
+            money = 9000
+        }
+        effect = {
+            treasury = -9000
+            set_country_flag = ffr_chamber_of_mines
+            add_country_modifier = { name = ffr_chamber_of_mines duration = -1 }
+            prestige = 2
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    ffr_dec_mine_health_board = {
+        picture = ffv5_general_raad_decision
+        potential = {
+            OR = { tag = SAF tag = TRN tag = ORA primary_culture = boer }
+            year = 1902
+            has_country_flag = ffr_chamber_of_mines
+            NOT = { has_country_flag = ffr_mine_health_board }
+        }
+        allow = {
+            war = no
+            money = 14000
+            medicine = 1
+        }
+        effect = {
+            treasury = -14000
+            set_country_flag = ffr_mine_health_board
+            add_country_modifier = { name = ffr_mine_health_board duration = -1 }
+            any_pop = {
+                limit = { strata = poor }
+                militancy = -0.2
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+
+    ffr_dec_cape_civic_compromise = {
+        picture = ffv5_general_raad_decision
+        potential = {
+            tag = SAF
+            owns = 2087
+            year = 1853
+            NOT = { accepted_culture = afro_dutch }
+            NOT = { has_country_flag = ffr_cape_civic_compromise }
+        }
+        allow = {
+            war = no
+            OR = {
+                has_country_flag = cape_qualified_franchise
+                citizens_rights = all_voting_pops
+                plurality = 35
+            }
+        }
+        effect = {
+            add_accepted_culture = afro_dutch
+            set_country_flag = ffr_cape_civic_compromise
+            add_country_modifier = { name = ffr_cape_civic_compromise duration = -1 }
+            prestige = 1
+            any_pop = { limit = { culture = afro_dutch } militancy = -1 consciousness = 0.2 }
+        }
+        ai_will_do = { factor = 0.6 }
+    }
+
+}

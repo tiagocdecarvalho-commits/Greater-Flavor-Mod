@@ -1,0 +1,67 @@
+country_event = { id = 8573969 title = "LIJEPATITLE" desc = "LIJEPADESC" picture = "croat_anthem" fire_only_once = yes trigger = { year = 1846 owns = 771 } mean_time_to_happen = { days = 1 } option = { name = "LIJEPAOPT" random_owned = { limit = { owner = { OR = { primary_culture = croat tag = CRO } } } owner = { prestige = 5 any_pop = { limit = { has_pop_culture = croat } consciousness = -1 } } } random_owned = { limit = { owner = { NOT = { primary_culture = croat tag = CRO } } } owner = { any_pop = { limit = { has_pop_culture = croat } consciousness = 1 } } } } } country_event = { id = 4206988 title = "The Mexican National Anthem" desc = "EVTDESC4206988" picture = "mexican_anthem" fire_only_once = yes trigger = { year = 1854 owns = 2172 month = 9 } mean_time_to_happen = { months = 1 } option = { name = "Make it official!" random_owned = { limit = { owner = { OR = { primary_culture = mexican tag = MEX tag = MEE } } } owner = { prestige = 5 any_pop = { limit = { has_pop_culture = mexican } consciousness = -1 } } } random_owned = { limit = { owner = { NOT = { primary_culture = mexican tag = MEX tag = MEE } } } owner = { any_pop = { limit = { has_pop_culture = mexican } consciousness = 1 } } } } } country_event = { id = 184823791 title = "OTTOMAN_NATIONAL_ANTHEMN_TITLE" desc = "OTTOMAN_NATIONAL_ANTHEMN_DESC" picture = "ottoman_national_anthemn" fire_only_once = yes trigger = { owns = 876 has_country_flag = tanzimat_reforms_enacted year = 1844 has_country_flag = monarchy_government } mean_time_to_happen = { days = 1 } option = { name = "An anthem befitting of the Eternal State." prestige = 5 any_pop = { limit = { has_pop_culture = turkish } consciousness = -1 } } } country_event = { id = 18482379 title = "Maamme" desc = "MAAMME" picture = "maame" fire_only_once = yes trigger = { year = 1848 owns = 343 month = 4 } mean_time_to_happen = { days = 1 } option = { name = "MAAMMEOPT" random_owned = { limit = { owner = { OR = { primary_culture = finnish tag = FIN } } } owner = { prestige = 5 any_pop = { limit = { has_pop_culture = finnish } consciousness = -1 } } } random_owned = { limit = { owner = { NOT = { primary_culture = finnish tag = FIN } } } owner = { any_pop = { limit = { has_pop_culture = finnish } consciousness = 1 } } } } } country_event = { id = 18482119 title = "E Ola Ke Ali'i Ke Akua" desc = "EOLAKEALIIKEAKUA" picture = "e_ola_ke_alii_ke_akua" fire_only_once = yes trigger = { year = 1866 tag = HAW month = 10 has_country_flag = monarchy_government } mean_time_to_happen = { days = 1 } option = { name = "Wonderful!" prestige = 5 any_pop = { limit = { is_culture_group = oceanic } consciousness = -1 } } } country_event = { id = 184821221 title = "He Mele Lahui Hawaii" desc = "HEMELELAHUIHAWAII" picture = "he_mele_lahui_hawaii" fire_only_once = yes trigger = { year = 1866 tag = HAW has_country_flag = monarchy_government } mean_time_to_happen = { days = 1 } option = { name = "Perfect!" prestige = 5 any_pop = { limit = { is_culture_group = oceanic } consciousness = -1 } } } country_event = { id = 184923791 title = "The Hymn to Liberty" desc = "GREEKANTHEM" picture = "greece_anthem" fire_only_once = yes trigger = { year = 1865 owns = 834 } mean_time_to_happen = { days = 1 } option = { name = "Freedom! Liberty!" random_owned = { limit = { owner = { OR = { tag = GRE accepted_culture = greek primary_culture = greek } } } owner = { prestige = 5 any_pop = { limit = { has_pop_culture = greek } consciousness = -1 } } } random_owned = { limit = { owner = { NOT = { tag = GRE accepted_culture = greek primary_culture = greek } } } owner = { any_pop = { limit = { has_pop_culture = greek } consciousness = 1 } } } } } country_event = { id = 184923792 title = "La Bayamesa" desc = "CUBAANTHEM" picture = "cuba_anthem" fire_only_once = yes trigger = { tag = CUB owns = 2209 } mean_time_to_happen = { days = 1 } option = { name = "To die for one's country is to live!" prestige = 5 any_pop = { limit = { has_pop_culture = caribeno location = { is_core = CUB } } consciousness = -1 } } } country_event = {
+    id = 184923793
+    title = "La Dessalinienne"
+    desc = "HAITIANTHEM"
+    picture = "haiti_anthem"
+    fire_only_once = yes
+    trigger = {
+        year = 1903
+        owns = 2213
+        month = 10
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = "Pour le pays, pour les ancêtres, marchons unis."
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        tag = HAI
+                        AND = {
+                            tag = FWI
+                            has_country_flag = haiti_formed_FWI
+                        }
+                    }
+                }
+            }
+            owner = {
+                prestige = 5
+                any_pop = {
+                    limit = {
+                        location = {
+                            is_core = HAI
+                        }
+                    }
+                    consciousness = -1
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            tag = HAI
+                            AND = {
+                                tag = FWI
+                                has_country_flag = haiti_formed_FWI
+                            }
+                        }
+                    }
+                }
+            }
+            owner = {
+                any_pop = {
+                    limit = {
+                        location = {
+                            is_core = HAI
+                        }
+                    }
+                    consciousness = 1
+                }
+            }
+        }
+    }
+} country_event = { id = 184923794 title = "Kimigayo" desc = "JAPANANTHEM" picture = "japan_anthem" fire_only_once = yes trigger = { year = 1888 tag = JAP OR = { government = absolute_empire government = cvt_imperial_absolute government = semi_constitutional_empire government = cvt_imperial_semi government = constitutional_empire government = cvt_imperial_constitutional } } mean_time_to_happen = { days = 1 } option = { name = "Hurrah!" prestige = 5 any_pop = { limit = { has_pop_culture = japanese } consciousness = -1 } } } country_event = { id = 184923795 title = "Himno Nacional de Guatemala" desc = "GUATEMALAANTHEM" picture = "guatemala_anthem" fire_only_once = yes trigger = { year = 1896 owns = 2186 month = 10 } mean_time_to_happen = { days = 1 } option = { name = "Viva Guatemala!" random_owned = { limit = { owner = { OR = { tag = GUA tag = UCA has_country_flag = i_am_hsa } } } owner = { prestige = 5 any_pop = { limit = { has_pop_culture = central_american location = { is_core = GUA } } consciousness = -1 } } } random_owned = { limit = { owner = { NOT = { tag = GUA tag = UCA has_country_flag = i_am_hsa } } } owner = { any_pop = { limit = { has_pop_culture = central_american location = { is_core = GUA } } consciousness = 1 } } } } } country_event = { id = 184923796 title = "Noble Patria, Tu Hermosa Bandera" desc = "COSTARICAANTHEM" picture = "costarica_anthem" fire_only_once = yes trigger = { year = 1852 OR = { tag = COS tag = UCA has_country_flag = i_am_hsa } month = 6 } mean_time_to_happen = { days = 1 } option = { name = "Viva Costa Rica!" random_owned = { limit = { owner = { OR = { tag = COS tag = UCA has_country_flag = i_am_hsa } } } owner = { prestige = 5 any_pop = { limit = { has_pop_culture = central_american location = { is_core = COS } } consciousness = -1 } } } random_owned = { limit = { owner = { NOT = { tag = COS tag = UCA has_country_flag = i_am_hsa } } } owner = { any_pop = { limit = { has_pop_culture = central_american location = { is_core = COS } } consciousness = 1 } } } } } country_event = { id = 184923797 title = "Orientales, la Patria o la Tumba" desc = "URUGUAYANTHEM" picture = "uruguay_anthem" fire_only_once = yes trigger = { year = 1845 owns = 2344 month = 7 } mean_time_to_happen = { days = 1 } option = { name = "Viva Uruguay!" random_owned = { limit = { owner = { OR = { tag = URU tag = LPL has_country_flag = i_am_hsa } } } owner = { prestige = 5 any_pop = { limit = { has_pop_culture = platinean location = { is_core = URU } } consciousness = -1 } } } random_owned = { limit = { owner = { NOT = { tag = URU tag = LPL has_country_flag = i_am_hsa } } } owner = { any_pop = { limit = { has_pop_culture = platinean location = { is_core = URU } } consciousness = 1 } } } } } country_event = { id = 800876 title = "Rio-Grandense Anthem" desc = "RGSANTHEM" picture = "rgs_anthem" fire_only_once = yes trigger = { OR = { tag = RGS tag = BRZ } owns = 2463 year = 1838 month = 5 } mean_time_to_happen = { days = 1 } option = { name = "Salve a Republica Piratini!" prestige = 5 any_pop = { limit = { location = { is_core = RGS } } consciousness = -1 } } } country_event = { id = 801027 title = "Gone Forth Beyond the Sea" desc = "EVTDESC801027" picture = "swk_anthem" fire_only_once = yes trigger = { year = 1872 OR = { tag = SWK tag = ENG } } mean_time_to_happen = { days = 3 } option = { name = "To bear the sword and crown." prestige = 5 any_pop = { limit = { location = { is_core = SWK } } consciousness = -1 } ai_chance = { factor = 1 } } }

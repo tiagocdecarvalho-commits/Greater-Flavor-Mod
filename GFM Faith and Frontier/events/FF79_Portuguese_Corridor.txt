@@ -1,0 +1,17 @@
+country_event = { id = 9785190 title = "FF79_ACCORD_TITLE" desc = "FF79_ACCORD_DESC" picture = "pink_map"
+ trigger = { OR = { tag = TRN tag = SAF } primary_culture = boer is_vassal = no war = no has_country_flag = ff67_full_cape_victory NOT = { has_global_flag = ff79_british_southern_withdrawal } NOT = { any_country = { OR = { tag = ENG tag = ENL vassal_of = ENG vassal_of = ENL } any_owned = { OR = { region = ENG_2083 region = ENG_2087 region = ENG_2092 region = ENG_2096 region = ZUL_2113 region = ENG_2068 region = ENG_2071 region = POR_2049 } } } } }
+ mean_time_to_happen = { days = 1 }
+ immediate = { set_global_flag = ff79_british_southern_withdrawal 2068 = { add_core = SAF } 2070 = { add_core = SAF } 2635 = { add_core = SAF } 3714 = { add_core = SAF } 2056 = { add_core = SAF } 2069 = { add_core = SAF } 2071 = { add_core = SAF } 2072 = { add_core = SAF } 2073 = { add_core = SAF } 3715 = { add_core = SAF } }
+ option = { name = "FF79_ACCORD_OPT" ai_chance = { factor = 100 } }
+}
+country_event = { id = 9785191 title = "FF79_PORTUGAL_TITLE" desc = "FF79_PORTUGAL_DESC" picture = "pink_map"
+ trigger = { tag = POR has_global_flag = ff79_british_southern_withdrawal NOT = { has_country_flag = ff79_corridor_notice } }
+ mean_time_to_happen = { days = 1 } immediate = { set_country_flag = ff79_corridor_notice }
+ option = { name = "FF79_PORTUGAL_OPT" ai_chance = { factor = 100 } }
+}
+country_event = { id = 9785192 title = "FF79_BAROTSE_TITLE" desc = "FF79_BAROTSE_DESC" picture = "pink_map" is_triggered_only = yes
+ option = { name = "FF79_STATIONS_OPT" ai_chance = { factor = 100 } } }
+country_event = { id = 9785193 title = "FF79_ZAMBIA_TITLE" desc = "FF79_ZAMBIA_DESC" picture = "pink_map" is_triggered_only = yes
+ option = { name = "FF79_STATIONS_OPT" ai_chance = { factor = 100 } } }
+country_event = { id = 9785194 title = "FF79_KAZEMBE_TITLE" desc = "FF79_KAZEMBE_DESC" picture = "pink_map" is_triggered_only = yes
+ option = { name = "FF79_STATIONS_OPT" ai_chance = { factor = 100 } } }

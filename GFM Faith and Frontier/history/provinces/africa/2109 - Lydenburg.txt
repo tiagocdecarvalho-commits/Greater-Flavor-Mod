@@ -1,0 +1,10 @@
+owner = PCF
+controller = PCF
+add_core = PCF
+add_core = MAT
+terrain = mountain
+trade_goods = fruit
+life_rating = 35
+
+# Faith and Frontier 3: Lydenburg
+1849.1.1 = { add_core = LYD }

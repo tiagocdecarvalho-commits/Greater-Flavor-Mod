@@ -1,0 +1,239 @@
+# Faith and Frontier 4.1 - Frontier Flavour Events
+
+country_event = {
+ id = 9782800
+ title = "FF41_33_ARTICLES_TITLE"
+ desc = "FF41_33_ARTICLES_DESC"
+ picture = ffv5_trekker_confederacy
+ trigger = {
+  OR = { tag = POT tag = WBG tag = VLK tag = TRN AND = { tag = ORA NOT = { year = 1848 } } }
+  year = 1844
+  NOT = { year = 1850 }
+  NOT = { has_global_flag = ff41_33_articles_fired }
+ }
+ mean_time_to_happen = { months = 4 }
+ option = {
+  name = "FF41_33_ARTICLES_OPT"
+  set_global_flag = ff41_33_articles_fired
+  add_country_modifier = { name = ff41_thirty_three_articles duration = -1 }
+  prestige = 1
+ }
+}
+
+country_event = {
+ id = 9782801
+ title = "FF41_OHRIGSTAD_TITLE"
+ desc = "FF41_OHRIGSTAD_DESC"
+ picture = ffv5_natalia_volksraad
+ trigger = {
+  OR = { tag = POT tag = VLK tag = TRN }
+  owns = 2109
+  year = 1845
+  NOT = { year = 1851 }
+  NOT = { has_country_flag = ff41_ohrigstad_fired }
+ }
+ mean_time_to_happen = { months = 7 }
+ option = {
+  name = "FF41_OHRIGSTAD_OPT"
+  set_country_flag = ff41_ohrigstad_fired
+  add_country_modifier = { name = ff41_ohrigstad_raad duration = 3650 }
+  research_points = 25
+ }
+}
+
+country_event = {
+ id = 9782802
+ title = "FF41_SCHOEMANSDAL_IVORY_TITLE"
+ desc = "FF41_SCHOEMANSDAL_IVORY_DESC"
+ picture = ff3_wagons
+ trigger = {
+  OR = { tag = ZPB tag = ZOU tag = TRN }
+  owns = 2110
+  year = 1848
+  NOT = { year = 1868 }
+  NOT = { has_country_flag = ff41_schoemansdal_ivory_fired }
+ }
+ mean_time_to_happen = { months = 12 }
+ option = {
+  name = "FF41_SCHOEMANSDAL_IVORY_OPT"
+  set_country_flag = ff41_schoemansdal_ivory_fired
+  add_country_modifier = { name = ff41_schoemansdal_trade duration = 3650 }
+  treasury = 100
+ }
+}
+
+country_event = {
+    id = 9782803
+    title = "FF41_UTRECHT_CATTLE_TITLE"
+    desc = "FF41_UTRECHT_CATTLE_DESC"
+    picture = ffv5_natalia_zulu
+    trigger = {
+        tag = UTR
+        year = 1854
+        NOT = {
+            year = 1859
+        }
+        NOT = {
+            has_country_flag = ff41_utrecht_cattle_fired
+        }
+    }
+    mean_time_to_happen = {
+        months = 6
+    }
+    option = {
+        name = "FF41_UTRECHT_CATTLE_OPT"
+        set_country_flag = ff41_utrecht_cattle_fired
+        add_country_modifier = {
+            name = ff41_utrecht_compact
+            duration = 1825
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    exists = ZUL
+                }
+            }
+            owner = {
+                relation = {
+                    who = ZUL
+                    value = 25
+                }
+            }
+        }
+    }
+}
+
+country_event = {
+ id = 9782804
+ title = "FF41_FREE_STATE_WOOL_TITLE"
+ desc = "FF41_FREE_STATE_WOOL_DESC"
+ picture = ffv5_orange_market
+ trigger = {
+  tag = ORA
+  year = 1855
+  NOT = { year = 1875 }
+  NOT = { has_country_flag = ff41_wool_fired }
+ }
+ mean_time_to_happen = { months = 18 }
+ option = {
+  name = "FF41_FREE_STATE_WOOL_OPT"
+  set_country_flag = ff41_wool_fired
+  add_country_modifier = { name = ff41_free_state_wool duration = 3650 }
+ }
+}
+
+country_event = {
+ id = 9782805
+ title = "FF41_JAGERSFONTEIN_TITLE"
+ desc = "FF41_JAGERSFONTEIN_DESC"
+ picture = ffv5_orange_diamonds
+ trigger = {
+  tag = ORA
+  year = 1870
+  NOT = { year = 1890 }
+  NOT = { has_country_flag = ff41_jagersfontein_fired }
+ }
+ mean_time_to_happen = { months = 12 }
+ option = {
+  name = "FF41_JAGERSFONTEIN_OPT"
+  set_country_flag = ff41_jagersfontein_fired
+  add_country_modifier = { name = ff41_jagersfontein duration = -1 }
+  prestige = 1
+ }
+}
+
+country_event = {
+ id = 9782806
+ title = "FF41_KIMBERLEY_MARKET_TITLE"
+ desc = "FF41_KIMBERLEY_MARKET_DESC"
+ picture = ffv5_orange_market
+ trigger = {
+  tag = ORA
+  year = 1871
+  NOT = { year = 1890 }
+  NOT = { has_country_flag = ff41_kimberley_market_fired }
+ }
+ mean_time_to_happen = { months = 10 }
+ option = {
+  name = "FF41_KIMBERLEY_MARKET_OPT"
+  set_country_flag = ff41_kimberley_market_fired
+  add_country_modifier = { name = ff41_kimberley_market duration = 3650 }
+ }
+}
+
+country_event = {
+ id = 9782807
+ title = "FF41_STELLALAND_POST_TITLE"
+ desc = "FF41_STELLALAND_POST_DESC"
+ picture = ffv4_cape_press
+ trigger = {
+  OR = { tag = STL tag = UST }
+  year = 1883
+  NOT = { year = 1886 }
+  NOT = { has_country_flag = ff41_stellaland_post_fired }
+ }
+ mean_time_to_happen = { months = 5 }
+ option = {
+  name = "FF41_STELLALAND_POST_OPT"
+  set_country_flag = ff41_stellaland_post_fired
+  add_country_modifier = { name = ff41_stellaland_post duration = -1 }
+  prestige = 1
+ }
+}
+
+country_event = {
+ id = 9782808
+ title = "FF41_KLEIN_VRYSTAAT_TITLE"
+ desc = "FF41_KLEIN_VRYSTAAT_DESC"
+ picture = ffv5_new_republic
+ trigger = {
+  tag = KVS
+  year = 1886
+  NOT = { year = 1892 }
+  NOT = { has_country_flag = ff41_kvs_concession_fired }
+ }
+ mean_time_to_happen = { months = 5 }
+ option = {
+  name = "FF41_KLEIN_VRYSTAAT_OPT"
+  set_country_flag = ff41_kvs_concession_fired
+  add_country_modifier = { name = ff41_kvs_concessions duration = -1 }
+ }
+}
+
+country_event = {
+ id = 9782809
+ title = "FF41_KOKSTAD_STOCK_TITLE"
+ desc = "FF41_KOKSTAD_STOCK_DESC"
+ picture = ffv4_griqua_east
+ trigger = {
+  tag = GKE
+  year = 1862
+  NOT = { year = 1880 }
+  NOT = { has_country_flag = ff41_kokstad_stock_fired }
+ }
+ mean_time_to_happen = { months = 12 }
+ option = {
+  name = "FF41_KOKSTAD_STOCK_OPT"
+  set_country_flag = ff41_kokstad_stock_fired
+  add_country_modifier = { name = ff41_kokstad_stock duration = -1 }
+ }
+}
+
+country_event = {
+ id = 9782810
+ title = "FF41_CHAMBER_MINES_TITLE"
+ desc = "FF41_CHAMBER_MINES_DESC"
+ picture = ffv5_gold_republic
+ trigger = {
+  tag = TRN
+  year = 1889
+  NOT = { year = 1903 }
+  NOT = { has_country_flag = ff41_chamber_mines_fired }
+ }
+ mean_time_to_happen = { months = 8 }
+ option = {
+  name = "FF41_CHAMBER_MINES_OPT"
+  set_country_flag = ff41_chamber_mines_fired
+  add_country_modifier = { name = ff41_chamber_of_mines duration = -1 }
+ }
+}

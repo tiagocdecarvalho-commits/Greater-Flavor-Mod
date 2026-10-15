@@ -1,0 +1,749 @@
+political_decisions = {
+	ff84_accounts = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+			NOT = {
+				has_country_flag = ff84_accounts_funded
+			}
+			NOT = {
+				has_country_flag = ff84_accounts_done
+			}
+		}
+		allow = {
+			war = no
+			year = 1851
+			money = 800
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+							war = no
+							year = 1851
+							money = 800
+							NOT = {
+								has_country_flag = ff84_accounts_funded
+							}
+							NOT = {
+								has_country_flag = ff84_accounts_done
+							}
+						}
+					}
+					owner = {
+						money = -800
+						set_country_flag = ff84_accounts_funded
+						country_event = {
+							id = 9785268
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff84_courts = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_courts_funded
+			}
+			NOT = {
+				has_country_flag = ff84_courts_done
+			}
+		}
+		allow = {
+			war = no
+			year = 1853
+			money = 1200
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							year = 1853
+							money = 1200
+							NOT = {
+								has_country_flag = ff84_courts_funded
+							}
+							NOT = {
+								has_country_flag = ff84_courts_done
+							}
+						}
+					}
+					owner = {
+						money = -1200
+						set_country_flag = ff84_courts_funded
+						country_event = {
+							id = 9785269
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff84_schools = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_schools_funded
+			}
+			NOT = {
+				has_country_flag = ff84_schools_done
+			}
+		}
+		allow = {
+			war = no
+			year = 1856
+			money = 1600
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							year = 1856
+							money = 1600
+							NOT = {
+								has_country_flag = ff84_schools_funded
+							}
+							NOT = {
+								has_country_flag = ff84_schools_done
+							}
+						}
+					}
+					owner = {
+						money = -1600
+						set_country_flag = ff84_schools_funded
+						country_event = {
+							id = 9785270
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff84_commandos = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_commandos_funded
+			}
+			NOT = {
+				has_country_flag = ff84_commandos_done
+			}
+		}
+		allow = {
+			war = no
+			year = 1862
+			money = 2500
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							year = 1862
+							money = 2500
+							NOT = {
+								has_country_flag = ff84_commandos_funded
+							}
+							NOT = {
+								has_country_flag = ff84_commandos_done
+							}
+						}
+					}
+					owner = {
+						money = -2500
+						set_country_flag = ff84_commandos_funded
+						country_event = {
+							id = 9785271
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff84_health = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_health_funded
+			}
+			NOT = {
+				has_country_flag = ff84_health_done
+			}
+		}
+		allow = {
+			war = no
+			year = 1869
+			money = 2200
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							year = 1869
+							money = 2200
+							NOT = {
+								has_country_flag = ff84_health_funded
+							}
+							NOT = {
+								has_country_flag = ff84_health_done
+							}
+						}
+					}
+					owner = {
+						money = -2200
+						set_country_flag = ff84_health_funded
+						country_event = {
+							id = 9785272
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff84_rail = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_rail_funded
+			}
+			NOT = {
+				has_country_flag = ff84_rail_done
+			}
+		}
+		allow = {
+			war = no
+			year = 1872
+			money = 6000
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							year = 1872
+							money = 6000
+							NOT = {
+								has_country_flag = ff84_rail_funded
+							}
+							NOT = {
+								has_country_flag = ff84_rail_done
+							}
+						}
+					}
+					owner = {
+						money = -6000
+						set_country_flag = ff84_rail_funded
+						country_event = {
+							id = 9785273
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff84_negotiate_recognition = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_recognition_pending
+			}
+			NOT = {
+				has_country_flag = ff84_recognised
+			}
+		}
+		allow = {
+			war = no
+			ENG = {
+				exists = yes
+				war = no
+				is_vassal = no
+			}
+			year = 1852
+			money = 1200
+			NOT = {
+				has_country_modifier = ff84_recognition_pause
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							ENG = {
+								exists = yes
+								war = no
+								is_vassal = no
+							}
+							year = 1852
+							money = 1200
+							NOT = {
+								has_country_modifier = ff84_recognition_pause
+							}
+							NOT = {
+								has_country_flag = ff84_recognition_pending
+							}
+							NOT = {
+								has_country_flag = ff84_recognised
+							}
+						}
+					}
+					owner = {
+						money = -1200
+						set_country_flag = ff84_recognition_pending
+						ENG = {
+							country_event = {
+								id = 9785280
+								days = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff84_negotiate_basotho = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_basotho_pending
+			}
+			NOT = {
+				has_country_flag = ff84_basotho_compact
+			}
+		}
+		allow = {
+			war = no
+			BSH = {
+				exists = yes
+				war = no
+				is_vassal = no
+			}
+			year = 1860
+			money = 1500
+			NOT = {
+				has_country_modifier = ff84_basotho_pause
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							BSH = {
+								exists = yes
+								war = no
+								is_vassal = no
+							}
+							year = 1860
+							money = 1500
+							NOT = {
+								has_country_modifier = ff84_basotho_pause
+							}
+							NOT = {
+								has_country_flag = ff84_basotho_pending
+							}
+							NOT = {
+								has_country_flag = ff84_basotho_compact
+							}
+						}
+					}
+					owner = {
+						money = -1500
+						set_country_flag = ff84_basotho_pending
+						BSH = {
+							country_event = {
+								id = 9785281
+								days = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff84_negotiate_portugal = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_portugal_pending
+			}
+			NOT = {
+				has_country_flag = ff84_portuguese_transit
+			}
+		}
+		allow = {
+			war = no
+			POR = {
+				exists = yes
+				war = no
+				is_vassal = no
+			}
+			year = 1865
+			money = 2500
+			NOT = {
+				has_country_modifier = ff84_portugal_pause
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							POR = {
+								exists = yes
+								war = no
+								is_vassal = no
+							}
+							year = 1865
+							money = 2500
+							NOT = {
+								has_country_modifier = ff84_portugal_pause
+							}
+							NOT = {
+								has_country_flag = ff84_portugal_pending
+							}
+							NOT = {
+								has_country_flag = ff84_portuguese_transit
+							}
+						}
+					}
+					owner = {
+						money = -2500
+						set_country_flag = ff84_portugal_pending
+						POR = {
+							country_event = {
+								id = 9785282
+								days = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff84_negotiate_dutch = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_dutch_pending
+			}
+			NOT = {
+				has_country_flag = ff84_dutch_convention
+			}
+		}
+		allow = {
+			war = no
+			NET = {
+				exists = yes
+				war = no
+				is_vassal = no
+			}
+			year = 1855
+			money = 1800
+			NOT = {
+				has_country_modifier = ff84_dutch_pause
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							NET = {
+								exists = yes
+								war = no
+								is_vassal = no
+							}
+							year = 1855
+							money = 1800
+							NOT = {
+								has_country_modifier = ff84_dutch_pause
+							}
+							NOT = {
+								has_country_flag = ff84_dutch_pending
+							}
+							NOT = {
+								has_country_flag = ff84_dutch_convention
+							}
+						}
+					}
+					owner = {
+						money = -1800
+						set_country_flag = ff84_dutch_pending
+						NET = {
+							country_event = {
+								id = 9785283
+								days = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff84_programme = {
+		picture = claim_transvaal
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_union_path
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_modifier = ff84_review_pause
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_union_path
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+							war = no
+							NOT = {
+								has_country_modifier = ff84_review_pause
+							}
+						}
+					}
+					owner = {
+						add_country_modifier = {
+							name = ff84_review_pause
+							duration = 365
+						}
+						country_event = {
+							id = 9785292
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	ff84_enforce_union = {
+		picture = embrace_the_boer
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_civil_war
+			NOT = {
+				has_country_flag = ff84_union_peace_pending
+			}
+		}
+		allow = {
+			war_with = ORA
+			ORA = {
+				exists = yes
+				NOT = {
+					any_owned_province = {
+						NOT = {
+							controlled_by = VLK
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_civil_war
+							war_with = ORA
+							ORA = {
+								exists = yes
+								NOT = {
+									any_owned_province = {
+										NOT = {
+											controlled_by = VLK
+										}
+									}
+								}
+							}
+							NOT = {
+								has_country_flag = ff84_union_peace_pending
+							}
+						}
+					}
+					owner = {
+						end_war = ORA
+						set_country_flag = ff84_union_peace_pending
+						country_event = {
+							id = 9785264
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ff84_accept_separation = {
+		picture = embrace_the_boer
+		potential = {
+			tag = VLK
+			has_country_flag = ff84_civil_war
+		}
+		allow = {
+			war_with = ORA
+			ORA = {
+				exists = yes
+			}
+		}
+		effect = {
+			VLK = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = VLK
+							has_country_flag = ff84_civil_war
+							war_with = ORA
+							NOT = {
+								has_country_flag = ff84_union_peace_pending
+							}
+						}
+					}
+					owner = {
+						end_war = ORA
+						country_event = {
+							id = 9785265
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

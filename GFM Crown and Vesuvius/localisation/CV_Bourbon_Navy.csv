@@ -1,0 +1,44 @@
+cvbc_navy_macchinisti;Corpo dei Macchinisti della Real Marina;;;;;;;;;;;;;x
+cvbc_navy_macchinisti_desc;Naval mechanics receive systematic instruction in engines, drawings and repairs. Their professional knowledge remains available to the fleet.;;;;;;;;;;;;;x
+cvbc_navy_squadra_a_vapore;La Squadra a Vapore;;;;;;;;;;;;;x
+cvbc_navy_squadra_a_vapore_desc;Regular contracts link the engineering workshops to the fleet. Inspected machinery and dependable repair accounts strengthen readiness.;;;;;;;;;;;;;x
+cvbc_navy_officine_navali;Officine della Real Marina;;;;;;;;;;;;;x
+cvbc_navy_officine_navali_desc;The naval workshops possess better tools, repair crews and production schedules for the steam fleet.;;;;;;;;;;;;;x
+cvbc_navy_servizio_nazionale;Servizio Navale d'Italia;;;;;;;;;;;;;x
+cvbc_navy_servizio_nazionale_desc;A common service coordinates officer instruction, signals and engineering standards across the former Italian fleets.;;;;;;;;;;;;;x
+cvbc_navy_depositi;Depositi della Marina;;;;;;;;;;;;;x
+cvbc_navy_depositi_desc;Naval stores, repair crews and inspected coal accounts support a fleet operating beyond its home anchorages.;;;;;;;;;;;;;x
+cvbc_navy_servizio_logistico;La Flotta del Mediterraneo;;;;;;;;;;;;;x
+cvbc_navy_servizio_logistico_desc;The national fleet maintains common arrangements for supplies and operations at distant bases.;;;;;;;;;;;;;x
+cvbc_navy_squadra_moderna;Rinnovamento della Squadra;;;;;;;;;;;;;x
+cvbc_navy_squadra_moderna_desc;New machinery and professional instruction support the transition to steel vessels without replacing the work of the shipyards.;;;;;;;;;;;;;x
+cvbc_navy_cantieri_moderni;Cantieri della Marina Italiana;;;;;;;;;;;;;x
+cvbc_navy_cantieri_moderni_desc;Modern tooling and inspected construction schedules improve the national yards' ability to build and repair warships.;;;;;;;;;;;;;x
+cvbc_navy_opening_title;The Crown and the Sea;;;;;;;;;;;;;x
+cvbc_navy_opening_desc;For a kingdom divided by water, the sea is a road as well as a frontier. Naples, Palermo and Messina depend upon reliable crossings, while the crown's ships protect merchants and carry its authority beyond the capital. Ferdinand II's reign will bring steam machinery into the royal fleet. Imported engines, however, require trained mechanics and dependable workshops. The admirals ask ministers to consider the ships, their crews and their repair establishments together. A navy worthy of the kingdom must be sustained in port as carefully as it is commanded at sea.;;;;;;;;;;;;;x
+cvbc_navy_opening_ack;Enter the report in the naval register.;;;;;;;;;;;;;x
+cvbc_navy_engineers_title;Endow the Real Marina's Mechanics School;;;;;;;;;;;;;x
+cvbc_navy_engineers_desc;The fleet's steam engines still depend upon men trained abroad. Give the naval school a continuing establishment beside the Pietrarsa workshops, with instructors, drawings and practical examinations. Its graduates will carry domestic engineering knowledge aboard the crown's ships.;;;;;;;;;;;;;x
+cvbc_navy_engineers_report_title;Mechanics for the Royal Fleet;;;;;;;;;;;;;x
+cvbc_navy_engineers_report_desc;Pietrarsa's benches and classrooms now serve a naval profession. Candidates study the drawings of engines before learning their care under experienced hands. The crown had already acquired steam vessels abroad, this establishment aims to place their maintenance within the kingdom's own reach. A machine that fails at sea can imperil a crossing or a campaign. The new mechanics must therefore answer to professional examinations as well as royal officers. Their work joins the fleet to the workshops without relieving either of the need for materials, construction and disciplined service.;;;;;;;;;;;;;x
+cvbc_navy_engineers_report_ack;Enter the report in the naval register.;;;;;;;;;;;;;x
+cvbc_navy_contracts_title;Place Contracts for the Steam Squadron;;;;;;;;;;;;;x
+cvbc_navy_contracts_desc;A school requires work worthy of its instruction. Place coordinated machinery and repair contracts with the southern naval establishments, so that fitters, stores and building schedules advance together. The fleet will gain dependable support while new vessels remain the responsibility of the ordinary yards.;;;;;;;;;;;;;x
+cvbc_navy_contracts_report_title;The Steam Squadron and the Workshops;;;;;;;;;;;;;x
+cvbc_navy_contracts_report_desc;Sailing frigates and steam vessels now demand different skills from the same naval administration. The ministry has brought machinery contracts, spare fittings and repair accounts under a common programme. Castellammare's builders and Pietrarsa's mechanics must work from compatible drawings, while officers are to report defects instead of allowing them to disappear into separate accounts. The southern crown intends its fleet to remain a living instrument of power, rather than a handsome collection of hulls at anchor. Orders have gone to the establishments, the building and fitting of ships must still follow their usual course.;;;;;;;;;;;;;x
+cvbc_navy_contracts_report_ack;Enter the report in the naval register.;;;;;;;;;;;;;x
+cvbc_navy_service_title;Establish the Bourbon Italian Naval Service;;;;;;;;;;;;;x
+cvbc_navy_service_desc;The victorious Italian crown has inherited officers, arsenals and habits from separate states. Establish common signals, engineering examinations and promotion standards while retaining the useful experience of each fleet. The southern navy will become the foundation of a national service.;;;;;;;;;;;;;x
+cvbc_navy_service_report_title;One Crown upon the Italian Seas;;;;;;;;;;;;;x
+cvbc_navy_service_report_desc;The Italian crown can now speak from Naples to ports that once obeyed other governments. Its admirals inherit more than ships: competing seniority lists, signals and arsenals accompany the union. The ministry has ordered a common naval service, with examinations that acknowledge experience without allowing provincial custom to divide the command. Southern officers regard their navy as the foundation of the new establishment, their colleagues insist that national service must honour every capable seaman. Under the Bourbon crown this is a new Italian settlement. The kingdom's place upon the Mediterranean will depend on making that union work aboard its ships.;;;;;;;;;;;;;x
+cvbc_navy_service_report_ack;Enter the report in the naval register.;;;;;;;;;;;;;x
+cvbc_navy_logistics_title;Endow the Mediterranean Naval Depots;;;;;;;;;;;;;x
+cvbc_navy_logistics_desc;A fleet serving distant possessions needs coal accounts, repair crews and stores that can be trusted. Fund a common supply administration and improve established naval bases throughout the kingdom's current possessions. Ports acquired later will require their own facilities.;;;;;;;;;;;;;x
+cvbc_navy_logistics_report_title;The Fleet beyond Its Home Waters;;;;;;;;;;;;;x
+cvbc_navy_logistics_report_desc;Ministers can draw a wide empire upon a map, but an admiral must still ask where his ships will obtain coal, fittings and repairs. The naval administration has surveyed the kingdom's established bases and assigned a common system of stores and inspection. Merchant houses will supply the depots under contracts that officers must account for, and crews will find repair arrangements beyond the familiar southern anchorages. Italy's flag is to command respect through a fleet that can remain at sea. The new arrangements support the bases already in our hands, future possessions will present new demands.;;;;;;;;;;;;;x
+cvbc_navy_logistics_report_ack;Enter the report in the naval register.;;;;;;;;;;;;;x
+cvbc_navy_steel_title;Renew the Italian Squadron for the Age of Steel;;;;;;;;;;;;;x
+cvbc_navy_steel_desc;Wooden hulls and machinery from an earlier generation cannot answer every rival. Modernise established naval workshops, inspect the new designs and train crews for steel vessels. The ministry will coordinate renewal while shipbuilding remains subject to the kingdom's technology, materials and ordinary construction.;;;;;;;;;;;;;x
+cvbc_navy_steel_report_title;A New Generation for the Italian Squadron;;;;;;;;;;;;;x
+cvbc_navy_steel_report_desc;The admirals have placed the fleet's renewal before the crown. The service formed from Italy's former navies must now learn to handle vessels whose machinery and construction demand fresh technical skill. The ministry has authorised improved tooling and inspected building schedules at the established bases, together with professional instruction for the new squadron. The flag will travel on ships built for the present age, but every hull must still be laid down, equipped and manned. National pride cannot substitute for sound drawings or a reliable engine. The kingdom has chosen to make its naval ambition a continuing industrial undertaking.;;;;;;;;;;;;;x
+cvbc_navy_steel_report_ack;Enter the report in the naval register.;;;;;;;;;;;;;x

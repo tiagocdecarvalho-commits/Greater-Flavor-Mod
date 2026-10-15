@@ -1,0 +1,324 @@
+political_decisions = {
+    cvrj_resume_crisis = {
+        picture = cvrj_japan
+        potential = {
+            tag = JAP
+            civilized = yes
+            is_vassal = no
+            has_global_flag = cvrj_escalation
+            RUS = {
+                exists = yes
+                is_vassal = no
+                owns = 1481
+            }
+            NOT = {
+                has_global_flag = cvrj_accommodation
+                has_global_flag = cvrj_active
+                has_global_flag = cvrj_result
+                has_country_flag = only_one_war_with_russia
+                alliance_with = RUS
+                truce_with = RUS
+            }
+            has_country_flag = cvrj_delayed
+        }
+        allow = {
+            war = no
+            year = 1904
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = JAP
+                        civilized = yes
+                        is_vassal = no
+                        has_global_flag = cvrj_escalation
+                        RUS = {
+                            exists = yes
+                            is_vassal = no
+                            owns = 1481
+                        }
+                        NOT = {
+                            has_global_flag = cvrj_accommodation
+                            has_global_flag = cvrj_active
+                            has_global_flag = cvrj_result
+                            has_country_flag = only_one_war_with_russia
+                            alliance_with = RUS
+                            truce_with = RUS
+                        }
+                        war = no
+                        year = 1904
+                    }
+                }
+                owner = {
+                    set_global_flag = cvrj_active
+                    set_global_flag = russo_japanese_war
+                    set_country_flag = only_one_war_with_russia
+                    war = {
+                        target = RUS
+                        attacker_goal = {
+                            casus_belli = cvrj_pacific_settlement
+                        }
+                        defender_goal = {
+                            casus_belli = cvrj_pacific_settlement
+                        }
+                        call_ally = no
+                    }
+                    RUS = {
+                        country_event = {
+                            id = 9924010
+                            days = 1
+                        }
+                    }
+                    any_country = {
+                        limit = {
+                            OR = {
+                                tag = QNG
+                                tag = CHI
+                                tag = MCK
+                                tag = TPG
+                                tag = HUI
+                                tag = KMT
+                            }
+                            exists = yes
+                        }
+                        country_event = {
+                            id = 9924011
+                            days = 1
+                        }
+                    }
+                    random_owned = {
+                        limit = {
+                            owner = {
+                                KOR = {
+                                    exists = yes
+                                }
+                            }
+                        }
+                        owner = {
+                            KOR = {
+                                country_event = {
+                                    id = 9924012
+                                    days = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    cvrj_mantetsu_company = {
+        picture = cvrj_japan
+        potential = {
+            tag = JAP
+            has_country_flag = cvrj_portsmouth_signed
+            has_global_flag = cvrj_china_ratified
+            NOT = {
+                has_global_flag = mantetsu_established
+            }
+        }
+        allow = {
+            year = 1906
+            war = no
+            money = 25000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = JAP
+                        has_country_flag = cvrj_portsmouth_signed
+                        has_global_flag = cvrj_china_ratified
+                        year = 1906
+                        war = no
+                        money = 25000
+                        NOT = {
+                            has_global_flag = mantetsu_established
+                        }
+                    }
+                }
+                owner = {
+                    treasury = -25000
+                    set_global_flag = mantetsu_established
+                    add_country_modifier = {
+                        name = mantetsu_jap
+                        duration = 9125
+                    }
+                    add_country_modifier = {
+                        name = cvrj_mantetsu
+                        duration = 3650
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    cvrj_siberian_capacity = {
+        picture = cvrj_russia
+        potential = {
+            tag = RUS
+            has_country_flag = cvrj_policy
+            year = 1900
+            NOT = {
+                has_country_flag = cvrj_siberian_capacity
+            }
+        }
+        allow = {
+            war = no
+            money = 40000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = RUS
+                        has_country_flag = cvrj_policy
+                        year = 1900
+                        NOT = {
+                            has_country_flag = cvrj_siberian_capacity
+                        }
+                        war = no
+                        money = 40000
+                    }
+                }
+                owner = {
+                    treasury = -40000
+                    set_country_flag = cvrj_siberian_capacity
+                    add_country_modifier = {
+                        name = cvrj_siberian_capacity_mod
+                        duration = 1825
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    cvrj_naval_review = {
+        picture = cvrj_japan
+        potential = {
+            tag = JAP
+            has_global_flag = cvrj_result
+            NOT = {
+                has_country_flag = cvrj_naval_review
+            }
+        }
+        allow = {
+            war = no
+            money = 20000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = JAP
+                        has_global_flag = cvrj_result
+                        NOT = {
+                            has_country_flag = cvrj_naval_review
+                        }
+                        war = no
+                        money = 20000
+                    }
+                }
+                owner = {
+                    treasury = -20000
+                    set_country_flag = cvrj_naval_review
+                    add_country_modifier = {
+                        name = cvrj_naval_review_mod
+                        duration = 1825
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    cvrj_russian_review = {
+        picture = cvrj_russia
+        potential = {
+            tag = RUS
+            has_global_flag = cvrj_result
+            NOT = {
+                has_country_flag = cvrj_russian_review
+            }
+        }
+        allow = {
+            war = no
+            money = 25000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = RUS
+                        has_global_flag = cvrj_result
+                        NOT = {
+                            has_country_flag = cvrj_russian_review
+                        }
+                        war = no
+                        money = 25000
+                    }
+                }
+                owner = {
+                    treasury = -25000
+                    set_country_flag = cvrj_russian_review
+                    add_country_modifier = {
+                        name = cvrj_russian_review_mod
+                        duration = 1825
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    cvrj_duma_commission = {
+        picture = cvrj_revolution
+        potential = {
+            tag = RUS
+            has_country_flag = cvrj_fundamental_laws
+            NOT = {
+                has_country_flag = cvrj_duma_commission
+            }
+        }
+        allow = {
+            war = no
+            money = 10000
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = RUS
+                        has_country_flag = cvrj_fundamental_laws
+                        NOT = {
+                            has_country_flag = cvrj_duma_commission
+                        }
+                        war = no
+                        money = 10000
+                    }
+                }
+                owner = {
+                    treasury = -10000
+                    set_country_flag = cvrj_duma_commission
+                    add_country_modifier = {
+                        name = cvrj_duma_commission_mod
+                        duration = 1825
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

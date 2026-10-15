@@ -1,0 +1,237 @@
+country_event = { id = 9785130 title = "FF77_GRIQUA_ORDERS_TITLE" desc = "FF77_GRIQUA_ORDERS_DESC" picture = "boer_war"
+ trigger = { OR = { tag = TRN tag = SAF } is_vassal = no OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } has_country_flag = ff75_griqua_campaign NOT = { war_with = GKW } NOT = { has_country_flag = ff77_griqua_launch_shown } GKW = { exists = yes is_vassal = no } } mean_time_to_happen = { days = 1 } immediate = { set_country_flag = ff77_griqua_launch_shown }
+ option = { name = "FF77_LAUNCH" ai_chance = { factor = 100 }
+ TRN = { random_owned = { limit = { owner = { tag = TRN is_vassal = no OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } has_country_flag = ff75_griqua_campaign NOT = { war_with = GKW } GKW = { exists = yes is_vassal = no } } } owner = { TRN = { leave_alliance = GKW casus_belli = { target = GKW type = ff75_griqua_conquest months = 60 } war = { target = GKW attacker_goal = { casus_belli = ff75_griqua_conquest } defender_goal = { casus_belli = status_quo } call_ally = no } } } } }
+ SAF = { random_owned = { limit = { owner = { tag = SAF is_vassal = no OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } has_country_flag = ff75_griqua_campaign NOT = { war_with = GKW } GKW = { exists = yes is_vassal = no } } } owner = { SAF = { leave_alliance = GKW casus_belli = { target = GKW type = ff75_griqua_conquest months = 60 } war = { target = GKW attacker_goal = { casus_belli = ff75_griqua_conquest } defender_goal = { casus_belli = status_quo } call_ally = no } } } } }
+ }
+}
+country_event = { id = 9785131 title = "FF77_BASOTHO_ORDERS_TITLE" desc = "FF77_BASOTHO_ORDERS_DESC" picture = "boer_war"
+ trigger = { OR = { tag = TRN tag = SAF } is_vassal = no OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } has_country_flag = ff75_basotho_campaign NOT = { war_with = BSH } NOT = { has_country_flag = ff77_basotho_launch_shown } BSH = { exists = yes is_vassal = no } } mean_time_to_happen = { days = 1 } immediate = { set_country_flag = ff77_basotho_launch_shown }
+ option = { name = "FF77_LAUNCH" ai_chance = { factor = 100 }
+ TRN = { random_owned = { limit = { owner = { tag = TRN is_vassal = no OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } has_country_flag = ff75_basotho_campaign NOT = { war_with = BSH } BSH = { exists = yes is_vassal = no } } } owner = { TRN = { leave_alliance = BSH casus_belli = { target = BSH type = ff75_basotho_conquest months = 60 } war = { target = BSH attacker_goal = { casus_belli = ff75_basotho_conquest } defender_goal = { casus_belli = status_quo } call_ally = no } } } } }
+ SAF = { random_owned = { limit = { owner = { tag = SAF is_vassal = no OR = { has_country_flag = ff68_limited_settlement_applied has_country_flag = ff67_full_cape_victory has_country_flag = ff82_boer_victory } has_country_flag = ff75_basotho_campaign NOT = { war_with = BSH } BSH = { exists = yes is_vassal = no } } } owner = { SAF = { leave_alliance = BSH casus_belli = { target = BSH type = ff75_basotho_conquest months = 60 } war = { target = BSH attacker_goal = { casus_belli = ff75_basotho_conquest } defender_goal = { casus_belli = status_quo } call_ally = no } } } } }
+ }
+}
+country_event = { id = 9785132 title = "FF77_REGISTERS_TITLE" desc = "FF77_REGISTERS_DESC" picture = "cape_map"
+ trigger = { OR = { tag = TRN tag = SAF } primary_culture = boer has_country_flag = ff63_first_war_settled any_owned_province = { OR = { AND = { is_colonial = yes OR = { region = ENG_2083 region = ENG_2087 region = ENG_2092 region = ENG_2096 region = ZUL_2113 } } region = POR_2049 province_id = 3713 } } NOT = { has_country_flag = ff77_registers_corrected } NOT = { exists = UTI } NOT = { has_country_flag = ff77_registers_popup } } mean_time_to_happen = { days = 1 } immediate = { set_country_flag = ff77_registers_popup }
+ option = { name = "FF77_REGISTERS_OPT" ai_chance = { factor = 100 } clr_country_flag = ff77_registers_popup
+ TRN = { random_owned = { limit = { owner = { tag = TRN NOT = { exists = UTI } NOT = { has_country_flag = ff77_registers_corrected } } } owner = {
+ TRN = {
+random_owned = { limit = { owner = { capital = 2083 } } owner = { set_country_flag = ff77_capital_2083 } }
+random_owned = { limit = { owner = { capital = 2084 } } owner = { set_country_flag = ff77_capital_2084 } }
+random_owned = { limit = { owner = { capital = 2085 } } owner = { set_country_flag = ff77_capital_2085 } }
+random_owned = { limit = { owner = { capital = 2086 } } owner = { set_country_flag = ff77_capital_2086 } }
+random_owned = { limit = { owner = { capital = 3895 } } owner = { set_country_flag = ff77_capital_3895 } }
+random_owned = { limit = { owner = { capital = 4012 } } owner = { set_country_flag = ff77_capital_4012 } }
+random_owned = { limit = { owner = { capital = 4014 } } owner = { set_country_flag = ff77_capital_4014 } }
+random_owned = { limit = { owner = { capital = 4013 } } owner = { set_country_flag = ff77_capital_4013 } }
+random_owned = { limit = { owner = { capital = 2087 } } owner = { set_country_flag = ff77_capital_2087 } }
+random_owned = { limit = { owner = { capital = 2090 } } owner = { set_country_flag = ff77_capital_2090 } }
+random_owned = { limit = { owner = { capital = 2089 } } owner = { set_country_flag = ff77_capital_2089 } }
+random_owned = { limit = { owner = { capital = 2091 } } owner = { set_country_flag = ff77_capital_2091 } }
+random_owned = { limit = { owner = { capital = 2092 } } owner = { set_country_flag = ff77_capital_2092 } }
+random_owned = { limit = { owner = { capital = 4003 } } owner = { set_country_flag = ff77_capital_4003 } }
+random_owned = { limit = { owner = { capital = 4001 } } owner = { set_country_flag = ff77_capital_4001 } }
+random_owned = { limit = { owner = { capital = 4002 } } owner = { set_country_flag = ff77_capital_4002 } }
+random_owned = { limit = { owner = { capital = 4018 } } owner = { set_country_flag = ff77_capital_4018 } }
+random_owned = { limit = { owner = { capital = 4019 } } owner = { set_country_flag = ff77_capital_4019 } }
+random_owned = { limit = { owner = { capital = 2558 } } owner = { set_country_flag = ff77_capital_2558 } }
+random_owned = { limit = { owner = { capital = 2093 } } owner = { set_country_flag = ff77_capital_2093 } }
+random_owned = { limit = { owner = { capital = 2088 } } owner = { set_country_flag = ff77_capital_2088 } }
+random_owned = { limit = { owner = { capital = 2094 } } owner = { set_country_flag = ff77_capital_2094 } }
+random_owned = { limit = { owner = { capital = 2095 } } owner = { set_country_flag = ff77_capital_2095 } }
+random_owned = { limit = { owner = { capital = 4010 } } owner = { set_country_flag = ff77_capital_4010 } }
+random_owned = { limit = { owner = { capital = 4022 } } owner = { set_country_flag = ff77_capital_4022 } }
+random_owned = { limit = { owner = { capital = 4011 } } owner = { set_country_flag = ff77_capital_4011 } }
+random_owned = { limit = { owner = { capital = 4023 } } owner = { set_country_flag = ff77_capital_4023 } }
+random_owned = { limit = { owner = { capital = 2096 } } owner = { set_country_flag = ff77_capital_2096 } }
+random_owned = { limit = { owner = { capital = 2097 } } owner = { set_country_flag = ff77_capital_2097 } }
+random_owned = { limit = { owner = { capital = 2098 } } owner = { set_country_flag = ff77_capital_2098 } }
+random_owned = { limit = { owner = { capital = 2099 } } owner = { set_country_flag = ff77_capital_2099 } }
+random_owned = { limit = { owner = { capital = 2100 } } owner = { set_country_flag = ff77_capital_2100 } }
+random_owned = { limit = { owner = { capital = 3563 } } owner = { set_country_flag = ff77_capital_3563 } }
+random_owned = { limit = { owner = { capital = 3901 } } owner = { set_country_flag = ff77_capital_3901 } }
+random_owned = { limit = { owner = { capital = 3903 } } owner = { set_country_flag = ff77_capital_3903 } }
+random_owned = { limit = { owner = { capital = 4017 } } owner = { set_country_flag = ff77_capital_4017 } }
+random_owned = { limit = { owner = { capital = 4015 } } owner = { set_country_flag = ff77_capital_4015 } }
+random_owned = { limit = { owner = { capital = 4016 } } owner = { set_country_flag = ff77_capital_4016 } }
+random_owned = { limit = { owner = { capital = 2113 } } owner = { set_country_flag = ff77_capital_2113 } }
+random_owned = { limit = { owner = { capital = 2112 } } owner = { set_country_flag = ff77_capital_2112 } }
+random_owned = { limit = { owner = { capital = 2111 } } owner = { set_country_flag = ff77_capital_2111 } }
+random_owned = { limit = { owner = { capital = 3897 } } owner = { set_country_flag = ff77_capital_3897 } }
+random_owned = { limit = { owner = { capital = 3899 } } owner = { set_country_flag = ff77_capital_3899 } }
+random_owned = { limit = { owner = { capital = 3900 } } owner = { set_country_flag = ff77_capital_3900 } }
+random_owned = { limit = { owner = { capital = 3902 } } owner = { set_country_flag = ff77_capital_3902 } }
+random_owned = { limit = { owner = { capital = 3942 } } owner = { set_country_flag = ff77_capital_3942 } }
+random_owned = { limit = { owner = { capital = 3943 } } owner = { set_country_flag = ff77_capital_3943 } }
+random_owned = { limit = { owner = { capital = 4021 } } owner = { set_country_flag = ff77_capital_4021 } }
+random_owned = { limit = { owner = { capital = 4024 } } owner = { set_country_flag = ff77_capital_4024 } }
+random_owned = { limit = { owner = { capital = 4004 } } owner = { set_country_flag = ff77_capital_4004 } }
+random_owned = { limit = { owner = { any_owned_province = { is_colonial = yes OR = { region = ENG_2083 region = ENG_2087 region = ENG_2092 region = ENG_2096 region = ZUL_2113 } } } } owner = { any_owned = { limit = { OR = { region = ENG_2083 region = ENG_2087 region = ENG_2092 region = ENG_2096 region = ZUL_2113 } is_colonial = yes } add_core = UTI set_province_flag = ff77_state_relay secede_province = UTI } create_vassal = UTI inherit = UTI } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2083 } } owner = { capital = 2083 clr_country_flag = ff77_capital_2083 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2084 } } owner = { capital = 2084 clr_country_flag = ff77_capital_2084 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2085 } } owner = { capital = 2085 clr_country_flag = ff77_capital_2085 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2086 } } owner = { capital = 2086 clr_country_flag = ff77_capital_2086 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3895 } } owner = { capital = 3895 clr_country_flag = ff77_capital_3895 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4012 } } owner = { capital = 4012 clr_country_flag = ff77_capital_4012 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4014 } } owner = { capital = 4014 clr_country_flag = ff77_capital_4014 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4013 } } owner = { capital = 4013 clr_country_flag = ff77_capital_4013 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2087 } } owner = { capital = 2087 clr_country_flag = ff77_capital_2087 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2090 } } owner = { capital = 2090 clr_country_flag = ff77_capital_2090 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2089 } } owner = { capital = 2089 clr_country_flag = ff77_capital_2089 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2091 } } owner = { capital = 2091 clr_country_flag = ff77_capital_2091 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2092 } } owner = { capital = 2092 clr_country_flag = ff77_capital_2092 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4003 } } owner = { capital = 4003 clr_country_flag = ff77_capital_4003 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4001 } } owner = { capital = 4001 clr_country_flag = ff77_capital_4001 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4002 } } owner = { capital = 4002 clr_country_flag = ff77_capital_4002 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4018 } } owner = { capital = 4018 clr_country_flag = ff77_capital_4018 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4019 } } owner = { capital = 4019 clr_country_flag = ff77_capital_4019 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2558 } } owner = { capital = 2558 clr_country_flag = ff77_capital_2558 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2093 } } owner = { capital = 2093 clr_country_flag = ff77_capital_2093 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2088 } } owner = { capital = 2088 clr_country_flag = ff77_capital_2088 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2094 } } owner = { capital = 2094 clr_country_flag = ff77_capital_2094 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2095 } } owner = { capital = 2095 clr_country_flag = ff77_capital_2095 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4010 } } owner = { capital = 4010 clr_country_flag = ff77_capital_4010 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4022 } } owner = { capital = 4022 clr_country_flag = ff77_capital_4022 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4011 } } owner = { capital = 4011 clr_country_flag = ff77_capital_4011 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4023 } } owner = { capital = 4023 clr_country_flag = ff77_capital_4023 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2096 } } owner = { capital = 2096 clr_country_flag = ff77_capital_2096 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2097 } } owner = { capital = 2097 clr_country_flag = ff77_capital_2097 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2098 } } owner = { capital = 2098 clr_country_flag = ff77_capital_2098 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2099 } } owner = { capital = 2099 clr_country_flag = ff77_capital_2099 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2100 } } owner = { capital = 2100 clr_country_flag = ff77_capital_2100 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3563 } } owner = { capital = 3563 clr_country_flag = ff77_capital_3563 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3901 } } owner = { capital = 3901 clr_country_flag = ff77_capital_3901 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3903 } } owner = { capital = 3903 clr_country_flag = ff77_capital_3903 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4017 } } owner = { capital = 4017 clr_country_flag = ff77_capital_4017 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4015 } } owner = { capital = 4015 clr_country_flag = ff77_capital_4015 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4016 } } owner = { capital = 4016 clr_country_flag = ff77_capital_4016 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2113 } } owner = { capital = 2113 clr_country_flag = ff77_capital_2113 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2112 } } owner = { capital = 2112 clr_country_flag = ff77_capital_2112 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2111 } } owner = { capital = 2111 clr_country_flag = ff77_capital_2111 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3897 } } owner = { capital = 3897 clr_country_flag = ff77_capital_3897 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3899 } } owner = { capital = 3899 clr_country_flag = ff77_capital_3899 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3900 } } owner = { capital = 3900 clr_country_flag = ff77_capital_3900 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3902 } } owner = { capital = 3902 clr_country_flag = ff77_capital_3902 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3942 } } owner = { capital = 3942 clr_country_flag = ff77_capital_3942 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3943 } } owner = { capital = 3943 clr_country_flag = ff77_capital_3943 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4021 } } owner = { capital = 4021 clr_country_flag = ff77_capital_4021 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4024 } } owner = { capital = 4024 clr_country_flag = ff77_capital_4024 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4004 } } owner = { capital = 4004 clr_country_flag = ff77_capital_4004 } }
+any_owned = { limit = { has_province_flag = ff77_state_relay } remove_core = UTI clr_province_flag = ff77_state_relay add_core = TRN add_core = SAF }
+ any_owned = { limit = { OR = { region = POR_2049 province_id = 3713 } } add_core = TRN add_core = SAF } set_country_flag = ff77_registers_corrected }
+ } } }
+ SAF = { random_owned = { limit = { owner = { tag = SAF NOT = { exists = UTI } NOT = { has_country_flag = ff77_registers_corrected } } } owner = {
+ SAF = {
+random_owned = { limit = { owner = { capital = 2083 } } owner = { set_country_flag = ff77_capital_2083 } }
+random_owned = { limit = { owner = { capital = 2084 } } owner = { set_country_flag = ff77_capital_2084 } }
+random_owned = { limit = { owner = { capital = 2085 } } owner = { set_country_flag = ff77_capital_2085 } }
+random_owned = { limit = { owner = { capital = 2086 } } owner = { set_country_flag = ff77_capital_2086 } }
+random_owned = { limit = { owner = { capital = 3895 } } owner = { set_country_flag = ff77_capital_3895 } }
+random_owned = { limit = { owner = { capital = 4012 } } owner = { set_country_flag = ff77_capital_4012 } }
+random_owned = { limit = { owner = { capital = 4014 } } owner = { set_country_flag = ff77_capital_4014 } }
+random_owned = { limit = { owner = { capital = 4013 } } owner = { set_country_flag = ff77_capital_4013 } }
+random_owned = { limit = { owner = { capital = 2087 } } owner = { set_country_flag = ff77_capital_2087 } }
+random_owned = { limit = { owner = { capital = 2090 } } owner = { set_country_flag = ff77_capital_2090 } }
+random_owned = { limit = { owner = { capital = 2089 } } owner = { set_country_flag = ff77_capital_2089 } }
+random_owned = { limit = { owner = { capital = 2091 } } owner = { set_country_flag = ff77_capital_2091 } }
+random_owned = { limit = { owner = { capital = 2092 } } owner = { set_country_flag = ff77_capital_2092 } }
+random_owned = { limit = { owner = { capital = 4003 } } owner = { set_country_flag = ff77_capital_4003 } }
+random_owned = { limit = { owner = { capital = 4001 } } owner = { set_country_flag = ff77_capital_4001 } }
+random_owned = { limit = { owner = { capital = 4002 } } owner = { set_country_flag = ff77_capital_4002 } }
+random_owned = { limit = { owner = { capital = 4018 } } owner = { set_country_flag = ff77_capital_4018 } }
+random_owned = { limit = { owner = { capital = 4019 } } owner = { set_country_flag = ff77_capital_4019 } }
+random_owned = { limit = { owner = { capital = 2558 } } owner = { set_country_flag = ff77_capital_2558 } }
+random_owned = { limit = { owner = { capital = 2093 } } owner = { set_country_flag = ff77_capital_2093 } }
+random_owned = { limit = { owner = { capital = 2088 } } owner = { set_country_flag = ff77_capital_2088 } }
+random_owned = { limit = { owner = { capital = 2094 } } owner = { set_country_flag = ff77_capital_2094 } }
+random_owned = { limit = { owner = { capital = 2095 } } owner = { set_country_flag = ff77_capital_2095 } }
+random_owned = { limit = { owner = { capital = 4010 } } owner = { set_country_flag = ff77_capital_4010 } }
+random_owned = { limit = { owner = { capital = 4022 } } owner = { set_country_flag = ff77_capital_4022 } }
+random_owned = { limit = { owner = { capital = 4011 } } owner = { set_country_flag = ff77_capital_4011 } }
+random_owned = { limit = { owner = { capital = 4023 } } owner = { set_country_flag = ff77_capital_4023 } }
+random_owned = { limit = { owner = { capital = 2096 } } owner = { set_country_flag = ff77_capital_2096 } }
+random_owned = { limit = { owner = { capital = 2097 } } owner = { set_country_flag = ff77_capital_2097 } }
+random_owned = { limit = { owner = { capital = 2098 } } owner = { set_country_flag = ff77_capital_2098 } }
+random_owned = { limit = { owner = { capital = 2099 } } owner = { set_country_flag = ff77_capital_2099 } }
+random_owned = { limit = { owner = { capital = 2100 } } owner = { set_country_flag = ff77_capital_2100 } }
+random_owned = { limit = { owner = { capital = 3563 } } owner = { set_country_flag = ff77_capital_3563 } }
+random_owned = { limit = { owner = { capital = 3901 } } owner = { set_country_flag = ff77_capital_3901 } }
+random_owned = { limit = { owner = { capital = 3903 } } owner = { set_country_flag = ff77_capital_3903 } }
+random_owned = { limit = { owner = { capital = 4017 } } owner = { set_country_flag = ff77_capital_4017 } }
+random_owned = { limit = { owner = { capital = 4015 } } owner = { set_country_flag = ff77_capital_4015 } }
+random_owned = { limit = { owner = { capital = 4016 } } owner = { set_country_flag = ff77_capital_4016 } }
+random_owned = { limit = { owner = { capital = 2113 } } owner = { set_country_flag = ff77_capital_2113 } }
+random_owned = { limit = { owner = { capital = 2112 } } owner = { set_country_flag = ff77_capital_2112 } }
+random_owned = { limit = { owner = { capital = 2111 } } owner = { set_country_flag = ff77_capital_2111 } }
+random_owned = { limit = { owner = { capital = 3897 } } owner = { set_country_flag = ff77_capital_3897 } }
+random_owned = { limit = { owner = { capital = 3899 } } owner = { set_country_flag = ff77_capital_3899 } }
+random_owned = { limit = { owner = { capital = 3900 } } owner = { set_country_flag = ff77_capital_3900 } }
+random_owned = { limit = { owner = { capital = 3902 } } owner = { set_country_flag = ff77_capital_3902 } }
+random_owned = { limit = { owner = { capital = 3942 } } owner = { set_country_flag = ff77_capital_3942 } }
+random_owned = { limit = { owner = { capital = 3943 } } owner = { set_country_flag = ff77_capital_3943 } }
+random_owned = { limit = { owner = { capital = 4021 } } owner = { set_country_flag = ff77_capital_4021 } }
+random_owned = { limit = { owner = { capital = 4024 } } owner = { set_country_flag = ff77_capital_4024 } }
+random_owned = { limit = { owner = { capital = 4004 } } owner = { set_country_flag = ff77_capital_4004 } }
+random_owned = { limit = { owner = { any_owned_province = { is_colonial = yes OR = { region = ENG_2083 region = ENG_2087 region = ENG_2092 region = ENG_2096 region = ZUL_2113 } } } } owner = { any_owned = { limit = { OR = { region = ENG_2083 region = ENG_2087 region = ENG_2092 region = ENG_2096 region = ZUL_2113 } is_colonial = yes } add_core = UTI set_province_flag = ff77_state_relay secede_province = UTI } create_vassal = UTI inherit = UTI } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2083 } } owner = { capital = 2083 clr_country_flag = ff77_capital_2083 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2084 } } owner = { capital = 2084 clr_country_flag = ff77_capital_2084 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2085 } } owner = { capital = 2085 clr_country_flag = ff77_capital_2085 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2086 } } owner = { capital = 2086 clr_country_flag = ff77_capital_2086 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3895 } } owner = { capital = 3895 clr_country_flag = ff77_capital_3895 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4012 } } owner = { capital = 4012 clr_country_flag = ff77_capital_4012 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4014 } } owner = { capital = 4014 clr_country_flag = ff77_capital_4014 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4013 } } owner = { capital = 4013 clr_country_flag = ff77_capital_4013 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2087 } } owner = { capital = 2087 clr_country_flag = ff77_capital_2087 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2090 } } owner = { capital = 2090 clr_country_flag = ff77_capital_2090 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2089 } } owner = { capital = 2089 clr_country_flag = ff77_capital_2089 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2091 } } owner = { capital = 2091 clr_country_flag = ff77_capital_2091 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2092 } } owner = { capital = 2092 clr_country_flag = ff77_capital_2092 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4003 } } owner = { capital = 4003 clr_country_flag = ff77_capital_4003 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4001 } } owner = { capital = 4001 clr_country_flag = ff77_capital_4001 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4002 } } owner = { capital = 4002 clr_country_flag = ff77_capital_4002 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4018 } } owner = { capital = 4018 clr_country_flag = ff77_capital_4018 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4019 } } owner = { capital = 4019 clr_country_flag = ff77_capital_4019 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2558 } } owner = { capital = 2558 clr_country_flag = ff77_capital_2558 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2093 } } owner = { capital = 2093 clr_country_flag = ff77_capital_2093 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2088 } } owner = { capital = 2088 clr_country_flag = ff77_capital_2088 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2094 } } owner = { capital = 2094 clr_country_flag = ff77_capital_2094 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2095 } } owner = { capital = 2095 clr_country_flag = ff77_capital_2095 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4010 } } owner = { capital = 4010 clr_country_flag = ff77_capital_4010 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4022 } } owner = { capital = 4022 clr_country_flag = ff77_capital_4022 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4011 } } owner = { capital = 4011 clr_country_flag = ff77_capital_4011 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4023 } } owner = { capital = 4023 clr_country_flag = ff77_capital_4023 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2096 } } owner = { capital = 2096 clr_country_flag = ff77_capital_2096 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2097 } } owner = { capital = 2097 clr_country_flag = ff77_capital_2097 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2098 } } owner = { capital = 2098 clr_country_flag = ff77_capital_2098 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2099 } } owner = { capital = 2099 clr_country_flag = ff77_capital_2099 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2100 } } owner = { capital = 2100 clr_country_flag = ff77_capital_2100 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3563 } } owner = { capital = 3563 clr_country_flag = ff77_capital_3563 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3901 } } owner = { capital = 3901 clr_country_flag = ff77_capital_3901 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3903 } } owner = { capital = 3903 clr_country_flag = ff77_capital_3903 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4017 } } owner = { capital = 4017 clr_country_flag = ff77_capital_4017 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4015 } } owner = { capital = 4015 clr_country_flag = ff77_capital_4015 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4016 } } owner = { capital = 4016 clr_country_flag = ff77_capital_4016 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2113 } } owner = { capital = 2113 clr_country_flag = ff77_capital_2113 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2112 } } owner = { capital = 2112 clr_country_flag = ff77_capital_2112 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_2111 } } owner = { capital = 2111 clr_country_flag = ff77_capital_2111 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3897 } } owner = { capital = 3897 clr_country_flag = ff77_capital_3897 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3899 } } owner = { capital = 3899 clr_country_flag = ff77_capital_3899 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3900 } } owner = { capital = 3900 clr_country_flag = ff77_capital_3900 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3902 } } owner = { capital = 3902 clr_country_flag = ff77_capital_3902 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3942 } } owner = { capital = 3942 clr_country_flag = ff77_capital_3942 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_3943 } } owner = { capital = 3943 clr_country_flag = ff77_capital_3943 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4021 } } owner = { capital = 4021 clr_country_flag = ff77_capital_4021 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4024 } } owner = { capital = 4024 clr_country_flag = ff77_capital_4024 } }
+random_owned = { limit = { owner = { has_country_flag = ff77_capital_4004 } } owner = { capital = 4004 clr_country_flag = ff77_capital_4004 } }
+any_owned = { limit = { has_province_flag = ff77_state_relay } remove_core = UTI clr_province_flag = ff77_state_relay add_core = SAF add_core = SAF }
+ any_owned = { limit = { OR = { region = POR_2049 province_id = 3713 } } add_core = SAF add_core = SAF } set_country_flag = ff77_registers_corrected }
+ } } }
+ }
+}
+country_event = { id = 9785133 title = "FF77_LANGUAGE_TITLE" desc = "FF77_LANGUAGE_NOTICE" picture = "treaty" trigger = { tag = SAF primary_culture = boer has_country_flag = ff67_south_african_republic NOT = { has_country_flag = ff77_language_registers } } mean_time_to_happen = { days = 1 } immediate = { set_country_flag = ff77_language_registers remove_accepted_culture = british } option = { name = "FF77_LANGUAGE_NOTICE_OPT" ai_chance = { factor = 100 } } }
+country_event = { id = 9785134 title = "FF77_LANGUAGE_TITLE" desc = "FF77_LANGUAGE_DESC" picture = "treaty" is_triggered_only = yes
+ option = { name = "FF77_LANGUAGE_SCHOOLS" ai_chance = { factor = 33 } SAF = { random_owned = { limit = { owner = { tag = SAF has_country_flag = ff77_language_funded NOT = { has_country_flag = ff77_language_chosen } } } owner = { SAF = { remove_accepted_culture = british any_pop = { limit = { has_pop_culture = british } literacy = 0.10 militancy = -1 consciousness = 1 } add_country_modifier = { name = ff77_language_schools duration = 1825 } set_country_flag = ff77_language_chosen } } } } }
+ option = { name = "FF77_LANGUAGE_OFFICES" ai_chance = { factor = 33 } SAF = { random_owned = { limit = { owner = { tag = SAF has_country_flag = ff77_language_funded NOT = { has_country_flag = ff77_language_chosen } } } owner = { SAF = { remove_accepted_culture = british any_pop = { limit = { has_pop_culture = british } militancy = 2 consciousness = 1 } add_country_modifier = { name = ff77_language_offices duration = 1825 } set_country_flag = ff77_language_chosen } } } } }
+ option = { name = "FF77_LANGUAGE_LOCAL" ai_chance = { factor = 33 } SAF = { random_owned = { limit = { owner = { tag = SAF has_country_flag = ff77_language_funded NOT = { has_country_flag = ff77_language_chosen } } } owner = { SAF = { remove_accepted_culture = british any_pop = { limit = { has_pop_culture = british } militancy = -2 consciousness = -1 } add_country_modifier = { name = ff77_language_local duration = 1825 } set_country_flag = ff77_language_chosen } } } } }
+}

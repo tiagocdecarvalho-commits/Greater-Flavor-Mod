@@ -1,0 +1,6345 @@
+country_event = {
+	id = 9786400
+	title = "FF101_CAPE_CLAIM_TITLE"
+	desc = "FF101_CAPE_CLAIM_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = SAF
+		primary_culture = boer
+		is_vassal = no
+		OR = {
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff92_south_africa_formed
+			has_country_flag = ff82_united_boer_republic
+		}
+		owns = 4003
+		NOT = {
+			has_country_flag = ff101_cape_claim_notice
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					owns = 4003
+					NOT = {
+						has_country_flag = ff101_cape_claim_notice
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					set_country_flag = ff101_cape_claim_notice
+					set_country_flag = ff101_cape_claim_pending
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_REGISTER_CAPE_CLAIM"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					owns = 4003
+					has_country_flag = ff101_cape_claim_pending
+					NOT = {
+						has_country_flag = ff101_cape_claim_registered
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					owns = 4003
+					has_country_flag = ff101_cape_claim_pending
+					NOT = {
+						has_country_flag = ff101_cape_claim_registered
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					2132 = {
+						add_core = SAF
+					}
+					clr_country_flag = ff101_cape_claim_pending
+					set_country_flag = ff101_cape_claim_registered
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786410
+	title = "FF101_TRISTAN_PROPOSAL_TITLE"
+	desc = "FF101_TRISTAN_PROPOSAL_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_ACCEPT"
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2132
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_tristan_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1902
+						war = no
+						has_country_flag = ff101_tristan_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2132
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_tristan_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1902
+						war = no
+						has_country_flag = ff101_tristan_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_tristan_owner_pending
+				relation = {
+					who = SAF
+					value = 15
+				}
+				SAF = {
+					clr_country_flag = ff101_tristan_pending
+					set_country_flag = ff101_tristan_acquired
+					set_country_flag = ff101_tristan_report_pending
+					country_event = {
+						id = 9786411
+						days = 1
+					}
+				}
+				any_owned = {
+					limit = {
+						province_id = 2132
+					}
+					add_core = SAF
+					secede_province = SAF
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_NEGOTIATE"
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2132
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_tristan_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1902
+						war = no
+						has_country_flag = ff101_tristan_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2132
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_tristan_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1902
+						war = no
+						has_country_flag = ff101_tristan_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_tristan_owner_pending
+				set_country_flag = ff101_tristan_seller
+				SAF = {
+					clr_country_flag = ff101_tristan_pending
+					set_country_flag = ff101_tristan_negotiating
+					country_event = {
+						id = 9786412
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_REFUSE"
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2132
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_tristan_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1902
+						war = no
+						has_country_flag = ff101_tristan_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2132
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_tristan_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1902
+						war = no
+						has_country_flag = ff101_tristan_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_tristan_owner_pending
+				SAF = {
+					clr_country_flag = ff101_tristan_pending
+					set_country_flag = ff101_tristan_refusal_pending
+					country_event = {
+						id = 9786413
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786411
+	title = "FF101_TRISTAN_RECEIVED_TITLE"
+	desc = "FF101_TRISTAN_RECEIVED_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_RECEIVE"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					owns = 2132
+					has_country_flag = ff101_tristan_acquired
+					has_country_flag = ff101_tristan_report_pending
+					NOT = {
+						has_country_flag = ff101_tristan_reported
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					owns = 2132
+					has_country_flag = ff101_tristan_acquired
+					has_country_flag = ff101_tristan_report_pending
+					NOT = {
+						has_country_flag = ff101_tristan_reported
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_tristan_report_pending
+					set_country_flag = ff101_tristan_reported
+					set_country_flag = ff101_tristan_closed
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786412
+	title = "FF101_TRISTAN_TERMS_TITLE"
+	desc = "FF101_TRISTAN_TERMS_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_BUY"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1902
+					war = no
+					has_country_flag = ff101_tristan_negotiating
+					NOT = {
+						owns = 2132
+					}
+					2132 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							NOT = {
+								tag = SAF
+							}
+							has_country_flag = ff101_tristan_seller
+							war = no
+							is_vassal = no
+						}
+					}
+					money = 20000
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1902
+					war = no
+					has_country_flag = ff101_tristan_negotiating
+					NOT = {
+						owns = 2132
+					}
+					2132 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							NOT = {
+								tag = SAF
+							}
+							has_country_flag = ff101_tristan_seller
+							war = no
+							is_vassal = no
+						}
+					}
+					money = 20000
+				}
+			}
+			owner = {
+				SAF = {
+					money = -20000
+					2132 = {
+						owner = {
+							money = 20000
+							clr_country_flag = ff101_tristan_seller
+							relation = {
+								who = SAF
+								value = 10
+							}
+							any_owned = {
+								limit = {
+									province_id = 2132
+								}
+								add_core = SAF
+								secede_province = SAF
+							}
+						}
+					}
+					clr_country_flag = ff101_tristan_negotiating
+					set_country_flag = ff101_tristan_acquired
+					set_country_flag = ff101_tristan_report_pending
+					country_event = {
+						id = 9786411
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_CANCEL"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_tristan_negotiating
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_tristan_negotiating
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_tristan_negotiating
+					set_country_flag = ff101_tristan_closed
+					2132 = {
+						owner = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff101_tristan_seller
+									}
+								}
+								owner = {
+									clr_country_flag = ff101_tristan_seller
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786413
+	title = "FF101_TRISTAN_REFUSAL_TITLE"
+	desc = "FF101_TRISTAN_REFUSAL_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_RESERVE"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_tristan_refusal_pending
+					NOT = {
+						has_country_flag = ff101_tristan_closed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_tristan_refusal_pending
+					NOT = {
+						has_country_flag = ff101_tristan_closed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_tristan_refusal_pending
+					set_country_flag = ff101_tristan_closed
+					set_country_flag = ff101_tristan_claim_reserved
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_WITHDRAW"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_tristan_refusal_pending
+					NOT = {
+						has_country_flag = ff101_tristan_closed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_tristan_refusal_pending
+					NOT = {
+						has_country_flag = ff101_tristan_closed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_tristan_refusal_pending
+					set_country_flag = ff101_tristan_closed
+					set_country_flag = ff101_tristan_withdrawn
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786414
+	title = "FF101_TRISTAN_SURVEY_TITLE"
+	desc = "FF101_TRISTAN_SURVEY_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_SURVEY_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_tristan_survey_pending
+					NOT = {
+						has_country_flag = ff101_tristan_surveyed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_tristan_survey_pending
+					NOT = {
+						has_country_flag = ff101_tristan_surveyed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_tristan_survey_pending
+					set_country_flag = ff101_tristan_surveyed
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786415
+	title = "FF101_TRISTAN_LAPSED_TITLE"
+	desc = "FF101_TRISTAN_LAPSED_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = SAF
+		primary_culture = boer
+		is_vassal = no
+		OR = {
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff92_south_africa_formed
+			has_country_flag = ff82_united_boer_republic
+		}
+		has_country_flag = ff82_boer_victory
+		has_global_flag = ff82_second_war_finished
+		NOT = {
+			has_country_flag = ff82_second_war_defeat
+		}
+		OR = {
+			AND = {
+				has_country_flag = ff101_tristan_pending
+				OR = {
+					war = yes
+					owns = 2132
+					2132 = {
+						empty = yes
+					}
+					2132 = {
+						owner = {
+							OR = {
+								war = yes
+								is_vassal = yes
+								NOT = {
+									has_country_flag = ff101_tristan_owner_pending
+								}
+							}
+						}
+					}
+				}
+			}
+			AND = {
+				has_country_flag = ff101_tristan_negotiating
+				OR = {
+					war = yes
+					owns = 2132
+					2132 = {
+						empty = yes
+					}
+					2132 = {
+						owner = {
+							OR = {
+								war = yes
+								is_vassal = yes
+								NOT = {
+									has_country_flag = ff101_tristan_seller
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		NOT = {
+			has_country_flag = ff101_tristan_lapsed_notice
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					OR = {
+						AND = {
+							has_country_flag = ff101_tristan_pending
+							OR = {
+								war = yes
+								owns = 2132
+								2132 = {
+									empty = yes
+								}
+								2132 = {
+									owner = {
+										OR = {
+											war = yes
+											is_vassal = yes
+											NOT = {
+												has_country_flag = ff101_tristan_owner_pending
+											}
+										}
+									}
+								}
+							}
+						}
+						AND = {
+							has_country_flag = ff101_tristan_negotiating
+							OR = {
+								war = yes
+								owns = 2132
+								2132 = {
+									empty = yes
+								}
+								2132 = {
+									owner = {
+										OR = {
+											war = yes
+											is_vassal = yes
+											NOT = {
+												has_country_flag = ff101_tristan_seller
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					NOT = {
+						has_country_flag = ff101_tristan_lapsed_notice
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					set_country_flag = ff101_tristan_lapsed_notice
+					set_country_flag = ff101_tristan_lapsed_pending
+					clr_country_flag = ff101_tristan_pending
+					clr_country_flag = ff101_tristan_negotiating
+					set_country_flag = ff101_tristan_closed
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_LAPSED_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_tristan_lapsed_pending
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_tristan_lapsed_pending
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_tristan_lapsed_pending
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786420
+	title = "FF101_BOUVET_PROPOSAL_TITLE"
+	desc = "FF101_BOUVET_PROPOSAL_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_ACCEPT"
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 4026
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_bouvet_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1907
+						war = no
+						has_country_flag = ff101_bouvet_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 4026
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_bouvet_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1907
+						war = no
+						has_country_flag = ff101_bouvet_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_bouvet_owner_pending
+				relation = {
+					who = SAF
+					value = 15
+				}
+				SAF = {
+					clr_country_flag = ff101_bouvet_pending
+					set_country_flag = ff101_bouvet_acquired
+					set_country_flag = ff101_bouvet_report_pending
+					country_event = {
+						id = 9786421
+						days = 1
+					}
+				}
+				any_owned = {
+					limit = {
+						province_id = 4026
+					}
+					add_core = SAF
+					secede_province = SAF
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_NEGOTIATE"
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 4026
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_bouvet_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1907
+						war = no
+						has_country_flag = ff101_bouvet_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 4026
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_bouvet_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1907
+						war = no
+						has_country_flag = ff101_bouvet_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_bouvet_owner_pending
+				set_country_flag = ff101_bouvet_seller
+				SAF = {
+					clr_country_flag = ff101_bouvet_pending
+					set_country_flag = ff101_bouvet_negotiating
+					country_event = {
+						id = 9786422
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_REFUSE"
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 4026
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_bouvet_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1907
+						war = no
+						has_country_flag = ff101_bouvet_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 4026
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_bouvet_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1907
+						war = no
+						has_country_flag = ff101_bouvet_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_bouvet_owner_pending
+				SAF = {
+					clr_country_flag = ff101_bouvet_pending
+					set_country_flag = ff101_bouvet_refusal_pending
+					country_event = {
+						id = 9786423
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786421
+	title = "FF101_BOUVET_RECEIVED_TITLE"
+	desc = "FF101_BOUVET_RECEIVED_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_RECEIVE"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					owns = 4026
+					has_country_flag = ff101_bouvet_acquired
+					has_country_flag = ff101_bouvet_report_pending
+					NOT = {
+						has_country_flag = ff101_bouvet_reported
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					owns = 4026
+					has_country_flag = ff101_bouvet_acquired
+					has_country_flag = ff101_bouvet_report_pending
+					NOT = {
+						has_country_flag = ff101_bouvet_reported
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_bouvet_report_pending
+					set_country_flag = ff101_bouvet_reported
+					set_country_flag = ff101_bouvet_closed
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786422
+	title = "FF101_BOUVET_TERMS_TITLE"
+	desc = "FF101_BOUVET_TERMS_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_BUY"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1907
+					war = no
+					has_country_flag = ff101_bouvet_negotiating
+					NOT = {
+						owns = 4026
+					}
+					4026 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							NOT = {
+								tag = SAF
+							}
+							has_country_flag = ff101_bouvet_seller
+							war = no
+							is_vassal = no
+						}
+					}
+					money = 8000
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1907
+					war = no
+					has_country_flag = ff101_bouvet_negotiating
+					NOT = {
+						owns = 4026
+					}
+					4026 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							NOT = {
+								tag = SAF
+							}
+							has_country_flag = ff101_bouvet_seller
+							war = no
+							is_vassal = no
+						}
+					}
+					money = 8000
+				}
+			}
+			owner = {
+				SAF = {
+					money = -8000
+					4026 = {
+						owner = {
+							money = 8000
+							clr_country_flag = ff101_bouvet_seller
+							relation = {
+								who = SAF
+								value = 10
+							}
+							any_owned = {
+								limit = {
+									province_id = 4026
+								}
+								add_core = SAF
+								secede_province = SAF
+							}
+						}
+					}
+					clr_country_flag = ff101_bouvet_negotiating
+					set_country_flag = ff101_bouvet_acquired
+					set_country_flag = ff101_bouvet_report_pending
+					country_event = {
+						id = 9786421
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_CANCEL"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_bouvet_negotiating
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_bouvet_negotiating
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_bouvet_negotiating
+					set_country_flag = ff101_bouvet_closed
+					4026 = {
+						owner = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff101_bouvet_seller
+									}
+								}
+								owner = {
+									clr_country_flag = ff101_bouvet_seller
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786423
+	title = "FF101_BOUVET_REFUSAL_TITLE"
+	desc = "FF101_BOUVET_REFUSAL_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_RESERVE"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_bouvet_refusal_pending
+					NOT = {
+						has_country_flag = ff101_bouvet_closed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_bouvet_refusal_pending
+					NOT = {
+						has_country_flag = ff101_bouvet_closed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_bouvet_refusal_pending
+					set_country_flag = ff101_bouvet_closed
+					set_country_flag = ff101_bouvet_claim_reserved
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_WITHDRAW"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_bouvet_refusal_pending
+					NOT = {
+						has_country_flag = ff101_bouvet_closed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_bouvet_refusal_pending
+					NOT = {
+						has_country_flag = ff101_bouvet_closed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_bouvet_refusal_pending
+					set_country_flag = ff101_bouvet_closed
+					set_country_flag = ff101_bouvet_withdrawn
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786424
+	title = "FF101_BOUVET_SURVEY_TITLE"
+	desc = "FF101_BOUVET_SURVEY_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_SURVEY_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_bouvet_survey_pending
+					NOT = {
+						has_country_flag = ff101_bouvet_surveyed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_bouvet_survey_pending
+					NOT = {
+						has_country_flag = ff101_bouvet_surveyed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_bouvet_survey_pending
+					set_country_flag = ff101_bouvet_surveyed
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786425
+	title = "FF101_BOUVET_LAPSED_TITLE"
+	desc = "FF101_BOUVET_LAPSED_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = SAF
+		primary_culture = boer
+		is_vassal = no
+		OR = {
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff92_south_africa_formed
+			has_country_flag = ff82_united_boer_republic
+		}
+		has_country_flag = ff82_boer_victory
+		has_global_flag = ff82_second_war_finished
+		NOT = {
+			has_country_flag = ff82_second_war_defeat
+		}
+		OR = {
+			AND = {
+				has_country_flag = ff101_bouvet_pending
+				OR = {
+					war = yes
+					owns = 4026
+					4026 = {
+						empty = yes
+					}
+					4026 = {
+						owner = {
+							OR = {
+								war = yes
+								is_vassal = yes
+								NOT = {
+									has_country_flag = ff101_bouvet_owner_pending
+								}
+							}
+						}
+					}
+				}
+			}
+			AND = {
+				has_country_flag = ff101_bouvet_negotiating
+				OR = {
+					war = yes
+					owns = 4026
+					4026 = {
+						empty = yes
+					}
+					4026 = {
+						owner = {
+							OR = {
+								war = yes
+								is_vassal = yes
+								NOT = {
+									has_country_flag = ff101_bouvet_seller
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		NOT = {
+			has_country_flag = ff101_bouvet_lapsed_notice
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					OR = {
+						AND = {
+							has_country_flag = ff101_bouvet_pending
+							OR = {
+								war = yes
+								owns = 4026
+								4026 = {
+									empty = yes
+								}
+								4026 = {
+									owner = {
+										OR = {
+											war = yes
+											is_vassal = yes
+											NOT = {
+												has_country_flag = ff101_bouvet_owner_pending
+											}
+										}
+									}
+								}
+							}
+						}
+						AND = {
+							has_country_flag = ff101_bouvet_negotiating
+							OR = {
+								war = yes
+								owns = 4026
+								4026 = {
+									empty = yes
+								}
+								4026 = {
+									owner = {
+										OR = {
+											war = yes
+											is_vassal = yes
+											NOT = {
+												has_country_flag = ff101_bouvet_seller
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					NOT = {
+						has_country_flag = ff101_bouvet_lapsed_notice
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					set_country_flag = ff101_bouvet_lapsed_notice
+					set_country_flag = ff101_bouvet_lapsed_pending
+					clr_country_flag = ff101_bouvet_pending
+					clr_country_flag = ff101_bouvet_negotiating
+					set_country_flag = ff101_bouvet_closed
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_LAPSED_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_bouvet_lapsed_pending
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_bouvet_lapsed_pending
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_bouvet_lapsed_pending
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786430
+	title = "FF101_SAINT_HELENA_PROPOSAL_TITLE"
+	desc = "FF101_SAINT_HELENA_PROPOSAL_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_ACCEPT"
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2129
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_saint_helena_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1904
+						war = no
+						has_country_flag = ff101_saint_helena_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2129
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_saint_helena_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1904
+						war = no
+						has_country_flag = ff101_saint_helena_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_saint_helena_owner_pending
+				relation = {
+					who = SAF
+					value = 15
+				}
+				SAF = {
+					clr_country_flag = ff101_saint_helena_pending
+					set_country_flag = ff101_saint_helena_acquired
+					set_country_flag = ff101_saint_helena_report_pending
+					country_event = {
+						id = 9786431
+						days = 1
+					}
+				}
+				any_owned = {
+					limit = {
+						province_id = 2129
+					}
+					add_core = SAF
+					secede_province = SAF
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_NEGOTIATE"
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2129
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_saint_helena_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1904
+						war = no
+						has_country_flag = ff101_saint_helena_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2129
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_saint_helena_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1904
+						war = no
+						has_country_flag = ff101_saint_helena_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_saint_helena_owner_pending
+				set_country_flag = ff101_saint_helena_seller
+				SAF = {
+					clr_country_flag = ff101_saint_helena_pending
+					set_country_flag = ff101_saint_helena_negotiating
+					country_event = {
+						id = 9786432
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_REFUSE"
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2129
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_saint_helena_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1904
+						war = no
+						has_country_flag = ff101_saint_helena_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2129
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_saint_helena_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1904
+						war = no
+						has_country_flag = ff101_saint_helena_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_saint_helena_owner_pending
+				SAF = {
+					clr_country_flag = ff101_saint_helena_pending
+					set_country_flag = ff101_saint_helena_refusal_pending
+					country_event = {
+						id = 9786433
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786431
+	title = "FF101_SAINT_HELENA_RECEIVED_TITLE"
+	desc = "FF101_SAINT_HELENA_RECEIVED_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_RECEIVE"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					owns = 2129
+					has_country_flag = ff101_saint_helena_acquired
+					has_country_flag = ff101_saint_helena_report_pending
+					NOT = {
+						has_country_flag = ff101_saint_helena_reported
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					owns = 2129
+					has_country_flag = ff101_saint_helena_acquired
+					has_country_flag = ff101_saint_helena_report_pending
+					NOT = {
+						has_country_flag = ff101_saint_helena_reported
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_saint_helena_report_pending
+					set_country_flag = ff101_saint_helena_reported
+					set_country_flag = ff101_saint_helena_closed
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786432
+	title = "FF101_SAINT_HELENA_TERMS_TITLE"
+	desc = "FF101_SAINT_HELENA_TERMS_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_BUY"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1904
+					war = no
+					has_country_flag = ff101_saint_helena_negotiating
+					NOT = {
+						owns = 2129
+					}
+					2129 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							NOT = {
+								tag = SAF
+							}
+							has_country_flag = ff101_saint_helena_seller
+							war = no
+							is_vassal = no
+						}
+					}
+					money = 40000
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1904
+					war = no
+					has_country_flag = ff101_saint_helena_negotiating
+					NOT = {
+						owns = 2129
+					}
+					2129 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							NOT = {
+								tag = SAF
+							}
+							has_country_flag = ff101_saint_helena_seller
+							war = no
+							is_vassal = no
+						}
+					}
+					money = 40000
+				}
+			}
+			owner = {
+				SAF = {
+					money = -40000
+					2129 = {
+						owner = {
+							money = 40000
+							clr_country_flag = ff101_saint_helena_seller
+							relation = {
+								who = SAF
+								value = 10
+							}
+							any_owned = {
+								limit = {
+									province_id = 2129
+								}
+								add_core = SAF
+								secede_province = SAF
+							}
+						}
+					}
+					clr_country_flag = ff101_saint_helena_negotiating
+					set_country_flag = ff101_saint_helena_acquired
+					set_country_flag = ff101_saint_helena_report_pending
+					country_event = {
+						id = 9786431
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_CANCEL"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_saint_helena_negotiating
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_saint_helena_negotiating
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_saint_helena_negotiating
+					set_country_flag = ff101_saint_helena_closed
+					2129 = {
+						owner = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff101_saint_helena_seller
+									}
+								}
+								owner = {
+									clr_country_flag = ff101_saint_helena_seller
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786433
+	title = "FF101_SAINT_HELENA_REFUSAL_TITLE"
+	desc = "FF101_SAINT_HELENA_REFUSAL_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_RESERVE"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_saint_helena_refusal_pending
+					NOT = {
+						has_country_flag = ff101_saint_helena_closed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_saint_helena_refusal_pending
+					NOT = {
+						has_country_flag = ff101_saint_helena_closed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_saint_helena_refusal_pending
+					set_country_flag = ff101_saint_helena_closed
+					set_country_flag = ff101_saint_helena_claim_reserved
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_WITHDRAW"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_saint_helena_refusal_pending
+					NOT = {
+						has_country_flag = ff101_saint_helena_closed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_saint_helena_refusal_pending
+					NOT = {
+						has_country_flag = ff101_saint_helena_closed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_saint_helena_refusal_pending
+					set_country_flag = ff101_saint_helena_closed
+					set_country_flag = ff101_saint_helena_withdrawn
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786434
+	title = "FF101_SAINT_HELENA_SURVEY_TITLE"
+	desc = "FF101_SAINT_HELENA_SURVEY_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_SURVEY_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_saint_helena_survey_pending
+					NOT = {
+						has_country_flag = ff101_saint_helena_surveyed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_saint_helena_survey_pending
+					NOT = {
+						has_country_flag = ff101_saint_helena_surveyed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_saint_helena_survey_pending
+					set_country_flag = ff101_saint_helena_surveyed
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786435
+	title = "FF101_SAINT_HELENA_LAPSED_TITLE"
+	desc = "FF101_SAINT_HELENA_LAPSED_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = SAF
+		primary_culture = boer
+		is_vassal = no
+		OR = {
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff92_south_africa_formed
+			has_country_flag = ff82_united_boer_republic
+		}
+		has_country_flag = ff82_boer_victory
+		has_global_flag = ff82_second_war_finished
+		NOT = {
+			has_country_flag = ff82_second_war_defeat
+		}
+		OR = {
+			AND = {
+				has_country_flag = ff101_saint_helena_pending
+				OR = {
+					war = yes
+					owns = 2129
+					2129 = {
+						empty = yes
+					}
+					2129 = {
+						owner = {
+							OR = {
+								war = yes
+								is_vassal = yes
+								NOT = {
+									has_country_flag = ff101_saint_helena_owner_pending
+								}
+							}
+						}
+					}
+				}
+			}
+			AND = {
+				has_country_flag = ff101_saint_helena_negotiating
+				OR = {
+					war = yes
+					owns = 2129
+					2129 = {
+						empty = yes
+					}
+					2129 = {
+						owner = {
+							OR = {
+								war = yes
+								is_vassal = yes
+								NOT = {
+									has_country_flag = ff101_saint_helena_seller
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		NOT = {
+			has_country_flag = ff101_saint_helena_lapsed_notice
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					OR = {
+						AND = {
+							has_country_flag = ff101_saint_helena_pending
+							OR = {
+								war = yes
+								owns = 2129
+								2129 = {
+									empty = yes
+								}
+								2129 = {
+									owner = {
+										OR = {
+											war = yes
+											is_vassal = yes
+											NOT = {
+												has_country_flag = ff101_saint_helena_owner_pending
+											}
+										}
+									}
+								}
+							}
+						}
+						AND = {
+							has_country_flag = ff101_saint_helena_negotiating
+							OR = {
+								war = yes
+								owns = 2129
+								2129 = {
+									empty = yes
+								}
+								2129 = {
+									owner = {
+										OR = {
+											war = yes
+											is_vassal = yes
+											NOT = {
+												has_country_flag = ff101_saint_helena_seller
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					NOT = {
+						has_country_flag = ff101_saint_helena_lapsed_notice
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					set_country_flag = ff101_saint_helena_lapsed_notice
+					set_country_flag = ff101_saint_helena_lapsed_pending
+					clr_country_flag = ff101_saint_helena_pending
+					clr_country_flag = ff101_saint_helena_negotiating
+					set_country_flag = ff101_saint_helena_closed
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_LAPSED_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_saint_helena_lapsed_pending
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_saint_helena_lapsed_pending
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_saint_helena_lapsed_pending
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786440
+	title = "FF101_ASCENSION_PROPOSAL_TITLE"
+	desc = "FF101_ASCENSION_PROPOSAL_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_ACCEPT"
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2130
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_ascension_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1906
+						war = no
+						has_country_flag = ff101_ascension_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2130
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_ascension_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1906
+						war = no
+						has_country_flag = ff101_ascension_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_ascension_owner_pending
+				relation = {
+					who = SAF
+					value = 15
+				}
+				SAF = {
+					clr_country_flag = ff101_ascension_pending
+					set_country_flag = ff101_ascension_acquired
+					set_country_flag = ff101_ascension_report_pending
+					country_event = {
+						id = 9786441
+						days = 1
+					}
+				}
+				any_owned = {
+					limit = {
+						province_id = 2130
+					}
+					add_core = SAF
+					secede_province = SAF
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_NEGOTIATE"
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2130
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_ascension_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1906
+						war = no
+						has_country_flag = ff101_ascension_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2130
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_ascension_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1906
+						war = no
+						has_country_flag = ff101_ascension_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_ascension_owner_pending
+				set_country_flag = ff101_ascension_seller
+				SAF = {
+					clr_country_flag = ff101_ascension_pending
+					set_country_flag = ff101_ascension_negotiating
+					country_event = {
+						id = 9786442
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_REFUSE"
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2130
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_ascension_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1906
+						war = no
+						has_country_flag = ff101_ascension_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 2130
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_ascension_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1906
+						war = no
+						has_country_flag = ff101_ascension_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_ascension_owner_pending
+				SAF = {
+					clr_country_flag = ff101_ascension_pending
+					set_country_flag = ff101_ascension_refusal_pending
+					country_event = {
+						id = 9786443
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786441
+	title = "FF101_ASCENSION_RECEIVED_TITLE"
+	desc = "FF101_ASCENSION_RECEIVED_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_RECEIVE"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					owns = 2130
+					has_country_flag = ff101_ascension_acquired
+					has_country_flag = ff101_ascension_report_pending
+					NOT = {
+						has_country_flag = ff101_ascension_reported
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					owns = 2130
+					has_country_flag = ff101_ascension_acquired
+					has_country_flag = ff101_ascension_report_pending
+					NOT = {
+						has_country_flag = ff101_ascension_reported
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_ascension_report_pending
+					set_country_flag = ff101_ascension_reported
+					set_country_flag = ff101_ascension_closed
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786442
+	title = "FF101_ASCENSION_TERMS_TITLE"
+	desc = "FF101_ASCENSION_TERMS_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_BUY"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1906
+					war = no
+					has_country_flag = ff101_ascension_negotiating
+					NOT = {
+						owns = 2130
+					}
+					2130 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							NOT = {
+								tag = SAF
+							}
+							has_country_flag = ff101_ascension_seller
+							war = no
+							is_vassal = no
+						}
+					}
+					money = 35000
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1906
+					war = no
+					has_country_flag = ff101_ascension_negotiating
+					NOT = {
+						owns = 2130
+					}
+					2130 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							NOT = {
+								tag = SAF
+							}
+							has_country_flag = ff101_ascension_seller
+							war = no
+							is_vassal = no
+						}
+					}
+					money = 35000
+				}
+			}
+			owner = {
+				SAF = {
+					money = -35000
+					2130 = {
+						owner = {
+							money = 35000
+							clr_country_flag = ff101_ascension_seller
+							relation = {
+								who = SAF
+								value = 10
+							}
+							any_owned = {
+								limit = {
+									province_id = 2130
+								}
+								add_core = SAF
+								secede_province = SAF
+							}
+						}
+					}
+					clr_country_flag = ff101_ascension_negotiating
+					set_country_flag = ff101_ascension_acquired
+					set_country_flag = ff101_ascension_report_pending
+					country_event = {
+						id = 9786441
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_CANCEL"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_ascension_negotiating
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_ascension_negotiating
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_ascension_negotiating
+					set_country_flag = ff101_ascension_closed
+					2130 = {
+						owner = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff101_ascension_seller
+									}
+								}
+								owner = {
+									clr_country_flag = ff101_ascension_seller
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786443
+	title = "FF101_ASCENSION_REFUSAL_TITLE"
+	desc = "FF101_ASCENSION_REFUSAL_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_RESERVE"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_ascension_refusal_pending
+					NOT = {
+						has_country_flag = ff101_ascension_closed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_ascension_refusal_pending
+					NOT = {
+						has_country_flag = ff101_ascension_closed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_ascension_refusal_pending
+					set_country_flag = ff101_ascension_closed
+					set_country_flag = ff101_ascension_claim_reserved
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_WITHDRAW"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_ascension_refusal_pending
+					NOT = {
+						has_country_flag = ff101_ascension_closed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_ascension_refusal_pending
+					NOT = {
+						has_country_flag = ff101_ascension_closed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_ascension_refusal_pending
+					set_country_flag = ff101_ascension_closed
+					set_country_flag = ff101_ascension_withdrawn
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786444
+	title = "FF101_ASCENSION_SURVEY_TITLE"
+	desc = "FF101_ASCENSION_SURVEY_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_SURVEY_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_ascension_survey_pending
+					NOT = {
+						has_country_flag = ff101_ascension_surveyed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_ascension_survey_pending
+					NOT = {
+						has_country_flag = ff101_ascension_surveyed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_ascension_survey_pending
+					set_country_flag = ff101_ascension_surveyed
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786445
+	title = "FF101_ASCENSION_LAPSED_TITLE"
+	desc = "FF101_ASCENSION_LAPSED_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = SAF
+		primary_culture = boer
+		is_vassal = no
+		OR = {
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff92_south_africa_formed
+			has_country_flag = ff82_united_boer_republic
+		}
+		has_country_flag = ff82_boer_victory
+		has_global_flag = ff82_second_war_finished
+		NOT = {
+			has_country_flag = ff82_second_war_defeat
+		}
+		OR = {
+			AND = {
+				has_country_flag = ff101_ascension_pending
+				OR = {
+					war = yes
+					owns = 2130
+					2130 = {
+						empty = yes
+					}
+					2130 = {
+						owner = {
+							OR = {
+								war = yes
+								is_vassal = yes
+								NOT = {
+									has_country_flag = ff101_ascension_owner_pending
+								}
+							}
+						}
+					}
+				}
+			}
+			AND = {
+				has_country_flag = ff101_ascension_negotiating
+				OR = {
+					war = yes
+					owns = 2130
+					2130 = {
+						empty = yes
+					}
+					2130 = {
+						owner = {
+							OR = {
+								war = yes
+								is_vassal = yes
+								NOT = {
+									has_country_flag = ff101_ascension_seller
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		NOT = {
+			has_country_flag = ff101_ascension_lapsed_notice
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					OR = {
+						AND = {
+							has_country_flag = ff101_ascension_pending
+							OR = {
+								war = yes
+								owns = 2130
+								2130 = {
+									empty = yes
+								}
+								2130 = {
+									owner = {
+										OR = {
+											war = yes
+											is_vassal = yes
+											NOT = {
+												has_country_flag = ff101_ascension_owner_pending
+											}
+										}
+									}
+								}
+							}
+						}
+						AND = {
+							has_country_flag = ff101_ascension_negotiating
+							OR = {
+								war = yes
+								owns = 2130
+								2130 = {
+									empty = yes
+								}
+								2130 = {
+									owner = {
+										OR = {
+											war = yes
+											is_vassal = yes
+											NOT = {
+												has_country_flag = ff101_ascension_seller
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					NOT = {
+						has_country_flag = ff101_ascension_lapsed_notice
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					set_country_flag = ff101_ascension_lapsed_notice
+					set_country_flag = ff101_ascension_lapsed_pending
+					clr_country_flag = ff101_ascension_pending
+					clr_country_flag = ff101_ascension_negotiating
+					set_country_flag = ff101_ascension_closed
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_LAPSED_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_ascension_lapsed_pending
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_ascension_lapsed_pending
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_ascension_lapsed_pending
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786450
+	title = "FF101_TRINDADE_PROPOSAL_TITLE"
+	desc = "FF101_TRINDADE_PROPOSAL_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_ACCEPT"
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 3666
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_trindade_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1908
+						war = no
+						has_country_flag = ff101_trindade_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 3666
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_trindade_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1908
+						war = no
+						has_country_flag = ff101_trindade_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_trindade_owner_pending
+				relation = {
+					who = SAF
+					value = 15
+				}
+				SAF = {
+					clr_country_flag = ff101_trindade_pending
+					set_country_flag = ff101_trindade_acquired
+					set_country_flag = ff101_trindade_report_pending
+					country_event = {
+						id = 9786451
+						days = 1
+					}
+				}
+				any_owned = {
+					limit = {
+						province_id = 3666
+					}
+					add_core = SAF
+					secede_province = SAF
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_NEGOTIATE"
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 3666
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_trindade_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1908
+						war = no
+						has_country_flag = ff101_trindade_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 3666
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_trindade_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1908
+						war = no
+						has_country_flag = ff101_trindade_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_trindade_owner_pending
+				set_country_flag = ff101_trindade_seller
+				SAF = {
+					clr_country_flag = ff101_trindade_pending
+					set_country_flag = ff101_trindade_negotiating
+					country_event = {
+						id = 9786452
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_REFUSE"
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 3666
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_trindade_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1908
+						war = no
+						has_country_flag = ff101_trindade_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 3666
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_trindade_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1908
+						war = no
+						has_country_flag = ff101_trindade_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_trindade_owner_pending
+				SAF = {
+					clr_country_flag = ff101_trindade_pending
+					set_country_flag = ff101_trindade_refusal_pending
+					country_event = {
+						id = 9786453
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786451
+	title = "FF101_TRINDADE_RECEIVED_TITLE"
+	desc = "FF101_TRINDADE_RECEIVED_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_RECEIVE"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					owns = 3666
+					has_country_flag = ff101_trindade_acquired
+					has_country_flag = ff101_trindade_report_pending
+					NOT = {
+						has_country_flag = ff101_trindade_reported
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					owns = 3666
+					has_country_flag = ff101_trindade_acquired
+					has_country_flag = ff101_trindade_report_pending
+					NOT = {
+						has_country_flag = ff101_trindade_reported
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_trindade_report_pending
+					set_country_flag = ff101_trindade_reported
+					set_country_flag = ff101_trindade_closed
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786452
+	title = "FF101_TRINDADE_TERMS_TITLE"
+	desc = "FF101_TRINDADE_TERMS_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_BUY"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1908
+					war = no
+					has_country_flag = ff101_trindade_negotiating
+					NOT = {
+						owns = 3666
+					}
+					3666 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							NOT = {
+								tag = SAF
+							}
+							has_country_flag = ff101_trindade_seller
+							war = no
+							is_vassal = no
+						}
+					}
+					money = 30000
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1908
+					war = no
+					has_country_flag = ff101_trindade_negotiating
+					NOT = {
+						owns = 3666
+					}
+					3666 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							NOT = {
+								tag = SAF
+							}
+							has_country_flag = ff101_trindade_seller
+							war = no
+							is_vassal = no
+						}
+					}
+					money = 30000
+				}
+			}
+			owner = {
+				SAF = {
+					money = -30000
+					3666 = {
+						owner = {
+							money = 30000
+							clr_country_flag = ff101_trindade_seller
+							relation = {
+								who = SAF
+								value = 10
+							}
+							any_owned = {
+								limit = {
+									province_id = 3666
+								}
+								add_core = SAF
+								secede_province = SAF
+							}
+						}
+					}
+					clr_country_flag = ff101_trindade_negotiating
+					set_country_flag = ff101_trindade_acquired
+					set_country_flag = ff101_trindade_report_pending
+					country_event = {
+						id = 9786451
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_CANCEL"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_trindade_negotiating
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_trindade_negotiating
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_trindade_negotiating
+					set_country_flag = ff101_trindade_closed
+					3666 = {
+						owner = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff101_trindade_seller
+									}
+								}
+								owner = {
+									clr_country_flag = ff101_trindade_seller
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786453
+	title = "FF101_TRINDADE_REFUSAL_TITLE"
+	desc = "FF101_TRINDADE_REFUSAL_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_RESERVE"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_trindade_refusal_pending
+					NOT = {
+						has_country_flag = ff101_trindade_closed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_trindade_refusal_pending
+					NOT = {
+						has_country_flag = ff101_trindade_closed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_trindade_refusal_pending
+					set_country_flag = ff101_trindade_closed
+					set_country_flag = ff101_trindade_claim_reserved
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_WITHDRAW"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_trindade_refusal_pending
+					NOT = {
+						has_country_flag = ff101_trindade_closed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_trindade_refusal_pending
+					NOT = {
+						has_country_flag = ff101_trindade_closed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_trindade_refusal_pending
+					set_country_flag = ff101_trindade_closed
+					set_country_flag = ff101_trindade_withdrawn
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786454
+	title = "FF101_TRINDADE_SURVEY_TITLE"
+	desc = "FF101_TRINDADE_SURVEY_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_SURVEY_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_trindade_survey_pending
+					NOT = {
+						has_country_flag = ff101_trindade_surveyed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_trindade_survey_pending
+					NOT = {
+						has_country_flag = ff101_trindade_surveyed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_trindade_survey_pending
+					set_country_flag = ff101_trindade_surveyed
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786455
+	title = "FF101_TRINDADE_LAPSED_TITLE"
+	desc = "FF101_TRINDADE_LAPSED_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = SAF
+		primary_culture = boer
+		is_vassal = no
+		OR = {
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff92_south_africa_formed
+			has_country_flag = ff82_united_boer_republic
+		}
+		has_country_flag = ff82_boer_victory
+		has_global_flag = ff82_second_war_finished
+		NOT = {
+			has_country_flag = ff82_second_war_defeat
+		}
+		OR = {
+			AND = {
+				has_country_flag = ff101_trindade_pending
+				OR = {
+					war = yes
+					owns = 3666
+					3666 = {
+						empty = yes
+					}
+					3666 = {
+						owner = {
+							OR = {
+								war = yes
+								is_vassal = yes
+								NOT = {
+									has_country_flag = ff101_trindade_owner_pending
+								}
+							}
+						}
+					}
+				}
+			}
+			AND = {
+				has_country_flag = ff101_trindade_negotiating
+				OR = {
+					war = yes
+					owns = 3666
+					3666 = {
+						empty = yes
+					}
+					3666 = {
+						owner = {
+							OR = {
+								war = yes
+								is_vassal = yes
+								NOT = {
+									has_country_flag = ff101_trindade_seller
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		NOT = {
+			has_country_flag = ff101_trindade_lapsed_notice
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					OR = {
+						AND = {
+							has_country_flag = ff101_trindade_pending
+							OR = {
+								war = yes
+								owns = 3666
+								3666 = {
+									empty = yes
+								}
+								3666 = {
+									owner = {
+										OR = {
+											war = yes
+											is_vassal = yes
+											NOT = {
+												has_country_flag = ff101_trindade_owner_pending
+											}
+										}
+									}
+								}
+							}
+						}
+						AND = {
+							has_country_flag = ff101_trindade_negotiating
+							OR = {
+								war = yes
+								owns = 3666
+								3666 = {
+									empty = yes
+								}
+								3666 = {
+									owner = {
+										OR = {
+											war = yes
+											is_vassal = yes
+											NOT = {
+												has_country_flag = ff101_trindade_seller
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					NOT = {
+						has_country_flag = ff101_trindade_lapsed_notice
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					set_country_flag = ff101_trindade_lapsed_notice
+					set_country_flag = ff101_trindade_lapsed_pending
+					clr_country_flag = ff101_trindade_pending
+					clr_country_flag = ff101_trindade_negotiating
+					set_country_flag = ff101_trindade_closed
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_LAPSED_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_trindade_lapsed_pending
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_trindade_lapsed_pending
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_trindade_lapsed_pending
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786460
+	title = "FF101_PRINCE_EDWARD_PROPOSAL_TITLE"
+	desc = "FF101_PRINCE_EDWARD_PROPOSAL_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_ACCEPT"
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 3563
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_prince_edward_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1910
+						war = no
+						has_country_flag = ff101_prince_edward_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 3563
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_prince_edward_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1910
+						war = no
+						has_country_flag = ff101_prince_edward_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_prince_edward_owner_pending
+				relation = {
+					who = SAF
+					value = 15
+				}
+				SAF = {
+					clr_country_flag = ff101_prince_edward_pending
+					set_country_flag = ff101_prince_edward_acquired
+					set_country_flag = ff101_prince_edward_report_pending
+					country_event = {
+						id = 9786461
+						days = 1
+					}
+				}
+				any_owned = {
+					limit = {
+						province_id = 3563
+					}
+					add_core = SAF
+					secede_province = SAF
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_NEGOTIATE"
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 3563
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_prince_edward_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1910
+						war = no
+						has_country_flag = ff101_prince_edward_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 3563
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_prince_edward_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1910
+						war = no
+						has_country_flag = ff101_prince_edward_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_prince_edward_owner_pending
+				set_country_flag = ff101_prince_edward_seller
+				SAF = {
+					clr_country_flag = ff101_prince_edward_pending
+					set_country_flag = ff101_prince_edward_negotiating
+					country_event = {
+						id = 9786462
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_REFUSE"
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 3563
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_prince_edward_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1910
+						war = no
+						has_country_flag = ff101_prince_edward_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 3563
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_prince_edward_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1910
+						war = no
+						has_country_flag = ff101_prince_edward_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_prince_edward_owner_pending
+				SAF = {
+					clr_country_flag = ff101_prince_edward_pending
+					set_country_flag = ff101_prince_edward_refusal_pending
+					country_event = {
+						id = 9786463
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786461
+	title = "FF101_PRINCE_EDWARD_RECEIVED_TITLE"
+	desc = "FF101_PRINCE_EDWARD_RECEIVED_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_RECEIVE"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					owns = 3563
+					has_country_flag = ff101_prince_edward_acquired
+					has_country_flag = ff101_prince_edward_report_pending
+					NOT = {
+						has_country_flag = ff101_prince_edward_reported
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					owns = 3563
+					has_country_flag = ff101_prince_edward_acquired
+					has_country_flag = ff101_prince_edward_report_pending
+					NOT = {
+						has_country_flag = ff101_prince_edward_reported
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_prince_edward_report_pending
+					set_country_flag = ff101_prince_edward_reported
+					set_country_flag = ff101_prince_edward_closed
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786462
+	title = "FF101_PRINCE_EDWARD_TERMS_TITLE"
+	desc = "FF101_PRINCE_EDWARD_TERMS_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_BUY"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1910
+					war = no
+					has_country_flag = ff101_prince_edward_negotiating
+					NOT = {
+						owns = 3563
+					}
+					3563 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							NOT = {
+								tag = SAF
+							}
+							has_country_flag = ff101_prince_edward_seller
+							war = no
+							is_vassal = no
+						}
+					}
+					money = 15000
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1910
+					war = no
+					has_country_flag = ff101_prince_edward_negotiating
+					NOT = {
+						owns = 3563
+					}
+					3563 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							NOT = {
+								tag = SAF
+							}
+							has_country_flag = ff101_prince_edward_seller
+							war = no
+							is_vassal = no
+						}
+					}
+					money = 15000
+				}
+			}
+			owner = {
+				SAF = {
+					money = -15000
+					3563 = {
+						owner = {
+							money = 15000
+							clr_country_flag = ff101_prince_edward_seller
+							relation = {
+								who = SAF
+								value = 10
+							}
+							any_owned = {
+								limit = {
+									province_id = 3563
+								}
+								add_core = SAF
+								secede_province = SAF
+							}
+						}
+					}
+					clr_country_flag = ff101_prince_edward_negotiating
+					set_country_flag = ff101_prince_edward_acquired
+					set_country_flag = ff101_prince_edward_report_pending
+					country_event = {
+						id = 9786461
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_CANCEL"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_prince_edward_negotiating
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_prince_edward_negotiating
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_prince_edward_negotiating
+					set_country_flag = ff101_prince_edward_closed
+					3563 = {
+						owner = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff101_prince_edward_seller
+									}
+								}
+								owner = {
+									clr_country_flag = ff101_prince_edward_seller
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786463
+	title = "FF101_PRINCE_EDWARD_REFUSAL_TITLE"
+	desc = "FF101_PRINCE_EDWARD_REFUSAL_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_RESERVE"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_prince_edward_refusal_pending
+					NOT = {
+						has_country_flag = ff101_prince_edward_closed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_prince_edward_refusal_pending
+					NOT = {
+						has_country_flag = ff101_prince_edward_closed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_prince_edward_refusal_pending
+					set_country_flag = ff101_prince_edward_closed
+					set_country_flag = ff101_prince_edward_claim_reserved
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_WITHDRAW"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_prince_edward_refusal_pending
+					NOT = {
+						has_country_flag = ff101_prince_edward_closed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_prince_edward_refusal_pending
+					NOT = {
+						has_country_flag = ff101_prince_edward_closed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_prince_edward_refusal_pending
+					set_country_flag = ff101_prince_edward_closed
+					set_country_flag = ff101_prince_edward_withdrawn
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786464
+	title = "FF101_PRINCE_EDWARD_SURVEY_TITLE"
+	desc = "FF101_PRINCE_EDWARD_SURVEY_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_SURVEY_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_prince_edward_survey_pending
+					NOT = {
+						has_country_flag = ff101_prince_edward_surveyed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_prince_edward_survey_pending
+					NOT = {
+						has_country_flag = ff101_prince_edward_surveyed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_prince_edward_survey_pending
+					set_country_flag = ff101_prince_edward_surveyed
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786465
+	title = "FF101_PRINCE_EDWARD_LAPSED_TITLE"
+	desc = "FF101_PRINCE_EDWARD_LAPSED_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = SAF
+		primary_culture = boer
+		is_vassal = no
+		OR = {
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff92_south_africa_formed
+			has_country_flag = ff82_united_boer_republic
+		}
+		has_country_flag = ff82_boer_victory
+		has_global_flag = ff82_second_war_finished
+		NOT = {
+			has_country_flag = ff82_second_war_defeat
+		}
+		OR = {
+			AND = {
+				has_country_flag = ff101_prince_edward_pending
+				OR = {
+					war = yes
+					owns = 3563
+					3563 = {
+						empty = yes
+					}
+					3563 = {
+						owner = {
+							OR = {
+								war = yes
+								is_vassal = yes
+								NOT = {
+									has_country_flag = ff101_prince_edward_owner_pending
+								}
+							}
+						}
+					}
+				}
+			}
+			AND = {
+				has_country_flag = ff101_prince_edward_negotiating
+				OR = {
+					war = yes
+					owns = 3563
+					3563 = {
+						empty = yes
+					}
+					3563 = {
+						owner = {
+							OR = {
+								war = yes
+								is_vassal = yes
+								NOT = {
+									has_country_flag = ff101_prince_edward_seller
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		NOT = {
+			has_country_flag = ff101_prince_edward_lapsed_notice
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					OR = {
+						AND = {
+							has_country_flag = ff101_prince_edward_pending
+							OR = {
+								war = yes
+								owns = 3563
+								3563 = {
+									empty = yes
+								}
+								3563 = {
+									owner = {
+										OR = {
+											war = yes
+											is_vassal = yes
+											NOT = {
+												has_country_flag = ff101_prince_edward_owner_pending
+											}
+										}
+									}
+								}
+							}
+						}
+						AND = {
+							has_country_flag = ff101_prince_edward_negotiating
+							OR = {
+								war = yes
+								owns = 3563
+								3563 = {
+									empty = yes
+								}
+								3563 = {
+									owner = {
+										OR = {
+											war = yes
+											is_vassal = yes
+											NOT = {
+												has_country_flag = ff101_prince_edward_seller
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					NOT = {
+						has_country_flag = ff101_prince_edward_lapsed_notice
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					set_country_flag = ff101_prince_edward_lapsed_notice
+					set_country_flag = ff101_prince_edward_lapsed_pending
+					clr_country_flag = ff101_prince_edward_pending
+					clr_country_flag = ff101_prince_edward_negotiating
+					set_country_flag = ff101_prince_edward_closed
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_LAPSED_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_prince_edward_lapsed_pending
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_prince_edward_lapsed_pending
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_prince_edward_lapsed_pending
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786470
+	title = "FF101_CROZET_PROPOSAL_TITLE"
+	desc = "FF101_CROZET_PROPOSAL_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_ACCEPT"
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 4027
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_crozet_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1912
+						war = no
+						has_country_flag = ff101_crozet_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 4027
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_crozet_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1912
+						war = no
+						has_country_flag = ff101_crozet_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_crozet_owner_pending
+				relation = {
+					who = SAF
+					value = 15
+				}
+				SAF = {
+					clr_country_flag = ff101_crozet_pending
+					set_country_flag = ff101_crozet_acquired
+					set_country_flag = ff101_crozet_report_pending
+					country_event = {
+						id = 9786471
+						days = 1
+					}
+				}
+				any_owned = {
+					limit = {
+						province_id = 4027
+					}
+					add_core = SAF
+					secede_province = SAF
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_NEGOTIATE"
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 4027
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_crozet_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1912
+						war = no
+						has_country_flag = ff101_crozet_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 4027
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_crozet_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1912
+						war = no
+						has_country_flag = ff101_crozet_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_crozet_owner_pending
+				set_country_flag = ff101_crozet_seller
+				SAF = {
+					clr_country_flag = ff101_crozet_pending
+					set_country_flag = ff101_crozet_negotiating
+					country_event = {
+						id = 9786472
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_REFUSE"
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 4027
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_crozet_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1912
+						war = no
+						has_country_flag = ff101_crozet_pending
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						tag = SAF
+					}
+					owns = 4027
+					war = no
+					is_vassal = no
+					has_country_flag = ff101_crozet_owner_pending
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						OR = {
+							has_country_flag = ff67_south_african_republic
+							has_country_flag = ff92_south_africa_formed
+							has_country_flag = ff82_united_boer_republic
+						}
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1912
+						war = no
+						has_country_flag = ff101_crozet_pending
+					}
+				}
+			}
+			owner = {
+				clr_country_flag = ff101_crozet_owner_pending
+				SAF = {
+					clr_country_flag = ff101_crozet_pending
+					set_country_flag = ff101_crozet_refusal_pending
+					country_event = {
+						id = 9786473
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786471
+	title = "FF101_CROZET_RECEIVED_TITLE"
+	desc = "FF101_CROZET_RECEIVED_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_RECEIVE"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					owns = 4027
+					has_country_flag = ff101_crozet_acquired
+					has_country_flag = ff101_crozet_report_pending
+					NOT = {
+						has_country_flag = ff101_crozet_reported
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					owns = 4027
+					has_country_flag = ff101_crozet_acquired
+					has_country_flag = ff101_crozet_report_pending
+					NOT = {
+						has_country_flag = ff101_crozet_reported
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_crozet_report_pending
+					set_country_flag = ff101_crozet_reported
+					set_country_flag = ff101_crozet_closed
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786472
+	title = "FF101_CROZET_TERMS_TITLE"
+	desc = "FF101_CROZET_TERMS_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_BUY"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1912
+					war = no
+					has_country_flag = ff101_crozet_negotiating
+					NOT = {
+						owns = 4027
+					}
+					4027 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							NOT = {
+								tag = SAF
+							}
+							has_country_flag = ff101_crozet_seller
+							war = no
+							is_vassal = no
+						}
+					}
+					money = 20000
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1912
+					war = no
+					has_country_flag = ff101_crozet_negotiating
+					NOT = {
+						owns = 4027
+					}
+					4027 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							NOT = {
+								tag = SAF
+							}
+							has_country_flag = ff101_crozet_seller
+							war = no
+							is_vassal = no
+						}
+					}
+					money = 20000
+				}
+			}
+			owner = {
+				SAF = {
+					money = -20000
+					4027 = {
+						owner = {
+							money = 20000
+							clr_country_flag = ff101_crozet_seller
+							relation = {
+								who = SAF
+								value = 10
+							}
+							any_owned = {
+								limit = {
+									province_id = 4027
+								}
+								add_core = SAF
+								secede_province = SAF
+							}
+						}
+					}
+					clr_country_flag = ff101_crozet_negotiating
+					set_country_flag = ff101_crozet_acquired
+					set_country_flag = ff101_crozet_report_pending
+					country_event = {
+						id = 9786471
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_CANCEL"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_crozet_negotiating
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_crozet_negotiating
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_crozet_negotiating
+					set_country_flag = ff101_crozet_closed
+					4027 = {
+						owner = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff101_crozet_seller
+									}
+								}
+								owner = {
+									clr_country_flag = ff101_crozet_seller
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786473
+	title = "FF101_CROZET_REFUSAL_TITLE"
+	desc = "FF101_CROZET_REFUSAL_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_RESERVE"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_crozet_refusal_pending
+					NOT = {
+						has_country_flag = ff101_crozet_closed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_crozet_refusal_pending
+					NOT = {
+						has_country_flag = ff101_crozet_closed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_crozet_refusal_pending
+					set_country_flag = ff101_crozet_closed
+					set_country_flag = ff101_crozet_claim_reserved
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_WITHDRAW"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_crozet_refusal_pending
+					NOT = {
+						has_country_flag = ff101_crozet_closed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_crozet_refusal_pending
+					NOT = {
+						has_country_flag = ff101_crozet_closed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_crozet_refusal_pending
+					set_country_flag = ff101_crozet_closed
+					set_country_flag = ff101_crozet_withdrawn
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786474
+	title = "FF101_CROZET_SURVEY_TITLE"
+	desc = "FF101_CROZET_SURVEY_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "FF101_SURVEY_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_crozet_survey_pending
+					NOT = {
+						has_country_flag = ff101_crozet_surveyed
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_crozet_survey_pending
+					NOT = {
+						has_country_flag = ff101_crozet_surveyed
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_crozet_survey_pending
+					set_country_flag = ff101_crozet_surveyed
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786475
+	title = "FF101_CROZET_LAPSED_TITLE"
+	desc = "FF101_CROZET_LAPSED_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = SAF
+		primary_culture = boer
+		is_vassal = no
+		OR = {
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff92_south_africa_formed
+			has_country_flag = ff82_united_boer_republic
+		}
+		has_country_flag = ff82_boer_victory
+		has_global_flag = ff82_second_war_finished
+		NOT = {
+			has_country_flag = ff82_second_war_defeat
+		}
+		OR = {
+			AND = {
+				has_country_flag = ff101_crozet_pending
+				OR = {
+					war = yes
+					owns = 4027
+					4027 = {
+						empty = yes
+					}
+					4027 = {
+						owner = {
+							OR = {
+								war = yes
+								is_vassal = yes
+								NOT = {
+									has_country_flag = ff101_crozet_owner_pending
+								}
+							}
+						}
+					}
+				}
+			}
+			AND = {
+				has_country_flag = ff101_crozet_negotiating
+				OR = {
+					war = yes
+					owns = 4027
+					4027 = {
+						empty = yes
+					}
+					4027 = {
+						owner = {
+							OR = {
+								war = yes
+								is_vassal = yes
+								NOT = {
+									has_country_flag = ff101_crozet_seller
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		NOT = {
+			has_country_flag = ff101_crozet_lapsed_notice
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					OR = {
+						AND = {
+							has_country_flag = ff101_crozet_pending
+							OR = {
+								war = yes
+								owns = 4027
+								4027 = {
+									empty = yes
+								}
+								4027 = {
+									owner = {
+										OR = {
+											war = yes
+											is_vassal = yes
+											NOT = {
+												has_country_flag = ff101_crozet_owner_pending
+											}
+										}
+									}
+								}
+							}
+						}
+						AND = {
+							has_country_flag = ff101_crozet_negotiating
+							OR = {
+								war = yes
+								owns = 4027
+								4027 = {
+									empty = yes
+								}
+								4027 = {
+									owner = {
+										OR = {
+											war = yes
+											is_vassal = yes
+											NOT = {
+												has_country_flag = ff101_crozet_seller
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					NOT = {
+						has_country_flag = ff101_crozet_lapsed_notice
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					set_country_flag = ff101_crozet_lapsed_notice
+					set_country_flag = ff101_crozet_lapsed_pending
+					clr_country_flag = ff101_crozet_pending
+					clr_country_flag = ff101_crozet_negotiating
+					set_country_flag = ff101_crozet_closed
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF101_LAPSED_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_crozet_lapsed_pending
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					OR = {
+						has_country_flag = ff67_south_african_republic
+						has_country_flag = ff92_south_africa_formed
+						has_country_flag = ff82_united_boer_republic
+					}
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					has_country_flag = ff101_crozet_lapsed_pending
+				}
+			}
+			owner = {
+				SAF = {
+					clr_country_flag = ff101_crozet_lapsed_pending
+				}
+			}
+		}
+	}
+}

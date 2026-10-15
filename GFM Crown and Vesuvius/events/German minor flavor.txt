@@ -1,0 +1,331 @@
+country_event = { id = 34100 title = "EVTNAME34100" desc = "EVTDESC34100" picture = "Mozart" fire_only_once = yes trigger = { tag = FRM year = 1838 war = no NOT = { year = 1841 } } mean_time_to_happen = { months = 5 modifier = { factor = 0.75 year = 1839 } modifier = { factor = 0.95 year = 1840 } } option = { name = "EVTOPTA34100" plurality = 2 set_global_flag = MozartFest1838 farmers = { consciousness = 1 } artisans = { consciousness = 1 } craftsmen = { consciousness = 1 } clerks = { consciousness = 1 } labourers = { consciousness = 1 } } } country_event = { id = 34500 title = "EVTNAME34500" desc = "EVTDESC34500" picture = "oldenburg" fire_only_once = yes trigger = { tag = OLD OR = { government = absolute_monarchy government = cvg2_north_absolute government = cvo_absolute government = cvi_absolute_monarchy } NOT = { year = 1856 } year = 1853 } mean_time_to_happen = { months = 5 modifier = { factor = 0.75 year = 1854 } modifier = { factor = 0.95 year = 1855 } } option = { name = "EVTOPTA34500" prestige = 10 } } country_event = { id = 34101 title = "EVTNAME34100" desc = "EVTDESC34100" picture = "Mozart" fire_only_once = yes trigger = { tag = HEK war = no has_global_flag = MozartFest1838 NOT = { has_country_flag = MozartFest1838 year = 1841 } year = 1838 } mean_time_to_happen = { months = 5 modifier = { factor = 0.75 year = 1839 } modifier = { factor = 0.95 year = 1840 } } option = { name = "EVTOPTA34100" set_country_flag = MozartFest1838 plurality = 2 farmers = { consciousness = 1 } artisans = { consciousness = 1 } craftsmen = { consciousness = 1 } clerks = { consciousness = 1 } labourers = { consciousness = 1 } } } country_event = { id = 34103 title = "EVTNAME34100" desc = "EVTDESC34100" picture = "Mozart" fire_only_once = yes trigger = { tag = NAS war = no has_global_flag = MozartFest1838 NOT = { has_country_flag = MozartFest1838 year = 1841 } year = 1838 } mean_time_to_happen = { months = 5 modifier = { factor = 0.75 year = 1839 } modifier = { factor = 0.95 year = 1840 } } option = { name = "EVTOPTA34100" set_country_flag = MozartFest1838 plurality = 2 farmers = { consciousness = 1 } artisans = { consciousness = 1 } craftsmen = { consciousness = 1 } clerks = { consciousness = 1 } labourers = { consciousness = 1 } } } country_event = { id = 35000 title = "EVTNAME35000" desc = "EVTDESC35000" picture = "SaxeCoburgGotha" news = yes news_desc_long = "EVTDESC35000_NEWS_LONG" news_desc_medium = "EVTDESC35000_NEWS_MEDIUM" news_desc_short = "EVTDESC35000_NEWS_SHORT" trigger = { tag = COB has_global_flag = ENGRoyalHouseAnglified NOT = { year = 1936 has_country_flag = ENGRoyalHouseSplits } } mean_time_to_happen = { months = 12 modifier = { factor = 0.75 year = 1860 } modifier = { factor = 0.95 year = 1880 } modifier = { factor = 0.95 year = 1900 } } option = { name = "EVTOPTA35000" set_country_flag = ENGRoyalHouseSplits prestige = -10 } } country_event = { id = 34102 title = "EVTNAME34100" desc = "EVTDESC34100" picture = "Mozart" fire_only_once = yes trigger = { tag = HES war = no has_global_flag = MozartFest1838 NOT = { has_country_flag = MozartFest1838 year = 1841 } year = 1838 } mean_time_to_happen = { months = 5 modifier = { factor = 0.75 year = 1839 } modifier = { factor = 0.95 year = 1840 } } option = { name = "EVTOPTA34100" set_country_flag = MozartFest1838 plurality = 2 farmers = { consciousness = 1 } artisans = { consciousness = 1 } craftsmen = { consciousness = 1 } clerks = { consciousness = 1 } labourers = { consciousness = 1 } } } country_event = { id = 48300 title = "EVTNAME48300" desc = "EVTDESC48300" picture = "leopoldiv" news = yes news_title = "EVTNAME48300_NEWS_TITLE" news_desc_long = "EVTDESC48300_NEWS_LONG" news_desc_medium = "EVTDESC48300_NEWS_MEDIUM" news_desc_short = "EVTDESC48300_NEWS_SHORT" trigger = { tag = ANH has_country_flag = monarchy_government year = 1862 war = no NOT = { year = 1865 has_country_flag = LeopoldIVAnhalt } } mean_time_to_happen = { months = 8 modifier = { factor = 0.95 year = 1863 } modifier = { factor = 0.95 year = 1864 } } option = { name = "EVTOPTA48300" prestige = 5 set_country_flag = LeopoldIVAnhalt } } province_event = { id = 33802 title = "EVTNAME33802" desc = "EVTDESC33802" fire_only_once = yes trigger = { province_id = 528 year = 1847 month = 5 } mean_time_to_happen = { days = 1 } option = { name = "Mein Feld ist die Welt!" owner = { clipper_convoy = 5 prestige = 5 } } } country_event = { id = 33301 title = "EVTNAME34100" desc = "EVTDESC34100" picture = "Mozart" fire_only_once = yes trigger = { tag = BAD war = no has_global_flag = MozartFest1838 NOT = { has_country_flag = MozartFest1838 year = 1841 } year = 1838 } mean_time_to_happen = { months = 5 modifier = { factor = 0.75 year = 1839 } modifier = { factor = 0.95 year = 1840 } } option = { name = "EVTOPTA34100" set_country_flag = MozartFest1838 plurality = 2 farmers = { consciousness = 1 } artisans = { consciousness = 1 } craftsmen = { consciousness = 1 } clerks = { consciousness = 1 } labourers = { consciousness = 1 } } } country_event = { id = 34700 title = "EVTNAME34700" desc = "EVTDESC34700" picture = "theatre" news = yes news_desc_long = "EVTDESC34700_NEWS_LONG" news_desc_medium = "EVTDESC34700_NEWS_MEDIUM" news_desc_short = "EVTDESC34700_NEWS_SHORT" fire_only_once = yes trigger = { tag = SAX war = no NOT = { year = 1840 } year = 1837 } mean_time_to_happen = { months = 5 modifier = { factor = 0.75 year = 1838 } modifier = { factor = 0.95 year = 1839 } } option = { name = "EVTOPTA34700" prestige = 5 } } country_event = { id = 34701 title = "EVTNAME34701" desc = "EVTDESC34701" picture = "Dresdenopera" news = yes news_desc_long = "EVTDESC34701_NEWS_LONG" news_desc_medium = "EVTDESC34701_NEWS_MEDIUM" news_desc_short = "EVTDESC34701_NEWS_SHORT" fire_only_once = yes trigger = { tag = SAX war = no NOT = { year = 1844 } year = 1841 } mean_time_to_happen = { months = 5 modifier = { factor = 0.75 year = 1842 } modifier = { factor = 0.95 year = 1843 } } option = { name = "EVTOPTA34701" prestige = 5 } } country_event = {
+    id = 800983
+    title = "Our Union over Poland"
+    desc = "EVTDESC800983"
+    picture = "polish_partition"
+    is_triggered_only = yes
+    option = {
+        name = "Our destiny lies in Poland!"
+        change_tag = PLC
+        RUS_360 = {
+            add_core = PLC
+        }
+        RUS_940 = {
+            add_core = PLC
+        }
+        RUS_718 = {
+            add_core = PLC
+        }
+        RUS_936 = {
+            add_core = PLC
+        }
+        RUS_707 = {
+            add_core = PLC
+        }
+        RUS_706 = {
+            add_core = PLC
+        }
+        PRU_701 = {
+            add_core = PLC
+        }
+        RUS_715 = {
+            add_core = PLC
+        }
+        694 = {
+            add_core = PLC
+        }
+        703 = {
+            add_core = PLC
+        }
+        BYE = {
+            all_core = {
+                add_core = PLC
+            }
+        }
+        3328 = {
+            add_core = PLC
+        }
+        RUS_959 = {
+            add_core = PLC
+        }
+        960 = {
+            add_core = PLC
+        }
+        961 = {
+            add_core = PLC
+        }
+        PRU_690 = {
+            add_core = PLC
+        }
+        AUS_702 = {
+            add_core = PLC
+        }
+        AUS_662 = {
+            add_core = PLC
+        }
+        969 = {
+            add_core = PLC
+        }
+        954 = {
+            add_core = PLC
+        }
+        955 = {
+            add_core = PLC
+        }
+        356 = {
+            add_core = PLC
+        }
+        1007 = {
+            add_core = PLC
+        }
+        SAX = {
+            all_core = {
+                remove_core = PLC
+            }
+        }
+        PRU_701 = {
+            remove_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    remove_core = OGE
+                }
+            }
+            remove_core = PRU
+        }
+        PRU_695 = {
+            remove_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    remove_core = OGE
+                }
+            }
+        }
+        PRU_690 = {
+            remove_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    remove_core = OGE
+                }
+            }
+        }
+        any_country = {
+            limit = {
+                OR = {
+                    tag = POL
+                    tag = LIT
+                    tag = PZN
+                    tag = DZG
+                    tag = GLM
+                }
+                ai = yes
+                in_sphere = THIS
+            }
+            annex_to = PLC
+        }
+        any_country = {
+            limit = {
+                any_owned_province = {
+                    is_core = PLC
+                }
+                ai = yes
+                in_sphere = THIS
+            }
+            any_owned = {
+                limit = {
+                    is_core = PLC
+                }
+                secede_province = THIS
+            }
+        }
+        any_owned = {
+            limit = {
+                is_core = SAX
+            }
+            secede_province = SAX
+        }
+        create_vassal = SAX
+        create_alliance = SAX
+        diplomatic_influence = {
+            who = SAX
+            value = 400
+        }
+        capital = 706
+        ai_chance = {
+            factor = 1
+        }
+        PLC = {
+            primary_culture = polish
+            add_accepted_culture = lithuanian
+            remove_accepted_culture = north_german
+            remove_accepted_culture = south_german
+            country_event = 8374593
+            country_event = 365457447
+        }
+    }
+    option = {
+        name = "Our place is here in Germany!"
+        RUS_360 = {
+            add_core = PLC
+        }
+        RUS_940 = {
+            add_core = PLC
+        }
+        RUS_718 = {
+            add_core = PLC
+        }
+        RUS_936 = {
+            add_core = PLC
+        }
+        RUS_707 = {
+            add_core = PLC
+        }
+        RUS_706 = {
+            add_core = PLC
+        }
+        PRU_701 = {
+            add_core = PLC
+        }
+        RUS_715 = {
+            add_core = PLC
+        }
+        694 = {
+            add_core = PLC
+        }
+        703 = {
+            add_core = PLC
+        }
+        BYE = {
+            all_core = {
+                add_core = PLC
+            }
+        }
+        3328 = {
+            add_core = PLC
+        }
+        RUS_959 = {
+            add_core = PLC
+        }
+        960 = {
+            add_core = PLC
+        }
+        961 = {
+            add_core = PLC
+        }
+        PRU_690 = {
+            add_core = PLC
+        }
+        AUS_702 = {
+            add_core = PLC
+        }
+        AUS_662 = {
+            add_core = PLC
+        }
+        969 = {
+            add_core = PLC
+        }
+        954 = {
+            add_core = PLC
+        }
+        955 = {
+            add_core = PLC
+        }
+        356 = {
+            add_core = PLC
+        }
+        1007 = {
+            add_core = PLC
+        }
+        any_country = {
+            limit = {
+                OR = {
+                    tag = POL
+                    tag = LIT
+                    tag = PZN
+                    tag = DZG
+                    tag = GLM
+                }
+                ai = yes
+                in_sphere = THIS
+            }
+            annex_to = PLC
+        }
+        any_country = {
+            limit = {
+                any_owned_province = {
+                    is_core = PLC
+                }
+                ai = yes
+                in_sphere = THIS
+            }
+            any_owned = {
+                limit = {
+                    is_core = PLC
+                }
+                secede_province = THIS
+            }
+        }
+        SAX = {
+            all_core = {
+                remove_core = PLC
+            }
+        }
+        PRU_701 = {
+            remove_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    remove_core = OGE
+                }
+            }
+            remove_core = PRU
+        }
+        PRU_695 = {
+            remove_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    remove_core = OGE
+                }
+            }
+        }
+        PRU_690 = {
+            remove_core = GER
+            random_country = {
+                limit = {
+                    tag = OGE
+                }
+                PREV = {
+                    remove_core = OGE
+                }
+            }
+        }
+        any_owned = {
+            limit = {
+                is_core = PLC
+            }
+            secede_province = PLC
+        }
+        create_vassal = PLC
+        create_alliance = PLC
+        diplomatic_influence = {
+            who = PLC
+            value = 400
+        }
+        ai_chance = {
+            factor = 1
+        }
+    }
+}

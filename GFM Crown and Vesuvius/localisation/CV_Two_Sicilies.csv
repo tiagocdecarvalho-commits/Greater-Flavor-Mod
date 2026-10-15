@@ -1,0 +1,558 @@
+#CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;x
+cv_accounts;Provincial Accounts Reconciled;;;;;;;;;;;;;x
+cv_accounts_desc;Auditors have reconciled district receipts and established consistent public accounts. Improves tax collection efficiency.;;;;;;;;;;;;;x
+cv_roads;Royal Provincial Roads;;;;;;;;;;;;;x
+cv_roads_desc;Royal Provincial Roads represents the funded institutions and obligations of this programme. Improves local farm and mine throughput.;;;;;;;;;;;;;x
+cv_pietrarsa;The Pietrarsa Workshops;;;;;;;;;;;;;x
+cv_pietrarsa_desc;The Pietrarsa Workshops represents the funded institutions and obligations of this programme. Improves local factory throughput.;;;;;;;;;;;;;x
+cv_observatory;The Vesuvius Observatory;;;;;;;;;;;;;x
+cv_observatory_desc;The Vesuvius Observatory represents the funded institutions and obligations of this programme. Improves research output.;;;;;;;;;;;;;x
+cv_schools;Parish School Grants;;;;;;;;;;;;;x
+cv_schools_desc;Parish School Grants represents the funded institutions and obligations of this programme. Improves education efficiency.;;;;;;;;;;;;;x
+cv_cholera;Cholera and Public Distrust;;;;;;;;;;;;;x
+cv_cholera_desc;Illness, disrupted work and distrust have damaged the local economy. Reduces local farm and mine throughput.;;;;;;;;;;;;;x
+cv_relief;Organised Medical Relief;;;;;;;;;;;;;x
+cv_relief_desc;Organised Medical Relief represents the funded institutions and obligations of this programme. Improves local farm and mine throughput.;;;;;;;;;;;;;x
+cv_sulphur;The Sulphur Concession;;;;;;;;;;;;;x
+cv_sulphur_desc;The Sulphur Concession represents the funded institutions and obligations of this programme. Improves local farm and mine throughput.;;;;;;;;;;;;;x
+cv_embargo;The Anglo-Neapolitan Sulphur Dispute;;;;;;;;;;;;;x
+cv_embargo_desc;The Anglo-Neapolitan Sulphur Dispute represents the funded institutions and obligations of this programme. Reduces factory throughput. Reduces tax collection efficiency.;;;;;;;;;;;;;x
+cv_recovery;Reconstruction of Sicilian Districts;;;;;;;;;;;;;x
+cv_recovery_desc;Reconstruction of Sicilian Districts represents the funded institutions and obligations of this programme. Improves local farm and mine throughput.;;;;;;;;;;;;;x
+cv_prisons;Inspection of Political Prisons;;;;;;;;;;;;;x
+cv_prisons_desc;Inspection of Political Prisons represents the funded institutions and obligations of this programme. Public unrest subsides more readily.;;;;;;;;;;;;;x
+cv_transition;An Inexperienced Court;;;;;;;;;;;;;x
+cv_transition_desc;An Inexperienced Court represents the funded institutions and obligations of this programme. Reduces army organisation.;;;;;;;;;;;;;x
+cv_straits;Defence of the Straits;;;;;;;;;;;;;x
+cv_straits_desc;Defence of the Straits represents the funded institutions and obligations of this programme. Improves naval organisation.;;;;;;;;;;;;;x
+cv_army;Bourbon Army Supply Board;;;;;;;;;;;;;x
+cv_army_desc;Bourbon Army Supply Board represents the funded institutions and obligations of this programme. Improves army organisation.;;;;;;;;;;;;;x
+cv_gaeta;The Last Bourbon Stronghold;;;;;;;;;;;;;x
+cv_gaeta_desc;The Last Bourbon Stronghold represents the funded institutions and obligations of this programme. Improves local repair rate.;;;;;;;;;;;;;x
+cv_court_a;Put the provincial administration on a firmer footing.;;;;;;;;;;;;;x
+cv_court_title;Two Crowns, One Kingdom;;;;;;;;;;;;;x
+cv_court_desc;Ferdinand II inherits the throne in a kingdom joined under one crown but divided by geography and political memory. Naples is the seat of royal administration, while Sicily retains a strong sense of its separate institutions and grievances. The new reign has room for practical improvements: orderly accounts, reliable roads and better schools can give royal government firmer foundations. Yet public works alone will not settle the relationship between the court, provincial elites and those seeking a constitution. Ministers must build confidence before the next crisis tests the bonds between the mainland and the island.;;;;;;;;;;;;;x
+cv_audit_title;Reconcile the Provincial Accounts;;;;;;;;;;;;;x
+cv_audit_desc;Provincial receipts arrive in Naples through uneven records and disputed exemptions. A royal commission can reconcile the ledgers, inspect collectors and establish reliable public accounts.;;;;;;;;;;;;;x
+cv_roads_programme_title;Repair the Roads of the Mezzogiorno;;;;;;;;;;;;;x
+cv_roads_programme_desc;Damaged bridges and difficult roads isolate inland markets from the coast. Provincial works will repair these routes and make journeys easier for farmers, merchants and royal officials.;;;;;;;;;;;;;x
+cv_cholera_a;Fund physicians, relief kitchens and clear public notices.;;;;;;;;;;;;;x
+cv_cholera_b;Enforce cordons with the resources already available.;;;;;;;;;;;;;x
+cv_cholera_1837_title;Cholera in the Two Sicilies;;;;;;;;;;;;;x
+cv_cholera_1837_desc;The epidemic has reached Naples and Sicily. Fear of contagion mixes with rumours of poisoning and resentment of official interference. Medical relief and reliable information cost money, but treating every frightened crowd as a conspiracy risks further unrest.;;;;;;;;;;;;;x
+cv_sulphur_a;Grant the concession, despite the merchants' objections.;;;;;;;;;;;;;x
+cv_sulphur_b;Keep the export trade open.;;;;;;;;;;;;;x
+cv_sulphur_offer_title;A Monopoly for Sicilian Sulphur?;;;;;;;;;;;;;x
+cv_sulphur_offer_desc;Sicilian sulphur supplies an important export trade, and the French firm Taix and Aycard now offers to organise sales through an exclusive concession. Supporters argue that controlled exports could improve returns and give the crown a firmer hand over the industry. British merchants object that the monopoly threatens their commercial rights and restricts access to a valuable commodity. Granting it promises a temporary advantage in the mining districts, but risks a diplomatic quarrel with London. Keeping exports open avoids that confrontation. The concession belongs to a private firm: it is not a transfer of Sicilian territory to France.;;;;;;;;;;;;;x
+cv_sulphur_settle;Pay compensation and restore open exports.;;;;;;;;;;;;;x
+cv_sulphur_mediate;Ask Paris to mediate a compensated settlement.;;;;;;;;;;;;;x
+cv_sulphur_hold;Maintain the concession for now.;;;;;;;;;;;;;x
+cv_sulphur_crisis_title;Britain Challenges the Sulphur Concession;;;;;;;;;;;;;x
+cv_sulphur_crisis_desc;London's objections to the sulphur monopoly have become a confrontation over commercial rights. British naval pressure makes an extended dispute costly for a kingdom dependent on maritime exchange. The court must weigh the concession's mining advantage against the damage to commerce and its relations abroad. Compensated repeal would restore open exports, but the treasury must meet the bill. Paris may provide a channel for negotiation, although French mediation cannot be assumed. Maintaining the concession postpones the expense and leaves the commercial penalty in place until ministers can arrange a settlement.;;;;;;;;;;;;;x
+cv_french_yes;Offer a channel for a compensated settlement.;;;;;;;;;;;;;x
+cv_french_no;Decline to take responsibility for the dispute.;;;;;;;;;;;;;x
+cv_french_mediation_title;Mediation between London and Naples;;;;;;;;;;;;;x
+cv_french_mediation_desc;The Neapolitan government asks us to help resolve the sulphur dispute. Mediation would protect French commercial interests without treating the private concession as a national territorial claim. Naples must still compensate the firm if it accepts a settlement.;;;;;;;;;;;;;x
+cv_mediation_pay;Accept the settlement and compensate the concessionaires.;;;;;;;;;;;;;x
+cv_mediation_wait;We cannot complete this settlement now.;;;;;;;;;;;;;x
+cv_mediation_result_title;A French Channel for Settlement;;;;;;;;;;;;;x
+cv_mediation_result_desc;Paris will assist negotiations, but assistance does not erase the kingdom's contractual obligations. The crown can now unwind the concession with compensation and a smaller diplomatic loss. If the treasury cannot meet the cost, the dispute will remain open.;;;;;;;;;;;;;x
+cv_mediation_refused_a;Prepare to settle directly with the merchants.;;;;;;;;;;;;;x
+cv_mediation_refused_title;Paris Declines Mediation;;;;;;;;;;;;;x
+cv_mediation_refused_desc;France will not undertake the requested mediation. The sulphur concession remains our responsibility. A direct compensated settlement is still available through the royal government.;;;;;;;;;;;;;x
+cv_end_sulphur_title;Settle the Sulphur Dispute;;;;;;;;;;;;;x
+cv_end_sulphur_desc;The sulphur concession has strained commerce and relations with Britain. Ministers propose compensating the concessionaires and reopening exports to bring the dispute to an end.;;;;;;;;;;;;;x
+cv_portici_title;Build the Napoli-Portici Railway;;;;;;;;;;;;;x
+cv_portici_desc;A railway along the bay will connect Naples with Portici and the royal residences. Its opening will demonstrate the possibilities of steam transport to engineers, merchants and the court.;;;;;;;;;;;;;x
+cv_rail_opening_a;A beginning for the royal railways.;;;;;;;;;;;;;x
+cv_rail_opening_title;The Railway to Portici;;;;;;;;;;;;;x
+cv_rail_opening_desc;The new line carries the royal party from Naples towards Portici. Its length is modest, but the spectacle of steam traction gives the kingdom a visible place in the railway age. Maintaining and extending the line will demand engineers, machinery and sustained investment.;;;;;;;;;;;;;x
+cv_workshops_title;Establish the Pietrarsa Workshops;;;;;;;;;;;;;x
+cv_workshops_desc;Imported machinery leaves the royal railway dependent on foreign repair crews. Workshops at Pietrarsa will train mechanics and develop the kingdom's own engineering experience.;;;;;;;;;;;;;x
+cv_build_observatory_title;Found the Vesuvius Observatory;;;;;;;;;;;;;x
+cv_build_observatory_desc;Vesuvius dominates the bay, but scattered accounts cannot replace systematic observation. A permanent observatory will provide instruments, trained observers and a continuing record of the volcano's behaviour.;;;;;;;;;;;;;x
+cv_science_a;Welcome the scientists and publish their observations.;;;;;;;;;;;;;x
+cv_science_congress_title;Science beneath Vesuvius;;;;;;;;;;;;;x
+cv_science_congress_desc;Naples hosts the seventh Congress of Italian Scientists in the autumn of 1845. Royal patronage gives the gathering public standing, while officials remain wary of the political connections among its visitors. Scientific exchange brings prestige and research experience. A funded Vesuvius Observatory can contribute further observations under Macedonio Melloni, but the congress does not depend on the player having built it. The gathering encourages communication across Italian states without imposing a national government or a constitutional reform.;;;;;;;;;;;;;x
+cv_school_grants_title;Fund Parish and Municipal School Grants;;;;;;;;;;;;;x
+cv_school_grants_desc;Parish and municipal schools lack consistent support beyond the capital. Grants for instructors, books and schoolrooms will help the kingdom train the clerks, artisans and teachers it needs.;;;;;;;;;;;;;x
+cv_us_treaty_title;Negotiate Commerce with the United States;;;;;;;;;;;;;x
+cv_us_treaty_desc;Atlantic commerce needs a dependable diplomatic framework. A mission to Washington will seek commercial and navigation rights, although American ministers must decide whether to accept our proposals.;;;;;;;;;;;;;x
+cv_us_yes;Approve the commercial agreement.;;;;;;;;;;;;;x
+cv_us_no;Decline the proposal.;;;;;;;;;;;;;x
+cv_us_request_title;A Commercial Treaty with Naples;;;;;;;;;;;;;x
+cv_us_request_desc;The Kingdom of the Two Sicilies proposes reciprocal recognition of commercial and navigation rights. Accepting will improve diplomatic relations without committing us to defend the Bourbon crown.;;;;;;;;;;;;;x
+cv_us_ratified_a;Ratify the agreement.;;;;;;;;;;;;;x
+cv_us_ratified_title;Commerce across the Atlantic;;;;;;;;;;;;;x
+cv_us_ratified_desc;The American government has accepted our commercial agreement. Neapolitan and Sicilian merchants gain a clearer diplomatic framework for trade. The treaty is a commercial settlement, not an American guarantee of the dynasty.;;;;;;;;;;;;;x
+cv_us_declined_a;Close the mission's accounts.;;;;;;;;;;;;;x
+cv_us_declined_title;The American Mission Returns;;;;;;;;;;;;;x
+cv_us_declined_desc;The American government has declined the proposal, or circumstances no longer permit its completion. The mission returns half of its reserved negotiating funds. The cost of dispatching it is not recovered.;;;;;;;;;;;;;x
+cv_1847_a;Investigate grievances while restoring order.;;;;;;;;;;;;;x
+cv_1847_b;Restore order through the royal authorities.;;;;;;;;;;;;;x
+cv_1847_title;Unrest in Calabria and Messina;;;;;;;;;;;;;x
+cv_1847_desc;Insurrectionary attempts in Calabria and Messina expose the distance between court proclamations and provincial loyalties. The immediate disturbances can be contained, but demands for constitutional government and Sicilian autonomy remain unresolved.;;;;;;;;;;;;;x
+cv_january_a;Promise a constitution and instruct the ministers to prepare it.;;;;;;;;;;;;;x
+cv_january_b;Retain the existing government and confront the revolt.;;;;;;;;;;;;;x
+cv_january_title;The January Crisis of 1848;;;;;;;;;;;;;x
+cv_january_desc;The revolt at Palermo in January 1848 confronts the Bourbon government with a constitutional and Sicilian crisis. Agitation is spreading to the mainland, and concessions can no longer be treated as a distant administrative question. The king may promise a charter, but its promulgation will follow in February rather than taking effect immediately. This promise does not concede Sicilian independence or cancel the native revolution. The court still has to decide how to translate its pledge into government.;;;;;;;;;;;;;x
+cv_may_a;Dissolve the constitutional experiment.;;;;;;;;;;;;;x
+cv_may_b;Keep the charter and dismiss the hardliners.;;;;;;;;;;;;;x
+cv_may_title;The Barricades of Naples;;;;;;;;;;;;;x
+cv_may_desc;The constitutional experiment has brought deputies to Naples without resolving their relationship with the crown. Disagreement over the parliamentary oath and the limits of royal authority has moved from debate to barricades. Soldiers and armed opponents now face one another in the capital. On 15 May 1848, the historical confrontation ended in a royal victory and the destruction of the experiment. Ministers must decide whether to dissolve the new political order or defend the charter against the court's hardliners. Restoring absolute rule will deepen popular resentment, while preserving the charter risks alienating reactionary supporters.;;;;;;;;;;;;;x
+cv_sicily_recovered_a;Offer administrative amnesties and rebuild the districts.;;;;;;;;;;;;;x
+cv_sicily_recovered_b;Reassert royal authority without new expenditure.;;;;;;;;;;;;;x
+cv_sicily_recovered_title;Royal Government Returns to Sicily;;;;;;;;;;;;;x
+cv_sicily_recovered_desc;The crown once again holds Palermo, Messina and Catania, and an independent Sicilian government no longer stands against it. Military success has restored royal administration, but the campaign has left damaged livelihoods and bitter memories. Ministers can combine reconstruction with administrative amnesties, hoping that restraint will make the return of royal government more durable. Such a programme requires money, and its benefits will take time to reach the districts. A punitive settlement avoids immediate expenditure and satisfies those who demand obedience, but risks turning the island's defeat into a continuing source of resentment.;;;;;;;;;;;;;x
+cv_gladstone_a;Authorize inspections and review political cases.;;;;;;;;;;;;;x
+cv_gladstone_b;Reject the accusations as interference.;;;;;;;;;;;;;x
+cv_gladstone_title;Gladstone and the Political Prisons;;;;;;;;;;;;;x
+cv_gladstone_desc;William Gladstone's accounts of political imprisonment in Naples are circulating abroad. His accusations have found an audience in Britain, where the treatment of prisoners is becoming a question of Bourbon legitimacy as well as prison administration. The court regards the criticism as an attack on its sovereignty, but denunciations alone cannot restore confidence. Inspections and reviews of political cases would require staff, funding and a willingness to examine the conduct of royal officials. Refusing the criticism preserves an uncompromising position while further damaging relations with Britain and drawing public attention to the controversy.;;;;;;;;;;;;;x
+cv_cholera54_a;Release funds for medical and municipal relief.;;;;;;;;;;;;;x
+cv_cholera54_b;Rely on the existing authorities.;;;;;;;;;;;;;x
+cv_cholera_1854_title;Another Cholera Emergency;;;;;;;;;;;;;x
+cv_cholera_1854_desc;Cholera has returned to Naples. The authorities face the practical work of relief, sanitation and public information. A funded emergency response eases the disruption. Leaving the work entirely to existing institutions avoids a new bill but increases public anger.;;;;;;;;;;;;;x
+cv_isolation_a;Offer a limited amnesty and reopen diplomatic channels.;;;;;;;;;;;;;x
+cv_isolation_b;Refuse the foreign demands.;;;;;;;;;;;;;x
+cv_isolation_title;The Diplomatic Isolation of 1856;;;;;;;;;;;;;x
+cv_isolation_desc;British and French pressure over Bourbon government has deepened after the Crimean War and the Paris settlement. The court sees reform demands as interference. A limited amnesty may ease tensions, while an uncompromising reply strengthens royal hardliners and leaves the kingdom more isolated.;;;;;;;;;;;;;x
+cv_sapri_a;Fund a provincial inquiry and local relief.;;;;;;;;;;;;;x
+cv_sapri_b;Treat the expedition as a warning to strengthen vigilance.;;;;;;;;;;;;;x
+cv_sapri_title;Pisacane's Expedition to Sapri;;;;;;;;;;;;;x
+cv_sapri_desc;Carlo Pisacane's expedition has landed near Sapri in June 1857 after freeing prisoners on Ponza. It hopes to turn revolutionary theory into a southern uprising, but distrust and local opposition frustrate the enterprise. The crown must address the provincial grievances that made such a gamble possible.;;;;;;;;;;;;;x
+cv_francis_a;Maintain the royal administration under the new king.;;;;;;;;;;;;;x
+cv_francis_title;Francis II Inherits the Crown;;;;;;;;;;;;;x
+cv_francis_desc;Ferdinand II died at Caserta on 22 May 1859, leaving the throne to Francis II. The new king inherits a substantial royal administration and armed forces, but also the distrust accumulated through constitutional conflict, Sicilian resistance and diplomatic isolation. At the same time, events elsewhere in Italy are changing the balance on which the Bourbon kingdom has relied. An inexperienced court must learn to coordinate ministers and commanders while deciding which inherited policies to preserve. The transition temporarily weakens army organisation, making preparation and reliable supply more urgent as the new reign begins.;;;;;;;;;;;;;x
+cv_straits_defence_title;Organise Defence of the Straits;;;;;;;;;;;;;x
+cv_straits_defence_desc;The narrow sea between Sicily and Calabria has become a military frontier. Patrols, signals and reliable provisioning will help naval commanders coordinate the defence of both shores.;;;;;;;;;;;;;x
+cv_army_supply_title;Reorganise the Bourbon Army Supply Board;;;;;;;;;;;;;x
+cv_army_supply_desc;Loyalty alone cannot keep regiments supplied in the field. A central board will review stores, transport contracts and equipment accounts before the next emergency tests the royal army.;;;;;;;;;;;;;x
+cv_last_charter_a;Restore constitutional government.;;;;;;;;;;;;;x
+cv_last_charter_b;Keep the existing royal government.;;;;;;;;;;;;;x
+cv_last_charter_title;A Last Constitutional Opening;;;;;;;;;;;;;x
+cv_last_charter_desc;The danger to the kingdom has made another constitutional opening urgent. The court needs support beyond its traditional loyalists, while liberals doubt that promises will survive once the immediate threat has passed. In June 1860, Francis II historically restored constitutional government in an effort to widen the monarchy's base. A new charter may ease liberal resentment and give ministers a different political footing, but it will also anger royal hardliners. It cannot recall an expedition already under way or end an existing war. The crown must decide whether the risks of reform now outweigh those of continued intransigence.;;;;;;;;;;;;;x
+cv_gaeta_defence_title;Provision the Fortress of Gaeta;;;;;;;;;;;;;x
+cv_gaeta_defence_desc;With Naples occupied, Gaeta shelters the remaining Bourbon forces. Provisions, maintenance crews and repaired defences will help the fortress withstand the approaching siege.;;;;;;;;;;;;;x
+cv_us_lapsed_a;Close the mission and recover the reserve.;;;;;;;;;;;;;x
+cv_us_lapsed_title;The Commercial Negotiations Lapse;;;;;;;;;;;;;x
+cv_us_lapsed_desc;The disappearance of the proposed treaty partner has ended the negotiations. The mission returns its unused reserve, while its dispatch costs remain spent.;;;;;;;;;;;;;x
+cv_mediation_lapsed_a;Return the dispute to our own ministers.;;;;;;;;;;;;;x
+cv_mediation_lapsed_title;The Mediation Channel Closes;;;;;;;;;;;;;x
+cv_mediation_lapsed_desc;The requested French mediation can no longer proceed. The concession remains unresolved, and the crown must arrange a direct settlement.;;;;;;;;;;;;;x
+cv_land_register;A Surveyed Rural Kingdom;;;;;;;;;;;;;x
+cv_land_register_desc;Surveyors have recorded land titles and communal rights, making tax collection more reliable. Improves tax collection efficiency.;;;;;;;;;;;;;x
+cv_grain_credit;Audited Village Grain Funds;;;;;;;;;;;;;x
+cv_grain_credit_desc;Inspected grain funds keep seed credit available to village households. Improves local farm and mine throughput.;;;;;;;;;;;;;x
+cv_smallholders;Secure Smallholdings;;;;;;;;;;;;;x
+cv_smallholders_desc;Smallholders have retained their plots through the first harvests with support from rural credit. Improves local farm and mine throughput.;;;;;;;;;;;;;x
+cv_credit_network;Provincial Discount Offices;;;;;;;;;;;;;x
+cv_credit_network_desc;Provincial discount offices support merchants while their reserve requirements burden public revenue. Improves factory throughput. Reduces tax collection efficiency.;;;;;;;;;;;;;x
+cv_credit_contraction;Provincial Credit Contraction;;;;;;;;;;;;;x
+cv_credit_contraction_desc;Unresolved debts have forced the provincial offices to reduce lending. Reduces factory throughput.;;;;;;;;;;;;;x
+cv_mechanics;Trained Workshop Mechanics;;;;;;;;;;;;;x
+cv_mechanics_desc;Trained Workshop Mechanics represents the funded institutions and obligations of this programme. Improves local factory throughput.;;;;;;;;;;;;;x
+cv_mongiana;Mongiana Supply Contracts;;;;;;;;;;;;;x
+cv_mongiana_desc;Mongiana Supply Contracts represents the funded institutions and obligations of this programme. Improves army organisation.;;;;;;;;;;;;;x
+cv_yards;Castellammare Steam Workshops;;;;;;;;;;;;;x
+cv_yards_desc;Castellammare Steam Workshops represents the funded institutions and obligations of this programme. Improves naval organisation.;;;;;;;;;;;;;x
+cv_civil_service;Provincial Administrative Examinations;;;;;;;;;;;;;x
+cv_civil_service_desc;Provincial Administrative Examinations represents the funded institutions and obligations of this programme. Improves administrative efficiency. Improves education efficiency.;;;;;;;;;;;;;x
+cv_sicilian_autonomy;The Palermo Budget Settlement;;;;;;;;;;;;;x
+cv_sicilian_autonomy_desc;The Palermo agreement reserves part of island expenditure to local institutions, reducing central receipts. Reduces tax collection efficiency.;;;;;;;;;;;;;x
+cv_officers;Professional Bourbon Officers;;;;;;;;;;;;;x
+cv_officers_desc;Professional Bourbon Officers represents the funded institutions and obligations of this programme. Improves army organisation.;;;;;;;;;;;;;x
+cv_national_commitment;The Italian Commitment;;;;;;;;;;;;;x
+cv_national_commitment_desc;Italian ambitions require military coordination and continuing expenditure. Improves army organisation. Reduces tax collection efficiency.;;;;;;;;;;;;;x
+cv_agrarian_outcome;A Rural Development Settlement;;;;;;;;;;;;;x
+cv_agrarian_outcome_desc;The rural programme supports agriculture at the expense of some industrial development. Improves farm and mine throughput. Reduces factory throughput.;;;;;;;;;;;;;x
+cv_industrial_outcome;A Workshop Development Settlement;;;;;;;;;;;;;x
+cv_industrial_outcome_desc;Workshop investment supports manufacturing while the treasury maintains its institutions. Improves factory throughput. Reduces tax collection efficiency.;;;;;;;;;;;;;x
+cv_balanced_outcome;An Administrative Development Settlement;;;;;;;;;;;;;x
+cv_balanced_outcome_desc;Trained officials and teachers sustain the provincial renewal programme. Improves administrative efficiency. Improves education efficiency.;;;;;;;;;;;;;x
+cv_choose_programme_title;Lay a Development Programme Before the Crown;;;;;;;;;;;;;x
+cv_choose_programme_desc;The crown must decide how to develop the kingdom. Countryside improvement, royal industry and balanced renewal offer different opportunities, while selective projects preserve greater freedom for the court.;;;;;;;;;;;;;x
+cv_programme_hist;Retain selective royal projects.;;;;;;;;;;;;;x
+cv_programme_rural;Give priority to the countryside.;;;;;;;;;;;;;x
+cv_programme_industry;Seek greater industrial independence.;;;;;;;;;;;;;x
+cv_programme_balance;Renew the provincial administration.;;;;;;;;;;;;;x
+cv_programme_title;What Kind of Kingdom Shall We Build?;;;;;;;;;;;;;x
+cv_programme_desc;Petitions from the provinces lie beside the accounts of the royal works. Landowners ask for roads and clearer titles, merchants for credit, and the officers at Pietrarsa for trained hands and dependable orders. His Majesty cannot grant every request. One body of ministers would begin with the countryside, another would make the workshops instruments of royal strength, while a third urges schools and provincial offices before grand undertakings. Each proposal has its advocates at court and its opponents beyond Naples. The council must settle which enterprises shall receive the crown's continuing attention, or leave the ministries to pursue their separate projects.;;;;;;;;;;;;;x
+cv_cadastre_title;Survey Titles and Communal Rights;;;;;;;;;;;;;x
+cv_cadastre_desc;Surveyors will compare land titles, village boundaries and disputed rights of use. A reliable register can clarify public accounts, but established proprietors will resist scrutiny of their claims.;;;;;;;;;;;;;x
+cv_grain_funds_title;Audit the Village Grain Funds;;;;;;;;;;;;;x
+cv_grain_funds_desc;Village grain funds should lend seed when households need it and recover stocks after harvest. Published accounts and inspected stores will help protect rural families from dependence on private lenders.;;;;;;;;;;;;;x
+cv_commons_title;Convene Tribunals on the Commons;;;;;;;;;;;;;x
+cv_commons_desc;The surveys expose overlapping private titles and communal claims. Provincial tribunals must decide whether to uphold existing deeds, protect village rights of use or establish smallholdings on disputed public land.;;;;;;;;;;;;;x
+cv_commons_deeds;Uphold the established deeds.;;;;;;;;;;;;;x
+cv_commons_access;Protect documented village rights of use.;;;;;;;;;;;;;x
+cv_commons_small;Create smallholdings and review their survival.;;;;;;;;;;;;;x
+cv_commons_hearing_title;Whose Land Is the Common?;;;;;;;;;;;;;x
+cv_commons_hearing_desc;The commissioners have received deeds bearing proper seals, petitions bearing the names of entire villages, and testimony that agrees upon scarcely a boundary. A proprietor insists that the court protect his title. The villagers answer that their fathers cut wood and grazed animals upon the same ground without asking his leave. Upholding the deeds would satisfy the owners, while preserving customary access would sustain the villages. Dividing disputed public land into smallholdings offers another settlement, but possession alone will not furnish a poor household with seed, animals or credit. Whatever judgment is issued, the provincial authorities must enforce it among neighbours who will continue to live beside one another.;;;;;;;;;;;;;x
+cv_smallholders_supported;The grain funds have sustained the new proprietors.;;;;;;;;;;;;;x
+cv_smallholders_failed;Record the losses and the growing resentment.;;;;;;;;;;;;;x
+cv_smallholders_lapsed;The old commission no longer has jurisdiction.;;;;;;;;;;;;;x
+cv_smallholdings_review_title;Two Harvests After the Settlement;;;;;;;;;;;;;x
+cv_smallholdings_review_desc;The first deeds are now two harvests old. Where grain funds kept seed within reach, the new households have a firmer footing. Elsewhere, creditors are gathering the plots back together. The registers record a real change only if the families can continue working the land.;;;;;;;;;;;;;x
+cv_provincial_credit_title;Endow Provincial Discount Offices;;;;;;;;;;;;;x
+cv_provincial_credit_desc;Merchants beyond the capital need dependable access to commercial credit. Supervised provincial offices can support their trade, but troubled loans and reserve obligations will require continuing attention from the treasury.;;;;;;;;;;;;;x
+cv_credit_reserve;Provide an audited reserve.;;;;;;;;;;;;;x
+cv_credit_contract;Let the offices contract their lending.;;;;;;;;;;;;;x
+cv_credit_lapsed;Close the old commission.;;;;;;;;;;;;;x
+cv_credit_review_title;The First Provincial Credit Examination;;;;;;;;;;;;;x
+cv_credit_review_desc;The provincial offices have begun to send their accounts to Naples. Among the merchants' bills are overdue advances, disputed securities and promises resting upon a harvest yet to be gathered. The inspectors believe the offices can continue if the treasury provides a reserve and requires their books to be published. Others at the council fear that an advance today will become an expectation tomorrow. Refusing assistance preserves the treasury's resources, but sound merchants may suffer alongside doubtful borrowers when credit contracts. The ministry must decide how much confidence it will place in these new provincial institutions.;;;;;;;;;;;;;x
+cv_bari_fund;Support the Bari office.;;;;;;;;;;;;;x
+cv_bari_defer;Postpone the appropriation.;;;;;;;;;;;;;x
+cv_bari_title;A Provincial Bank Office at Bari;;;;;;;;;;;;;x
+cv_bari_desc;A bank office at Bari offers a practical extension of the kingdom's financial administration beyond Naples. An appropriation can provide premises, staff and working funds. The concession remains limited: a single office does not yet supply the whole mainland with credit. Ministers must decide whether the treasury can carry the expense.;;;;;;;;;;;;;x
+cv_mechanics_school_title;Train Mechanics for Pietrarsa;;;;;;;;;;;;;x
+cv_mechanics_school_desc;Buying machines cannot replace technical knowledge. Apprenticeships, drawing instruction and maintenance practice around Pietrarsa will develop skilled workers, who may also demand a greater voice in public life.;;;;;;;;;;;;;x
+cv_mongiana_contracts_title;Place Supply Contracts at Mongiana;;;;;;;;;;;;;x
+cv_mongiana_contracts_desc;Regular orders and inspected deliveries can connect the Calabrian works more closely with the royal army. Accountable contracts will strengthen the supply of tools, stores and military equipment.;;;;;;;;;;;;;x
+cv_steam_yards_title;Modernise the Castellammare Workshops;;;;;;;;;;;;;x
+cv_steam_yards_desc;Steam machinery demands repair skills, fuel stores and dependable naval accounts. Workshops at Castellammare will help the existing fleet meet these demands and maintain its readiness at sea.;;;;;;;;;;;;;x
+cv_examinations_title;Institute Provincial Administrative Examinations;;;;;;;;;;;;;x
+cv_examinations_desc;Provincial renewal needs trained officials and teachers. Examinations and common record forms will improve their work, while challenging the patronage through which many appointments have traditionally been made.;;;;;;;;;;;;;x
+cv_palermo_conference_title;Negotiate a Settlement with Palermo;;;;;;;;;;;;;x
+cv_palermo_conference_desc;A royal commission can negotiate with Palermo while the island remains under the crown. Provincial consultation or a separate parliament may ease resentment, but concessions will limit Naples's control over island affairs.;;;;;;;;;;;;;x
+cv_palermo_central;Preserve the common royal administration.;;;;;;;;;;;;;x
+cv_palermo_council;Guarantee consultation and a published island budget.;;;;;;;;;;;;;x
+cv_palermo_parliament;Restore an island parliament under the common crown.;;;;;;;;;;;;;x
+cv_palermo_title;The Institutions of the Island;;;;;;;;;;;;;x
+cv_palermo_desc;Palermo's delegates have come with petitions concerning the island's revenues and the officials sent to administer them. They ask who may approve expenditure in Sicily and who shall answer when the accounts are disputed. The ministers offer a consultative council through which the island may be heard without recovering a legislature. The stronger proposal would establish an island parliament and a separate budget, binding the crown to a more considerable bargain. Neither side has forgotten the troops and proclamations of earlier confrontations. A settlement signed at the conference must also command confidence in the towns where it will be put into practice.;;;;;;;;;;;;;x
+cv_settlement_breaks_a;The guarantees have lost their authority.;;;;;;;;;;;;;x
+cv_settlement_breaks_title;The Palermo Settlement Under Strain;;;;;;;;;;;;;x
+cv_settlement_breaks_desc;The institutions agreed with Palermo have failed to contain a renewed crisis. Armed defiance and extraordinary public anger have undermined the agreement. The crown can no longer treat the island as reconciled merely because a charter was once signed. Existing grievances and the ordinary revolutionary struggle will decide what follows.;;;;;;;;;;;;;x
+cv_officer_review_title;Review the Promotion of Royal Officers;;;;;;;;;;;;;x
+cv_officer_review_desc;A commission will examine promotion, staff training and the obligations of command. Professional standards promise a more capable army, while unsettling courtiers who regard personal loyalty as the foundation of service.;;;;;;;;;;;;;x
+cv_officers_loyal;Keep royal confidence at the centre of promotion.;;;;;;;;;;;;;x
+cv_officers_professional;Adopt examinations and professional staff training.;;;;;;;;;;;;;x
+cv_officers_review_title;Loyalty and Professional Command;;;;;;;;;;;;;x
+cv_officers_review_desc;The commission has found that discipline and expertise are different questions. The crown can preserve a system of personal confidence, or bind advancement more closely to examinations and staff practice. Professional standards improve coordination, but they also give officers a corporate voice which the court cannot always control.;;;;;;;;;;;;;x
+cv_filangieri_hist;Maintain the inherited system.;;;;;;;;;;;;;x
+cv_filangieri_reform;Grant a conservative constitution and review political cases.;;;;;;;;;;;;;x
+cv_filangieri_title;Filangieri and the New Reign;;;;;;;;;;;;;x
+cv_filangieri_desc;The accession of Francis has brought a new round of audiences, memorials and urgent advice. Filangieri counsels the young king to gather support before the kingdom's enemies can profit from its divisions. A conservative constitution might draw men of property and moderate opinion back towards the throne and furnish the diplomats with a stronger case abroad. At court, the defenders of the inherited order warn that a concession made under pressure will invite further demands. The king must judge whether reform can preserve the authority of his house, or whether the old system can still command the obedience upon which that authority rests.;;;;;;;;;;;;;x
+cv_french_opening_title;Seek a French Understanding;;;;;;;;;;;;;x
+cv_french_opening_desc;Constitutional reform offers our diplomats an opening in Paris. A mission can seek renewed consultation, though French cooperation will depend on its own ambitions and interests in Italy.;;;;;;;;;;;;;x
+cv_french_opening_no;Decline a new commitment.;;;;;;;;;;;;;x
+cv_french_opening_yes;Receive the mission and exchange assurances.;;;;;;;;;;;;;x
+cv_french_opening_request_title;An Opening from Naples;;;;;;;;;;;;;x
+cv_french_opening_request_desc;The constitutional government in Naples proposes diplomatic consultation. Its envoys hope to reduce the kingdom's isolation, but our Italian commitments may point in another direction. Receiving the mission would improve relations without promising intervention or changing the independence of either state.;;;;;;;;;;;;;x
+cv_french_opened_a;Enter the answer in the diplomatic record.;;;;;;;;;;;;;x
+cv_french_opened_title;The Mission Is Received;;;;;;;;;;;;;x
+cv_french_opened_desc;Paris has accepted diplomatic consultation. Relations have improved, but the assurances contain no military guarantee. The kingdom must still maintain its own defences and make its institutions credible.;;;;;;;;;;;;;x
+cv_french_closed_a;Enter the answer in the diplomatic record.;;;;;;;;;;;;;x
+cv_french_closed_title;Paris Declines the Opening;;;;;;;;;;;;;x
+cv_french_closed_desc;The French government has declined a new understanding. The mission has spent its appropriation without obtaining a commitment. Reform at home must stand on its own merits, and the kingdom remains responsible for its own defence.;;;;;;;;;;;;;x
+cv_complete_rural_title;Consolidate the Rural Programme;;;;;;;;;;;;;x
+cv_complete_rural_desc;The countryside programme has established registers, village credit and rural institutions. Their continuing administration can consolidate agricultural renewal, though the crown must still balance rural needs against industrial ambitions.;;;;;;;;;;;;;x
+cv_complete_industry_title;Consolidate the Workshop Programme;;;;;;;;;;;;;x
+cv_complete_industry_desc;The industrial programme has developed workshops, technical instruction and supply contracts. Consolidating these institutions will strengthen manufacturing while binding the treasury to their continuing support.;;;;;;;;;;;;;x
+cv_complete_balanced_title;Consolidate the Renewal Programme;;;;;;;;;;;;;x
+cv_complete_balanced_desc;Schools, provincial administration and selective investment have given renewal a broad foundation. Sustaining these institutions will help the kingdom develop without committing every resource to a single sector.;;;;;;;;;;;;;x
+cv_programme_complete_a;Publish the accounts and continue the work.;;;;;;;;;;;;;x
+cv_programme_complete_title;A Programme Becomes an Institution;;;;;;;;;;;;;x
+cv_programme_complete_desc;What began as separate petitions and royal authorisations now has offices, trained servants and accounts of its own. Provincial officials know where to send their returns, and the establishments can expect continuing attention rather than await another favour from court. The council has approved the means to sustain the institutions raised under the chosen programme. Their reputation will depend upon the conduct of the men appointed to them: a school needs instructors, a credit office careful clerks, and a workshop orders that arrive before its skilled hands depart. The crown has acquired a more enduring instrument of government, together with the obligation to keep it in good order.;;;;;;;;;;;;;x
+cv_survival_a;Reopen the civil accounts and recognise the work of reconstruction.;;;;;;;;;;;;;x
+cv_survival_title;The Kingdom Beyond the Crisis;;;;;;;;;;;;;x
+cv_survival_desc;The kingdom has survived the years in which its independence was most threatened. Peace gives the government a chance to assess the institutions it preserved and the concessions it made. Survival does not settle the Italian question, nor does it erase provincial grievances. The councils must now turn emergency measures into a workable ordinary administration.;;;;;;;;;;;;;x
+cv_rail_bari_title;Extend the Railway Programme to Bari;;;;;;;;;;;;;x
+cv_rail_bari_desc;A railway towards Bari would connect the Adriatic provinces with the capital. Engineers must survey the route and organise construction before the promised commercial advantages can be realised.;;;;;;;;;;;;;x
+cv_rail_bari_open;Open the completed section.;;;;;;;;;;;;;x
+cv_rail_bari_close;Close the commission without a new line.;;;;;;;;;;;;;x
+cv_rail_bari_complete_title;The Railway Commission Reports;;;;;;;;;;;;;x
+cv_rail_bari_complete_desc;Two years after the appropriation, the railway commission reports on the funded section. If the district remains under our control and still lacks a line, the first railway can now enter service. If war or a change of government has overtaken the project, its appropriation has already been spent and the commission must close without claiming a completed line.;;;;;;;;;;;;;x
+cv_rail_reggio_title;Finance the Calabrian Railway Section;;;;;;;;;;;;;x
+cv_rail_reggio_desc;A railway towards Reggio would improve communication through Calabria and towards the strait. The route requires careful engineering and dependable local arrangements before construction can proceed.;;;;;;;;;;;;;x
+cv_rail_reggio_open;Open the completed section.;;;;;;;;;;;;;x
+cv_rail_reggio_close;Close the commission without a new line.;;;;;;;;;;;;;x
+cv_rail_reggio_complete_title;The Railway Commission Reports;;;;;;;;;;;;;x
+cv_rail_reggio_complete_desc;Two years after the appropriation, the railway commission reports on the funded section. If the district remains under our control and still lacks a line, the first railway can now enter service. If war or a change of government has overtaken the project, its appropriation has already been spent and the commission must close without claiming a completed line.;;;;;;;;;;;;;x
+cv_rail_palermo_title;Finance a Sicilian Railway Section;;;;;;;;;;;;;x
+cv_rail_palermo_desc;Railway construction around Palermo can improve transport between the island's markets. The crown must coordinate engineers, supplies and district authorities while respecting Sicily's political settlement.;;;;;;;;;;;;;x
+cv_rail_palermo_open;Open the completed section.;;;;;;;;;;;;;x
+cv_rail_palermo_close;Close the commission without a new line.;;;;;;;;;;;;;x
+cv_rail_palermo_complete_title;The Railway Commission Reports;;;;;;;;;;;;;x
+cv_rail_palermo_complete_desc;Two years after the appropriation, the railway commission reports on the funded section. If the district remains under our control and still lacks a line, the first railway can now enter service. If war or a change of government has overtaken the project, its appropriation has already been spent and the commission must close without claiming a completed line.;;;;;;;;;;;;;x
+cv_italian_policy_title;Debate the Crown and the Italian Nation;;;;;;;;;;;;;x
+cv_italian_policy_desc;The kingdom's development has raised a larger question: what role should Naples play in Italy? Ministers must choose between a federal crown, centralized constitutional leadership, an absolute national monarchy or continued restraint.;;;;;;;;;;;;;x
+cv_nation_south;Retain the southern kingdom's present commitments.;;;;;;;;;;;;;x
+cv_nation_charter;Build a centralized constitutional kingdom under Naples.;;;;;;;;;;;;;x
+cv_nation_crown;Entrust national leadership to an undivided absolute crown.;;;;;;;;;;;;;x
+cv_national_policy_title;The Crown and the Nation;;;;;;;;;;;;;x
+cv_national_policy_desc;Development has strengthened parts of the kingdom without deciding who may govern it. A federal crown would protect the Palermo compact and negotiate wider Italian cooperation. A centralized constitutional kingdom would place representative government and national administration under Naples. An absolute crown would claim the same leadership while refusing parliamentary restraint. These are exclusive political mandates. The southern status quo remains available, but adopting a new mandate commits the court to its institutions, opposition and future Italian policy.;;;;;;;;;;;;;x
+cv_rome_congress_title;Propose an Italian League at Rome;;;;;;;;;;;;;x
+cv_rome_congress_desc;An alliance with the Papal government could bring independent Italian crowns into closer consultation. Rome may welcome the proposal or refuse it, preserving its freedom to pursue a different policy.;;;;;;;;;;;;;x
+cv_rome_refuse;Decline the proposed league.;;;;;;;;;;;;;x
+cv_rome_accept;Conclude the alliance while preserving Papal sovereignty.;;;;;;;;;;;;;x
+cv_rome_invitation_title;A League of Italian Crowns?;;;;;;;;;;;;;x
+cv_rome_invitation_desc;Naples proposes an alliance under a common Italian understanding. The proposal leaves Papal sovereignty intact, but even a limited league might involve Rome in rivalries between Naples, Turin and Vienna. The government must judge the offer for itself. Refusal closes this mission without preventing later ordinary diplomacy.;;;;;;;;;;;;;x
+cv_league_accepted_a;Receive the delegation's report.;;;;;;;;;;;;;x
+cv_league_accepted_title;The Roman Articles Are Signed;;;;;;;;;;;;;x
+cv_league_accepted_desc;Rome has accepted the alliance. The Papal government remains sovereign, and Naples has gained a diplomatic partner rather than an Italian crown. The league must now survive the competing ambitions and obligations of its members.;;;;;;;;;;;;;x
+cv_league_refused_a;Receive the delegation's report.;;;;;;;;;;;;;x
+cv_league_refused_title;Rome Declines the League;;;;;;;;;;;;;x
+cv_league_refused_desc;The Papal government has declined the proposed alliance. The delegation returns with no treaty. The crown must pursue its Italian ambitions through other partners, or reconsider the obligations it is prepared to undertake.;;;;;;;;;;;;;x
+cvh_police;Internal Security Guard;;;;;;;;;;;;;x
+cvh_police_desc;Internal Security Guard represents the funded institutions and obligations of this programme. Public unrest subsides more readily.;;;;;;;;;;;;;x
+cvh_steam;Steam Engineering Instruction;;;;;;;;;;;;;x
+cvh_steam_desc;British steamships have introduced new possibilities for the royal navy. Instruction, repair facilities and trained mechanics will help the fleet master machinery that traditional seamanship alone cannot maintain.;;;;;;;;;;;;;x
+cvh_frontier;Surveyed Frontier and Customs Posts;;;;;;;;;;;;;x
+cvh_frontier_desc;The Papal frontier crosses difficult terrain and disputed local boundaries. Survey markers, district registers and cooperation between customs offices can make this border clearer and more dependable.;;;;;;;;;;;;;x
+cvh_rail_link;Naples-Caserta Railway Coordination;;;;;;;;;;;;;x
+cvh_rail_link_desc;Naples-Caserta Railway Coordination represents the funded institutions and obligations of this programme. Improves local farm and mine throughput.;;;;;;;;;;;;;x
+cvh_telegraph;Royal Electric Telegraph;;;;;;;;;;;;;x
+cvh_telegraph_desc;Telegraph instruments and trained operators can connect ministries, fortresses and provincial offices. Faster official communication will improve coordination, though much of the kingdom still depends on messengers and roads.;;;;;;;;;;;;;x
+cvh_fucino_works;Fucino Survey and Drainage Works;;;;;;;;;;;;;x
+cvh_fucino_works_desc;Fucino Survey and Drainage Works represents the funded institutions and obligations of this programme. Reduces local farm and mine throughput.;;;;;;;;;;;;;x
+cvh_seismograph;Palmieri Instrument Programme;;;;;;;;;;;;;x
+cvh_seismograph_desc;Palmieri Instrument Programme represents the funded institutions and obligations of this programme. Improves research output.;;;;;;;;;;;;;x
+cvh_post;Standardised Postal Accounts;;;;;;;;;;;;;x
+cvh_post_desc;Standardised Postal Accounts represents the funded institutions and obligations of this programme. Improves tax collection efficiency.;;;;;;;;;;;;;x
+cvh_swiss_loss;Dissolution of the Swiss Regiments;;;;;;;;;;;;;x
+cvh_swiss_loss_desc;The dissolution of the Swiss regiments disrupts command and instruction until replacements are trained. Reduces army organisation.;;;;;;;;;;;;;x
+cvh_relief;Basilicata Relief and Repair Crews;;;;;;;;;;;;;x
+cvh_relief_desc;Basilicata Relief and Repair Crews represents the funded institutions and obligations of this programme. Improves local repair rate.;;;;;;;;;;;;;x
+cvh_accession_a;Reduce court expenditure and recall experienced officers.;;;;;;;;;;;;;x
+cvh_accession_title;Ferdinand II and the Cost of the Court;;;;;;;;;;;;;x
+cvh_accession_desc;The accession of Ferdinand II in November 1830 has raised expectations at Naples. The young king reduces expenditure at court, replaces ministers and extends clemency to some political prisoners. Officers associated with the Murat period can return to royal service. These measures seek a stronger Bourbon administration, not parliamentary government. The crown remains absolute, and the relationship between Naples and Sicily will test how far administrative renewal can resolve political grievances.;;;;;;;;;;;;;x
+cvh_american_claims_a;Recognise the convention and open regular diplomatic channels.;;;;;;;;;;;;;x
+cvh_american_claims_title;The American Claims Convention;;;;;;;;;;;;;x
+cvh_american_claims_desc;Formal diplomatic relations with the United States began in January 1832. A convention signed that October addresses American claims arising from seizures during the Murat era. Recognition and the settlement belong together: compensation repairs an inherited dispute, while resident diplomatic representatives establish a channel for later commercial negotiations. This agreement does not itself confer free trade or the privileges of the separate 1845 treaty.;;;;;;;;;;;;;x
+cvh_claims_payment_title;Discharge the American Claims Settlement;;;;;;;;;;;;;x
+cvh_claims_payment_desc;Claims arising from Murat-era seizures still burden relations with Washington. Compensation and a settlement of outstanding accounts will clear the way for later commercial negotiations.;;;;;;;;;;;;;x
+cvh_guard_title;Organise the Internal Security Guard;;;;;;;;;;;;;x
+cvh_guard_desc;Royal policing depends on coordination between the capital and provincial authorities. An internal security formation can strengthen public order, while giving officials a more prominent role in local affairs.;;;;;;;;;;;;;x
+cvh_steam_title;Train Engineers for the Steam Navy;;;;;;;;;;;;;x
+cvh_cholera_revolt_a;Send royal commissioners and suppress the disturbances.;;;;;;;;;;;;;x
+cvh_cholera_revolt_b;Instruct officials to explain quarantine and hear grievances.;;;;;;;;;;;;;x
+cvh_cholera_revolt_title;Poison Rumours and the Sicilian Cholera Revolts;;;;;;;;;;;;;x
+cvh_cholera_revolt_desc;Cholera has spread through the kingdom, and rumours in Sicily accuse the authorities of poisoning the population. In the summer of 1837 unrest in Syracuse and Catania turned disease and distrust into a political crisis. Royal commissioners answered with repression. The island districts now face both an epidemic and hostility toward Naples. A military response may restore immediate order, but its consequences will outlast the emergency and deepen the resentment of royal administration.;;;;;;;;;;;;;x
+cvh_frontier_title;Survey the Papal Frontier and Customs Posts;;;;;;;;;;;;;x
+cvh_feudal_accounts_title;Settle Sicily's Remaining Feudal Accounts;;;;;;;;;;;;;x
+cvh_feudal_accounts_desc;Feudal abolition left disputes over dues, compensation and communal rights. District reviews can settle these accounts, easing rural grievances while challenging inherited privileges.;;;;;;;;;;;;;x
+cvh_caserta_title;Coordinate the Railway to Caserta;;;;;;;;;;;;;x
+cvh_caserta_desc;The railway now reaches inland towards Cancello and Caserta. Connecting roads, freight arrangements and an organised terminus will help neighbouring districts share in its commercial advantages.;;;;;;;;;;;;;x
+cvh_bandiera_a;Carry out the sentences of the military tribunal.;;;;;;;;;;;;;x
+cvh_bandiera_b;Commute the death sentences.;;;;;;;;;;;;;x
+cvh_bandiera_title;The Bandiera Expedition;;;;;;;;;;;;;x
+cvh_bandiera_desc;Attilio and Emilio Bandiera have landed in Calabria with companions who expect a popular rising against Bourbon rule. Their venture fails to gather the support they anticipated, and the authorities capture the party. A military trial at Cosenza condemns its leaders. Nine participants, including the brothers, were executed on 25 July 1844. Their deaths will become a symbol for Italian nationalists, even though the expedition itself has failed to overturn royal government.;;;;;;;;;;;;;x
+cvh_telegraph_title;Extend the Royal Electric Telegraph;;;;;;;;;;;;;x
+cvh_fucino_title;Authorise Surveys and Works at Lake Fucino;;;;;;;;;;;;;x
+cvh_fucino_desc;The drainage of Lake Fucino promises new farmland, but demands a difficult and prolonged engineering undertaking. Surveys and initial works will disrupt local activity before any lasting benefits can emerge.;;;;;;;;;;;;;x
+cvh_bentivegna_a;Enforce the sentences against the leaders.;;;;;;;;;;;;;x
+cvh_bentivegna_b;Commute the sentences to imprisonment.;;;;;;;;;;;;;x
+cvh_bentivegna_title;Bentivegna's Sicilian Rising;;;;;;;;;;;;;x
+cvh_bentivegna_desc;Francesco Bentivegna has attempted to raise a revolt in Sicily in November 1856. The movement fails to secure the support necessary to challenge the monarchy, and the authorities capture its leaders. Its defeat does not resolve the island's political grievances. A harsh sentence may deter immediate conspiracies while supplying nationalist opponents with another martyr. The episode belongs to the mounting crisis of Bourbon authority, rather than an independent invasion or a new international war.;;;;;;;;;;;;;x
+cvh_milano_a;Investigate the attack and retain royal command.;;;;;;;;;;;;;x
+cvh_milano_title;The Attempt on Ferdinand II;;;;;;;;;;;;;x
+cvh_milano_desc;During a military parade on 8 December 1856, the soldier Agesilao Milano attacks Ferdinand II. The king survives, but the attempt reinforces the court's fears of conspiracy within its own forces. The resulting investigation and punishment further separate royal security from constitutional opinion. The attack is a crisis of confidence rather than the death of the monarch: succession remains tied to Ferdinand's later death, and no new ruler or government is installed by this event.;;;;;;;;;;;;;x
+cvh_palmieri_title;Equip Palmieri's Electromagnetic Seismograph;;;;;;;;;;;;;x
+cvh_palmieri_desc;Palmieri's instruments offer a more systematic record of earth movement. Assistants, observation logs and careful measurement will advance the observatory's work and deepen scientific understanding of the volcano.;;;;;;;;;;;;;x
+cvh_earthquake_event_a;Request district reports and organise the relief accounts.;;;;;;;;;;;;;x
+cvh_earthquake_event_title;The Great Basilicata Earthquake;;;;;;;;;;;;;x
+cvh_earthquake_event_desc;A devastating earthquake struck Basilicata and the Vallo di Diano on 16 December 1857. Towns and villages suffered collapsed buildings, lost livelihoods and a long sequence of aftershocks. The royal authorities must organise reports, shelter and provisions through damaged district administrations. This report follows the devastation already applied by the existing GFM earthquake event. Scientific observation can document the disaster, but it cannot undo the destruction or supply relief without expenditure.;;;;;;;;;;;;;x
+cvh_earthquake_relief_title;Fund Basilicata Earthquake Relief;;;;;;;;;;;;;x
+cvh_earthquake_relief_desc;Reports from Basilicata describe shattered homes and interrupted administration. Relief crews must provide shelter, distribute food and begin repairs while the affected communities struggle to recover.;;;;;;;;;;;;;x
+cvh_mainland_stamps_title;Introduce Mainland Postage Stamps;;;;;;;;;;;;;x
+cvh_mainland_stamps_desc;Adhesive postage stamps require dependable printing, distribution and accounting. Standardising the mainland postal service will make correspondence and the administration of its receipts more consistent.;;;;;;;;;;;;;x
+cvh_sicilian_stamps_title;Issue Sicily's Ferdinand II Postage Stamps;;;;;;;;;;;;;x
+cvh_sicilian_stamps_desc;Sicily's separate postage series requires its own distribution and district accounts. Clerical instruction will support the service while preserving the island's distinct administrative arrangements.;;;;;;;;;;;;;x
+cvh_suspect_lists_a;Abolish the suspect lists and notify provincial offices.;;;;;;;;;;;;;x
+cvh_suspect_lists_title;Filangieri and the Lists of Suspects;;;;;;;;;;;;;x
+cvh_suspect_lists_desc;The new reign brings Carlo Filangieri to the head of government. In June 1859 the ministry orders the abolition of lists that restrict suspected persons, but police officials continue to seek information through other channels. Administrative reform therefore confronts the habits of the security system. Removing a list is a limited concession, not a constitution or a general amnesty. The kingdom's political conflict remains unresolved as ministers try to improve confidence without surrendering royal authority.;;;;;;;;;;;;;x
+cvh_swiss_a;Dissolve the regiments and reorganise recruitment.;;;;;;;;;;;;;x
+cvh_swiss_title;The Dissolution of the Swiss Regiments;;;;;;;;;;;;;x
+cvh_swiss_desc;A dispute over the Swiss regiments' national emblems becomes a military crisis in the summer of 1859. Mutiny, repression and the end of Swiss foreign service undermine formations on which the Bourbon court has relied. The government dissolves the regiments and must replace their role with newly organised forces. Army organisation falls temporarily while recruitment and instruction are rearranged. The event removes no player-built brigade: its modifier represents disruption to command and training across the existing establishment.;;;;;;;;;;;;;x
+cvh_replacement_training_title;Train Replacements for the Swiss Establishment;;;;;;;;;;;;;x
+cvh_replacement_training_desc;The dissolution of the Swiss regiments has left gaps in training and command. Instructors, depots and recruitment offices must prepare the formations that will assume their responsibilities.;;;;;;;;;;;;;x
+cvh_gancia_a;Report the conspiracy to the provincial authorities.;;;;;;;;;;;;;x
+cvh_gancia_title;The Gancia Rising in Palermo;;;;;;;;;;;;;x
+cvh_gancia_desc;An attempted rising around the Gancia convent in Palermo in April 1860 exposes the continuing weakness of royal authority on the island. The local conspiracy is suppressed, but its aftermath helps widen the confrontation between Bourbon administration and Sicilian opponents. This event increases unrest only in districts still held by the kingdom. It does not launch Garibaldi's expedition or create a foreign war: those developments remain governed by the existing GFM revolution and unification systems.;;;;;;;;;;;;;x
+cvh_pepe_a;Recall the expedition under royal orders.;;;;;;;;;;;;;x
+cvh_pepe_title;Pepe and the Northern Expedition;;;;;;;;;;;;;x
+cvh_pepe_desc;The constitutional crisis of 1848 has drawn the kingdom into the Italian question. Guglielmo Pepe receives command of troops intended for the campaign against Austria. After the rupture of 15 May, Ferdinand orders their return, Pepe refuses and continues toward Venice with a smaller following. The report records the division between royal obedience and Italian patriotism. It changes diplomatic attitudes but creates no fictitious army, declares no additional war and leaves the actual northern campaign to GFM.;;;;;;;;;;;;;x
+cvh_messina_a;Record the recovery and maintain the campaign.;;;;;;;;;;;;;x
+cvh_messina_title;Filangieri and the Recovery of Messina;;;;;;;;;;;;;x
+cvh_messina_desc;Royal forces have regained control of Messina during the campaign to recover Sicily. Carlo Filangieri's historical expedition began the reconquest in September 1848 and later advanced toward Palermo. Military possession of the strait is a major step, but the island settlement is still contested. This report is available only after the native Sicilian revolt and actual recovery of Messina. It does not annex Sicily, conclude the war or assume that Palermo has already fallen.;;;;;;;;;;;;;x
+cvh_february_charter_a;Promulgate the promised constitutional charter.;;;;;;;;;;;;;x
+cvh_february_charter_title;The Constitution of February 1848;;;;;;;;;;;;;x
+cvh_february_charter_desc;The revolt at Palermo and agitation on the mainland have forced the crown to fulfil its promise of a constitution. Ferdinand II promulgated the charter on 10 February 1848. Parliamentary institutions now enter the kingdom's political life, but disagreement remains over the royal oath, ministerial authority and Sicily's future. The change grants the constitutional government promised in January. It leaves the native Sicilian revolution intact and does not guarantee that the compromise will survive the coming confrontation.;;;;;;;;;;;;;x
+cvh_sicilian_parliament_a;Open the revolutionary parliament.;;;;;;;;;;;;;x
+cvh_sicilian_parliament_title;The Sicilian Parliament and Ruggero Settimo;;;;;;;;;;;;;x
+cvh_sicilian_parliament_desc;Sicily has established a separate revolutionary government following the collapse of royal authority on the island. Ruggero Settimo leads the movement, and a parliament assembles in the spring of 1848. The declaration against the Bourbon dynasty gives the conflict an institutional form, but independence must still be defended. This report follows the actual creation of Sicily by GFM. It grants a modest prestige award and does not release a second country or predetermine the result of the war.;;;;;;;;;;;;;x
+cvh_palermo_lost_a;Review the island command and the remaining positions.;;;;;;;;;;;;;x
+cvh_palermo_lost_title;The Loss of Palermo;;;;;;;;;;;;;x
+cvh_palermo_lost_desc;The royal administration has lost control of Palermo during the Italian campaign. Historically Garibaldi entered the city in late May 1860, after landing in western Sicily. The loss threatens communications across the island and undermines confidence at Naples. This report requires both the existing Redshirts campaign or an actual Italian war and the loss of the district. It records the strategic setback without assuming that a scripted battle occurred or transferring provinces away from the player.;;;;;;;;;;;;;x
+cvh_mainland_campaign_a;Review mainland defence and the fortress supply routes.;;;;;;;;;;;;;x
+cvh_mainland_campaign_title;The Campaign Reaches the Mainland;;;;;;;;;;;;;x
+cvh_mainland_campaign_desc;Royal control of Reggio Calabria has been broken while the kingdom faces the Redshirts campaign or an Italian war. The historical crossing of August 1860 opened the mainland to Garibaldi's advance, but the present military situation depends on the armies in the field. Ministers must now review the defence of Naples and communications with the remaining fortresses. The report marks an actual loss of control, it does not create invading units, impose a peace or announce the fall of the capital.;;;;;;;;;;;;;x
+cva_justice;Independent District Courts;;;;;;;;;;;;;x
+cva_justice_desc;Independent District Courts represents the funded institutions and obligations of this programme. Improves tax collection efficiency.;;;;;;;;;;;;;x
+cva_roads;Rural Roads and Market Access;;;;;;;;;;;;;x
+cva_roads_desc;Rural Roads and Market Access represents the funded institutions and obligations of this programme. Improves local farm and mine throughput.;;;;;;;;;;;;;x
+cva_health;Municipal Health Boards;;;;;;;;;;;;;x
+cva_health_desc;Municipal Health Boards represents the funded institutions and obligations of this programme. Public unrest subsides more readily.;;;;;;;;;;;;;x
+cva_sulphur;Sicilian Processing Contracts;;;;;;;;;;;;;x
+cva_sulphur_desc;Sicilian Processing Contracts represents the funded institutions and obligations of this programme. Improves local factory throughput.;;;;;;;;;;;;;x
+cva_state_industry;Royal Strategic Manufactures;;;;;;;;;;;;;x
+cva_state_industry_desc;Royal Strategic Manufactures represents the funded institutions and obligations of this programme. Improves factory throughput. Reduces tax collection efficiency.;;;;;;;;;;;;;x
+cva_private_industry;Supervised Private Concessions;;;;;;;;;;;;;x
+cva_private_industry_desc;Supervised Private Concessions represents the funded institutions and obligations of this programme. Improves factory throughput.;;;;;;;;;;;;;x
+cva_mixed_industry;Mixed Industrial Contracts;;;;;;;;;;;;;x
+cva_mixed_industry_desc;Mixed Industrial Contracts represents the funded institutions and obligations of this programme. Improves factory throughput. Reduces tax collection efficiency.;;;;;;;;;;;;;x
+cva_federal_compact;The Naples-Palermo Federal Compact;;;;;;;;;;;;;x
+cva_federal_compact_desc;The Naples-Palermo Federal Compact represents the funded institutions and obligations of this programme. Reduces tax collection efficiency. Improves education efficiency.;;;;;;;;;;;;;x
+cva_absolute_court;The Sovereign Royal Council;;;;;;;;;;;;;x
+cva_absolute_court_desc;The Sovereign Royal Council represents the funded institutions and obligations of this programme. Improves army organisation. Reduces tax collection efficiency.;;;;;;;;;;;;;x
+cva_constitution;The Southern Constitutional Settlement;;;;;;;;;;;;;x
+cva_constitution_desc;The Southern Constitutional Settlement represents the funded institutions and obligations of this programme. Improves administrative efficiency. Reduces tax collection efficiency.;;;;;;;;;;;;;x
+cva_league;Articles of the Italian League;;;;;;;;;;;;;x
+cva_league_desc;Articles of the Italian League represents the funded institutions and obligations of this programme. Reduces administrative efficiency. Improves research output.;;;;;;;;;;;;;x
+cva_army;National Staff and Depot System;;;;;;;;;;;;;x
+cva_army_desc;National Staff and Depot System represents the funded institutions and obligations of this programme. Improves army organisation.;;;;;;;;;;;;;x
+cva_campaign;Coordinated Defence of Sicily;;;;;;;;;;;;;x
+cva_campaign_desc;Coordinated Defence of Sicily represents the funded institutions and obligations of this programme. Improves army organisation. Improves naval organisation.;;;;;;;;;;;;;x
+cva_rural_italy;The Countryside of Bourbon Italy;;;;;;;;;;;;;x
+cva_rural_italy_desc;The Countryside of Bourbon Italy represents the funded institutions and obligations of this programme. Improves farm and mine throughput. Reduces factory throughput.;;;;;;;;;;;;;x
+cva_industrial_italy;The Workshops of Bourbon Italy;;;;;;;;;;;;;x
+cva_industrial_italy_desc;The Workshops of Bourbon Italy represents the funded institutions and obligations of this programme. Improves factory throughput. Reduces tax collection efficiency.;;;;;;;;;;;;;x
+cva_balanced_italy;The Renewal of Bourbon Italy;;;;;;;;;;;;;x
+cva_balanced_italy_desc;The Renewal of Bourbon Italy represents the funded institutions and obligations of this programme. Improves administrative efficiency. Improves education efficiency.;;;;;;;;;;;;;x
+cva_selective_register_a;Record the policy of selective royal projects.;;;;;;;;;;;;;x
+cva_selective_register_title;The Existing Development Policy;;;;;;;;;;;;;x
+cva_selective_register_desc;The cabinet has retained selective royal projects instead of adopting a countryside, industrial or balanced development doctrine. This remains a deliberate policy choice. Historical institutions and individual improvements can still be funded, but the coordinated development programmes will not open without their own mandate. The record also preserves the origin of the present government for later political debates, so a decision to avoid a large investment programme does not silently become a commitment to industrialisation.;;;;;;;;;;;;;x
+cva_reformist_crown_title;Continue the Early Royal Reform Programme;;;;;;;;;;;;;x
+cva_reformist_crown_desc;The king can preserve his absolute authority while continuing administrative reform. Audited appointments and provincial inspections will challenge patronage, earning the resentment of influential landowners.;;;;;;;;;;;;;x
+cva_municipal_health_title;Establish Municipal Health Boards;;;;;;;;;;;;;x
+cva_municipal_health_desc;Relief committees, public information and inspected medical accounts can strengthen the response to cholera. Local cooperation may reduce fear, provided officials respect the communities whose confidence they seek.;;;;;;;;;;;;;x
+cva_rural_roads_title;Link Villages to Courts and Markets;;;;;;;;;;;;;x
+cva_rural_roads_desc;Surveyed titles mean little when villagers cannot reach a court or sell a harvest safely. Feeder roads and supervised markets will improve rural access while challenging local intermediaries and their protectors.;;;;;;;;;;;;;x
+cva_local_justice_title;Break the Protection of Private Justice;;;;;;;;;;;;;x
+cva_local_justice_desc;Reports describe intimidation and the purchase of official protection. Independent magistrates and witness arrangements can confront these networks, but the inquiry will bring the crown into conflict with influential patrons.;;;;;;;;;;;;;x
+cva_justice_pursue;Prosecute protectors and publish the court accounts.;;;;;;;;;;;;;x
+cva_justice_bargain;Accept local guarantees and suspend the wider inquiry.;;;;;;;;;;;;;x
+cva_justice_choice_closed;Close the commission after the change of administration.;;;;;;;;;;;;;x
+cva_justice_choice_title;The Patrons Behind the Brotherhoods;;;;;;;;;;;;;x
+cva_justice_choice_desc;The magistrates find stolen livestock, coerced witnesses and protection extending beyond the bandits themselves. Some proprietors and officials ask the crown to close the inquiry in exchange for quiet. Continuing it will make public justice more credible to villagers, but influential families can obstruct tax collection and appointments. A settlement offers short-term calm while preserving their leverage. The commission cannot honestly announce the eradication of organised crime, and the consequences depend on the choice entered into its accounts.;;;;;;;;;;;;;x
+cva_elites_fund;Maintain the independent district courts.;;;;;;;;;;;;;x
+cva_elites_yield;Withdraw the wider mandate.;;;;;;;;;;;;;x
+cva_elites_closed;The commission no longer has its original mandate.;;;;;;;;;;;;;x
+cva_elite_resistance_title;The Resistance of the Provincial Notables;;;;;;;;;;;;;x
+cva_elite_resistance_desc;A year after the inquiry, influential families are obstructing appointments and challenging district accounts. Rural confidence has improved where magistrates protected witnesses, but the crown must fund its independent institutions if it wishes to retain that result. A compromise can quiet the notables at the cost of withdrawing the courts' mandate. The question is therefore not whether a road was built, but whether government can bear the political and financial expense of challenging private protection.;;;;;;;;;;;;;x
+cva_sulphur_processing_title;Contract Sicilian Sulphur Processing;;;;;;;;;;;;;x
+cva_sulphur_processing_desc;The settlement of the sulphur dispute offers room for a different industrial policy. Supervised processing contracts and technical instruction can develop Sicilian manufacturing without restoring the contested export monopoly.;;;;;;;;;;;;;x
+cva_industrial_model_title;Set Rules for Industrial Ownership;;;;;;;;;;;;;x
+cva_industrial_model_desc;The workshops need a clear division of responsibility. Ministers must choose between royal management, supervised private concessions or mixed contracts, balancing public obligations against the ambitions of private entrepreneurs.;;;;;;;;;;;;;x
+cva_industry_state;Reserve strategic management to the crown.;;;;;;;;;;;;;x
+cva_industry_private;Supervise private concessions.;;;;;;;;;;;;;x
+cva_industry_mixed;Keep strategic contracts and share commercial risk.;;;;;;;;;;;;;x
+cva_industry_model_closed;Close the commission after the change of administration.;;;;;;;;;;;;;x
+cva_industry_model_title;Managers, Capital and the Crown;;;;;;;;;;;;;x
+cva_industry_model_desc;Manufacturers and directors of the royal works have laid competing proposals before the ministry. The royal administrators would retain command of the establishments and their accounts, arguing that military supply cannot depend upon a contractor's convenience. Private petitioners answer that an undertaking cannot prosper when every appointment and purchase must await authority from Naples. A mixed arrangement would leave the crown its strategic orders while admitting private management and capital under inspection. The dispute concerns more than ownership on paper. It will determine whose word governs the shops, who bears the risk of a poor season, and to whom a capable mechanic must look for advancement.;;;;;;;;;;;;;x
+cv_nation_federal;Negotiate a federal crown and representative institutions.;;;;;;;;;;;;;x
+cva_federal_articles_title;Publish the Federal Budget Articles;;;;;;;;;;;;;x
+cva_federal_articles_desc;A federal crown needs agreed rules for shared defence, district budgets and parliamentary oversight. These articles will establish common responsibilities while preserving the separate institutions promised to Sicily.;;;;;;;;;;;;;x
+cva_royal_council_title;Organise the Sovereign Royal Council;;;;;;;;;;;;;x
+cva_royal_council_desc;An undivided crown still requires competent administration. A royal council will supervise provincial appointments, military supply and accounts, while liberal opponents resent the exclusion of parliamentary oversight.;;;;;;;;;;;;;x
+cva_national_statute_title;Codify the Southern National Statute;;;;;;;;;;;;;x
+cva_national_statute_desc;Ministries, elected deputies and provincial offices need a common constitutional framework. A national statute can coordinate government under Naples while limiting the court's freedom to rule without consultation.;;;;;;;;;;;;;x
+cva_pepe_north_title;Commit the Northern Expedition Against Austria;;;;;;;;;;;;;x
+cva_pepe_north_desc;Sardinia-Piedmont's war with Austria offers an opportunity to support Italian independence. Sending the northern expedition commits the kingdom to its own war, whose outcome must be decided on the battlefield.;;;;;;;;;;;;;x
+cva_national_army_title;Build a National Staff and Depot System;;;;;;;;;;;;;x
+cva_national_army_desc;Professional officers and telegraph communication provide a foundation for army reform after the Swiss crisis. Staff training, depot accounts and recruitment standards can make the royal forces more coherent.;;;;;;;;;;;;;x
+cva_sicily_campaign_title;Coordinate the Defence of a Reconciled Sicily;;;;;;;;;;;;;x
+cva_sicily_campaign_desc;The Italian campaign tests the kingdom's earlier reforms. Coordinated army and naval planning can support the defence of a reconciled Sicily, provided both shores remain under royal control.;;;;;;;;;;;;;x
+cva_league_articles_title;Ratify Articles of the Italian League;;;;;;;;;;;;;x
+cva_league_articles_desc;Italian partners must agree how their league will conduct common business. A congress can encourage scientific exchange and diplomatic cooperation while preserving the sovereignty of its members.;;;;;;;;;;;;;x
+cva_unified_federal;Apply the federal articles to the Italian kingdom.;;;;;;;;;;;;;x
+cva_unified_charter;Apply the national constitution from Naples.;;;;;;;;;;;;;x
+cva_unified_absolute;Retain the absolute Bourbon crown of Italy.;;;;;;;;;;;;;x
+cva_unified_title;The Southern Crown and a United Italy;;;;;;;;;;;;;x
+cva_unified_desc;The existing Italian unification process has created Italy under the southern political mandate. The crown must now apply the institutions for which it prepared: federal guarantees, centralized constitutional government or an undivided absolute monarchy. Naples remains the dynastic administrative centre. The kingdom's regional cultures continue to follow More Cultures, and future political change remains possible. This settlement records the player's route after actual unification rather than bypassing the conditions required to form the Italian state.;;;;;;;;;;;;;x
+cva_italy_rural_title;Extend Rural Institutions across Bourbon Italy;;;;;;;;;;;;;x
+cva_italy_rural_desc;The united kingdom can extend the south's rural institutions into new districts. Agricultural renewal will retain its demands on public administration and its competition with industrial priorities.;;;;;;;;;;;;;x
+cva_italy_industry_title;Coordinate the Workshops of Bourbon Italy;;;;;;;;;;;;;x
+cva_italy_industry_desc;The united kingdom can extend the south's workshops and industrial institutions. Manufacturing will gain a broader foundation, while public contracts and technical instruction continue to burden the treasury.;;;;;;;;;;;;;x
+cva_italy_balanced_title;Extend Provincial Renewal across Bourbon Italy;;;;;;;;;;;;;x
+cva_italy_balanced_desc;The united kingdom can extend the south's balanced programme of schools, administration and selective investment. Local circumstances will shape how these institutions develop beyond their original provinces.;;;;;;;;;;;;;x
+cva_venetia_title;Prepare the Italian Claim to Venetia;;;;;;;;;;;;;x
+cva_venetia_desc;A settled Bourbon Italy can challenge Austrian rule in Venetia. Diplomatic preparation will support a territorial claim, but the government must weigh the risks of a war with Austria.;;;;;;;;;;;;;x
+cva_roman_question_title;Debate the Roman Settlement;;;;;;;;;;;;;x
+cva_roman_question_desc;Rome's place in the kingdom raises questions of sovereignty, religion and the national capital. Ministers must weigh Papal independence against Italian ambitions, or settle religious guarantees where Italian authority already prevails.;;;;;;;;;;;;;x
+cva_rome_preserve;Preserve Papal sovereignty and retain Naples.;;;;;;;;;;;;;x
+cva_rome_claim;Prepare a claim and accept the risk of war.;;;;;;;;;;;;;x
+cva_rome_capital;Guarantee religious institutions and move the capital to Rome.;;;;;;;;;;;;;x
+cva_rome_naples;Retain Naples and recognise Rome's religious institutions.;;;;;;;;;;;;;x
+cva_rome_closed;Close the commission after the change of administration.;;;;;;;;;;;;;x
+cva_rome_title;Rome, the Pope and the Italian Crown;;;;;;;;;;;;;x
+cva_rome_desc;The Roman question divides religious legitimacy, national symbolism and the inherited southern administration. Papal sovereignty can remain outside the kingdom, while a claim requires an actual war or later diplomatic settlement. If Italy already owns Rome, guarantees can protect its religious institutions, and the court may choose whether to move from Naples. A federal mandate preserves its wider budget bargain, a centralized monarchy retains a common administration. The council must respond to present ownership rather than a date alone.;;;;;;;;;;;;;x
+cva_legacy_absolute;Record the absolute dynastic mandate.;;;;;;;;;;;;;x
+cva_legacy_charter;Record the representative national mandate.;;;;;;;;;;;;;x
+cva_legacy_policy_title;The Existing Italian Mandate;;;;;;;;;;;;;x
+cva_legacy_policy_desc;The crown previously chose Italian leadership before the present institutional settlement was available. The cabinet now records that commitment under the appropriate mandate. An absolute dynastic policy becomes the sovereign royal council route. Representative leadership becomes the centralized constitutional route. The existing economic programme, provinces and population cultures remain intact. This administrative record does not form Italy or promise victory, it enables the institutional decisions belonging to the policy already selected.;;;;;;;;;;;;;x
+cvi_exile_court;The French Bourbon Household;;;;;;;;;;;;;x
+cvi_exile_court_desc;The French Bourbon Household represents the funded institutions and obligations of this programme. Improves administrative efficiency. Reduces tax collection efficiency.;;;;;;;;;;;;;x
+cvi_opera;Patronage of San Carlo;;;;;;;;;;;;;x
+cvi_opera_desc;Patronage of San Carlo represents the funded institutions and obligations of this programme. Improves research output.;;;;;;;;;;;;;x
+cvi_exile_historical;Do not establish the exiled royal household here.;;;;;;;;;;;;;x
+cvi_exile_invite;Invite and establish the household.;;;;;;;;;;;;;x
+cvi_exile_title;The French Bourbons in Exile;;;;;;;;;;;;;x
+cvi_exile_desc;The July Revolution has displaced Charles X, and Louis-Philippe has taken the French throne. The senior Bourbon household seeks refuge abroad. Historically Charles went to Britain and later Habsburg lands, while members of the wider family maintained ties with Naples. Our court may decline a permanent invitation, or offer a funded establishment to the exiled household. The alternative would bring private funds and court experience, but also maintenance obligations, legitimist intrigue and liberal resentment. It does not restore the French throne.;;;;;;;;;;;;;x
+cvi_exile_settled;Enter the contribution and maintain the household.;;;;;;;;;;;;;x
+cvi_exile_cancelled;Close the invitation and recover the unused reserve.;;;;;;;;;;;;;x
+cvi_exile_arrival_title;A Bourbon Household at Naples;;;;;;;;;;;;;x
+cvi_exile_arrival_desc;The exiled household and its attendants have arrived in Naples. Private purchases and court connections bring new activity to the capital, while experienced staff assist the administration. Housing and pensions impose obligations on the treasury. Royal hardliners welcome their company, but liberals and the new French government regard the legitimist court with suspicion.;;;;;;;;;;;;;x
+cvi_san_carlo_title;Support the Royal Theatre of San Carlo;;;;;;;;;;;;;x
+cvi_san_carlo_desc;The Royal Theatre of San Carlo is a centre of musical training and court patronage. Supporting its teachers, rehearsals and performances will sustain the artistic life of Naples and the reputation of the kingdom.;;;;;;;;;;;;;x
+cvi_heraldry_a;Record the standard corresponding to the crown's powers.;;;;;;;;;;;;;x
+cvi_heraldry_title;The Standard of the Bourbon Italian Crown;;;;;;;;;;;;;x
+cvi_heraldry_desc;The Italian crown has adopted a different distribution of royal powers. Its standard now follows the actual form of monarchy: the plain white Bourbon arms for an absolute crown, the white standard with foliage for a semi-constitutional crown, and the Bourbon tricolour for representative constitutional government. The political rules of the corresponding GFM form are retained. This heraldic record applies only to Bourbon-origin Italy and does not turn a republic or dictatorship back into a monarchy.;;;;;;;;;;;;;x
+cvi_crown_powers_title;Review the Powers of the Bourbon Italian Crown;;;;;;;;;;;;;x
+cvi_crown_powers_desc;The united Bourbon kingdom can reconsider the powers of its crown. A council will debate absolute authority, limited representation or constitutional government, while respecting the guarantees of any existing federal compact.;;;;;;;;;;;;;x
+cvi_powers_absolute;Reserve undivided authority to the absolute crown.;;;;;;;;;;;;;x
+cvi_powers_semi;Adopt limited elections under a semi-constitutional crown.;;;;;;;;;;;;;x
+cvi_powers_constitutional;Recognise representative constitutional government.;;;;;;;;;;;;;x
+cvi_powers_lapsed;Close the council after the change of government.;;;;;;;;;;;;;x
+cvi_crown_council_title;The Powers and Standard of the Crown;;;;;;;;;;;;;x
+cvi_crown_council_desc;The council considers who may appoint ministers, participate in elections and oversee public expenditure. Absolute rule preserves direct appointment and rejects representative voting, at the cost of liberal opposition. A semi-constitutional settlement permits a limited electorate and supervised political life. Representative constitutional government widens parliamentary participation while unsettling royal hardliners. Each choice uses the appropriate Bourbon Italian standard. The federal budget bargain remains a separate commitment, and its guarantees rule out an absolute settlement without prior political change.;;;;;;;;;;;;;x
+cvi_absolute_monarchy;Absolute Monarchy;;;;;;;;;;;;;x
+ITA_cvi_absolute_monarchy;Kingdom of Italy;;;;;;;;;;;;;x
+cvi_semi_monarchy;Semi-Constitutional Monarchy;;;;;;;;;;;;;x
+ITA_cvi_semi_monarchy;Kingdom of Italy;;;;;;;;;;;;;x
+cvi_constitutional_monarchy;Constitutional Monarchy;;;;;;;;;;;;;x
+ITA_cvi_constitutional_monarchy;Kingdom of Italy;;;;;;;;;;;;;x
+cvin_precision;Precision Tools of Pietrarsa;;;;;;;;;;;;;x
+cvin_precision_desc;Accurate tools and gauges allow the Pietrarsa mechanics to reproduce fittings that were formerly ordered abroad. The establishments can undertake their own repairs with greater assurance.;;;;;;;;;;;;;x
+cvin_supply;Domestic Industrial Supply Contracts;;;;;;;;;;;;;x
+cvin_supply_desc;Settled contracts connect the furnaces and workshops with their suppliers and royal purchasers. Their certainty rests upon obligations that the treasury must continue to honour.;;;;;;;;;;;;;x
+cvin_standards;Common Industrial Standards;;;;;;;;;;;;;x
+cvin_standards_desc;The royal engineers have agreed upon common drawings, gauges and rules of inspection. Parts made in one establishment can more readily serve the work of another.;;;;;;;;;;;;;x
+cvin_exports;Southern Engineering Export Offices;;;;;;;;;;;;;x
+cvin_exports_desc;Commercial correspondents carry the catalogues of the southern works abroad. The manufacturers have gained new openings, along with the obligation to fulfil the orders secured in their name.;;;;;;;;;;;;;x
+cvin_open_school;An Independent Engineering Profession;;;;;;;;;;;;;x
+cvin_open_school_desc;Advanced instruction is available beyond the immediate service of the crown. Mechanics carry the experience of the royal works into civilian manufacture and the teaching of their successors.;;;;;;;;;;;;;x
+cvin_royal_school;The Royal Engineering Establishment;;;;;;;;;;;;;x
+cvin_royal_school_desc;The foremost engineering instruction remains attached to the royal establishment. Its trained men serve the machinery and supply orders upon which the army and fleet depend.;;;;;;;;;;;;;x
+cvin_compact;The Industrial Workshop Compact;;;;;;;;;;;;;x
+cvin_compact_desc;Manufacturers and workshop deputations have agreed upon the conduct of production and inspection. Public supervision binds the ministry to the compact's continuing obligations.;;;;;;;;;;;;;x
+cvin_quotas;Royal Production Quotas;;;;;;;;;;;;;x
+cvin_quotas_desc;The royal contracts prescribe the production expected of the establishments. The greater demands laid upon masters and their men are a continuing source of discontent.;;;;;;;;;;;;;x
+cvin_precision_tools_title;Develop Precision Tools at Pietrarsa;;;;;;;;;;;;;x
+cvin_precision_tools_desc;Pietrarsa can develop precision tools instead of relying on imported fittings. Apprenticeships and inspected drawings will help local workshops reproduce machinery and maintain the royal transport system.;;;;;;;;;;;;;x
+cvin_supply_contracts_title;Coordinate Domestic Industrial Supplies;;;;;;;;;;;;;x
+cvin_supply_contracts_desc;Domestic workshops need dependable deliveries from mines, foundries and merchants. Coordinated contracts can strengthen their supply, while public guarantees place new obligations on the treasury.;;;;;;;;;;;;;x
+cvin_common_standards_title;Adopt Common Industrial Standards;;;;;;;;;;;;;x
+cvin_common_standards_desc;Workshops across the kingdom use competing gauges, drawings and inspection practices. Common industrial standards will make their products easier to maintain and encourage cooperation between independent manufacturers.;;;;;;;;;;;;;x
+cvin_export_offices_title;Open Southern Engineering Export Offices;;;;;;;;;;;;;x
+cvin_export_offices_desc;Southern engineers can seek customers beyond the kingdom. Export offices and inspected commercial catalogues will support their reputation abroad, while manufacturers remain responsible for fulfilling their contracts.;;;;;;;;;;;;;x
+cvin_engineers_open;Admit civilian mechanics to the higher instruction.;;;;;;;;;;;;;x
+cvin_engineers_royal;Reserve the higher instruction to the royal establishment.;;;;;;;;;;;;;x
+cvin_engineers_title;The Kingdom Builds Its Own Machines;;;;;;;;;;;;;x
+cvin_engineers_desc;The directors at Pietrarsa report that fittings once sought from foreign houses can now be made upon their own benches. Apprentices have become capable mechanics, and drawings passed between the establishments are beginning to circulate beyond the royal works. Their authors ask what place this knowledge shall have in the kingdom. Civilian manufacturers would admit their sons and foremen to advanced instruction, so that experience gained in the crown's service may enter ordinary manufacture. The military directors would reserve the best teaching for men entrusted with strategic orders. His Majesty must choose whether to foster a wider engineering profession or keep its foremost instruction within the royal establishment.;;;;;;;;;;;;;x
+cvin_output_compact;Hear the deputations and conclude a workshop compact.;;;;;;;;;;;;;x
+cvin_output_quotas;Fix the quotas in the royal supply contracts.;;;;;;;;;;;;;x
+cvin_output_title;From Workshops to an Industrial System;;;;;;;;;;;;;x
+cvin_output_desc;The workshops can now undertake longer runs of machinery and stores with greater assurance that their parts will agree. The manufacturers ask for settled orders, while masters and foremen petition about the pace of work and the obligations laid upon their men. The ministry may hear these representations and draw up a compact governing production, inspection and the fulfilment of contracts. The directors of the royal establishments instead urge quotas enforced through the crown's orders, arguing that the army and fleet cannot wait upon repeated consultation. Industrial independence has ceased to be merely a question of furnaces and tools. It now rests upon the terms under which the kingdom's men will be required to work.;;;;;;;;;;;;;x
+cvin_report_close_2;Defer the industrial settlement.;;;;;;;;;;;;;x
+cvin_report_close_1;Defer the industrial settlement.;;;;;;;;;;;;;x

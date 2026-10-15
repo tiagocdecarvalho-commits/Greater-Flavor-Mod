@@ -1,0 +1,22 @@
+political_decisions = {
+	cvsp_genoa_investment = {
+		picture = cavours_diplomacy
+		potential = {
+			tag = SAR
+			ai = no
+			year = 1845
+			NOT = { year = 1848 }
+			NOT = { has_country_flag = cvsp_genoa_authorized }
+		}
+		allow = {
+			war = no
+			money = 35000
+		}
+		effect = {
+			treasury = -35000
+			set_country_flag = cvsp_genoa_authorized
+			country_event = { id = 9861808 days = 1 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

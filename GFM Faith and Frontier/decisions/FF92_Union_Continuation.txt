@@ -1,0 +1,3944 @@
+political_decisions = {
+	ff92_ff84_accounts = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+			NOT = {
+				has_country_flag = ff84_accounts_funded
+			}
+			NOT = {
+				has_country_flag = ff84_accounts_done
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			year = 1851
+			money = 800
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+							war = no
+							year = 1851
+							money = 800
+							NOT = {
+								has_country_flag = ff84_accounts_funded
+							}
+							NOT = {
+								has_country_flag = ff84_accounts_done
+							}
+						}
+					}
+					owner = {
+						money = -800
+						set_country_flag = ff84_accounts_funded
+						country_event = {
+							id = 9785600
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff92_ff84_courts = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_courts_funded
+			}
+			NOT = {
+				has_country_flag = ff84_courts_done
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			year = 1853
+			money = 1200
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							year = 1853
+							money = 1200
+							NOT = {
+								has_country_flag = ff84_courts_funded
+							}
+							NOT = {
+								has_country_flag = ff84_courts_done
+							}
+						}
+					}
+					owner = {
+						money = -1200
+						set_country_flag = ff84_courts_funded
+						country_event = {
+							id = 9785601
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff92_ff84_schools = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_schools_funded
+			}
+			NOT = {
+				has_country_flag = ff84_schools_done
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			year = 1856
+			money = 1600
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							year = 1856
+							money = 1600
+							NOT = {
+								has_country_flag = ff84_schools_funded
+							}
+							NOT = {
+								has_country_flag = ff84_schools_done
+							}
+						}
+					}
+					owner = {
+						money = -1600
+						set_country_flag = ff84_schools_funded
+						country_event = {
+							id = 9785602
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff92_ff84_commandos = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_commandos_funded
+			}
+			NOT = {
+				has_country_flag = ff84_commandos_done
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			year = 1862
+			money = 2500
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							year = 1862
+							money = 2500
+							NOT = {
+								has_country_flag = ff84_commandos_funded
+							}
+							NOT = {
+								has_country_flag = ff84_commandos_done
+							}
+						}
+					}
+					owner = {
+						money = -2500
+						set_country_flag = ff84_commandos_funded
+						country_event = {
+							id = 9785603
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff92_ff84_health = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_health_funded
+			}
+			NOT = {
+				has_country_flag = ff84_health_done
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			year = 1869
+			money = 2200
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							year = 1869
+							money = 2200
+							NOT = {
+								has_country_flag = ff84_health_funded
+							}
+							NOT = {
+								has_country_flag = ff84_health_done
+							}
+						}
+					}
+					owner = {
+						money = -2200
+						set_country_flag = ff84_health_funded
+						country_event = {
+							id = 9785604
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff92_ff84_rail = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_rail_funded
+			}
+			NOT = {
+				has_country_flag = ff84_rail_done
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			year = 1872
+			money = 6000
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							year = 1872
+							money = 6000
+							NOT = {
+								has_country_flag = ff84_rail_funded
+							}
+							NOT = {
+								has_country_flag = ff84_rail_done
+							}
+						}
+					}
+					owner = {
+						money = -6000
+						set_country_flag = ff84_rail_funded
+						country_event = {
+							id = 9785605
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff92_ff84_negotiate_basotho = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_basotho_pending
+			}
+			NOT = {
+				has_country_flag = ff84_basotho_compact
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			BSH = {
+				exists = yes
+				war = no
+				is_vassal = no
+			}
+			year = 1860
+			money = 1500
+			NOT = {
+				has_country_modifier = ff84_basotho_pause
+			}
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							BSH = {
+								exists = yes
+								war = no
+								is_vassal = no
+							}
+							year = 1860
+							money = 1500
+							NOT = {
+								has_country_modifier = ff84_basotho_pause
+							}
+							NOT = {
+								has_country_flag = ff84_basotho_pending
+							}
+							NOT = {
+								has_country_flag = ff84_basotho_compact
+							}
+						}
+					}
+					owner = {
+						money = -1500
+						set_country_flag = ff84_basotho_pending
+						BSH = {
+							country_event = {
+								id = 9785612
+								days = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff92_ff84_negotiate_portugal = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_portugal_pending
+			}
+			NOT = {
+				has_country_flag = ff84_portuguese_transit
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			POR = {
+				exists = yes
+				war = no
+				is_vassal = no
+			}
+			year = 1865
+			money = 2500
+			NOT = {
+				has_country_modifier = ff84_portugal_pause
+			}
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							POR = {
+								exists = yes
+								war = no
+								is_vassal = no
+							}
+							year = 1865
+							money = 2500
+							NOT = {
+								has_country_modifier = ff84_portugal_pause
+							}
+							NOT = {
+								has_country_flag = ff84_portugal_pending
+							}
+							NOT = {
+								has_country_flag = ff84_portuguese_transit
+							}
+						}
+					}
+					owner = {
+						money = -2500
+						set_country_flag = ff84_portugal_pending
+						POR = {
+							country_event = {
+								id = 9785613
+								days = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff92_ff84_negotiate_dutch = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff84_dutch_pending
+			}
+			NOT = {
+				has_country_flag = ff84_dutch_convention
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NET = {
+				exists = yes
+				war = no
+				is_vassal = no
+			}
+			year = 1855
+			money = 1800
+			NOT = {
+				has_country_modifier = ff84_dutch_pause
+			}
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							war = no
+							NET = {
+								exists = yes
+								war = no
+								is_vassal = no
+							}
+							year = 1855
+							money = 1800
+							NOT = {
+								has_country_modifier = ff84_dutch_pause
+							}
+							NOT = {
+								has_country_flag = ff84_dutch_pending
+							}
+							NOT = {
+								has_country_flag = ff84_dutch_convention
+							}
+						}
+					}
+					owner = {
+						money = -1800
+						set_country_flag = ff84_dutch_pending
+						NET = {
+							country_event = {
+								id = 9785614
+								days = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff92_ff84_programme = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_modifier = ff84_review_pause
+			}
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+							war = no
+							NOT = {
+								has_country_modifier = ff84_review_pause
+							}
+						}
+					}
+					owner = {
+						add_country_modifier = {
+							name = ff84_review_pause
+							duration = 365
+						}
+						country_event = {
+							id = 9785620
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	ff92_ff87_frontier_charter = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			NOT = {
+				has_country_flag = ff87_charter
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			year = 1851
+			money = 500
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							NOT = {
+								has_country_flag = ff87_charter
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							year = 1851
+							money = 500
+						}
+					}
+					owner = {
+						money = -500
+						set_country_flag = ff87_charter
+						country_event = {
+							id = 9785621
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_griqua_west = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_policy
+			NOT = {
+				has_country_flag = ff87_griqua_west_done
+			}
+			NOT = {
+				has_country_modifier = ff87_griqua_west_retry
+			}
+			GKW = {
+				exists = yes
+				is_vassal = no
+				war = no
+				NOT = {
+					in_sphere = ENG
+				}
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			year = 1854
+			money = 1400
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_policy
+							NOT = {
+								has_country_flag = ff87_griqua_west_done
+							}
+							NOT = {
+								has_country_modifier = ff87_griqua_west_retry
+							}
+							GKW = {
+								exists = yes
+								is_vassal = no
+								war = no
+								NOT = {
+									in_sphere = ENG
+								}
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							year = 1854
+							money = 1400
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_griqua_west_report
+						clr_country_flag = ff87_griqua_west_peace_pending
+						clr_country_flag = ff87_griqua_west_war
+						money = -1400
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_griqua_west_pending
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						GKW = {
+							country_event = {
+								id = 9785622
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_griqua_west_integrate = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_griqua_west_won
+			NOT = {
+				has_country_flag = ff87_griqua_west_integrated
+			}
+			any_owned_province = {
+				has_province_flag = ff87_griqua_west_land
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_griqua_west_integration_wait
+			}
+			money = 700
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_griqua_west_won
+							NOT = {
+								has_country_flag = ff87_griqua_west_integrated
+							}
+							any_owned_province = {
+								has_province_flag = ff87_griqua_west_land
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_griqua_west_integration_wait
+							}
+							money = 700
+						}
+					}
+					owner = {
+						money = -700
+						set_country_flag = ff87_griqua_west_integrated
+						any_owned = {
+							limit = {
+								has_province_flag = ff87_griqua_west_land
+							}
+							add_core = SAF
+						}
+						prestige = 2
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_kholokoe = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_policy
+			NOT = {
+				has_country_flag = ff87_kholokoe_done
+			}
+			NOT = {
+				has_country_modifier = ff87_kholokoe_retry
+			}
+			KHO = {
+				exists = yes
+				is_vassal = no
+				war = no
+				NOT = {
+					in_sphere = ENG
+				}
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			year = 1853
+			money = 900
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_policy
+							NOT = {
+								has_country_flag = ff87_kholokoe_done
+							}
+							NOT = {
+								has_country_modifier = ff87_kholokoe_retry
+							}
+							KHO = {
+								exists = yes
+								is_vassal = no
+								war = no
+								NOT = {
+									in_sphere = ENG
+								}
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							year = 1853
+							money = 900
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_kholokoe_report
+						clr_country_flag = ff87_kholokoe_peace_pending
+						clr_country_flag = ff87_kholokoe_war
+						money = -900
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_kholokoe_pending
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						KHO = {
+							country_event = {
+								id = 9785626
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_kholokoe_integrate = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_kholokoe_won
+			NOT = {
+				has_country_flag = ff87_kholokoe_integrated
+			}
+			any_owned_province = {
+				has_province_flag = ff87_kholokoe_land
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_kholokoe_integration_wait
+			}
+			money = 450
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_kholokoe_won
+							NOT = {
+								has_country_flag = ff87_kholokoe_integrated
+							}
+							any_owned_province = {
+								has_province_flag = ff87_kholokoe_land
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_kholokoe_integration_wait
+							}
+							money = 450
+						}
+					}
+					owner = {
+						money = -450
+						set_country_flag = ff87_kholokoe_integrated
+						any_owned = {
+							limit = {
+								has_province_flag = ff87_kholokoe_land
+							}
+							add_core = SAF
+						}
+						prestige = 2
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_transvaal = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_policy
+			NOT = {
+				has_country_flag = ff87_transvaal_done
+			}
+			NOT = {
+				has_country_modifier = ff87_transvaal_retry
+			}
+			TRN = {
+				exists = yes
+				is_vassal = no
+				war = no
+				NOT = {
+					in_sphere = ENG
+				}
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			year = 1856
+			money = 2200
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_policy
+							NOT = {
+								has_country_flag = ff87_transvaal_done
+							}
+							NOT = {
+								has_country_modifier = ff87_transvaal_retry
+							}
+							TRN = {
+								exists = yes
+								is_vassal = no
+								war = no
+								NOT = {
+									in_sphere = ENG
+								}
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							year = 1856
+							money = 2200
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_transvaal_report
+						clr_country_flag = ff87_transvaal_peace_pending
+						clr_country_flag = ff87_transvaal_war
+						money = -2200
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_transvaal_pending
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						TRN = {
+							country_event = {
+								id = 9785630
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_transvaal_integrate = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_transvaal_won
+			NOT = {
+				has_country_flag = ff87_transvaal_integrated
+			}
+			any_owned_province = {
+				has_province_flag = ff87_transvaal_land
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_transvaal_integration_wait
+			}
+			money = 1100
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_transvaal_won
+							NOT = {
+								has_country_flag = ff87_transvaal_integrated
+							}
+							any_owned_province = {
+								has_province_flag = ff87_transvaal_land
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_transvaal_integration_wait
+							}
+							money = 1100
+						}
+					}
+					owner = {
+						money = -1100
+						set_country_flag = ff87_transvaal_integrated
+						any_owned = {
+							limit = {
+								has_province_flag = ff87_transvaal_land
+							}
+							add_core = SAF
+						}
+						prestige = 2
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_lydenburg = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_policy
+			NOT = {
+				has_country_flag = ff87_lydenburg_done
+			}
+			NOT = {
+				has_country_modifier = ff87_lydenburg_retry
+			}
+			LYD = {
+				exists = yes
+				is_vassal = no
+				war = no
+				NOT = {
+					in_sphere = ENG
+				}
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			year = 1858
+			money = 1300
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_policy
+							NOT = {
+								has_country_flag = ff87_lydenburg_done
+							}
+							NOT = {
+								has_country_modifier = ff87_lydenburg_retry
+							}
+							LYD = {
+								exists = yes
+								is_vassal = no
+								war = no
+								NOT = {
+									in_sphere = ENG
+								}
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							year = 1858
+							money = 1300
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_lydenburg_report
+						clr_country_flag = ff87_lydenburg_peace_pending
+						clr_country_flag = ff87_lydenburg_war
+						money = -1300
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_lydenburg_pending
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						LYD = {
+							country_event = {
+								id = 9785634
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_lydenburg_integrate = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_lydenburg_won
+			NOT = {
+				has_country_flag = ff87_lydenburg_integrated
+			}
+			any_owned_province = {
+				has_province_flag = ff87_lydenburg_land
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_lydenburg_integration_wait
+			}
+			money = 650
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_lydenburg_won
+							NOT = {
+								has_country_flag = ff87_lydenburg_integrated
+							}
+							any_owned_province = {
+								has_province_flag = ff87_lydenburg_land
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_lydenburg_integration_wait
+							}
+							money = 650
+						}
+					}
+					owner = {
+						money = -650
+						set_country_flag = ff87_lydenburg_integrated
+						any_owned = {
+							limit = {
+								has_province_flag = ff87_lydenburg_land
+							}
+							add_core = SAF
+						}
+						prestige = 2
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_zoutpansberg = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_policy
+			NOT = {
+				has_country_flag = ff87_zoutpansberg_done
+			}
+			NOT = {
+				has_country_modifier = ff87_zoutpansberg_retry
+			}
+			ZPB = {
+				exists = yes
+				is_vassal = no
+				war = no
+				NOT = {
+					in_sphere = ENG
+				}
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			year = 1860
+			money = 1700
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_policy
+							NOT = {
+								has_country_flag = ff87_zoutpansberg_done
+							}
+							NOT = {
+								has_country_modifier = ff87_zoutpansberg_retry
+							}
+							ZPB = {
+								exists = yes
+								is_vassal = no
+								war = no
+								NOT = {
+									in_sphere = ENG
+								}
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							year = 1860
+							money = 1700
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_zoutpansberg_report
+						clr_country_flag = ff87_zoutpansberg_peace_pending
+						clr_country_flag = ff87_zoutpansberg_war
+						money = -1700
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_zoutpansberg_pending
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						ZPB = {
+							country_event = {
+								id = 9785638
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_zoutpansberg_integrate = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_zoutpansberg_won
+			NOT = {
+				has_country_flag = ff87_zoutpansberg_integrated
+			}
+			any_owned_province = {
+				has_province_flag = ff87_zoutpansberg_land
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_zoutpansberg_integration_wait
+			}
+			money = 850
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_zoutpansberg_won
+							NOT = {
+								has_country_flag = ff87_zoutpansberg_integrated
+							}
+							any_owned_province = {
+								has_province_flag = ff87_zoutpansberg_land
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_zoutpansberg_integration_wait
+							}
+							money = 850
+						}
+					}
+					owner = {
+						money = -850
+						set_country_flag = ff87_zoutpansberg_integrated
+						any_owned = {
+							limit = {
+								has_province_flag = ff87_zoutpansberg_land
+							}
+							add_core = SAF
+						}
+						prestige = 2
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_griqua_east = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_policy
+			NOT = {
+				has_country_flag = ff87_griqua_east_done
+			}
+			NOT = {
+				has_country_modifier = ff87_griqua_east_retry
+			}
+			GKE = {
+				exists = yes
+				is_vassal = no
+				war = no
+				NOT = {
+					in_sphere = ENG
+				}
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			year = 1863
+			money = 1800
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_policy
+							NOT = {
+								has_country_flag = ff87_griqua_east_done
+							}
+							NOT = {
+								has_country_modifier = ff87_griqua_east_retry
+							}
+							GKE = {
+								exists = yes
+								is_vassal = no
+								war = no
+								NOT = {
+									in_sphere = ENG
+								}
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							year = 1863
+							money = 1800
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_griqua_east_report
+						clr_country_flag = ff87_griqua_east_peace_pending
+						clr_country_flag = ff87_griqua_east_war
+						money = -1800
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_griqua_east_pending
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						GKE = {
+							country_event = {
+								id = 9785642
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_griqua_east_integrate = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_griqua_east_won
+			NOT = {
+				has_country_flag = ff87_griqua_east_integrated
+			}
+			any_owned_province = {
+				has_province_flag = ff87_griqua_east_land
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_griqua_east_integration_wait
+			}
+			money = 900
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_griqua_east_won
+							NOT = {
+								has_country_flag = ff87_griqua_east_integrated
+							}
+							any_owned_province = {
+								has_province_flag = ff87_griqua_east_land
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_griqua_east_integration_wait
+							}
+							money = 900
+						}
+					}
+					owner = {
+						money = -900
+						set_country_flag = ff87_griqua_east_integrated
+						any_owned = {
+							limit = {
+								has_province_flag = ff87_griqua_east_land
+							}
+							add_core = SAF
+						}
+						prestige = 2
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_basotho = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_policy
+			NOT = {
+				has_country_flag = ff87_basotho_done
+			}
+			NOT = {
+				has_country_modifier = ff87_basotho_retry
+			}
+			BSH = {
+				exists = yes
+				is_vassal = no
+				war = no
+				NOT = {
+					in_sphere = ENG
+				}
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			year = 1864
+			money = 3500
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_policy
+							NOT = {
+								has_country_flag = ff87_basotho_done
+							}
+							NOT = {
+								has_country_modifier = ff87_basotho_retry
+							}
+							BSH = {
+								exists = yes
+								is_vassal = no
+								war = no
+								NOT = {
+									in_sphere = ENG
+								}
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							year = 1864
+							money = 3500
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_basotho_report
+						clr_country_flag = ff87_basotho_peace_pending
+						clr_country_flag = ff87_basotho_war
+						money = -3500
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_basotho_pending
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						BSH = {
+							country_event = {
+								id = 9785646
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_basotho_integrate = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_basotho_won
+			NOT = {
+				has_country_flag = ff87_basotho_integrated
+			}
+			any_owned_province = {
+				has_province_flag = ff87_basotho_land
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_basotho_integration_wait
+			}
+			money = 1750
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_basotho_won
+							NOT = {
+								has_country_flag = ff87_basotho_integrated
+							}
+							any_owned_province = {
+								has_province_flag = ff87_basotho_land
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_basotho_integration_wait
+							}
+							money = 1750
+						}
+					}
+					owner = {
+						money = -1750
+						set_country_flag = ff87_basotho_integrated
+						any_owned = {
+							limit = {
+								has_province_flag = ff87_basotho_land
+							}
+							add_core = SAF
+						}
+						prestige = 2
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_swazi = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_policy
+			NOT = {
+				has_country_flag = ff87_swazi_done
+			}
+			NOT = {
+				has_country_modifier = ff87_swazi_retry
+			}
+			SUA = {
+				exists = yes
+				is_vassal = no
+				war = no
+				NOT = {
+					in_sphere = ENG
+				}
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			year = 1868
+			money = 2400
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_policy
+							NOT = {
+								has_country_flag = ff87_swazi_done
+							}
+							NOT = {
+								has_country_modifier = ff87_swazi_retry
+							}
+							SUA = {
+								exists = yes
+								is_vassal = no
+								war = no
+								NOT = {
+									in_sphere = ENG
+								}
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							year = 1868
+							money = 2400
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_swazi_report
+						clr_country_flag = ff87_swazi_peace_pending
+						clr_country_flag = ff87_swazi_war
+						money = -2400
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_swazi_pending
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						SUA = {
+							country_event = {
+								id = 9785650
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_swazi_integrate = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_swazi_won
+			NOT = {
+				has_country_flag = ff87_swazi_integrated
+			}
+			any_owned_province = {
+				has_province_flag = ff87_swazi_land
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_swazi_integration_wait
+			}
+			money = 1200
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_swazi_won
+							NOT = {
+								has_country_flag = ff87_swazi_integrated
+							}
+							any_owned_province = {
+								has_province_flag = ff87_swazi_land
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_swazi_integration_wait
+							}
+							money = 1200
+						}
+					}
+					owner = {
+						money = -1200
+						set_country_flag = ff87_swazi_integrated
+						any_owned = {
+							limit = {
+								has_province_flag = ff87_swazi_land
+							}
+							add_core = SAF
+						}
+						prestige = 2
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_zulu = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_policy
+			NOT = {
+				has_country_flag = ff87_zulu_done
+			}
+			NOT = {
+				has_country_modifier = ff87_zulu_retry
+			}
+			ZUL = {
+				exists = yes
+				is_vassal = no
+				war = no
+				NOT = {
+					in_sphere = ENG
+				}
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			year = 1873
+			money = 4200
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_policy
+							NOT = {
+								has_country_flag = ff87_zulu_done
+							}
+							NOT = {
+								has_country_modifier = ff87_zulu_retry
+							}
+							ZUL = {
+								exists = yes
+								is_vassal = no
+								war = no
+								NOT = {
+									in_sphere = ENG
+								}
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							year = 1873
+							money = 4200
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_zulu_report
+						clr_country_flag = ff87_zulu_peace_pending
+						clr_country_flag = ff87_zulu_war
+						money = -4200
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_zulu_pending
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						ZUL = {
+							country_event = {
+								id = 9785654
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_zulu_integrate = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_zulu_won
+			NOT = {
+				has_country_flag = ff87_zulu_integrated
+			}
+			any_owned_province = {
+				has_province_flag = ff87_zulu_land
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_zulu_integration_wait
+			}
+			money = 2100
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_zulu_won
+							NOT = {
+								has_country_flag = ff87_zulu_integrated
+							}
+							any_owned_province = {
+								has_province_flag = ff87_zulu_land
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_zulu_integration_wait
+							}
+							money = 2100
+						}
+					}
+					owner = {
+						money = -2100
+						set_country_flag = ff87_zulu_integrated
+						any_owned = {
+							limit = {
+								has_province_flag = ff87_zulu_land
+							}
+							add_core = SAF
+						}
+						prestige = 2
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_gaza = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_policy
+			NOT = {
+				has_country_flag = ff87_gaza_done
+			}
+			NOT = {
+				has_country_modifier = ff87_gaza_retry
+			}
+			GAZ = {
+				exists = yes
+				is_vassal = no
+				war = no
+				NOT = {
+					in_sphere = ENG
+				}
+				any_owned_province = {
+					OR = {
+						province_id = 3713
+						province_id = 3650
+						province_id = 2050
+						province_id = 2049
+					}
+				}
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			year = 1870
+			money = 3800
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_policy
+							NOT = {
+								has_country_flag = ff87_gaza_done
+							}
+							NOT = {
+								has_country_modifier = ff87_gaza_retry
+							}
+							GAZ = {
+								exists = yes
+								is_vassal = no
+								war = no
+								NOT = {
+									in_sphere = ENG
+								}
+								any_owned_province = {
+									OR = {
+										province_id = 3713
+										province_id = 3650
+										province_id = 2050
+										province_id = 2049
+									}
+								}
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							year = 1870
+							money = 3800
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_gaza_report
+						clr_country_flag = ff87_gaza_peace_pending
+						clr_country_flag = ff87_gaza_war
+						money = -3800
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_gaza_pending
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						GAZ = {
+							country_event = {
+								id = 9785658
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_gaza_integrate = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_gaza_won
+			NOT = {
+				has_country_flag = ff87_gaza_integrated
+			}
+			any_owned_province = {
+				has_province_flag = ff87_gaza_land
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_gaza_integration_wait
+			}
+			money = 1900
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_gaza_won
+							NOT = {
+								has_country_flag = ff87_gaza_integrated
+							}
+							any_owned_province = {
+								has_province_flag = ff87_gaza_land
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_gaza_integration_wait
+							}
+							money = 1900
+						}
+					}
+					owner = {
+						money = -1900
+						set_country_flag = ff87_gaza_integrated
+						any_owned = {
+							limit = {
+								has_province_flag = ff87_gaza_land
+							}
+							add_core = SAF
+						}
+						prestige = 2
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_shangaan = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_policy
+			NOT = {
+				has_country_flag = ff87_shangaan_done
+			}
+			NOT = {
+				has_country_modifier = ff87_shangaan_retry
+			}
+			SRN = {
+				exists = yes
+				is_vassal = no
+				war = no
+				NOT = {
+					in_sphere = ENG
+				}
+				any_owned_province = {
+					OR = {
+						province_id = 3713
+						province_id = 3650
+						province_id = 2050
+						province_id = 2049
+					}
+				}
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			year = 1875
+			money = 4600
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_policy
+							NOT = {
+								has_country_flag = ff87_shangaan_done
+							}
+							NOT = {
+								has_country_modifier = ff87_shangaan_retry
+							}
+							SRN = {
+								exists = yes
+								is_vassal = no
+								war = no
+								NOT = {
+									in_sphere = ENG
+								}
+								any_owned_province = {
+									OR = {
+										province_id = 3713
+										province_id = 3650
+										province_id = 2050
+										province_id = 2049
+									}
+								}
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							year = 1875
+							money = 4600
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_shangaan_report
+						clr_country_flag = ff87_shangaan_peace_pending
+						clr_country_flag = ff87_shangaan_war
+						money = -4600
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_shangaan_pending
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						SRN = {
+							country_event = {
+								id = 9785662
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_shangaan_integrate = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_shangaan_won
+			NOT = {
+				has_country_flag = ff87_shangaan_integrated
+			}
+			any_owned_province = {
+				has_province_flag = ff87_shangaan_land
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_shangaan_integration_wait
+			}
+			money = 2300
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_shangaan_won
+							NOT = {
+								has_country_flag = ff87_shangaan_integrated
+							}
+							any_owned_province = {
+								has_province_flag = ff87_shangaan_land
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_shangaan_integration_wait
+							}
+							money = 2300
+						}
+					}
+					owner = {
+						money = -2300
+						set_country_flag = ff87_shangaan_integrated
+						any_owned = {
+							limit = {
+								has_province_flag = ff87_shangaan_land
+							}
+							add_core = SAF
+						}
+						prestige = 2
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_accession_griqua_west = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			is_our_vassal = GKW
+			NOT = {
+				has_country_modifier = ff87_accession_wait
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_griqua_west_integration_wait
+			}
+			money = 1400
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							is_our_vassal = GKW
+							NOT = {
+								has_country_modifier = ff87_accession_wait
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_griqua_west_integration_wait
+							}
+							money = 1400
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_griqua_west_report
+						clr_country_flag = ff87_griqua_west_peace_pending
+						clr_country_flag = ff87_griqua_west_war
+						money = -1400
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_griqua_west_pending
+						clr_country_flag = ff87_griqua_west_done
+						clr_country_flag = ff87_griqua_west_report
+						clr_country_flag = ff87_griqua_west_won
+						add_country_modifier = {
+							name = ff87_accession_wait
+							duration = 1095
+						}
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						GKW = {
+							country_event = {
+								id = 9785666
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_accession_kholokoe = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			is_our_vassal = KHO
+			NOT = {
+				has_country_modifier = ff87_accession_wait
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_kholokoe_integration_wait
+			}
+			money = 900
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							is_our_vassal = KHO
+							NOT = {
+								has_country_modifier = ff87_accession_wait
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_kholokoe_integration_wait
+							}
+							money = 900
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_kholokoe_report
+						clr_country_flag = ff87_kholokoe_peace_pending
+						clr_country_flag = ff87_kholokoe_war
+						money = -900
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_kholokoe_pending
+						clr_country_flag = ff87_kholokoe_done
+						clr_country_flag = ff87_kholokoe_report
+						clr_country_flag = ff87_kholokoe_won
+						add_country_modifier = {
+							name = ff87_accession_wait
+							duration = 1095
+						}
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						KHO = {
+							country_event = {
+								id = 9785667
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_accession_transvaal = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			is_our_vassal = TRN
+			NOT = {
+				has_country_modifier = ff87_accession_wait
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_transvaal_integration_wait
+			}
+			money = 2200
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							is_our_vassal = TRN
+							NOT = {
+								has_country_modifier = ff87_accession_wait
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_transvaal_integration_wait
+							}
+							money = 2200
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_transvaal_report
+						clr_country_flag = ff87_transvaal_peace_pending
+						clr_country_flag = ff87_transvaal_war
+						money = -2200
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_transvaal_pending
+						clr_country_flag = ff87_transvaal_done
+						clr_country_flag = ff87_transvaal_report
+						clr_country_flag = ff87_transvaal_won
+						add_country_modifier = {
+							name = ff87_accession_wait
+							duration = 1095
+						}
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						TRN = {
+							country_event = {
+								id = 9785668
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_accession_lydenburg = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			is_our_vassal = LYD
+			NOT = {
+				has_country_modifier = ff87_accession_wait
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_lydenburg_integration_wait
+			}
+			money = 1300
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							is_our_vassal = LYD
+							NOT = {
+								has_country_modifier = ff87_accession_wait
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_lydenburg_integration_wait
+							}
+							money = 1300
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_lydenburg_report
+						clr_country_flag = ff87_lydenburg_peace_pending
+						clr_country_flag = ff87_lydenburg_war
+						money = -1300
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_lydenburg_pending
+						clr_country_flag = ff87_lydenburg_done
+						clr_country_flag = ff87_lydenburg_report
+						clr_country_flag = ff87_lydenburg_won
+						add_country_modifier = {
+							name = ff87_accession_wait
+							duration = 1095
+						}
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						LYD = {
+							country_event = {
+								id = 9785669
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_accession_zoutpansberg = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			is_our_vassal = ZPB
+			NOT = {
+				has_country_modifier = ff87_accession_wait
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_zoutpansberg_integration_wait
+			}
+			money = 1700
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							is_our_vassal = ZPB
+							NOT = {
+								has_country_modifier = ff87_accession_wait
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_zoutpansberg_integration_wait
+							}
+							money = 1700
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_zoutpansberg_report
+						clr_country_flag = ff87_zoutpansberg_peace_pending
+						clr_country_flag = ff87_zoutpansberg_war
+						money = -1700
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_zoutpansberg_pending
+						clr_country_flag = ff87_zoutpansberg_done
+						clr_country_flag = ff87_zoutpansberg_report
+						clr_country_flag = ff87_zoutpansberg_won
+						add_country_modifier = {
+							name = ff87_accession_wait
+							duration = 1095
+						}
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						ZPB = {
+							country_event = {
+								id = 9785670
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_accession_griqua_east = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			is_our_vassal = GKE
+			NOT = {
+				has_country_modifier = ff87_accession_wait
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_griqua_east_integration_wait
+			}
+			money = 1800
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							is_our_vassal = GKE
+							NOT = {
+								has_country_modifier = ff87_accession_wait
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_griqua_east_integration_wait
+							}
+							money = 1800
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_griqua_east_report
+						clr_country_flag = ff87_griqua_east_peace_pending
+						clr_country_flag = ff87_griqua_east_war
+						money = -1800
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_griqua_east_pending
+						clr_country_flag = ff87_griqua_east_done
+						clr_country_flag = ff87_griqua_east_report
+						clr_country_flag = ff87_griqua_east_won
+						add_country_modifier = {
+							name = ff87_accession_wait
+							duration = 1095
+						}
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						GKE = {
+							country_event = {
+								id = 9785671
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_accession_basotho = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			is_our_vassal = BSH
+			NOT = {
+				has_country_modifier = ff87_accession_wait
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_basotho_integration_wait
+			}
+			money = 3500
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							is_our_vassal = BSH
+							NOT = {
+								has_country_modifier = ff87_accession_wait
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_basotho_integration_wait
+							}
+							money = 3500
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_basotho_report
+						clr_country_flag = ff87_basotho_peace_pending
+						clr_country_flag = ff87_basotho_war
+						money = -3500
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_basotho_pending
+						clr_country_flag = ff87_basotho_done
+						clr_country_flag = ff87_basotho_report
+						clr_country_flag = ff87_basotho_won
+						add_country_modifier = {
+							name = ff87_accession_wait
+							duration = 1095
+						}
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						BSH = {
+							country_event = {
+								id = 9785672
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_accession_swazi = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			is_our_vassal = SUA
+			NOT = {
+				has_country_modifier = ff87_accession_wait
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_swazi_integration_wait
+			}
+			money = 2400
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							is_our_vassal = SUA
+							NOT = {
+								has_country_modifier = ff87_accession_wait
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_swazi_integration_wait
+							}
+							money = 2400
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_swazi_report
+						clr_country_flag = ff87_swazi_peace_pending
+						clr_country_flag = ff87_swazi_war
+						money = -2400
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_swazi_pending
+						clr_country_flag = ff87_swazi_done
+						clr_country_flag = ff87_swazi_report
+						clr_country_flag = ff87_swazi_won
+						add_country_modifier = {
+							name = ff87_accession_wait
+							duration = 1095
+						}
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						SUA = {
+							country_event = {
+								id = 9785673
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_accession_zulu = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			is_our_vassal = ZUL
+			NOT = {
+				has_country_modifier = ff87_accession_wait
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_flag = ff87_mission_active
+			}
+			NOT = {
+				has_country_modifier = ff87_zulu_integration_wait
+			}
+			money = 4200
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							is_our_vassal = ZUL
+							NOT = {
+								has_country_modifier = ff87_accession_wait
+							}
+							war = no
+							NOT = {
+								has_country_flag = ff87_mission_active
+							}
+							NOT = {
+								has_country_modifier = ff87_zulu_integration_wait
+							}
+							money = 4200
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_zulu_report
+						clr_country_flag = ff87_zulu_peace_pending
+						clr_country_flag = ff87_zulu_war
+						money = -4200
+						set_country_flag = ff87_mission_active
+						set_country_flag = ff87_zulu_pending
+						clr_country_flag = ff87_zulu_done
+						clr_country_flag = ff87_zulu_report
+						clr_country_flag = ff87_zulu_won
+						add_country_modifier = {
+							name = ff87_accession_wait
+							duration = 1095
+						}
+						add_country_modifier = {
+							name = ff87_mission_wait
+							duration = 90
+						}
+						ZUL = {
+							country_event = {
+								id = 9785674
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_recall_mission = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			is_vassal = no
+			has_country_flag = ff87_mission_active
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_modifier = ff87_mission_wait
+			}
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							is_vassal = no
+							has_country_flag = ff87_mission_active
+							war = no
+							NOT = {
+								has_country_modifier = ff87_mission_wait
+							}
+						}
+					}
+					owner = {
+						clr_country_flag = ff87_mission_active
+						SAF = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff87_griqua_west_pending
+									}
+								}
+								owner = {
+									money = 700
+									clr_country_flag = ff87_griqua_west_pending
+									add_country_modifier = {
+										name = ff87_griqua_west_retry
+										duration = 1095
+									}
+								}
+							}
+						}
+						SAF = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff87_kholokoe_pending
+									}
+								}
+								owner = {
+									money = 450
+									clr_country_flag = ff87_kholokoe_pending
+									add_country_modifier = {
+										name = ff87_kholokoe_retry
+										duration = 1095
+									}
+								}
+							}
+						}
+						SAF = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff87_transvaal_pending
+									}
+								}
+								owner = {
+									money = 1100
+									clr_country_flag = ff87_transvaal_pending
+									add_country_modifier = {
+										name = ff87_transvaal_retry
+										duration = 1095
+									}
+								}
+							}
+						}
+						SAF = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff87_lydenburg_pending
+									}
+								}
+								owner = {
+									money = 650
+									clr_country_flag = ff87_lydenburg_pending
+									add_country_modifier = {
+										name = ff87_lydenburg_retry
+										duration = 1095
+									}
+								}
+							}
+						}
+						SAF = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff87_zoutpansberg_pending
+									}
+								}
+								owner = {
+									money = 850
+									clr_country_flag = ff87_zoutpansberg_pending
+									add_country_modifier = {
+										name = ff87_zoutpansberg_retry
+										duration = 1095
+									}
+								}
+							}
+						}
+						SAF = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff87_griqua_east_pending
+									}
+								}
+								owner = {
+									money = 900
+									clr_country_flag = ff87_griqua_east_pending
+									add_country_modifier = {
+										name = ff87_griqua_east_retry
+										duration = 1095
+									}
+								}
+							}
+						}
+						SAF = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff87_basotho_pending
+									}
+								}
+								owner = {
+									money = 1750
+									clr_country_flag = ff87_basotho_pending
+									add_country_modifier = {
+										name = ff87_basotho_retry
+										duration = 1095
+									}
+								}
+							}
+						}
+						SAF = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff87_swazi_pending
+									}
+								}
+								owner = {
+									money = 1200
+									clr_country_flag = ff87_swazi_pending
+									add_country_modifier = {
+										name = ff87_swazi_retry
+										duration = 1095
+									}
+								}
+							}
+						}
+						SAF = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff87_zulu_pending
+									}
+								}
+								owner = {
+									money = 2100
+									clr_country_flag = ff87_zulu_pending
+									add_country_modifier = {
+										name = ff87_zulu_retry
+										duration = 1095
+									}
+								}
+							}
+						}
+						SAF = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff87_gaza_pending
+									}
+								}
+								owner = {
+									money = 1900
+									clr_country_flag = ff87_gaza_pending
+									add_country_modifier = {
+										name = ff87_gaza_retry
+										duration = 1095
+									}
+								}
+							}
+						}
+						SAF = {
+							random_owned = {
+								limit = {
+									owner = {
+										has_country_flag = ff87_shangaan_pending
+									}
+								}
+								owner = {
+									money = 2300
+									clr_country_flag = ff87_shangaan_pending
+									add_country_modifier = {
+										name = ff87_shangaan_retry
+										duration = 1095
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	ff92_ff87_republic_congress = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			government = ff84_union_republic
+			NOT = {
+				has_country_flag = ff87_republic_congress
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			year = 1857
+			money = 1500
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							government = ff84_union_republic
+							NOT = {
+								has_country_flag = ff87_republic_congress
+							}
+							war = no
+							year = 1857
+							money = 1500
+						}
+					}
+					owner = {
+						money = -1500
+						set_country_flag = ff87_republic_congress
+						country_event = {
+							id = 9785675
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff92_ff87_ducal_council = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			NOT = {
+				has_country_flag = ff87_ducal_council
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			year = 1859
+			money = 1800
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							NOT = {
+								has_country_flag = ff87_ducal_council
+							}
+							war = no
+							year = 1859
+							money = 1800
+						}
+					}
+					owner = {
+						money = -1800
+						set_country_flag = ff87_ducal_council
+						country_event = {
+							id = 9785676
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff92_ff89_orange_invite = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			NOT = {
+				has_country_flag = ff89_duke_crowned
+			}
+			NOT = {
+				has_country_flag = ff89_nominee
+			}
+			NOT = {
+				has_country_flag = ff89_invitation_pending
+			}
+			NET = {
+				exists = yes
+				OR = {
+					government = hms_government
+					government = absolute_monarchy
+					government = prussian_constitutionalism
+				}
+			}
+			NOT = {
+				has_country_modifier = ff89_orange_pause
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			year = 1850
+			money = 2000
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+							NOT = {
+								has_country_flag = ff89_nominee
+							}
+							NOT = {
+								has_country_flag = ff89_invitation_pending
+							}
+							NET = {
+								exists = yes
+								OR = {
+									government = hms_government
+									government = absolute_monarchy
+									government = prussian_constitutionalism
+								}
+							}
+							NOT = {
+								has_country_modifier = ff89_orange_pause
+							}
+							war = no
+							year = 1850
+							money = 2000
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+						}
+					}
+					owner = {
+						money = -2000
+						set_country_flag = ff89_invitation_pending
+						set_country_flag = ff89_orange_pending
+						add_country_modifier = {
+							name = ff89_envoys_wait
+							duration = 90
+						}
+						NET = {
+							country_event = {
+								id = 9785678
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff92_ff89_hohenzollern_invite = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			NOT = {
+				has_country_flag = ff89_duke_crowned
+			}
+			NOT = {
+				has_country_flag = ff89_nominee
+			}
+			NOT = {
+				has_country_flag = ff89_invitation_pending
+			}
+			PRU = {
+				exists = yes
+				OR = {
+					government = hms_government
+					government = absolute_monarchy
+					government = prussian_constitutionalism
+				}
+			}
+			NOT = {
+				has_country_modifier = ff89_hohenzollern_pause
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			year = 1850
+			money = 2000
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+							NOT = {
+								has_country_flag = ff89_nominee
+							}
+							NOT = {
+								has_country_flag = ff89_invitation_pending
+							}
+							PRU = {
+								exists = yes
+								OR = {
+									government = hms_government
+									government = absolute_monarchy
+									government = prussian_constitutionalism
+								}
+							}
+							NOT = {
+								has_country_modifier = ff89_hohenzollern_pause
+							}
+							war = no
+							year = 1850
+							money = 2000
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+						}
+					}
+					owner = {
+						money = -2000
+						set_country_flag = ff89_invitation_pending
+						set_country_flag = ff89_hohenzollern_pending
+						add_country_modifier = {
+							name = ff89_envoys_wait
+							duration = 90
+						}
+						PRU = {
+							country_event = {
+								id = 9785681
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff92_ff89_belgian_invite = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			NOT = {
+				has_country_flag = ff89_duke_crowned
+			}
+			NOT = {
+				has_country_flag = ff89_nominee
+			}
+			NOT = {
+				has_country_flag = ff89_invitation_pending
+			}
+			BEL = {
+				exists = yes
+				OR = {
+					government = hms_government
+					government = absolute_monarchy
+					government = prussian_constitutionalism
+				}
+			}
+			NOT = {
+				has_country_modifier = ff89_belgian_pause
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			year = 1850
+			money = 2000
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+							NOT = {
+								has_country_flag = ff89_nominee
+							}
+							NOT = {
+								has_country_flag = ff89_invitation_pending
+							}
+							BEL = {
+								exists = yes
+								OR = {
+									government = hms_government
+									government = absolute_monarchy
+									government = prussian_constitutionalism
+								}
+							}
+							NOT = {
+								has_country_modifier = ff89_belgian_pause
+							}
+							war = no
+							year = 1850
+							money = 2000
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+						}
+					}
+					owner = {
+						money = -2000
+						set_country_flag = ff89_invitation_pending
+						set_country_flag = ff89_belgian_pending
+						add_country_modifier = {
+							name = ff89_envoys_wait
+							duration = 90
+						}
+						BEL = {
+							country_event = {
+								id = 9785684
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff92_ff89_british_invite = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			NOT = {
+				has_country_flag = ff89_duke_crowned
+			}
+			NOT = {
+				has_country_flag = ff89_nominee
+			}
+			NOT = {
+				has_country_flag = ff89_invitation_pending
+			}
+			ENG = {
+				exists = yes
+				OR = {
+					government = hms_government
+					government = absolute_monarchy
+					government = prussian_constitutionalism
+				}
+			}
+			NOT = {
+				has_country_modifier = ff89_british_pause
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			year = 1850
+			money = 2000
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+							NOT = {
+								has_country_flag = ff89_nominee
+							}
+							NOT = {
+								has_country_flag = ff89_invitation_pending
+							}
+							ENG = {
+								exists = yes
+								OR = {
+									government = hms_government
+									government = absolute_monarchy
+									government = prussian_constitutionalism
+								}
+							}
+							NOT = {
+								has_country_modifier = ff89_british_pause
+							}
+							war = no
+							year = 1850
+							money = 2000
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+						}
+					}
+					owner = {
+						money = -2000
+						set_country_flag = ff89_invitation_pending
+						set_country_flag = ff89_british_pending
+						add_country_modifier = {
+							name = ff89_envoys_wait
+							duration = 90
+						}
+						ENG = {
+							country_event = {
+								id = 9785687
+								days = 7
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff92_ff89_local_nominee = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			NOT = {
+				has_country_flag = ff89_duke_crowned
+			}
+			NOT = {
+				has_country_flag = ff89_nominee
+			}
+			NOT = {
+				has_country_flag = ff89_invitation_pending
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			year = 1850
+			money = 600
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+							NOT = {
+								has_country_flag = ff89_nominee
+							}
+							NOT = {
+								has_country_flag = ff89_invitation_pending
+							}
+							war = no
+							year = 1850
+							money = 600
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+						}
+					}
+					owner = {
+						money = -600
+						set_country_flag = ff89_nominee
+						set_country_flag = ff89_local_nominee
+						country_event = {
+							id = 9785690
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff92_ff89_coronation = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			has_country_flag = ff89_nominee
+			NOT = {
+				has_country_flag = ff89_duke_crowned
+			}
+			NOT = {
+				has_country_flag = ff89_coronation_funded
+			}
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			money = 1500
+			OR = {
+				is_vassal = no
+				vassal_of = ENG
+			}
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							has_country_flag = ff89_nominee
+							NOT = {
+								has_country_flag = ff89_duke_crowned
+							}
+							NOT = {
+								has_country_flag = ff89_coronation_funded
+							}
+							war = no
+							money = 1500
+							OR = {
+								is_vassal = no
+								vassal_of = ENG
+							}
+						}
+					}
+					owner = {
+						money = -1500
+						set_country_flag = ff89_coronation_funded
+						country_event = {
+							id = 9785691
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	ff92_ff89_recall_envoys = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			has_country_flag = ff84_union_path
+			government = ff84_constitutional_duchies
+			has_country_flag = ff89_invitation_pending
+			has_country_flag = ff92_south_africa_formed
+		}
+		allow = {
+			war = no
+			NOT = {
+				has_country_modifier = ff89_envoys_wait
+			}
+		}
+		effect = {
+			SAF = {
+				random_owned = {
+					limit = {
+						owner = {
+							tag = SAF
+							has_country_flag = ff84_union_path
+							government = ff84_constitutional_duchies
+							has_country_flag = ff89_invitation_pending
+							war = no
+							NOT = {
+								has_country_modifier = ff89_envoys_wait
+							}
+						}
+					}
+					owner = {
+						clr_country_flag = ff89_invitation_pending
+						remove_country_modifier = ff89_envoys_wait
+						money = 1000
+						clr_country_flag = ff89_orange_pending
+						clr_country_flag = ff89_hohenzollern_pending
+						clr_country_flag = ff89_belgian_pending
+						clr_country_flag = ff89_british_pending
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+}

@@ -1,0 +1,812 @@
+political_decisions = {
+    create_south_africa = {
+        picture = form_south_africa
+        alert = no
+        potential = {
+            any_owned_province = { is_core = SAF }
+            revolution_n_counterrevolution = 1
+            NOT = {
+                capital_scope = { continent = africa }
+                capital_scope = { continent = west_africa }
+                capital_scope = { continent = central_africa }
+                capital_scope = { continent = east_africa }
+                capital_scope = { continent = south_africa }
+            }
+            SAF = { exists = no }
+            NOT = { has_global_flag = south_africa_formed }
+        }
+
+        allow = {
+            war = no
+            SAF = { all_core = {
+                OR = {
+                    owned_by = THIS
+                    owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            set_global_flag = south_africa_formed
+            prestige = 20
+            any_country = {
+                limit = {
+                    ai = yes
+                    exists = yes
+                    OR = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
+					NOT = { tag = ORA tag = TRN tag = SUA tag = PCF }
+                }
+                any_owned = { limit = { is_core = SAF }
+                secede_province = THIS
+                }
+            }
+            any_country = {
+                limit = {
+                    ai = yes
+                    exists = yes
+                    OR = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
+					tag = ORA
+					any_owned_province = { is_core = SAF NOT = { province_id = 1883 province_id = 2104 } }
+                }
+                any_owned = { limit = { is_core = SAF }
+                secede_province = THIS
+                }
+            }
+            any_country = {
+                limit = {
+                    ai = yes
+                    exists = yes
+                    OR = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
+					tag = SUA
+					any_owned_province = { is_core = SAF }
+					OR = { neighbour = SAF neighbour = THIS }
+                }
+                any_owned = { limit = { is_core = SAF }
+                secede_province = THIS
+                }
+            }
+            any_country = {
+                limit = {
+                    ai = yes
+                    exists = yes
+                    OR = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
+					tag = PCF
+					any_owned_province = { is_core = SAF }
+					OR = { neighbour = SAF neighbour = THIS }
+                }
+                any_owned = { limit = { is_core = SAF }
+                secede_province = THIS
+                }
+            }
+            any_country = {
+                limit = {
+                    ai = yes
+                    exists = yes
+                    OR = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
+					tag = TRN
+					any_owned_province = { is_core = SAF NOT = { province_id = 2109 province_id = 3713 } }
+					OR = { neighbour = SAF neighbour = THIS }
+                }
+                any_owned = { limit = { is_core = SAF }
+                secede_province = THIS
+                }
+            }
+            SAF = { set_country_flag = post_colonial_country neutrality = yes government = hms_government }
+			ENG_2087 = { add_core = SAF }
+			ENG_2092 = { add_core = SAF }
+			ENG_2096 = { add_core = SAF }
+			ORA_2103 = { add_core = SAF }
+			TRN_2108 = { add_core = SAF }
+			ZUL_2113 = { add_core = SAF }
+            release_vassal = SAF
+            create_alliance = SAF
+			SAF = {
+            any_owned = {
+                limit = { province_id = 3897 is_core = TSN }
+                remove_core = TSN
+            } 
+			}
+			random_owned = { limit = { owner = { 2049 = { owned_by = POR } } } owner = {
+            any_owned = {
+                limit = { province_id = 3919 }
+                secede_province = POR
+            } } }
+            diplomatic_influence = {
+                who = SAF
+                value = 400
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                NOT = { year = 1905 }
+            }
+        }
+    }
+
+    clearances_in_natal = {
+        picture = tea_production
+        potential = {
+            owns = 2111
+            civilized = yes
+            owns = 2112
+            owns = 3900
+            owns = 3901
+            OR = {
+                tag = NAL
+                AND = {
+                    tag = SAF
+                    is_vassal = no
+                }
+            }
+            OR = {
+                2111 = { NOT = { has_province_modifier = plantation } }
+                2112 = { NOT = { has_province_modifier = plantation } }
+                3900 = { NOT = { has_province_modifier = plantation } }
+                3901 = { NOT = { has_province_modifier = plantation } }
+            }
+        }
+
+        allow = {
+            compound_steam_engines = 1
+            money = 150000
+            war = no
+        }
+
+        effect = {
+            2111 = { add_province_modifier = { name = plantation duration = -1 } }
+            2112 = { add_province_modifier = { name = plantation duration = -1 } }
+            4021 = { add_province_modifier = { name = plantation duration = -1 } }
+            3900 = { add_province_modifier = { name = plantation duration = -1 } }
+            3901 = { add_province_modifier = { name = plantation duration = -1 } }
+            random_owned = {
+                limit = { owner = { NOT = { has_global_flag = natal_life_rating } } }
+                3900 = { life_rating = 1 }
+                3901 = { life_rating = 1 }
+                2111 = { life_rating = 2 }
+                owner = { set_global_flag = natal_life_rating }
+            }
+            money = -100000
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    form_south_africa_diplomatically = { #Forming Volkstaat
+        picture = embrace_the_boer
+        potential = {
+            NOT = { has_country_flag = ff67_full_cape_victory }
+            primary_culture = boer
+			SAF = { exists = no }
+            NOT = { has_global_flag = volkstaat_formed }
+        }
+
+        allow = {
+            nationalism_n_imperialism = 1
+            OR = {
+                rank = 16
+                AND = {
+                    has_global_flag = won_boer_war
+                    owns = 2087
+                }
+            }
+            OR = {
+                tag = TRN
+                tag = ORA
+                tag = NAL
+            }
+            OR = {
+                TRN = {
+                    all_core = {
+                        OR = {
+							empty = yes
+                            owned_by = THIS
+                            owner = {
+                                OR = {
+                                    AND = {
+                                        alliance_with = THIS
+                                        has_global_flag = won_boer_war
+                                    }
+                                    in_sphere = THIS
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_greater_power = no
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    NOT = { exists = TRN }
+                    owns = 2105
+                }
+            }
+            OR = {
+                ORA = {
+                    all_core = {
+                        OR = {
+							empty = yes
+                            owned_by = THIS
+                            owner = {
+                                OR = {
+                                    AND = {
+                                        alliance_with = THIS
+                                        has_global_flag = won_boer_war
+                                    }
+                                    in_sphere = THIS
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_greater_power = no
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    NOT = { exists = ORA }
+                    owns = 2101
+                }
+            }
+            OR = {
+                NAL = {
+                    all_core = {
+                        OR = {
+							empty = yes
+                            owned_by = THIS
+                            owner = {
+                                OR = {
+                                    AND = {
+                                        alliance_with = THIS
+                                        has_global_flag = won_boer_war
+                                    }
+                                    in_sphere = THIS
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_greater_power = no
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    2111 = { owned_by = THIS }
+                    2112 = { owned_by = THIS }
+                    3900 = { owned_by = THIS }
+                    3901 = { owned_by = THIS }
+                }
+            }
+            war = no
+        }
+
+        effect = {
+            set_global_flag = volkstaat_formed
+            prestige = 20
+            TRN = { all_core = { add_core = SAF remove_core = TRN } }
+            ORA = { all_core = { add_core = SAF remove_core = ORA } }
+            NAL = { all_core = { add_core = SAF remove_core = NAL } }
+            NRB = { all_core = { add_core = SAF remove_core = NRB } }
+            change_tag = SAF
+            random_owned = { limit = { owner = { accepted_culture = british } } owner = { remove_accepted_culture = british } }
+            any_pop = {
+                limit = { is_primary_culture = yes }
+                militancy = -4
+            }
+            any_country = {
+                limit = {
+                    OR = {
+                        tag = TRN
+                        tag = ORA
+                        tag = NAL
+						tag = NRB
+                    }
+                    exists = yes
+                    NOT = { tag = THIS }
+                }
+                country_event = 11101
+            }
+            add_country_modifier = { name = boer_republic duration = 7300 }
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+
+    move_capital = {
+        picture = map_africa
+        potential = {
+            tag = SAF
+            NOT = { has_country_flag = moved_capital_saf }
+        }
+
+        allow = {
+            money = 90100
+            2087 = { owned_by = THIS }
+            2111 = { owned_by = THIS }
+            2101 = { owned_by = THIS }
+            1883 = { owned_by = THIS }
+            2105 = { owned_by = THIS }
+            2106 = { owned_by = THIS }
+            war = no
+        }
+
+        effect = {
+            set_country_flag = moved_capital_saf
+            country_event = 6013
+            money = -90000
+        }
+
+        ai_will_do = {
+			factor = 1
+        }
+    }
+
+    claim_namibia = {
+        picture = map_africa
+        potential = {
+            tag = SAF
+            2084 = { empty = yes }
+            4012 = { empty = yes }
+            3895 = { empty = yes }
+            2085 = { empty = yes }
+            4014 = { empty = yes }
+            2086 = { empty = yes }
+            4013 = { empty = yes }
+            NOT = { has_country_flag = claimed_namibia }
+        }
+
+        allow = { war = no year = 1880 money = 35000 2083 = { owned_by = THIS }
+            OR = { AND = { revolution_n_counterrevolution = 1 invention = manifest_destiny_invention invention = colonial_negotiations } AND = { has_country_flag = ff67_south_african_republic has_country_flag = ff67_full_cape_victory } }
+        }
+
+        effect = {
+            prestige = 5
+            2086 = { secede_province = THIS }
+            4013 = { secede_province = THIS } # FF3.2 split sync from 2086
+            
+            4013 = { secede_province = THIS }
+			2084 = { secede_province = THIS }
+			4012 = { secede_province = THIS } # FF3.2 split sync from 2084
+			
+			4012 = { secede_province = THIS }
+			3895 = { secede_province = THIS }
+            2085 = { secede_province = THIS }
+            4014 = { secede_province = THIS } # FF3.2 split sync from 2085
+            
+            4014 = { secede_province = THIS }
+            money = -35000 country_event = { id = 9785179 days = 1 } set_country_flag = claimed_namibia
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    open_the_frontiers = {
+        picture = die_groot_trek
+        potential = {
+			tag = SAF
+            NOT = { has_country_flag = open_frontiers }
+        }
+
+        allow = {
+            money = 50100
+            invention = manifest_destiny_invention
+            rank = 16
+            2106 = { owned_by = THIS }
+            2111 = { owned_by = THIS }
+            2105 = { owned_by = THIS }
+            2087 = { owned_by = THIS }
+            2098 = { owned_by = THIS }
+            2088 = { owned_by = THIS }
+        }
+
+        effect = {
+            money = -50000
+            set_country_flag = open_frontiers
+            THIS = {
+                add_country_modifier = {
+                    name = opened_frontiers
+                    duration = -1
+                }
+                remove_country_modifier = trek_boers
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    greater_south_africa = {
+        picture = cape_map
+        potential = {
+            owns = 2105
+            primary_culture = boer
+            owns = 2111
+            owns = 2085
+            NOT = {
+                AND = {
+                    TRN = { all_core = { is_core = THIS } }
+                    ORA = { all_core = { is_core = THIS } }
+                    NAL = { all_core = { is_core = THIS } }
+                    2084 = { is_core = THIS }
+                    2085 = { is_core = THIS }
+                }
+            }
+            NOT = { has_country_flag = greater_south_africa }
+        }
+
+        allow = {
+            rank = 16
+            nationalism_n_imperialism = 1
+            invention = manifest_destiny_invention
+            OR = {
+                ruling_party_ideology = fascist
+                ruling_party_ideology = reactionary
+            }
+            prestige = 150
+            money = 300000
+            war = no
+            is_vassal = no
+        }
+
+        effect = {
+			set_country_flag = greater_south_africa
+			badboy = 10
+			prestige = 5
+			TRN = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			ORA = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			NAL = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			2574 = {
+				add_core = THIS
+			}
+			4039 = {
+				add_core = THIS
+			}
+			4032 = {
+				add_core = THIS
+			}
+			4033 = {
+				add_core = THIS
+			}
+			2077 = {
+				add_core = THIS
+			}
+			4029 = {
+				add_core = THIS
+			}
+			4030 = {
+				add_core = THIS
+			}
+			4031 = {
+				add_core = THIS
+			}
+			2083 = {
+				add_core = THIS
+			}
+			2086 = {
+				add_core = THIS
+			}
+			4013 = {
+				add_core = THIS
+			}
+			2084 = {
+				add_core = THIS
+			}
+			4012 = {
+				add_core = THIS
+			}
+			3895 = {
+				add_core = THIS
+			}
+			2085 = {
+				add_core = THIS
+			}
+			4014 = {
+				add_core = THIS
+			}
+			2075 = {
+				add_core = THIS
+			}
+			4034 = {
+				add_core = THIS
+			}
+			3882 = {
+				add_core = THIS
+			}
+			2076 = {
+				add_core = THIS
+			}
+			4038 = {
+				add_core = THIS
+			}
+			4028 = {
+				add_core = THIS
+			}
+			3649 = {
+				add_core = THIS
+			}
+			3717 = {
+				add_core = THIS
+			}
+			2078 = {
+				add_core = THIS
+			}
+			2079 = {
+				add_core = THIS
+			}
+			2080 = {
+				add_core = THIS
+			}
+			2082 = {
+				add_core = THIS
+			}
+			2081 = {
+				add_core = THIS
+			}
+		}
+        ai_will_do = { factor = 1 }
+    }
+
+#    boer_south_africa = { Turning this into an event
+#        picture = form_south_africa
+#        potential = {
+#            primary_culture = boer
+#            nationalism_n_imperialism = 1
+#            SAF = {
+#                exists = no
+#                all_core = { OR = { owned_by = THIS empty = yes } }
+#            }
+#            NOT = {
+#                has_global_flag = south_africa_formed
+#                has_global_flag = boer_south_africa
+#            }
+#        }
+#
+#        allow = {
+#            tag = VLK
+#            war = no
+#            owns = 2087
+#            owns = 2111
+#            owns = 2105
+#        }
+#
+#        effect = {
+#            prestige = 5
+#            SAF = {
+#                all_core = { add_core = VLK }
+#                primary_culture = british
+#                add_accepted_culture = boer
+#            }
+#            any_pop = {
+#                limit = { is_primary_culture = yes }
+#                militancy = -4
+#            }
+#            any_pop = {
+#                limit = { has_pop_culture = british }
+#                militancy = 4
+#            }
+#            set_global_flag = boer_south_africa
+#        }
+#    }
+#
+#    unified_south_africa = {
+#        picture = form_south_africa
+#        potential = {
+#            tag = VLK
+#            SAF = {
+#                exists = no
+#                all_core = { OR = { owned_by = THIS empty = yes } }
+#            }
+#            NOT = {
+#                ruling_party_ideology = reactionary
+#                ruling_party_ideology = fascist
+#                has_global_flag = south_africa_formed
+#                has_global_flag = unified_south_africa
+#                has_country_flag = british_nervous
+#            }
+#        }
+#
+#        allow = {
+#            revolution_n_counterrevolution = 1
+#            war = no
+#            owns = 2087
+#            owns = 2111
+#            owns = 2105
+#        }
+#
+#        effect = {
+#            prestige = 5
+#            SAF = {
+#                all_core = { remove_core = VLK }
+#                primary_culture = boer
+#            }
+#            any_pop = {
+#                limit = { has_pop_culture = british }
+#                militancy = -4
+#            }
+#            change_tag = SAF
+#			set_country_flag = new_world_nation
+#            random_owned = { limit = { owner = { NOT = { has_country_flag = ff67_south_african_republic } } } owner = { add_accepted_culture = british } }
+#            set_global_flag = unified_south_africa
+#            set_global_flag = south_africa_formed
+#        }
+#    }
+
+    unified_south_africa_zou = {
+        picture = form_south_africa
+        potential = {
+            tag = ZOU
+            SAF = {
+                exists = no
+            }
+            NOT = {
+                ruling_party_ideology = reactionary
+                ruling_party_ideology = fascist
+                has_global_flag = south_africa_formed
+                has_global_flag = unified_south_africa
+                has_country_flag = british_nervous
+            }
+       }
+
+       allow = {
+            OR = {
+				nationalism_n_imperialism = 1
+				owns = 2083
+				owns = 2057
+				owns = 2076
+				owns = 4038
+				owns = 4028
+			}
+            war = no
+            all_core = { OR = { owned_by = THIS empty = yes } }
+			SAF = { all_core = { OR = { owned_by = THIS empty = yes } } }
+            owns = 2087
+            owns = 2111
+            owns = 2105
+        }
+
+        effect = {
+            prestige = 5
+			ZOU = { all_core = { add_core = SAF remove_core = ZOU } }
+            TRN = { all_core = { add_core = SAF remove_core = TRN } }
+            ORA = { all_core = { add_core = SAF remove_core = ORA } }
+            NAL = { all_core = { add_core = SAF remove_core = NAL } }
+            NRB = { all_core = { add_core = SAF remove_core = NRB } }
+            any_pop = { limit = { has_pop_culture = british } militancy = -4 }
+            change_tag = SAF
+			set_country_flag = new_world_nation
+            random_owned = { limit = { owner = { NOT = { has_country_flag = ff67_south_african_republic } } } owner = { add_accepted_culture = british } }
+            add_accepted_culture = boer
+            add_accepted_culture = khoisan
+            set_global_flag = unified_south_africa
+            set_global_flag = south_africa_formed
+        }
+    }
+
+	annex_SAF_minors = {
+		picture = cape_map
+		potential = {
+			tag = SAF
+			OR = {
+				BSH = { vassal_of = THIS }
+				SUA = { vassal_of = THIS }
+				ORA = { vassal_of = THIS }
+				ZUL = { vassal_of = THIS }
+				TRN = { vassal_of = THIS }
+				NAL = { vassal_of = THIS }
+			}
+		}
+
+		allow = {
+			rank = 16
+			nationalism_n_imperialism = 1
+			war = no
+		}
+
+		effect = {
+			any_country = {
+				limit = {
+					vassal_of = THIS
+					OR = {
+						tag = BSH
+						tag = SUA
+						tag = ORA
+						tag = ZUL
+						tag = TRN
+						tag = NAL
+					}
+				}
+				all_core = { add_core = SAF }
+				annex_to = THIS
+			}
+		}
+	}
+	
+	invite_outlanders = {
+		picture = new_life
+		potential = {
+			primary_culture = boer
+			NOT = { 
+				has_country_flag = new_world_nation
+				has_country_flag = apartheid_saf 
+			}
+		}
+		
+		allow = {
+			rank = 16
+ 			is_vassal = no
+			any_owned_province = { OR = { trade_goods = gems trade_goods = gold } }
+			num_of_ports = 1
+			NOT = { citizenship_policy = residency }
+		}
+		
+		effect = {
+			prestige = 5
+			set_country_flag = new_world_nation
+			add_country_modifier = { name = gold_rush_country duration = 7300 }
+		}
+	}
+#    Commented out for now, revise later
+#
+#    madagascar_purchase = { #Boers want to purchase Alaska
+#		picture = map_madagascar
+#		potential = {
+#			primary_culture = boer
+#			AND = { owns = 2087 owns = 2105 owns = 2096 }
+#			FRA = { owns = 2115 }
+#			NOT = { has_global_flag = tried_madagascar_purchase }
+#		}
+#
+#		allow = {
+#			war = no
+#			FRA = { war = no }
+#			money = 500000
+#			FRA = { relation = { who = THIS value = 100 } }
+#		}
+#
+#        effect = {
+#            set_global_flag = tried_madagascar_purchase
+#            badboy = 2
+#            FRA = { country_event = 1500000 }
+#        }
+#		
+#		ai_will_do = {
+#            factor = 1
+#            modifier = { factor = 0 badboy = 0.85 }
+#		}
+#    }
+}

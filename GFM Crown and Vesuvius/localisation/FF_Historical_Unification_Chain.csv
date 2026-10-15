@@ -1,0 +1,77 @@
+ff_hai_uc_ack;Acknowledge the diplomatic report.;;;;;;;;;;;;;x
+ff_hai_uc_schleswig_reinforce_title;Austria Enters the Danish Campaign;;;;;;;;;;;;;x
+ff_hai_uc_schleswig_reinforce_desc;The Austrian contingent joins the Prussian campaign against Denmark. The dispute over the duchies remains subject to the settlement at Vienna.;;;;;;;;;;;;;x
+ff_hai_uc_german_war_title;The German War of 1866;;;;;;;;;;;;;x
+ff_hai_uc_german_war_desc;The struggle for leadership of Germany becomes war in June 1866. Prussia and its northern allies confront Austria and the states supporting the Federal Diet. Italy opens its own campaign against Austria.;;;;;;;;;;;;;x
+ff_hai_uc_italian_war_title;The Third Italian War of Independence;;;;;;;;;;;;;x
+ff_hai_uc_italian_war_desc;Italy declares war on Austria on 20 June 1866. The campaign seeks Venetia, in conjunction with Prussia’s struggle against Austria. The Alpine and Adriatic territories beyond Venetia remain outside this settlement.;;;;;;;;;;;;;x
+ff_hai_uc_venice_treaty_title;The Austro-Italian Treaty of Vienna;;;;;;;;;;;;;x
+ff_hai_uc_venice_treaty_desc;On 3 October 1866 Italy and Austria conclude peace at Vienna. The Venetian territories pass through French mediation before their handover to the Italian administration.;;;;;;;;;;;;;x
+ff_hai_uc_prague_title;The Peace of Prague;;;;;;;;;;;;;x
+ff_hai_uc_prague_desc;The settlement of 23 August 1866 excludes Austria from the new German political order. Prussia assumes leadership in the north. Austria retains its own territory and the southern German kingdoms remain separate.;;;;;;;;;;;;;x
+ff_hai_uc_annexations_title;Prussia Annexes the Northern States;;;;;;;;;;;;;x
+ff_hai_uc_annexations_desc;Prussia incorporates Hanover, Electoral Hesse, Nassau and Frankfurt, together with the duchies acquired from Denmark. The annexations reshape northern Germany after the war.;;;;;;;;;;;;;x
+ff_hai_uc_venice_title;Venetia Passes to Italy;;;;;;;;;;;;;x
+ff_hai_uc_venice_desc;Following the Treaty of Vienna and French mediation, the transfer of Venetia takes effect in October 1866. Venice and its surrounding provinces join Italy. Trentino, Trieste and the other Austrian territories remain with Austria.;;;;;;;;;;;;;x
+ff_hai_uc_venice_annexation_title;The Annexation of Venetia and Mantua;;;;;;;;;;;;;x
+ff_hai_uc_venice_annexation_desc;The royal decree of 4 November 1866 declares the Venetian provinces and Mantua integral parts of the Kingdom of Italy, following the October handover and plebiscite.;;;;;;;;;;;;;x
+ff_hai_uc_north_title;The North German Confederation;;;;;;;;;;;;;x
+ff_hai_uc_north_desc;The constitution of the North German Confederation takes effect on 1 July 1867. Prussia leads the federal state north of the Main. The southern German states retain their separate administrations.;;;;;;;;;;;;;x
+ff_hai_uc_french_war_title;The Franco-Prussian War;;;;;;;;;;;;;x
+ff_hai_uc_french_war_desc;France declares war on Prussia and the North German Confederation on 19 July 1870. The southern German states join the German campaign under their defensive agreements.;;;;;;;;;;;;;x
+ff_hai_uc_rome_war_title;The Italian Advance into the Papal State;;;;;;;;;;;;;x
+ff_hai_uc_rome_war_desc;Following the withdrawal of French protection, Italian forces enter the remaining Papal territory in September 1870. The government seeks Rome as the culmination of the national movement.;;;;;;;;;;;;;x
+ff_hai_uc_rome_capture_title;The Capture of Rome;;;;;;;;;;;;;x
+ff_hai_uc_rome_capture_desc;Italian troops enter Rome through the breach at Porta Pia on 20 September 1870. The remaining Papal territory passes to the Italian kingdom, bringing the temporal state to an end.;;;;;;;;;;;;;x
+ff_hai_uc_empire_title;The Proclamation of the German Empire;;;;;;;;;;;;;x
+ff_hai_uc_empire_desc;On 18 January 1871 Wilhelm I is proclaimed German Emperor at Versailles. The southern states join the federation, and the North German Confederation becomes the German Empire while the war with France continues.;;;;;;;;;;;;;x
+ff_hai_uc_frankfurt_title;The Treaty of Frankfurt;;;;;;;;;;;;;x
+ff_hai_uc_frankfurt_desc;The peace of 10 May 1871 ends the Franco-German conflict. Alsace and the annexed part of Lorraine pass to Germany. France retains Belfort, Nancy and the remainder of Lorraine.;;;;;;;;;;;;;x
+ff_hai_uc_rome_capital_title;The Government Moves to Rome;;;;;;;;;;;;;x
+ff_hai_uc_rome_capital_desc;The Italian government takes its seat in Rome in July 1871. The new capital replaces Florence as the administrative centre of the kingdom.;;;;;;;;;;;;;x
+ff_hai_uc_norway_title;The Dissolution of the Swedish-Norwegian Union;;;;;;;;;;;;;x
+ff_hai_uc_norway_desc;On 7 June 1905 the Storting declares that the union with Sweden has ceased to function. Negotiations and the autumn settlement bring the shared monarchy to an end peacefully.;;;;;;;;;;;;;x
+ff_hai_1866_german_war;German War of 1866;;;;;;;;;;;;;x
+ff_hai_1866_german_war_short;Historical Settlement;;;;;;;;;;;;;x
+ff_hai_1866_german_war_desc;Settle the conflict through the dated diplomatic agreement.;;;;;;;;;;;;;x
+FF_HAI_UC_GERMAN;German War of 1866;;;;;;;;;;;;;x
+FF_HAI_UC_GERMAN_NO_ORDER;German War of 1866;;;;;;;;;;;;;x
+NORMAL_FF_HAI_UC_GERMAN;German War of 1866;;;;;;;;;;;;;x
+NORMAL_FF_HAI_UC_GERMAN_NO_ORDER;German War of 1866;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_UC_GERMAN;German War of 1866;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_UC_GERMAN_NO_ORDER;German War of 1866;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_UC_GERMAN;German War of 1866;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_UC_GERMAN_NO_ORDER;German War of 1866;;;;;;;;;;;;;x
+ff_hai_1866_italian_war;Third Italian War of Independence;;;;;;;;;;;;;x
+ff_hai_1866_italian_war_short;Historical Settlement;;;;;;;;;;;;;x
+ff_hai_1866_italian_war_desc;Settle the conflict through the dated diplomatic agreement.;;;;;;;;;;;;;x
+FF_HAI_UC_ITALIAN;Third Italian War of Independence;;;;;;;;;;;;;x
+FF_HAI_UC_ITALIAN_NO_ORDER;Third Italian War of Independence;;;;;;;;;;;;;x
+NORMAL_FF_HAI_UC_ITALIAN;Third Italian War of Independence;;;;;;;;;;;;;x
+NORMAL_FF_HAI_UC_ITALIAN_NO_ORDER;Third Italian War of Independence;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_UC_ITALIAN;Third Italian War of Independence;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_UC_ITALIAN_NO_ORDER;Third Italian War of Independence;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_UC_ITALIAN;Third Italian War of Independence;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_UC_ITALIAN_NO_ORDER;Third Italian War of Independence;;;;;;;;;;;;;x
+ff_hai_1870_french_war;Franco-Prussian War;;;;;;;;;;;;;x
+ff_hai_1870_french_war_short;Historical Settlement;;;;;;;;;;;;;x
+ff_hai_1870_french_war_desc;Settle the conflict through the dated diplomatic agreement.;;;;;;;;;;;;;x
+FF_HAI_UC_FRENCH;Franco-Prussian War;;;;;;;;;;;;;x
+FF_HAI_UC_FRENCH_NO_ORDER;Franco-Prussian War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_UC_FRENCH;Franco-Prussian War;;;;;;;;;;;;;x
+NORMAL_FF_HAI_UC_FRENCH_NO_ORDER;Franco-Prussian War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_UC_FRENCH;Franco-Prussian War;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_UC_FRENCH_NO_ORDER;Franco-Prussian War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_UC_FRENCH;Franco-Prussian War;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_UC_FRENCH_NO_ORDER;Franco-Prussian War;;;;;;;;;;;;;x
+ff_hai_1870_rome_war;Italian Campaign for Rome;;;;;;;;;;;;;x
+ff_hai_1870_rome_war_short;Historical Settlement;;;;;;;;;;;;;x
+ff_hai_1870_rome_war_desc;Settle the conflict through the dated diplomatic agreement.;;;;;;;;;;;;;x
+FF_HAI_UC_ROME;Italian Campaign for Rome;;;;;;;;;;;;;x
+FF_HAI_UC_ROME_NO_ORDER;Italian Campaign for Rome;;;;;;;;;;;;;x
+NORMAL_FF_HAI_UC_ROME;Italian Campaign for Rome;;;;;;;;;;;;;x
+NORMAL_FF_HAI_UC_ROME_NO_ORDER;Italian Campaign for Rome;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_UC_ROME;Italian Campaign for Rome;;;;;;;;;;;;;x
+AGRESSION_FF_HAI_UC_ROME_NO_ORDER;Italian Campaign for Rome;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_UC_ROME;Italian Campaign for Rome;;;;;;;;;;;;;x
+REGRESSION_FF_HAI_UC_ROME_NO_ORDER;Italian Campaign for Rome;;;;;;;;;;;;;x

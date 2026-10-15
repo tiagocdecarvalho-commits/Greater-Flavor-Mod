@@ -1,0 +1,89 @@
+country_event = {
+ id = 9784975 title = "FF69_LOCAL_TITLE" desc = "FF69_LOCAL_DESC" picture = "boer_war"
+ is_triggered_only = yes
+ option = { name = "FF69_LOCAL_OPT0" ai_chance = { factor = 100 }
+ random_owned = { limit = { owner = { tag = BTV vassal_of = ENG has_country_flag = ff69_defeated_transvaal NOT = { has_country_flag = ff69_local_treaty_notified } } } owner = {
+  any_pop = { limit = { culture = boer } militancy = -1 consciousness = 1 }
+  set_country_flag = ff69_local_treaty_notified
+ } }
+ }
+}
+
+country_event = {
+ id = 9784976 title = "FF69_PORTS_TITLE" desc = "FF69_PORTS_DESC" picture = "boer_war"
+ is_triggered_only = yes
+ option = { name = "FF69_PORTS_OPT0" ai_chance = { factor = 100 }
+ random_owned = { limit = { owner = { tag = BTV vassal_of = ENG has_country_flag = ff69_defeated_transvaal NOT = { has_country_flag = ff69_ports_treaty_notified } } } owner = {
+  any_pop = { limit = { culture = boer } militancy = 1 consciousness = 1 }
+  set_country_flag = ff69_ports_treaty_notified
+ } }
+ }
+}
+
+country_event = {
+ id = 9784977 title = "FF69_ANNEX_TITLE" desc = "FF69_ANNEX_DESC" picture = "boer_war"
+ is_triggered_only = yes
+ option = { name = "FF69_ANNEX_OPT0" ai_chance = { factor = 100 }
+ random_owned = { limit = { owner = { tag = BTV vassal_of = ENG ENG = { has_country_flag = ff69_annexation_pending } } } owner = {
+  # Keep republican cores: direct rule has opposition, not instant assimilation.
+  any_owned = { add_core = TRN any_pop = { limit = { culture = boer } militancy = 2 consciousness = 1 } }
+  random_owned = { limit = { owner = { ai = no } } owner = { change_tag_no_core_switch = ENG } }
+  ENG = { release_vassal = BTV inherit = BTV
+   clr_country_flag = ff69_annexation_pending set_country_flag = ff69_direct_rule
+   badboy = 6 add_country_modifier = { name = ff69_colonial_burden duration = 1825 }
+   country_event = { id = 9784978 days = 1 }
+  }
+ } }
+ }
+}
+
+country_event = {
+ id = 9784978 title = "FF69_COLONY_TITLE" desc = "FF69_COLONY_DESC" picture = "boer_war"
+ is_triggered_only = yes
+ option = { name = "FF69_COLONY_OPT0" ai_chance = { factor = 100 }
+ random_owned = { limit = { owner = { tag = ENG has_country_flag = ff69_direct_rule NOT = { has_country_flag = ff69_colony_reported } } } owner = {
+  set_country_flag = ff69_colony_reported prestige = 5
+ } }
+ }
+}
+
+country_event = {
+ id = 9784979 title = "FF69_INTEGRATE_TITLE" desc = "FF69_INTEGRATE_DESC" picture = "boer_war"
+ is_triggered_only = yes
+ option = { name = "FF69_INTEGRATE_OPT0" ai_chance = { factor = 80 }
+ random_owned = { limit = { owner = { tag = ENG money = 10000 war = no has_country_flag = ff69_reconstruction_funded BTV = { exists = yes vassal_of = ENG war = no has_country_flag = ff69_defeated_transvaal has_country_flag = ff69_reconstruction_received NOT = { has_country_modifier = ff69_integration_wait } NOT = { any_owned_province = { NOT = { controlled_by = BTV } } } } } } owner = {
+  money = -10000 set_country_flag = ff69_annexation_pending
+  BTV = { country_event = { id = 9784977 days = 1 } }
+ } }
+ clr_country_flag = ff69_integration_requested
+ }
+ option = { name = "FF69_INTEGRATE_OPT1" ai_chance = { factor = 20 }
+  clr_country_flag = ff69_integration_requested
+  add_country_modifier = { name = ff69_integration_pause duration = 365 }
+ }
+}
+
+country_event = {
+ id = 9784980 title = "FF69_REBUILD_TITLE" desc = "FF69_REBUILD_DESC" picture = "boer_war"
+ is_triggered_only = yes
+ option = { name = "FF69_REBUILD_OPT0" ai_chance = { factor = 100 }
+ random_owned = { limit = { owner = { tag = BTV vassal_of = ENG NOT = { has_country_flag = ff69_reconstruction_received } } } owner = {
+  set_country_flag = ff69_reconstruction_received money = 2000
+  add_country_modifier = { name = ff69_reconstruction duration = 1825 }
+  any_pop = { militancy = -1 }
+ } }
+ }
+}
+
+country_event = {
+ id = 9784981 title = "FF69_AUTONOMY_TITLE" desc = "FF69_AUTONOMY_DESC" picture = "boer_war"
+ is_triggered_only = yes
+ option = { name = "FF69_AUTONOMY_OPT0" ai_chance = { factor = 100 }
+ random_owned = { limit = { owner = { tag = BTV vassal_of = ENG NOT = { has_country_flag = ff69_autonomy_received } } } owner = {
+  set_country_flag = ff69_autonomy_received
+  add_country_modifier = { name = ff69_district_autonomy duration = -1 }
+  any_pop = { limit = { culture = boer } militancy = -2 consciousness = 1 }
+ } }
+ }
+}
+

@@ -1,0 +1,47 @@
+FF76_ORANGE_TALKS_TITLE;Negotiations with the Orange Free State Begin;;;;;;;;;;;;;x
+FF76_ORANGE_TALKS_DESC;A month has passed since the peace, and our delegation is leaving for Bloemfontein. The victory has brought new ports and districts under republican government, but the two Boer republics still maintain separate customs, accounts and foreign policies. The delegates will discuss a common tariff, representation in the founding raad and the settlement of public debts. The Orange government is being invited to examine these terms with its districts before committing itself. Pretoria intends to bring the articles to a conference when six months have passed since the peace. Farmers, merchants and commandants will have time to make their views known, and the delegates must return with an agreement capable of winning the confidence of both republics.;;;;;;;;;;;;;x
+FF76_ORANGE_CATCHUP_DESC;The delegates are ready to resume their work with Bloemfontein. Customs, public debts and district representation remain the central questions, and the two raads must decide how their institutions will fit within a common republic. The government has set a five-month programme for completing the preparations now before it. The Orange districts will examine the draft articles, while Pretoria prepares the accounts and public obligations inherited through the peace. A conference will then bring the proposed union before the delegates. Their task is to establish common institutions whose authority rests on the agreement of the two republican administrations.;;;;;;;;;;;;;x
+FF76_ORANGE_TALKS_OPT0;Commission the delegation and begin the talks.;;;;;;;;;;;;;x
+ff76_reapproach_continent_title;Reapproach the Continent;;;;;;;;;;;;;x
+ff76_reapproach_continent_desc;Invite the Netherlands to a conference on commerce, language and technical cooperation. The republic seeks dependable access to machinery and European markets, while Dutch merchants look for partners in the Cape ports and the interior. A treaty can recognise Dutch-speaking residents and strengthen the institutions through which trade and learning pass between the two countries.;;;;;;;;;;;;;x
+FF76_DUTCH_INVITE_TITLE;An Invitation from the South African Republic;;;;;;;;;;;;;x
+FF76_DUTCH_INVITE_DESC;The republic's envoys have arrived with proposals for a commercial conference. The Cape ports offer a route to the interior, and the mining districts require machinery, credit and skilled workers. Shared language gives Dutch merchants and teachers a useful introduction, but it cannot replace dependable contracts or a clear understanding of local government. The envoys ask our ministry to discuss recognition of Dutch-speaking residents, commercial arrangements and technical exchanges. Participation would give our firms a stronger place in South African commerce without committing our government to the republic's frontier disputes. The cabinet must decide whether the opportunities justify opening formal negotiations.;;;;;;;;;;;;;x
+FF76_DUTCH_ACCEPT;Receive the envoys and open the conference.;;;;;;;;;;;;;x
+FF76_DUTCH_REFUSE;Our ministry cannot undertake these negotiations now.;;;;;;;;;;;;;x
+FF76_DUTCH_CONFERENCE_TITLE;The Dutch–South African Conference;;;;;;;;;;;;;x
+FF76_DUTCH_CONFERENCE_DESC;The delegates have agreed that shared language should serve practical cooperation between the two countries. Dutch-speaking residents will receive recognition within the republic, and both ministries will maintain closer relations. Merchants propose a commercial charter to ease the supply of machinery and the passage of imports through the ports. Teachers and engineers instead urge a programme of technical exchanges, scholarships and instruction. The Volksraad must decide which programme to fund first. Either course gives the agreement institutions through which it can outlast the ceremony of signature. The Dutch delegation will report the settlement to its ministry, while our officials prepare the contracts and accounts required to put it into practice.;;;;;;;;;;;;;x
+FF76_DUTCH_TRADE;Ratify the commercial charter and commission the merchants.;;;;;;;;;;;;;x
+FF76_DUTCH_EXCHANGE;Endow technical exchanges and welcome the Dutch instructors.;;;;;;;;;;;;;x
+FF76_DUTCH_DECLINE_TITLE;The Dutch Ministry Defers the Conference;;;;;;;;;;;;;x
+FF76_DUTCH_DECLINE_DESC;The Dutch ministry has declined to open formal negotiations at present. Our envoys report that the cabinet is unwilling to assume new commitments while it attends to its own affairs. Commercial correspondence may continue, but the proposed charter and exchanges remain unsigned. The Volksraad can prepare a renewed invitation after further diplomatic work, rather than treat the refusal as a permanent breach. Meanwhile, merchants and teachers will have to rely on the ordinary agreements they can conclude through existing channels.;;;;;;;;;;;;;x
+FF76_DUTCH_DECLINE_OPT0;Maintain the correspondence and prepare another invitation.;;;;;;;;;;;;;x
+ff76_frontier_surveys_title;Equip Frontier and Colonial Surveys;;;;;;;;;;;;;x
+ff76_frontier_surveys_desc;Fund surveyors, district records and settlement services in our colonial territories and eastern frontier districts. Their reports will guide a programme of roads and agricultural services or schools and local administration. The expenditure supports the districts we govern and the movement of households into them.;;;;;;;;;;;;;x
+FF76_FRONTIER_SURVEYS_TITLE;The Surveyors Report from the Frontier;;;;;;;;;;;;;x
+FF76_FRONTIER_SURVEYS_DESC;The survey parties have returned with plans of routes, settlements and cultivated ground. Commissioners describe districts where the distance between farms and public offices makes ordinary government difficult. Newcomers seek dependable roads and records, while existing communities ask how their claims and institutions will be treated. The funded programme can concentrate on roads, agricultural services and the movement of produce, or establish schools and offices through which residents can deal with the republic. Both plans would make the frontier easier to settle and administer. The raad must now choose the work that district officials will undertake over the coming years.;;;;;;;;;;;;;x
+FF76_FRONTIER_SURVEYS_ROADS;Commission the roads and agricultural services.;;;;;;;;;;;;;x
+FF76_FRONTIER_SURVEYS_SCHOOLS;Establish the district schools and public offices.;;;;;;;;;;;;;x
+ff76_ocean_gateway_title;Equip a Gateway to the Indian Ocean;;;;;;;;;;;;;x
+ff76_ocean_gateway_desc;Fund a new port establishment on a coast under republican government. A naval station would support the ships that extend our maritime and colonial reach, while a merchant establishment would concentrate on commerce and settlement. The engineers will choose a coastal district that has no existing naval base.;;;;;;;;;;;;;x
+FF76_OCEAN_GATEWAY_TITLE;A Republican Gateway to the Ocean;;;;;;;;;;;;;x
+FF76_OCEAN_GATEWAY_DESC;The engineers have examined a stretch of coast where the republic can establish its own harbour services. Access to the sea gives the government a route for machinery, supplies and correspondence beyond the inland roads. It also demands stores, maintenance, trained officials and arrangements with the communities around the port. The funded establishment will provide a naval base, giving our ships a permanent station and supporting the republic's maritime reach. The raad can direct the associated works towards provisioning and public stores, or towards merchant facilities and settlement. What begins as a harbour must become a district capable of sustaining trade and government throughout the year.;;;;;;;;;;;;;x
+FF76_OCEAN_GATEWAY_NAVAL;Establish the naval station and its public stores.;;;;;;;;;;;;;x
+FF76_OCEAN_GATEWAY_MERCHANT;Build the merchant gateway around the new station.;;;;;;;;;;;;;x
+ff76_orange_preparations;Preparing the Orange Delegation;;;;;;;;;;;;;x
+ff76_orange_preparations_desc;The delegates are preparing customs, debt and representation proposals.;;;;;;;;;;;;;x
+ff76_dutch_pause;Dutch Negotiations Deferred;;;;;;;;;;;;;x
+ff76_dutch_pause_desc;Our ministry is preparing further diplomatic correspondence.;;;;;;;;;;;;;x
+ff76_dutch_trade;The Dutch Commercial Charter;;;;;;;;;;;;;x
+ff76_dutch_trade_desc;Commercial agreements improve the supply of imported machinery and factory materials.;;;;;;;;;;;;;x
+ff76_dutch_exchange;Dutch Technical Exchanges;;;;;;;;;;;;;x
+ff76_dutch_exchange_desc;Teachers, engineers and scholarships strengthen learning and technical instruction.;;;;;;;;;;;;;x
+ff76_overseas_commerce;South African Commercial Connections;;;;;;;;;;;;;x
+ff76_overseas_commerce_desc;Dutch firms maintain closer commercial connections with the republic.;;;;;;;;;;;;;x
+ff76_survey_roads;Surveyed Roads and Agricultural Services;;;;;;;;;;;;;x
+ff76_survey_roads_desc;Roads and agricultural services support production and settlement in this district.;;;;;;;;;;;;;x
+ff76_district_schools;Frontier Schools and Public Offices;;;;;;;;;;;;;x
+ff76_district_schools_desc;Schools and district offices help newcomers establish themselves and deal with public administration.;;;;;;;;;;;;;x
+ff76_port_works;Republican Harbour Stores;;;;;;;;;;;;;x
+ff76_port_works_desc;Public stores and harbour services support the new maritime station.;;;;;;;;;;;;;x
+ff76_merchant_gateway;The Republican Merchant Gateway;;;;;;;;;;;;;x
+ff76_merchant_gateway_desc;Harbour facilities improve commerce and the reception of newcomers.;;;;;;;;;;;;;x

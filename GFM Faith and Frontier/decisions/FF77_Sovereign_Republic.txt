@@ -1,0 +1,621 @@
+political_decisions = {
+	ff77_language_policy = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			has_country_flag = ff67_south_african_republic
+			NOT = {
+				has_country_flag = ff77_language_funded
+			}
+		}
+		allow = {
+			war = no
+			money = 8000
+			any_owned_province = {
+				any_pop = {
+					has_pop_culture = british
+				}
+			}
+		}
+		effect = {
+			money = -8000
+			set_country_flag = ff77_language_funded
+			country_event = {
+				id = 9785134
+				days = 1
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	ff77_mozambique_purchase = {
+		picture = ffv4_mozambique_purchase_decision
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff67_full_cape_victory
+			year = 1883
+			NOT = {
+				has_country_flag = ff77_portugal_pending
+			}
+			NOT = {
+				has_country_flag = ff77_portugal_done
+			}
+			POR = {
+				exists = yes
+				any_owned_province = {
+					OR = {
+						region = POR_2049
+						region = POR_2053
+						region = POR_2054
+						region = POR_2060
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+			money = 150000
+			relation = {
+				who = POR
+				value = 100
+			}
+			NOT = {
+				has_country_modifier = ff77_portugal_pause
+			}
+			POR = {
+				war = no
+				is_vassal = no
+			}
+		}
+		effect = {
+			money = -150000
+			set_country_flag = ff77_portugal_pending
+			POR = {
+				clr_country_flag = ff77_portugal_answered
+				clr_country_flag = ff77_portugal_shown
+				country_event = {
+					id = 9785140
+					days = 1
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ff77_gaza_proposal = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff67_full_cape_victory
+			year = 1880
+			GAZ = {
+				exists = yes
+				is_vassal = no
+			}
+			NOT = {
+				has_country_flag = ff77_gaza_pending
+			}
+			NOT = {
+				has_country_flag = ff77_gaza_answered
+			}
+			NOT = {
+				has_country_flag = ff77_gaza_done
+			}
+		}
+		allow = {
+			war = no
+			money = 12000
+			owns = 2050
+			GAZ = {
+				war = no
+			}
+		}
+		effect = {
+			money = -12000
+			set_country_flag = ff77_gaza_pending
+			GAZ = {
+				clr_country_flag = ff77_gaza_reply_shown
+				country_event = {
+					id = 9785150
+					days = 1
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ff77_gaza_campaign = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff67_full_cape_victory
+			has_country_flag = ff77_gaza_refused
+			NOT = {
+				has_country_flag = ff77_gaza_campaign
+			}
+			GAZ = {
+				exists = yes
+				is_vassal = no
+			}
+		}
+		allow = {
+			war = no
+			money = 6000
+			GAZ = {
+				war = no
+			}
+		}
+		effect = {
+			money = -6000
+			badboy = 8
+			set_country_flag = ff77_gaza_campaign
+			casus_belli = {
+				target = GAZ
+				type = ff77_gaza_conquest
+				months = 60
+			}
+			country_event = {
+				id = 9785151
+				days = 1
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ff77_shangaan_proposal = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff67_full_cape_victory
+			year = 1882
+			SRN = {
+				exists = yes
+				is_vassal = no
+			}
+			NOT = {
+				has_country_flag = ff77_shangaan_pending
+			}
+			NOT = {
+				has_country_flag = ff77_shangaan_answered
+			}
+			NOT = {
+				has_country_flag = ff77_shangaan_done
+			}
+		}
+		allow = {
+			war = no
+			money = 16000
+			owns = 2050
+			SRN = {
+				war = no
+			}
+		}
+		effect = {
+			money = -16000
+			set_country_flag = ff77_shangaan_pending
+			SRN = {
+				clr_country_flag = ff77_shangaan_reply_shown
+				country_event = {
+					id = 9785154
+					days = 1
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ff77_shangaan_campaign = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff67_full_cape_victory
+			has_country_flag = ff77_shangaan_refused
+			NOT = {
+				has_country_flag = ff77_shangaan_campaign
+			}
+			SRN = {
+				exists = yes
+				is_vassal = no
+			}
+		}
+		allow = {
+			war = no
+			money = 8000
+			SRN = {
+				war = no
+			}
+		}
+		effect = {
+			money = -8000
+			badboy = 8
+			set_country_flag = ff77_shangaan_campaign
+			casus_belli = {
+				target = SRN
+				type = ff77_shangaan_conquest
+				months = 60
+			}
+			country_event = {
+				id = 9785155
+				days = 1
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ff77_bamangwato_proposal = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff67_full_cape_victory
+			year = 1881
+			BMW = {
+				exists = yes
+				is_vassal = no
+			}
+			NOT = {
+				has_country_flag = ff77_bamangwato_pending
+			}
+			NOT = {
+				has_country_flag = ff77_bamangwato_answered
+			}
+			NOT = {
+				has_country_flag = ff77_bamangwato_done
+			}
+		}
+		allow = {
+			war = no
+			money = 20000
+			owns = 2105
+			BMW = {
+				war = no
+			}
+		}
+		effect = {
+			money = -20000
+			set_country_flag = ff77_bamangwato_pending
+			BMW = {
+				clr_country_flag = ff77_bamangwato_reply_shown
+				country_event = {
+					id = 9785158
+					days = 1
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ff77_bamangwato_campaign = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff67_full_cape_victory
+			has_country_flag = ff77_bamangwato_refused
+			NOT = {
+				has_country_flag = ff77_bamangwato_campaign
+			}
+			BMW = {
+				exists = yes
+				is_vassal = no
+			}
+		}
+		allow = {
+			war = no
+			money = 10000
+			BMW = {
+				war = no
+			}
+		}
+		effect = {
+			money = -10000
+			badboy = 10
+			set_country_flag = ff77_bamangwato_campaign
+			casus_belli = {
+				target = BMW
+				type = ff77_bamangwato_conquest
+				months = 60
+			}
+			country_event = {
+				id = 9785159
+				days = 1
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ff77_batawana_proposal = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff67_full_cape_victory
+			year = 1885
+			TSW = {
+				exists = yes
+				is_vassal = no
+			}
+			NOT = {
+				has_country_flag = ff77_batawana_pending
+			}
+			NOT = {
+				has_country_flag = ff77_batawana_answered
+			}
+			NOT = {
+				has_country_flag = ff77_batawana_done
+			}
+		}
+		allow = {
+			war = no
+			money = 25000
+			has_country_flag = ff77_berlin_participant
+			TSW = {
+				war = no
+			}
+		}
+		effect = {
+			money = -25000
+			set_country_flag = ff77_batawana_pending
+			TSW = {
+				clr_country_flag = ff77_batawana_reply_shown
+				country_event = {
+					id = 9785162
+					days = 1
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ff77_batawana_campaign = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff67_full_cape_victory
+			has_country_flag = ff77_batawana_refused
+			NOT = {
+				has_country_flag = ff77_batawana_campaign
+			}
+			TSW = {
+				exists = yes
+				is_vassal = no
+			}
+		}
+		allow = {
+			war = no
+			money = 12500
+			TSW = {
+				war = no
+			}
+		}
+		effect = {
+			money = -12500
+			badboy = 10
+			set_country_flag = ff77_batawana_campaign
+			casus_belli = {
+				target = TSW
+				type = ff77_batawana_conquest
+				months = 60
+			}
+			country_event = {
+				id = 9785163
+				days = 1
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ff77_mthwakazi_proposal = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff67_full_cape_victory
+			year = 1887
+			MAT = {
+				exists = yes
+				is_vassal = no
+			}
+			NOT = {
+				has_country_flag = ff77_mthwakazi_pending
+			}
+			NOT = {
+				has_country_flag = ff77_mthwakazi_answered
+			}
+			NOT = {
+				has_country_flag = ff77_mthwakazi_done
+			}
+		}
+		allow = {
+			war = no
+			money = 35000
+			has_country_flag = ff77_berlin_participant
+			MAT = {
+				war = no
+			}
+		}
+		effect = {
+			money = -35000
+			set_country_flag = ff77_mthwakazi_pending
+			MAT = {
+				clr_country_flag = ff77_mthwakazi_reply_shown
+				country_event = {
+					id = 9785166
+					days = 1
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ff77_mthwakazi_campaign = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff67_full_cape_victory
+			has_country_flag = ff77_mthwakazi_refused
+			NOT = {
+				has_country_flag = ff77_mthwakazi_campaign
+			}
+			MAT = {
+				exists = yes
+				is_vassal = no
+			}
+		}
+		allow = {
+			war = no
+			money = 17500
+			MAT = {
+				war = no
+			}
+		}
+		effect = {
+			money = -17500
+			badboy = 12
+			set_country_flag = ff77_mthwakazi_campaign
+			casus_belli = {
+				target = MAT
+				type = ff77_mthwakazi_conquest
+				months = 60
+			}
+			country_event = {
+				id = 9785167
+				days = 1
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ff77_duma_proposal = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff67_full_cape_victory
+			year = 1890
+			ZBW = {
+				exists = yes
+				is_vassal = no
+			}
+			NOT = {
+				has_country_flag = ff77_duma_pending
+			}
+			NOT = {
+				has_country_flag = ff77_duma_answered
+			}
+			NOT = {
+				has_country_flag = ff77_duma_done
+			}
+		}
+		allow = {
+			war = no
+			money = 30000
+			has_country_flag = ff77_berlin_participant
+			ZBW = {
+				war = no
+			}
+		}
+		effect = {
+			money = -30000
+			set_country_flag = ff77_duma_pending
+			ZBW = {
+				clr_country_flag = ff77_duma_reply_shown
+				country_event = {
+					id = 9785170
+					days = 1
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ff77_duma_campaign = {
+		picture = claim_transvaal
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff67_full_cape_victory
+			has_country_flag = ff77_duma_refused
+			NOT = {
+				has_country_flag = ff77_duma_campaign
+			}
+			ZBW = {
+				exists = yes
+				is_vassal = no
+			}
+		}
+		allow = {
+			war = no
+			money = 15000
+			ZBW = {
+				war = no
+			}
+		}
+		effect = {
+			money = -15000
+			badboy = 12
+			set_country_flag = ff77_duma_campaign
+			casus_belli = {
+				target = ZBW
+				type = ff77_duma_conquest
+				months = 60
+			}
+			country_event = {
+				id = 9785171
+				days = 1
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ff77_berlin_delegation = {
+		picture = treaty_signing
+		potential = {
+			tag = SAF
+			primary_culture = boer
+			is_vassal = no
+			has_country_flag = ff67_south_african_republic
+			has_country_flag = ff67_full_cape_victory
+			year = 1884
+			NOT = {
+				has_country_flag = ff77_berlin_funded
+			}
+		}
+		allow = {
+			war = no
+			money = 15000
+			has_global_flag = berlin_conference
+		}
+		effect = {
+			money = -15000
+			set_country_flag = ff77_berlin_funded
+			country_event = {
+				id = 9785178
+				days = 1
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

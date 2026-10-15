@@ -1,0 +1,118 @@
+political_decisions = {
+    russiansfsr = {
+        picture = sovietemblem
+        potential = {
+            tag = SOV
+			government = proletarian_dictatorship
+            NOT = { has_country_flag = russiansfsr exists = RUS }
+        }
+        allow = {
+            war = no
+            owns = 1008
+			RUS = { exists = no }
+        }
+        effect = {
+            set_country_flag = russiansfsr
+            government = proletarian_dictatorship
+			change_tag = RUS
+			SOV = { all_core = { remove_core = SOV } }
+            prestige = 100
+        }
+    }
+    russiansfsr3 = {
+        picture = returnrussia
+        potential = {
+            has_global_flag = rusrev
+            tag = RUS
+            NOT = { has_country_flag = russiansfsr has_country_flag = russiansfsr3 }
+        }
+        allow = {
+            war = no
+            owns = 1008
+            owns = 1064
+            tag = RUS
+			NOT = { exists = SOV }
+        }
+        effect = {
+			set_country_flag = russiansfsr3
+			government = presidential_dictatorship
+            prestige = 100
+            SOV = { all_core = { remove_core = SOV } }
+            capital = 1008
+        }
+    }
+    indepfromrus = {
+        potential = {
+            has_global_flag = rusrev
+			OR = { government = prov_gov_conservative government = prov_gov_liberal }
+            NOT = { has_country_flag = indepfromrus }
+			OR = {
+			  tag = TAR 
+			  tag = ALT 
+			  tag = CIR 
+			  tag = URA 
+			  tag = TKM 
+			  tag = KHI 
+			  tag = KOK 
+			  tag = BUK
+			  tag = KAZ
+			}
+        }
+        allow = {
+            war = no
+            OR = { truce_with = SOV truce_with = RUS }	
+        }
+        effect = {
+			set_country_flag = indepfromrus
+			random_owned = { limit = { owner = { government = prov_gov_conservative } } owner = { government = presidential_dictatorship } }
+			random_owned = { limit = { owner = { government = prov_gov_liberal } } owner = { government = democracy } }
+			random_owned = { limit = { owner = { tag = CIR } } owner = { add_accepted_culture = circassian } }
+        }
+    }
+    sendlenin = {
+        picture = lenin
+        potential = {
+		    OR = { 
+			  year = 1900
+			  great_wars_enabled = yes
+			}
+            war_with = RUS
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					NOT = {
+						RUS = { war_countries = { ai = no } }
+					}
+				}
+			}
+			NOT = {
+				has_global_flag = you_are_playing_mp
+				has_global_flag = sendlenin
+				RUS = { government = proletarian_dictatorship }
+			}
+        }
+        allow = {
+            war_with = RUS
+		    NOT = { RUS = { controls = 706 } }
+            OR = {
+                AND = {
+                    NOT = { RUS = { controls = 718 } }
+                    NOT = { RUS = { controls = 354 } }
+                    RUS = { war_exhaustion = 50 }
+                }
+                RUS = { war_exhaustion = 100 }
+            }
+        }
+        effect = {
+            set_global_flag = sendlenin
+			RUS = { 
+			  add_country_modifier = { name = recently_lost_war duration = 1825 } 
+			  any_owned = { limit = { is_core = THIS } secede_province = THIS }
+			  country_event = 123456
+			}
+            end_war = RUS
+            prestige = 50
+        }
+    }
+}

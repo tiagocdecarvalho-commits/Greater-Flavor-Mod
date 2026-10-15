@@ -1,0 +1,5681 @@
+country_event = {
+	id = 9786600
+	title = "FF102_CLAIM_TITLE"
+	desc = "FF102_CLAIM_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_RECORD"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+				}
+			}
+			owner = {
+				SAF = {
+					set_country_flag = ff102_claim_notice
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786601
+	title = "FF102_OFFER_TITLE"
+	desc = "FF102_OFFER_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	immediate = {
+		random_owned = {
+			limit = {
+				owner = {
+					has_country_flag = ff102_recipient
+					NOT = {
+						tag = SAF
+					}
+					exists = yes
+					any_owned_province = {
+						OR = {
+							province_id = 4028
+							province_id = 4029
+							province_id = 4030
+							province_id = 4031
+							province_id = 4032
+							province_id = 4033
+							province_id = 4034
+							province_id = 4035
+							province_id = 4036
+							province_id = 4037
+							province_id = 2074
+							province_id = 2574
+							province_id = 3882
+						}
+					}
+					war = no
+					is_vassal = no
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						has_country_flag = ff102_mission_pending
+						war = no
+					}
+					has_country_flag = ff102_offer_waiting
+					NOT = {
+						has_country_flag = ff102_offer_shown
+					}
+				}
+			}
+			owner = {
+				set_country_flag = ff102_offer_shown
+			}
+		}
+	}
+	option = {
+		name = "FF102_ACCEPT"
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				NOT = {
+					has_country_flag = ff102_recipient
+					NOT = {
+						tag = SAF
+					}
+					exists = yes
+					any_owned_province = {
+						OR = {
+							province_id = 4028
+							province_id = 4029
+							province_id = 4030
+							province_id = 4031
+							province_id = 4032
+							province_id = 4033
+							province_id = 4034
+							province_id = 4035
+							province_id = 4036
+							province_id = 4037
+							province_id = 2074
+							province_id = 2574
+							province_id = 3882
+						}
+					}
+					war = no
+					is_vassal = no
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						has_country_flag = ff102_mission_pending
+						war = no
+					}
+					has_country_flag = ff102_offer_waiting
+					has_country_flag = ff102_offer_shown
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					has_country_flag = ff102_recipient
+					NOT = {
+						tag = SAF
+					}
+					exists = yes
+					any_owned_province = {
+						OR = {
+							province_id = 4028
+							province_id = 4029
+							province_id = 4030
+							province_id = 4031
+							province_id = 4032
+							province_id = 4033
+							province_id = 4034
+							province_id = 4035
+							province_id = 4036
+							province_id = 4037
+							province_id = 2074
+							province_id = 2574
+							province_id = 3882
+						}
+					}
+					war = no
+					is_vassal = no
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						has_country_flag = ff102_mission_pending
+						war = no
+					}
+					has_country_flag = ff102_offer_waiting
+					has_country_flag = ff102_offer_shown
+				}
+			}
+			owner = {
+				clr_country_flag = ff102_offer_waiting
+				SAF = {
+					set_country_flag = ff102_reply_pending
+					set_country_flag = ff102_accepted
+					country_event = {
+						id = 9786602
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF102_TERMS"
+		ai_chance = {
+			factor = 45
+			modifier = {
+				factor = 0
+				NOT = {
+					has_country_flag = ff102_recipient
+					NOT = {
+						tag = SAF
+					}
+					exists = yes
+					any_owned_province = {
+						OR = {
+							province_id = 4028
+							province_id = 4029
+							province_id = 4030
+							province_id = 4031
+							province_id = 4032
+							province_id = 4033
+							province_id = 4034
+							province_id = 4035
+							province_id = 4036
+							province_id = 4037
+							province_id = 2074
+							province_id = 2574
+							province_id = 3882
+						}
+					}
+					war = no
+					is_vassal = no
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						has_country_flag = ff102_mission_pending
+						war = no
+					}
+					has_country_flag = ff102_offer_waiting
+					has_country_flag = ff102_offer_shown
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					has_country_flag = ff102_recipient
+					NOT = {
+						tag = SAF
+					}
+					exists = yes
+					any_owned_province = {
+						OR = {
+							province_id = 4028
+							province_id = 4029
+							province_id = 4030
+							province_id = 4031
+							province_id = 4032
+							province_id = 4033
+							province_id = 4034
+							province_id = 4035
+							province_id = 4036
+							province_id = 4037
+							province_id = 2074
+							province_id = 2574
+							province_id = 3882
+						}
+					}
+					war = no
+					is_vassal = no
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						has_country_flag = ff102_mission_pending
+						war = no
+					}
+					has_country_flag = ff102_offer_waiting
+					has_country_flag = ff102_offer_shown
+				}
+			}
+			owner = {
+				clr_country_flag = ff102_offer_waiting
+				SAF = {
+					set_country_flag = ff102_reply_pending
+					set_country_flag = ff102_terms
+					country_event = {
+						id = 9786602
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF102_REFUSE"
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				NOT = {
+					has_country_flag = ff102_recipient
+					NOT = {
+						tag = SAF
+					}
+					exists = yes
+					any_owned_province = {
+						OR = {
+							province_id = 4028
+							province_id = 4029
+							province_id = 4030
+							province_id = 4031
+							province_id = 4032
+							province_id = 4033
+							province_id = 4034
+							province_id = 4035
+							province_id = 4036
+							province_id = 4037
+							province_id = 2074
+							province_id = 2574
+							province_id = 3882
+						}
+					}
+					war = no
+					is_vassal = no
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						has_country_flag = ff102_mission_pending
+						war = no
+					}
+					has_country_flag = ff102_offer_waiting
+					has_country_flag = ff102_offer_shown
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					has_country_flag = ff102_recipient
+					NOT = {
+						tag = SAF
+					}
+					exists = yes
+					any_owned_province = {
+						OR = {
+							province_id = 4028
+							province_id = 4029
+							province_id = 4030
+							province_id = 4031
+							province_id = 4032
+							province_id = 4033
+							province_id = 4034
+							province_id = 4035
+							province_id = 4036
+							province_id = 4037
+							province_id = 2074
+							province_id = 2574
+							province_id = 3882
+						}
+					}
+					war = no
+					is_vassal = no
+					SAF = {
+						tag = SAF
+						primary_culture = boer
+						is_vassal = no
+						has_country_flag = ff82_boer_victory
+						has_global_flag = ff82_second_war_finished
+						NOT = {
+							has_country_flag = ff82_second_war_defeat
+						}
+						year = 1903
+						has_country_flag = ff102_claims_recorded
+						has_country_flag = ff102_mission_pending
+						war = no
+					}
+					has_country_flag = ff102_offer_waiting
+					has_country_flag = ff102_offer_shown
+				}
+			}
+			owner = {
+				clr_country_flag = ff102_offer_waiting
+				SAF = {
+					set_country_flag = ff102_reply_pending
+					set_country_flag = ff102_refused
+					country_event = {
+						id = 9786602
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786602
+	title = "FF102_REPLY_TITLE"
+	desc = "FF102_REPLY_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_RATIFY"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					has_country_flag = ff102_reply_pending
+					war = no
+					FROM = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							tag = SAF
+						}
+						exists = yes
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						war = no
+						is_vassal = no
+					}
+					has_country_flag = ff102_accepted
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					has_country_flag = ff102_reply_pending
+					war = no
+					FROM = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							tag = SAF
+						}
+						exists = yes
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						war = no
+						is_vassal = no
+					}
+					has_country_flag = ff102_accepted
+				}
+			}
+			owner = {
+				SAF = {
+					FROM = {
+						set_country_flag = ff102_convention_signed
+						clr_country_flag = ff102_recipient
+						clr_country_flag = ff102_offer_waiting
+						clr_country_flag = ff102_offer_shown
+						clr_country_flag = ff102_campaign_owner
+						clr_country_flag = ff102_cb_terms_accepted
+						any_owned = {
+							limit = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+							set_province_flag = ff102_acquired
+							add_core = SAF
+							secede_province = SAF
+						}
+					}
+					clr_country_flag = ff102_mission_pending
+					clr_country_flag = ff102_reply_pending
+					clr_country_flag = ff102_accepted
+					clr_country_flag = ff102_terms
+					clr_country_flag = ff102_refused
+					clr_country_flag = ff102_revision_sent
+					clr_country_flag = ff102_campaign
+					clr_country_flag = ff102_lapse_notice
+					clr_country_flag = ff102_native_peace_pending
+					country_event = {
+						id = 9786603
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF102_PAY"
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					has_country_flag = ff102_reply_pending
+					war = no
+					FROM = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							tag = SAF
+						}
+						exists = yes
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						war = no
+						is_vassal = no
+					}
+					has_country_flag = ff102_terms
+					money = 12000
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					has_country_flag = ff102_reply_pending
+					war = no
+					FROM = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							tag = SAF
+						}
+						exists = yes
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						war = no
+						is_vassal = no
+					}
+					has_country_flag = ff102_terms
+					money = 12000
+				}
+			}
+			owner = {
+				SAF = {
+					money = -12000
+					FROM = {
+						money = 12000
+						set_country_flag = ff102_convention_signed
+						clr_country_flag = ff102_recipient
+						clr_country_flag = ff102_offer_waiting
+						clr_country_flag = ff102_offer_shown
+						clr_country_flag = ff102_campaign_owner
+						clr_country_flag = ff102_cb_terms_accepted
+						any_owned = {
+							limit = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+							set_province_flag = ff102_acquired
+							add_core = SAF
+							secede_province = SAF
+						}
+					}
+					clr_country_flag = ff102_mission_pending
+					clr_country_flag = ff102_reply_pending
+					clr_country_flag = ff102_accepted
+					clr_country_flag = ff102_terms
+					clr_country_flag = ff102_refused
+					clr_country_flag = ff102_revision_sent
+					clr_country_flag = ff102_campaign
+					clr_country_flag = ff102_lapse_notice
+					clr_country_flag = ff102_native_peace_pending
+					country_event = {
+						id = 9786603
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF102_REVISE"
+		ai_chance = {
+			factor = 65
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					has_country_flag = ff102_reply_pending
+					war = no
+					FROM = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							tag = SAF
+						}
+						exists = yes
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						war = no
+						is_vassal = no
+					}
+					has_country_flag = ff102_refused
+					money = 2000
+					NOT = {
+						has_country_flag = ff102_revision_sent
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					has_country_flag = ff102_reply_pending
+					war = no
+					FROM = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							tag = SAF
+						}
+						exists = yes
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						war = no
+						is_vassal = no
+					}
+					has_country_flag = ff102_refused
+					money = 2000
+					NOT = {
+						has_country_flag = ff102_revision_sent
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					money = -2000
+					set_country_flag = ff102_revision_sent
+					clr_country_flag = ff102_refused
+					clr_country_flag = ff102_reply_pending
+					FROM = {
+						set_country_flag = ff102_offer_waiting
+						clr_country_flag = ff102_offer_shown
+						country_event = {
+							id = 9786601
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF102_WITHDRAW"
+		ai_chance = {
+			factor = 35
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					has_country_flag = ff102_reply_pending
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					has_country_flag = ff102_reply_pending
+				}
+			}
+			owner = {
+				SAF = {
+					any_country = {
+						limit = {
+							has_country_flag = ff102_recipient
+						}
+						set_country_flag = ff102_withdrawn
+						clr_country_flag = ff102_recipient
+						clr_country_flag = ff102_offer_waiting
+						clr_country_flag = ff102_offer_shown
+						clr_country_flag = ff102_campaign_owner
+						clr_country_flag = ff102_cb_terms_accepted
+					}
+					clr_country_flag = ff102_mission_pending
+					clr_country_flag = ff102_reply_pending
+					clr_country_flag = ff102_accepted
+					clr_country_flag = ff102_terms
+					clr_country_flag = ff102_refused
+					clr_country_flag = ff102_revision_sent
+					clr_country_flag = ff102_campaign
+					clr_country_flag = ff102_lapse_notice
+					clr_country_flag = ff102_native_peace_pending
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF102_WAR"
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					has_country_flag = ff102_reply_pending
+					war = no
+					money = 10000
+					total_amount_of_divisions = 1
+					OR = {
+						has_country_flag = ff102_refused
+						has_country_flag = ff102_terms
+					}
+					FROM = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							tag = SAF
+						}
+						exists = yes
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						war = no
+						is_vassal = no
+						NOT = {
+							truce_with = SAF
+						}
+						NOT = {
+							alliance_with = SAF
+						}
+						NOT = {
+							in_sphere = SAF
+						}
+					}
+					NOT = {
+						truce_with = FROM
+					}
+					NOT = {
+						alliance_with = FROM
+					}
+					NOT = {
+						in_sphere = FROM
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					has_country_flag = ff102_reply_pending
+					war = no
+					money = 10000
+					total_amount_of_divisions = 1
+					OR = {
+						has_country_flag = ff102_refused
+						has_country_flag = ff102_terms
+					}
+					FROM = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							tag = SAF
+						}
+						exists = yes
+						any_owned_province = {
+							OR = {
+								province_id = 4028
+								province_id = 4029
+								province_id = 4030
+								province_id = 4031
+								province_id = 4032
+								province_id = 4033
+								province_id = 4034
+								province_id = 4035
+								province_id = 4036
+								province_id = 4037
+								province_id = 2074
+								province_id = 2574
+								province_id = 3882
+							}
+						}
+						war = no
+						is_vassal = no
+						NOT = {
+							truce_with = SAF
+						}
+						NOT = {
+							alliance_with = SAF
+						}
+						NOT = {
+							in_sphere = SAF
+						}
+					}
+					NOT = {
+						truce_with = FROM
+					}
+					NOT = {
+						alliance_with = FROM
+					}
+					NOT = {
+						in_sphere = FROM
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					money = -10000
+					badboy = 3
+					clr_country_flag = ff102_reply_pending
+					set_country_flag = ff102_campaign
+					FROM = {
+						set_country_flag = ff102_campaign_owner
+					}
+					casus_belli = {
+						target = FROM
+						type = ff102_frontier_conference
+						months = 60
+					}
+					war = {
+						target = FROM
+						attacker_goal = {
+							casus_belli = ff102_frontier_conference
+						}
+						defender_goal = {
+							casus_belli = status_quo
+						}
+						call_ally = no
+					}
+					country_event = {
+						id = 9786604
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786603
+	title = "FF102_RECEIVED_TITLE"
+	desc = "FF102_RECEIVED_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+				}
+			}
+			owner = {
+				SAF = {
+					set_country_flag = ff102_convention_received
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786604
+	title = "FF102_CAMPAIGN_TITLE"
+	desc = "FF102_CAMPAIGN_DESC"
+	picture = "boer_war"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_CAMPAIGN_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					has_country_flag = ff102_campaign
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					has_country_flag = ff102_campaign
+				}
+			}
+			owner = {
+				SAF = {
+					set_country_flag = ff102_campaign_notice
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786620
+	title = "FF102_NATIVE_PEACE_TITLE"
+	desc = "FF102_NATIVE_PEACE_DESC"
+	picture = "treaty"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	immediate = {
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					has_country_flag = ff102_campaign
+					has_country_flag = ff102_native_peace_pending
+					OR = {
+						4028 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								has_country_flag = ff102_recipient
+								NOT = {
+									tag = SAF
+								}
+								exists = yes
+								any_owned_province = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+								}
+								has_country_flag = ff102_campaign_owner
+								has_country_flag = ff102_cb_terms_accepted
+								NOT = {
+									war_with = SAF
+								}
+							}
+						}
+						4029 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								has_country_flag = ff102_recipient
+								NOT = {
+									tag = SAF
+								}
+								exists = yes
+								any_owned_province = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+								}
+								has_country_flag = ff102_campaign_owner
+								has_country_flag = ff102_cb_terms_accepted
+								NOT = {
+									war_with = SAF
+								}
+							}
+						}
+						4030 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								has_country_flag = ff102_recipient
+								NOT = {
+									tag = SAF
+								}
+								exists = yes
+								any_owned_province = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+								}
+								has_country_flag = ff102_campaign_owner
+								has_country_flag = ff102_cb_terms_accepted
+								NOT = {
+									war_with = SAF
+								}
+							}
+						}
+						4031 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								has_country_flag = ff102_recipient
+								NOT = {
+									tag = SAF
+								}
+								exists = yes
+								any_owned_province = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+								}
+								has_country_flag = ff102_campaign_owner
+								has_country_flag = ff102_cb_terms_accepted
+								NOT = {
+									war_with = SAF
+								}
+							}
+						}
+						4032 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								has_country_flag = ff102_recipient
+								NOT = {
+									tag = SAF
+								}
+								exists = yes
+								any_owned_province = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+								}
+								has_country_flag = ff102_campaign_owner
+								has_country_flag = ff102_cb_terms_accepted
+								NOT = {
+									war_with = SAF
+								}
+							}
+						}
+						4033 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								has_country_flag = ff102_recipient
+								NOT = {
+									tag = SAF
+								}
+								exists = yes
+								any_owned_province = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+								}
+								has_country_flag = ff102_campaign_owner
+								has_country_flag = ff102_cb_terms_accepted
+								NOT = {
+									war_with = SAF
+								}
+							}
+						}
+						4034 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								has_country_flag = ff102_recipient
+								NOT = {
+									tag = SAF
+								}
+								exists = yes
+								any_owned_province = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+								}
+								has_country_flag = ff102_campaign_owner
+								has_country_flag = ff102_cb_terms_accepted
+								NOT = {
+									war_with = SAF
+								}
+							}
+						}
+						4035 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								has_country_flag = ff102_recipient
+								NOT = {
+									tag = SAF
+								}
+								exists = yes
+								any_owned_province = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+								}
+								has_country_flag = ff102_campaign_owner
+								has_country_flag = ff102_cb_terms_accepted
+								NOT = {
+									war_with = SAF
+								}
+							}
+						}
+						4036 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								has_country_flag = ff102_recipient
+								NOT = {
+									tag = SAF
+								}
+								exists = yes
+								any_owned_province = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+								}
+								has_country_flag = ff102_campaign_owner
+								has_country_flag = ff102_cb_terms_accepted
+								NOT = {
+									war_with = SAF
+								}
+							}
+						}
+						4037 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								has_country_flag = ff102_recipient
+								NOT = {
+									tag = SAF
+								}
+								exists = yes
+								any_owned_province = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+								}
+								has_country_flag = ff102_campaign_owner
+								has_country_flag = ff102_cb_terms_accepted
+								NOT = {
+									war_with = SAF
+								}
+							}
+						}
+						2074 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								has_country_flag = ff102_recipient
+								NOT = {
+									tag = SAF
+								}
+								exists = yes
+								any_owned_province = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+								}
+								has_country_flag = ff102_campaign_owner
+								has_country_flag = ff102_cb_terms_accepted
+								NOT = {
+									war_with = SAF
+								}
+							}
+						}
+						2574 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								has_country_flag = ff102_recipient
+								NOT = {
+									tag = SAF
+								}
+								exists = yes
+								any_owned_province = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+								}
+								has_country_flag = ff102_campaign_owner
+								has_country_flag = ff102_cb_terms_accepted
+								NOT = {
+									war_with = SAF
+								}
+							}
+						}
+						3882 = {
+							NOT = {
+								empty = yes
+							}
+							owner = {
+								has_country_flag = ff102_recipient
+								NOT = {
+									tag = SAF
+								}
+								exists = yes
+								any_owned_province = {
+									OR = {
+										province_id = 4028
+										province_id = 4029
+										province_id = 4030
+										province_id = 4031
+										province_id = 4032
+										province_id = 4033
+										province_id = 4034
+										province_id = 4035
+										province_id = 4036
+										province_id = 4037
+										province_id = 2074
+										province_id = 2574
+										province_id = 3882
+									}
+								}
+								has_country_flag = ff102_campaign_owner
+								has_country_flag = ff102_cb_terms_accepted
+								NOT = {
+									war_with = SAF
+								}
+							}
+						}
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					any_country = {
+						limit = {
+							has_country_flag = ff102_recipient
+							NOT = {
+								tag = SAF
+							}
+							exists = yes
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+							has_country_flag = ff102_campaign_owner
+							has_country_flag = ff102_cb_terms_accepted
+							NOT = {
+								war_with = SAF
+							}
+						}
+						set_country_flag = ff102_convention_imposed
+						any_owned = {
+							limit = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+							set_province_flag = ff102_acquired
+							add_core = SAF
+							secede_province = SAF
+						}
+						clr_country_flag = ff102_recipient
+						clr_country_flag = ff102_offer_waiting
+						clr_country_flag = ff102_offer_shown
+						clr_country_flag = ff102_campaign_owner
+						clr_country_flag = ff102_cb_terms_accepted
+					}
+					clr_country_flag = ff102_mission_pending
+					clr_country_flag = ff102_reply_pending
+					clr_country_flag = ff102_accepted
+					clr_country_flag = ff102_terms
+					clr_country_flag = ff102_refused
+					clr_country_flag = ff102_revision_sent
+					clr_country_flag = ff102_campaign
+					clr_country_flag = ff102_lapse_notice
+					clr_country_flag = ff102_native_peace_pending
+					set_country_flag = ff102_native_peace_completed
+				}
+			}
+		}
+	}
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_native_peace_completed
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_native_peace_completed
+				}
+			}
+			owner = {
+				SAF = {
+					set_country_flag = ff102_native_peace_report
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786605
+	title = "FF102_LAPSED_TITLE"
+	desc = "FF102_LAPSED_DESC"
+	picture = "treaty"
+	trigger = {
+		tag = SAF
+		primary_culture = boer
+		is_vassal = no
+		has_country_flag = ff82_boer_victory
+		has_global_flag = ff82_second_war_finished
+		NOT = {
+			has_country_flag = ff82_second_war_defeat
+		}
+		year = 1903
+		has_country_flag = ff102_claims_recorded
+		has_country_flag = ff102_mission_pending
+		OR = {
+			NOT = {
+				OR = {
+					4028 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							has_country_flag = ff102_recipient
+							NOT = {
+								tag = SAF
+							}
+							exists = yes
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+						}
+					}
+					4029 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							has_country_flag = ff102_recipient
+							NOT = {
+								tag = SAF
+							}
+							exists = yes
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+						}
+					}
+					4030 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							has_country_flag = ff102_recipient
+							NOT = {
+								tag = SAF
+							}
+							exists = yes
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+						}
+					}
+					4031 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							has_country_flag = ff102_recipient
+							NOT = {
+								tag = SAF
+							}
+							exists = yes
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+						}
+					}
+					4032 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							has_country_flag = ff102_recipient
+							NOT = {
+								tag = SAF
+							}
+							exists = yes
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+						}
+					}
+					4033 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							has_country_flag = ff102_recipient
+							NOT = {
+								tag = SAF
+							}
+							exists = yes
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+						}
+					}
+					4034 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							has_country_flag = ff102_recipient
+							NOT = {
+								tag = SAF
+							}
+							exists = yes
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+						}
+					}
+					4035 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							has_country_flag = ff102_recipient
+							NOT = {
+								tag = SAF
+							}
+							exists = yes
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+						}
+					}
+					4036 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							has_country_flag = ff102_recipient
+							NOT = {
+								tag = SAF
+							}
+							exists = yes
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+						}
+					}
+					4037 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							has_country_flag = ff102_recipient
+							NOT = {
+								tag = SAF
+							}
+							exists = yes
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+						}
+					}
+					2074 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							has_country_flag = ff102_recipient
+							NOT = {
+								tag = SAF
+							}
+							exists = yes
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+						}
+					}
+					2574 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							has_country_flag = ff102_recipient
+							NOT = {
+								tag = SAF
+							}
+							exists = yes
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+						}
+					}
+					3882 = {
+						NOT = {
+							empty = yes
+						}
+						owner = {
+							has_country_flag = ff102_recipient
+							NOT = {
+								tag = SAF
+							}
+							exists = yes
+							any_owned_province = {
+								OR = {
+									province_id = 4028
+									province_id = 4029
+									province_id = 4030
+									province_id = 4031
+									province_id = 4032
+									province_id = 4033
+									province_id = 4034
+									province_id = 4035
+									province_id = 4036
+									province_id = 4037
+									province_id = 2074
+									province_id = 2574
+									province_id = 3882
+								}
+							}
+						}
+					}
+				}
+			}
+			OR = {
+				4028 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						NOT = {
+							has_country_flag = ff102_cb_terms_accepted
+						}
+						NOT = {
+							war_with = SAF
+						}
+					}
+				}
+				4029 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						NOT = {
+							has_country_flag = ff102_cb_terms_accepted
+						}
+						NOT = {
+							war_with = SAF
+						}
+					}
+				}
+				4030 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						NOT = {
+							has_country_flag = ff102_cb_terms_accepted
+						}
+						NOT = {
+							war_with = SAF
+						}
+					}
+				}
+				4031 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						NOT = {
+							has_country_flag = ff102_cb_terms_accepted
+						}
+						NOT = {
+							war_with = SAF
+						}
+					}
+				}
+				4032 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						NOT = {
+							has_country_flag = ff102_cb_terms_accepted
+						}
+						NOT = {
+							war_with = SAF
+						}
+					}
+				}
+				4033 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						NOT = {
+							has_country_flag = ff102_cb_terms_accepted
+						}
+						NOT = {
+							war_with = SAF
+						}
+					}
+				}
+				4034 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						NOT = {
+							has_country_flag = ff102_cb_terms_accepted
+						}
+						NOT = {
+							war_with = SAF
+						}
+					}
+				}
+				4035 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						NOT = {
+							has_country_flag = ff102_cb_terms_accepted
+						}
+						NOT = {
+							war_with = SAF
+						}
+					}
+				}
+				4036 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						NOT = {
+							has_country_flag = ff102_cb_terms_accepted
+						}
+						NOT = {
+							war_with = SAF
+						}
+					}
+				}
+				4037 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						NOT = {
+							has_country_flag = ff102_cb_terms_accepted
+						}
+						NOT = {
+							war_with = SAF
+						}
+					}
+				}
+				2074 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						NOT = {
+							has_country_flag = ff102_cb_terms_accepted
+						}
+						NOT = {
+							war_with = SAF
+						}
+					}
+				}
+				2574 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						NOT = {
+							has_country_flag = ff102_cb_terms_accepted
+						}
+						NOT = {
+							war_with = SAF
+						}
+					}
+				}
+				3882 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						has_country_flag = ff102_campaign_owner
+						NOT = {
+							has_country_flag = ff102_cb_terms_accepted
+						}
+						NOT = {
+							war_with = SAF
+						}
+					}
+				}
+			}
+			OR = {
+				4028 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							has_country_flag = ff102_campaign_owner
+						}
+						OR = {
+							war = yes
+							is_vassal = yes
+						}
+					}
+				}
+				4029 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							has_country_flag = ff102_campaign_owner
+						}
+						OR = {
+							war = yes
+							is_vassal = yes
+						}
+					}
+				}
+				4030 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							has_country_flag = ff102_campaign_owner
+						}
+						OR = {
+							war = yes
+							is_vassal = yes
+						}
+					}
+				}
+				4031 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							has_country_flag = ff102_campaign_owner
+						}
+						OR = {
+							war = yes
+							is_vassal = yes
+						}
+					}
+				}
+				4032 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							has_country_flag = ff102_campaign_owner
+						}
+						OR = {
+							war = yes
+							is_vassal = yes
+						}
+					}
+				}
+				4033 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							has_country_flag = ff102_campaign_owner
+						}
+						OR = {
+							war = yes
+							is_vassal = yes
+						}
+					}
+				}
+				4034 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							has_country_flag = ff102_campaign_owner
+						}
+						OR = {
+							war = yes
+							is_vassal = yes
+						}
+					}
+				}
+				4035 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							has_country_flag = ff102_campaign_owner
+						}
+						OR = {
+							war = yes
+							is_vassal = yes
+						}
+					}
+				}
+				4036 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							has_country_flag = ff102_campaign_owner
+						}
+						OR = {
+							war = yes
+							is_vassal = yes
+						}
+					}
+				}
+				4037 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							has_country_flag = ff102_campaign_owner
+						}
+						OR = {
+							war = yes
+							is_vassal = yes
+						}
+					}
+				}
+				2074 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							has_country_flag = ff102_campaign_owner
+						}
+						OR = {
+							war = yes
+							is_vassal = yes
+						}
+					}
+				}
+				2574 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							has_country_flag = ff102_campaign_owner
+						}
+						OR = {
+							war = yes
+							is_vassal = yes
+						}
+					}
+				}
+				3882 = {
+					NOT = {
+						empty = yes
+					}
+					owner = {
+						has_country_flag = ff102_recipient
+						NOT = {
+							has_country_flag = ff102_campaign_owner
+						}
+						OR = {
+							war = yes
+							is_vassal = yes
+						}
+					}
+				}
+			}
+		}
+		NOT = {
+			has_country_flag = ff102_lapse_notice
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					OR = {
+						NOT = {
+							OR = {
+								4028 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4029 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4030 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4031 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4032 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4033 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4034 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4035 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4036 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4037 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								2074 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								2574 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								3882 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+							}
+						}
+						OR = {
+							4028 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4029 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4030 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4031 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4032 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4033 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4034 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4035 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4036 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4037 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							2074 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							2574 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							3882 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+						}
+						OR = {
+							4028 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4029 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4030 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4031 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4032 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4033 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4034 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4035 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4036 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4037 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							2074 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							2574 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							3882 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			owner = {
+				set_country_flag = ff102_lapse_notice
+			}
+		}
+	}
+	option = {
+		name = "FF102_LAPSED_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					OR = {
+						NOT = {
+							OR = {
+								4028 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4029 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4030 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4031 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4032 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4033 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4034 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4035 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4036 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4037 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								2074 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								2574 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								3882 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+							}
+						}
+						OR = {
+							4028 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4029 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4030 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4031 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4032 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4033 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4034 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4035 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4036 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4037 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							2074 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							2574 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							3882 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+						}
+						OR = {
+							4028 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4029 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4030 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4031 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4032 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4033 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4034 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4035 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4036 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4037 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							2074 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							2574 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							3882 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_mission_pending
+					OR = {
+						NOT = {
+							OR = {
+								4028 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4029 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4030 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4031 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4032 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4033 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4034 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4035 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4036 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								4037 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								2074 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								2574 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+								3882 = {
+									NOT = {
+										empty = yes
+									}
+									owner = {
+										has_country_flag = ff102_recipient
+										NOT = {
+											tag = SAF
+										}
+										exists = yes
+										any_owned_province = {
+											OR = {
+												province_id = 4028
+												province_id = 4029
+												province_id = 4030
+												province_id = 4031
+												province_id = 4032
+												province_id = 4033
+												province_id = 4034
+												province_id = 4035
+												province_id = 4036
+												province_id = 4037
+												province_id = 2074
+												province_id = 2574
+												province_id = 3882
+											}
+										}
+									}
+								}
+							}
+						}
+						OR = {
+							4028 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4029 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4030 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4031 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4032 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4033 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4034 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4035 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4036 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							4037 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							2074 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							2574 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+							3882 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									has_country_flag = ff102_campaign_owner
+									NOT = {
+										has_country_flag = ff102_cb_terms_accepted
+									}
+									NOT = {
+										war_with = SAF
+									}
+								}
+							}
+						}
+						OR = {
+							4028 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4029 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4030 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4031 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4032 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4033 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4034 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4035 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4036 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							4037 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							2074 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							2574 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+							3882 = {
+								NOT = {
+									empty = yes
+								}
+								owner = {
+									has_country_flag = ff102_recipient
+									NOT = {
+										has_country_flag = ff102_campaign_owner
+									}
+									OR = {
+										war = yes
+										is_vassal = yes
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			owner = {
+				SAF = {
+					any_country = {
+						limit = {
+							has_country_flag = ff102_recipient
+						}
+						clr_country_flag = ff102_recipient
+						clr_country_flag = ff102_offer_waiting
+						clr_country_flag = ff102_offer_shown
+						clr_country_flag = ff102_campaign_owner
+						clr_country_flag = ff102_cb_terms_accepted
+					}
+					clr_country_flag = ff102_mission_pending
+					clr_country_flag = ff102_reply_pending
+					clr_country_flag = ff102_accepted
+					clr_country_flag = ff102_terms
+					clr_country_flag = ff102_refused
+					clr_country_flag = ff102_revision_sent
+					clr_country_flag = ff102_campaign
+					clr_country_flag = ff102_lapse_notice
+					clr_country_flag = ff102_native_peace_pending
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786610
+	title = "FF102_SURVEY_4028_TITLE"
+	desc = "FF102_SURVEY_4028_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4028
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4028
+				}
+			}
+			owner = {
+				SAF = {
+
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786611
+	title = "FF102_SURVEY_4029_TITLE"
+	desc = "FF102_SURVEY_4029_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4029
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4029
+				}
+			}
+			owner = {
+				SAF = {
+
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786612
+	title = "FF102_SURVEY_4030_TITLE"
+	desc = "FF102_SURVEY_4030_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4030
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4030
+				}
+			}
+			owner = {
+				SAF = {
+
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786613
+	title = "FF102_SURVEY_4031_TITLE"
+	desc = "FF102_SURVEY_4031_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4031
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4031
+				}
+			}
+			owner = {
+				SAF = {
+
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786614
+	title = "FF102_SURVEY_4032_TITLE"
+	desc = "FF102_SURVEY_4032_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4032
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4032
+				}
+			}
+			owner = {
+				SAF = {
+
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786615
+	title = "FF102_SURVEY_4033_TITLE"
+	desc = "FF102_SURVEY_4033_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4033
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4033
+				}
+			}
+			owner = {
+				SAF = {
+
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786616
+	title = "FF102_SURVEY_2074_TITLE"
+	desc = "FF102_SURVEY_2074_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_2074
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_2074
+				}
+			}
+			owner = {
+				SAF = {
+
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786617
+	title = "FF102_SURVEY_4034_TITLE"
+	desc = "FF102_SURVEY_4034_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4034
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4034
+				}
+			}
+			owner = {
+				SAF = {
+
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786618
+	title = "FF102_SURVEY_2574_TITLE"
+	desc = "FF102_SURVEY_2574_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_2574
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_2574
+				}
+			}
+			owner = {
+				SAF = {
+
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786619
+	title = "FF102_SURVEY_3882_TITLE"
+	desc = "FF102_SURVEY_3882_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_3882
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_3882
+				}
+			}
+			owner = {
+				SAF = {
+
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786621
+	title = "FF102_SURVEY_4035_TITLE"
+	desc = "FF102_SURVEY_4035_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4035
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4035
+				}
+			}
+			owner = {
+				SAF = {
+
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786622
+	title = "FF102_SURVEY_4036_TITLE"
+	desc = "FF102_SURVEY_4036_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4036
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4036
+				}
+			}
+			owner = {
+				SAF = {
+
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 9786623
+	title = "FF102_SURVEY_4037_TITLE"
+	desc = "FF102_SURVEY_4037_DESC"
+	picture = "pioneer_wagons"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "FF102_REPORT_ACK"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4037
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SAF
+					primary_culture = boer
+					is_vassal = no
+					has_country_flag = ff82_boer_victory
+					has_global_flag = ff82_second_war_finished
+					NOT = {
+						has_country_flag = ff82_second_war_defeat
+					}
+					year = 1903
+					has_country_flag = ff102_claims_recorded
+					has_country_flag = ff102_surveyed_4037
+				}
+			}
+			owner = {
+				SAF = {
+
+				}
+			}
+		}
+	}
+}

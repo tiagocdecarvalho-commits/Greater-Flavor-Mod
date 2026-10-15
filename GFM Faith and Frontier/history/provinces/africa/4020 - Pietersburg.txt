@@ -1,0 +1,19 @@
+owner = PCF
+controller = PCF
+add_core = MAT
+add_core = PCF
+trade_goods = cattle
+life_rating = 30
+terrain = dryhills
+
+# Faith and Frontier 4.2: Tregardt/Van Rensburg Trekker community
+1836.1.1 = {
+    owner = ZPB
+    controller = ZPB
+    add_core = ZPB
+    # FF fix: once the Soutpansberg trekker community controls Pietersburg/Polokwane,
+    # do not leave native reconquest cores that make PCF/MAT repeatedly annex ZPB.
+    remove_core = PCF
+    remove_core = MAT
+    colonial = 0
+}

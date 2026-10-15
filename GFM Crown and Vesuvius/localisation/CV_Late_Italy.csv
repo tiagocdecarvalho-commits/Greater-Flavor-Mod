@@ -1,0 +1,264 @@
+cve_french_defeat;The Burden of the Italian Peace;;;;;;;;;;;;;x
+cve_french_defeat_desc;The defeated ministry faces indemnities, inquiries into the campaign and a shaken officer corps. The treaty burdens public credit while the army restores its confidence.;;;;;;;;;;;;;x
+cve_italian_victory;The Army of the National Settlement;;;;;;;;;;;;;x
+cve_italian_victory_desc;The successful campaign has strengthened the confidence of soldiers and officers in the national command.;;;;;;;;;;;;;x
+cve_italian_defeat;The Reckoning after the French War;;;;;;;;;;;;;x
+cve_italian_defeat_desc;Parliament, the cabinet and the army must reckon with a failed national adventure. Indemnities and military inquiries hamper the work of recovery.;;;;;;;;;;;;;x
+cve_french_victory;The Prestige of the French Army;;;;;;;;;;;;;x
+cve_french_victory_desc;Victory across the Alps restores confidence in the command and strengthens the ministry's authority abroad.;;;;;;;;;;;;;x
+cve_border_guarantees;The Paris Border Guarantees;;;;;;;;;;;;;x
+cve_border_guarantees_desc;Italy has accepted limits upon frontier military establishments as part of a negotiated territorial settlement. The concession falls upon the national military budget.;;;;;;;;;;;;;x
+cvm_demand_savoy_desc;Instruct our ambassador to present the claim to Savoy and Nice. Paris may accept the frontier articles, propose a negotiated convention or refuse them. Refusal converts the dispute into a contest of arms, subject to existing treaty obligations. A victory settlement will cover the French possessions in Savoy, Nice and Corsica.;;;;;;;;;;;;;x
+cve_savoy_accept;Accept the territorial articles.;;;;;;;;;;;;;x
+cve_savoy_negotiate;Offer a convention with frontier guarantees.;;;;;;;;;;;;;x
+cve_savoy_refuse;Reject the Italian claim.;;;;;;;;;;;;;x
+cvm_savoy_reply_title;The Italian Claim to Savoy and Nice;;;;;;;;;;;;;x
+cvm_savoy_reply_desc;The Italian ambassador has laid his government's claim before the ministry. Ministers who favour accommodation argue that an agreed frontier could remove a lasting cause of hostility. Their opponents warn that yielding French soil would expose the government to accusations of weakness. A convention might reconcile the cabinets through guarantees limiting Italian military preparations along the new frontier. Paris must decide whether to accept the territorial articles, open that negotiation, or reject the demand and face the prospect of war.;;;;;;;;;;;;;x
+cve_savoy_sign;Authorise the draft and seek French ratification.;;;;;;;;;;;;;x
+cve_savoy_break;Reject the conditions and prepare for war.;;;;;;;;;;;;;x
+cve_savoy_bargain_title;A Convention Offered by Paris;;;;;;;;;;;;;x
+cve_savoy_bargain_desc;Paris is willing to discuss the cession, but its ministers ask that Italy limit military preparations on the new frontier. The general staff dislikes a promise that constrains its establishments, while the foreign ministry believes a peaceful recovery of the disputed provinces worth the concession. The convention still requires French ratification. Acceptance here authorises our ambassador to sign the draft, it does not place the provinces under Italian administration before Paris has confirmed the instrument.;;;;;;;;;;;;;x
+cve_savoy_ratify_yes;Ratify the convention.;;;;;;;;;;;;;x
+cve_savoy_ratify_no;Withhold ratification.;;;;;;;;;;;;;x
+cve_savoy_ratify_title;Ratification of the Italian Convention;;;;;;;;;;;;;x
+cve_savoy_ratify_desc;The Italian government has accepted the draft frontier guarantees. Our ambassador recommends ratification before opponents of the convention can harden opinion on either side of the Alps. Ministers may nevertheless decide that the agreement gives away too much. A second refusal would end the negotiation: the Italian cabinet has warned that it will seek a wider settlement by force, and Corsica as well as the Alpine frontier would then become an object of the war.;;;;;;;;;;;;;x
+cve_savoy_march;Enforce the national settlement when our treaties permit.;;;;;;;;;;;;;x
+cve_savoy_refusal_title;The French Negotiations Have Broken Down;;;;;;;;;;;;;x
+cve_savoy_refusal_desc;The ambassador reports that no convention can be concluded. The Italian cabinet has resolved to seek a national settlement by arms, extending its demands to the French possessions in Savoy, Nice and Corsica. The general staff is instructed to prepare the campaign. Existing alliances, a truce, foreign protection or a war already in progress may delay the declaration, in that case the unresolved ultimatum remains before the government until it can be enforced. A French victory would expose Italian territory to a counter-settlement.;;;;;;;;;;;;;x
+cvm_enforce_savoy_title;Enforce the Rejected Claim to Savoy and Nice;;;;;;;;;;;;;x
+cvm_enforce_savoy_desc;The French refusal has left the national ultimatum unresolved. Issue the declaration once peace and treaty obligations permit it. Our war articles seek the French possessions in Savoy, Nice and Corsica, defeat would expose Italy to a French counter-settlement.;;;;;;;;;;;;;x
+cve_savoy_recover_ack;Require an answer from Paris.;;;;;;;;;;;;;x
+cve_savoy_recover_title;The Ambassador Renews the French Mission;;;;;;;;;;;;;x
+cve_savoy_recover_desc;The foreign ministry has found an unanswered territorial mission in its correspondence. The ambassador is instructed to place the proposal before the French cabinet and obtain a formal answer. The original appropriation remains the authority for the mission, no fresh levy is required.;;;;;;;;;;;;;x
+cve_savoy_old_refusal_ack;Place the ultimatum before the cabinet.;;;;;;;;;;;;;x
+cve_savoy_old_refusal_title;The Unresolved French Ultimatum;;;;;;;;;;;;;x
+cve_savoy_old_refusal_desc;A previous refusal has not been followed by a settlement. Ministers place the outstanding ultimatum before the cabinet, with the military preparations and treaty obligations that must govern its enforcement.;;;;;;;;;;;;;x
+cve_savoy_dispatch_ack;Await the French cabinet's answer.;;;;;;;;;;;;;x
+cve_savoy_dispatch_title;The Territorial Mission to Paris;;;;;;;;;;;;;x
+cve_savoy_dispatch_desc;The ambassador has received his instructions and the frontier articles have been sent to Paris. The ministry will seek an answer from the French cabinet before taking possession of any province. Until that answer arrives the dispute remains diplomatic, our military authorities may prepare estimates, but no declaration has been issued.;;;;;;;;;;;;;x
+cvm_demand_corsica_desc;Instruct our ambassador to present the claim to Corsica. Paris may accept the frontier articles, propose a negotiated convention or refuse them. Refusal converts the dispute into a contest of arms, subject to existing treaty obligations. A victory settlement will cover the French possessions in Savoy, Nice and Corsica.;;;;;;;;;;;;;x
+cve_corsica_accept;Accept the territorial articles.;;;;;;;;;;;;;x
+cve_corsica_negotiate;Offer a convention with frontier guarantees.;;;;;;;;;;;;;x
+cve_corsica_refuse;Reject the Italian claim.;;;;;;;;;;;;;x
+cvm_corsica_reply_title;The Italian Claim to Corsica;;;;;;;;;;;;;x
+cvm_corsica_reply_desc;The Italian ambassador has laid his government's claim before the ministry. Ministers who favour accommodation argue that an agreed frontier could remove a lasting cause of hostility. Their opponents warn that yielding French soil would expose the government to accusations of weakness. A convention might reconcile the cabinets through guarantees limiting Italian military preparations along the new frontier. Paris must decide whether to accept the territorial articles, open that negotiation, or reject the demand and face the prospect of war.;;;;;;;;;;;;;x
+cve_corsica_sign;Authorise the draft and seek French ratification.;;;;;;;;;;;;;x
+cve_corsica_break;Reject the conditions and prepare for war.;;;;;;;;;;;;;x
+cve_corsica_bargain_title;A Convention Offered by Paris;;;;;;;;;;;;;x
+cve_corsica_bargain_desc;Paris is willing to discuss the cession, but its ministers ask that Italy limit military preparations on the new frontier. The general staff dislikes a promise that constrains its establishments, while the foreign ministry believes a peaceful recovery of the disputed provinces worth the concession. The convention still requires French ratification. Acceptance here authorises our ambassador to sign the draft, it does not place the provinces under Italian administration before Paris has confirmed the instrument.;;;;;;;;;;;;;x
+cve_corsica_ratify_yes;Ratify the convention.;;;;;;;;;;;;;x
+cve_corsica_ratify_no;Withhold ratification.;;;;;;;;;;;;;x
+cve_corsica_ratify_title;Ratification of the Italian Convention;;;;;;;;;;;;;x
+cve_corsica_ratify_desc;The Italian government has accepted the draft frontier guarantees. Our ambassador recommends ratification before opponents of the convention can harden opinion on either side of the Alps. Ministers may nevertheless decide that the agreement gives away too much. A second refusal would end the negotiation: the Italian cabinet has warned that it will seek a wider settlement by force, and Corsica as well as the Alpine frontier would then become an object of the war.;;;;;;;;;;;;;x
+cve_corsica_march;Enforce the national settlement when our treaties permit.;;;;;;;;;;;;;x
+cve_corsica_refusal_title;The French Negotiations Have Broken Down;;;;;;;;;;;;;x
+cve_corsica_refusal_desc;The ambassador reports that no convention can be concluded. The Italian cabinet has resolved to seek a national settlement by arms, extending its demands to the French possessions in Savoy, Nice and Corsica. The general staff is instructed to prepare the campaign. Existing alliances, a truce, foreign protection or a war already in progress may delay the declaration, in that case the unresolved ultimatum remains before the government until it can be enforced. A French victory would expose Italian territory to a counter-settlement.;;;;;;;;;;;;;x
+cvm_enforce_corsica_title;Enforce the Rejected Claim to Corsica;;;;;;;;;;;;;x
+cvm_enforce_corsica_desc;The French refusal has left the national ultimatum unresolved. Issue the declaration once peace and treaty obligations permit it. Our war articles seek the French possessions in Savoy, Nice and Corsica, defeat would expose Italy to a French counter-settlement.;;;;;;;;;;;;;x
+cve_corsica_recover_ack;Require an answer from Paris.;;;;;;;;;;;;;x
+cve_corsica_recover_title;The Ambassador Renews the French Mission;;;;;;;;;;;;;x
+cve_corsica_recover_desc;The foreign ministry has found an unanswered territorial mission in its correspondence. The ambassador is instructed to place the proposal before the French cabinet and obtain a formal answer. The original appropriation remains the authority for the mission, no fresh levy is required.;;;;;;;;;;;;;x
+cve_corsica_old_refusal_ack;Place the ultimatum before the cabinet.;;;;;;;;;;;;;x
+cve_corsica_old_refusal_title;The Unresolved French Ultimatum;;;;;;;;;;;;;x
+cve_corsica_old_refusal_desc;A previous refusal has not been followed by a settlement. Ministers place the outstanding ultimatum before the cabinet, with the military preparations and treaty obligations that must govern its enforcement.;;;;;;;;;;;;;x
+cve_corsica_dispatch_ack;Await the French cabinet's answer.;;;;;;;;;;;;;x
+cve_corsica_dispatch_title;The Territorial Mission to Paris;;;;;;;;;;;;;x
+cve_corsica_dispatch_desc;The ambassador has received his instructions and the frontier articles have been sent to Paris. The ministry will seek an answer from the French cabinet before taking possession of any province. Until that answer arrives the dispute remains diplomatic, our military authorities may prepare estimates, but no declaration has been issued.;;;;;;;;;;;;;x
+cve_french_settlement;The Italian National Settlement;;;;;;;;;;;;;x
+cve_french_settlement_short;The Italian National Settlement;;;;;;;;;;;;;x
+cve_french_settlement_desc;The peace conference will implement the territorial articles and temporary obligations of the defeated government.;;;;;;;;;;;;;x
+cve_french_settlement_setup;Victory opens a peace conference. Only the defeated government's possessions covered by the treaty can be transferred.;;;;;;;;;;;;;x
+cve_french_settlement_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ The Italian National Settlement;;;;;;;;;;;;;x
+cve_french_countersettlement;The French Counter-Settlement;;;;;;;;;;;;;x
+cve_french_countersettlement_short;The French Counter-Settlement;;;;;;;;;;;;;x
+cve_french_countersettlement_desc;The peace conference will implement the territorial articles and temporary obligations of the defeated government.;;;;;;;;;;;;;x
+cve_french_countersettlement_setup;Victory opens a peace conference. Only the defeated government's possessions covered by the treaty can be transferred.;;;;;;;;;;;;;x
+cve_french_countersettlement_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ The French Counter-Settlement;;;;;;;;;;;;;x
+cve_italian_conference_ack;Promulgate the territorial and indemnity articles.;;;;;;;;;;;;;x
+cve_italian_conference_title;The Peace Conference with France;;;;;;;;;;;;;x
+cve_italian_conference_desc;The French government has accepted the Italian war articles. Delegates must now draw the frontier and arrange the occupation of the ceded districts. Savoy and Nice will pass with Corsica into the Italian state, while French indemnities meet part of the expense of the campaign. The ministry in Paris faces the burden of defeat and its army must rebuild confidence. Our officers return with enhanced authority, but ministers caution that victory does not settle every grievance along the Alpine frontier. Provincial officials are to preserve ordinary administration during the transfer.;;;;;;;;;;;;;x
+cve_french_aosta;Secure the Aosta valley.;;;;;;;;;;;;;x
+cve_french_sardinia;Demand Sardinia for our naval position.;;;;;;;;;;;;;x
+cve_french_both;Demand the valley and Sardinia.;;;;;;;;;;;;;x
+cve_french_restraint;Accept indemnities and the public humiliation.;;;;;;;;;;;;;x
+cve_french_conference_title;The French Conference after the Italian War;;;;;;;;;;;;;x
+cve_french_conference_desc;Italy has failed to enforce its ultimatum and has accepted the French counter-articles. The ministry may demand a strategic frontier in the Aosta valley, naval positions in Sardinia, or the combination of both. A more restrained party would retain the indemnities and public humiliation while leaving the Italian frontier intact. Officers insist that a visible settlement must justify the campaign, diplomats warn that a sweeping territorial punishment could make the next Italian war more likely. The defeated Italian government will bear the temporary fiscal and military consequences whatever frontier is chosen.;;;;;;;;;;;;;x
+cve_italian_loss_ack;Record the French settlement and begin recovery.;;;;;;;;;;;;;x
+cve_italian_loss_title;The French Terms of Peace;;;;;;;;;;;;;x
+cve_italian_loss_desc;The French delegates have published the counter-settlement. Provincial officials must obey the frontier articles, while the treasury meets the indemnities and the army answers for the failed campaign. The cabinet cannot repair the defeat by another proclamation. Ministers must restore public credit, rebuild military confidence and decide whether a future policy can reconcile the country with the peace.;;;;;;;;;;;;;x
+cve_irredenta_ack;Prepare a diplomatic dossier for the Alpine frontier.;;;;;;;;;;;;;x
+cve_irredenta_title;Claims and the Concert of Europe;;;;;;;;;;;;;x
+cve_irredenta_desc;The proclamation of national claims has reached our embassies. It cannot by itself transfer a district governed by another crown. The Alpine frontier poses a question of language, security and the rights of inhabitants who do not all share the same national allegiance. Ministers propose that Britain or Germany be asked to mediate before the cabinet resorts to an ultimatum. A continental war would involve the alliances of both states, and the general staff cannot assume that the dispute would remain confined to the Alps.;;;;;;;;;;;;;x
+cve_AUS_ENG_mediation_title;An Italian Request for British Mediation;;;;;;;;;;;;;x
+cve_AUS_ENG_mediation_desc;The Italian ambassador requests our good offices in a dispute with the Habsburg crown. Italy seeks a settlement in Trentino, South Tyrol and the Adriatic districts, where national claims overlap with the interests of several peoples. Accepting mediation commits us to transmit the proposal and hear the answer, it is no promise of military support. Our ministry may instead decline to take responsibility for an arrangement that could disturb the continental balance.;;;;;;;;;;;;;x
+cve_AUS_GER_mediation_title;An Italian Request for German Mediation;;;;;;;;;;;;;x
+cve_AUS_GER_mediation_desc;The Italian ambassador requests our good offices in a dispute with the Habsburg crown. Italy seeks a settlement in Trentino, South Tyrol and the Adriatic districts, where national claims overlap with the interests of several peoples. Accepting mediation commits us to transmit the proposal and hear the answer, it is no promise of military support. Our ministry may instead decline to take responsibility for an arrangement that could disturb the continental balance.;;;;;;;;;;;;;x
+cve_AUS_ENG_yes;Transmit the proposal through our ambassador.;;;;;;;;;;;;;x
+cve_AUS_ENG_no;Decline to mediate.;;;;;;;;;;;;;x
+cve_AUS_GER_yes;Transmit the proposal through our ambassador.;;;;;;;;;;;;;x
+cve_AUS_GER_no;Decline to mediate.;;;;;;;;;;;;;x
+cve_AUS_direct;Address the Habsburg cabinet directly.;;;;;;;;;;;;;x
+cve_AUS_no_mediator_title;The Mediator Declines;;;;;;;;;;;;;x
+cve_AUS_no_mediator_desc;Our ambassador has been informed that the requested mediation will not be undertaken. The refusal is not a judgment upon every Italian claim, but it deprives the ministry of an intermediary. The cabinet can now address the Habsburg government directly, accepting responsibility for the diplomatic exchange and any subsequent ultimatum.;;;;;;;;;;;;;x
+cve_AUS_all;Accept the full frontier convention.;;;;;;;;;;;;;x
+cve_AUS_limited;Offer Trentino and guarantees for local institutions.;;;;;;;;;;;;;x
+cve_AUS_no;Reject the Italian demand.;;;;;;;;;;;;;x
+cve_AUS_alpine_reply_title;The Italian Alpine Proposal;;;;;;;;;;;;;x
+cve_AUS_alpine_reply_desc;Italy has presented its frontier dossier. A sweeping acceptance would cede the districts named in the proposal, including the northern Tyrol, where language and allegiance make the Italian demand particularly contentious. Ministers favouring accommodation propose to surrender Trentino while retaining the northern districts and the Adriatic ports. Others regard even this concession as an invitation to further claims. The cabinet must weigh the national question against strategic communications, provincial loyalties and the danger of another continental conflict.;;;;;;;;;;;;;x
+cve_AUS_limited_yes;Accept Trentino and close the dossier.;;;;;;;;;;;;;x
+cve_AUS_limited_no;Insist upon the full frontier settlement.;;;;;;;;;;;;;x
+cve_AUS_limited_offer_title;A Limited Alpine Convention;;;;;;;;;;;;;x
+cve_AUS_limited_offer_desc;The Habsburg ministry offers Trentino while retaining South Tyrol and the Adriatic districts. Our diplomats consider the offer a tangible settlement obtained without war. National committees object that it abandons other claims, and officers fear that a narrow convention will leave the strategic dispute unresolved. Acceptance closes this diplomatic dossier and incorporates only the offered district, insistence on the full claim prepares the ground for a later ultimatum.;;;;;;;;;;;;;x
+cve_AUS_rejected_ack;Keep the claim before the cabinet.;;;;;;;;;;;;;x
+cve_AUS_rejected_title;The Alpine Negotiations Fail;;;;;;;;;;;;;x
+cve_AUS_rejected_desc;The exchange has produced no convention acceptable to both courts. Italian national committees demand action, but ministers must consider the army, public credit and the alliances surrounding the Habsburg crown. The outstanding claim may become an ultimatum when the government is ready. Such a declaration could draw allied powers into a wider conflict, neither mediation nor a national proclamation guarantees a short war.;;;;;;;;;;;;;x
+cve_AUS_settled_ack;Publish the convention and instruct the provincial authorities.;;;;;;;;;;;;;x
+cve_AUS_settled_title;The Alpine Frontier Convention;;;;;;;;;;;;;x
+cve_AUS_settled_desc;The frontier convention has been signed. Surveyors and provincial officials will carry out the articles, while local courts and municipal offices continue their ordinary work during the transfer. The cabinet has obtained territory by agreement and must now show that national administration can respect the inhabitants whose language or allegiance differs from that of the cabinet.;;;;;;;;;;;;;x
+cve_AUS_alpine_ultimatum_title;Issue the Alpine Frontier Ultimatum;;;;;;;;;;;;;x
+cve_AUS_alpine_ultimatum_desc;The diplomatic exchange has failed. Declare war for the full Alpine and Adriatic articles once the army and treaty obligations permit. Allied powers may enter on either side. The war settlement covers only the Habsburg government's possessions named in the dossier.;;;;;;;;;;;;;x
+cve_AUS_alpine;The Alpine and Adriatic Settlement;;;;;;;;;;;;;x
+cve_AUS_alpine_short;The Alpine and Adriatic Settlement;;;;;;;;;;;;;x
+cve_AUS_alpine_desc;The peace conference will implement the territorial articles and temporary obligations of the defeated government.;;;;;;;;;;;;;x
+cve_AUS_alpine_setup;Victory opens a peace conference. Only the defeated government's possessions covered by the treaty can be transferred.;;;;;;;;;;;;;x
+cve_AUS_alpine_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ The Alpine and Adriatic Settlement;;;;;;;;;;;;;x
+cve_KUK_ENG_mediation_title;An Italian Request for British Mediation;;;;;;;;;;;;;x
+cve_KUK_ENG_mediation_desc;The Italian ambassador requests our good offices in a dispute with the Habsburg crown. Italy seeks a settlement in Trentino, South Tyrol and the Adriatic districts, where national claims overlap with the interests of several peoples. Accepting mediation commits us to transmit the proposal and hear the answer, it is no promise of military support. Our ministry may instead decline to take responsibility for an arrangement that could disturb the continental balance.;;;;;;;;;;;;;x
+cve_KUK_GER_mediation_title;An Italian Request for German Mediation;;;;;;;;;;;;;x
+cve_KUK_GER_mediation_desc;The Italian ambassador requests our good offices in a dispute with the Habsburg crown. Italy seeks a settlement in Trentino, South Tyrol and the Adriatic districts, where national claims overlap with the interests of several peoples. Accepting mediation commits us to transmit the proposal and hear the answer, it is no promise of military support. Our ministry may instead decline to take responsibility for an arrangement that could disturb the continental balance.;;;;;;;;;;;;;x
+cve_KUK_ENG_yes;Transmit the proposal through our ambassador.;;;;;;;;;;;;;x
+cve_KUK_ENG_no;Decline to mediate.;;;;;;;;;;;;;x
+cve_KUK_GER_yes;Transmit the proposal through our ambassador.;;;;;;;;;;;;;x
+cve_KUK_GER_no;Decline to mediate.;;;;;;;;;;;;;x
+cve_KUK_direct;Address the Habsburg cabinet directly.;;;;;;;;;;;;;x
+cve_KUK_no_mediator_title;The Mediator Declines;;;;;;;;;;;;;x
+cve_KUK_no_mediator_desc;Our ambassador has been informed that the requested mediation will not be undertaken. The refusal is not a judgment upon every Italian claim, but it deprives the ministry of an intermediary. The cabinet can now address the Habsburg government directly, accepting responsibility for the diplomatic exchange and any subsequent ultimatum.;;;;;;;;;;;;;x
+cve_KUK_all;Accept the full frontier convention.;;;;;;;;;;;;;x
+cve_KUK_limited;Offer Trentino and guarantees for local institutions.;;;;;;;;;;;;;x
+cve_KUK_no;Reject the Italian demand.;;;;;;;;;;;;;x
+cve_KUK_alpine_reply_title;The Italian Alpine Proposal;;;;;;;;;;;;;x
+cve_KUK_alpine_reply_desc;Italy has presented its frontier dossier. A sweeping acceptance would cede the districts named in the proposal, including the northern Tyrol, where language and allegiance make the Italian demand particularly contentious. Ministers favouring accommodation propose to surrender Trentino while retaining the northern districts and the Adriatic ports. Others regard even this concession as an invitation to further claims. The cabinet must weigh the national question against strategic communications, provincial loyalties and the danger of another continental conflict.;;;;;;;;;;;;;x
+cve_KUK_limited_yes;Accept Trentino and close the dossier.;;;;;;;;;;;;;x
+cve_KUK_limited_no;Insist upon the full frontier settlement.;;;;;;;;;;;;;x
+cve_KUK_limited_offer_title;A Limited Alpine Convention;;;;;;;;;;;;;x
+cve_KUK_limited_offer_desc;The Habsburg ministry offers Trentino while retaining South Tyrol and the Adriatic districts. Our diplomats consider the offer a tangible settlement obtained without war. National committees object that it abandons other claims, and officers fear that a narrow convention will leave the strategic dispute unresolved. Acceptance closes this diplomatic dossier and incorporates only the offered district, insistence on the full claim prepares the ground for a later ultimatum.;;;;;;;;;;;;;x
+cve_KUK_rejected_ack;Keep the claim before the cabinet.;;;;;;;;;;;;;x
+cve_KUK_rejected_title;The Alpine Negotiations Fail;;;;;;;;;;;;;x
+cve_KUK_rejected_desc;The exchange has produced no convention acceptable to both courts. Italian national committees demand action, but ministers must consider the army, public credit and the alliances surrounding the Habsburg crown. The outstanding claim may become an ultimatum when the government is ready. Such a declaration could draw allied powers into a wider conflict, neither mediation nor a national proclamation guarantees a short war.;;;;;;;;;;;;;x
+cve_KUK_settled_ack;Publish the convention and instruct the provincial authorities.;;;;;;;;;;;;;x
+cve_KUK_settled_title;The Alpine Frontier Convention;;;;;;;;;;;;;x
+cve_KUK_settled_desc;The frontier convention has been signed. Surveyors and provincial officials will carry out the articles, while local courts and municipal offices continue their ordinary work during the transfer. The cabinet has obtained territory by agreement and must now show that national administration can respect the inhabitants whose language or allegiance differs from that of the cabinet.;;;;;;;;;;;;;x
+cve_KUK_alpine_ultimatum_title;Issue the Alpine Frontier Ultimatum;;;;;;;;;;;;;x
+cve_KUK_alpine_ultimatum_desc;The diplomatic exchange has failed. Declare war for the full Alpine and Adriatic articles once the army and treaty obligations permit. Allied powers may enter on either side. The war settlement covers only the Habsburg government's possessions named in the dossier.;;;;;;;;;;;;;x
+cve_KUK_alpine;The Alpine and Adriatic Settlement;;;;;;;;;;;;;x
+cve_KUK_alpine_short;The Alpine and Adriatic Settlement;;;;;;;;;;;;;x
+cve_KUK_alpine_desc;The peace conference will implement the territorial articles and temporary obligations of the defeated government.;;;;;;;;;;;;;x
+cve_KUK_alpine_setup;Victory opens a peace conference. Only the defeated government's possessions covered by the treaty can be transferred.;;;;;;;;;;;;;x
+cve_KUK_alpine_war;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ The Alpine and Adriatic Settlement;;;;;;;;;;;;;x
+cve_alpine_victory;The Alpine Army's Confidence;;;;;;;;;;;;;x
+cve_alpine_victory_desc;The victorious frontier campaign has strengthened confidence in the national command.;;;;;;;;;;;;;x
+cve_alpine_defeat;The Burden of the Alpine Peace;;;;;;;;;;;;;x
+cve_alpine_defeat_desc;A defeated command must restore its establishments and answer the criticism provoked by the frontier settlement.;;;;;;;;;;;;;x
+cve_libya_charter_title;The Civil Charter of Libya;;;;;;;;;;;;;x
+cve_libya_charter_desc;Annexation has placed Libya under the Italian government, but a change of sovereignty supplies no civil charter. Officers ask whether military government is to continue, magistrates need instructions concerning local law, municipal offices and property. Settlers and merchants press for institutions familiar to them, while the existing population expects its courts and communal rights to survive. Ministers propose national incorporation, a provincial compact, or a concession administration. Each course gives different authority to the crown and carries different burdens. None can turn the inhabitants into Italians merely by decree.;;;;;;;;;;;;;x
+cve_libya_incorporate;Libya is our Quarta Sponda, as Italian as Naples or Venice!;;;;;;;;;;;;;x
+cve_libya_guarantee;Protect local courts and provincial institutions.;;;;;;;;;;;;;x
+cve_libya_concession;Establish a concession administration for ports and commerce.;;;;;;;;;;;;;x
+cve_libya_incorporated_extension_ack;Extend the existing charter.;;;;;;;;;;;;;x
+cve_libya_incorporated_extension_title;The Charter in the Newly Annexed Districts;;;;;;;;;;;;;x
+cve_libya_incorporated_extension_desc;Further districts of Libya have passed into the Italian state. The provincial authorities will extend the civil charter already adopted for the territory, preserving the administration's obligations as sovereignty changes.;;;;;;;;;;;;;x
+cve_libya_guarantees_extension_ack;Extend the existing charter.;;;;;;;;;;;;;x
+cve_libya_guarantees_extension_title;The Charter in the Newly Annexed Districts;;;;;;;;;;;;;x
+cve_libya_guarantees_extension_desc;Further districts of Libya have passed into the Italian state. The provincial authorities will extend the civil charter already adopted for the territory, preserving the administration's obligations as sovereignty changes.;;;;;;;;;;;;;x
+cve_libya_concessions_extension_ack;Extend the existing charter.;;;;;;;;;;;;;x
+cve_libya_concessions_extension_title;The Charter in the Newly Annexed Districts;;;;;;;;;;;;;x
+cve_libya_concessions_extension_desc;Further districts of Libya have passed into the Italian state. The provincial authorities will extend the civil charter already adopted for the territory, preserving the administration's obligations as sovereignty changes.;;;;;;;;;;;;;x
+cve_libya_schools_title;Establish a Civil School Commission in Libya;;;;;;;;;;;;;x
+cve_libya_schools_desc;School inspectors, translators and provincial magistrates must reconcile national teaching with the languages and institutions of the province. Establish a commission to train local teachers and publish usable civil and technical instruction. The ministers have authorised the provincial officials to begin the work. Contracts, appointments and petitions will be recorded through ordinary offices rather than left to military discretion. The board must answer to the institutions chosen in the civil charter, and its officers are instructed to consult existing municipalities before changing established practice.;;;;;;;;;;;;;x
+cve_libya_schools_ack;Commission the provincial authorities.;;;;;;;;;;;;;x
+cve_libya_harbours_title;Fund the Provincial Harbour and Works Board in Libya;;;;;;;;;;;;;x
+cve_libya_harbours_desc;Shipping and public works still depend upon uneven coastal facilities. Establish a board responsible for contracts, harbour services and the roads connecting provincial produce to the ports. The ministers have authorised the provincial officials to begin the work. Contracts, appointments and petitions will be recorded through ordinary offices rather than left to military discretion. The board must answer to the institutions chosen in the civil charter, and its officers are instructed to consult existing municipalities before changing established practice.;;;;;;;;;;;;;x
+cve_libya_harbours_ack;Commission the provincial authorities.;;;;;;;;;;;;;x
+cve_libya_review_title;Review the Provincial Compact in Libya;;;;;;;;;;;;;x
+cve_libya_review_desc;Years of national administration have exposed disputes over property, representation and access to public employment. Convene a civil review to hear municipal petitions and regularise the obligations of the provincial authorities. The ministers have authorised the provincial officials to begin the work. Contracts, appointments and petitions will be recorded through ordinary offices rather than left to military discretion. The board must answer to the institutions chosen in the civil charter, and its officers are instructed to consult existing municipalities before changing established practice.;;;;;;;;;;;;;x
+cve_libya_review_ack;Commission the provincial authorities.;;;;;;;;;;;;;x
+cve_tunis_charter_title;The Civil Charter of Tunisia;;;;;;;;;;;;;x
+cve_tunis_charter_desc;Annexation has placed Tunisia under the Italian government, but a change of sovereignty supplies no civil charter. Officers ask whether military government is to continue, magistrates need instructions concerning local law, municipal offices and property. Settlers and merchants press for institutions familiar to them, while the existing population expects its courts and communal rights to survive. Ministers propose national incorporation, a provincial compact, or a concession administration. Each course gives different authority to the crown and carries different burdens. None can turn the inhabitants into Italians merely by decree.;;;;;;;;;;;;;x
+cve_tunis_incorporate;Tunisia shall stand within the Italian state under national law.;;;;;;;;;;;;;x
+cve_tunis_guarantee;Protect local courts and provincial institutions.;;;;;;;;;;;;;x
+cve_tunis_concession;Establish a concession administration for ports and commerce.;;;;;;;;;;;;;x
+cve_tunis_incorporated_extension_ack;Extend the existing charter.;;;;;;;;;;;;;x
+cve_tunis_incorporated_extension_title;The Charter in the Newly Annexed Districts;;;;;;;;;;;;;x
+cve_tunis_incorporated_extension_desc;Further districts of Tunisia have passed into the Italian state. The provincial authorities will extend the civil charter already adopted for the territory, preserving the administration's obligations as sovereignty changes.;;;;;;;;;;;;;x
+cve_tunis_guarantees_extension_ack;Extend the existing charter.;;;;;;;;;;;;;x
+cve_tunis_guarantees_extension_title;The Charter in the Newly Annexed Districts;;;;;;;;;;;;;x
+cve_tunis_guarantees_extension_desc;Further districts of Tunisia have passed into the Italian state. The provincial authorities will extend the civil charter already adopted for the territory, preserving the administration's obligations as sovereignty changes.;;;;;;;;;;;;;x
+cve_tunis_concessions_extension_ack;Extend the existing charter.;;;;;;;;;;;;;x
+cve_tunis_concessions_extension_title;The Charter in the Newly Annexed Districts;;;;;;;;;;;;;x
+cve_tunis_concessions_extension_desc;Further districts of Tunisia have passed into the Italian state. The provincial authorities will extend the civil charter already adopted for the territory, preserving the administration's obligations as sovereignty changes.;;;;;;;;;;;;;x
+cve_tunis_schools_title;Establish a Civil School Commission in Tunisia;;;;;;;;;;;;;x
+cve_tunis_schools_desc;School inspectors, translators and provincial magistrates must reconcile national teaching with the languages and institutions of the province. Establish a commission to train local teachers and publish usable civil and technical instruction. The ministers have authorised the provincial officials to begin the work. Contracts, appointments and petitions will be recorded through ordinary offices rather than left to military discretion. The board must answer to the institutions chosen in the civil charter, and its officers are instructed to consult existing municipalities before changing established practice.;;;;;;;;;;;;;x
+cve_tunis_schools_ack;Commission the provincial authorities.;;;;;;;;;;;;;x
+cve_tunis_harbours_title;Fund the Provincial Harbour and Works Board in Tunisia;;;;;;;;;;;;;x
+cve_tunis_harbours_desc;Shipping and public works still depend upon uneven coastal facilities. Establish a board responsible for contracts, harbour services and the roads connecting provincial produce to the ports. The ministers have authorised the provincial officials to begin the work. Contracts, appointments and petitions will be recorded through ordinary offices rather than left to military discretion. The board must answer to the institutions chosen in the civil charter, and its officers are instructed to consult existing municipalities before changing established practice.;;;;;;;;;;;;;x
+cve_tunis_harbours_ack;Commission the provincial authorities.;;;;;;;;;;;;;x
+cve_tunis_review_title;Review the Provincial Compact in Tunisia;;;;;;;;;;;;;x
+cve_tunis_review_desc;Years of national administration have exposed disputes over property, representation and access to public employment. Convene a civil review to hear municipal petitions and regularise the obligations of the provincial authorities. The ministers have authorised the provincial officials to begin the work. Contracts, appointments and petitions will be recorded through ordinary offices rather than left to military discretion. The board must answer to the institutions chosen in the civil charter, and its officers are instructed to consult existing municipalities before changing established practice.;;;;;;;;;;;;;x
+cve_tunis_review_ack;Commission the provincial authorities.;;;;;;;;;;;;;x
+cve_civil_incorporation;National Civil Incorporation;;;;;;;;;;;;;x
+cve_civil_incorporation_desc;National magistrates and civil offices administer the province under the state's charter.;;;;;;;;;;;;;x
+cve_provincial_guarantees;The Provincial Compact;;;;;;;;;;;;;x
+cve_provincial_guarantees_desc;Existing courts and municipal institutions retain defined responsibilities under the national government.;;;;;;;;;;;;;x
+cve_concession_administration;The Concession Administration;;;;;;;;;;;;;x
+cve_concession_administration_desc;Licensed companies and port offices direct commerce under provincial concessions.;;;;;;;;;;;;;x
+cve_colonial_schools;The Civil School Commission;;;;;;;;;;;;;x
+cve_colonial_schools_desc;Teachers and translators extend civil and technical instruction through the province.;;;;;;;;;;;;;x
+cve_colonial_works;The Harbour and Works Board;;;;;;;;;;;;;x
+cve_colonial_works_desc;Public contracts strengthen the connection between inland production and the provincial ports.;;;;;;;;;;;;;x
+cve_colonial_compact;The Reviewed Provincial Compact;;;;;;;;;;;;;x
+cve_colonial_compact_desc;Municipal petitions and provincial appointments have been brought under regular civil review.;;;;;;;;;;;;;x
+cve_french_war;The war for the French settlement has begun;;;;;;;;;;;;;x
+cve_french_refused;France has rejected the Italian territorial proposal;;;;;;;;;;;;;x
+cve_french_lost;France has lost the territorial war;;;;;;;;;;;;;x
+cve_italian_lost;Italy has lost the territorial war;;;;;;;;;;;;;x
+cve_italian_conference;The Italian victory conference is pending;;;;;;;;;;;;;x
+cve_french_conference;The French victory conference is pending;;;;;;;;;;;;;x
+cve_french_peace_done;The peace conference with France has concluded;;;;;;;;;;;;;x
+cve_italian_loss_seen;The French terms have been reported to Italy;;;;;;;;;;;;;x
+cve_irredenta_opened;The Alpine frontier dossier has been opened;;;;;;;;;;;;;x
+cve_savoy_dispatched;The proposal has been dispatched concerning Savoy and Nice;;;;;;;;;;;;;x
+cve_savoy_received;The French cabinet has received the proposal concerning Savoy and Nice;;;;;;;;;;;;;x
+cve_savoy_talks;Frontier guarantees are being negotiated concerning Savoy and Nice;;;;;;;;;;;;;x
+cve_savoy_refusal_reported;The refusal has been reported concerning Savoy and Nice;;;;;;;;;;;;;x
+cve_corsica_dispatched;The proposal has been dispatched concerning Corsica;;;;;;;;;;;;;x
+cve_corsica_received;The French cabinet has received the proposal concerning Corsica;;;;;;;;;;;;;x
+cve_corsica_talks;Frontier guarantees are being negotiated concerning Corsica;;;;;;;;;;;;;x
+cve_corsica_refusal_reported;The refusal has been reported concerning Corsica;;;;;;;;;;;;;x
+cve_AUS_sent;A frontier proposal has been sent concerning Austria;;;;;;;;;;;;;x
+cve_AUS_done;The frontier dossier has concluded concerning Austria;;;;;;;;;;;;;x
+cve_AUS_unmediated;The mediator has declined concerning Austria;;;;;;;;;;;;;x
+cve_AUS_accepted;The frontier convention has been accepted concerning Austria;;;;;;;;;;;;;x
+cve_AUS_refused;The frontier proposal has been rejected concerning Austria;;;;;;;;;;;;;x
+cve_AUS_war;The frontier war has begun concerning Austria;;;;;;;;;;;;;x
+cve_KUK_sent;A frontier proposal has been sent concerning Austria-Hungary;;;;;;;;;;;;;x
+cve_KUK_done;The frontier dossier has concluded concerning Austria-Hungary;;;;;;;;;;;;;x
+cve_KUK_unmediated;The mediator has declined concerning Austria-Hungary;;;;;;;;;;;;;x
+cve_KUK_accepted;The frontier convention has been accepted concerning Austria-Hungary;;;;;;;;;;;;;x
+cve_KUK_refused;The frontier proposal has been rejected concerning Austria-Hungary;;;;;;;;;;;;;x
+cve_KUK_war;The frontier war has begun concerning Austria-Hungary;;;;;;;;;;;;;x
+cve_libya_charter;The civil charter has been adopted in Libya;;;;;;;;;;;;;x
+cve_libya_charter_pending;The civil charter is before the government in Libya;;;;;;;;;;;;;x
+cve_libya_incorporated;National incorporation has been chosen in Libya;;;;;;;;;;;;;x
+cve_libya_guarantees;Provincial guarantees have been chosen in Libya;;;;;;;;;;;;;x
+cve_libya_concessions;Commercial concessions have been chosen in Libya;;;;;;;;;;;;;x
+cve_libya_schools;The school commission has been established in Libya;;;;;;;;;;;;;x
+cve_libya_harbours;The harbour board has been established in Libya;;;;;;;;;;;;;x
+cve_libya_review;The provincial compact has been reviewed in Libya;;;;;;;;;;;;;x
+cve_tunis_charter;The civil charter has been adopted in Tunisia;;;;;;;;;;;;;x
+cve_tunis_charter_pending;The civil charter is before the government in Tunisia;;;;;;;;;;;;;x
+cve_tunis_incorporated;National incorporation has been chosen in Tunisia;;;;;;;;;;;;;x
+cve_tunis_guarantees;Provincial guarantees have been chosen in Tunisia;;;;;;;;;;;;;x
+cve_tunis_concessions;Commercial concessions have been chosen in Tunisia;;;;;;;;;;;;;x
+cve_tunis_schools;The school commission has been established in Tunisia;;;;;;;;;;;;;x
+cve_tunis_harbours;The harbour board has been established in Tunisia;;;;;;;;;;;;;x
+cve_tunis_review;The provincial compact has been reviewed in Tunisia;;;;;;;;;;;;;x

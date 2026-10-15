@@ -1,0 +1,22 @@
+political_decisions = {
+ ff69_reconstruct_transvaal = { picture = treaty_signing
+  potential = { tag = ENG has_country_flag = ff69_pretoria_victory BTV = { exists = yes vassal_of = ENG has_country_flag = ff69_defeated_transvaal } NOT = { has_country_flag = ff69_reconstruction_funded } }
+  allow = { war = no money = 5000 BTV = { war = no } }
+  effect = { money = -5000 set_country_flag = ff69_reconstruction_funded BTV = { country_event = { id = 9784980 days = 1 } } }
+  ai_will_do = { factor = 1 }
+ }
+ ff69_grant_district_autonomy = { picture = form_south_africa
+  potential = { tag = ENG has_country_flag = ff69_pretoria_victory BTV = { exists = yes vassal_of = ENG has_country_flag = ff69_defeated_transvaal } NOT = { has_country_flag = ff69_autonomy_granted } }
+  allow = { war = no money = 2000 BTV = { war = no } }
+  effect = { money = -2000 set_country_flag = ff69_autonomy_granted BTV = { country_event = { id = 9784981 days = 1 } } }
+  ai_will_do = { factor = 1 }
+ }
+ ff69_integrate_transvaal = { picture = claim_transvaal
+  potential = { tag = ENG has_country_flag = ff69_pretoria_victory BTV = { exists = yes vassal_of = ENG has_country_flag = ff69_defeated_transvaal } NOT = { has_country_flag = ff69_annexation_pending } NOT = { has_country_flag = ff69_integration_requested } }
+  allow = { war = no money = 10000 has_country_flag = ff69_reconstruction_funded NOT = { has_country_modifier = ff69_integration_pause }
+   BTV = { war = no has_country_flag = ff69_reconstruction_received NOT = { has_country_modifier = ff69_integration_wait } NOT = { any_owned_province = { NOT = { controlled_by = BTV } } } }
+  }
+  effect = { set_country_flag = ff69_integration_requested country_event = { id = 9784979 days = 1 } }
+  ai_will_do = { factor = 0.2 }
+ }
+}

@@ -1,0 +1,419 @@
+# Faith and Frontier - South African identity, language, and political development
+# Event range 9782360-9782389
+
+# British-sponsored South Africa
+country_event = {
+ id = 9782360
+ title = "FFR_SAF_ID_BRITISH_TITLE"
+ desc = "FFR_SAF_ID_BRITISH_DESC"
+ picture = "cape_colony"
+ trigger = {
+  tag = SAF
+  is_vassal = yes
+  overlord = { is_culture_group = british }
+  NOT = { has_country_flag = ffr_saf_identity_set }
+ }
+ mean_time_to_happen = { days = 3 }
+ option = {
+  name = "FFR_SAF_ID_BRITISH_OPT0"
+  ai_chance = { factor = 85 }
+  primary_culture = british
+  add_accepted_culture = boer
+  remove_accepted_culture = dutch
+  remove_accepted_culture = afro_dutch
+  set_country_flag = ffr_saf_identity_set
+  country_event = 566777744
+  set_country_flag = ffr_saf_identity_british
+  add_country_modifier = { name = ffr_bilingual_dominion duration = -1 }
+  prestige = 1
+ }
+ option = {
+  name = "FFR_SAF_ID_BRITISH_OPT1"
+  ai_chance = { factor = 15 }
+  primary_culture = boer
+  random_owned = { limit = { owner = { NOT = { has_country_flag = ff67_south_african_republic } } } owner = { add_accepted_culture = british } }
+  remove_accepted_culture = dutch
+  remove_accepted_culture = afro_dutch
+  set_country_flag = ffr_saf_identity_set
+  country_event = 566777744
+  set_country_flag = ffr_saf_identity_afrikaans_compromise
+  prestige = 1
+ }
+}
+
+# Dutch-sponsored South Africa / restored Cape
+country_event = {
+ id = 9782361
+ title = "FFR_SAF_ID_DUTCH_TITLE"
+ desc = "FFR_SAF_ID_DUTCH_DESC"
+ picture = "dezuid_afrikaan"
+ trigger = {
+  tag = SAF
+  is_vassal = yes
+  overlord = { primary_culture = dutch }
+  NOT = { has_country_flag = ffr_saf_identity_set }
+ }
+ mean_time_to_happen = { days = 3 }
+ option = {
+  name = "FFR_SAF_ID_DUTCH_OPT0"
+  ai_chance = { factor = 90 }
+  primary_culture = boer
+  add_accepted_culture = dutch
+  random_owned = { limit = { owner = { NOT = { has_country_flag = ff67_south_african_republic } } } owner = { add_accepted_culture = british } }
+  remove_accepted_culture = afro_dutch
+  set_country_flag = ffr_saf_identity_set
+  country_event = 566777744
+  set_country_flag = ffr_saf_identity_dutch_sponsored
+  set_country_flag = ffr_afrikaans_state_identity
+  add_country_modifier = { name = ffr_dutch_afrikaans_compromise duration = -1 }
+  prestige = 1
+ }
+ option = {
+  name = "FFR_SAF_ID_DUTCH_OPT1"
+  ai_chance = { factor = 10 }
+  primary_culture = dutch
+  add_accepted_culture = boer
+  random_owned = { limit = { owner = { NOT = { has_country_flag = ff67_south_african_republic } } } owner = { add_accepted_culture = british } }
+  remove_accepted_culture = afro_dutch
+  set_country_flag = ffr_saf_identity_set
+  country_event = 566777744
+  set_country_flag = ffr_saf_identity_dutch_sponsored
+  set_country_flag = ffr_dutch_standardisation
+  add_country_modifier = { name = ffr_metropolitan_dutch_standard duration = -1 }
+  prestige = 1
+ }
+}
+
+# French-sponsored SAF
+country_event = {
+ id = 9782362
+ title = "FFR_SAF_ID_FRENCH_TITLE"
+ desc = "FFR_SAF_ID_FRENCH_DESC"
+ picture = "cape_colony"
+ trigger = {
+  tag = SAF is_vassal = yes
+  overlord = { primary_culture = french }
+  NOT = { has_country_flag = ffr_saf_identity_set }
+ }
+ mean_time_to_happen = { days = 3 }
+ option = {
+  name = "FFR_SAF_ID_FRENCH_OPT0"
+  primary_culture = boer
+  add_accepted_culture = french
+  random_owned = { limit = { owner = { NOT = { has_country_flag = ff67_south_african_republic } } } owner = { add_accepted_culture = british } }
+  remove_accepted_culture = dutch
+  remove_accepted_culture = afro_dutch
+  set_country_flag = ffr_saf_identity_set
+  country_event = 566777744
+  set_country_flag = ffr_saf_identity_french
+  add_country_modifier = { name = ffr_french_south_african_administration duration = -1 }
+ }
+}
+
+# German-sponsored SAF
+country_event = {
+ id = 9782363
+ title = "FFR_SAF_ID_GERMAN_TITLE"
+ desc = "FFR_SAF_ID_GERMAN_DESC"
+ picture = "german_east_africa_company"
+ trigger = {
+  tag = SAF is_vassal = yes
+  overlord = { OR = { primary_culture = north_german primary_culture = south_german } }
+  NOT = { has_country_flag = ffr_saf_identity_set }
+ }
+ mean_time_to_happen = { days = 3 }
+ option = {
+  name = "FFR_SAF_ID_GERMAN_OPT0"
+  primary_culture = boer
+  add_accepted_culture = north_german
+  add_accepted_culture = south_german
+  random_owned = { limit = { owner = { NOT = { has_country_flag = ff67_south_african_republic } } } owner = { add_accepted_culture = british } }
+  remove_accepted_culture = dutch
+  remove_accepted_culture = afro_dutch
+  set_country_flag = ffr_saf_identity_set
+  country_event = 566777744
+  set_country_flag = ffr_saf_identity_german
+  add_country_modifier = { name = ffr_german_south_african_administration duration = -1 }
+ }
+}
+
+# Boer-founded independent South Africa: the core national-language choice.
+country_event = {
+ id = 9782364
+ title = "FFR_SAF_ID_BOER_TITLE"
+ desc = "FFR_SAF_ID_BOER_DESC"
+ picture = "boer_troops"
+ trigger = {
+  tag = SAF is_vassal = no
+  OR = { primary_culture = boer primary_culture = dutch }
+  NOT = { has_country_flag = ffr_saf_identity_set }
+ }
+ mean_time_to_happen = { days = 3 }
+ option = {
+  name = "FFR_SAF_ID_BOER_OPT0"
+  ai_chance = { factor = 55 }
+  primary_culture = boer
+  remove_accepted_culture = british
+  remove_accepted_culture = dutch
+  remove_accepted_culture = afro_dutch
+  set_country_flag = ffr_saf_identity_set
+  country_event = 566777744
+  set_country_flag = ffr_afrikaans_state_identity
+  add_country_modifier = { name = ffr_afrikaans_national_state duration = -1 }
+  prestige = 2
+  plurality = 1
+ }
+ option = {
+  name = "FFR_SAF_ID_BOER_OPT1"
+  ai_chance = { factor = 20 }
+  primary_culture = dutch
+  remove_accepted_culture = boer
+  remove_accepted_culture = british
+  remove_accepted_culture = afro_dutch
+  set_country_flag = ffr_saf_identity_set
+  country_event = 566777744
+  set_country_flag = ffr_dutch_standardisation
+  add_country_modifier = { name = ffr_metropolitan_dutch_standard duration = -1 }
+  prestige = 1
+ }
+ option = {
+  name = "FFR_SAF_ID_BOER_OPT2"
+  ai_chance = { factor = 25 }
+  primary_culture = boer
+  random_owned = { limit = { owner = { NOT = { has_country_flag = ff67_south_african_republic } } } owner = { add_accepted_culture = british } }
+  remove_accepted_culture = dutch
+  remove_accepted_culture = afro_dutch
+  set_country_flag = ffr_saf_identity_set
+  country_event = 566777744
+  set_country_flag = ffr_afrikaans_state_identity
+  set_country_flag = ffr_saf_identity_afrikaans_compromise
+  add_country_modifier = { name = ffr_bilingual_south_african_compromise duration = -1 }
+  prestige = 1
+ }
+}
+
+# Fallback for unusual releases/alternate histories.
+country_event = {
+ id = 9782365
+ title = "FFR_SAF_ID_GENERIC_TITLE"
+ desc = "FFR_SAF_ID_GENERIC_DESC"
+ picture = "cape_map"
+ trigger = {
+  tag = SAF
+  NOT = { has_country_flag = ffr_saf_identity_set }
+  NOT = { AND = { is_vassal = yes overlord = { is_culture_group = british } } }
+  NOT = { AND = { is_vassal = yes overlord = { primary_culture = dutch } } }
+  NOT = { AND = { is_vassal = yes overlord = { primary_culture = french } } }
+  NOT = { AND = { is_vassal = yes overlord = { OR = { primary_culture = north_german primary_culture = south_german } } } }
+  NOT = { AND = { is_vassal = no OR = { primary_culture = boer primary_culture = dutch } } }
+ }
+ mean_time_to_happen = { days = 20 }
+ option = {
+  name = "FFR_SAF_ID_GENERIC_OPT0"
+  primary_culture = boer
+  random_owned = { limit = { owner = { NOT = { has_country_flag = ff67_south_african_republic } } } owner = { add_accepted_culture = british } }
+  remove_accepted_culture = afro_dutch
+  set_country_flag = ffr_saf_identity_set
+  country_event = 566777744
+  set_country_flag = ffr_saf_identity_afrikaans_compromise
+ }
+}
+
+# 1910: English and Dutch were the constitutional language pair at Union.
+country_event = {
+ id = 9782366 title = "FFR_UNION_LANG_TITLE" desc = "FFR_UNION_LANG_DESC" picture = "eic_parliament"
+ trigger = { tag = SAF year = 1910 NOT = { year = 1915 } NOT = { has_country_flag = ffr_union_language_settlement } }
+ mean_time_to_happen = { months = 3 }
+ option = {
+  name = "FFR_UNION_LANG_OPT0" ai_chance = { factor = 85 }
+  set_country_flag = ffr_union_language_settlement
+  add_country_modifier = { name = ffr_union_language_compromise duration = 5475 }
+  any_pop = { limit = { OR = { culture = boer culture = british culture = dutch } } militancy = -0.1 }
+  prestige = 1
+ }
+ option = {
+  name = "FFR_UNION_LANG_OPT1" ai_chance = { factor = 15 }
+  set_country_flag = ffr_union_language_settlement
+  any_pop = { limit = { culture = boer } consciousness = 0.3 }
+ }
+}
+
+# 1914: Afrikaans starts entering formal school use.
+country_event = {
+ id = 9782367 title = "FFR_AFR_SCHOOLS_TITLE" desc = "FFR_AFR_SCHOOLS_DESC" picture = "School"
+ trigger = { tag = SAF year = 1914 NOT = { year = 1917 } OR = { primary_culture = boer accepted_culture = boer } NOT = { has_country_flag = ffr_afrikaans_schools } }
+ mean_time_to_happen = { months = 3 }
+ option = {
+  name = "FFR_AFR_SCHOOLS_OPT0" ai_chance = { factor = 90 }
+  set_country_flag = ffr_afrikaans_schools
+  add_country_modifier = { name = ffr_afrikaans_in_schools duration = -1 }
+  any_pop = { limit = { culture = boer } consciousness = 0.2 militancy = -0.1 }
+ }
+ option = { name = "FFR_AFR_SCHOOLS_OPT1" ai_chance = { factor = 10 } set_country_flag = ffr_afrikaans_schools any_pop = { limit = { culture = boer } militancy = 0.4 } }
+}
+
+# 1915 spelling rules.
+country_event = {
+ id = 9782368 title = "FFR_AFR_SPELLING_1915_TITLE" desc = "FFR_AFR_SPELLING_1915_DESC" picture = "language_crisis"
+ trigger = { tag = SAF year = 1915 NOT = { year = 1918 } has_country_flag = ffr_afrikaans_schools NOT = { has_country_flag = ffr_afrikaans_spelling_1915 } }
+ mean_time_to_happen = { months = 4 }
+ option = { name = "FFR_AFR_SPELLING_1915_OPT0" set_country_flag = ffr_afrikaans_spelling_1915 add_country_modifier = { name = ffr_afrikaans_spelling_standardisation duration = -1 } prestige = 1 }
+}
+
+# 1917 first Afrikaanse Woordelys en Spelreels.
+country_event = {
+ id = 9782369 title = "FFR_AWS_1917_TITLE" desc = "FFR_AWS_1917_DESC" picture = "dezuid_afrikaan"
+ trigger = { tag = SAF year = 1917 NOT = { year = 1922 } has_country_flag = ffr_afrikaans_spelling_1915 NOT = { has_country_flag = ffr_aws_1917 } }
+ mean_time_to_happen = { months = 4 }
+ option = { name = "FFR_AWS_1917_OPT0" set_country_flag = ffr_aws_1917 add_country_modifier = { name = ffr_aws_codification duration = -1 } prestige = 1 }
+}
+
+# 1873 Cape parliamentary language equality for Dutch.
+country_event = {
+ id = 9782370 title = "FFR_DUTCH_CAPE_PARL_TITLE" desc = "FFR_DUTCH_CAPE_PARL_DESC" picture = "eic_parliament"
+ trigger = { year = 1873 NOT = { year = 1882 } owns = 2087 OR = { primary_culture = british accepted_culture = british primary_culture = boer accepted_culture = boer } NOT = { has_country_flag = ffr_dutch_cape_parliament } }
+ mean_time_to_happen = { months = 6 }
+ option = { name = "FFR_DUTCH_CAPE_PARL_OPT0" ai_chance = { factor = 90 } set_country_flag = ffr_dutch_cape_parliament add_country_modifier = { name = ffr_dutch_cape_parliament duration = 7300 } any_pop = { limit = { culture = boer } militancy = -0.2 consciousness = 0.2 } prestige = 1 }
+ option = { name = "FFR_DUTCH_CAPE_PARL_OPT1" ai_chance = { factor = 10 } set_country_flag = ffr_dutch_cape_parliament any_pop = { limit = { culture = boer } militancy = 0.5 consciousness = 0.3 } }
+}
+
+# 1880 Afrikaner Bond.
+country_event = {
+ id = 9782371 title = "FFR_AFRIKANER_BOND_TITLE" desc = "FFR_AFRIKANER_BOND_DESC" picture = "dezuid_afrikaan"
+ trigger = { year = 1880 NOT = { year = 1895 } OR = { tag = SAF owns = 2087 } OR = { primary_culture = boer accepted_culture = boer } NOT = { has_country_flag = ffr_afrikaner_bond } }
+ mean_time_to_happen = { months = 7 }
+ option = { name = "FFR_AFRIKANER_BOND_OPT0" set_country_flag = ffr_afrikaner_bond add_country_modifier = { name = ffr_afrikaner_bond_network duration = 7300 } any_pop = { limit = { culture = boer } consciousness = 0.3 } prestige = 1 }
+}
+
+# 1912 SANNC.
+country_event = {
+ id = 9782372 title = "FFR_SANNC_TITLE" desc = "FFR_SANNC_DESC" picture = "national_congress"
+ trigger = { tag = SAF year = 1912 NOT = { year = 1918 } owns = 2101 NOT = { has_country_flag = ffr_sannc_founded } }
+ mean_time_to_happen = { months = 2 }
+ option = { name = "FFR_SANNC_OPT0" ai_chance = { factor = 80 } set_country_flag = ffr_sannc_founded add_country_modifier = { name = ffr_sannc_political_mobilisation duration = -1 } any_pop = { limit = { OR = { culture = xhosa culture = zulu culture = sotho culture = tswana culture = nguni } } consciousness = 0.4 militancy = 0.1 } }
+ option = { name = "FFR_SANNC_OPT1" ai_chance = { factor = 20 } set_country_flag = ffr_sannc_founded any_pop = { limit = { OR = { culture = xhosa culture = zulu culture = sotho culture = tswana culture = nguni } } militancy = 0.5 consciousness = 0.2 } }
+}
+
+# 1914 National Party.
+country_event = {
+ id = 9782373 title = "FFR_NP_1914_TITLE" desc = "FFR_NP_1914_DESC" picture = "boer_troops"
+ trigger = { tag = SAF year = 1914 NOT = { year = 1920 } OR = { primary_culture = boer accepted_culture = boer } NOT = { has_country_flag = ffr_national_party_1914 } }
+ mean_time_to_happen = { months = 5 }
+ option = { name = "FFR_NP_1914_OPT0" set_country_flag = ffr_national_party_1914 add_country_modifier = { name = ffr_afrikaaner_party_organisation duration = 7300 } any_pop = { limit = { culture = boer } consciousness = 0.3 } }
+}
+
+# 1918 Afrikaner Broederbond.
+country_event = {
+ id = 9782374 title = "FFR_BROEDERBOND_TITLE" desc = "FFR_BROEDERBOND_DESC" picture = "dezuid_afrikaan"
+ trigger = { tag = SAF year = 1918 NOT = { year = 1928 } OR = { primary_culture = boer accepted_culture = boer } NOT = { has_country_flag = ffr_broederbond_1918 } }
+ mean_time_to_happen = { months = 7 }
+ option = { name = "FFR_BROEDERBOND_OPT0" set_country_flag = ffr_broederbond_1918 add_country_modifier = { name = ffr_broederbond_network duration = -1 } any_pop = { limit = { culture = boer } consciousness = 0.2 } }
+}
+
+# 1919 Industrial and Commercial Workers' Union.
+country_event = {
+ id = 9782375 title = "FFR_ICU_TITLE" desc = "FFR_ICU_DESC" picture = "Workers"
+ trigger = { tag = SAF year = 1919 NOT = { year = 1930 } owns = 2087 NOT = { has_country_flag = ffr_icu_1919 } }
+ mean_time_to_happen = { months = 5 }
+ option = { name = "FFR_ICU_OPT0" ai_chance = { factor = 75 } set_country_flag = ffr_icu_1919 add_country_modifier = { name = ffr_icu_labour_mobilisation duration = 3650 } any_pop = { limit = { strata = poor } consciousness = 0.2 } }
+ option = { name = "FFR_ICU_OPT1" ai_chance = { factor = 25 } set_country_flag = ffr_icu_1919 any_pop = { limit = { strata = poor } militancy = 0.3 } prestige = -1 }
+}
+
+# 1926 Mines and Works Amendment / colour bar.
+country_event = {
+ id = 9782376 title = "FFR_COLOUR_BAR_TITLE" desc = "FFR_COLOUR_BAR_DESC" picture = "south_africa_gold_miners"
+ trigger = { tag = SAF year = 1926 NOT = { year = 1932 } OR = { owns = 2094 owns = 2106 any_owned_province = { trade_goods = precious_metal } } NOT = { has_country_flag = ffr_colour_bar_1926 } }
+ mean_time_to_happen = { months = 3 }
+ option = { name = "FFR_COLOUR_BAR_OPT0" ai_chance = { factor = 80 } set_country_flag = ffr_colour_bar_1926 add_country_modifier = { name = ffr_statutory_colour_bar duration = -1 } any_pop = { limit = { culture = boer } militancy = -0.1 } any_pop = { limit = { OR = { culture = xhosa culture = zulu culture = sotho culture = tswana culture = nguni } } militancy = 0.3 consciousness = 0.2 } }
+ option = { name = "FFR_COLOUR_BAR_OPT1" ai_chance = { factor = 20 } set_country_flag = ffr_colour_bar_1926 add_country_modifier = { name = ffr_open_mining_skills duration = -1 } any_pop = { limit = { culture = boer } militancy = 0.2 } }
+}
+
+# 1927 Native Administration Act.
+country_event = {
+ id = 9782377 title = "FFR_NATIVE_ADMIN_1927_TITLE" desc = "FFR_NATIVE_ADMIN_1927_DESC" picture = "Administration"
+ trigger = { tag = SAF year = 1927 NOT = { year = 1933 } NOT = { has_country_flag = ffr_native_admin_1927 } }
+ mean_time_to_happen = { months = 4 }
+ option = { name = "FFR_NATIVE_ADMIN_1927_OPT0" ai_chance = { factor = 80 } set_country_flag = ffr_native_admin_1927 add_country_modifier = { name = ffr_native_administration_centralisation duration = -1 } any_pop = { limit = { OR = { culture = xhosa culture = zulu culture = sotho culture = tswana culture = nguni } } militancy = 0.3 consciousness = 0.2 } }
+ option = { name = "FFR_NATIVE_ADMIN_1927_OPT1" ai_chance = { factor = 20 } set_country_flag = ffr_native_admin_1927 add_country_modifier = { name = ffr_local_native_administration duration = -1 } }
+}
+
+# 1927-28 flag controversy.
+country_event = {
+ id = 9782378 title = "FFR_FLAG_1928_TITLE" desc = "FFR_FLAG_1928_DESC" picture = "natal_colony_flag"
+ trigger = { tag = SAF year = 1927 NOT = { year = 1932 } NOT = { has_country_flag = ffr_union_flag_1928 } }
+ mean_time_to_happen = { months = 5 }
+ option = { name = "FFR_FLAG_1928_OPT0" ai_chance = { factor = 90 } set_country_flag = ffr_union_flag_1928 add_country_modifier = { name = ffr_union_flag_compromise duration = 3650 } prestige = 2 any_pop = { limit = { OR = { culture = boer culture = british } } militancy = -0.1 } }
+ option = { name = "FFR_FLAG_1928_OPT1" ai_chance = { factor = 10 } set_country_flag = ffr_union_flag_1928 any_pop = { limit = { culture = boer } militancy = 0.3 } }
+}
+
+# 1930 white women's enfranchisement.
+country_event = {
+ id = 9782379 title = "FFR_WOMEN_VOTE_1930_TITLE" desc = "FFR_WOMEN_VOTE_1930_DESC" picture = "Womensrights"
+ trigger = { tag = SAF year = 1930 NOT = { year = 1935 } NOT = { has_country_flag = ffr_white_women_vote_1930 } }
+ mean_time_to_happen = { months = 3 }
+ option = { name = "FFR_WOMEN_VOTE_1930_OPT0" ai_chance = { factor = 90 } set_country_flag = ffr_white_women_vote_1930 add_country_modifier = { name = ffr_white_womens_enfranchisement duration = -1 } plurality = 1 prestige = 1 }
+ option = { name = "FFR_WOMEN_VOTE_1930_OPT1" ai_chance = { factor = 10 } set_country_flag = ffr_white_women_vote_1930 any_pop = { limit = { strata = middle } consciousness = 0.2 } }
+}
+
+# 1931 Franchise Laws Amendment Act: adult white male franchise and Cape vote dilution.
+country_event = {
+ id = 9782380 title = "FFR_FRANCHISE_1931_TITLE" desc = "FFR_FRANCHISE_1931_DESC" picture = "eic_parliament"
+ trigger = { tag = SAF year = 1931 NOT = { year = 1936 } NOT = { has_country_flag = ffr_franchise_1931 } }
+ mean_time_to_happen = { months = 4 }
+ option = { name = "FFR_FRANCHISE_1931_OPT0" ai_chance = { factor = 80 } set_country_flag = ffr_franchise_1931 add_country_modifier = { name = ffr_franchise_standardisation duration = -1 } any_pop = { limit = { culture = afro_dutch } consciousness = 0.3 } }
+ option = { name = "FFR_FRANCHISE_1931_OPT1" ai_chance = { factor = 20 } set_country_flag = ffr_franchise_1931 add_country_modifier = { name = ffr_cape_franchise_preserved duration = -1 } prestige = 1 }
+}
+
+# 1934 Fusion and constitutional autonomy.
+country_event = {
+ id = 9782381 title = "FFR_FUSION_1934_TITLE" desc = "FFR_FUSION_1934_DESC" picture = "extended_constitutionalism"
+ trigger = { tag = SAF year = 1934 NOT = { year = 1937 } NOT = { has_country_flag = ffr_fusion_1934 } }
+ mean_time_to_happen = { months = 3 }
+ option = { name = "FFR_FUSION_1934_OPT0" ai_chance = { factor = 80 } set_country_flag = ffr_fusion_1934 add_country_modifier = { name = ffr_union_fusion_government duration = 1825 } prestige = 2 }
+ option = { name = "FFR_FUSION_1934_OPT1" ai_chance = { factor = 20 } set_country_flag = ffr_fusion_1934 any_pop = { limit = { culture = boer } consciousness = 0.2 } }
+}
+
+# 1935: Hertzog's Native Bills and the All-African Convention. The standard GFM game ends on 1 Jan 1936,
+# so this event models the final political confrontation before the 1936 Acts rather than an unreachable post-end-date event.
+country_event = {
+ id = 9782382 title = "FFR_NATIVE_BILLS_1935_TITLE" desc = "FFR_NATIVE_BILLS_1935_DESC" picture = "national_congress"
+ trigger = { tag = SAF year = 1935 NOT = { year = 1936 } NOT = { has_country_flag = ffr_native_bills_1935 } }
+ mean_time_to_happen = { months = 3 }
+ option = { name = "FFR_NATIVE_BILLS_1935_OPT0" ai_chance = { factor = 80 } set_country_flag = ffr_native_bills_1935 add_country_modifier = { name = ffr_native_trust_system duration = -1 } any_pop = { limit = { OR = { culture = xhosa culture = zulu culture = sotho culture = tswana culture = nguni } } militancy = 0.4 consciousness = 0.3 } }
+ option = { name = "FFR_NATIVE_BILLS_1935_OPT1" ai_chance = { factor = 20 } set_country_flag = ffr_native_bills_1935 add_country_modifier = { name = ffr_broader_cape_franchise duration = -1 } plurality = 1 prestige = 1 }
+}
+
+# 1909: institutional standardisation through the South African Academy.
+country_event = {
+ id = 9782383 title = "FFR_AKADEMIE_1909_TITLE" desc = "FFR_AKADEMIE_1909_DESC" picture = "dezuid_afrikaan"
+ trigger = { tag = SAF year = 1909 NOT = { year = 1915 } OR = { primary_culture = boer accepted_culture = boer primary_culture = dutch } NOT = { has_country_flag = ffr_afrikaans_academy_1909 } }
+ mean_time_to_happen = { months = 5 }
+ option = { name = "FFR_AKADEMIE_1909_OPT0" set_country_flag = ffr_afrikaans_academy_1909 add_country_modifier = { name = ffr_afrikaans_academy duration = -1 } prestige = 1 }
+}
+
+
+# 1925 alternate-history fork for a SAF that deliberately retained metropolitan Dutch.
+country_event = {
+ id = 9782384 title = "FFR_DUTCH_AFR_1925_TITLE" desc = "FFR_DUTCH_AFR_1925_DESC" picture = "language_crisis"
+ trigger = { tag = SAF year = 1925 NOT = { year = 1938 } has_country_flag = ffr_dutch_standardisation NOT = { has_country_flag = ffr_afrikaans_official } }
+ mean_time_to_happen = { months = 2 }
+ option = {
+  name = "FFR_DUTCH_AFR_1925_OPT0" ai_chance = { factor = 45 }
+  primary_culture = boer
+  add_accepted_culture = dutch
+  set_country_flag = ffr_afrikaans_official
+  set_country_flag = ffr_afrikaans_legal_standard
+  clr_country_flag = ffr_dutch_standardisation
+  add_country_modifier = { name = ffr_afrikaans_official_language duration = -1 }
+  country_event = 566777744
+  prestige = 2
+ }
+ option = {
+  name = "FFR_DUTCH_AFR_1925_OPT1" ai_chance = { factor = 55 }
+  set_country_flag = ffr_afrikaans_official
+  set_country_flag = ffr_dutch_remains_standard
+  add_country_modifier = { name = ffr_metropolitan_dutch_standard duration = -1 }
+  any_pop = { limit = { culture = boer } consciousness = 0.3 militancy = 0.2 }
+  prestige = 1
+ }
+}

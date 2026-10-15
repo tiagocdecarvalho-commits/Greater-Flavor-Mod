@@ -1,0 +1,857 @@
+country_event = {
+    id = 9782000
+    title = "FF_WELCOME_TITLE"
+    desc = "FF_WELCOME_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } NOT = { has_country_flag = ff_welcome_seen } }
+    mean_time_to_happen = { days = 1 }
+    option = {
+        name = "FF_WELCOME_OPT0"
+        ai_chance = { factor = 100 }
+        set_country_flag = ff_welcome_seen set_country_flag = new_world_nation add_country_modifier = { name = ff_new_world duration = -1 }
+    }
+}
+
+country_event = {
+    id = 9782001
+    title = "FF_RESTORE_WORLD_TITLE"
+    desc = "FF_RESTORE_WORLD_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } OR = { NOT = { has_country_flag = new_world_nation } NOT = { has_country_modifier = ff_new_world } } }
+    mean_time_to_happen = { days = 1 }
+    option = {
+        name = "FF_RESTORE_WORLD_OPT0"
+        ai_chance = { factor = 100 }
+        set_country_flag = new_world_nation add_country_modifier = { name = ff_new_world duration = -1 }
+    }
+}
+
+country_event = {
+    id = 9782002
+    title = "FF_THEO_ON_TITLE"
+    desc = "FF_THEO_ON_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { government = theocracy NOT = { has_country_modifier = ff_theocracy } }
+    mean_time_to_happen = { days = 1 }
+    option = {
+        name = "FF_THEO_ON_OPT0"
+        ai_chance = { factor = 100 }
+        add_country_modifier = { name = ff_theocracy duration = -1 }
+    }
+}
+
+country_event = {
+    id = 9782003
+    title = "FF_THEO_OFF_TITLE"
+    desc = "FF_THEO_OFF_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { NOT = { government = theocracy } has_country_modifier = ff_theocracy }
+    mean_time_to_happen = { days = 1 }
+    option = {
+        name = "FF_THEO_OFF_OPT0"
+        ai_chance = { factor = 100 }
+        remove_country_modifier = ff_theocracy
+    }
+}
+
+country_event = {
+    id = 9782004
+    title = "FF_community_schools_OFF_TITLE"
+    desc = "FF_community_schools_OFF_DESC"
+    picture = "School"
+    trigger = { has_country_modifier = ff_community_schools OR = { NOT = { education_spending = 0.5 } NOT = { government = theocracy } } }
+    mean_time_to_happen = { days = 1 }
+    option = {
+        name = "FF_community_schools_OFF_OPT0"
+        ai_chance = { factor = 100 }
+        remove_country_modifier = ff_community_schools
+    }
+}
+
+country_event = {
+    id = 9782005
+    title = "FF_community_schools_ON_TITLE"
+    desc = "FF_community_schools_ON_DESC"
+    picture = "School"
+    trigger = { has_country_flag = ff_built_community_schools NOT = { has_country_modifier = ff_community_schools } education_spending = 0.5 government = theocracy }
+    mean_time_to_happen = { days = 1 }
+    option = {
+        name = "FF_community_schools_ON_OPT0"
+        ai_chance = { factor = 100 }
+        add_country_modifier = { name = ff_community_schools duration = -1 }
+    }
+}
+
+country_event = {
+    id = 9782006
+    title = "FF_afrikaans_schools_OFF_TITLE"
+    desc = "FF_afrikaans_schools_OFF_DESC"
+    picture = "School"
+    trigger = { has_country_modifier = ff_afrikaans_schools NOT = { education_spending = 0.5 } }
+    mean_time_to_happen = { days = 1 }
+    option = {
+        name = "FF_afrikaans_schools_OFF_OPT0"
+        ai_chance = { factor = 100 }
+        remove_country_modifier = ff_afrikaans_schools
+    }
+}
+
+country_event = {
+    id = 9782007
+    title = "FF_afrikaans_schools_ON_TITLE"
+    desc = "FF_afrikaans_schools_ON_DESC"
+    picture = "School"
+    trigger = { has_country_flag = ff_built_afrikaans_schools NOT = { has_country_modifier = ff_afrikaans_schools } education_spending = 0.5 OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } }
+    mean_time_to_happen = { days = 1 }
+    option = {
+        name = "FF_afrikaans_schools_ON_OPT0"
+        ai_chance = { factor = 100 }
+        add_country_modifier = { name = ff_afrikaans_schools duration = -1 }
+    }
+}
+
+country_event = {
+    id = 9782100
+    title = "FF_natal_port_TITLE"
+    desc = "FF_natal_port_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { tag = NAL owns = 2111 year = 1839 NOT = { year = 1850 } NOT = { has_country_flag = ff_story_natal_port } war = no money = 500  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_natal_port_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_natal_port treasury = -500 add_country_modifier = { name = ff_narrative_harbour duration = 3650 }
+    }
+    option = {
+        name = "FF_natal_port_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_natal_port any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782101
+    title = "FF_land_TITLE"
+    desc = "FF_land_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } year = 1840 NOT = { year = 1870 } NOT = { has_country_flag = ff_story_land } war = no money = 600  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_land_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_land treasury = -600 add_country_modifier = { name = ff_narrative_land_board duration = 3650 } any_pop = { militancy = -0.2 }
+    }
+    option = {
+        name = "FF_land_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_land any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782102
+    title = "FF_lovedale_TITLE"
+    desc = "FF_lovedale_DESC"
+    picture = "School"
+    trigger = { tag = SAF year = 1841 NOT = { year = 1870 } NOT = { has_country_flag = ff_story_lovedale } war = no money = 500  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_lovedale_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_lovedale treasury = -500 add_country_modifier = { name = ff_narrative_teachers duration = 3650 }
+    }
+    option = {
+        name = "FF_lovedale_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_lovedale any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782103
+    title = "FF_sandriver_TITLE"
+    desc = "FF_sandriver_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { tag = TRN year = 1852 NOT = { year = 1865 } NOT = { has_country_flag = ff_story_sandriver } war = no money = 400  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_sandriver_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_sandriver treasury = -400 add_country_modifier = { name = ff_narrative_archive duration = 3650 } prestige = 1
+    }
+    option = {
+        name = "FF_sandriver_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_sandriver any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782104
+    title = "FF_free_state_TITLE"
+    desc = "FF_free_state_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { tag = ORA year = 1854 NOT = { year = 1870 } NOT = { has_country_flag = ff_story_free_state } war = no money = 400  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_free_state_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_free_state treasury = -400 add_country_modifier = { name = ff_narrative_postal duration = 3650 } prestige = 1
+    }
+    option = {
+        name = "FF_free_state_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_free_state any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782105
+    title = "FF_interpreters_TITLE"
+    desc = "FF_interpreters_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } year = 1855 NOT = { year = 1890 } NOT = { has_country_flag = ff_story_interpreters } war = no money = 450  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_interpreters_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_interpreters treasury = -450 add_country_modifier = { name = ff_narrative_courts duration = 3650 }
+    }
+    option = {
+        name = "FF_interpreters_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_interpreters any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782106
+    title = "FF_natal_contracts_TITLE"
+    desc = "FF_natal_contracts_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { OR = { tag = NAL tag = SAF } owns = 2111 year = 1860 NOT = { year = 1885 } NOT = { has_country_flag = ff_story_natal_contracts } war = no money = 650  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_natal_contracts_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_natal_contracts treasury = -650 add_country_modifier = { name = ff_narrative_fair_contracts duration = 3650 } any_pop = { consciousness = 0.2 }
+    }
+    option = {
+        name = "FF_natal_contracts_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_natal_contracts any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782107
+    title = "FF_postal_TITLE"
+    desc = "FF_postal_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { tag = ORA year = 1864 NOT = { year = 1890 } NOT = { has_country_flag = ff_story_postal } war = no money = 350  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_postal_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_postal treasury = -350 add_country_modifier = { name = ff_narrative_postal duration = 3650 }
+    }
+    option = {
+        name = "FF_postal_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_postal any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782108
+    title = "FF_diamonds_TITLE"
+    desc = "FF_diamonds_DESC"
+    picture = "south_africa_gold_miners"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } year = 1867 NOT = { year = 1900 } NOT = { has_country_flag = ff_story_diamonds } war = no money = 800 any_owned_province = { trade_goods = precious_metal } }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_diamonds_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_diamonds treasury = -800 add_country_modifier = { name = ff_narrative_land_board duration = 3650 }
+    }
+    option = {
+        name = "FF_diamonds_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_diamonds any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782109
+    title = "FF_basotho_trade_TITLE"
+    desc = "FF_basotho_trade_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { tag = ORA year = 1868 NOT = { year = 1895 } NOT = { has_country_flag = ff_story_basotho_trade } war = no money = 450  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_basotho_trade_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_basotho_trade treasury = -450 add_country_modifier = { name = ff_narrative_fair_contracts duration = 3650 }
+    }
+    option = {
+        name = "FF_basotho_trade_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_basotho_trade any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782110
+    title = "FF_arabic_afrikaans_TITLE"
+    desc = "FF_arabic_afrikaans_DESC"
+    picture = "news"
+    trigger = { tag = SAF owns = 2087 year = 1869 NOT = { year = 1890 } NOT = { has_country_flag = ff_story_arabic_afrikaans } war = no money = 350  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_arabic_afrikaans_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_arabic_afrikaans treasury = -350 add_country_modifier = { name = ff_narrative_libraries duration = 3650 } prestige = 1
+    }
+    option = {
+        name = "FF_arabic_afrikaans_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_arabic_afrikaans any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782111
+    title = "FF_language_society_TITLE"
+    desc = "FF_language_society_DESC"
+    picture = "news"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } year = 1875 NOT = { year = 1890 } NOT = { has_country_flag = ff_story_language_society } war = no money = 400  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_language_society_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_language_society treasury = -400 add_country_modifier = { name = ff_narrative_press duration = 3650 }
+    }
+    option = {
+        name = "FF_language_society_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_language_society any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782112
+    title = "FF_drought_TITLE"
+    desc = "FF_drought_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } year = 1870 NOT = { year = 1900 } NOT = { has_country_flag = ff_story_drought } war = no money = 650  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_drought_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_drought treasury = -650 add_country_modifier = { name = ff_narrative_irrigation duration = 3650 }
+    }
+    option = {
+        name = "FF_drought_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_drought any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782113
+    title = "FF_imvo_TITLE"
+    desc = "FF_imvo_DESC"
+    picture = "news"
+    trigger = { tag = SAF year = 1884 NOT = { year = 1900 } NOT = { has_country_flag = ff_story_imvo } war = no money = 300  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_imvo_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_imvo treasury = -300 add_country_modifier = { name = ff_narrative_press duration = 3650 } any_pop = { consciousness = 0.3 }
+    }
+    option = {
+        name = "FF_imvo_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_imvo any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782114
+    title = "FF_rand_TITLE"
+    desc = "FF_rand_DESC"
+    picture = "south_africa_gold_miners"
+    trigger = { tag = TRN year = 1886 NOT = { year = 1905 } NOT = { has_country_flag = ff_story_rand } war = no money = 1000 any_owned_province = { trade_goods = precious_metal } }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_rand_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_rand treasury = -1000 add_country_modifier = { name = ff_narrative_public_health duration = 3650 }
+    }
+    option = {
+        name = "FF_rand_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_rand any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782115
+    title = "FF_uitlanders_TITLE"
+    desc = "FF_uitlanders_DESC"
+    picture = "south_africa_gold_miners"
+    trigger = { tag = TRN year = 1890 NOT = { year = 1905 } NOT = { has_country_flag = ff_story_uitlanders } war = no money = 500  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_uitlanders_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_uitlanders treasury = -500 add_country_modifier = { name = ff_narrative_courts duration = 3650 } plurality = 1
+    }
+    option = {
+        name = "FF_uitlanders_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_uitlanders any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782116
+    title = "FF_rail_accounts_TITLE"
+    desc = "FF_rail_accounts_DESC"
+    picture = "capetown_railway"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } year = 1892 NOT = { year = 1910 } NOT = { has_country_flag = ff_story_rail_accounts } war = no money = 900  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_rail_accounts_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_rail_accounts treasury = -900 add_country_modifier = { name = ff_narrative_skills duration = 3650 }
+    }
+    option = {
+        name = "FF_rail_accounts_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_rail_accounts any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782117
+    title = "FF_rinderpest_TITLE"
+    desc = "FF_rinderpest_DESC"
+    picture = "disease"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } year = 1896 NOT = { year = 1900 } NOT = { has_country_flag = ff_story_rinderpest } war = no money = 750 any_owned_province = { OR = { has_province_modifier = rinderpest_epizootic_small has_province_modifier = rinderpest_epizootic_big } } }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_rinderpest_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_rinderpest treasury = -750 add_country_modifier = { name = ff_narrative_relief duration = 1095 }
+    }
+    option = {
+        name = "FF_rinderpest_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_rinderpest any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782118
+    title = "FF_war_memory_TITLE"
+    desc = "FF_war_memory_DESC"
+    picture = "boer_war"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } year = 1902 NOT = { year = 1915 } NOT = { has_country_flag = ff_story_war_memory } war = no money = 700  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_war_memory_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_war_memory treasury = -700 add_country_modifier = { name = ff_narrative_veterans duration = 3650 } any_pop = { militancy = -0.3 }
+    }
+    option = {
+        name = "FF_war_memory_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_war_memory any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782119
+    title = "FF_apo_TITLE"
+    desc = "FF_apo_DESC"
+    picture = "news"
+    trigger = { tag = SAF owns = 2087 year = 1902 NOT = { year = 1912 } NOT = { has_country_flag = ff_story_apo } war = no money = 400  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_apo_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_apo treasury = -400 add_country_modifier = { name = ff_narrative_courts duration = 3650 } plurality = 1
+    }
+    option = {
+        name = "FF_apo_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_apo any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782120
+    title = "FF_teachers_TITLE"
+    desc = "FF_teachers_DESC"
+    picture = "School"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } year = 1904 NOT = { year = 1925 } NOT = { has_country_flag = ff_story_teachers } war = no money = 700  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_teachers_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_teachers treasury = -700 add_country_modifier = { name = ff_narrative_teachers duration = 3650 }
+    }
+    option = {
+        name = "FF_teachers_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_teachers any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782121
+    title = "FF_satyagraha_TITLE"
+    desc = "FF_satyagraha_DESC"
+    picture = "news"
+    trigger = { OR = { tag = SAF tag = TRN tag = NAL } year = 1906 NOT = { year = 1915 } NOT = { has_country_flag = ff_story_satyagraha } war = no money = 500  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_satyagraha_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_satyagraha treasury = -500 add_country_modifier = { name = ff_narrative_courts duration = 3650 } any_pop = { militancy = -0.2 consciousness = 0.2 }
+    }
+    option = {
+        name = "FF_satyagraha_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_satyagraha any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782122
+    title = "FF_union_debate_TITLE"
+    desc = "FF_union_debate_DESC"
+    picture = "news"
+    trigger = { tag = SAF year = 1909 NOT = { year = 1916 } NOT = { has_country_flag = ff_story_union_debate } war = no money = 900 owns = 2087 owns = 2111 owns = 2105 owns = 2101 }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_union_debate_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_union_debate treasury = -900 add_country_modifier = { name = ff_narrative_archive duration = 3650 } plurality = 2
+    }
+    option = {
+        name = "FF_union_debate_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_union_debate any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782123
+    title = "FF_sannc_TITLE"
+    desc = "FF_sannc_DESC"
+    picture = "news"
+    trigger = { tag = SAF owns = 2101 year = 1912 NOT = { year = 1920 } NOT = { has_country_flag = ff_story_sannc } war = no money = 450  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_sannc_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_sannc treasury = -450 add_country_modifier = { name = ff_narrative_courts duration = 3650 } plurality = 2
+    }
+    option = {
+        name = "FF_sannc_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_sannc any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782124
+    title = "FF_land_1913_TITLE"
+    desc = "FF_land_1913_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { tag = SAF year = 1913 NOT = { year = 1922 } NOT = { has_country_flag = ff_story_land_1913 } war = no }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_land_1913_OPT0"
+        ai_chance = { factor = 80 }
+        set_country_flag = ff_story_land_1913
+        set_country_flag = ffr_natives_land_act
+        add_country_modifier = { name = ffr_natives_land_act duration = -1 }
+        any_pop = {
+            limit = { OR = { culture = xhosa culture = zulu culture = sotho culture = tswana culture = khoisan } }
+            militancy = 1.2
+            consciousness = 1
+        }
+        prestige = -1
+    }
+    option = {
+        name = "FF_land_1913_OPT1"
+        ai_chance = { factor = 20 }
+        set_country_flag = ff_story_land_1913
+        set_country_flag = ffr_land_act_rejected
+        treasury = -900
+        add_country_modifier = { name = ff_narrative_land_board duration = 3650 }
+        any_pop = {
+            limit = { OR = { culture = xhosa culture = zulu culture = sotho culture = tswana culture = khoisan } }
+            militancy = -0.4
+            consciousness = 0.6
+        }
+    }
+}
+
+country_event = {
+    id = 9782125
+    title = "FF_war_service_TITLE"
+    desc = "FF_war_service_DESC"
+    picture = "boer_war"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } year = 1914 NOT = { year = 1925 } NOT = { has_country_flag = ff_story_war_service } war = no money = 600  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_war_service_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_war_service treasury = -600 add_country_modifier = { name = ff_narrative_veterans duration = 3650 }
+    }
+    option = {
+        name = "FF_war_service_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_war_service any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782126
+    title = "FF_influenza_TITLE"
+    desc = "FF_influenza_DESC"
+    picture = "disease"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } year = 1918 NOT = { year = 1923 } NOT = { has_country_flag = ff_story_influenza } war = no money = 800  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_influenza_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_influenza treasury = -800 add_country_modifier = { name = ff_narrative_public_health duration = 3650 }
+    }
+    option = {
+        name = "FF_influenza_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_influenza any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782127
+    title = "FF_libraries_TITLE"
+    desc = "FF_libraries_DESC"
+    picture = "School"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } year = 1920 NOT = { year = 1935 } NOT = { has_country_flag = ff_story_libraries } war = no money = 650  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_libraries_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_libraries treasury = -650 add_country_modifier = { name = ff_narrative_libraries duration = 3650 }
+    }
+    option = {
+        name = "FF_libraries_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_libraries any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782128
+    title = "FF_afrikaans_1925_TITLE"
+    desc = "FF_afrikaans_1925_DESC"
+    picture = "news"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } year = 1925 NOT = { year = 1935 } NOT = { has_country_flag = ff_story_afrikaans_1925 } war = no money = 700  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_afrikaans_1925_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_afrikaans_1925 treasury = -700 add_country_modifier = { name = ff_narrative_press duration = 3650 } prestige = 2
+    }
+    option = {
+        name = "FF_afrikaans_1925_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_afrikaans_1925 any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782129
+    title = "FF_rural_credit_TITLE"
+    desc = "FF_rural_credit_DESC"
+    picture = "trekboers_crossing_the_karoo"
+    trigger = { OR = { tag = SAF tag = NAL tag = TRN tag = ORA tag = NRB tag = VLK tag = ZOU primary_culture = boer } year = 1930 NOT = { year = 1936 } NOT = { has_country_flag = ff_story_rural_credit } war = no money = 1000  }
+    mean_time_to_happen = { days = 90 }
+    option = {
+        name = "FF_rural_credit_OPT0"
+        ai_chance = { factor = 65 }
+        set_country_flag = ff_story_rural_credit treasury = -1000 add_country_modifier = { name = ff_narrative_reconstruction duration = 1825 }
+    }
+    option = {
+        name = "FF_rural_credit_OPT1"
+        ai_chance = { factor = 35 }
+        set_country_flag = ff_story_rural_credit any_pop = { consciousness = 0.1 }
+    }
+}
+
+country_event = {
+    id = 9782200
+    title = "FF_LEADER_pretorius_TITLE"
+    desc = "FF_LEADER_pretorius_DESC"
+    picture = "boer_army"
+    trigger = { OR = { OR = { tag = NAL tag = TRN } AND = { tag = SAF NOT = { exists = NAL } owns = 2105 } } year = 1838 NOT = { year = 1853 } NOT = { has_global_flag = ff_leader_pretorius } }
+    mean_time_to_happen = { days = 10 }
+    fire_only_once = yes
+    option = {
+        name = "FF_LEADER_pretorius_OPT0"
+        ai_chance = { factor = 85 }
+        set_global_flag = ff_leader_pretorius define_general = { name = "Andries Pretorius" personality = defence_2.1 background = attack_1.1 }
+    }
+    option = {
+        name = "FF_LEADER_pretorius_OPT1"
+        ai_chance = { factor = 15 }
+        set_global_flag = ff_leader_pretorius prestige = 0.2
+    }
+}
+
+country_event = {
+    id = 9782201
+    title = "FF_LEADER_potgieter_TITLE"
+    desc = "FF_LEADER_potgieter_DESC"
+    picture = "boer_army"
+    trigger = { OR = { OR = { tag = TRN tag = NAL } AND = { tag = SAF NOT = { exists = TRN } owns = 2105 } } year = 1836 NOT = { year = 1852 } NOT = { has_global_flag = ff_leader_potgieter } }
+    mean_time_to_happen = { days = 10 }
+    fire_only_once = yes
+    option = {
+        name = "FF_LEADER_potgieter_OPT0"
+        ai_chance = { factor = 85 }
+        set_global_flag = ff_leader_potgieter define_general = { name = "Hendrik Potgieter" personality = defence_1.1 background = attack_1.1 }
+    }
+    option = {
+        name = "FF_LEADER_potgieter_OPT1"
+        ai_chance = { factor = 15 }
+        set_global_flag = ff_leader_potgieter prestige = 0.2
+    }
+}
+
+country_event = {
+    id = 9782202
+    title = "FF_LEADER_joubert_TITLE"
+    desc = "FF_LEADER_joubert_DESC"
+    picture = "boer_army"
+    trigger = { OR = { tag = TRN AND = { tag = SAF NOT = { exists = TRN } owns = 2105 } } year = 1880 NOT = { year = 1900 } NOT = { has_global_flag = ff_leader_joubert } }
+    mean_time_to_happen = { days = 10 }
+    fire_only_once = yes
+    option = {
+        name = "FF_LEADER_joubert_OPT0"
+        ai_chance = { factor = 85 }
+        set_global_flag = ff_leader_joubert define_general = { name = "Piet Joubert" personality = defence_3.1 background = attack_1.1 }
+    }
+    option = {
+        name = "FF_LEADER_joubert_OPT1"
+        ai_chance = { factor = 15 }
+        set_global_flag = ff_leader_joubert prestige = 0.2
+    }
+}
+
+country_event = {
+    id = 9782203
+    title = "FF_LEADER_cronje_TITLE"
+    desc = "FF_LEADER_cronje_DESC"
+    picture = "boer_army"
+    trigger = { OR = { tag = TRN AND = { tag = SAF NOT = { exists = TRN } owns = 2105 } } year = 1880 NOT = { year = 1900 } NOT = { has_global_flag = ff_leader_cronje } }
+    mean_time_to_happen = { days = 10 }
+    fire_only_once = yes
+    option = {
+        name = "FF_LEADER_cronje_OPT0"
+        ai_chance = { factor = 85 }
+        set_global_flag = ff_leader_cronje define_general = { name = "Piet Cronje" personality = defence_2.1 background = attack_1.1 }
+    }
+    option = {
+        name = "FF_LEADER_cronje_OPT1"
+        ai_chance = { factor = 15 }
+        set_global_flag = ff_leader_cronje prestige = 0.2
+    }
+}
+
+country_event = {
+    id = 9782204
+    title = "FF_LEADER_delarey_TITLE"
+    desc = "FF_LEADER_delarey_DESC"
+    picture = "boer_army"
+    trigger = { OR = { tag = TRN AND = { tag = SAF NOT = { exists = TRN } owns = 2105 } } year = 1899 NOT = { year = 1903 } NOT = { has_global_flag = ff_leader_delarey } }
+    mean_time_to_happen = { days = 10 }
+    fire_only_once = yes
+    option = {
+        name = "FF_LEADER_delarey_OPT0"
+        ai_chance = { factor = 85 }
+        set_global_flag = ff_leader_delarey define_general = { name = "Koos de la Rey" personality = defence_3.1 background = attack_2.1 }
+    }
+    option = {
+        name = "FF_LEADER_delarey_OPT1"
+        ai_chance = { factor = 15 }
+        set_global_flag = ff_leader_delarey prestige = 0.2
+    }
+}
+
+country_event = {
+    id = 9782205
+    title = "FF_LEADER_dewet_TITLE"
+    desc = "FF_LEADER_dewet_DESC"
+    picture = "boer_army"
+    trigger = { OR = { tag = ORA AND = { tag = SAF NOT = { exists = ORA } owns = 2101 } } year = 1899 NOT = { year = 1903 } NOT = { has_global_flag = ff_leader_dewet } }
+    mean_time_to_happen = { days = 10 }
+    fire_only_once = yes
+    option = {
+        name = "FF_LEADER_dewet_OPT0"
+        ai_chance = { factor = 85 }
+        set_global_flag = ff_leader_dewet define_general = { name = "Christiaan de Wet" personality = defence_2.1 background = attack_3.1 }
+    }
+    option = {
+        name = "FF_LEADER_dewet_OPT1"
+        ai_chance = { factor = 15 }
+        set_global_flag = ff_leader_dewet prestige = 0.2
+    }
+}
+
+country_event = {
+    id = 9782206
+    title = "FF_LEADER_theron_TITLE"
+    desc = "FF_LEADER_theron_DESC"
+    picture = "boer_army"
+    trigger = { OR = { tag = TRN AND = { tag = SAF NOT = { exists = TRN } owns = 2105 } } year = 1899 NOT = { year = 1900 } NOT = { has_global_flag = ff_leader_theron } }
+    mean_time_to_happen = { days = 10 }
+    fire_only_once = yes
+    option = {
+        name = "FF_LEADER_theron_OPT0"
+        ai_chance = { factor = 85 }
+        set_global_flag = ff_leader_theron define_general = { name = "Danie Theron" personality = defence_1.1 background = attack_1.1 }
+    }
+    option = {
+        name = "FF_LEADER_theron_OPT1"
+        ai_chance = { factor = 15 }
+        set_global_flag = ff_leader_theron prestige = 0.2
+    }
+}
+
+country_event = {
+    id = 9782207
+    title = "FF_LEADER_smuts_TITLE"
+    desc = "FF_LEADER_smuts_DESC"
+    picture = "boer_army"
+    trigger = { OR = { tag = TRN AND = { tag = SAF NOT = { exists = TRN } owns = 2105 } } year = 1899 NOT = { year = 1903 } NOT = { has_global_flag = ff_leader_smuts } }
+    mean_time_to_happen = { days = 10 }
+    fire_only_once = yes
+    option = {
+        name = "FF_LEADER_smuts_OPT0"
+        ai_chance = { factor = 85 }
+        set_global_flag = ff_leader_smuts define_general = { name = "Jan Smuts" personality = defence_2.1 background = attack_2.1 }
+    }
+    option = {
+        name = "FF_LEADER_smuts_OPT1"
+        ai_chance = { factor = 15 }
+        set_global_flag = ff_leader_smuts prestige = 0.2
+    }
+}

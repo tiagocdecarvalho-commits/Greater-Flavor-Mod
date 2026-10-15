@@ -1,0 +1,495 @@
+#No Issues
+#Mzilikazi of Matabele flees to Matabeland
+country_event = {
+    id = 95517
+    title = "EVTNAME95517"
+    desc = "EVTDESC95517"
+    picture = "mzilikazi_flees"
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT95517OPTA"
+        prestige = 3
+        2074 = { owner = { country_event = 95518 } }
+		random_owned = {
+			limit = {
+				owner = {
+					ZBW = { ai = no }
+				}
+			}
+			owner = {
+				ZBW = { country_event = 95517324 }
+			}
+		}
+    }
+}
+
+country_event = {
+    id = 95517324
+    title = "The Matabele-Rozvi War"
+    desc = "DAMNMATABELE"
+    picture = "mzilikazi_flees"
+	fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+		name = "The damned Matabele will return to what's theirs!"
+		add_country_modifier = {
+			name = all_or_nothing
+			duration = 400
+		}
+		war = {
+            target = MAT
+            attacker_goal = { casus_belli = conquest_any }
+            defender_goal = { casus_belli = humiliate_no_infamy }
+        }
+	}
+    option = {
+		name = "We've already lost."
+		prestige = -10
+		2110 = { remove_core = MAT }
+	}
+}
+
+country_event = { #Mzilikazi of Matabele flees to Matabeland
+    id = 95518
+    title = "EVTNAME95518"
+    desc = "EVTDESC95518"
+    picture = "mzilikazi_flees"
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = {
+		name = "EVT95518OPTA"
+		set_global_flag = matabele_fled_transvaal
+		2074 = {
+			secede_province = THIS
+			secede_province = BMW
+		}
+		4035 = {
+			owner = {
+				random_owned = {
+					limit = {
+						owner = {
+							OR = {
+								tag = ZBW
+								tag = MAT
+							}
+							OR = {
+								AND = {
+									owns = 2071
+								}
+								AND = {
+									2071 = {
+										owned_by = MAT
+									}
+								}
+							}
+						}
+					}
+					owner = {
+						4035 = {
+							add_core = MAT
+							secede_province = MAT
+							4035 = {
+								add_province_modifier = {
+									name = missionary_activity_prov
+									duration = -1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		2071 = {
+			add_core = MAT
+			secede_province = MAT
+			2071 = {
+				add_province_modifier = {
+					name = missionary_activity_prov
+					duration = -1
+				}
+			}
+		}
+		2071 = {
+			owner = {
+				random_owned = {
+					limit = {
+						owner = {
+							4035 = {
+								empty = yes
+							}
+						}
+					}
+					owner = {
+						4035 = {
+							add_core = MAT
+							secede_province = MAT
+							4035 = {
+								add_province_modifier = {
+									name = missionary_activity_prov
+									duration = -1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		4036 = {
+			owner = {
+				random_owned = {
+					limit = {
+						owner = {
+							OR = {
+								tag = ZBW
+								tag = MAT
+							}
+							OR = {
+								AND = {
+									owns = 2072
+								}
+								AND = {
+									2072 = {
+										owned_by = MAT
+									}
+								}
+							}
+						}
+					}
+					owner = {
+						4036 = {
+							add_core = MAT
+							secede_province = MAT
+						}
+					}
+				}
+			}
+		}
+		2072 = {
+			add_core = MAT
+			secede_province = MAT
+		}
+		2072 = {
+			owner = {
+				random_owned = {
+					limit = {
+						owner = {
+							4036 = {
+								empty = yes
+							}
+						}
+					}
+					owner = {
+						4036 = {
+							add_core = MAT
+							secede_province = MAT
+						}
+					}
+				}
+			}
+		}
+		3882 = {
+			add_core = MAT
+			secede_province = MAT
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					2068 = {
+						owner = {
+							owns = 2574
+						}
+					}
+				}
+			}
+			owner = {
+				2574 = {
+					secede_province = THIS
+				}
+				2574 = {
+					secede_province = BMW
+				}
+			}
+		}
+		4032 = {
+			owner = {
+				random_owned = {
+					limit = {
+						owner = {
+							2068 = {
+								owner = {
+									owns = 4032
+								}
+							}
+						}
+					}
+					owner = {
+						4032 = {
+							4032 = {
+								secede_province = THIS
+							}
+							4032 = {
+								secede_province = BMW
+							}
+						}
+					}
+				}
+			}
+		}
+		4033 = {
+			owner = {
+				random_owned = {
+					limit = {
+						owner = {
+							2068 = {
+								owner = {
+									owns = 4033
+								}
+							}
+						}
+					}
+					owner = {
+						4033 = {
+							4033 = {
+								secede_province = THIS
+							}
+							4033 = {
+								secede_province = BMW
+							}
+						}
+					}
+				}
+			}
+		}
+		4039 = {
+			owner = {
+				random_owned = {
+					limit = {
+						owner = {
+							2068 = {
+								owner = {
+									owns = 4039
+								}
+							}
+						}
+					}
+					owner = {
+						4039 = {
+							4039 = {
+								secede_province = THIS
+							}
+							4039 = {
+								secede_province = BMW
+							}
+						}
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					2075 = {
+						owner = {
+							owns = 3715
+						}
+						owner = {
+							OR = {
+								owns = 2076
+								owns = 4038
+								owns = 4028
+								tag = ZBW
+							}
+						}
+					}
+				}
+			}
+			owner = {
+				3715 = {
+					secede_province = THIS
+				}
+				3715 = {
+					secede_province = TSW
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					TSW = {
+						owns = 3715
+						NOT = {
+							owns = 2075
+						}
+					}
+				}
+			}
+			owner = {
+				2075 = {
+					secede_province = THIS
+				}
+				2075 = {
+					secede_province = TSW
+				}
+			}
+		}
+		4034 = {
+			owner = {
+				random_owned = {
+					limit = {
+						owner = {
+							OR = {
+								tag = ZBW
+								tag = MAT
+							}
+							2075 = {
+								owned_by = TSW
+							}
+						}
+					}
+					owner = {
+						4034 = {
+							4034 = {
+								secede_province = THIS
+							}
+							4034 = {
+								secede_province = TSW
+							}
+						}
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					2068 = {
+						owner = {
+							owns = 2076
+						}
+					}
+				}
+			}
+			owner = {
+				2076 = {
+					secede_province = THIS
+				}
+				2076 = {
+					secede_province = TSW
+				}
+			}
+		}
+		4028 = {
+			owner = {
+				random_owned = {
+					limit = {
+						owner = {
+							2068 = {
+								owner = {
+									owns = 4028
+								}
+							}
+						}
+					}
+					owner = {
+						4028 = {
+							4028 = {
+								secede_province = THIS
+							}
+							4028 = {
+								secede_province = TSW
+							}
+						}
+					}
+				}
+			}
+		}
+		4038 = {
+			owner = {
+				random_owned = {
+					limit = {
+						owner = {
+							2068 = {
+								owner = {
+									owns = 4038
+								}
+							}
+						}
+					}
+					owner = {
+						4038 = {
+							4038 = {
+								secede_province = THIS
+							}
+							4038 = {
+								secede_province = TSW
+							}
+						}
+					}
+				}
+			}
+		}
+		2108 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = nguni
+				}
+				reduce_pop = 0.8
+			}
+		}
+		2071 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = nguni
+				}
+				reduce_pop = 1.2
+			}
+		}
+		4035 = {
+			owner = {
+				random_owned = {
+					limit = {
+						owner = {
+							owns = 2071
+						}
+					}
+					owner = {
+						4035 = {
+							any_pop = {
+								limit = {
+									has_pop_culture = nguni
+								}
+								reduce_pop = 1.2
+							}
+						}
+					}
+				}
+			}
+		}
+		MAT = {
+			capital = 2071
+			add_country_modifier = {
+				name = assegai
+				duration = -1
+			}
+		}
+		random_owned = {
+			limit = {
+				OR = {
+					province_id = 2071
+					province_id = 4035
+				}
+			}
+			state_scope = {
+				change_region_name = "Matabeleland"
+			}
+		}
+		set_global_flag = yes_do_it
+	}
+}

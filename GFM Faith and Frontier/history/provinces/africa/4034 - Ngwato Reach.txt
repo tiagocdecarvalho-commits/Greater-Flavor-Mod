@@ -1,0 +1,1 @@
+owner = ZBW controller = ZBW add_core = TSW add_core = BMW terrain = savanna trade_goods = grain life_rating = 25
